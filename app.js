@@ -78,7 +78,7 @@ if(D.articles.length){
   }
 }
 
-const latestNapoli=D.results.find(r=>r[0]==='Napoli'&&r[1]==='Pisa')||napoli[napoli.length-1];
+const latestNapoli=napoli[napoli.length-1];
 if($('latestResult')&&latestNapoli) $('latestResult').innerHTML=`<div class="latest-score"><span>NAP</span><strong>${latestNapoli[3]}–${latestNapoli[4]}</strong><span>${escapeHTML(String(latestNapoli[1]).slice(0,3).toUpperCase())}</span></div><p>${escapeHTML(latestNapoli[6])}</p>`;
 const nextClub=D.upcoming.filter(x=>x[1]!=='International').slice(0,2);
 if($('nextTwo')&&nextClub.length) $('nextTwo').innerHTML=nextClub.map(x=>`<div class="next-row"><strong>${escapeHTML(x[0])}</strong><span>${escapeHTML(x[1])} · ${escapeHTML(x[2])}</span></div>`).join('');
