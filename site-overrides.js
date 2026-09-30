@@ -2,7 +2,7 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-10';
+  const VERSION = '20260930-11';
   const local = file => `assets/${file}?v=${VERSION}`;
 
   const media = {
@@ -35,17 +35,17 @@
       objectFit: 'cover'
     },
     paz: {
-      src: local('paz-napoli-generated.svg'),
+      src: local('paz-napoli.jpg'),
       credit: 'Season Room composite — Nico Paz visualized in Napoli colours for this FC 26 save.',
       source: null,
-      objectPosition: '50% 45%',
+      objectPosition: '50% 42%',
       objectFit: 'cover'
     },
     peacock: {
-      src: local('peacock-napoli-generated.svg'),
+      src: local('peacock-napoli.jpg'),
       credit: 'Season Room composite — Peacock visualized from the FC 26 player model supplied from this save.',
       source: null,
-      objectPosition: '50% 42%',
+      objectPosition: '50% 40%',
       objectFit: 'cover'
     },
     market: {
