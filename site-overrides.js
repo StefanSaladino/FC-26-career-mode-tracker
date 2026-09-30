@@ -42,10 +42,10 @@
       objectFit: 'cover'
     },
     peacock: {
-      src: local('peacock-napoli.jpg'),
-      credit: 'Season Room generated composite — Peacock visualized from the FC 26 player model supplied from this save.',
-      source: null,
-      objectPosition: '50% 36%',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/6/69/Association_football_goal_in_training_football_field_cropped.jpg',
+      credit: 'Santeri Viinamäki / Wikimedia Commons · CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Association_football_goal_in_training_football_field_cropped.jpg',
+      objectPosition: '50% 51%',
       objectFit: 'cover'
     },
     italy: {
@@ -103,7 +103,7 @@
     { type: 'image', title: 'Pio: The Shirt Is His For Now', src: media.pio.src, tag: 'No. 9 Watch', credit: media.pio.credit, source: null, objectPosition: media.pio.objectPosition, objectFit: media.pio.objectFit },
     { type: 'image', title: 'Three Calls, Three Nos', src: media.market.src, tag: 'Mercato', credit: media.market.credit, source: media.market.source, objectPosition: media.market.objectPosition, objectFit: media.market.objectFit },
     { type: 'image', title: 'Paz: The Heir Is Already Playing', src: media.paz.src, tag: 'Succession', credit: media.paz.credit, source: media.paz.source, objectPosition: media.paz.objectPosition, objectFit: media.paz.objectFit },
-    { type: 'image', title: 'Peacock: The Development Gamble', src: media.peacock.src, tag: 'Development', credit: media.peacock.credit, source: null, objectPosition: media.peacock.objectPosition, objectFit: media.peacock.objectFit },
+    { type: 'image', title: 'Peacock: The Development Gamble', src: media.peacock.src, tag: 'Development', credit: media.peacock.credit, source: media.peacock.source, objectPosition: media.peacock.objectPosition, objectFit: media.peacock.objectFit },
     { type: 'image', title: 'Club and Country', src: media.italy.src, tag: 'Italy', credit: media.italy.credit, source: media.italy.source, objectPosition: media.italy.objectPosition, objectFit: media.italy.objectFit },
     { type: 'image', title: 'The Captaincy Transition', src: media.captain.src, tag: 'Dressing Room', credit: media.captain.credit, source: media.captain.source, objectPosition: media.captain.objectPosition, objectFit: media.captain.objectFit },
     { type: 'image', title: 'The Insurance Policy', src: media.stach.src, tag: 'Squad Depth', credit: media.stach.credit, source: media.stach.source, objectPosition: media.stach.objectPosition, objectFit: media.stach.objectFit },
