@@ -7,10 +7,10 @@ window.NAPOLI_DATA = {
   },
 
   ticker: [
-    "FT · NAPOLI 3–2 PISA · CHIESA 80'",
-    "NEXT · NAPOLI vs TORINO",
-    "THEN · NAPOLI vs BAYERN · CHAMPIONS LEAGUE",
-    "PIO ESPOSITO · 5 CLUB GOALS",
+    "FT · NAPOLI 1–0 TORINO · ENDRICK 68'",
+    "NEXT · NAPOLI vs BAYERN · CHAMPIONS LEAGUE",
+    "OCTOBER · SASSUOLO · LAZIO · GENOA",
+    "PEACOCK · CLEAN SHEET vs TORINO",
     "EUROPE · NAPOLI 2–0–0"
   ],
 
@@ -30,11 +30,28 @@ window.NAPOLI_DATA = {
       image: "assets/editorial-bayern.svg",
       tone: "feature",
       body: [
-        "Napoli have done the easy part of a European campaign well: they have banked points. Fenerbahçe were beaten 2–1. Club Brugge were beaten 2–1. The table looks clean. The mood around the club is confident. None of that answers the question waiting four days after Torino.",
+        "Napoli have done the easy part of a European campaign well: they have banked points. Fenerbahçe were beaten 2–1. Club Brugge were beaten 2–1. The table looks clean. The mood around the club is confident. Torino were then beaten 1–0 with a heavily rotated side, preserving key legs for the European test.",
         "Bayern are different. This is the first opponent on the calendar capable of turning every little Napoli concern into a full-volume conversation. Can Pio Esposito and Maximilian Beier produce against an elite back line? Can the Davies–Paz–Endrick line behind them survive when the space disappears? Can Scott McTominay control the middle without Napoli losing their attacking edge?",
         "There is also a selection argument quietly developing around Kevin De Bruyne. Nico Paz is no longer simply the future. He has already scored a late winner, already begun taking central responsibility, and already made the idea of leaving De Bruyne on the bench for a major European night feel plausible rather than provocative.",
-        "The likely plan is obvious: rotate against Torino, protect the first-choice core, and arrive at Bayern with the legs to play the game rather than merely survive it. Napoli built this squad for nights like this. Now the squad has to prove the ambition was real.",
+        "The Torino plan worked: rotate, protect the first-choice core, and arrive at Bayern with the legs to play the game rather than merely survive it. Endrick supplied the winner, McTominay supplied the pass, Peacock kept the clean sheet and the biggest names were not overworked.",
         "One result will not define a season. But this one may define how the rest of Europe looks at Napoli."
+      ]
+    },
+    {
+      id: "torino-control",
+      category: "Match Report",
+      label: "Professional Job",
+      date: "After Napoli 1–0 Torino",
+      headline: "Endrick Breaks Torino, Peacock Closes the Door",
+      dek: "A rotated Napoli stayed patient, found the breakthrough through Endrick in the 68th minute and protected the result without burning the Bayern core.",
+      image: "assets/editorial-bayern.svg",
+      tone: "news",
+      body: [
+        "Napoli did not need a spectacle four days before Bayern. They needed three points, controlled minutes and no unnecessary damage. Torino made them work for all of it.",
+        "The first half stayed goalless despite chances for Endrick and Pio Esposito, while Sam Beukema produced a crucial block at the other end. Kevin De Bruyne was withdrawn at halftime as his stamina faded, with Scott McTominay introduced to add control and fresh running from midfield.",
+        "The breakthrough arrived in the 68th minute. McTominay slid the ball through, Endrick took the chance, and Napoli finally had the 1–0 lead their pressure had threatened.",
+        "From there the substitutions became as important as the scoreline. Billy Gilmour helped close the midfield, Noa Lang supplied fresh width, Nico Paz handled the final phase and Endrick was protected for Bayern. Gilmour in particular impressed with repeated recoveries as Torino tried to force a late response.",
+        "Peacock finished with the clean sheet — an important answer after the volatility of earlier development starts. Napoli move on with the points, the shutout and the first-choice European core largely preserved."
       ]
     },
     {
@@ -107,28 +124,29 @@ window.NAPOLI_DATA = {
       id: "peacock-problem",
       category: "Opinion",
       label: "Development Debate",
-      date: "After Pisa",
+      date: "After Torino",
       headline: "How Much Pain Is Napoli Willing to Take for Peacock's Future?",
-      dek: "The 70-rated goalkeeper has low-90s potential. The path to that ceiling runs directly through uncomfortable league nights.",
+      dek: "The 70-rated goalkeeper has low-90s potential. Against Torino, the development gamble produced the clean sheet Napoli wanted.",
       image: null,
       tone: "opinion",
       body: [
         "Peacock is not playing because Napoli believe he is better than Alex Meret today. He is playing because they believe he could become something much bigger tomorrow.",
-        "That distinction matters after matches like Parma, Cagliari and Pisa. There have been goals that felt saveable, scrambles that made the back line look less secure, and the general volatility that comes with putting a developmental goalkeeper behind a rotated defense.",
-        "The easy reaction would be to stop. Play Meret every meaningful league match, send Peacock back to the bench and protect the table. The harder approach is to accept some risk while the fixture list still allows it.",
-        "Napoli appear committed to the harder approach. The real test will come the first time a Peacock error actually costs points rather than merely turning a win into a stressful win."
+        "That distinction mattered after matches like Parma, Cagliari and Pisa, when the volatility of a developmental goalkeeper was obvious. Torino offered the other side of the argument: a 1–0 win, a clean sheet and a composed finish to a tight league match.",
+        "The easy reaction after Pisa would have been to stop. Play Meret every meaningful league match, send Peacock back to the bench and protect the table. Napoli instead kept the development plan alive and were rewarded this time.",
+        "One clean sheet does not settle the debate, but it changes its tone. Peacock now has evidence that the uncomfortable minutes can lead somewhere useful."
       ]
     },
     {
       id: "italy-pipeline",
       category: "Italy",
       label: "Club & Country",
-      date: "International window",
+      date: "After Wales & France",
       headline: "Club and Country Are Starting to Blur",
-      dek: "Napoli's Italian core is no accident — and the national-team job makes every development decision feel twice as important.",
+      dek: "Italy came through the window unbeaten and without conceding: 0–0 with Wales, then 1–0 over France.",
       image: null,
       tone: "feature",
       body: [
+        "Italy closed the international window with two clean sheets: a 0–0 draw with Wales followed by a 1–0 win over France.",
         "Napoli's Italian core now stretches through the spine of the squad: Meret, Bastoni, Buongiorno, Kayode, Di Lorenzo, Chiesa and Pio Esposito. Behind them, Mancini and Valentini have gone out on loan with the explicit goal of getting the minutes Napoli cannot currently provide.",
         "Because the same manager also controls Italy, the development loop is unusually direct. Club minutes influence national-team trust. International performances can influence club selection. Kayode has already become the clearest example, emerging as Napoli's long-term right back while also pushing into the Italy picture.",
         "The strategy does not mean Napoli must keep buying Italians. That phase of the squad build is effectively complete. The more interesting question now is whether this group can grow together long enough to make Napoli the center of the national-team cycle rather than merely one contributor to it."
@@ -218,27 +236,31 @@ window.NAPOLI_DATA = {
     ["Napoli","Pisa","Serie A",3,2,"W","Endrick 13'; Stach 31'; Chiesa 80'","Chiesa wins chaotic game late"],
     ["Napoli","Fenerbahçe","Champions League",2,1,"W","McTominay 28'; Beier 80'","Replay after connection glitch; KDB late goal disallowed"],
     ["Napoli","Club Brugge","Champions League",2,1,"W","Davies 28'; Beier 54'","Pio assist; Meret huge save"],
-    ["Italy","Iceland","EC Qualifier",2,0,"W","Retegui; Kean","International result"]
+    ["Italy","Iceland","EC Qualifier",2,0,"W","Retegui; Kean","International result"],
+    ["Italy","Wales","Friendly",0,0,"D","—","Clean sheet"],
+    ["Italy","France","Friendly",1,0,"W","—","Clean sheet; statement win"],
+    ["Napoli","Torino","Serie A",1,0,"W","Endrick 68'","McTominay assist; Peacock clean sheet"]
   ],
 
   upcoming: [
-    ["Italy Friendly #1","International","Opponent TBD"],
-    ["Italy Friendly #2","International","Opponent TBD"],
-    ["Torino","Serie A","Home"],
-    ["Bayern Munich","Champions League","Four days after Torino"]
+    ["Bayern Munich","Champions League","Next"],
+    ["Sassuolo","Serie A","October"],
+    ["Lazio","Serie A","October"],
+    ["Genoa","Serie A","Closes October"]
   ],
 
   stats: [
     ["Pio Esposito",5,1,"Hot start; 5 club goals + 1 UCL assist in reported events."],
+    ["Endrick",2,2,"Goals vs Pisa and Torino; productive from ST and RW."],
     ["Maximilian Beier",2,0,"Decisive UCL goals vs Fenerbahçe and Brugge."],
-    ["Endrick",1,2,"Goal vs Pisa; productive from ST and RW."],
     ["Kevin De Bruyne",1,1,"Goal vs Como; assist on Paz winner."],
     ["Anton Stach",1,1,"Goal + assist vs Pisa."],
     ["Nico Paz",1,0,"Late winner on Napoli debut."],
     ["Alphonso Davies",1,0,"UCL goal vs Brugge."],
     ["Federico Chiesa",1,0,"Late winner vs Pisa."],
-    ["Scott McTominay",1,0,"Scored in UCL opener."],
-    ["Alex Meret",0,0,"Huge point-blank save vs Brugge."]
+    ["Scott McTominay",1,1,"UCL goal plus assist on Endrick's Torino winner."],
+    ["Alex Meret",0,0,"Huge point-blank save vs Brugge."],
+    ["Peacock",0,0,"Clean sheet in the 1–0 league win over Torino."]
   ],
 
   youth: [
@@ -257,9 +279,9 @@ window.NAPOLI_DATA = {
 
   whispers: [
     ["Selection Watch", "There is growing pressure to keep Nico Paz central for the Bayern game, even if that means De Bruyne starts on the bench."],
-    ["Goalkeeper Debate", "Peacock will keep getting selected in rotation matches. The club is not backing away from the development plan after Pisa."],
-    ["No. 9 Watch", "Pio currently has the shirt. Beier's European goals are making sure the argument stays alive."],
-    ["Captaincy", "Kayode is the long-term starter, but there is no appetite to strip Di Lorenzo of the armband this season."]
+    ["Goalkeeper Debate", "Peacock answered the latest development start with a clean sheet against Torino."],
+    ["No. 9 Watch", "Pio currently has the shirt. Beier's European goals and Endrick's Torino winner are keeping the argument alive."],
+    ["October Run", "After Bayern, Napoli close the month with Sassuolo, Lazio and Genoa."]
   ],
 
   media: [
