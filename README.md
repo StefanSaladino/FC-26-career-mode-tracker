@@ -1,12 +1,23 @@
-# Napoli FC26 — 2027–28 Career Mode Tracker
+# Napoli FC26 — 2027–28 Season Room
 
-Static, dependency-free website for a Napoli / Italy FC 26 Career Mode save.
+A static, dependency-free football team site for a Napoli / Italy FC 26 Career Mode save.
+
+The site is designed as an in-universe football newsroom rather than a spreadsheet dashboard: lead stories, match reports, dressing-room drama, transfer fallout, stats, fixtures, squad pages and a media wall.
 
 ## Live site
 
-GitHub Pages is configured to deploy directly from the `main` branch root:
+GitHub Pages deploys directly from the `main` branch root:
 
 `https://stefansaladino.github.io/FC-26-career-mode-tracker/`
+
+## Content model
+
+- `data.js` contains match results, player stats, squad information, fictional in-universe articles, rumours and media entries.
+- `app.js` renders the newsroom, article reader, match centre, squad, stats and media wall.
+- `assets/` contains local editorial artwork.
+- Future gameplay clips can be added to the media wall as local web video files or embeds.
+
+All newsroom reporting, quotes and rumours are fictional and refer only to the Career Mode save.
 
 ## Local use
 
