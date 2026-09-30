@@ -12,10 +12,13 @@ if (!D.articles.length && Array.isArray(raw.news)) {
 const $ = id => document.getElementById(id);
 const sections = [...document.querySelectorAll('.page-section')];
 const escapeHTML = (value='') => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+const safePos = value => /^\d{1,3}%\s+\d{1,3}%$/.test(String(value||'')) ? String(value) : '50% 50%';
+const safeFit = value => ['cover','contain'].includes(value) ? value : 'cover';
 
-function img(src,alt='',eager=false,cls=''){
+function img(src,alt='',eager=false,cls='',objectPosition='50% 50%',objectFit='cover'){
   if(!src)return '';
-  return `<img${cls?` class="${cls}"`:''} src="${escapeHTML(src)}" alt="${escapeHTML(alt)}" ${eager?'fetchpriority="high"':'loading="lazy"'} referrerpolicy="no-referrer" onerror="this.remove()">`;
+  const style=`object-position:${safePos(objectPosition)};object-fit:${safeFit(objectFit)};`;
+  return `<img${cls?` class="${cls}"`:''} src="${escapeHTML(src)}" alt="${escapeHTML(alt)}" style="${style}" ${eager?'fetchpriority="high"':'loading="lazy"'} referrerpolicy="no-referrer" onerror="this.remove()">`;
 }
 function credit(item){
   if(!item?.imageCredit)return '';
@@ -48,12 +51,12 @@ const points=rows=>rows.reduce((sum,r)=>sum+(r[5]==='W'?3:r[5]==='D'?1:0),0);
 const articleById=id=>D.articles.find(a=>a.id===id);
 
 function articleCard(a,variant='standard'){
-  const media=a.image?img(a.image,a.headline):`<div class="article-no-image"><span>${escapeHTML(a.category)}</span></div>`;
+  const media=a.image?img(a.image,a.headline,false,'',a.objectPosition,a.objectFit):`<div class="article-no-image"><span>${escapeHTML(a.category)}</span></div>`;
   return `<article class="article-card ${variant}" data-article="${escapeHTML(a.id)}" tabindex="0" role="button"><div class="article-card-media">${media}</div><div class="article-card-copy"><div class="story-meta"><span>${escapeHTML(a.category)}</span><span>${escapeHTML(a.date)}</span></div><h3>${escapeHTML(a.headline)}</h3><p>${escapeHTML(a.dek)}</p><span class="read-link">Read story →</span></div></article>`;
 }
 function openArticle(id){
   const a=articleById(id); if(!a||!$('readerContent')||!$('articleModal'))return;
-  $('readerContent').innerHTML=`${a.image?`<div class="reader-media">${img(a.image,a.headline,true,'reader-hero')}${credit(a)}</div>`:''}<div class="reader-body"><div class="story-meta"><span>${escapeHTML(a.category)}</span><span>${escapeHTML(a.date)}</span></div><div class="reader-label">${escapeHTML(a.label||'Season Room')}</div><h2 id="readerHeadline">${escapeHTML(a.headline)}</h2><p class="reader-dek">${escapeHTML(a.dek)}</p>${(a.body||[a.dek]).map(p=>`<p>${escapeHTML(p)}</p>`).join('')}<div class="reader-end">Season Room · Fictional in-universe coverage</div></div>`;
+  $('readerContent').innerHTML=`${a.image?`<div class="reader-media">${img(a.image,a.headline,true,'reader-hero',a.objectPosition,a.objectFit)}${credit(a)}</div>`:''}<div class="reader-body"><div class="story-meta"><span>${escapeHTML(a.category)}</span><span>${escapeHTML(a.date)}</span></div><div class="reader-label">${escapeHTML(a.label||'Season Room')}</div><h2 id="readerHeadline">${escapeHTML(a.headline)}</h2><p class="reader-dek">${escapeHTML(a.dek)}</p>${(a.body||[a.dek]).map(p=>`<p>${escapeHTML(p)}</p>`).join('')}<div class="reader-end">Season Room · Fictional in-universe coverage</div></div>`;
   $('articleModal').classList.add('open'); $('articleModal').setAttribute('aria-hidden','false'); document.body.classList.add('modal-open');
 }
 function closeArticle(){if(!$('articleModal'))return;$('articleModal').classList.remove('open');$('articleModal').setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');}
@@ -62,7 +65,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeArticle();const
 
 if(D.articles.length){
   const hero=articleById(D.hero.articleId)||D.articles[0];
-  if($('heroStory')) $('heroStory').innerHTML=`<div class="hero-media">${hero.image?img(hero.image,hero.headline,true):''}</div><div class="hero-copy" data-article="${escapeHTML(hero.id)}" tabindex="0" role="button"><div class="hero-strap">${escapeHTML(D.hero.strap||'SEASON ROOM')}</div><div class="story-meta"><span>${escapeHTML(hero.category)}</span><span>${escapeHTML(hero.date)}</span></div><h2>${escapeHTML(hero.headline)}</h2><p>${escapeHTML(hero.dek)}</p><span class="hero-read">Read the lead story →</span>${credit(hero)}</div>`;
+  if($('heroStory')) $('heroStory').innerHTML=`<div class="hero-media">${hero.image?img(hero.image,hero.headline,true,'',hero.objectPosition,hero.objectFit):''}</div><div class="hero-copy" data-article="${escapeHTML(hero.id)}" tabindex="0" role="button"><div class="hero-strap">${escapeHTML(D.hero.strap||'SEASON ROOM')}</div><div class="story-meta"><span>${escapeHTML(hero.category)}</span><span>${escapeHTML(hero.date)}</span></div><h2>${escapeHTML(hero.headline)}</h2><p>${escapeHTML(hero.dek)}</p><span class="hero-read">Read the lead story →</span>${credit(hero)}</div>`;
   const secondary=D.articles.filter(a=>a.id!==hero.id);
   if($('topStories')) $('topStories').innerHTML=secondary.slice(0,4).map((a,i)=>`<button class="top-story" data-article="${escapeHTML(a.id)}"><span>${String(i+1).padStart(2,'0')}</span><div><small>${escapeHTML(a.category)}</small><strong>${escapeHTML(a.headline)}</strong></div></button>`).join('');
   if($('latestNews')) $('latestNews').innerHTML=secondary.slice(0,5).map((a,i)=>articleCard(a,i===0?'wide':'compact')).join('');
@@ -99,7 +102,7 @@ if($('mediaWall')&&D.media.length) $('mediaWall').innerHTML=D.media.map(item=>{
   if(item.type==='image'){
     const source=item.source?` · <a href="${escapeHTML(item.source)}" target="_blank" rel="noopener noreferrer">source</a>`:'';
     const itemCredit=item.credit?`<div class="photo-credit">${escapeHTML(item.credit)}${source}</div>`:'';
-    return `<figure class="media-item"><div class="media-photo">${img(item.src,item.title)}</div><figcaption><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong>${itemCredit}</figcaption></figure>`;
+    return `<figure class="media-item"><div class="media-photo">${img(item.src,item.title,false,'',item.objectPosition,item.objectFit)}</div><figcaption><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong>${itemCredit}</figcaption></figure>`;
   }
   return `<div class="media-item video-coming"><div class="play-orbit">▶</div><div><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong><p>${escapeHTML(item.note)}</p></div></div>`;
 }).join('');
