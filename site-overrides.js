@@ -2,7 +2,7 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-7';
+  const VERSION = '20260930-8';
   const local = file => `assets/${file}?v=${VERSION}`;
 
   const media = {
@@ -21,18 +21,18 @@
       objectFit: 'contain'
     },
     chiesa: {
-      src: local('editorial-pisa.svg'),
-      credit: 'Season Room match graphic — Napoli 3–2 Pisa, Chiesa 80\'.',
+      src: local('chiesa-napoli.webp'),
+      credit: 'Season Room composite — Federico Chiesa visualized in Napoli colours for this FC 26 save.',
       source: null,
       objectPosition: '50% 50%',
-      objectFit: 'contain'
+      objectFit: 'cover'
     },
     pio: {
-      src: local('editorial-pio.svg'),
-      credit: 'Season Room striker-watch graphic.',
+      src: local('pio-napoli.webp'),
+      credit: 'Season Room composite — Pio Esposito visualized in Napoli colours for this FC 26 save.',
       source: null,
       objectPosition: '50% 50%',
-      objectFit: 'contain'
+      objectFit: 'cover'
     },
     market: {
       src: local('editorial-market.svg'),
@@ -64,7 +64,7 @@
 
   D.media = [
     { type: 'image', title: 'Bayern: The First Real Test', src: media.bayernPoster.src, tag: 'Matchweek', credit: media.bayernPoster.credit, source: null, objectPosition: media.bayernPoster.objectPosition, objectFit: media.bayernPoster.objectFit },
-    { type: 'image', title: "Chiesa: 80' and Chaos Over", src: media.chiesa.src, tag: 'Match Report', credit: media.chiesa.credit, source: null, objectPosition: media.chiesa.objectPosition, objectFit: media.chiesa.objectFit },
+    { type: 'image', title: "Chiesa: 80' and Chaos Over", src: media.chiesa.src, tag: 'Player Focus', credit: media.chiesa.credit, source: null, objectPosition: media.chiesa.objectPosition, objectFit: media.chiesa.objectFit },
     { type: 'image', title: 'Pio: The Shirt Is His For Now', src: media.pio.src, tag: 'No. 9 Watch', credit: media.pio.credit, source: null, objectPosition: media.pio.objectPosition, objectFit: media.pio.objectFit },
     { type: 'image', title: 'Three Calls, Three Nos', src: media.market.src, tag: 'Mercato', credit: media.market.credit, source: null, objectPosition: media.market.objectPosition, objectFit: media.market.objectFit },
     { type: 'video-placeholder', title: 'Gameplay Archive', tag: 'Video', note: 'Gameplay clips, goals and hype videos will live here once footage is added.' }
