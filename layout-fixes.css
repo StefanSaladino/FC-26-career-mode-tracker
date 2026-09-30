@@ -1,57 +1,66 @@
-/* Layout audit pass — fluid widths, overlap prevention, stronger editorial hierarchy */
+/* Final responsive audit: prevent overlap, stabilize media, and make modal safe on iOS. */
 
 html,body{max-width:100%;overflow-x:hidden}
-.hero-grid>*,.hero-story>*,.home-band>*,.home-columns>*,.news-grid>*,.squad-layout>*,.stats-feature>*,.article-card>*,.match-card>*,.section-head>*,.next-row>*,.player-row>*{min-width:0}
-h1,h2,h3,strong,p,span{overflow-wrap:break-word}
+body{min-width:320px}
+img{max-width:100%}
+.hero-grid>*,.hero-story>*,.home-band>*,.home-columns>*,.news-grid>*,.squad-layout>*,.stats-feature>*,.article-card>*,.match-card>*,.section-head>*,.next-row>*,.player-row>*,.media-wall>*{min-width:0}
+h1,h2,h3,strong,p,span,td,th{overflow-wrap:break-word}
+button{touch-action:manipulation}
 
-/* HERO: use the image as a true full-bleed editorial backdrop instead of squeezing text beside it */
-.hero-story{position:relative;display:block;min-height:520px;isolation:isolate;background:#071423}
-.hero-media{position:absolute;inset:0;min-height:0;z-index:-2;overflow:hidden}
-.hero-media img{width:100%;height:100%;object-fit:cover}
-.hero-story:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(2,10,19,.94) 0%,rgba(2,10,19,.79) 44%,rgba(2,10,19,.36) 72%,rgba(2,10,19,.12) 100%)}
-.hero-copy{position:relative;width:min(680px,72%);min-height:520px;padding:clamp(28px,4vw,54px);justify-content:flex-end;background:none}
+/* Header/nav */
+.site-header{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+.section-nav{z-index:60}
+.nav-scroll{scroll-padding-inline:16px;-webkit-overflow-scrolling:touch}
+.nav-scroll button{flex:0 0 auto}
+
+/* Hero */
+.hero-grid{grid-template-columns:minmax(0,1.78fr) minmax(300px,.72fr);gap:clamp(22px,2.5vw,34px);padding-bottom:34px}
+.hero-story{position:relative;display:block;min-height:520px;isolation:isolate;background:#071423;overflow:hidden}
+.hero-media{position:absolute;inset:0;z-index:-2;min-height:0;background:#071423}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.hero-story:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(2,10,19,.96) 0%,rgba(2,10,19,.82) 42%,rgba(2,10,19,.42) 72%,rgba(2,10,19,.14) 100%)}
+.hero-copy{position:relative;width:min(680px,74%);min-height:520px;padding:clamp(28px,4vw,54px);justify-content:flex-end;background:none}
 .hero-copy h2{font-size:clamp(2.35rem,4.3vw,4rem);line-height:.96;max-width:12ch;text-wrap:balance}
 .hero-copy p{max-width:58ch}
 .hero-read{display:inline-block;align-self:flex-start;border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:3px}
-.hero-copy .photo-credit{color:rgba(255,255,255,.66);max-width:58ch}
-.hero-copy .photo-credit a{color:inherit}
-
-/* Prevent side rail and result strip from squeezing text into each other */
-.hero-grid{grid-template-columns:minmax(0,1.78fr) minmax(300px,.72fr);gap:clamp(22px,2.5vw,34px)}
+.hero-copy .photo-credit{color:rgba(255,255,255,.68);max-width:58ch}
 .top-stories,.top-story,.top-story div{min-width:0}
 .top-story strong{overflow-wrap:anywhere}
+
+/* Result/fixture band */
 .home-band{grid-template-columns:minmax(0,.9fr) minmax(0,1.15fr) minmax(0,.95fr)}
 .home-band>div{min-width:0}
+.latest-score{gap:14px}
 .next-row{display:grid;grid-template-columns:minmax(90px,.7fr) minmax(0,1.3fr);align-items:start}
 .next-row span{text-align:right;overflow-wrap:anywhere}
-.latest-score{gap:14px}
-.latest-score>*{min-width:0}
 .form-line{grid-template-columns:repeat(2,minmax(0,1fr))}
 
-/* Image geometry audit: preserve the intended frame instead of letting card height crop faces/architecture */
-.article-card-media{aspect-ratio:16/9;height:auto!important;min-height:0!important;align-self:start;overflow:hidden;background:#dbe5ee}
-.article-card-media img{width:100%;height:100%;display:block}
-.news-grid .article-card-media,.news-grid .article-card.lead-grid .article-card-media{aspect-ratio:16/9;height:auto!important;min-height:0!important}
-.media-photo{aspect-ratio:16/9;overflow:hidden;background:#dbe5ee}
-.media-photo img{width:100%;height:100%;display:block}
-.reader-media{background:#fff}
-.reader-hero{display:block;width:100%;height:auto;aspect-ratio:16/9;max-height:none!important}
-
-/* News cards: fluid media columns + no forced heights that collide at in-between widths */
-.article-card.wide{grid-template-columns:minmax(220px,300px) minmax(0,1fr);align-items:start}
-.article-card.compact{grid-template-columns:minmax(130px,170px) minmax(0,1fr);align-items:start}
+/* Article cards */
+.article-card{overflow:hidden}
+.article-card.wide{grid-template-columns:minmax(220px,300px) minmax(0,1fr);align-items:start;min-height:0}
+.article-card.compact{grid-template-columns:minmax(130px,170px) minmax(0,1fr);align-items:start;min-height:0}
 .article-card-copy{min-width:0}
 .article-card h3{overflow-wrap:anywhere;text-wrap:pretty}
+.article-card-media{aspect-ratio:16/9;height:auto!important;min-height:0!important;align-self:start}
+.article-card-media img{width:100%;height:100%;display:block}
+
+.news-grid{align-items:stretch}
+.news-grid .article-card{height:100%}
 .news-grid .article-card-copy{min-height:0;display:flex;flex-direction:column}
 .news-grid .read-link{margin-top:auto;padding-top:14px}
-.news-grid .article-card.lead-grid{grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);align-items:start}
+.news-grid .article-card-media,.news-grid .article-card.lead-grid .article-card-media{aspect-ratio:16/9;height:auto!important;min-height:0!important}
+.news-grid .article-card.lead-grid{grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);align-items:stretch}
 .news-grid .article-card.lead-grid .article-card-copy{min-height:0}
 
-/* Fixtures scale naturally instead of assuming exactly four cards fit */
-.upcoming-strip{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-right:1px solid var(--line)}
-.fixture{border-right:0;border-left:1px solid var(--line);border-bottom:1px solid var(--line)}
+/* Filters should scroll rather than crush on phones. */
+.article-filters{max-width:100%}
 
-/* Squad/stats overflow guards */
+/* Fixtures */
+.upcoming-strip{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-right:1px solid var(--line)}
+.fixture{min-width:0;border-right:0;border-left:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fixture strong,.fixture small{overflow-wrap:anywhere}
+
+/* Squad/stats */
 .squad-layout{grid-template-columns:minmax(280px,330px) minmax(0,1fr)}
 .formation-panel{top:58px}
 .player-row>div{min-width:0}
@@ -59,24 +68,34 @@ h1,h2,h3,strong,p,span{overflow-wrap:break-word}
 .stats-feature{grid-template-columns:minmax(235px,280px) minmax(0,1fr)}
 .goal-row{grid-template-columns:minmax(105px,155px) minmax(0,1fr) 30px}
 .goal-row span{min-width:0;overflow-wrap:anywhere}
+.table-wrap{-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.stats-table-wrap table{min-width:620px}
+#academy .table-wrap table{min-width:760px}
 
-/* Modal: close button no longer floats into the headline */
-.article-reader{overscroll-behavior:contain}
-.reader-close{position:absolute;top:14px;right:14px;float:none;margin:0;z-index:3;border:1px solid rgba(8,26,45,.12)}
-.reader-media .photo-credit{margin:0;padding:8px 14px 10px}
+/* Media */
+.media-photo{aspect-ratio:16/9;overflow:hidden;background:#071423}
+.media-photo img{width:100%;height:100%;display:block}
+.media-item{overflow:hidden}
+.video-coming{min-width:0}
+
+/* Modal: keep the close control inside the usable viewport on iPhone/Safari. */
+.article-modal{inset:0;padding:0}
+.article-modal.open{display:grid;align-items:center;justify-items:center;padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
+.modal-backdrop{position:absolute;inset:0}
+.article-reader{position:relative;width:min(900px,100%);max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px);overflow:auto;margin:0;background:#fff;z-index:1;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;box-shadow:0 30px 90px rgba(0,0,0,.35)}
+.reader-close{position:sticky;top:10px;float:none;display:grid;place-items:center;margin:10px 10px -52px auto;z-index:20;width:42px;height:42px;border:1px solid rgba(8,26,45,.14);border-radius:50%;background:rgba(255,255,255,.97);color:var(--navy);font-size:1.8rem;line-height:1;box-shadow:0 4px 18px rgba(0,0,0,.2);backdrop-filter:blur(8px)}
+.reader-close:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.reader-media{background:#071423}
+.reader-hero{display:block;width:100%;height:auto;aspect-ratio:16/9;max-height:none!important}
+.reader-media .photo-credit{margin:0;padding:8px 14px 10px;background:#fff}
 .reader-body{min-width:0}
-.reader-body h2{overflow-wrap:anywhere;text-wrap:balance;padding-right:18px}
+.reader-body h2{overflow-wrap:anywhere;text-wrap:balance;padding-right:0}
 
-/* Photo / composite treatment */
-.hero-media img,.article-card-media img,.reader-hero,.media-item img{filter:saturate(.94) contrast(1.015)}
 .photo-credit{font-size:.68rem;color:var(--muted);line-height:1.35;margin-top:8px}
 .photo-credit a{color:inherit}
-.photo-credit a:hover{color:var(--blue)}
 .real-photo-note{border-top:1px solid var(--line);margin-top:18px;padding-top:12px;color:var(--muted);font-size:.72rem;line-height:1.45;max-width:980px}
-.real-photo-note a{color:var(--blue);text-decoration:none}
-.real-photo-note a:hover{text-decoration:underline}
 
-/* Earlier collapse point fixes the 900–1150px overlap zone */
+/* Laptop/tablet: collapse before the two-column systems become cramped. */
 @media(max-width:1160px){
   .hero-grid{grid-template-columns:1fr}
   .top-stories{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
@@ -101,34 +120,81 @@ h1,h2,h3,strong,p,span{overflow-wrap:break-word}
 }
 
 @media(max-width:760px){
+  .wrap{width:min(var(--max),calc(100% - 24px))}
+  .site-header{padding-top:18px;padding-bottom:18px}
+  .header-inner{grid-template-columns:auto minmax(0,1fr);gap:14px}
+  .club-mark{width:50px;height:50px;font-size:1.55rem}
+  .brand-copy h1{font-size:clamp(1.9rem,8.7vw,2.35rem);line-height:.98}
+  .brand-copy p{font-size:.86rem}
+  .header-status{grid-column:1/-1;border-top:1px solid #183451;padding-top:10px;font-size:.72rem}
+  main{padding-top:20px}
+
   .hero-story{min-height:500px}
-  .hero-copy{width:100%;min-height:500px;padding:26px}
-  .hero-story:after{background:linear-gradient(0deg,rgba(2,10,19,.96) 0%,rgba(2,10,19,.78) 52%,rgba(2,10,19,.25) 100%)}
-  .hero-copy h2{font-size:clamp(2.15rem,10vw,3.15rem);max-width:11ch}
+  .hero-copy{width:100%;min-height:500px;padding:26px 22px}
+  .hero-story:after{background:linear-gradient(0deg,rgba(2,10,19,.97) 0%,rgba(2,10,19,.82) 53%,rgba(2,10,19,.28) 100%)}
+  .hero-copy h2{font-size:clamp(2.05rem,10vw,3.05rem);max-width:12ch}
+  .hero-copy p{font-size:.94rem}
   .top-stories{display:block}
-  .home-band{grid-template-columns:1fr}
+
+  .home-band{grid-template-columns:1fr;margin:24px 0 38px}
   .home-band>div,.home-band>div:nth-child(2){border-right:0;border-bottom:1px solid var(--line)}
   .home-band>div:last-child{grid-column:auto;border-top:0;border-bottom:0}
-  /* On phones/tablets, show the full 16:9 editorial frame above copy. Tiny portrait thumbnails were cropping faces. */
+  .next-row{grid-template-columns:1fr;gap:2px}
+  .next-row span{text-align:left}
+
+  .section-head{align-items:flex-start;flex-direction:column;gap:14px}
+  .article-filters{width:100%;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .article-filters::-webkit-scrollbar{display:none}
+  .filter-pill{flex:0 0 auto}
+
   .article-card.wide,.article-card.compact,.news-grid .article-card,.news-grid .article-card.lead-grid{grid-template-columns:1fr;grid-column:auto;border-right:0}
-  .article-card-media,.news-grid .article-card-media,.news-grid .article-card.lead-grid .article-card-media{aspect-ratio:16/9;height:auto;min-height:0}
-  .news-grid .article-card.lead-grid .article-card-copy{min-height:0}
+  .article-card-media,.news-grid .article-card-media,.news-grid .article-card.lead-grid .article-card-media{aspect-ratio:16/9;height:auto!important;min-height:0!important}
+  .article-card-copy{padding:18px 18px 20px}
+  .article-card h3,.news-grid .article-card.lead-grid h3{font-size:clamp(1.25rem,5.7vw,1.65rem)}
+  .article-card p{display:block}
+  .news-grid{grid-template-columns:1fr}
+  .news-grid .article-card-copy,.news-grid .article-card.lead-grid .article-card-copy{min-height:0}
+
   .upcoming-strip{grid-template-columns:1fr 1fr}
-  .reader-close{position:fixed;top:max(12px,env(safe-area-inset-top));right:12px}
+  .match-card{grid-template-columns:46px minmax(0,1fr);gap:12px}
+  .match-main strong{font-size:1rem}
+  .match-main strong b{font-size:1.18rem}
+
+  .media-wall{grid-template-columns:1fr}
+  .video-coming{min-height:220px;align-items:flex-start;justify-content:flex-start;flex-direction:column;gap:16px}
+
+  .article-modal.open{padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
+  .article-reader{width:100%;max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 16px)}
+  .reader-close{top:8px;margin:8px 8px -50px auto;width:40px;height:40px}
+  .reader-body{padding:26px 20px 40px}
+  .reader-body h2{font-size:clamp(2rem,10vw,2.65rem)}
+  .reader-dek{font-size:1.04rem}
+  .site-footer .wrap{flex-direction:column}
 }
 
 @media(max-width:520px){
-  .brand-copy h1{font-size:clamp(1.9rem,10vw,2.4rem)}
+  .wrap{width:calc(100% - 20px)}
+  .ticker-track span{padding:0 20px}
+  .nav-scroll{gap:20px}
   .hero-story,.hero-copy{min-height:470px}
-  .hero-copy{padding:22px}
-  .hero-copy h2{font-size:clamp(2rem,11vw,2.75rem);max-width:none}
-  .hero-copy p{font-size:.92rem}
-  .next-row{grid-template-columns:1fr;gap:2px}
-  .next-row span{text-align:left}
-  .article-card p{display:block}
+  .hero-copy{padding:22px 18px}
+  .hero-copy h2{font-size:clamp(1.95rem,10.6vw,2.65rem);max-width:none}
+  .hero-strap{font-size:.66rem}
+  .latest-score strong{font-size:2rem}
+  .form-line{gap:12px}
   .upcoming-strip{grid-template-columns:1fr}
   .goal-row{grid-template-columns:minmax(90px,120px) minmax(0,1fr) 24px;gap:8px}
-  .site-header .header-inner{gap:13px}
+  .player-row{gap:12px}
+}
+
+@media(max-width:390px){
+  .club-mark{width:46px;height:46px}
+  .brand-copy h1{font-size:1.85rem}
+  .brand-copy .eyebrow{font-size:.63rem;letter-spacing:.11em}
+  .hero-copy h2{font-size:2rem}
+  .reader-body{padding-left:16px;padding-right:16px}
+  .reader-body h2{font-size:1.95rem}
+  .reader-dek{font-size:1rem}
 }
 
 @media(prefers-reduced-motion:reduce){
