@@ -11,7 +11,7 @@ if (!D.articles.length && Array.isArray(raw.news)) {
 
 const $ = id => document.getElementById(id);
 const sections = [...document.querySelectorAll('.page-section')];
-const escapeHTML = (value='') => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+const escapeHTML = (value='') => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
 const safePos = value => /^\d{1,3}%\s+\d{1,3}%$/.test(String(value||'')) ? String(value) : '50% 50%';
 const safeFit = value => ['cover','contain'].includes(value) ? value : 'cover';
 
@@ -98,11 +98,25 @@ function renderTable(el,headers,rows){if(!el)return;el.innerHTML=`<thead><tr>${h
 renderTable($('statsTable'),['Player','Goals','Assists','Season note'],D.stats);
 if(D.stats.length){const top=[...D.stats].sort((a,b)=>b[1]-a[1])[0];if($('topScorer'))$('topScorer').innerHTML=`<span>Top scorer</span><strong>${escapeHTML(top[0])}</strong><b>${top[1]}</b><small>goals</small>`;const max=Math.max(...D.stats.map(s=>s[1]),1);if($('goalBars'))$('goalBars').innerHTML=D.stats.filter(s=>s[1]>0).map(s=>`<div class="goal-row"><span>${escapeHTML(s[0])}</span><div class="bar-track"><div class="bar-fill" style="width:${s[1]/max*100}%"></div></div><strong>${s[1]}</strong></div>`).join('');}
 renderTable($('youthTable'),['Player','Pos','Age','OVR','Potential','Plan','Note'],D.youth);
+const mediaArticleMap = {
+  'Bayern: The First Real Test': 'bayern-test',
+  'Pio Takes the Shirt': 'pio-shirt',
+  "Chiesa 80'": 'chiesa-pisa',
+  'Three Calls, Three Nos': 'three-nos',
+  'Paz: The Heir Is Already Playing': 'paz-kdb',
+  'Peacock: The Development Gamble': 'peacock-problem',
+  'Club and Country': 'italy-pipeline',
+  'The Captaincy Transition': 'captain-future',
+  'The Insurance Policy': 'stach-insurance'
+};
 if($('mediaWall')&&D.media.length) $('mediaWall').innerHTML=D.media.map(item=>{
   if(item.type==='image'){
     const source=item.source?` · <a href="${escapeHTML(item.source)}" target="_blank" rel="noopener noreferrer">source</a>`:'';
     const itemCredit=item.credit?`<div class="photo-credit">${escapeHTML(item.credit)}${source}</div>`:'';
-    return `<figure class="media-item"><div class="media-photo">${img(item.src,item.title,false,'',item.objectPosition,item.objectFit)}</div><figcaption><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong>${itemCredit}</figcaption></figure>`;
+    const articleId=item.articleId||mediaArticleMap[item.title];
+    const attrs=articleId?` data-article="${escapeHTML(articleId)}" tabindex="0" role="button" aria-label="Open article: ${escapeHTML(item.title)}"`:'';
+    const affordance=articleId?'<span class="read-link">Read story →</span>':'';
+    return `<figure class="media-item${articleId?' media-item-link':''}"${attrs}><div class="media-photo">${img(item.src,item.title,false,'',item.objectPosition,item.objectFit)}</div><figcaption><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong>${affordance}${itemCredit}</figcaption></figure>`;
   }
   return `<div class="media-item video-coming"><div class="play-orbit">▶</div><div><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong><p>${escapeHTML(item.note)}</p></div></div>`;
 }).join('');
