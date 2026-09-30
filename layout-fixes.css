@@ -13,6 +13,8 @@ h1,h2,h3,strong,p,span{overflow-wrap:break-word}
 .hero-copy h2{font-size:clamp(2.35rem,4.3vw,4rem);line-height:.96;max-width:12ch;text-wrap:balance}
 .hero-copy p{max-width:58ch}
 .hero-read{display:inline-block;align-self:flex-start;border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:3px}
+.hero-copy .photo-credit{color:rgba(255,255,255,.66);max-width:58ch}
+.hero-copy .photo-credit a{color:inherit}
 
 /* Prevent side rail and result strip from squeezing text into each other */
 .hero-grid{grid-template-columns:minmax(0,1.78fr) minmax(300px,.72fr);gap:clamp(22px,2.5vw,34px)}
@@ -52,6 +54,8 @@ h1,h2,h3,strong,p,span{overflow-wrap:break-word}
 /* Modal: close button no longer floats into the headline */
 .article-reader{overscroll-behavior:contain}
 .reader-close{position:absolute;top:14px;right:14px;float:none;margin:0;z-index:3;border:1px solid rgba(8,26,45,.12)}
+.reader-media{background:#fff}
+.reader-media .photo-credit{margin:0;padding:8px 14px 10px}
 .reader-hero{max-height:460px}
 .reader-body{min-width:0}
 .reader-body h2{overflow-wrap:anywhere;text-wrap:balance;padding-right:18px}
@@ -61,7 +65,9 @@ h1,h2,h3,strong,p,span{overflow-wrap:break-word}
 .photo-credit{font-size:.68rem;color:var(--muted);line-height:1.35;margin-top:8px}
 .photo-credit a{color:inherit}
 .photo-credit a:hover{color:var(--blue)}
-.real-photo-note{border-top:1px solid var(--line);margin-top:28px;padding-top:14px;color:var(--muted);font-size:.72rem;line-height:1.45}
+.real-photo-note{border-top:1px solid var(--line);margin-top:18px;padding-top:12px;color:var(--muted);font-size:.72rem;line-height:1.45;max-width:980px}
+.real-photo-note a{color:var(--blue);text-decoration:none}
+.real-photo-note a:hover{text-decoration:underline}
 
 /* Earlier collapse point fixes the 900–1150px overlap zone */
 @media(max-width:1160px){
