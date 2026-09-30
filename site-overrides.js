@@ -1,21 +1,21 @@
 (() => {
   const D = window.NAPOLI_DATA;
   if (!D) return;
-  const VERSION = '20260930-13';
+  const VERSION = '20260930-14';
   const local = file => `assets/${file}?v=${VERSION}`;
   const media = {
     bayernHero: { src: local('editorial-bayern-hero.svg'), credit: 'Season Room editorial graphic.', source: null, objectPosition: '50% 50%', objectFit: 'cover' },
     bayernPoster: { src: local('editorial-bayern.svg'), credit: 'Season Room editorial graphic.', source: null, objectPosition: '50% 50%', objectFit: 'contain' },
     chiesa: { src: local('chiesa-napoli.jpg'), credit: 'Season Room composite — Federico Chiesa visualized in Napoli colours for this FC 26 save.', source: null, objectPosition: '50% 50%', objectFit: 'cover' },
     pio: { src: local('pio-napoli.jpg'), credit: 'Season Room composite — Pio Esposito visualized in Napoli colours for this FC 26 save.', source: null, objectPosition: '50% 50%', objectFit: 'cover' },
-    paz: { src: local('paz-napoli-v2.jpg'), credit: 'Season Room composite — Nico Paz visualized in Napoli colours for this FC 26 save.', source: null, objectPosition: '50% 42%', objectFit: 'cover' },
-    peacock: { src: local('peacock-napoli-v2.jpg'), credit: 'Season Room composite — Peacock visualized from the FC 26 player model supplied from this save.', source: null, objectPosition: '50% 40%', objectFit: 'cover' },
+    paz: { src: window.__PAZ_IMAGE, credit: 'Season Room composite — Nico Paz visualized in Napoli colours for this FC 26 save.', source: null, objectPosition: '50% 42%', objectFit: 'cover' },
+    peacock: { src: window.__PEACOCK_IMAGE, credit: 'Season Room composite — Peacock visualized from the FC 26 player model supplied from this save.', source: null, objectPosition: '50% 40%', objectFit: 'cover' },
     market: { src: local('editorial-market.svg'), credit: 'Season Room transfer-window graphic.', source: null, objectPosition: '50% 50%', objectFit: 'contain' }
   };
   const articleMap = { 'bayern-test': media.bayernHero, 'chiesa-pisa': media.chiesa, 'pio-shirt': media.pio, 'three-nos': media.market, 'paz-kdb': media.paz, 'peacock-problem': media.peacock };
   if (Array.isArray(D.articles)) D.articles.forEach(article => {
     const image = articleMap[article.id];
-    if (!image) return;
+    if (!image || !image.src) return;
     article.image = image.src;
     article.imageCredit = image.credit;
     article.imageSource = image.source;
