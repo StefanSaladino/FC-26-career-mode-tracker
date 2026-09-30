@@ -63,10 +63,10 @@
       objectFit: 'cover'
     },
     stach: {
-      src: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Stadio_San_Paolo_Panoramica_Champions_League.jpg',
-      credit: 'Gaetano Capaldo / Wikimedia Commons · CC BY 4.0',
-      source: 'https://commons.wikimedia.org/wiki/File:Stadio_San_Paolo_Panoramica_Champions_League.jpg',
-      objectPosition: '50% 50%',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Stadio_San_Paolo_Napoli_2019.jpg',
+      credit: 'Tarkus42 / Wikimedia Commons · CC BY-SA 4.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Stadio_San_Paolo_Napoli_2019.jpg',
+      objectPosition: '50% 52%',
       objectFit: 'cover'
     }
   };
