@@ -4,6 +4,10 @@
       ['vesuvio_ultras87','Two straight 0–0s. I am begging one of these forwards to remember the net exists.'],
       ['PartenopeiProfessor','The defensive structure is excellent. The final third is where every promising move goes to die.'],
       ['MarekWasRight','Jankowski turned into prime Buffon for absolutely no reason. Fuck off man.'],
+      ['SaladinoOutNow','Saladino has rotated this attack into witness protection. 180 minutes without a league goal is criminal.'],
+      ['BeierFraudWatch','Beier gets one chance and suddenly we are supposed to applaud the movement. Put the ball in the net, brother.'],
+      ['PioApologist','Pio did not invent the scoring drought by himself. Maybe give the striker a pass inside the same postal code.'],
+      ['DaviesExpress','Davies keeps getting us up the pitch and then everyone in the box turns into furniture.'],
       ['NapoliSempre','Still unbeaten in the league. Arsenal next. Nobody panic.'],
       ['CurvaBChaos','180 league minutes without a goal and somehow I am both furious and weirdly calm. Football is a disease.']
     ],
@@ -11,6 +15,8 @@
       ['azzurro_76','A point with that much rotation is not the apocalypse people are making it out to be.'],
       ['NapoliDoomer','WE ARE FINISHED. DELETE THE CLUB. SELL THE STADIUM.'],
       ['tacticalnonno','Back line was excellent. Midfield was fine. Attack had all the menace of a damp sock.'],
+      ['RotationPolice','Saladino saw a title race and decided everybody needed a spa day.'],
+      ['WhyIsMooreStarting','I have nothing against Moore personally but why am I watching development minutes while first place is on the line?'],
       ['ForzaNapoli94','Clean sheet, unbeaten, move on.'],
       ['CiroFromQueens','If I watch one more promising attack end in absolutely nothing I am launching my controller into the sun.']
     ],
@@ -19,12 +25,14 @@
       ['ChiesaHive','Chiesa heard the criticism and chose violence.'],
       ['MeretUnion','Everyone thank Meret before you start talking about the winner.'],
       ['beierburner','Three goals and people still act like Beier should be sold. Behave.'],
+      ['ManagerCam','Saladino waited until we were all clinically dead before making the winning changes. Genius or terrorism, you decide.'],
       ['ultras_di_toronto','85th minute winners are great for the soul and absolutely shit for my blood pressure.']
     ],
     'napoli-still-top': [
       ['ScudettoPolice','Top of the table and unbeaten. I will be insufferable until further notice.'],
       ['RealistAzzurro','Two points is not a cushion, it is a suggestion. Keep winning.'],
       ['MaradonaWasHere','Milan, Juve, Inter all lurking. This season is going to be disgusting. I love it.'],
+      ['SaladinoPropaganda','Manager gets praised for being top but when we draw he says rotation. Convenient.'],
       ['NoPanicNapoli','People wanted perfection in October. We are first. Calm down.'],
       ['AwayEndMenace','If we bottle this I am moving to a monastery.']
     ],
@@ -32,6 +40,8 @@
       ['EuropeanNights','Bayern were just cleaner. That is the level. Learn and move.'],
       ['DaviesExpress','Davies was cooking that entire left side and nobody finished the meal.'],
       ['NapoliDoomer','WE LOST 2–0. PROJECT OVER. EVERYBODY OUT.'],
+      ['WhyPazThere','Starting Paz centrally in that game was brave. I am using brave in the insulting sense.'],
+      ['SaladinoOutNow','Bayern just gave Saladino a free tactical seminar and charged us 90 minutes for it.'],
       ['KDBTruthers','Second half looked different as soon as Kevin came on. That pass still matters.'],
       ['curva_bastoni','Nübel needs to stop saving everything and get a real hobby.']
     ],
@@ -39,12 +49,14 @@
       ['FedeForever','CHIESA 80TH MINUTE. THAT IS CINEMA.'],
       ['PisaTrauma','Why did we make Pisa look like 2011 Barcelona for twenty minutes?'],
       ['StachAttack','Goal and assist from Stach and somehow nobody is talking about it.'],
+      ['SaladinoSurvivor','Manager nearly coached a two-goal lead into the ocean and Chiesa dragged it back.'],
       ['NapoliTherapy','This club refuses to win a normal match.'],
       ['curvaB_screamer','I aged nine fucking years during that second half.']
     ],
     'pio-shirt': [
       ['PioNation','Five goals. Shirt is his until someone takes it. Simple.'],
       ['BeierDefenseLeague','Can we praise Pio without pretending Beier is useless please?'],
+      ['PioHaterForNoReason','Penalties, tap-ins, vibes. Wake me up when he scores one from the parking lot.'],
       ['AzzurriScout','The Italy pipeline makes this even more fun.'],
       ['oldschoolnapoli','Young striker scoring goals and everyone already wants to build a statue. Never change.'],
       ['No9Discourse','One quiet game and this comment section will become a war zone. I can feel it.']
@@ -52,6 +64,7 @@
     'three-nos': [
       ['KeepTheCore','204M and still no. Respect.'],
       ['SellHighFC','I love Beier but TWO HUNDRED AND FOUR MILLION DOLLARS???'],
+      ['SaladinoEconomics','Manager turned down 204 million because apparently money is a social construct now.'],
       ['CaptainDiLo','Rejecting the Di Lorenzo offer was the right call for the dressing room alone.'],
       ['MercatoGoblin','Napoli turned off notifications and went to lunch.'],
       ['SpreadsheetUltra','The accountant in me is screaming. The fan in me is delighted.']
@@ -59,6 +72,7 @@
     'paz-kdb': [
       ['PazEnjoyer','It does not have to be one or the other. Play both and let teams suffer.'],
       ['KDBForever','You cannot teach that final pass. Kevin still has it.'],
+      ['PazFraudDepartment','One nice assist and suddenly he is the heir to civilization. Relax.'],
       ['FutureIsNow','Paz getting the Bayern start tells you everything about the trust level.'],
       ['TacticsInBio','Different profiles. Different game states. This is called having options, lads.'],
       ['CommentSectionCoach','Personally I would simply start twelve players. Problem solved.']
@@ -67,6 +81,7 @@
       ['AcademyWatch','If the potential is really low 90s you have to live with some pain.'],
       ['MeretMeansMore','Development is great until it costs points. Meret is the number one.'],
       ['KeeperUnion','Clean sheet against Torino. Let the kid breathe.'],
+      ['SaladinoAcademyTax','The manager is trying to speedrun goalkeeper development in a title race. Fantastic.'],
       ['SavePercentageCop','One clean sheet and suddenly everyone is Gianluigi Buffon.'],
       ['loan_him_now','PLAY HIM OR LOAN HIM. THIS HALF MEASURE SHIT IS HOW KEEPERS DIE.']
     ],
@@ -74,6 +89,7 @@
       ['AzzurriCore','Napoli becoming the spine of Italy is exactly the kind of nonsense I signed up for.'],
       ['ClubBeforeCountry','Just send everyone back healthy please.'],
       ['KayodeTruth','Kayode is going to own that right side for club and country.'],
+      ['ConflictOfInterestFC','Saladino managing Napoli AND Italy is just one man selecting his favourites twice. I respect the efficiency.'],
       ['CalcioRomantic','This save is slowly turning into a national-team laboratory and I love it.'],
       ['InternationalBreakHater','Great story. Now abolish international breaks.']
     ],
@@ -81,6 +97,7 @@
       ['DiLoRespect','You do not throw away the captain because the younger guy is better now.'],
       ['KayodeEra','Armband or not, Kayode is the future.'],
       ['DressingRoomFC','This is exactly why veteran depth matters in a long season.'],
+      ['SaladinoPolitics','Manager trying to keep everyone happy is how you end up with three captains and a group chat mutiny.'],
       ['SentimentPolice','Football is ruthless. If he cannot play, he cannot play.'],
       ['NapoliDad','Why am I emotionally attached to a fictional captaincy transition?']
     ],
@@ -104,6 +121,16 @@
       'The warning signs are there and everyone is pretending not to see them.',
       'If this happens in a big match we are cooked.'
     ],
+    playerHate:[
+      'I have decided one player is responsible for all eleven positions and I will not be taking questions.',
+      'He completed one sideways pass and people are calling it a good game. Standards are underground.',
+      'I know the numbers say he played well. My eyes have filed an appeal.'
+    ],
+    managerHate:[
+      'Saladino has lost the plot. I do not know which plot, but it is definitely gone.',
+      'Every bad result is rotation, every good result is the system. Manager propaganda is undefeated.',
+      'SALADINO OUT. I will delete this comment immediately after the next win.'
+    ],
     vulgar:[
       'What the fuck was that final ball though?',
       'I love this club but it is actively trying to kill me.',
@@ -116,7 +143,7 @@
     ]
   };
 
-  const handles = ['curva_commentator','napoli_in_my_blood','tactical_zio','forza_forever'];
+  const handles = ['curva_commentator','napoli_in_my_blood','tactical_zio','SaladinoOutNow','scapegoat_selector','forza_forever'];
   const hash = value => String(value||'').split('').reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);
   const pick = (arr,n) => arr[n % arr.length];
 
@@ -127,8 +154,10 @@
     return [
       [handles[0],pick(genericPools.positive,h)],
       [handles[1],pick(genericPools.negative,h>>2)],
-      [handles[2],pick(genericPools.vulgar,h>>4)],
-      [handles[3],pick(genericPools.weird,h>>6)]
+      [handles[2],pick(genericPools.playerHate,h>>3)],
+      [handles[3],pick(genericPools.managerHate,h>>4)],
+      [handles[4],pick(genericPools.vulgar,h>>5)],
+      [handles[5],pick(genericPools.weird,h>>6)]
     ];
   }
 
