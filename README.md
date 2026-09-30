@@ -4,7 +4,7 @@ Static, dependency-free website for a Napoli / Italy FC 26 Career Mode save.
 
 ## Live site
 
-Once GitHub Pages is enabled with **Source: GitHub Actions**, the site is available at:
+GitHub Pages is configured to deploy directly from the `main` branch root:
 
 `https://stefansaladino.github.io/FC-26-career-mode-tracker/`
 
@@ -20,8 +20,9 @@ then visit `http://localhost:8000`.
 
 ## GitHub Pages
 
-The repository includes the official GitHub Pages Actions deployment pattern. Pushes to `main` automatically deploy the repository root.
+Pages source: **Deploy from a branch**
 
-If this is the first deployment, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. GitHub's `configure-pages` action cannot self-enable Pages using the normal `GITHUB_TOKEN` alone.
+- Branch: `main`
+- Folder: `/ (root)`
 
-No build step or package dependencies are required.
+Every push to `main` updates the published site automatically. No build step or package dependencies are required.
