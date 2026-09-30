@@ -1,13 +1,135 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b2340"><meta name="description" content="Local/static FC 26 Napoli Career Mode season tracker"><title>Napoli FC26 — 2027–28 Tracker</title><link rel="stylesheet" href="styles.css"></head><body>
-<header class="site-header"><div class="wrap header-inner"><div><div class="eyebrow">FC 26 CAREER MODE · 2027–28</div><h1>SSC Napoli Season Room</h1><p class="subtitle">Forza Napoli. Sempre. <span class="dot">•</span> Napoli + Italy manager</p></div><div class="header-actions"><button class="ghost-btn" id="exportBtn">Export local notes</button><label class="ghost-btn file-label">Import notes<input id="importFile" type="file" accept="application/json"></label></div></div></header>
-<nav class="section-nav" aria-label="Season sections"><div class="wrap nav-scroll" id="nav"></div></nav>
-<main class="wrap">
-<section id="overview" class="page-section active" data-section="Overview"><div class="score-strip" id="scoreStrip"></div><div class="overview-grid"><div class="editorial-block"><div class="section-kicker">Current shape</div><h2>First XI</h2><div class="formation" id="formation"></div></div><div class="editorial-block"><div class="section-kicker">Next up</div><h2>Immediate calendar</h2><div id="nextMatches" class="next-matches"></div><div class="budget-line" id="budgetLine"></div></div></div><div class="two-col"><div><div class="section-kicker">Form</div><h2>Recent Napoli results</h2><div id="recentResults" class="result-list"></div></div><div><div class="section-kicker">Production</div><h2>Early leaders</h2><div id="leaders"></div></div></div></section>
-<section id="squad" class="page-section" data-section="Squad"><div class="section-head"><div><div class="section-kicker">Roster</div><h2>Senior squad</h2></div><div class="filters"><input id="squadSearch" type="search" placeholder="Search player or position"><select id="squadTier"><option value="">All roles</option></select></div></div><div class="table-wrap"><table id="squadTable"></table></div><div class="section-kicker spaced">Rotation</div><h2>Second XI core</h2><div id="rotationLineup" class="rotation-lineup"></div></section>
-<section id="matches" class="page-section" data-section="Matches"><div class="section-head"><div><div class="section-kicker">Results</div><h2>Match log</h2></div><div class="filters"><select id="teamFilter"><option value="">Napoli + Italy</option><option>Napoli</option><option>Italy</option></select><select id="compFilter"><option value="">All competitions</option></select></div></div><div id="matchesList" class="match-list"></div></section>
-<section id="stats" class="page-section" data-section="Stats"><div class="section-head"><div><div class="section-kicker">Output</div><h2>Reported player stats</h2></div><div class="small-note">Built only from match events logged in this save.</div></div><div class="stats-layout"><div class="table-wrap"><table id="statsTable"></table></div><div><h3 class="mini-title">Goals</h3><div id="goalBars" class="goal-bars"></div></div></div><div class="section-kicker spaced">Chronology</div><h2>Match events</h2><div id="eventTimeline" class="timeline"></div></section>
-<section id="market" class="page-section" data-section="Market"><div class="section-kicker">Mercato</div><h2>Transfer business</h2><div class="table-wrap"><table id="transferTable"></table></div><div class="two-col market-cols"><div><div class="section-kicker">Offers refused</div><h2>Not for sale</h2><div id="rejectedOffers" class="plain-list"></div></div><div><div class="section-kicker">Sagas</div><h2>Targets that got away</h2><div id="closedTargets" class="plain-list"></div></div></div></section>
-<section id="youth" class="page-section" data-section="Youth"><div class="section-kicker">Pipeline</div><h2>Youth, Italy prospects & loans</h2><div class="table-wrap"><table id="youthTable"></table></div></section>
-<section id="storylines" class="page-section" data-section="Storylines"><div class="section-kicker">Season threads</div><h2>What we are tracking</h2><div id="storyList" class="story-list"></div><div class="notes-panel"><div class="section-head"><div><div class="section-kicker">Local only</div><h2>Manager notebook</h2></div><button class="ghost-btn" id="clearNotes">Clear</button></div><textarea id="managerNotes" placeholder="Add your own notes here. They save only in this browser on this device."></textarea></div></section>
-<section id="newsroom" class="page-section" data-section="Newsroom"><div class="section-kicker">Fictional · in-universe</div><h2>Napoli newsroom</h2><p class="news-disclaimer">These stories are fictional and exist only inside this Career Mode save.</p><div id="newsList" class="news-list"></div></section>
-</main><footer class="site-footer"><div class="wrap">Static tracker · no account · no analytics · no external network calls.</div></footer><script src="data.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#081a2d">
+  <meta name="description" content="SSC Napoli 2027–28 FC 26 Career Mode newsroom, results, squad and season media.">
+  <title>Napoli 2027–28 — Season Room</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ticker" aria-label="Season ticker"><div class="ticker-track" id="tickerTrack"></div></div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <button class="club-mark" data-go="home" aria-label="Go to home">N</button>
+      <div class="brand-copy">
+        <div class="eyebrow">FC 26 CAREER MODE · 2027–28</div>
+        <h1>Napoli Season Room</h1>
+        <p>Results, headlines, pressure, noise.</p>
+      </div>
+      <div class="header-status">
+        <span class="status-dot"></span>
+        <span>Season live</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="Season sections"><div class="wrap nav-scroll" id="nav"></div></nav>
+
+  <main>
+    <section id="home" class="page-section active" data-section="Home">
+      <div class="wrap">
+        <div class="hero-grid">
+          <article id="heroStory" class="hero-story"></article>
+          <aside class="top-stories">
+            <div class="section-kicker">Top Stories</div>
+            <div id="topStories"></div>
+          </aside>
+        </div>
+
+        <div class="home-band">
+          <div>
+            <div class="section-kicker">Latest result</div>
+            <div id="latestResult" class="latest-result"></div>
+          </div>
+          <div>
+            <div class="section-kicker">Next two</div>
+            <div id="nextTwo" class="next-two"></div>
+          </div>
+          <div>
+            <div class="section-kicker">Form</div>
+            <div id="formLine" class="form-line"></div>
+          </div>
+        </div>
+
+        <div class="home-columns">
+          <section>
+            <div class="section-head"><div><div class="section-kicker">Newsroom</div><h2>Latest from the season</h2></div><button class="text-btn" data-go="news">All stories →</button></div>
+            <div id="latestNews" class="latest-news"></div>
+          </section>
+          <aside>
+            <div class="section-kicker">Inside the noise</div>
+            <h2>Whispers & pressure points</h2>
+            <div id="whisperList" class="whisper-list"></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="page-section" data-section="News">
+      <div class="wrap">
+        <div class="section-head news-head">
+          <div><div class="section-kicker">In-universe coverage</div><h2>News & Features</h2><p class="section-intro">The season told like a football newsroom: match reports, dressing-room tension, transfer fallout and opinion.</p></div>
+          <div class="article-filters" id="articleFilters"></div>
+        </div>
+        <div id="newsGrid" class="news-grid"></div>
+      </div>
+    </section>
+
+    <section id="matches" class="page-section" data-section="Matches">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">Match Centre</div><h2>Results & Fixtures</h2></div><div class="filters"><select id="teamFilter"><option value="">Napoli + Italy</option><option>Napoli</option><option>Italy</option></select><select id="compFilter"><option value="">All competitions</option></select></div></div>
+        <div id="upcomingStrip" class="upcoming-strip"></div>
+        <div id="matchesList" class="match-list"></div>
+      </div>
+    </section>
+
+    <section id="squad" class="page-section" data-section="Squad">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">Team</div><h2>First Team</h2><p class="section-intro">A club-style roster view: position, overall and current football context — no contracts or wage clutter.</p></div></div>
+        <div class="squad-layout">
+          <div class="formation-panel"><div class="section-kicker light">Current XI</div><div id="formation" class="formation"></div></div>
+          <div id="squadGroups" class="squad-groups"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="page-section" data-section="Stats">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">Production</div><h2>Season Leaders</h2><p class="section-intro">Only production explicitly logged from this save is counted.</p></div></div>
+        <div class="stats-feature"><div id="topScorer" class="top-scorer"></div><div id="goalBars" class="goal-bars"></div></div>
+        <div class="table-wrap stats-table-wrap"><table id="statsTable"></table></div>
+      </div>
+    </section>
+
+    <section id="academy" class="page-section" data-section="Academy">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">Future</div><h2>Academy & Loans</h2><p class="section-intro">The next wave, including the Italy-linked prospects developing away from Napoli.</p></div></div>
+        <div class="table-wrap"><table id="youthTable"></table></div>
+      </div>
+    </section>
+
+    <section id="media" class="page-section" data-section="Media">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">Matchday Media</div><h2>Posters, Clips & Hype</h2><p class="section-intro">Editorial art now. Gameplay clips, goals and hype videos can slot into this wall as footage is added.</p></div></div>
+        <div id="mediaWall" class="media-wall"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="article-modal" id="articleModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-article></div>
+    <article class="article-reader" role="dialog" aria-modal="true" aria-labelledby="readerHeadline">
+      <button class="reader-close" data-close-article aria-label="Close article">×</button>
+      <div id="readerContent"></div>
+    </article>
+  </div>
+
+  <footer class="site-footer"><div class="wrap"><strong>Napoli Season Room</strong><span id="fictionalNotice"></span></div></footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
