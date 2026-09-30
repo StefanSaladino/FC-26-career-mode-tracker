@@ -4,6 +4,7 @@ import vm from 'node:vm';
 
 const root = process.cwd();
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const context = { window: {}, console };
 vm.createContext(context);
@@ -60,17 +61,29 @@ function jpegDimensions(buffer) {
   return null;
 }
 
+async function fetchRemoteImage(url) {
+  let lastResponse = null;
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    const response = await fetch(url, {
+      method: 'GET',
+      redirect: 'follow',
+      headers: {
+        Range: 'bytes=0-2047',
+        'User-Agent': 'Napoli-Season-Room-image-audit/1.0 (+https://github.com/StefanSaladino/FC-26-career-mode-tracker)'
+      }
+    });
+    lastResponse = response;
+
+    if (![429, 503].includes(response.status)) return response;
+    await sleep(1000 * attempt);
+  }
+  return lastResponse;
+}
+
 async function checkRemote(article) {
-  const response = await fetch(article.image, {
-    method: 'GET',
-    redirect: 'follow',
-    headers: {
-      Range: 'bytes=0-2047',
-      'User-Agent': 'Napoli-Season-Room-image-audit/1.0'
-    }
-  });
-  if (!response.ok && response.status !== 206) {
-    throw new Error(`${article.id}: remote image returned HTTP ${response.status}`);
+  const response = await fetchRemoteImage(article.image);
+  if (!response || (!response.ok && response.status !== 206)) {
+    throw new Error(`${article.id}: remote image returned HTTP ${response?.status ?? 'unknown'}`);
   }
   const type = response.headers.get('content-type') || '';
   if (!type.startsWith('image/')) {
@@ -79,6 +92,7 @@ async function checkRemote(article) {
   if (!article.imageCredit || !article.imageSource) {
     throw new Error(`${article.id}: external image is missing credit/source metadata`);
   }
+  await sleep(750);
 }
 
 function checkLocal(article) {
