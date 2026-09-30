@@ -19,14 +19,15 @@
 
   const style = document.createElement('style');
   style.textContent = `
-    .season-video-wrap{background:#06111f;overflow:hidden;aspect-ratio:16/9}
-    .season-video{display:block;width:100%;height:100%;object-fit:contain;background:#000}
-    .reader-gameplay{background:#06111f;border-top:1px solid rgba(255,255,255,.08)}
+    .season-video-wrap{background:#02070c;overflow:hidden;aspect-ratio:16/9;max-width:760px;margin:0 auto}
+    .season-video{display:block;width:100%;height:100%;object-fit:contain;background:#02070c}
+    .reader-gameplay{background:#06111f;border-top:1px solid rgba(255,255,255,.08);max-width:760px;margin:0 auto}
     .reader-gameplay-copy{padding:10px 16px 12px;background:#fff;color:#66758a;font-size:.75rem;line-height:1.4}
     .reader-gameplay-copy strong{display:block;color:#081a2d;font-size:.82rem;margin-bottom:2px}
+    .gameplay-media-card{max-width:760px;width:100%;justify-self:start}
     .gameplay-media-card figcaption{display:flex;flex-direction:column;gap:6px}
     .gameplay-media-card .read-link{align-self:flex-start;border:0;background:none;padding:0;color:var(--sky);font:inherit;font-weight:800;cursor:pointer}
-    @media(max-width:760px){.reader-gameplay-copy{padding:9px 12px 11px}}
+    @media(max-width:760px){.reader-gameplay-copy{padding:9px 12px 11px}.season-video-wrap,.reader-gameplay,.gameplay-media-card{max-width:100%}}
   `;
   document.head.appendChild(style);
 
@@ -34,6 +35,7 @@
     const video = document.createElement('video');
     video.className = className;
     video.src = clipUrl;
+    video.poster = 'assets/pio-napoli.jpg';
     video.controls = true;
     video.playsInline = true;
     video.preload = 'metadata';
