@@ -2,7 +2,7 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-23';
+  const VERSION = '20260930-30';
   const local = file => `assets/${file}?v=${VERSION}`;
   const media = {
     bayern: {src:'https://upload.wikimedia.org/wikipedia/commons/5/5a/Allianz_Arena_at_Night_%28168589194%29.jpg',credit:'Ralph / Wikimedia Commons · CC BY 2.0',source:'https://commons.wikimedia.org/wiki/File:Allianz_Arena_at_Night_(168589194).jpg',objectPosition:'50% 55%',objectFit:'cover'},
@@ -22,19 +22,6 @@
   };
   ensureResult(['Napoli','Sassuolo','Serie A',2,1,'W',"Chiesa 40'; Beier 85'",'Paz assist on Beier winner; Meret made multiple key second-half saves']);
   ensureResult(['Napoli','Lazio','Serie A',0,0,'D','—','Rotated side; clean sheet; unbeaten league run preserved']);
-
-  D.upcoming = [
-    ['Genoa','Serie A','Next · Oct 30'],
-    ['Arsenal','Champions League','Nov 2'],
-    ['Udinese','Serie A','Nov 6']
-  ];
-  D.ticker = [
-    'FT · NAPOLI 0–0 LAZIO · CLEAN SHEET',
-    'SERIE A · NAPOLI 6–3–0 · 21 PTS',
-    'NEXT · NAPOLI vs GENOA · SERIE A',
-    'THEN · ARSENAL · CHAMPIONS LEAGUE',
-    'LEAGUE · STILL UNBEATEN'
-  ];
 
   const lazioArticle = {
     id:'lazio-control', category:'Match Report', label:'Rotation Point', date:'After Napoli 0–0 Lazio',
@@ -76,40 +63,5 @@
     });
   }
 
-  D.hero = {articleId:'lazio-control',strap:'ROTATED. FRUSTRATED. STILL UNBEATEN.'};
-
-  if (Array.isArray(D.stats)) {
-    D.stats = D.stats.map(row => {
-      if (row[0]==='Maximilian Beier') return ['Maximilian Beier',3,0,'Three goals logged; winner vs Sassuolo in the 85th minute.'];
-      if (row[0]==='Federico Chiesa') return ['Federico Chiesa',2,0,'Goals vs Pisa and Sassuolo; twice delivered in pressure moments.'];
-      if (row[0]==='Nico Paz') return ['Nico Paz',1,1,'Late winner on debut; assisted Beier’s 85th-minute winner vs Sassuolo.'];
-      if (row[0]==='Alex Meret') return ['Alex Meret',0,0,'Multiple key saves vs Sassuolo; part of the clean-sheet run-in around Lazio.'];
-      return row;
-    });
-    D.stats.sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
-  }
-
-  D.whispers = [
-    ['Rotation Tax','The Lazio draw cost two points, but Napoli protected key legs with Arsenal approaching.'],
-    ['Still Unbeaten','Napoli move to 6–3–0 in Serie A: 21 points through nine league matches.'],
-    ['October Finale','Genoa closes the month before the schedule swings immediately into Arsenal.'],
-    ['Depth Test','The next run — Genoa, Arsenal, Udinese — will test whether rotation can preserve both the title push and Europe.']
-  ];
-
-  window.NAPOLI_IMAGE_FALLBACK = local('editorial-bayern.svg');
-  D.media = [
-    {type:'image',title:'Lazio: No Breakthrough, No Damage',src:media.market.src,tag:'Match Report',credit:media.market.credit,source:media.market.source,objectPosition:media.market.objectPosition,objectFit:media.market.objectFit,articleId:'lazio-control'},
-    {type:'image',title:'Sassuolo: The Response',src:media.chiesa.src,tag:'Match Report',credit:media.chiesa.credit,source:null,objectPosition:media.chiesa.objectPosition,objectFit:media.chiesa.objectFit,articleId:'sassuolo-response'},
-    {type:'image',title:'Still Top, Still Unbeaten',src:media.market.src,tag:'Title Race',credit:media.market.credit,source:media.market.source,objectPosition:media.market.objectPosition,objectFit:media.market.objectFit,articleId:'napoli-still-top'},
-    {type:'image',title:'Bayern: The First Real Test',src:media.bayern.src,tag:'Matchweek',credit:media.bayern.credit,source:media.bayern.source,objectPosition:media.bayern.objectPosition,objectFit:media.bayern.objectFit,articleId:'bayern-test'},
-    {type:'image',title:"Chiesa: 80' and Chaos Over",src:media.chiesa.src,tag:'Player Focus',credit:media.chiesa.credit,source:null,objectPosition:media.chiesa.objectPosition,objectFit:media.chiesa.objectFit,articleId:'chiesa-pisa'},
-    {type:'image',title:'Pio: The Shirt Is His For Now',src:media.pio.src,tag:'No. 9 Watch',credit:media.pio.credit,source:null,objectPosition:media.pio.objectPosition,objectFit:media.pio.objectFit,articleId:'pio-shirt'},
-    {type:'image',title:'Three Calls, Three Nos',src:media.market.src,tag:'Mercato',credit:media.market.credit,source:media.market.source,objectPosition:media.market.objectPosition,objectFit:media.market.objectFit,articleId:'three-nos'},
-    {type:'image',title:'Paz: The Heir Is Already Playing',src:media.paz.src,tag:'Succession',credit:media.paz.credit,source:media.paz.source,objectPosition:media.paz.objectPosition,objectFit:media.paz.objectFit,articleId:'paz-kdb'},
-    {type:'image',title:'Peacock: The Development Gamble',src:media.peacock.src,tag:'Development',credit:media.peacock.credit,source:media.peacock.source,objectPosition:media.peacock.objectPosition,objectFit:media.peacock.objectFit,articleId:'peacock-problem'},
-    {type:'image',title:'Club and Country',src:media.italy.src,tag:'Italy',credit:media.italy.credit,source:media.italy.source,objectPosition:media.italy.objectPosition,objectFit:media.italy.objectFit,articleId:'italy-pipeline'},
-    {type:'image',title:'The Captaincy Transition',src:media.captain.src,tag:'Dressing Room',credit:media.captain.credit,source:media.captain.source,objectPosition:media.captain.objectPosition,objectFit:media.captain.objectFit,articleId:'captain-future'},
-    {type:'image',title:'The Insurance Policy',src:media.stach.src,tag:'Squad Depth',credit:media.stach.credit,source:media.stach.source,objectPosition:media.stach.objectPosition,objectFit:media.stach.objectFit,articleId:'stach-insurance'},
-    {type:'video-placeholder',title:'Gameplay Archive',tag:'Video',note:'Gameplay clips, goals and hype videos will live here once footage is added.'}
-  ];
+  window.NAPOLI_IMAGE_FALLBACK = null;
 })();
