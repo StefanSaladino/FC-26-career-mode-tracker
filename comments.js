@@ -1,173 +1,110 @@
 (() => {
-  const commentsByArticle = {
+  const specific = {
+    'udinese-pio-clean-sheet': [
+      ['PioNation','Seven logged goals and another winner. At some point we can stop calling this a hot streak and admit he is just clinical.'],
+      ['BeierDefenseLeague','Back-to-back assists for Beier. Quietly doing a lot of the dirty work around Pio.'],
+      ['curva_bastoni','That back four was disgusting today. Udinese got absolutely nothing for free.'],
+      ['MeretUnion','One real danger moment and Meret answered it. That is exactly what you need from your number one.'],
+      ['ChiesaHive','Hit the post late and I still thought it was going in. Man is permanently one touch away from chaos.'],
+      ['tactical_zio','Not the five-goal beating everyone wanted, but honestly this was mature. One goal and then suffocate the game.'],
+      ['PioHaterForNoReason','Fine. Seven goals. I will be quiet for exactly one match.'],
+      ['NapoliSempre','Win before the break, clean sheet, two weeks to reset. No notes.']
+    ],
+    'arsenal-pio-91': [
+      ['PioNation','90+1 and he absolutely buries it. That is a striker who does not care what minute it is.'],
+      ['BeierDefenseLeague','People only remember the finish. Beier found the pass. Huge contribution.'],
+      ['MeretUnion','Without Meret this is over long before stoppage time. Give the keeper his flowers.'],
+      ['curvaB_screamer','I went from accepting the loss to screaming at my television in half a second.'],
+      ['DroughtWatch','Two straight 0–0s and then THAT is how the drought ends. Of course it is.'],
+      ['RayaPleaseStop','Raya saved everything for 90 minutes and then Pio finally said enough.'],
+      ['SaladinoOutNow','I had the post ready. Then Pio scored. Draft deleted.'],
+      ['NapoliTherapy','This club will never allow a normal emotional experience.']
+    ],
     'genoa-drought': [
-      ['vesuvio_ultras87','Two straight 0–0s. I am begging one of these forwards to remember the net exists.'],
-      ['PartenopeiProfessor','The defensive structure is excellent. The final third is where every promising move goes to die.'],
-      ['MarekWasRight','Jankowski turned into prime Buffon for absolutely no reason. Fuck off man.'],
-      ['SaladinoOutNow','Saladino has rotated this attack into witness protection. 180 minutes without a league goal is criminal.'],
-      ['BeierFraudWatch','Beier gets one chance and suddenly we are supposed to applaud the movement. Put the ball in the net, brother.'],
-      ['PioApologist','Pio did not invent the scoring drought by himself. Maybe give the striker a pass inside the same postal code.'],
-      ['DaviesExpress','Davies keeps getting us up the pitch and then everyone in the box turns into furniture.'],
-      ['NapoliSempre','Still unbeaten in the league. Arsenal next. Nobody panic.'],
-      ['CurvaBChaos','180 league minutes without a goal and somehow I am both furious and weirdly calm. Football is a disease.']
+      ['vesuvio_ultras87','Two straight 0–0s. Somebody please locate the goal.'],
+      ['PartenopeiProfessor','Defensive structure excellent. Final-third execution absolutely dead.'],
+      ['MarekWasRight','Jankowski picked today to become prime Buffon. Naturally.'],
+      ['DaviesExpress','Davies gets us sixty yards up the pitch and then the move evaporates.'],
+      ['NapoliSempre','Still unbeaten. Arsenal next. Panic later if required.'],
+      ['CurvaBChaos','Somehow furious and calm at the same time. This sport is stupid.']
     ],
     'lazio-control': [
-      ['azzurro_76','A point with that much rotation is not the apocalypse people are making it out to be.'],
-      ['NapoliDoomer','WE ARE FINISHED. DELETE THE CLUB. SELL THE STADIUM.'],
-      ['tacticalnonno','Back line was excellent. Midfield was fine. Attack had all the menace of a damp sock.'],
-      ['RotationPolice','Saladino saw a title race and decided everybody needed a spa day.'],
-      ['WhyIsMooreStarting','I have nothing against Moore personally but why am I watching development minutes while first place is on the line?'],
-      ['ForzaNapoli94','Clean sheet, unbeaten, move on.'],
-      ['CiroFromQueens','If I watch one more promising attack end in absolutely nothing I am launching my controller into the sun.']
+      ['azzurro_76','A point with that much rotation is not the apocalypse.'],
+      ['NapoliDoomer','WE ARE FINISHED. DELETE THE CLUB.'],
+      ['tacticalnonno','Back line good. Midfield fine. Attack had the menace of a damp sock.'],
+      ['WhyIsMooreStarting','Development minutes in a title race will always make me nervous.'],
+      ['ForzaNapoli94','Clean sheet. Unbeaten. Move on.']
     ],
     'sassuolo-response': [
-      ['PazEnjoyer','NICO PAZ OFF THE BENCH AND STRAIGHT INTO THE WINNER. THAT IS MY GUY.'],
+      ['PazEnjoyer','Paz off the bench and straight into the winner. That is my guy.'],
       ['ChiesaHive','Chiesa heard the criticism and chose violence.'],
-      ['MeretUnion','Everyone thank Meret before you start talking about the winner.'],
-      ['beierburner','Three goals and people still act like Beier should be sold. Behave.'],
-      ['ManagerCam','Saladino waited until we were all clinically dead before making the winning changes. Genius or terrorism, you decide.'],
-      ['ultras_di_toronto','85th minute winners are great for the soul and absolutely shit for my blood pressure.']
-    ],
-    'napoli-still-top': [
-      ['ScudettoPolice','Top of the table and unbeaten. I will be insufferable until further notice.'],
-      ['RealistAzzurro','Two points is not a cushion, it is a suggestion. Keep winning.'],
-      ['MaradonaWasHere','Milan, Juve, Inter all lurking. This season is going to be disgusting. I love it.'],
-      ['SaladinoPropaganda','Manager gets praised for being top but when we draw he says rotation. Convenient.'],
-      ['NoPanicNapoli','People wanted perfection in October. We are first. Calm down.'],
-      ['AwayEndMenace','If we bottle this I am moving to a monastery.']
+      ['MeretUnion','Everyone thank Meret before discussing the comeback.'],
+      ['beierburner','Three goals and people still talk like Beier is disposable.'],
+      ['ultras_di_toronto','85th-minute winners are terrible for my blood pressure.']
     ],
     'bayern-test': [
-      ['EuropeanNights','Bayern were just cleaner. That is the level. Learn and move.'],
-      ['DaviesExpress','Davies was cooking that entire left side and nobody finished the meal.'],
-      ['NapoliDoomer','WE LOST 2–0. PROJECT OVER. EVERYBODY OUT.'],
-      ['WhyPazThere','Starting Paz centrally in that game was brave. I am using brave in the insulting sense.'],
-      ['SaladinoOutNow','Bayern just gave Saladino a free tactical seminar and charged us 90 minutes for it.'],
-      ['KDBTruthers','Second half looked different as soon as Kevin came on. That pass still matters.'],
-      ['curva_bastoni','Nübel needs to stop saving everything and get a real hobby.']
+      ['EuropeanNights','Bayern were cleaner. Learn from it and move.'],
+      ['DaviesExpress','Davies was cooking that left side and nobody finished the meal.'],
+      ['KDBTruthers','Second half changed the second Kevin came on.'],
+      ['curva_bastoni','Nübel needs another hobby besides saving everything.'],
+      ['NapoliDoomer','PROJECT OVER. I WILL REVERSE THIS TAKE AFTER THE NEXT WIN.']
     ],
     'chiesa-pisa': [
-      ['FedeForever','CHIESA 80TH MINUTE. THAT IS CINEMA.'],
-      ['PisaTrauma','Why did we make Pisa look like 2011 Barcelona for twenty minutes?'],
-      ['StachAttack','Goal and assist from Stach and somehow nobody is talking about it.'],
-      ['SaladinoSurvivor','Manager nearly coached a two-goal lead into the ocean and Chiesa dragged it back.'],
-      ['NapoliTherapy','This club refuses to win a normal match.'],
-      ['curvaB_screamer','I aged nine fucking years during that second half.']
+      ['FedeForever','CHIESA 80TH MINUTE. CINEMA.'],
+      ['PisaTrauma','Why did Pisa look like 2011 Barcelona for twenty minutes?'],
+      ['StachAttack','Goal and assist from Stach and somehow nobody talks about it.'],
+      ['NapoliTherapy','This club refuses to win a normal match.']
     ],
     'pio-shirt': [
-      ['PioNation','Five goals. Shirt is his until someone takes it. Simple.'],
-      ['BeierDefenseLeague','Can we praise Pio without pretending Beier is useless please?'],
-      ['PioHaterForNoReason','Penalties, tap-ins, vibes. Wake me up when he scores one from the parking lot.'],
-      ['AzzurriScout','The Italy pipeline makes this even more fun.'],
-      ['oldschoolnapoli','Young striker scoring goals and everyone already wants to build a statue. Never change.'],
-      ['No9Discourse','One quiet game and this comment section will become a war zone. I can feel it.']
-    ],
-    'three-nos': [
-      ['KeepTheCore','204M and still no. Respect.'],
-      ['SellHighFC','I love Beier but TWO HUNDRED AND FOUR MILLION DOLLARS???'],
-      ['SaladinoEconomics','Manager turned down 204 million because apparently money is a social construct now.'],
-      ['CaptainDiLo','Rejecting the Di Lorenzo offer was the right call for the dressing room alone.'],
-      ['MercatoGoblin','Napoli turned off notifications and went to lunch.'],
-      ['SpreadsheetUltra','The accountant in me is screaming. The fan in me is delighted.']
+      ['PioNation','The shirt is his until someone takes it. Simple.'],
+      ['BeierDefenseLeague','Praise Pio without pretending Beier is useless challenge.'],
+      ['PioHaterForNoReason','Fine goals. Wake me when he scores from the parking lot.'],
+      ['No9Discourse','One quiet game and this section becomes a civil war.']
     ],
     'paz-kdb': [
       ['PazEnjoyer','It does not have to be one or the other. Play both and let teams suffer.'],
-      ['KDBForever','You cannot teach that final pass. Kevin still has it.'],
-      ['PazFraudDepartment','One nice assist and suddenly he is the heir to civilization. Relax.'],
-      ['FutureIsNow','Paz getting the Bayern start tells you everything about the trust level.'],
-      ['TacticsInBio','Different profiles. Different game states. This is called having options, lads.'],
-      ['CommentSectionCoach','Personally I would simply start twelve players. Problem solved.']
-    ],
-    'peacock-problem': [
-      ['AcademyWatch','If the potential is really low 90s you have to live with some pain.'],
-      ['MeretMeansMore','Development is great until it costs points. Meret is the number one.'],
-      ['KeeperUnion','Clean sheet against Torino. Let the kid breathe.'],
-      ['SaladinoAcademyTax','The manager is trying to speedrun goalkeeper development in a title race. Fantastic.'],
-      ['SavePercentageCop','One clean sheet and suddenly everyone is Gianluigi Buffon.'],
-      ['loan_him_now','PLAY HIM OR LOAN HIM. THIS HALF MEASURE SHIT IS HOW KEEPERS DIE.']
-    ],
-    'italy-pipeline': [
-      ['AzzurriCore','Napoli becoming the spine of Italy is exactly the kind of nonsense I signed up for.'],
-      ['ClubBeforeCountry','Just send everyone back healthy please.'],
-      ['KayodeTruth','Kayode is going to own that right side for club and country.'],
-      ['ConflictOfInterestFC','Saladino managing Napoli AND Italy is just one man selecting his favourites twice. I respect the efficiency.'],
-      ['CalcioRomantic','This save is slowly turning into a national-team laboratory and I love it.'],
-      ['InternationalBreakHater','Great story. Now abolish international breaks.']
-    ],
-    'captain-future': [
-      ['DiLoRespect','You do not throw away the captain because the younger guy is better now.'],
-      ['KayodeEra','Armband or not, Kayode is the future.'],
-      ['DressingRoomFC','This is exactly why veteran depth matters in a long season.'],
-      ['SaladinoPolitics','Manager trying to keep everyone happy is how you end up with three captains and a group chat mutiny.'],
-      ['SentimentPolice','Football is ruthless. If he cannot play, he cannot play.'],
-      ['NapoliDad','Why am I emotionally attached to a fictional captaincy transition?']
-    ],
-    'stach-insurance': [
-      ['StachAttack','THE INSURANCE POLICY SCORES GOALS.'],
-      ['DepthWinsTitles','These are the signings nobody cares about until February.'],
-      ['TransferGradeMerchant','25.5M looks better every time he plays.'],
-      ['BenchMob','Start him you cowards.'],
-      ['NormalTakeGuy','Useful squad player. That is the entire comment.']
+      ['KDBForever','You cannot teach that final pass.'],
+      ['TacticsInBio','Different profiles for different game states. This is called depth.'],
+      ['CommentSectionCoach','Personally I would start twelve players. Problem solved.']
     ]
   };
 
-  const genericPools = {
-    positive:[
-      'Good piece. The season is long and context matters.',
-      'People are overreacting. The underlying structure still looks strong.',
-      'I like where this squad is going. Keep building.'
-    ],
-    negative:[
-      'Absolutely not good enough. I refuse to hear excuses.',
-      'The warning signs are there and everyone is pretending not to see them.',
-      'If this happens in a big match we are cooked.'
-    ],
-    playerHate:[
-      'I have decided one player is responsible for all eleven positions and I will not be taking questions.',
-      'He completed one sideways pass and people are calling it a good game. Standards are underground.',
-      'I know the numbers say he played well. My eyes have filed an appeal.'
-    ],
-    managerHate:[
-      'Saladino has lost the plot. I do not know which plot, but it is definitely gone.',
-      'Every bad result is rotation, every good result is the system. Manager propaganda is undefeated.',
-      'SALADINO OUT. I will delete this comment immediately after the next win.'
-    ],
-    vulgar:[
-      'What the fuck was that final ball though?',
-      'I love this club but it is actively trying to kill me.',
-      'Some of you need to calm the fuck down and watch the match again.'
-    ],
-    weird:[
-      'My tactical analysis is that we should score more goals than the other team.',
-      'I have seen enough. Give the ball to the fastest guy and pray.',
-      'This is either the start of something special or a future documentary about pain.'
-    ]
-  };
+  const handles = [
+    'curva_commentator','napoli_in_my_blood','tactical_zio','scapegoat_selector','forza_forever',
+    'northstandnoise','partenopei92','matchday_meltdown','bluewall','touchlinelawyer','awayendchaos','vesuvio_voice'
+  ];
 
-  const handles = ['curva_commentator','napoli_in_my_blood','tactical_zio','SaladinoOutNow','scapegoat_selector','forza_forever'];
-  const hash = value => String(value||'').split('').reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);
-  const pick = (arr,n) => arr[n % arr.length];
+  const banks = [
+    ['That was one of those matches where the scoreline tells about half the story.','You can see the idea even when the execution is messy.','This team is becoming annoyingly difficult to kill off.','I need one normal match before this season ends. Just one.'],
+    ['The midfield spacing was much better than people are giving it credit for.','Everyone wants fireworks every week. Sometimes control is the point.','There were warning signs, but there were answers too.','I am filing this under useful rather than pretty.'],
+    ['One player is about to get blamed for all eleven positions and somehow I already know who.','The comments are going to be unbearable if this happens again.','Some of you watched a completely different match and I respect the confidence.','The overreaction cycle has officially begun.'],
+    ['That final ball is going to haunt me for a full twenty-four hours.','Football would be easier if we simply scored every chance. I have solved the sport.','I have seen enough to form three contradictory opinions.','This is exactly the kind of result that looks smarter two weeks later.'],
+    ['The manager will get blamed either way, so at least make the discourse entertaining.','Rotation discourse loading in three, two, one...','Every substitution is genius after a win and terrorism after a draw. Never change.','I am once again asking everyone to wait more than five minutes before declaring a crisis.']
+  ];
 
-  function commentsFor(article){
-    const specific = commentsByArticle[article.id];
-    if(specific) return specific;
-    const h = hash(article.id || article.headline);
-    return [
-      [handles[0],pick(genericPools.positive,h)],
-      [handles[1],pick(genericPools.negative,h>>2)],
-      [handles[2],pick(genericPools.playerHate,h>>3)],
-      [handles[3],pick(genericPools.managerHate,h>>4)],
-      [handles[4],pick(genericPools.vulgar,h>>5)],
-      [handles[5],pick(genericPools.weird,h>>6)]
-    ];
+  const hash = value => String(value||'').split('').reduce((n,c)=>(n*33+c.charCodeAt(0))>>>0,5381);
+  const escapeComment = (value='') => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+
+  function genericComments(article){
+    const seed = hash(`${article.id}|${article.headline}`);
+    const rows = [];
+    const used = new Set();
+    for(let i=0;i<6;i++){
+      const bank=banks[(seed+i*7)%banks.length];
+      let text=bank[(seed+i*11)%bank.length];
+      let guard=0;
+      while(used.has(text)&&guard<12){text=bank[(seed+i*11+guard+1)%bank.length];guard++;}
+      used.add(text);
+      rows.push([handles[(seed+i*5)%handles.length],text]);
+    }
+    return rows;
   }
+
+  function commentsFor(article){ return specific[article.id] || genericComments(article); }
 
   function renderComments(article){
     const rows = commentsFor(article);
-    return `<section class="fan-comments" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text],i)=>`<article class="fan-comment"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong><span>${i===0?'just now':`${i*3+2}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${17+i*11}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
-  }
-
-  function escapeComment(value=''){
-    return String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+    return `<section class="fan-comments" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text],i)=>`<article class="fan-comment"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong><span>${i===0?'just now':`${i*4+3}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
   }
 
   function appendComments(id){
@@ -178,18 +115,12 @@
     reader.insertAdjacentHTML('beforeend',renderComments(article));
   }
 
-  document.addEventListener('click',e=>{
-    const trigger=e.target.closest?.('[data-article]');
-    if(trigger) queueMicrotask(()=>appendComments(trigger.dataset.article));
-  });
-  document.addEventListener('keydown',e=>{
-    const trigger=e.target.closest?.('[data-article]');
-    if(trigger&&(e.key==='Enter'||e.key===' ')) setTimeout(()=>appendComments(trigger.dataset.article),0);
-  });
+  document.addEventListener('click',e=>{const trigger=e.target.closest?.('[data-article]');if(trigger) queueMicrotask(()=>appendComments(trigger.dataset.article));});
+  document.addEventListener('keydown',e=>{const trigger=e.target.closest?.('[data-article]');if(trigger&&(e.key==='Enter'||e.key===' ')) setTimeout(()=>appendComments(trigger.dataset.article),0);});
 
   const style=document.createElement('style');
   style.textContent=`
-    .fan-comments{margin:0 clamp(20px,7vw,76px) 52px;border-top:4px solid var(--navy);padding-top:22px}
+    .fan-comments{margin:0 clamp(20px,7vw,76px) 34px;border-top:4px solid var(--navy);padding-top:22px}
     .fan-comments-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:8px}
     .fan-comments-head span{display:block;color:var(--blue);font-size:.68rem;font-weight:950;letter-spacing:.11em;text-transform:uppercase}
     .fan-comments-head h3{margin:3px 0 0;font-size:1.35rem;letter-spacing:-.02em}
@@ -201,7 +132,7 @@
     .fan-comment-meta span,.fan-actions{font-size:.68rem;color:var(--muted)}
     .fan-comment p{margin:4px 0 7px!important;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;font-size:.9rem!important;line-height:1.45!important;color:var(--ink)!important}
     .fan-actions{display:flex;gap:15px;font-weight:800}
-    @media(max-width:760px){.fan-comments{margin:0 20px 40px}.fan-comments-head{align-items:flex-start;flex-direction:column;gap:4px}.fan-comments-head small{white-space:normal}.fan-comment{grid-template-columns:34px 1fr}.fan-avatar{width:34px;height:34px}}
+    @media(max-width:760px){.fan-comments{margin:0 20px 24px}.fan-comments-head{align-items:flex-start;flex-direction:column;gap:4px}.fan-comments-head small{white-space:normal}.fan-comment{grid-template-columns:34px 1fr}.fan-avatar{width:34px;height:34px}}
     @media(max-width:390px){.fan-comments{margin-left:16px;margin-right:16px}}
   `;
   document.head.appendChild(style);
