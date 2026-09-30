@@ -35,10 +35,10 @@
       objectFit: 'cover'
     },
     paz: {
-      src: local('paz-napoli.jpg'),
-      credit: 'Season Room generated composite — Nico Paz visualized in Napoli colours for this FC 26 save.',
-      source: null,
-      objectPosition: '50% 38%',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Stadio_San_Paolo_%28Napoli_vs_Club_Brugge%29_-_panoramio_%284%29.jpg',
+      credit: 'Mister No / Wikimedia Commons · CC BY 3.0',
+      source: 'https://commons.wikimedia.org/wiki/File:Stadio_San_Paolo_(Napoli_vs_Club_Brugge)_-_panoramio_(4).jpg',
+      objectPosition: '50% 52%',
       objectFit: 'cover'
     },
     peacock: {
@@ -102,7 +102,7 @@
     { type: 'image', title: "Chiesa: 80' and Chaos Over", src: media.chiesa.src, tag: 'Player Focus', credit: media.chiesa.credit, source: null, objectPosition: media.chiesa.objectPosition, objectFit: media.chiesa.objectFit },
     { type: 'image', title: 'Pio: The Shirt Is His For Now', src: media.pio.src, tag: 'No. 9 Watch', credit: media.pio.credit, source: null, objectPosition: media.pio.objectPosition, objectFit: media.pio.objectFit },
     { type: 'image', title: 'Three Calls, Three Nos', src: media.market.src, tag: 'Mercato', credit: media.market.credit, source: media.market.source, objectPosition: media.market.objectPosition, objectFit: media.market.objectFit },
-    { type: 'image', title: 'Paz: The Heir Is Already Playing', src: media.paz.src, tag: 'Succession', credit: media.paz.credit, source: null, objectPosition: media.paz.objectPosition, objectFit: media.paz.objectFit },
+    { type: 'image', title: 'Paz: The Heir Is Already Playing', src: media.paz.src, tag: 'Succession', credit: media.paz.credit, source: media.paz.source, objectPosition: media.paz.objectPosition, objectFit: media.paz.objectFit },
     { type: 'image', title: 'Peacock: The Development Gamble', src: media.peacock.src, tag: 'Development', credit: media.peacock.credit, source: null, objectPosition: media.peacock.objectPosition, objectFit: media.peacock.objectFit },
     { type: 'image', title: 'Club and Country', src: media.italy.src, tag: 'Italy', credit: media.italy.credit, source: media.italy.source, objectPosition: media.italy.objectPosition, objectFit: media.italy.objectFit },
     { type: 'image', title: 'The Captaincy Transition', src: media.captain.src, tag: 'Dressing Room', credit: media.captain.credit, source: media.captain.source, objectPosition: media.captain.objectPosition, objectFit: media.captain.objectFit },
