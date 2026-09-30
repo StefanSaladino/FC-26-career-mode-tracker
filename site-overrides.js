@@ -2,45 +2,52 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-6';
-  const RAW = 'https://raw.githubusercontent.com/StefanSaladino/FC-26-career-mode-tracker/main/assets/';
+  const VERSION = '20260930-7';
+  const local = file => `assets/${file}?v=${VERSION}`;
 
   const media = {
-    bayern: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Allianz_Arena_at_night.jpg/1280px-Allianz_Arena_at_night.jpg",
-      credit: "Allianz Arena photo: Masi27185 / Wikimedia Commons — CC BY-SA 3.0",
-      source: "https://commons.wikimedia.org/wiki/File:Allianz_Arena_at_night.jpg",
-      objectPosition: "50% 58%",
-      objectFit: "cover"
+    bayernHero: {
+      src: local('editorial-bayern-hero.svg'),
+      credit: 'Season Room editorial graphic.',
+      source: null,
+      objectPosition: '50% 50%',
+      objectFit: 'cover'
+    },
+    bayernPoster: {
+      src: local('editorial-bayern.svg'),
+      credit: 'Season Room editorial graphic.',
+      source: null,
+      objectPosition: '50% 50%',
+      objectFit: 'contain'
     },
     chiesa: {
-      src: `${RAW}chiesa-napoli.webp?rev=${VERSION}`,
-      credit: "Season Room composite — fictional Napoli-kit visualization for this FC 26 save.",
+      src: local('editorial-pisa.svg'),
+      credit: 'Season Room match graphic — Napoli 3–2 Pisa, Chiesa 80\'.',
       source: null,
-      objectPosition: "50% 50%",
-      objectFit: "contain"
+      objectPosition: '50% 50%',
+      objectFit: 'contain'
     },
     pio: {
-      src: `${RAW}pio-napoli.webp?rev=${VERSION}`,
-      credit: "Season Room composite — fictional Napoli-kit visualization for this FC 26 save.",
+      src: local('editorial-pio.svg'),
+      credit: 'Season Room striker-watch graphic.',
       source: null,
-      objectPosition: "50% 50%",
-      objectFit: "contain"
+      objectPosition: '50% 50%',
+      objectFit: 'contain'
     },
-    maradona: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Stadio_Diego_Armando_Maradona_2022_%281%29.jpg/1280px-Stadio_Diego_Armando_Maradona_2022_%281%29.jpg",
-      credit: "Stadio Diego Armando Maradona photo: Joris / Wikimedia Commons — CC BY-SA 4.0",
-      source: "https://commons.wikimedia.org/wiki/File:Stadio_Diego_Armando_Maradona_2022_(1).jpg",
-      objectPosition: "50% 55%",
-      objectFit: "cover"
+    market: {
+      src: local('editorial-market.svg'),
+      credit: 'Season Room transfer-window graphic.',
+      source: null,
+      objectPosition: '50% 50%',
+      objectFit: 'contain'
     }
   };
 
   const articleMap = {
-    "bayern-test": media.bayern,
-    "chiesa-pisa": media.chiesa,
-    "pio-shirt": media.pio,
-    "three-nos": media.maradona
+    'bayern-test': media.bayernHero,
+    'chiesa-pisa': media.chiesa,
+    'pio-shirt': media.pio,
+    'three-nos': media.market
   };
 
   if (Array.isArray(D.articles)) {
@@ -56,12 +63,10 @@
   }
 
   D.media = [
-    { type: "image", title: "Bayern: The First Real Test", src: media.bayern.src, tag: "Matchweek", credit: media.bayern.credit, source: media.bayern.source, objectPosition: media.bayern.objectPosition, objectFit: media.bayern.objectFit },
-    { type: "image", title: "Chiesa: 80' and Chaos Over", src: media.chiesa.src, tag: "Player Focus", credit: media.chiesa.credit, source: media.chiesa.source, objectPosition: media.chiesa.objectPosition, objectFit: media.chiesa.objectFit },
-    { type: "image", title: "Pio: The Shirt Is His For Now", src: media.pio.src, tag: "No. 9 Watch", credit: media.pio.credit, source: media.pio.source, objectPosition: media.pio.objectPosition, objectFit: media.pio.objectFit },
-    { type: "image", title: "Napoli Hold the Line", src: media.maradona.src, tag: "Club", credit: media.maradona.credit, source: media.maradona.source, objectPosition: media.maradona.objectPosition, objectFit: media.maradona.objectFit },
-    { type: "video-placeholder", title: "Gameplay Archive", tag: "Video", note: "Gameplay clips, goals and hype videos will live here once footage is added." }
+    { type: 'image', title: 'Bayern: The First Real Test', src: media.bayernPoster.src, tag: 'Matchweek', credit: media.bayernPoster.credit, source: null, objectPosition: media.bayernPoster.objectPosition, objectFit: media.bayernPoster.objectFit },
+    { type: 'image', title: "Chiesa: 80' and Chaos Over", src: media.chiesa.src, tag: 'Match Report', credit: media.chiesa.credit, source: null, objectPosition: media.chiesa.objectPosition, objectFit: media.chiesa.objectFit },
+    { type: 'image', title: 'Pio: The Shirt Is His For Now', src: media.pio.src, tag: 'No. 9 Watch', credit: media.pio.credit, source: null, objectPosition: media.pio.objectPosition, objectFit: media.pio.objectFit },
+    { type: 'image', title: 'Three Calls, Three Nos', src: media.market.src, tag: 'Mercato', credit: media.market.credit, source: null, objectPosition: media.market.objectPosition, objectFit: media.market.objectFit },
+    { type: 'video-placeholder', title: 'Gameplay Archive', tag: 'Video', note: 'Gameplay clips, goals and hype videos will live here once footage is added.' }
   ];
-
-  D.realPhotoCredits = [media.bayern, media.maradona];
 })();
