@@ -14,15 +14,35 @@
     img.remove();
   }
 
+  function tryFallback(img, event) {
+    if (!(img instanceof HTMLImageElement)) return false;
+    const fallback = window.NAPOLI_IMAGE_FALLBACK;
+    if (!fallback || img.dataset.fallbackAttempted === 'true') return false;
+
+    const current = img.getAttribute('src') || '';
+    if (current === fallback || current.includes('editorial-bayern.svg')) return false;
+
+    img.dataset.fallbackAttempted = 'true';
+    img.dataset.originalSrc = current;
+    if (event) event.stopImmediatePropagation();
+    img.src = fallback;
+    return true;
+  }
+
   window.__napoliImageError = collapseBrokenImage;
 
   document.addEventListener('error', event => {
-    if (event.target instanceof HTMLImageElement) collapseBrokenImage(event.target);
+    if (!(event.target instanceof HTMLImageElement)) return;
+    if (tryFallback(event.target, event)) return;
+    collapseBrokenImage(event.target);
   }, true);
 
   function inspect(img) {
     if (!(img instanceof HTMLImageElement)) return;
-    if (img.complete && img.naturalWidth === 0) collapseBrokenImage(img);
+    if (img.complete && img.naturalWidth === 0) {
+      if (tryFallback(img)) return;
+      collapseBrokenImage(img);
+    }
   }
 
   const observer = new MutationObserver(records => {
