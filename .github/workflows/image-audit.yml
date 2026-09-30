@@ -30,4 +30,19 @@ jobs:
           node-version: '20'
 
       - name: Verify article images
-        run: node scripts/image-audit.mjs
+        shell: bash
+        run: |
+          set +e
+          node scripts/image-audit.mjs > image-audit-result.txt 2>&1
+          code=$?
+          cat image-audit-result.txt
+          exit $code
+
+      - name: Upload audit output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: image-audit-result
+          path: image-audit-result.txt
+          if-no-files-found: error
+          retention-days: 1
