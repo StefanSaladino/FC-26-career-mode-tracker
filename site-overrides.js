@@ -2,6 +2,9 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
+  const VERSION = '20260930-6';
+  const RAW = 'https://raw.githubusercontent.com/StefanSaladino/FC-26-career-mode-tracker/main/assets/';
+
   const media = {
     bayern: {
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Allianz_Arena_at_night.jpg/1280px-Allianz_Arena_at_night.jpg",
@@ -11,18 +14,18 @@
       objectFit: "cover"
     },
     chiesa: {
-      src: "assets/chiesa-napoli.webp",
+      src: `${RAW}chiesa-napoli.webp?rev=${VERSION}`,
       credit: "Season Room composite — fictional Napoli-kit visualization for this FC 26 save.",
       source: null,
-      objectPosition: "50% 34%",
-      objectFit: "cover"
+      objectPosition: "50% 50%",
+      objectFit: "contain"
     },
     pio: {
-      src: "assets/pio-napoli.webp",
+      src: `${RAW}pio-napoli.webp?rev=${VERSION}`,
       credit: "Season Room composite — fictional Napoli-kit visualization for this FC 26 save.",
       source: null,
-      objectPosition: "50% 31%",
-      objectFit: "cover"
+      objectPosition: "50% 50%",
+      objectFit: "contain"
     },
     maradona: {
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Stadio_Diego_Armando_Maradona_2022_%281%29.jpg/1280px-Stadio_Diego_Armando_Maradona_2022_%281%29.jpg",
