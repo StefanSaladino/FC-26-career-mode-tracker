@@ -6,10 +6,10 @@
   <meta name="theme-color" content="#081a2d">
   <meta name="description" content="SSC Napoli 2027–28 FC 26 Career Mode newsroom, results, squad and season media.">
   <title>Napoli 2027–28 — Season Room</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260930-3">
 </head>
 <body>
-  <div class="ticker" aria-label="Season ticker"><div class="ticker-track" id="tickerTrack"></div></div>
+  <div class="ticker" aria-label="Season ticker"><div class="ticker-track" id="tickerTrack"><span>FT · NAPOLI 3–2 PISA · CHIESA 80'</span><span>NEXT · NAPOLI vs TORINO</span><span>THEN · NAPOLI vs BAYERN · CHAMPIONS LEAGUE</span></div></div>
 
   <header class="site-header">
     <div class="wrap header-inner">
@@ -19,117 +19,74 @@
         <h1>Napoli Season Room</h1>
         <p>Results, headlines, pressure, noise.</p>
       </div>
-      <div class="header-status">
-        <span class="status-dot"></span>
-        <span>Season live</span>
-      </div>
+      <div class="header-status"><span class="status-dot"></span><span>Season live</span></div>
     </div>
   </header>
 
-  <nav class="section-nav" aria-label="Season sections"><div class="wrap nav-scroll" id="nav"></div></nav>
+  <nav class="section-nav" aria-label="Season sections"><div class="wrap nav-scroll" id="nav">
+    <button class="active" data-target="home">Home</button><button data-target="news">News</button><button data-target="matches">Matches</button><button data-target="squad">Squad</button><button data-target="stats">Stats</button><button data-target="academy">Academy</button><button data-target="media">Media</button>
+  </div></nav>
 
   <main>
     <section id="home" class="page-section active" data-section="Home">
       <div class="wrap">
         <div class="hero-grid">
-          <article id="heroStory" class="hero-story"></article>
+          <article id="heroStory" class="hero-story">
+            <div class="hero-media"><img src="assets/editorial-bayern.svg" alt="Napoli versus Bayern editorial graphic"></div>
+            <div class="hero-copy" data-article="bayern-test" tabindex="0" role="button">
+              <div class="hero-strap">THE WEEK EVERYTHING GETS LOUDER</div>
+              <div class="story-meta"><span>Europe</span><span>Ahead of Bayern</span></div>
+              <h2>Napoli Wanted a Test. Now Bayern Are Coming.</h2>
+              <p>Two European wins built confidence. Bayern will tell us whether this Napoli side is merely dangerous — or ready to become a Champions League problem.</p>
+              <span class="hero-read">Read the lead story →</span>
+            </div>
+          </article>
           <aside class="top-stories">
             <div class="section-kicker">Top Stories</div>
-            <div id="topStories"></div>
+            <div id="topStories">
+              <div class="top-story"><span>01</span><div><small>Match Report</small><strong>Chiesa saves Napoli from a night that was starting to rot</strong></div></div>
+              <div class="top-story"><span>02</span><div><small>Feature</small><strong>Five goals in, Pio has turned the striker debate into a selection problem</strong></div></div>
+              <div class="top-story"><span>03</span><div><small>Transfers</small><strong>Three calls, three nos: Napoli send a message to Europe</strong></div></div>
+            </div>
           </aside>
         </div>
 
         <div class="home-band">
-          <div>
-            <div class="section-kicker">Latest result</div>
-            <div id="latestResult" class="latest-result"></div>
-          </div>
-          <div>
-            <div class="section-kicker">Next two</div>
-            <div id="nextTwo" class="next-two"></div>
-          </div>
-          <div>
-            <div class="section-kicker">Form</div>
-            <div id="formLine" class="form-line"></div>
-          </div>
+          <div><div class="section-kicker">Latest result</div><div id="latestResult" class="latest-result"><div class="latest-score"><span>NAP</span><strong>3–2</strong><span>PIS</span></div><p>Endrick 13' · Stach 31' · Chiesa 80'</p></div></div>
+          <div><div class="section-kicker">Next two</div><div id="nextTwo" class="next-two"><div class="next-row"><strong>Torino</strong><span>Serie A · Home</span></div><div class="next-row"><strong>Bayern Munich</strong><span>Champions League · Four days later</span></div></div></div>
+          <div><div class="section-kicker">Form</div><div id="formLine" class="form-line"><div><strong>4-2-0</strong><span>Serie A · 14 pts</span></div><div><strong>2-0-0</strong><span>Europe · 6 pts</span></div></div></div>
         </div>
 
         <div class="home-columns">
           <section>
             <div class="section-head"><div><div class="section-kicker">Newsroom</div><h2>Latest from the season</h2></div><button class="text-btn" data-go="news">All stories →</button></div>
-            <div id="latestNews" class="latest-news"></div>
+            <div id="latestNews" class="latest-news">
+              <article class="article-card wide" data-article="chiesa-pisa"><div class="article-card-media"><img src="assets/editorial-pisa.svg" alt=""></div><div class="article-card-copy"><div class="story-meta"><span>Match Report</span><span>After Napoli 3–2 Pisa</span></div><h3>Chiesa Saves Napoli From a Night That Was Starting to Rot</h3><p>Two goals up, level at 2–2, then Chiesa changed the story in the 80th minute.</p><span class="read-link">Read story →</span></div></article>
+            </div>
           </section>
-          <aside>
-            <div class="section-kicker">Inside the noise</div>
-            <h2>Whispers & pressure points</h2>
-            <div id="whisperList" class="whisper-list"></div>
-          </aside>
+          <aside><div class="section-kicker">Inside the noise</div><h2>Whispers & pressure points</h2><div id="whisperList" class="whisper-list"><div class="whisper"><span>Selection Watch</span><p>Pressure is building to keep Nico Paz central for Bayern, even if De Bruyne starts on the bench.</p></div><div class="whisper"><span>No. 9 Watch</span><p>Pio has the shirt. Beier's European goals are making sure the argument stays alive.</p></div></div></aside>
         </div>
       </div>
     </section>
 
-    <section id="news" class="page-section" data-section="News">
-      <div class="wrap">
-        <div class="section-head news-head">
-          <div><div class="section-kicker">In-universe coverage</div><h2>News & Features</h2><p class="section-intro">The season told like a football newsroom: match reports, dressing-room tension, transfer fallout and opinion.</p></div>
-          <div class="article-filters" id="articleFilters"></div>
-        </div>
-        <div id="newsGrid" class="news-grid"></div>
-      </div>
-    </section>
+    <section id="news" class="page-section" data-section="News"><div class="wrap"><div class="section-head news-head"><div><div class="section-kicker">In-universe coverage</div><h2>News & Features</h2><p class="section-intro">The season told like a football newsroom: match reports, dressing-room tension, transfer fallout and opinion.</p></div><div class="article-filters" id="articleFilters"></div></div><div id="newsGrid" class="news-grid"></div></div></section>
 
-    <section id="matches" class="page-section" data-section="Matches">
-      <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">Match Centre</div><h2>Results & Fixtures</h2></div><div class="filters"><select id="teamFilter"><option value="">Napoli + Italy</option><option>Napoli</option><option>Italy</option></select><select id="compFilter"><option value="">All competitions</option></select></div></div>
-        <div id="upcomingStrip" class="upcoming-strip"></div>
-        <div id="matchesList" class="match-list"></div>
-      </div>
-    </section>
+    <section id="matches" class="page-section" data-section="Matches"><div class="wrap"><div class="section-head"><div><div class="section-kicker">Match Centre</div><h2>Results & Fixtures</h2></div><div class="filters"><select id="teamFilter"><option value="">Napoli + Italy</option><option>Napoli</option><option>Italy</option></select><select id="compFilter"><option value="">All competitions</option></select></div></div><div id="upcomingStrip" class="upcoming-strip"></div><div id="matchesList" class="match-list"></div></div></section>
 
-    <section id="squad" class="page-section" data-section="Squad">
-      <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">Team</div><h2>First Team</h2><p class="section-intro">A club-style roster view: position, overall and current football context — no contracts or wage clutter.</p></div></div>
-        <div class="squad-layout">
-          <div class="formation-panel"><div class="section-kicker light">Current XI</div><div id="formation" class="formation"></div></div>
-          <div id="squadGroups" class="squad-groups"></div>
-        </div>
-      </div>
-    </section>
+    <section id="squad" class="page-section" data-section="Squad"><div class="wrap"><div class="section-head"><div><div class="section-kicker">Team</div><h2>First Team</h2><p class="section-intro">Position, overall and current football context — no contracts or wage clutter.</p></div></div><div class="squad-layout"><div class="formation-panel"><div class="section-kicker light">Current XI</div><div id="formation" class="formation"></div></div><div id="squadGroups" class="squad-groups"></div></div></div></section>
 
-    <section id="stats" class="page-section" data-section="Stats">
-      <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">Production</div><h2>Season Leaders</h2><p class="section-intro">Only production explicitly logged from this save is counted.</p></div></div>
-        <div class="stats-feature"><div id="topScorer" class="top-scorer"></div><div id="goalBars" class="goal-bars"></div></div>
-        <div class="table-wrap stats-table-wrap"><table id="statsTable"></table></div>
-      </div>
-    </section>
+    <section id="stats" class="page-section" data-section="Stats"><div class="wrap"><div class="section-head"><div><div class="section-kicker">Production</div><h2>Season Leaders</h2><p class="section-intro">Only production explicitly logged from this save is counted.</p></div></div><div class="stats-feature"><div id="topScorer" class="top-scorer"></div><div id="goalBars" class="goal-bars"></div></div><div class="table-wrap stats-table-wrap"><table id="statsTable"></table></div></div></section>
 
-    <section id="academy" class="page-section" data-section="Academy">
-      <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">Future</div><h2>Academy & Loans</h2><p class="section-intro">The next wave, including the Italy-linked prospects developing away from Napoli.</p></div></div>
-        <div class="table-wrap"><table id="youthTable"></table></div>
-      </div>
-    </section>
+    <section id="academy" class="page-section" data-section="Academy"><div class="wrap"><div class="section-head"><div><div class="section-kicker">Future</div><h2>Academy & Loans</h2><p class="section-intro">The next wave, including Italy-linked prospects developing away from Napoli.</p></div></div><div class="table-wrap"><table id="youthTable"></table></div></div></section>
 
-    <section id="media" class="page-section" data-section="Media">
-      <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">Matchday Media</div><h2>Posters, Clips & Hype</h2><p class="section-intro">Editorial art now. Gameplay clips, goals and hype videos can slot into this wall as footage is added.</p></div></div>
-        <div id="mediaWall" class="media-wall"></div>
-      </div>
-    </section>
+    <section id="media" class="page-section" data-section="Media"><div class="wrap"><div class="section-head"><div><div class="section-kicker">Matchday Media</div><h2>Posters, Clips & Hype</h2><p class="section-intro">Editorial art now. Gameplay clips, goals and hype videos can slot into this wall as footage is added.</p></div></div><div id="mediaWall" class="media-wall"><figure class="media-item"><img src="assets/editorial-bayern.svg" alt="Bayern poster"><figcaption><span>Match Poster</span><strong>Bayern: The First Real Test</strong></figcaption></figure><figure class="media-item"><img src="assets/editorial-pisa.svg" alt="Pisa match graphic"><figcaption><span>Match Graphic</span><strong>Chiesa 80'</strong></figcaption></figure></div></div></section>
   </main>
 
-  <div class="article-modal" id="articleModal" aria-hidden="true">
-    <div class="modal-backdrop" data-close-article></div>
-    <article class="article-reader" role="dialog" aria-modal="true" aria-labelledby="readerHeadline">
-      <button class="reader-close" data-close-article aria-label="Close article">×</button>
-      <div id="readerContent"></div>
-    </article>
-  </div>
+  <div class="article-modal" id="articleModal" aria-hidden="true"><div class="modal-backdrop" data-close-article></div><article class="article-reader" role="dialog" aria-modal="true" aria-labelledby="readerHeadline"><button class="reader-close" data-close-article aria-label="Close article">×</button><div id="readerContent"></div></article></div>
 
-  <footer class="site-footer"><div class="wrap"><strong>Napoli Season Room</strong><span id="fictionalNotice"></span></div></footer>
+  <footer class="site-footer"><div class="wrap"><strong>Napoli Season Room</strong><span id="fictionalNotice">Fictional in-universe reporting for this FC 26 save.</span></div></footer>
 
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="data.js?v=20260930-3"></script>
+  <script src="app.js?v=20260930-3"></script>
 </body>
 </html>
