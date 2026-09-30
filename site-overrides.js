@@ -2,7 +2,7 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-21';
+  const VERSION = '20260930-22';
   const local = file => `assets/${file}?v=${VERSION}`;
 
   const media = {
@@ -175,6 +175,7 @@
       if (row[0] === 'Alex Meret') return ['Alex Meret',0,0,'Multiple key second-half saves preserved the Sassuolo comeback.'];
       return row;
     });
+    D.stats.sort((a,b) => (b[1]-a[1]) || (b[2]-a[2]) || String(a[0]).localeCompare(String(b[0])));
   }
 
   D.whispers = [
