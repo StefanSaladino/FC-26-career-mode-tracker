@@ -1,7 +1,7 @@
 (() => {
   const D = window.NAPOLI_DATA;
   if (!D) return;
-  const VERSION = '20260930-15';
+  const VERSION = '20260930-16';
   const local = file => `assets/${file}?v=${VERSION}`;
   const media = {
     bayernHero: { src: local('editorial-bayern-hero.svg'), credit: 'Season Room editorial graphic.', source: null, objectPosition: '50% 50%', objectFit: 'cover' },
