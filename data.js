@@ -7,34 +7,50 @@ window.NAPOLI_DATA = {
   },
 
   ticker: [
-    "FT · NAPOLI 1–0 TORINO · ENDRICK 68'",
-    "NEXT · NAPOLI vs BAYERN · CHAMPIONS LEAGUE",
+    "FT · NAPOLI 0–2 BAYERN",
+    "NEXT · NAPOLI vs SASSUOLO · SERIE A",
     "OCTOBER · SASSUOLO · LAZIO · GENOA",
-    "PEACOCK · CLEAN SHEET vs TORINO",
-    "EUROPE · NAPOLI 2–0–0"
+    "BAYERN · DÍAZ 25' · GÜLER 80'",
+    "EUROPE · NAPOLI 2–0–1"
   ],
 
   hero: {
     articleId: "bayern-test",
-    strap: "THE WEEK EVERYTHING GETS LOUDER"
+    strap: "THE TEST ARRIVED. BAYERN WON IT."
   },
 
   articles: [
     {
       id: "bayern-test",
       category: "Europe",
-      label: "Lead Story",
-      date: "Ahead of Bayern",
-      headline: "Napoli Wanted a Test. Now Bayern Are Coming.",
-      dek: "Two European wins have built confidence. Bayern will tell us whether this Napoli side is merely dangerous — or genuinely ready to become a Champions League problem.",
+      label: "Match Report",
+      date: "After Napoli 0–2 Bayern",
+      headline: "Bayern Show Napoli the Gap — and Where the Next Step Has to Come",
+      dek: "Napoli created enough to make Bayern work, especially through Alphonso Davies, but Luis Díaz and Güler punished the difference in execution.",
       image: "assets/editorial-bayern.svg",
       tone: "feature",
       body: [
-        "Napoli have done the easy part of a European campaign well: they have banked points. Fenerbahçe were beaten 2–1. Club Brugge were beaten 2–1. The table looks clean. The mood around the club is confident. Torino were then beaten 1–0 with a heavily rotated side, preserving key legs for the European test.",
-        "Bayern are different. This is the first opponent on the calendar capable of turning every little Napoli concern into a full-volume conversation. Can Pio Esposito and Maximilian Beier produce against an elite back line? Can the Davies–Paz–Endrick line behind them survive when the space disappears? Can Scott McTominay control the middle without Napoli losing their attacking edge?",
-        "There is also a selection argument quietly developing around Kevin De Bruyne. Nico Paz is no longer simply the future. He has already scored a late winner, already begun taking central responsibility, and already made the idea of leaving De Bruyne on the bench for a major European night feel plausible rather than provocative.",
-        "The Torino plan worked: rotate, protect the first-choice core, and arrive at Bayern with the legs to play the game rather than merely survive it. Endrick supplied the winner, McTominay supplied the pass, Peacock kept the clean sheet and the biggest names were not overworked.",
-        "One result will not define a season. But this one may define how the rest of Europe looks at Napoli."
+        "Napoli wanted a measuring-stick night. Bayern gave them one. The 2–0 scoreline was not a collapse, but it was a reminder that elite European matches are often decided by who turns good spells into goals.",
+        "Napoli's clearest route was Alphonso Davies. He repeatedly found space on the left, beat his man and forced Bayern backwards. The best first-half chance came when Davies broke into the box, only for Alexander Nübel to make the save. Napoli found the right areas more than once; the final pass or finish simply did not arrive.",
+        "Bayern were sharper when their moments came. Luis Díaz opened the scoring in the 25th minute after Napoli failed to fully close the move around Harry Kane and the right side. Kane later had a goal ruled out for offside, another warning that Bayern were finding the spaces between Napoli's lines.",
+        "Kevin De Bruyne was introduced in the second half with Nico Paz shifting wider, and the change immediately produced more direct passing around the box. Napoli pushed, McTominay forced another save, and the match still felt alive until Güler finished the second in the 80th minute.",
+        "The lesson is not that Napoli cannot play at this level. It is that possession and promising entries have to become cleaner chances. Bayern finished the decisive moments. Napoli did not. Sassuolo is next, and the response now matters more than the defeat."
+      ]
+    },
+    {
+      id: "sassuolo-response",
+      category: "Preview",
+      label: "Next Up",
+      date: "Ahead of Sassuolo",
+      headline: "No Time to Sulk: Sassuolo Starts the Response",
+      dek: "The first Champions League defeat is on the board. Napoli now return to Serie A with a simple job: make sure Bayern does not become a hangover.",
+      image: "assets/editorial-bayern.svg",
+      tone: "news",
+      body: [
+        "The calendar does not allow Napoli to sit with the Bayern defeat for long. Sassuolo are next, followed by Lazio and Genoa to close October.",
+        "The biggest selection question is how much rotation follows a high-intensity European night. Davies carried a large attacking load against Bayern, McTominay covered enormous ground and the front line spent long stretches fighting for difficult entries.",
+        "Napoli's league record remains strong. The task now is to protect that domestic momentum while absorbing the lesson from Europe rather than overreacting to it.",
+        "A clean, controlled win over Sassuolo would do more than add three points. It would show that the Bayern result was a lesson, not the beginning of a wobble."
       ]
     },
     {
@@ -50,8 +66,8 @@ window.NAPOLI_DATA = {
         "Napoli did not need a spectacle four days before Bayern. They needed three points, controlled minutes and no unnecessary damage. Torino made them work for all of it.",
         "The first half stayed goalless despite chances for Endrick and Pio Esposito, while Sam Beukema produced a crucial block at the other end. Kevin De Bruyne was withdrawn at halftime as his stamina faded, with Scott McTominay introduced to add control and fresh running from midfield.",
         "The breakthrough arrived in the 68th minute. McTominay slid the ball through, Endrick took the chance, and Napoli finally had the 1–0 lead their pressure had threatened.",
-        "From there the substitutions became as important as the scoreline. Billy Gilmour helped close the midfield, Noa Lang supplied fresh width, Nico Paz handled the final phase and Endrick was protected for Bayern. Gilmour in particular impressed with repeated recoveries as Torino tried to force a late response.",
-        "Peacock finished with the clean sheet — an important answer after the volatility of earlier development starts. Napoli move on with the points, the shutout and the first-choice European core largely preserved."
+        "From there Billy Gilmour helped close the midfield, Noa Lang supplied fresh width, Nico Paz handled the final phase and Endrick was protected for Bayern.",
+        "Peacock finished with the clean sheet — an important answer after the volatility of earlier development starts."
       ]
     },
     {
@@ -64,11 +80,10 @@ window.NAPOLI_DATA = {
       image: "assets/editorial-pisa.svg",
       tone: "breaking",
       body: [
-        "At 2–0, this looked like another comfortable rotation win. Endrick had smashed in the opener from Anton Stach's pass. Stach had added a bizarre second from outside the box after the goalkeeper's parry looped back over him. Napoli looked in control of the scoreboard, if not necessarily the entire evening.",
-        "Then Pisa turned it into a problem. Marín pulled one back. Durosinmi made it 2–2. A match that had been useful for squad minutes suddenly became the kind of fixture that can hang over a title race for weeks.",
-        "The response came from the bench. Chiesa and Beier were introduced, and in the 80th minute Chiesa took aim from just inside the area and drove Napoli back in front. It was not a subtle goal. It was the kind of strike that ends arguments.",
-        "McTominay and Lang followed to close the game. Napoli escaped with a 3–2 win, Stach walked away with a goal and an assist, and Endrick continued making the case for more meaningful minutes.",
-        "The uncomfortable part is obvious too: Peacock's development starts are going to produce nights like this. Napoli are betting that the long-term upside is worth the short-term volatility. On this occasion, Chiesa paid the bill."
+        "At 2–0, this looked like another comfortable rotation win. Endrick had smashed in the opener from Anton Stach's pass. Stach had added a bizarre second from outside the box after the goalkeeper's parry looped back over him.",
+        "Then Pisa turned it into a problem. Marín pulled one back. Durosinmi made it 2–2.",
+        "The response came from the bench. Chiesa and Beier were introduced, and in the 80th minute Chiesa drove Napoli back in front.",
+        "McTominay and Lang followed to close the game. Napoli escaped with a 3–2 win, Stach walked away with a goal and an assist, and Endrick continued making the case for more meaningful minutes."
       ]
     },
     {
@@ -83,8 +98,8 @@ window.NAPOLI_DATA = {
       body: [
         "Pio Esposito did not enter the season with a guaranteed shirt. Napoli had Maximilian Beier, Endrick, Chiesa and enough attacking combinations to keep the hierarchy fluid. Five club goals later, the hierarchy is becoming harder to ignore.",
         "The numbers include penalties, but the way the goals have arrived matters. There was the free kick against Como, slammed off the bar and in. There was the open-play finish against Cagliari after Endrick slipped him through. He has also started contributing outside the scoring column, including the assist for Alphonso Davies against Club Brugge.",
-        "Beier has answered in Europe with decisive goals against Fenerbahçe and Brugge. Endrick is producing from both central and right-sided roles. This is not a crisis. It is the more dangerous thing for a manager: three forwards making legitimate arguments at the same time.",
-        "For now, Pio has the hot hand. The bigger question arrives later in the season. If this group keeps producing, the long-discussed superstar No. 9 move may become unnecessary. If the production dries up, every elite striker in Europe will be back in the conversation."
+        "Beier has answered in Europe with decisive goals against Fenerbahçe and Brugge. Endrick is producing from both central and right-sided roles.",
+        "For now, Pio has the hot hand."
       ]
     },
     {
@@ -97,27 +112,26 @@ window.NAPOLI_DATA = {
       image: "assets/editorial-market.svg",
       tone: "news",
       body: [
-        "The numbers were large enough to change most clubs' plans. Barcelona came with $204 million for Maximilian Beier. Bayern offered $133.6 million for Pio Esposito. RB Leipzig put $43.5 million on the table for Giovanni Di Lorenzo.",
+        "Barcelona came with $204 million for Maximilian Beier. Bayern offered $133.6 million for Pio Esposito. RB Leipzig put $43.5 million on the table for Giovanni Di Lorenzo.",
         "Napoli said no three times.",
-        "The decisions were not identical. Beier is 24, 86 overall and still central to the attack. Pio has become one of the most important development stories in both the club and Italy projects. Di Lorenzo is different: Kayode is the long-term right back now, but the captain still carries value that is not measured by resale alone.",
-        "The common thread is that Napoli did not need to sell. The squad was already deep, the budget pressure was absent, and the club chose to make rivals pay a sporting premium that never arrived.",
-        "The risk is always the same: refusing huge money looks smart only if the player still matters six months later. So far, Beier is scoring in Europe, Pio is flying, and Di Lorenzo still has a role. The refusals are aging well."
+        "Beier is now 25, 86 overall and remains central to the attack. Pio has become one of the most important development stories in both the club and Italy projects. Di Lorenzo remains the captain even with Kayode established as the long-term right back.",
+        "The refusals were a sporting decision as much as a financial one."
       ]
     },
     {
       id: "paz-kdb",
       category: "Dressing Room",
       label: "Succession",
-      date: "Ongoing",
-      headline: "The Heir Is Already Playing: Paz Is Beginning to Move Into De Bruyne's Space",
-      dek: "This was supposed to be a gradual transition. Nico Paz may be accelerating it.",
+      date: "After Bayern",
+      headline: "Paz Started the Bayern Night. De Bruyne Changed Its Rhythm.",
+      dek: "The succession question did not disappear against Bayern — it became more interesting.",
       image: null,
       tone: "analysis",
       body: [
-        "Nico Paz arrived for $125 million with an obvious long-term job description: become the creative center of Napoli after Kevin De Bruyne. The surprise is how quickly the future has started to feel like the present.",
-        "Paz scored the 85th-minute winner against Bologna after De Bruyne slipped him through. Since then, he has increasingly been trusted centrally, including European lineups that place Endrick to the right and leave De Bruyne as an elite option from the bench.",
-        "That does not mean De Bruyne is finished. He has already scored against Como, created the Bologna winner and nearly added another against Fenerbahçe before an offside flag erased it. The tension is not old versus young. It is control versus acceleration.",
-        "The Bayern match is the type of night that can make the succession debate unavoidable. If Paz starts and thrives, a future plan becomes a current reality."
+        "Nico Paz started centrally against Bayern, the clearest sign yet that Napoli trust him in the biggest matches.",
+        "The first half showed both the upside and the growing pains. Paz helped Napoli circulate through midfield, but the final penetration was inconsistent and Bayern were comfortable defending many of the entries.",
+        "Kevin De Bruyne entered in the second half with Paz moving wider. Napoli immediately became more direct around the box, with De Bruyne finding Davies and McTominay through narrower passing lanes.",
+        "This was not a verdict on either player. It was evidence that the best version of Napoli may still need both: Paz for mobility and long-term control, De Bruyne for the pass that changes a match in one touch."
       ]
     },
     {
@@ -131,9 +145,8 @@ window.NAPOLI_DATA = {
       tone: "opinion",
       body: [
         "Peacock is not playing because Napoli believe he is better than Alex Meret today. He is playing because they believe he could become something much bigger tomorrow.",
-        "That distinction mattered after matches like Parma, Cagliari and Pisa, when the volatility of a developmental goalkeeper was obvious. Torino offered the other side of the argument: a 1–0 win, a clean sheet and a composed finish to a tight league match.",
-        "The easy reaction after Pisa would have been to stop. Play Meret every meaningful league match, send Peacock back to the bench and protect the table. Napoli instead kept the development plan alive and were rewarded this time.",
-        "One clean sheet does not settle the debate, but it changes its tone. Peacock now has evidence that the uncomfortable minutes can lead somewhere useful."
+        "Torino offered the positive side of the gamble: a 1–0 win, a clean sheet and a composed finish to a tight league match.",
+        "One clean sheet does not settle the debate, but it changes its tone."
       ]
     },
     {
@@ -147,9 +160,8 @@ window.NAPOLI_DATA = {
       tone: "feature",
       body: [
         "Italy closed the international window with two clean sheets: a 0–0 draw with Wales followed by a 1–0 win over France.",
-        "Napoli's Italian core now stretches through the spine of the squad: Meret, Bastoni, Buongiorno, Kayode, Di Lorenzo, Chiesa and Pio Esposito. Behind them, Mancini and Valentini have gone out on loan with the explicit goal of getting the minutes Napoli cannot currently provide.",
-        "Because the same manager also controls Italy, the development loop is unusually direct. Club minutes influence national-team trust. International performances can influence club selection. Kayode has already become the clearest example, emerging as Napoli's long-term right back while also pushing into the Italy picture.",
-        "The strategy does not mean Napoli must keep buying Italians. That phase of the squad build is effectively complete. The more interesting question now is whether this group can grow together long enough to make Napoli the center of the national-team cycle rather than merely one contributor to it."
+        "Napoli's Italian core now stretches through the spine of the squad: Meret, Bastoni, Buongiorno, Kayode, Di Lorenzo, Chiesa and Pio Esposito.",
+        "Because the same manager also controls Italy, the development loop is unusually direct. Club minutes influence national-team trust. International performances can influence club selection."
       ]
     },
     {
@@ -158,14 +170,13 @@ window.NAPOLI_DATA = {
       label: "Captaincy",
       date: "Ongoing",
       headline: "The Captain Is No Longer the Future. That Doesn't Mean He's Finished.",
-      dek: "Kayode owns the long-term right-back plan. Di Lorenzo still owns the armband — and Napoli rejected $43.5 million to keep it that way for now.",
+      dek: "Kayode owns the long-term right-back plan. Di Lorenzo still owns the armband.",
       image: null,
       tone: "analysis",
       body: [
-        "Michael Kayode changed the geometry of Napoli's right side the moment he arrived. At 23 and 84 overall, he is not a prospect waiting for a chance. He is the long-term starter now.",
-        "That leaves Giovanni Di Lorenzo in an unusual place. He is still the captain, still useful, still trusted, but no longer the default future of his position. RB Leipzig's $43.5 million offer provided an easy financial exit. Napoli chose not to take it.",
-        "The decision is partly emotional and partly practical. Deep European seasons need experienced defenders who can start without destabilizing the team. Dressing rooms also need people who carry continuity while the squad around them changes.",
-        "The question is not whether Kayode eventually takes over. He already has. The question is how gracefully Napoli can turn a captain into a high-level rotation player without making the transition feel like a demotion."
+        "Michael Kayode is the long-term starter now.",
+        "That leaves Giovanni Di Lorenzo in an unusual place. He is still the captain, still useful and still trusted.",
+        "Deep European seasons need experienced defenders who can start without destabilizing the team."
       ]
     },
     {
@@ -178,9 +189,9 @@ window.NAPOLI_DATA = {
       image: null,
       tone: "short",
       body: [
-        "Anton Stach's signing was never supposed to be glamorous. He arrived for $25.5 million as two-year insurance while Napoli waited on the next wave of midfield development.",
-        "Then came Pisa. Stach threaded the pass for Endrick's opener and scored the second himself from outside the box. A utility signing produced a goal and an assist before halftime.",
-        "That is exactly what elite depth is supposed to do: make a rotated lineup feel dangerous rather than merely functional."
+        "Anton Stach arrived for $25.5 million as two-year insurance while Napoli waited on the next wave of midfield development.",
+        "Against Pisa, Stach threaded the pass for Endrick's opener and scored the second himself from outside the box.",
+        "That is exactly what elite depth is supposed to do."
       ]
     }
   ],
@@ -239,12 +250,12 @@ window.NAPOLI_DATA = {
     ["Italy","Iceland","EC Qualifier",2,0,"W","Retegui; Kean","International result"],
     ["Italy","Wales","Friendly",0,0,"D","—","Clean sheet"],
     ["Italy","France","Friendly",1,0,"W","—","Clean sheet; statement win"],
-    ["Napoli","Torino","Serie A",1,0,"W","Endrick 68'","McTominay assist; Peacock clean sheet"]
+    ["Napoli","Torino","Serie A",1,0,"W","Endrick 68'","McTominay assist; Peacock clean sheet"],
+    ["Napoli","Bayern Munich","Champions League",0,2,"L","—","Luis Díaz 25'; Güler 80'; Nübel denied Davies and McTominay"]
   ],
 
   upcoming: [
-    ["Bayern Munich","Champions League","Next"],
-    ["Sassuolo","Serie A","October"],
+    ["Sassuolo","Serie A","Next"],
     ["Lazio","Serie A","October"],
     ["Genoa","Serie A","Closes October"]
   ],
@@ -253,10 +264,10 @@ window.NAPOLI_DATA = {
     ["Pio Esposito",5,1,"Hot start; 5 club goals + 1 UCL assist in reported events."],
     ["Endrick",2,2,"Goals vs Pisa and Torino; productive from ST and RW."],
     ["Maximilian Beier",2,0,"Decisive UCL goals vs Fenerbahçe and Brugge."],
-    ["Kevin De Bruyne",1,1,"Goal vs Como; assist on Paz winner."],
+    ["Kevin De Bruyne",1,1,"Goal vs Como; assist on Paz winner; changed the rhythm off the bench vs Bayern."],
     ["Anton Stach",1,1,"Goal + assist vs Pisa."],
-    ["Nico Paz",1,0,"Late winner on Napoli debut."],
-    ["Alphonso Davies",1,0,"UCL goal vs Brugge."],
+    ["Nico Paz",1,0,"Late winner on Napoli debut; started centrally vs Bayern."],
+    ["Alphonso Davies",1,0,"UCL goal vs Brugge; Napoli's biggest attacking outlet vs Bayern."],
     ["Federico Chiesa",1,0,"Late winner vs Pisa."],
     ["Scott McTominay",1,1,"UCL goal plus assist on Endrick's Torino winner."],
     ["Alex Meret",0,0,"Huge point-blank save vs Brugge."],
@@ -278,14 +289,14 @@ window.NAPOLI_DATA = {
   ],
 
   whispers: [
-    ["Selection Watch", "There is growing pressure to keep Nico Paz central for the Bayern game, even if that means De Bruyne starts on the bench."],
-    ["Goalkeeper Debate", "Peacock answered the latest development start with a clean sheet against Torino."],
-    ["No. 9 Watch", "Pio currently has the shirt. Beier's European goals and Endrick's Torino winner are keeping the argument alive."],
-    ["October Run", "After Bayern, Napoli close the month with Sassuolo, Lazio and Genoa."]
+    ["Bayern Lesson", "Davies repeatedly opened Bayern up from the left, but Napoli did not turn enough good entries into clean finishes."],
+    ["Creative Debate", "De Bruyne's second-half cameo added directness after Paz started centrally. The succession conversation is still open."],
+    ["No. 9 Watch", "Pio still leads the scoring chart, but Napoli were shut out against Bayern and need a response in Serie A."],
+    ["October Run", "Sassuolo, Lazio and Genoa now close the month after the Bayern defeat."]
   ],
 
   media: [
-    {type:"image", title:"Bayern: The First Real Test", src:"assets/editorial-bayern.svg", tag:"Match Poster"},
+    {type:"image", title:"Bayern: The First Real Test", src:"assets/editorial-bayern.svg", tag:"Match Report"},
     {type:"image", title:"Pio Takes the Shirt", src:"assets/editorial-pio.svg", tag:"Feature Art"},
     {type:"image", title:"Chiesa 80'", src:"assets/editorial-pisa.svg", tag:"Match Graphic"},
     {type:"image", title:"Three Calls, Three Nos", src:"assets/editorial-market.svg", tag:"Mercato"},
