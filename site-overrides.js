@@ -2,7 +2,7 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-8';
+  const VERSION = '20260930-9';
   const local = file => `assets/${file}?v=${VERSION}`;
 
   const media = {
@@ -21,14 +21,14 @@
       objectFit: 'contain'
     },
     chiesa: {
-      src: local('chiesa-napoli.webp'),
+      src: local('chiesa-napoli.jpg'),
       credit: 'Season Room composite — Federico Chiesa visualized in Napoli colours for this FC 26 save.',
       source: null,
       objectPosition: '50% 50%',
       objectFit: 'cover'
     },
     pio: {
-      src: local('pio-napoli.webp'),
+      src: local('pio-napoli.jpg'),
       credit: 'Season Room composite — Pio Esposito visualized in Napoli colours for this FC 26 save.',
       source: null,
       objectPosition: '50% 50%',
