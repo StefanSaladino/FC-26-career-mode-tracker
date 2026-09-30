@@ -10,8 +10,10 @@
     objectFit:'cover'
   };
 
-  if (Array.isArray(D.results) && !D.results.some(r => r[0] === 'Napoli' && r[1] === 'Arsenal' && r[2] === 'Champions League')) {
-    D.results.push(['Napoli','Arsenal','Champions League',1,0,'W',"Pio Esposito 90+1'",'Beier assist; Meret key saves; late winner ended the scoring drought']);
+  if (Array.isArray(D.results)) {
+    const i = D.results.findIndex(r => r[0] === 'Napoli' && r[1] === 'Arsenal' && r[2] === 'Champions League');
+    const row = ['Napoli','Arsenal','Champions League',1,1,'D',"Ødegaard 24'; Pio Esposito 90+1'",'Beier assist on Pio equalizer; Meret key saves; stoppage-time goal ended the scoring drought'];
+    if (i >= 0) D.results[i] = row; else D.results.push(row);
   }
 
   D.upcoming = [
@@ -24,20 +26,20 @@
   ];
 
   D.ticker = [
-    "FT · NAPOLI 1–0 ARSENAL · PIO 90+1'",
-    'EUROPE · NAPOLI 3–0–1 · 9 PTS',
-    'PIO ESPOSITO · STOPPAGE-TIME WINNER',
-    'BEIER · ASSIST ON THE WINNER',
+    "FT · NAPOLI 1–1 ARSENAL · PIO 90+1'",
+    'EUROPE · NAPOLI 2–1–1 · 7 PTS',
+    'ATTACK · GOALLESS DROUGHT ENDS IN STOPPAGE TIME',
+    'BEIER · ASSIST ON THE EQUALIZER',
     'NEXT · UDINESE · SERIE A'
   ];
 
   const article = {
     id:'arsenal-pio-91',
     category:'Champions League',
-    label:'Stoppage-Time Winner',
-    date:'After Napoli 1–0 Arsenal',
-    headline:'Pio at 90+1: Napoli Break the Drought in the Loudest Possible Way',
-    dek:'After 180 scoreless league minutes, Beier found Pio Esposito in stoppage time and Pio finished the winner into the top-left corner.',
+    label:'Stoppage-Time Equalizer',
+    date:'After Napoli 1–1 Arsenal',
+    headline:'Pio at 90+1: Napoli Finally Break the Drought and Rescue a Point',
+    dek:'Ødegaard put Arsenal ahead in the 24th, but after 180 scoreless league minutes Beier found Pio Esposito in stoppage time and Pio smashed the equalizer into the top-left corner.',
     image:stadium.src,
     imageCredit:stadium.credit,
     imageSource:stadium.source,
@@ -46,10 +48,10 @@
     tone:'breaking',
     body:[
       'For most of the night, Napoli ran into the same problem that defined the previous two league matches: chances without a finish.',
-      'Arsenal applied heavy pressure through long spells, but Meret and the Napoli back line kept the match alive with key saves, tackles and interceptions.',
-      'Napoli also had openings through Davies, Paz, McTominay and Beier, but Raya kept Arsenal level as the match moved into stoppage time.',
-      'Then, in the 90+1st minute, Maximilian Beier supplied the pass and Pio Esposito finished into the top-left corner for the winner.',
-      'The scoring drought is over, Napoli have three Champions League wins from four, and Udinese is next.'
+      'Arsenal took the lead in the 24th minute through Ødegaard and then applied heavy pressure through long spells, but Meret and the Napoli back line kept the match within reach.',
+      'Napoli still found openings through Davies, Paz, McTominay and Beier, but Raya repeatedly shut the door as the match moved into stoppage time.',
+      'Then, in the 90+1st minute, Maximilian Beier supplied the pass and Pio Esposito finished into the top-left corner for the equalizer.',
+      'The match finished 1–1. Napoli did not get the win, but the goalless drought is over, Pio has six logged goals, and the team moves to seven points from four Champions League matches.'
     ]
   };
 
@@ -62,19 +64,19 @@
 
   if (Array.isArray(D.stats)) {
     D.stats = D.stats.map(row => {
-      if (row[0] === 'Pio Esposito') return ['Pio Esposito',6,1,"Six logged goals; 90+1' winner vs Arsenal."];
-      if (row[0] === 'Maximilian Beier') return ['Maximilian Beier',3,1,'Three logged goals; assisted the Arsenal winner.'];
-      if (row[0] === 'Alex Meret') return ['Alex Meret',0,0,'Key saves vs Arsenal; part of three straight clean sheets.'];
+      if (row[0] === 'Pio Esposito') return ['Pio Esposito',6,1,"Six logged goals; 90+1' equalizer vs Arsenal ended the drought."];
+      if (row[0] === 'Maximilian Beier') return ['Maximilian Beier',3,1,'Three logged goals; assisted Pio’s Arsenal equalizer.'];
+      if (row[0] === 'Alex Meret') return ['Alex Meret',0,0,'Key saves vs Arsenal kept Napoli alive long enough for the late equalizer.'];
       return row;
     });
     D.stats.sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
   }
 
   D.whispers = [
-    ['Drought Broken',"Pio's 90+1' winner ended the scoreless run."],
-    ['Pio Moment','Six logged goals now, with the latest coming against Arsenal.'],
-    ['Beier Contribution','Beier supplied the assist on the decisive goal.'],
-    ['Defensive Run','Napoli have three straight clean sheets across Lazio, Genoa and Arsenal.']
+    ['Drought Broken',"Pio's 90+1' equalizer ended Napoli's goalless run."],
+    ['Pio Moment','Six logged goals now, with the latest rescuing a point against Arsenal.'],
+    ['Beier Contribution','Beier supplied the assist on the stoppage-time equalizer.'],
+    ['Still Searching','The drought is over, but Napoli still have just one goal across their last three matches.']
   ];
 
   if (Array.isArray(D.media)) {
