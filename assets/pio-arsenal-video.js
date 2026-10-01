@@ -1,17 +1,18 @@
 (() => {
   const articleId = 'arsenal-pio-91';
-  const clipUrl = 'assets/pio-arsenal-equalizer.mp4?v=1';
-  const posterUrl = 'assets/pio-napoli.jpg';
+  const VERSION = '20260930-33';
+  const clipUrl = `assets/pio-arsenal-equalizer.mp4?v=${VERSION}`;
+  const posterUrl = `assets/pio-napoli.webp?v=${VERSION}`;
   const title = "Pio 90+1': The Drought Breaker";
   const caption = "Beier assist. Pio Esposito equalizer. 90+1'. Napoli 1–1 Arsenal.";
 
   const style = document.createElement('style');
   style.textContent = `
-    .season-video-wrap{position:relative;background:#02070c;overflow:hidden;aspect-ratio:16/9;max-width:910px;margin:0 auto}
+    .season-video-wrap{position:relative;background:#02070c;overflow:hidden;aspect-ratio:910/512;max-width:910px;margin:0 auto}
     .season-video{display:block;width:100%;height:100%;object-fit:contain;background:#02070c}
-    .season-video-unavailable{position:absolute;inset:0;display:none;align-items:flex-end;padding:18px;background:linear-gradient(0deg,rgba(2,7,12,.84),rgba(2,7,12,.08)),url('${posterUrl}') center 38%/cover no-repeat;color:#fff;font-size:.75rem;font-weight:850;letter-spacing:.06em;text-transform:uppercase}
+    .season-video-fallback{position:absolute;inset:0;display:none;background:url('${posterUrl}') center 34%/cover no-repeat}
     .season-video-wrap.video-error .season-video{display:none}
-    .season-video-wrap.video-error .season-video-unavailable{display:flex}
+    .season-video-wrap.video-error .season-video-fallback{display:block}
     .reader-gameplay{background:#06111f;border-top:1px solid rgba(255,255,255,.08);max-width:910px;margin:0 auto}
     .reader-gameplay-copy{padding:10px 16px 12px;background:#fff;color:#66758a;font-size:.75rem;line-height:1.4}
     .reader-gameplay-copy strong{display:block;color:#081a2d;font-size:.82rem;margin-bottom:2px}
@@ -31,19 +32,25 @@
 
     const video = document.createElement('video');
     video.className = 'season-video';
-    video.src = clipUrl;
     video.poster = posterUrl;
     video.controls = true;
     video.playsInline = true;
     video.preload = 'metadata';
+    video.width = 910;
+    video.height = 512;
     video.setAttribute('aria-label', "Pio Esposito's 90+1 equalizer against Arsenal");
+
+    const source = document.createElement('source');
+    source.src = clipUrl;
+    source.type = 'video/mp4';
+    video.appendChild(source);
     video.addEventListener('error', () => wrap.classList.add('video-error'));
 
-    const unavailable = document.createElement('div');
-    unavailable.className = 'season-video-unavailable';
-    unavailable.textContent = 'Full-quality match clip unavailable';
+    const fallback = document.createElement('div');
+    fallback.className = 'season-video-fallback';
+    fallback.setAttribute('aria-hidden','true');
 
-    wrap.append(video, unavailable);
+    wrap.append(video, fallback);
     return wrap;
   }
 
