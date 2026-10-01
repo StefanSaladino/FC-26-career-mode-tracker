@@ -4,15 +4,15 @@
       ['PioNation','Seven logged goals and another winner. At some point we can stop calling this a hot streak and admit he is just clinical.'],
       ['BeierDefenseLeague','Back-to-back assists for Beier. Quietly doing a lot of the dirty work around Pio.'],
       ['curva_bastoni','That back four was disgusting today. Udinese got absolutely nothing for free.'],
-      ['MeretUnion','One real danger moment and Meret answered it. That is exactly what you need from your number one.'],
-      ['ChiesaHive','Hit the post late and I still thought it was going in. Man is permanently one touch away from chaos.'],
-      ['tactical_zio','Not the five-goal beating everyone wanted, but honestly this was mature. One goal and then suffocate the game.'],
+      ['MeretUnion','One real danger moment and Meret answered it. Exactly what you need from your number one.'],
+      ['ChiesaHive','Hit the post late and I still thought it was going in. Permanently one touch away from chaos.'],
+      ['tactical_zio','Not the rout people wanted, but this was mature. One goal, control the match, take the points.'],
       ['PioHaterForNoReason','Fine. Seven goals. I will be quiet for exactly one match.'],
-      ['NapoliSempre','Win before the break, clean sheet, two weeks to reset. No notes.']
+      ['NapoliSempre','Win before the break, clean sheet, two weeks to reset. Good night.']
     ],
     'arsenal-pio-91': [
       ['PioNation','90+1 and he absolutely buries it. That is a striker who does not care what minute it is.'],
-      ['BeierDefenseLeague','People only remember the finish. Beier found the pass. Huge contribution.'],
+      ['BeierDefenseLeague','Everyone remembers the finish. Beier found the pass. Huge contribution.'],
       ['MeretUnion','Without Meret this is over long before stoppage time. Give the keeper his flowers.'],
       ['curvaB_screamer','I went from accepting the loss to screaming at my television in half a second.'],
       ['DroughtWatch','Two straight 0–0s and then THAT is how the drought ends. Of course it is.'],
@@ -37,23 +37,31 @@
     ],
     'sassuolo-response': [
       ['PazEnjoyer','Paz off the bench and straight into the winner. That is my guy.'],
-      ['ChiesaHive','Chiesa heard the criticism and chose violence.'],
+      ['ChiesaHive','Chiesa dragged us level and Beier finished the job. Proper response.'],
       ['MeretUnion','Everyone thank Meret before discussing the comeback.'],
-      ['beierburner','Three goals and people still talk like Beier is disposable.'],
+      ['beierburner','That late winner is exactly why Beier keeps getting trusted.'],
       ['ultras_di_toronto','85th-minute winners are terrible for my blood pressure.']
     ],
     'bayern-test': [
       ['EuropeanNights','Bayern were cleaner. Learn from it and move.'],
       ['DaviesExpress','Davies was cooking that left side and nobody finished the meal.'],
-      ['KDBTruthers','Second half changed the second Kevin came on.'],
+      ['KDBTruthers','The second half changed the second Kevin came on.'],
       ['curva_bastoni','Nübel needs another hobby besides saving everything.'],
       ['NapoliDoomer','PROJECT OVER. I WILL REVERSE THIS TAKE AFTER THE NEXT WIN.']
+    ],
+    'torino-control': [
+      ['EndrickEra','That finish is exactly why Endrick has to keep getting real minutes.'],
+      ['PeacockWatch','Clean sheet for Peacock. Development game went exactly how you want it to go.'],
+      ['McTominayMileage','Comes on at halftime, finds Endrick for the winner. Job done.'],
+      ['RotationPolice','Finally a rotated match that did not become a three-hour medical emergency.'],
+      ['BayernNext','Three points, protected legs, now onto Bayern.']
     ],
     'chiesa-pisa': [
       ['FedeForever','CHIESA 80TH MINUTE. CINEMA.'],
       ['PisaTrauma','Why did Pisa look like 2011 Barcelona for twenty minutes?'],
       ['StachAttack','Goal and assist from Stach and somehow nobody talks about it.'],
-      ['NapoliTherapy','This club refuses to win a normal match.']
+      ['NapoliTherapy','This club refuses to win a normal match.'],
+      ['EndrickEra','Endrick opening the scoring keeps getting forgotten because the ending was insane.']
     ],
     'pio-shirt': [
       ['PioNation','The shirt is his until someone takes it. Simple.'],
@@ -61,11 +69,48 @@
       ['PioHaterForNoReason','Fine goals. Wake me when he scores from the parking lot.'],
       ['No9Discourse','One quiet game and this section becomes a civil war.']
     ],
+    'three-nos': [
+      ['KeepTheCore','Turning down those numbers is a statement. This save is about winning now.'],
+      ['BeierDefenseLeague','Barcelona can keep calling. He is not for sale.'],
+      ['PioNation','Bayern offering that much for Pio this early tells you everything.'],
+      ['CaptainRespect','Keeping Di Lorenzo matters even if Kayode is the future.'],
+      ['MercatoMadness','Three giant offers rejected and somehow the squad got stronger anyway.']
+    ],
     'paz-kdb': [
       ['PazEnjoyer','It does not have to be one or the other. Play both and let teams suffer.'],
       ['KDBForever','You cannot teach that final pass.'],
       ['TacticsInBio','Different profiles for different game states. This is called depth.'],
       ['CommentSectionCoach','Personally I would start twelve players. Problem solved.']
+    ],
+    'peacock-problem': [
+      ['PeacockWatch','The potential is obvious. The question is how many league points development is allowed to cost.'],
+      ['KeeperUnion','A clean sheet against Torino buys him more patience. It does not settle the debate.'],
+      ['LoanHimNow','Still think regular loan minutes would be better than random starts.'],
+      ['AcademyAddict','If he really has low-90s potential you have to find a development path somehow.']
+    ],
+    'italy-pipeline': [
+      ['AzzurriCentral','The Napoli-to-Italy pipeline is getting ridiculous and I am completely fine with it.'],
+      ['KayodeClub','Kayode earning national-team trust while starting for Napoli is exactly the development loop you want.'],
+      ['PioNation','Pio club form feeding directly into Italy minutes. Keep it moving.'],
+      ['ClubCountryNerd','Two clean sheets for Italy and the same defensive core developing together at club level. There is value in that.']
+    ],
+    'captain-future': [
+      ['CaptainRespect','Kayode can be the future without pretending Di Lorenzo has nothing left to offer.'],
+      ['KayodeClub','The long-term job is clearly his. The transition does not need to become a drama.'],
+      ['DepthWinsTitles','Experienced rotation fullbacks are exactly what you need in a deep European season.'],
+      ['ArmbandTalk','Keep the armband where it is until there is an actual reason to change it.']
+    ],
+    'stach-insurance': [
+      ['StachAttack','Bought as insurance and immediately puts up a goal and assist. Perfect depth signing.'],
+      ['SquadBuilder','This is the kind of move that looks boring in August and brilliant in March.'],
+      ['MidfieldUnion','Can cover multiple jobs and does not complain about being rotation. Extremely useful.'],
+      ['PisaTrauma','Still laughing at that goalkeeper parry turning into a Stach goal.']
+    ],
+    'napoli-still-top': [
+      ['TableWatcher','Unbeaten and top after eight. That is the only table argument I need right now.'],
+      ['MilanTracker','Two points is nothing. Keep stacking wins.'],
+      ['ScudettoStress','I hate that every random October match already feels like title-race mathematics.'],
+      ['NapoliSempre','Strong start, but nobody gets a trophy for leading in October. Keep going.']
     ]
   };
 
@@ -75,11 +120,9 @@
   ];
 
   const banks = [
-    ['That was one of those matches where the scoreline tells about half the story.','You can see the idea even when the execution is messy.','This team is becoming annoyingly difficult to kill off.','I need one normal match before this season ends. Just one.'],
-    ['The midfield spacing was much better than people are giving it credit for.','Everyone wants fireworks every week. Sometimes control is the point.','There were warning signs, but there were answers too.','I am filing this under useful rather than pretty.'],
-    ['One player is about to get blamed for all eleven positions and somehow I already know who.','The comments are going to be unbearable if this happens again.','Some of you watched a completely different match and I respect the confidence.','The overreaction cycle has officially begun.'],
-    ['That final ball is going to haunt me for a full twenty-four hours.','Football would be easier if we simply scored every chance. I have solved the sport.','I have seen enough to form three contradictory opinions.','This is exactly the kind of result that looks smarter two weeks later.'],
-    ['The manager will get blamed either way, so at least make the discourse entertaining.','Rotation discourse loading in three, two, one...','Every substitution is genius after a win and terrorism after a draw. Never change.','I am once again asking everyone to wait more than five minutes before declaring a crisis.']
+    ['The headline gets the attention, but there is more going on underneath it.','This is one of those stories that will look different again in a month.','There is a real football decision here, not just discourse.','I have changed my mind twice while reading this.'],
+    ['The squad context matters more than people are admitting.','There is a sensible argument on both sides of this one.','This feels more like a season-long question than something one match settles.','The next few weeks will tell us a lot more.'],
+    ['One player is about to get blamed for all eleven positions and somehow I already know who.','The comments are going to be unbearable if this happens again.','Some of you read the headline and formed a complete tactical thesis.','The overreaction cycle has officially begun.']
   ];
 
   const hash = value => String(value||'').split('').reduce((n,c)=>(n*33+c.charCodeAt(0))>>>0,5381);
@@ -88,14 +131,23 @@
   function genericComments(article){
     const seed = hash(`${article.id}|${article.headline}`);
     const rows = [];
-    const used = new Set();
-    for(let i=0;i<6;i++){
-      const bank=banks[(seed+i*7)%banks.length];
+    const usedText = new Set();
+    const usedHandles = new Set();
+    for(let i=0;i<5;i++){
+      let bank=banks[(seed+i*7)%banks.length];
       let text=bank[(seed+i*11)%bank.length];
       let guard=0;
-      while(used.has(text)&&guard<12){text=bank[(seed+i*11+guard+1)%bank.length];guard++;}
-      used.add(text);
-      rows.push([handles[(seed+i*5)%handles.length],text]);
+      while(usedText.has(text)&&guard<20){
+        bank=banks[(seed+i*7+guard+1)%banks.length];
+        text=bank[(seed+i*11+guard+1)%bank.length];
+        guard++;
+      }
+      usedText.add(text);
+      let handle=handles[(seed+i*5)%handles.length];
+      guard=0;
+      while(usedHandles.has(handle)&&guard<handles.length){handle=handles[(seed+i*5+guard+1)%handles.length];guard++;}
+      usedHandles.add(handle);
+      rows.push([handle,text]);
     }
     return rows;
   }
@@ -104,19 +156,40 @@
 
   function renderComments(article){
     const rows = commentsFor(article);
-    return `<section class="fan-comments" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text],i)=>`<article class="fan-comment"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong><span>${i===0?'just now':`${i*4+3}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
+    return `<section class="fan-comments" data-comments-for="${escapeComment(article.id)}" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text],i)=>`<article class="fan-comment"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong><span>${i===0?'just now':`${i*4+3}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
   }
 
-  function appendComments(id){
+  let syncing = false;
+  function syncCommentsToReader(){
+    if(syncing) return;
     const reader=document.getElementById('readerContent');
-    const article=(window.NAPOLI_DATA?.articles||[]).find(a=>a.id===id);
-    if(!reader||!article)return;
-    reader.querySelector('.fan-comments')?.remove();
+    if(!reader) return;
+    const headline=reader.querySelector('#readerHeadline')?.textContent?.trim();
+    if(!headline){ reader.querySelector('.fan-comments')?.remove(); return; }
+    const article=(window.NAPOLI_DATA?.articles||[]).find(a=>String(a.headline).trim()===headline);
+    if(!article) return;
+
+    const current=reader.querySelector('.fan-comments');
+    if(current?.dataset.commentsFor===article.id) return;
+
+    syncing=true;
+    current?.remove();
     reader.insertAdjacentHTML('beforeend',renderComments(article));
+    syncing=false;
   }
 
-  document.addEventListener('click',e=>{const trigger=e.target.closest?.('[data-article]');if(trigger) queueMicrotask(()=>appendComments(trigger.dataset.article));});
-  document.addEventListener('keydown',e=>{const trigger=e.target.closest?.('[data-article]');if(trigger&&(e.key==='Enter'||e.key===' ')) setTimeout(()=>appendComments(trigger.dataset.article),0);});
+  const reader=document.getElementById('readerContent');
+  if(reader){
+    new MutationObserver(()=>queueMicrotask(syncCommentsToReader)).observe(reader,{childList:true,subtree:true});
+    syncCommentsToReader();
+  }
+
+  document.addEventListener('click',e=>{
+    if(e.target.closest?.('[data-article]')) requestAnimationFrame(syncCommentsToReader);
+  });
+  document.addEventListener('keydown',e=>{
+    if((e.key==='Enter'||e.key===' ')&&e.target.closest?.('[data-article]')) requestAnimationFrame(syncCommentsToReader);
+  });
 
   const style=document.createElement('style');
   style.textContent=`
