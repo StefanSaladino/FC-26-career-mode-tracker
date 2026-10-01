@@ -1,10 +1,10 @@
 (() => {
   const articleId = 'inter-live-bastoni-header';
-  const VERSION = '20261001-50';
+  const VERSION = '20261001-51';
   const clipUrl = `assets/a78fbe88-e1a3-4363-9d38-9cd973ea231e.mov?v=${VERSION}`;
   const posterUrl = `assets/bastoni-napoli.jpg?v=${VERSION}`;
-  const title = 'Inter Title-Race Clip';
-  const caption = 'Napoli lead Inter 1–0 in the live title-race showdown, with Buongiorno producing a goal-saving tackle to protect the advantage.';
+  const title = 'Inter 1–1 Napoli: Title-Race Clip';
+  const caption = 'Bastoni headed Napoli in front from a Chiesa corner, Buongiorno made a goal-saving tackle, and Inter later equalised as the title-race clash finished 1–1 in Milan.';
 
   function makeVideoBlock() {
     const wrap = document.createElement('div');
@@ -17,7 +17,7 @@
     video.controls = true;
     video.playsInline = true;
     video.preload = 'metadata';
-    video.setAttribute('aria-label', 'Gameplay clip from Napoli against Inter');
+    video.setAttribute('aria-label', 'Gameplay clip from Inter 1-1 Napoli');
 
     const source = document.createElement('source');
     source.src = clipUrl;
@@ -32,7 +32,7 @@
     const reader = document.getElementById('readerContent');
     if (!reader || reader.querySelector('[data-inter-live-video]')) return;
     const headline = reader.querySelector('#readerHeadline')?.textContent || '';
-    if (!headline.includes('Bastoni Rises')) return;
+    if (!headline.includes('Point Taken in Milan')) return;
 
     const block = document.createElement('div');
     block.className = 'reader-gameplay';
@@ -59,7 +59,7 @@
 
     const figcaption = document.createElement('figcaption');
     const tag = document.createElement('span');
-    tag.textContent = 'Gameplay · Inter Live';
+    tag.textContent = 'Gameplay · Inter 1–1 Napoli';
     const strong = document.createElement('strong');
     strong.textContent = title;
     const note = document.createElement('p');
