@@ -13,8 +13,23 @@
     ['Juventus','Supercoppa Italiana','Nov 30']
   ];
 
+  D.ticker = [
+    "FT · NAPOLI 1–0 CHELSEA · PIO 43'",
+    'NEXT · INTER · SERIE A · FOUR POINT GAP',
+    'NOV 5 · LECCE · SERIE A',
+    'NOV 8 · RB SALZBURG · CHAMPIONS LEAGUE',
+    'NOV 12 · JUVENTUS · ONE POINT BEHIND NAPOLI',
+    'NOV 15 · CAGLIARI · COPPA ITALIA',
+    'NOV 19 · EMPOLI · SERIE A',
+    'NOV 25 · ROMA · SERIE A',
+    'NOV 30 · JUVENTUS · SUPERCOPPA ITALIANA'
+  ];
+
   if (Array.isArray(D.whispers)) {
-    D.whispers = D.whispers.filter(item => item[0] !== 'Juve Double');
-    D.whispers.push(['Juve Double','Juventus sit one point behind Napoli ahead of the Nov 12 league meeting, with another showdown waiting in the Supercoppa on Nov 30.']);
+    D.whispers = D.whispers.filter(item => !['Juve Double','Schedule Squeeze'].includes(item[0]));
+    D.whispers.unshift(
+      ['Schedule Squeeze','The next run crosses Serie A, the Champions League, Coppa Italia and the Supercoppa, with very little room for wasted rotation.'],
+      ['Juve Double','Juventus sit one point behind Napoli ahead of the Nov 12 league meeting, with another showdown waiting in the Supercoppa on Nov 30.']
+    );
   }
 })();
