@@ -32,6 +32,9 @@
     D.articles.unshift(article);
   }
 
+  // Inter is now live, so the upcoming list advances to the fixtures after this match.
+  if (Array.isArray(D.upcoming)) D.upcoming = D.upcoming.filter(row => row[0] !== 'Inter');
+
   D.hero = {articleId:article.id,strap:'BASTONI RISES. NAPOLI LEAD INTER.'};
 
   D.ticker = [
