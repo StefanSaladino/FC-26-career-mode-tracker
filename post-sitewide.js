@@ -21,9 +21,8 @@
   upsertResult(['Napoli','Fiorentina','Serie A',1,0,'W',"Kevin De Bruyne 29'",'Chiesa assist; Meret huge save; Stach goal-line clearance; rotated XI protects three points before Chelsea']);
   upsertResult(['Napoli','Chelsea','Champions League',1,0,'W',"Pio Esposito 43'",'Davies assist; Trubin denied Endrick; Meret huge 90+1 save; Napoli move to 3-1-1 in Europe']);
 
-  // Keep the fixture sequence exactly as supplied by the save updates.
   D.upcoming = [
-    ['Inter','Serie A','Nov 28'],
+    ['Inter','Serie A','Oct 28'],
     ['Lecce','Serie A','Nov 5'],
     ['RB Salzburg','Champions League','Nov 8'],
     ['Juventus','Serie A','Nov 12'],
@@ -34,7 +33,7 @@
   ];
 
   D.ticker = [
-    'NEXT · INTER · SERIE A · FOUR-POINT GAP',
+    'NEXT · INTER · OCT 28 · SERIE A · FOUR-POINT GAP',
     "FT · NAPOLI 1–0 CHELSEA · PIO 43'",
     'JUVENTUS · ONE POINT BEHIND NAPOLI',
     'RB SALZBURG · CHAMPIONS LEAGUE · NOV 8',
@@ -50,7 +49,8 @@
     objectFit:stadium.objectFit,
     commentHeat:5,
     reaction:'rivalry',
-    visitorClub:'INTER'
+    visitorClub:'INTER',
+    commentContext:'league-title-race'
   });
 
   const scheduleArticle = {
@@ -70,8 +70,8 @@
     reaction:'title-race',
     visitorClub:'NONE',
     body:[
-      'Inter are first, four points ahead of Napoli at the top of Serie A. A win cuts the gap to one and immediately changes the pressure at the summit.',
-      'The fixture sequence supplied after that match is relentless: Lecce in the league on Nov 5, RB Salzburg in the Champions League on Nov 8 and Juventus in Serie A on Nov 12. Juve enter that league meeting only one point behind Napoli.',
+      'Inter are first on Oct 28, four points ahead of Napoli at the top of Serie A. A win cuts the gap to one and immediately changes the pressure at the summit.',
+      'After that, the sequence is relentless: Lecce in the league on Nov 5, RB Salzburg in the Champions League on Nov 8 and Juventus in Serie A on Nov 12. Juve enter that league meeting only one point behind Napoli.',
       'Cagliari follow in the Coppa Italia on Nov 15 before league matches against Empoli on Nov 19 and Roma on Nov 25.',
       'The run closes with another Juventus meeting on Nov 30, this time with silverware attached in the Supercoppa Italiana.',
       'Napoli therefore move from one heavyweight European win into a stretch where rotation, depth and result management will all matter. The season is no longer separating competitions cleanly; every few days brings a different kind of pressure.'
@@ -83,6 +83,23 @@
     const interIndex = D.articles.findIndex(a => a.id === 'inter-title-race-preview');
     if (interIndex >= 0) D.articles.splice(interIndex + 1, 0, scheduleArticle);
     else D.articles.unshift(scheduleArticle);
+
+    const matchContexts = {
+      'bayern-test':'ucl-league-stage',
+      'arsenal-pio-91':'ucl-league-stage',
+      'chelsea-pio-1-0':'ucl-league-stage',
+      'inter-title-race-preview':'league-title-race',
+      'fiorentina-kdb-1-0':'league-regular',
+      'udinese-pio-clean-sheet':'league-regular',
+      'genoa-drought':'league-regular',
+      'lazio-control':'league-regular',
+      'sassuolo-response':'league-regular',
+      'chiesa-pisa':'league-regular',
+      'torino-control':'league-regular'
+    };
+    D.articles.forEach(article => {
+      if (matchContexts[article.id]) article.commentContext = matchContexts[article.id];
+    });
   }
 
   D.hero = {articleId:'chelsea-pio-1-0',strap:'PIO STRIKES. MERET SAVES. CHELSEA FALL.'};
@@ -115,9 +132,9 @@
   }
 
   D.whispers = [
-    ['Title Race Pressure','Inter are four points clear. Napoli can cut the gap to one in the next league showdown; defeat would stretch it to seven.'],
-    ['Juve Double','Juventus sit one point behind Napoli ahead of the supplied Nov 12 league meeting, with a Supercoppa showdown also listed for Nov 30.'],
-    ['Fixture Compression','The supplied run includes Lecce, Salzburg, Juventus, Cagliari, Empoli, Roma and Juventus again across league, Europe and cups.'],
+    ['Title Race Pressure','Inter are four points clear. Napoli can cut the gap to one on Oct 28; defeat would stretch it to seven.'],
+    ['Juve Double','Juventus sit one point behind Napoli ahead of the Nov 12 league meeting, with a Supercoppa showdown also listed for Nov 30.'],
+    ['Fixture Compression','The run includes Inter on Oct 28, then Lecce, Salzburg, Juventus, Cagliari, Empoli, Roma and Juventus again across league, Europe and cups.'],
     ['Pio Keeps Rising','Eight logged Napoli goals, plus his Italy strike against South Africa. The big-game pattern is becoming impossible to ignore.'],
     ['Meret in the Clutch','The 90+1 save against Chelsea preserved another one-goal win and extended his run of decisive late interventions.']
   ];
