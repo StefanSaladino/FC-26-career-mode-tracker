@@ -75,7 +75,6 @@
     if (Object.prototype.hasOwnProperty.call(banks, explicit)) return explicit;
     if (a?.id === 'buongiorno-davies-extensions') return 'contract-renewal';
     const t = textOf(a);
-
     if (/contract renewal|contract extension|new deal|extends? (?:his|her|their)? ?contract|renewal|extension|agreed new terms|signs? new terms/.test(t)) return 'contract-renewal';
     if (/loaned out|sold to|sale to|depart(?:s|ed|ure)|leaves napoli|transfers? out|outgoing|exit/.test(t)) return 'transfer-out';
     if (/signs? for napoli|joins? napoli|napoli sign|new signing|arrival|transfers? in|incoming|completed the signing|deal completed/.test(t)) return 'transfer-in';
@@ -89,35 +88,38 @@
     const shifted = pool.slice(h % pool.length).concat(pool.slice(0, h % pool.length));
     const specific = [];
     const t = textOf(a);
-
     if (context === 'contract-renewal' && /davies/.test(t)) specific.push('Davies at $190K and still inside the existing wage structure? That is the exact kind of renewal I can live with.');
     if (context === 'contract-renewal' && /buongiorno/.test(t)) specific.push('Buongiorno staying through his prime is huge. Centre-back continuity is one less problem to solve next summer.');
-    if (context === 'contract-renewal' && /davies/.test(t) && /buongiorno/.test(t)) specific.push('Getting both Buongiorno and Davies done before the Inter match is excellent timing. Two major contract questions disappear at once.');
-
+    if (context === 'contract-renewal' && /davies/.test(t) && /buongiorno/.test(t)) specific.push('Getting both Buongiorno and Davies done together is excellent timing. Two major contract questions disappear at once.');
     const combined = specific.concat(shifted);
+    const filler = [
+      'This is exactly the kind of off-pitch decision that changes how the squad looks six months from now.',
+      'I am judging this on fit, timing and value, not just whether the headline feels exciting.',
+      'The sporting plan matters more than winning the news cycle.',
+      'At least this is a football conversation instead of pretending every story needs match-day drama.'
+    ];
     const target = Math.max(14, Math.min(22, 10 + Number(a.commentHeat || 3) * 3));
     let i = 0;
-    while (combined.length < target) {
-      const generic = [
-        'This is exactly the kind of off-pitch decision that changes how the squad looks six months from now.',
-        'I am judging this on fit, timing and value, not just whether the headline feels exciting.',
-        'The sporting plan matters more than winning the news cycle.',
-        'At least this is a football conversation instead of pretending every story needs match-day drama.'
-      ];
-      combined.push(generic[(h + i) % generic.length]);
-      i++;
-    }
-    return combined.slice(0, target).map((txt, idx) => [handles[(h + idx * 7) % handles.length], txt]);
+    while (combined.length < target) combined.push(filler[(h + i++) % filler.length]);
+    return combined.slice(0,target).map((txt,idx)=>[handles[(h+idx*7)%handles.length],txt]);
   }
 
-  function render(a, context, rows){
+  function apply(a, context, rows){
+    const reader = document.getElementById('readerContent');
+    const section = reader?.querySelector('.fan-comments');
+    if (!section) return;
+    if (section.dataset.newsContextEngine === '1' && section.dataset.newsContext === context && section.dataset.commentsFor === a.id) return;
+
     const h = hash(`${a.id}:${context}`);
-    return `<section class="fan-comments heat-${Math.max(2,Math.min(5,Number(a.commentHeat||3)))}" data-comments-for="${esc(a.id)}" data-comment-context="${esc(context)}" data-news-context-engine="1"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${esc(labels[context])} · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,txt],i)=>{const mins=i===0?'just now':`${2+((h+i*5)%48)}m`;const votes=7+((h+i*29)%190);return `<article class="fan-comment"><div class="fan-avatar">${esc(user[0].toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${esc(user)}</strong><span>${mins}</span></div><p>${esc(txt)}</p><div class="fan-actions"><span>▲ ${votes}</span><span>Reply</span></div></div></article>`;}).join('')}</div></section>`;
+    section.dataset.commentsFor = a.id;
+    section.dataset.newsContextEngine = '1';
+    section.dataset.newsContext = context;
+    section.innerHTML = `<div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${esc(labels[context])} · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,txt],i)=>`<article class="fan-comment"><div class="fan-avatar">${esc(user[0].toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${esc(user)}</strong><span>${i===0?'just now':`${2+((h+i*5)%48)}m`}</span></div><p>${esc(txt)}</p><div class="fan-actions"><span>▲ ${7+((h+i*29)%190)}</span><span>Reply</span></div></div></article>`).join('')}</div>`;
   }
 
-  let busy = false;
+  let scheduled = false;
   function sync(){
-    if (busy) return;
+    scheduled = false;
     const reader = document.getElementById('readerContent');
     if (!reader) return;
     const headline = reader.querySelector('#readerHeadline')?.textContent?.trim();
@@ -126,16 +128,18 @@
     if (!a) return;
     const context = inferContext(a);
     if (!context) return;
-    const current = reader.querySelector('.fan-comments');
-    if (!current) return;
-    if (current.dataset.newsContextEngine === '1' && current.dataset.commentContext === context) return;
-    busy = true;
-    current.outerHTML = render(a, context, articleRows(a, context));
-    busy = false;
+    apply(a,context,articleRows(a,context));
   }
 
-  const observer = new MutationObserver(sync);
-  observer.observe(document.documentElement, {childList:true, subtree:true});
-  document.addEventListener('click', () => setTimeout(sync, 0));
-  setTimeout(sync, 0);
+  function schedule(){
+    if (scheduled) return;
+    scheduled = true;
+    queueMicrotask(sync);
+  }
+
+  const reader = document.getElementById('readerContent');
+  if (reader) new MutationObserver(schedule).observe(reader,{childList:true,subtree:true});
+  document.addEventListener('click',e=>{if(e.target.closest?.('[data-article]'))requestAnimationFrame(schedule);});
+  document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.closest?.('[data-article]'))requestAnimationFrame(schedule);});
+  schedule();
 })();
