@@ -2,11 +2,12 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const stadium = {
-    src:'https://upload.wikimedia.org/wikipedia/commons/4/41/Stadio_San_Paolo_%28Napoli_vs_Club_Brugge%29_-_panoramio_%281%29.jpg',
-    credit:'Mister No / Wikimedia Commons · CC BY 3.0',
-    source:'https://commons.wikimedia.org/wiki/File:Stadio_San_Paolo_(Napoli_vs_Club_Brugge)_-_panoramio_(1).jpg',
-    objectPosition:'50% 57%',
+  const VERSION = '20260930-33';
+  const pio = {
+    src:`assets/pio-napoli.webp?v=${VERSION}`,
+    credit:'Season Room generated composite — Pio Esposito visualized in Napoli colours for this FC 26 save.',
+    source:null,
+    objectPosition:'50% 34%',
     objectFit:'cover'
   };
 
@@ -40,11 +41,11 @@
     date:'After Napoli 1–1 Arsenal',
     headline:'Pio at 90+1: Napoli Finally Break the Drought and Rescue a Point',
     dek:'Ødegaard put Arsenal ahead in the 24th, but after 180 scoreless league minutes Beier found Pio Esposito in stoppage time and Pio smashed the equalizer into the top-left corner.',
-    image:stadium.src,
-    imageCredit:stadium.credit,
-    imageSource:stadium.source,
-    objectPosition:stadium.objectPosition,
-    objectFit:stadium.objectFit,
+    image:pio.src,
+    imageCredit:pio.credit,
+    imageSource:pio.source,
+    objectPosition:pio.objectPosition,
+    objectFit:pio.objectFit,
     tone:'breaking',
     body:[
       'For most of the night, Napoli ran into the same problem that defined the previous two league matches: chances without a finish.',
@@ -81,6 +82,6 @@
 
   if (Array.isArray(D.media)) {
     D.media = D.media.filter(item => item.articleId !== article.id);
-    D.media.unshift({type:'image',title:'Arsenal: Pio at 90+1',src:stadium.src,tag:'Champions League',credit:stadium.credit,source:stadium.source,objectPosition:stadium.objectPosition,objectFit:stadium.objectFit,articleId:article.id});
+    D.media.unshift({type:'image',title:'Arsenal: Pio at 90+1',src:pio.src,tag:'Champions League',credit:pio.credit,source:pio.source,objectPosition:pio.objectPosition,objectFit:pio.objectFit,articleId:article.id});
   }
 })();
