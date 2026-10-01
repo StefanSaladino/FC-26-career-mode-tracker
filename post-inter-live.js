@@ -8,7 +8,7 @@
     label:'Title Race',
     date:'Napoli 1–0 Inter · Live',
     headline:'Bastoni Rises: Chiesa Corner Puts Napoli Ahead in the Title-Race Six-Pointer',
-    dek:'Federico Chiesa delivers from the corner and Alessandro Bastoni powers the header in. Napoli lead Inter 1–0 with the Serie A gap hanging over every touch.',
+    dek:'Federico Chiesa delivers from the corner and Alessandro Bastoni powers the header in. Napoli lead Inter 1–0, with Alessandro Buongiorno then producing a goal-saving tackle to preserve the advantage.',
     image:'assets/bastoni-napoli.jpg',
     objectPosition:'50% 30%',
     objectFit:'cover',
@@ -22,8 +22,10 @@
       'The breakthrough came from a corner. Federico Chiesa whipped the delivery into the area and Alessandro Bastoni rose to meet it, powering the header beyond the goalkeeper.',
       'The scorer only adds to the theatre. Bastoni, now the 90-rated centrepiece of Napoli’s defence, has produced at the other end of the pitch in the biggest domestic match of the season so far.',
       'Chiesa adds another decisive contribution after assisting Kevin De Bruyne’s winner against Fiorentina. His set-piece delivery has now directly changed the title-race game.',
+      'Inter have threatened to answer, and Alessandro Buongiorno has already been forced into a huge intervention. The centre-back produced a goal-saving tackle to keep Napoli in front, a defensive moment every bit as important as the breakthrough while the margin remains one.',
+      'The latest gameplay clip is now attached to this story and the Media section, capturing the intensity of a match being played with the Serie A lead directly in view.',
       'Inter arrived four points clear at the top of Serie A. If this score holds, Napoli cut that advantage to one. That arithmetic now sits behind every transition, every corner and every defensive clearance for the rest of the match.',
-      'The match is still live. Nothing is being treated as settled — but Napoli have landed the first blow.'
+      'The match is still live. Nothing is being treated as settled — but Napoli have landed the first blow and have already needed a massive defensive response to protect it.'
     ]
   };
 
@@ -35,18 +37,22 @@
   // Inter is now live, so the upcoming list advances to the fixtures after this match.
   if (Array.isArray(D.upcoming)) D.upcoming = D.upcoming.filter(row => row[0] !== 'Inter');
 
-  D.hero = {articleId:article.id,strap:'BASTONI RISES. NAPOLI LEAD INTER.'};
+  D.hero = {articleId:article.id,strap:'BASTONI SCORES. BUONGIORNO SAVES. NAPOLI LEAD INTER.'};
 
   D.ticker = [
     'LIVE · NAPOLI 1–0 INTER · BASTONI HEADER',
     'CHIESA CORNER · BASTONI FINISH',
+    'BUONGIORNO · GOAL-SAVING TACKLE',
     'TITLE RACE · INTER ENTERED FOUR POINTS CLEAR',
     'AS IT STANDS · NAPOLI WOULD CUT THE GAP TO ONE'
   ];
 
   if (Array.isArray(D.whispers)) {
-    D.whispers = D.whispers.filter(item => item[0] !== 'Live Title-Race Swing');
-    D.whispers.unshift(['Live Title-Race Swing','Bastoni has headed Napoli 1–0 ahead from a Chiesa corner. If the score holds, Inter’s four-point Serie A lead is cut to one.']);
+    D.whispers = D.whispers.filter(item => !['Live Title-Race Swing','Buongiorno Rescue'].includes(item[0]));
+    D.whispers.unshift(
+      ['Live Title-Race Swing','Bastoni has headed Napoli 1–0 ahead from a Chiesa corner. If the score holds, Inter’s four-point Serie A lead is cut to one.'],
+      ['Buongiorno Rescue','With Inter pushing for an equalizer, Buongiorno produced a goal-saving tackle to preserve the 1–0 lead.']
+    );
   }
 
   if (Array.isArray(D.stats)) {
