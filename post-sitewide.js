@@ -33,6 +33,7 @@
   ];
 
   D.ticker = [
+    'CORE LOCKED · BUONGIORNO + DAVIES EXTEND',
     'NEXT · INTER · OCT 28 · SERIE A · FOUR-POINT GAP',
     "FT · NAPOLI 1–0 CHELSEA · PIO 43'",
     'JUVENTUS · ONE POINT BEHIND NAPOLI',
@@ -52,6 +53,33 @@
     visitorClub:'INTER',
     commentContext:'league-title-race'
   });
+
+  const extensionArticle = {
+    id:'buongiorno-davies-extensions',
+    category:'Club',
+    label:'Contract News',
+    date:'Ahead of Inter · Oct 28',
+    headline:'Core Locked Down: Buongiorno and Davies Sign New Napoli Deals',
+    dek:'Napoli secure two cornerstones of the project before the title-race showdown with Inter, extending Alessandro Buongiorno and Alphonso Davies on new terms.',
+    image:stadium.src,
+    imageCredit:stadium.credit,
+    imageSource:stadium.source,
+    objectPosition:stadium.objectPosition,
+    objectFit:stadium.objectFit,
+    tone:'breaking',
+    commentHeat:4,
+    reaction:'club-news',
+    visitorClub:'NONE',
+    body:[
+      'Napoli have moved decisively to secure two of the cornerstones of the project, with Alessandro Buongiorno and Alphonso Davies both agreeing new contracts.',
+      'Buongiorno, now 28 and rated 87 OVR, has agreed a two-year extension to his existing deal. The centre-back remains on Crucial status at $160K per week, with a $1.65M signing bonus and a further $2.5M after 20 appearances.',
+      'The renewal keeps one half of Napoli’s elite central-defensive partnership firmly in place through his prime years.',
+      'Alphonso Davies has also agreed a three-year contract extension worth $190K per week, ensuring the 90-rated Canadian remains in Naples as one of the central pieces of the squad.',
+      'Davies has become far more than simply a left-sided defender in this Napoli side. His ability to break games open in transition was on full display against Chelsea, when his spectacular run created Pio Esposito’s winning goal in Napoli’s 1–0 European victory.',
+      'With both deals complete, Napoli have removed two potentially significant contract questions from the dressing room at a crucial point in the season.',
+      'The message from the club is clear: the core is staying together. With Buongiorno anchoring the defence and Davies providing one of the most dangerous weapons anywhere on the left side of the pitch, Napoli can turn their complete attention toward the title race, beginning with the upcoming showdown against Serie A leaders Inter.'
+    ]
+  };
 
   const scheduleArticle = {
     id:'fixture-run-november',
@@ -79,10 +107,14 @@
   };
 
   if (Array.isArray(D.articles)) {
-    D.articles = D.articles.filter(a => a.id !== scheduleArticle.id);
+    D.articles = D.articles.filter(a => ![extensionArticle.id,scheduleArticle.id].includes(a.id));
     const interIndex = D.articles.findIndex(a => a.id === 'inter-title-race-preview');
-    if (interIndex >= 0) D.articles.splice(interIndex + 1, 0, scheduleArticle);
-    else D.articles.unshift(scheduleArticle);
+    if (interIndex >= 0) {
+      D.articles.splice(interIndex + 1, 0, extensionArticle);
+      D.articles.splice(interIndex + 2, 0, scheduleArticle);
+    } else {
+      D.articles.unshift(extensionArticle, scheduleArticle);
+    }
 
     const matchContexts = {
       'bayern-test':'ucl-league-stage',
@@ -132,6 +164,7 @@
   }
 
   D.whispers = [
+    ['Contract Core Secured','Buongiorno has extended for two years at $160K per week and Davies for three years at $190K per week.'],
     ['Title Race Pressure','Inter are four points clear. Napoli can cut the gap to one on Oct 28; defeat would stretch it to seven.'],
     ['Juve Double','Juventus sit one point behind Napoli ahead of the Nov 12 league meeting, with a Supercoppa showdown also listed for Nov 30.'],
     ['Fixture Compression','The run includes Inter on Oct 28, then Lecce, Salzburg, Juventus, Cagliari, Empoli, Roma and Juventus again across league, Europe and cups.'],
@@ -140,9 +173,10 @@
   ];
 
   if (Array.isArray(D.media)) {
-    D.media = D.media.filter(item => !['inter-title-race-preview','fixture-run-november'].includes(item.articleId));
+    D.media = D.media.filter(item => !['inter-title-race-preview','buongiorno-davies-extensions','fixture-run-november'].includes(item.articleId));
     D.media.unshift(
       {type:'image',title:'Inter: Four-Point Title Gap',src:stadium.src,credit:stadium.credit,source:stadium.source,tag:'Serie A Preview',objectPosition:stadium.objectPosition,objectFit:stadium.objectFit,articleId:'inter-title-race-preview'},
+      {type:'image',title:'Core Locked Down',src:stadium.src,credit:stadium.credit,source:stadium.source,tag:'Contract News',objectPosition:stadium.objectPosition,objectFit:stadium.objectFit,articleId:'buongiorno-davies-extensions'},
       {type:'image',title:'The Run Ahead',src:stadium.src,credit:stadium.credit,source:stadium.source,tag:'Schedule',objectPosition:stadium.objectPosition,objectFit:stadium.objectFit,articleId:'fixture-run-november'}
     );
   }
