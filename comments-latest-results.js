@@ -1,7 +1,7 @@
 (() => {
   const threads = {
     'Pio Strikes Again, but Salzburg Snatch a 1–1 Draw Late': {
-      id:'salzburg-pio-1-1', label:'CHAMPIONS LEAGUE · LATE DRAW', rows:[
+      id:'salzburg-pio-1-1', context:'ucl-league-stage', label:'CHAMPIONS LEAGUE · LATE DRAW', rows:[
         ['PioPressure','Pio again. That left-foot finish was ice cold. Sickening that it did not end up being the winner.',''],
         ['BeierBeliever','Beier to Pio is a real thing now. That link looked dangerous all night.',''],
         ['MeretMoment','He kept us alive in the first half, which makes the spill on the equaliser even harder to take.',''],
@@ -13,7 +13,7 @@
       ]
     },
     'Pio from the Spot: Napoli Grind Out a 1–0 Win at Juventus': {
-      id:'juventus-pio-penalty-1-0', label:'SERIE A · BIG AWAY WIN', rows:[
+      id:'juventus-pio-penalty-1-0', context:'league-title-race', label:'SERIE A · BIG AWAY WIN', rows:[
         ['PioPressure','Bottom right. No panic. No drama. Pio wanted that penalty and buried it.',''],
         ['MooreMinutes','Mikey Moore winning the penalty in Turin is exactly how you earn more minutes. Massive impact.',''],
         ['BastoniWall','That late Bastoni intervention was every bit as important as the goal. Clutch defending.',''],
@@ -27,7 +27,7 @@
       ]
     },
     'Davies Off the Bench Wins It: Napoli Survive Cagliari 2–1 in the Coppa': {
-      id:'cagliari-davies-winner-2-1', label:'COPPA ITALIA · THROUGH', rows:[
+      id:'cagliari-davies-winner-2-1', context:'coppa-knockout', label:'COPPA ITALIA · THROUGH', rows:[
         ['DaviesDrive','That is what a superstar bench cameo looks like. Miss one, keep attacking, bury the next one.',''],
         ['BeierBeliever','Finally. Beier needed that goal badly and the Paz pass was perfect.',''],
         ['PeacockWatch','Two or three huge saves tonight. Peacock absolutely earned this start.',''],
@@ -42,26 +42,45 @@
     }
   };
 
-  const render = () => {
-    const headline = document.querySelector('#readerHeadline')?.textContent?.trim();
+  const esc = (value='') => String(value)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+
+  let scheduled = false;
+  function render() {
+    scheduled = false;
+    const host = document.getElementById('readerContent');
+    if (!host) return;
+    const headline = host.querySelector('#readerHeadline')?.textContent?.trim();
     const thread = threads[headline];
     if (!thread) return;
-    const host = document.querySelector('#readerContent');
-    if (!host) return;
+
     let section = host.querySelector('.fan-comments');
     if (!section) {
       section = document.createElement('section');
       section.className = 'fan-comments';
       host.appendChild(section);
     }
-    section.dataset.commentsFor = thread.id;
-    section.dataset.commentContext = thread.id === 'salzburg-pio-1-1' ? 'ucl-league-stage' : (thread.id === 'cagliari-davies-winner-2-1' ? 'coppa-knockout' : 'league-title-race');
-    section.dataset.contextEngine = '2';
-    section.dataset.latestResultFixed = '1';
-    section.innerHTML = `<div class="fan-comments-head"><span>${thread.label}</span><strong>${thread.rows.length} comments</strong></div><div class="fan-comments-list">${thread.rows.map(([name,text,club]) => `<article class="fan-comment${club ? ' visitor-comment' : ''}"><div class="fan-avatar">${name.slice(0,2).toUpperCase()}</div><div><div class="fan-meta"><strong>${name}</strong>${club ? `<span>${club}</span>` : ''}</div><p>${text}</p></div></article>`).join('')}</div>`;
-  };
 
-  new MutationObserver(render).observe(document.body,{subtree:true,childList:true,characterData:true});
-  document.addEventListener('click',() => setTimeout(render,0));
-  render();
+    if (section.dataset.latestResultFixed === thread.id) return;
+
+    section.dataset.commentsFor = thread.id;
+    section.dataset.commentContext = thread.context;
+    section.dataset.contextEngine = '2';
+    section.dataset.latestResultFixed = thread.id;
+    section.classList.add('heat-5');
+    section.innerHTML = `<div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${esc(thread.label)} · ${thread.rows.length} shown</small></div><div class="fan-comments-list">${thread.rows.map(([name,text,club],i) => `<article class="fan-comment${club ? ' visitor-comment' : ''}"><div class="fan-avatar">${esc(name.slice(0,2).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${esc(name)}</strong>${club ? `<em class="visitor-badge">${esc(club)} FAN</em>` : ''}<span>${i===0?'just now':`${2+i*4}m`}</span></div><p>${esc(text)}</p><div class="fan-actions"><span>▲ ${21+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div>`;
+  }
+
+  function scheduleRender(){
+    if (scheduled) return;
+    scheduled = true;
+    queueMicrotask(render);
+  }
+
+  const reader = document.getElementById('readerContent');
+  if (reader) new MutationObserver(scheduleRender).observe(reader,{subtree:true,childList:true});
+  document.addEventListener('click',e=>{if(e.target.closest?.('[data-article]'))requestAnimationFrame(scheduleRender);});
+  document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.closest?.('[data-article]'))requestAnimationFrame(scheduleRender);});
+  scheduleRender();
 })();
