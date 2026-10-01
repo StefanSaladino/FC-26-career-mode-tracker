@@ -2,8 +2,6 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  const VERSION = '20260930-24';
-  const local = file => `assets/${file}?v=${VERSION}`;
   const stadium = {
     src:'https://upload.wikimedia.org/wikipedia/commons/4/41/Stadio_San_Paolo_%28Napoli_vs_Club_Brugge%29_-_panoramio_%281%29.jpg',
     credit:'Mister No / Wikimedia Commons · CC BY 3.0',
@@ -89,5 +87,5 @@
     });
   }
 
-  window.NAPOLI_IMAGE_FALLBACK = window.NAPOLI_IMAGE_FALLBACK || local('editorial-bayern.svg');
+  window.NAPOLI_IMAGE_FALLBACK = null;
 })();
