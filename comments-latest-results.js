@@ -25,6 +25,20 @@
         ['PioXI','Eleven logged Napoli goals now. At this point calling him clutch is underselling it.',''],
         ['PartenopeiPulse','After the Salzburg frustration, this is exactly the response you wanted. Go to Turin and win ugly.','']
       ]
+    },
+    'Davies Off the Bench Wins It: Napoli Survive Cagliari 2–1 in the Coppa': {
+      id:'cagliari-davies-winner-2-1', label:'COPPA ITALIA · THROUGH', rows:[
+        ['DaviesDrive','That is what a superstar bench cameo looks like. Miss one, keep attacking, bury the next one.',''],
+        ['BeierBeliever','Finally. Beier needed that goal badly and the Paz pass was perfect.',''],
+        ['PeacockWatch','Two or three huge saves tonight. Peacock absolutely earned this start.',''],
+        ['PazVision','Paz was creating all night. The assist to Beier was only the cleanest example.',''],
+        ['CupNerves','That corner equaliser before halftime was ridiculous. Massive response not to lose our heads.',''],
+        ['CagliariGuest','Sherri gave us a chance for a long time, but Davies changed the level of the match when he came on.','CAGLIARI'],
+        ['ChiesaChaos','Chiesa coming on for Stach was the moment we stopped managing the tie and went hunting for it.',''],
+        ['RotationFC','Peacock, Marín, Geertruida at left back, Stach, Lang — rotated side and still got through. Job done.',''],
+        ['TitleRaceNow','Cup business handled. Straight back to the league now with Inter only four points ahead.',''],
+        ['PartenopeiPulse','Beier scores, Peacock delivers, Davies wins it. That is exactly what squad depth is supposed to look like.','']
+      ]
     }
   };
 
@@ -41,7 +55,7 @@
       host.appendChild(section);
     }
     section.dataset.commentsFor = thread.id;
-    section.dataset.commentContext = thread.id === 'salzburg-pio-1-1' ? 'ucl-league-stage' : 'league-title-race';
+    section.dataset.commentContext = thread.id === 'salzburg-pio-1-1' ? 'ucl-league-stage' : (thread.id === 'cagliari-davies-winner-2-1' ? 'coppa-knockout' : 'league-title-race');
     section.dataset.contextEngine = '2';
     section.dataset.latestResultFixed = '1';
     section.innerHTML = `<div class="fan-comments-head"><span>${thread.label}</span><strong>${thread.rows.length} comments</strong></div><div class="fan-comments-list">${thread.rows.map(([name,text,club]) => `<article class="fan-comment${club ? ' visitor-comment' : ''}"><div class="fan-avatar">${name.slice(0,2).toUpperCase()}</div><div><div class="fan-meta"><strong>${name}</strong>${club ? `<span>${club}</span>` : ''}</div><p>${text}</p></div></article>`).join('')}</div>`;
