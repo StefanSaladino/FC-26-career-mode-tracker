@@ -1,6 +1,10 @@
 (() => {
   // Rows are [handle, comment, optional visiting-club label].
-  // Visiting supporters get a visible badge so the forum feels like rival fans are actually passing through.
+  // Future match articles can explicitly set:
+  // commentHeat: 1–5
+  // reaction: win | big-win | comeback-win | chaotic-win | draw | frustrating-draw | big-draw | loss | big-loss | upset-loss | rivalry | title-race
+  // visitorClub: e.g. 'CHELSEA'
+  // If those fields are omitted, this file infers a sensible profile from the article.
   const specific = {
     'udinese-pio-clean-sheet': [
       ['PioNation','Seven logged goals and another winner. At some point we can stop calling this a hot streak and admit he is just clinical.'],
@@ -138,49 +142,281 @@
     ]
   };
 
+  const profiles = {
+    'udinese-pio-clean-sheet': {heat:2,reaction:'win',visitor:'UDINESE'},
+    'arsenal-pio-91': {heat:5,reaction:'big-draw',visitor:'ARSENAL'},
+    'genoa-drought': {heat:3,reaction:'frustrating-draw',visitor:'GENOA'},
+    'lazio-control': {heat:3,reaction:'frustrating-draw',visitor:'LAZIO'},
+    'sassuolo-response': {heat:3,reaction:'comeback-win',visitor:'SASSUOLO'},
+    'bayern-test': {heat:5,reaction:'big-loss',visitor:'BAYERN'},
+    'torino-control': {heat:2,reaction:'win',visitor:'TORINO'},
+    'chiesa-pisa': {heat:3,reaction:'chaotic-win',visitor:'PISA'},
+    'pio-shirt': {heat:2,reaction:'story'},
+    'three-nos': {heat:3,reaction:'story'},
+    'paz-kdb': {heat:2,reaction:'story'},
+    'peacock-problem': {heat:2,reaction:'story'},
+    'italy-pipeline': {heat:3,reaction:'big-win',visitor:'FRANCE'},
+    'captain-future': {heat:2,reaction:'story'},
+    'stach-insurance': {heat:2,reaction:'story'},
+    'napoli-still-top': {heat:3,reaction:'title-race'}
+  };
+
   const handles = [
     'curva_commentator','napoli_in_my_blood','tactical_zio','scapegoat_selector','forza_forever',
-    'northstandnoise','partenopei92','matchday_meltdown','bluewall','touchlinelawyer','awayendchaos','vesuvio_voice'
+    'northstandnoise','partenopei92','matchday_meltdown','bluewall','touchlinelawyer','awayendchaos','vesuvio_voice',
+    'SaladinoOutNow','SanPaoloSufferer','PiazzaPlebiscito','ScudettoOrBust','NapoliTherapy','90MinuteNervousBreakdown',
+    'SecondHalfMerchant','VesuvioAfterDark','TransferListEveryone','ActuallyWatchTheGame','CurvaBAtWork','NoTacticsJustVibes'
   ];
 
-  const banks = [
-    ['The headline gets the attention, but there is more going on underneath it.','This is one of those stories that will look different again in a month.','There is a real football decision here, not just discourse.','I have changed my mind twice while reading this.'],
-    ['The squad context matters more than people are admitting.','There is a sensible argument on both sides of this one.','This feels more like a season-long question than something one match settles.','The next few weeks will tell us a lot more.'],
-    ['One player is about to get blamed for all eleven positions and somehow I already know who.','The comments are going to be unbearable if this happens again.','Some of you read the headline and formed a complete tactical thesis.','The overreaction cycle has officially begun.']
+  const genericBanks = [
+    'The headline gets the attention, but there is more going on underneath it.',
+    'This is one of those stories that will look different again in a month.',
+    'There is a real football decision here, not just discourse.',
+    'The squad context matters more than people are admitting.',
+    'One player is about to get blamed for all eleven positions and somehow I already know who.',
+    'Some of you read the headline and formed a complete tactical thesis.',
+    'I have changed my mind twice while reading this.',
+    'The next few weeks will tell us a lot more.'
   ];
+
+  const reactionBanks = {
+    win: [
+      'Three points. Clean enough. Nobody needs a documentary about it.',
+      'Good teams win these without turning every match into a crisis meeting.',
+      'Bank it and move. The schedule is too ugly to complain about winning.',
+      'Not every win needs fireworks. Sometimes you just take the points and go home.'
+    ],
+    'comeback-win': [
+      'I aged nine years and somehow we got three points. Completely normal Napoli experience.',
+      'The moment we went behind I knew this thread would become a crime scene. Credit for dragging it back.',
+      'That is the kind of win that makes the dressing room louder than the tactics board.',
+      'I had three different scapegoats selected and then we won. Annoying.'
+    ],
+    'chaotic-win': [
+      'We won and I am still angry. That should tell you everything.',
+      'Three points secured, blood pressure destroyed.',
+      'Please win one match like adults. I am begging.',
+      'The final whistle is doing a lot of work for the mood in here.'
+    ],
+    draw: [
+      'A point is a point, but nobody is framing this performance.',
+      'Not a disaster. Not exactly something I want to watch twice either.',
+      'The unbeaten column is doing some heavy lifting for my mood tonight.'
+    ],
+    'frustrating-draw': [
+      'I know we did not lose. My nervous system does not care.',
+      'Another ninety minutes of passing around the box like there is a force field over the goal.',
+      'Somebody explain how a team this talented can make scoring look like advanced physics.',
+      'I am not calling it a crisis. I am also absolutely opening the crisis folder.'
+    ],
+    'big-draw': [
+      'THAT is why you play to the final whistle. Europe can keep the pretty narratives; give me the point.',
+      'I was already writing the post-mortem and then the stadium exploded.',
+      'A draw has no business feeling this much like a win but here we are.',
+      'These are the nights where a team starts believing it belongs with the heavyweights.',
+      'If that goal happens in a knockout tie I may actually leave my body.'
+    ],
+    loss: [
+      'Bad night. Own it, fix it, do not let it become two bad nights.',
+      'The performance was not catastrophic. The result still sucks.',
+      'Nobody gets protected from criticism after a loss, but the season is not on fire.'
+    ],
+    'big-loss': [
+      'Europe does not care how good the domestic form looks. Miss your chances and elite teams punish you.',
+      'I can accept losing to a giant. I cannot accept looking surprised when the level rises.',
+      'This is the match the staff need to keep on the projector all week.',
+      'No panic, but no excuses either. We found the ceiling tonight and it hit us in the face.',
+      'I swear every Champions League loss makes this forum forget the previous six months of football.'
+    ],
+    'big-win': [
+      'PRINT THE SCOREBOARD AND SEND IT TO EVERYONE WHO TALKED THIS WEEK.',
+      'Big game, big pressure, big response. That is what serious teams do.',
+      'I will be unbearable until the next kickoff and nobody can stop me.',
+      'All week we heard why they were supposed to expose us. Quiet now, is it?',
+      'This is the kind of result you bring up completely unprompted for the next five years.'
+    ],
+    rivalry: [
+      'I do not care about form, xG, weather or the alignment of the planets. Win the rivalry match.',
+      'There are three points and then there are THESE three points.',
+      'If we lose this one I am muting every football account for a week.',
+      'Nobody say calm down. This fixture is not for calm people.'
+    ],
+    'title-race': [
+      'Every dropped point is now a national emergency apparently. Welcome to a title race.',
+      'Screenshot the table if you want. Just keep winning.',
+      'The only thing worse than being in a title race is not being in one.',
+      'I have started doing points projections in October. Someone confiscate my phone.'
+    ],
+    story: [
+      'This is exactly the kind of topic that becomes unbearable after one bad match.',
+      'There is a sensible football discussion here, which means the comments will avoid it completely.',
+      'Give it two weeks and everyone will pretend they always had the correct opinion.',
+      'The discourse has officially become more complicated than the actual selection decision.'
+    ],
+    'upset-loss': [
+      'SALADINO OUT. Do not show me the table. Do not show me the form. Explain THIS result.',
+      'TRANSFER LIST EVERYONE. I will calm down tomorrow and reject all the offers, but tonight EVERYONE.',
+      'No tactical analysis tonight. Just shame. Pure, concentrated shame.',
+      'How are we this expensive, this highly rated, and losing THIS match? I need a congressional inquiry.',
+      'I defended this project for MONTHS and this is the thanks I get?',
+      'Open training tomorrow. No music. No rondos. Just running until somebody apologizes.',
+      'I have deleted the game out of solidarity. See you at kickoff next week.',
+      'If anybody needs me I will be staring at the ceiling in complete silence.',
+      'The entire rival internet is going to use this scoreline against us for six months. Fantastic.',
+      'Saladino has twenty-four hours to explain this result to my mother personally.',
+      'I am outside the training ground with a PowerPoint and several extremely unreasonable demands.',
+      'There are losses and then there are results that make you reconsider every decision since preseason.',
+      'Bench the starters. Start the academy. Sack the chef. I am not thinking rationally and I refuse to start now.',
+      'This team made me believe and THIS is what they do with that trust. Football is a scam.'
+    ]
+  };
+
+  const rivalGloat = [
+    'Before kickoff your forum was asking how many. After full time it is asking how. Beautiful.','
+    All that depth, all that money, all those ratings — and you still have to read comments from us tonight.',
+    'Screenshot the table again. We will screenshot the score.',
+    'Your excuses are loading faster than your attack did.',
+    'We were told this was supposed to be a routine night for Napoli. Please continue the explanation.',
+    'Safe trip home. Bring the possession stats with you if they make you feel better.'
+  ];
+
+  const rivalExcuses = [
+    'Enjoy the win. We will see how loud this place is when the rematch comes around.',
+    'One result and suddenly every Napoli account has discovered dynasty language. Relax.',
+    'Fine margins. You took yours, we did not. Do not turn it into a documentary.',
+    'You deserved the result. I still reserve the right to be deeply annoying about it.',
+    'Congratulations. I will now spend the evening explaining why this match actually did not count.'
+  ];
+
+  const rivalDraw = [
+    'You are celebrating a draw like a trophy and I would mock you harder if I was not furious about how it happened.',
+    'We had the match in our hands and somehow your forum is the happy one. Disgusting sport.',
+    'Take your point. We are taking the screenshots of the celebration.',
+    'I came here to gloat and now I have to pretend a draw was part of the plan.'
+  ];
+
+  const rivalHandles = ['AwayEndTourist','OppositionScout','ScoreboardMerchant','HereForTheMeltdown','VisitingNoise','WrongEndOfTown','RivalAccount','AwayDayLurker'];
+  const knownClubs = ['CHELSEA','ARSENAL','BAYERN','INTER','MILAN','JUVENTUS','ROMA','LAZIO','GENOA','TORINO','PISA','SASSUOLO','UDINESE','BARCELONA','REAL MADRID','FRANCE'];
+  const bigNames = ['CHELSEA','ARSENAL','BAYERN','INTER','MILAN','JUVENTUS','BARCELONA','REAL MADRID','MANCHESTER CITY','LIVERPOOL','PSG','FRANCE'];
+  const targetByHeat = {1:5,2:8,3:11,4:14,5:17};
 
   const hash = value => String(value||'').split('').reduce((n,c)=>(n*33+c.charCodeAt(0))>>>0,5381);
   const escapeComment = (value='') => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+  const articleText = article => `${article?.headline||''} ${article?.dek||''} ${(article?.body||[]).join(' ')} ${article?.date||''}`;
 
-  function genericComments(article){
-    const seed = hash(`${article.id}|${article.headline}`);
-    const rows = [];
-    const usedText = new Set();
-    const usedHandles = new Set();
-    for(let i=0;i<5;i++){
-      let bank=banks[(seed+i*7)%banks.length];
-      let text=bank[(seed+i*11)%bank.length];
-      let guard=0;
-      while(usedText.has(text)&&guard<20){
-        bank=banks[(seed+i*7+guard+1)%banks.length];
-        text=bank[(seed+i*11+guard+1)%bank.length];
-        guard++;
+  function inferVisitor(article){
+    const upper = articleText(article).toUpperCase();
+    return knownClubs.find(club => upper.includes(club)) || '';
+  }
+
+  function inferHeat(article){
+    const upper = articleText(article).toUpperCase();
+    let heat = 2;
+    if (/CHAMPIONS LEAGUE|\bUCL\b|EUROPE|TITLE|SCUDETTO|DERBY|RIVAL/.test(upper)) heat = 3;
+    if (bigNames.some(club => upper.includes(club))) heat = Math.max(heat,4);
+    if (/FINAL|SEMI[- ]?FINAL|QUARTER[- ]?FINAL|KNOCKOUT|TITLE DECIDER|WORLD CUP/.test(upper)) heat = 5;
+    return heat;
+  }
+
+  function inferReaction(article){
+    const lower = articleText(article).toLowerCase();
+    if (/upset|stunned|shocked|humiliated|embarrass|relegation|bottom[- ]half/.test(lower) && /loss|defeat|lost|beaten/.test(lower)) return 'upset-loss';
+    if (/loss|defeat|lost|beaten|0–2|0-2|0–3|0-3/.test(lower)) return inferHeat(article)>=4 ? 'big-loss' : 'loss';
+    if (/draw|level|equaliser|equalizer|0–0|0-0|1–1|1-1/.test(lower)) return inferHeat(article)>=4 ? 'big-draw' : 'draw';
+    if (/comeback|came from behind|late winner/.test(lower)) return 'comeback-win';
+    if (/win|winner|victory|three points/.test(lower)) return inferHeat(article)>=4 ? 'big-win' : 'win';
+    return 'story';
+  }
+
+  function profileFor(article){
+    const preset = profiles[article.id] || {};
+    const reaction = article.reaction || preset.reaction || inferReaction(article);
+    let heat = Number(article.commentHeat || preset.heat || inferHeat(article));
+    heat = Math.max(1,Math.min(5,heat));
+    if (reaction === 'upset-loss') heat = 5;
+    return {
+      heat,
+      reaction,
+      visitor: String(article.visitorClub || preset.visitor || inferVisitor(article) || '').toUpperCase()
+    };
+  }
+
+  function pickUnique(bank, seed, usedText){
+    if(!bank?.length) return null;
+    for(let offset=0;offset<bank.length*2;offset++){
+      const text = bank[(seed+offset*7)%bank.length];
+      if(!usedText.has(text)) return text;
+    }
+    return null;
+  }
+
+  function nextHandle(seed, usedHandles, bank=handles){
+    for(let offset=0;offset<bank.length*2;offset++){
+      const handle = bank[(seed+offset*5)%bank.length];
+      if(!usedHandles.has(handle)) return handle;
+    }
+    return `${bank[seed%bank.length]}_${seed%97}`;
+  }
+
+  function dynamicRows(article, profile, existing){
+    const rows = [...existing];
+    const usedText = new Set(rows.map(r=>r[1]));
+    const usedHandles = new Set(rows.map(r=>r[0]));
+    const seed = hash(`${article.id}|${article.headline}|${profile.reaction}|${profile.heat}`);
+    const target = profile.reaction==='upset-loss' ? 20 : targetByHeat[profile.heat];
+    const reactionBank = reactionBanks[profile.reaction] || reactionBanks.story;
+
+    let i=0;
+    while(rows.length<target && i<80){
+      let visitor = '';
+      let bank = reactionBank;
+      const remaining = target - rows.length;
+      const shouldVisit = profile.visitor && profile.heat>=3 && (i%4===1 || (profile.reaction==='upset-loss' && i%3===1));
+
+      if(shouldVisit){
+        visitor = profile.visitor;
+        if(profile.reaction==='upset-loss' || profile.reaction==='big-loss' || profile.reaction==='loss') bank = rivalGloat;
+        else if(profile.reaction==='big-draw' || profile.reaction==='draw' || profile.reaction==='frustrating-draw') bank = rivalDraw;
+        else bank = rivalExcuses;
+      } else if(profile.reaction==='upset-loss' && i%5===4){
+        // Title rivals piling into an embarrassing-loss thread makes the forum feel especially toxic.
+        visitor = (seed+i)%2 ? 'INTER' : 'MILAN';
+        bank = rivalGloat;
+      } else if(remaining<=2 && profile.reaction==='story') {
+        bank = genericBanks;
       }
+
+      const text = pickUnique(bank,seed+i*13,usedText) || pickUnique(genericBanks,seed+i*17,usedText);
+      if(!text){ i++; continue; }
+      const handleBank = visitor ? rivalHandles : handles;
+      const handle = nextHandle(seed+i*11,usedHandles,handleBank);
       usedText.add(text);
-      let handle=handles[(seed+i*5)%handles.length];
-      guard=0;
-      while(usedHandles.has(handle)&&guard<handles.length){handle=handles[(seed+i*5+guard+1)%handles.length];guard++;}
       usedHandles.add(handle);
-      rows.push([handle,text]);
+      rows.push(visitor ? [handle,text,visitor] : [handle,text]);
+      i++;
     }
     return rows;
   }
 
-  function commentsFor(article){ return specific[article.id] || genericComments(article); }
+  function genericComments(article){
+    return dynamicRows(article,profileFor(article),[]);
+  }
+
+  function commentsFor(article){
+    const profile = profileFor(article);
+    return {rows:dynamicRows(article,profile,specific[article.id] || []),profile};
+  }
+
+  function trafficLabel(profile, count){
+    if(profile.reaction==='upset-loss') return `🔥 MELTDOWN · ${count} shown`;
+    if(profile.heat===5) return `🔥 BIG-MATCH THREAD · ${count} shown`;
+    if(profile.heat===4) return `HIGH TRAFFIC · ${count} shown`;
+    return `${count} shown`;
+  }
 
   function renderComments(article){
-    const rows = commentsFor(article);
-    return `<section class="fan-comments" data-comments-for="${escapeComment(article.id)}" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text,visitor],i)=>`<article class="fan-comment${visitor?' visitor-comment':''}"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong>${visitor?`<em class="visitor-badge">${escapeComment(visitor)} FAN</em>`:''}<span>${i===0?'just now':`${i*4+3}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
+    const {rows,profile} = commentsFor(article);
+    return `<section class="fan-comments heat-${profile.heat}" data-comments-for="${escapeComment(article.id)}" data-reaction="${escapeComment(profile.reaction)}" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${escapeComment(trafficLabel(profile,rows.length))}</small></div><div class="fan-comments-list">${rows.map(([user,text,visitor],i)=>`<article class="fan-comment${visitor?' visitor-comment':''}${profile.reaction==='upset-loss'&&!visitor?' meltdown-comment':''}"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong>${visitor?`<em class="visitor-badge">${escapeComment(visitor)} FAN</em>`:''}<span>${i===0?'just now':`${i*3+2}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
   }
 
   let syncing = false;
@@ -192,10 +428,8 @@
     if(!headline){ reader.querySelector('.fan-comments')?.remove(); return; }
     const article=(window.NAPOLI_DATA?.articles||[]).find(a=>String(a.headline).trim()===headline);
     if(!article) return;
-
     const current=reader.querySelector('.fan-comments');
     if(current?.dataset.commentsFor===article.id) return;
-
     syncing=true;
     current?.remove();
     reader.insertAdjacentHTML('beforeend',renderComments(article));
@@ -218,21 +452,23 @@
   const style=document.createElement('style');
   style.textContent=`
     .fan-comments{margin:0 clamp(20px,7vw,76px) 34px;border-top:4px solid var(--navy);padding-top:22px}
+    .fan-comments.heat-5{border-top-width:6px}
     .fan-comments-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:8px}
     .fan-comments-head span{display:block;color:var(--blue);font-size:.68rem;font-weight:950;letter-spacing:.11em;text-transform:uppercase}
     .fan-comments-head h3{margin:3px 0 0;font-size:1.35rem;letter-spacing:-.02em}
-    .fan-comments-head small{color:var(--muted);font-size:.7rem;white-space:nowrap}
+    .fan-comments-head small{color:var(--muted);font-size:.7rem;white-space:nowrap;font-weight:800}
     .fan-comment{display:grid;grid-template-columns:38px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
     .fan-avatar{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--sky);font-weight:950}
-    .visitor-comment{border-left:3px solid #b7bec8;padding-left:12px}
-    .visitor-comment .fan-avatar{background:#e7e9ec;color:#303946}
     .fan-comment-meta{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
     .fan-comment-meta strong{font-size:.84rem;color:var(--navy)}
     .fan-comment-meta span,.fan-actions{font-size:.68rem;color:var(--muted)}
-    .visitor-badge{display:inline-flex;align-items:center;border:1px solid #c7ccd3;border-radius:999px;padding:2px 6px;font-size:.56rem;font-style:normal;font-weight:950;letter-spacing:.06em;color:#58616d;background:#f3f4f5;white-space:nowrap}
+    .visitor-badge{font-style:normal;font-size:.57rem;font-weight:950;letter-spacing:.06em;padding:2px 5px;border:1px solid var(--line);border-radius:3px;color:var(--muted);background:#fff}
+    .visitor-comment{background:linear-gradient(90deg,rgba(8,26,45,.035),transparent 62%);margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px}
+    .meltdown-comment p{font-weight:650}
+    .fan-comments[data-reaction="upset-loss"] .fan-comments-head small{color:#9d1c1c}
     .fan-comment p{margin:4px 0 7px!important;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;font-size:.9rem!important;line-height:1.45!important;color:var(--ink)!important}
     .fan-actions{display:flex;gap:15px;font-weight:800}
-    @media(max-width:760px){.fan-comments{margin:0 20px 24px}.fan-comments-head{align-items:flex-start;flex-direction:column;gap:4px}.fan-comments-head small{white-space:normal}.fan-comment{grid-template-columns:34px 1fr}.fan-avatar{width:34px;height:34px}.visitor-comment{padding-left:9px}}
+    @media(max-width:760px){.fan-comments{margin:0 20px 24px}.fan-comments-head{align-items:flex-start;flex-direction:column;gap:4px}.fan-comments-head small{white-space:normal}.fan-comment{grid-template-columns:34px 1fr}.fan-avatar{width:34px;height:34px}.visitor-comment{margin-left:-6px;margin-right:-6px;padding-left:6px;padding-right:6px}}
     @media(max-width:390px){.fan-comments{margin-left:16px;margin-right:16px}}
   `;
   document.head.appendChild(style);
