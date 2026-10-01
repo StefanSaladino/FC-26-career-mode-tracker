@@ -50,6 +50,19 @@
       ['EndrickEra','That finish is exactly why Endrick has to keep getting real minutes.'],
       ['GranataGuest','One McTominay pass, one Endrick finish. That was basically the whole difference.','TORINO'],
       ['PeacockWatch','Clean sheet for Peacock. Development game went exactly how you want it to go.']
+    ],
+    'three-nos': [
+      ['KeepTheCore','Two hundred million for Beier, 133.6 for Pio, 43.5 for the captain. Three offers, three noes. That is a club trying to win, not balance a spreadsheet.'],
+      ['CuleWindowWatch','Turning down 204 million for Beier is hilarious. Fine. Keep him warm for us. We will ask again.','BARCELONA'],
+      ['BeierDefenseLeague','Barcelona could have added another zero and I still would have wanted the club to hang up. He is part of this project.'],
+      ['BayernScoutRoom','Rejecting 133.6 for Pio was brave. We were trying to save you the trouble before he became even more expensive.','BAYERN'],
+      ['PioNation','Bayern putting that kind of money down this early tells you exactly what we have. Do not even answer the phone next time.'],
+      ['RBLVisitor','43.5 for an ageing fullback was a serious offer. Do not act like Leipzig sent a bag of crisps.','RB LEIPZIG'],
+      ['CaptainRespect','Kayode can be the future and Di Lorenzo can still matter now. Selling the captain just because the succession plan exists would have been unnecessary.'],
+      ['MercatoMadness','The best part is that Napoli did not need the money. Europe called, Napoli said no, and everybody moved on. That is new-money arrogance and I love it.'],
+      ['NoSellingAllowed','Beier and Pio both staying after those bids is a bigger statement than another signing would have been.'],
+      ['CuleCoping','You are all celebrating a rejected bid like a trophy. We will revisit this conversation when Beier wants a bigger stage.','BARCELONA'],
+      ['NapoliSempre','This is the core now. If Europe wants them, Europe can watch them in a Napoli shirt.']
     ]
   };
 
