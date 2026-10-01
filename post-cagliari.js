@@ -64,7 +64,7 @@
   }
 
   if (Array.isArray(D.whispers)) {
-    D.whispers = D.whispers.filter(item => !['Cup Survival','Title Race'].includes(item[0]));
+    D.whispers = D.whispers.filter(item => !['Cup Survival','Title Race','Juve Double','Schedule Squeeze'].includes(item[0]));
     D.whispers.unshift(
       ['Cup Survival','Beier opened the scoring, Peacock made multiple key saves and Davies came off the bench to win the Cagliari tie 2–1 in the 82nd minute.'],
       ['Title Race','After 15 league matches: Inter 39, Milan 36, Napoli 35, Roma 31, Lazio 28 and Juventus 28. Empoli are next in Serie A on Dec 19.']
