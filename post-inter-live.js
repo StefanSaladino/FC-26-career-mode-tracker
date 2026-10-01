@@ -8,23 +8,23 @@
     label:'Title Race',
     date:'Inter 1–1 Napoli · FT',
     headline:'Point Taken in Milan: Napoli Hold Inter to 1–1 in the Title-Race Clash',
-    dek:'Alessandro Bastoni headed Napoli in front from a Federico Chiesa corner, Buongiorno produced a goal-saving tackle, but Inter found an equaliser and the four-point gap at the top remains unchanged.',
+    dek:'Alessandro Bastoni headed Napoli in front from a Federico Chiesa corner, Buongiorno produced a goal-saving tackle, but Inter equalised in the 80th minute and the four-point gap at the top remained unchanged.',
     image:'assets/bastoni-napoli.jpg',
     objectPosition:'50% 30%',
     objectFit:'cover',
     tone:'feature',
     commentHeat:5,
-    reaction:'rivalry',
+    reaction:'frustrating-draw',
     visitorClub:'INTER',
     commentContext:'league-title-race',
     body:[
       'Napoli leave Milan with a point after a 1–1 draw against Serie A leaders Inter in the biggest domestic match of the season so far.',
       'Napoli struck first from a set piece. Federico Chiesa delivered the corner and Alessandro Bastoni rose to power the header home against his former club, giving Napoli the lead in a match with the top of the table hanging over every phase.',
-      'The advantage came under immediate pressure. Alessandro Buongiorno produced a goal-saving tackle as Inter pushed for a response, preserving the lead at a moment when the match looked ready to swing.',
-      'Inter eventually found the equaliser, and neither side could force the decisive second goal. The result means the four-point gap between Inter and Napoli remains intact rather than dropping to one.',
-      'For Napoli, there is frustration in surrendering a lead but also value in taking a point away from the league leaders. Coming off the 1–0 win at Chelsea, the side has now gone into two heavyweight away fixtures and avoided defeat in both.',
+      'The advantage came under pressure. Alessandro Buongiorno produced a goal-saving tackle as Inter pushed for a response, preserving the lead at a moment when the match looked ready to swing.',
+      'Napoli carried that 1–0 lead deep into the second half, but Inter finally broke through in the 80th minute. The late equaliser changed the mood completely: Napoli had been ten minutes plus stoppage time from cutting the gap to one, and instead the 1–1 draw left Inter four points clear.',
+      'There is frustration in surrendering the lead so late, but also value in taking a point away from the league leaders. Coming off the 1–0 win at Chelsea, Napoli came through two heavyweight away fixtures without defeat.',
       'The latest gameplay clip is attached to this story and the Media section, capturing the intensity of a title-race match that finished level.',
-      'Attention now shifts to the December run: Lecce on Dec 5, RB Salzburg in the Champions League on Dec 8, and Juventus on Dec 12 with Juve sitting one point behind Napoli.'
+      'Attention now shifts to the December run, with RB Salzburg in the Champions League on Dec 8 and Juventus in Serie A on Dec 12.'
     ]
   };
 
@@ -37,7 +37,7 @@
 
   if (Array.isArray(D.results)) {
     const existing = D.results.findIndex(r => r[0] === 'Napoli' && r[1] === 'Inter' && r[2] === 'Serie A');
-    const row = ['Napoli','Inter','Serie A',1,1,'D','Alessandro Bastoni','Bastoni header from Chiesa corner; Buongiorno goal-saving tackle; title-race gap stays at four'];
+    const row = ['Napoli','Inter','Serie A',1,1,'D','Alessandro Bastoni','Bastoni header from Chiesa corner; Buongiorno goal-saving tackle; Inter equaliser 80\'; title-race gap stays at four'];
     if (existing >= 0) D.results[existing] = row; else D.results.push(row);
   }
 
@@ -46,16 +46,16 @@
   D.ticker = [
     'FT · INTER 1–1 NAPOLI',
     'BASTONI HEADER · CHIESA ASSIST',
+    'INTER EQUALISER · 80TH MINUTE',
     'BUONGIORNO · GOAL-SAVING TACKLE',
-    'TITLE RACE · FOUR-POINT GAP UNCHANGED',
-    'NEXT · LECCE · DEC 5'
+    'TITLE RACE · FOUR-POINT GAP UNCHANGED'
   ];
 
   if (Array.isArray(D.whispers)) {
     D.whispers = D.whispers.filter(item => !['Live Title-Race Swing','Buongiorno Rescue','Title-Race Draw'].includes(item[0]));
     D.whispers.unshift(
-      ['Title-Race Draw','Napoli led through Bastoni but Inter equalised. The 1–1 away draw leaves Inter four points clear at the top.'],
-      ['Buongiorno Rescue','Buongiorno produced a goal-saving tackle during the match, one of the defining defensive moments of the night.']
+      ['Title-Race Draw','Napoli were protecting a 1–0 lead until Inter equalised in the 80th minute. The late goal turned a potential one-point title gap into a 1–1 draw and left Inter four points clear.'],
+      ['Buongiorno Rescue','Buongiorno produced a goal-saving tackle during the match, one of the defining defensive moments before Inter eventually found the late equaliser.']
     );
   }
 
