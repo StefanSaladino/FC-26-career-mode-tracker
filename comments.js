@@ -1,8 +1,11 @@
 (() => {
+  // Rows are [handle, comment, optional visiting-club label].
+  // Visiting supporters get a visible badge so the forum feels like rival fans are actually passing through.
   const specific = {
     'udinese-pio-clean-sheet': [
       ['PioNation','Seven logged goals and another winner. At some point we can stop calling this a hot streak and admit he is just clinical.'],
       ['BeierDefenseLeague','Back-to-back assists for Beier. Quietly doing a lot of the dirty work around Pio.'],
+      ['FriulaniAway','You needed one finish and then parked the gates. Annoying, but we gave Pio far too much room for the goal.','UDINESE'],
       ['curva_bastoni','That back four was disgusting today. Udinese got absolutely nothing for free.'],
       ['MeretUnion','One real danger moment and Meret answered it. Exactly what you need from your number one.'],
       ['ChiesaHive','Hit the post late and I still thought it was going in. Permanently one touch away from chaos.'],
@@ -12,9 +15,11 @@
     ],
     'arsenal-pio-91': [
       ['PioNation','90+1 and he absolutely buries it. That is a striker who does not care what minute it is.'],
+      ['NorthBankVisitor','We should have killed this match long before stoppage time. You got one last look and punished us for it.','ARSENAL'],
       ['BeierDefenseLeague','Everyone remembers the finish. Beier found the pass. Huge contribution.'],
       ['MeretUnion','Without Meret this is over long before stoppage time. Give the keeper his flowers.'],
       ['curvaB_screamer','I went from accepting the loss to screaming at my television in half a second.'],
+      ['GoonerInPeace','Raya spent ninety minutes saving us and somehow your giant striker still ruined the night. I hate this competition.','ARSENAL'],
       ['DroughtWatch','Two straight 0–0s and then THAT is how the drought ends. Of course it is.'],
       ['RayaPleaseStop','Raya saved everything for 90 minutes and then Pio finally said enough.'],
       ['SaladinoOutNow','I had the post ready. Then Pio scored. Draft deleted.'],
@@ -22,56 +27,71 @@
     ],
     'genoa-drought': [
       ['vesuvio_ultras87','Two straight 0–0s. Somebody please locate the goal.'],
+      ['GrifoneOnTour','League leaders came to Marassi and forgot where the net was. Thanks for the point, lads.','GENOA'],
       ['PartenopeiProfessor','Defensive structure excellent. Final-third execution absolutely dead.'],
       ['MarekWasRight','Jankowski picked today to become prime Buffon. Naturally.'],
+      ['RossobluNoise','Call it a drought if you want. We call it ninety minutes of making your expensive attack miserable.','GENOA'],
       ['DaviesExpress','Davies gets us sixty yards up the pitch and then the move evaporates.'],
       ['NapoliSempre','Still unbeaten. Arsenal next. Panic later if required.'],
       ['CurvaBChaos','Somehow furious and calm at the same time. This sport is stupid.']
     ],
     'lazio-control': [
       ['azzurro_76','A point with that much rotation is not the apocalypse.'],
+      ['LazioAwayDays','All that talk about Napoli depth and we still left with the same number of goals as you.','LAZIO'],
       ['NapoliDoomer','WE ARE FINISHED. DELETE THE CLUB.'],
       ['tacticalnonno','Back line good. Midfield fine. Attack had the menace of a damp sock.'],
+      ['Aquila1900','You can blame rotation. We will happily take the clean sheet and the point.','LAZIO'],
       ['WhyIsMooreStarting','Development minutes in a title race will always make me nervous.'],
       ['ForzaNapoli94','Clean sheet. Unbeaten. Move on.']
     ],
     'sassuolo-response': [
       ['PazEnjoyer','Paz off the bench and straight into the winner. That is my guy.'],
+      ['NeroverdeGuest','We had you wobbling after Bayern and still found a way to throw it away late. Absolutely sickening.','SASSUOLO'],
       ['ChiesaHive','Chiesa dragged us level and Beier finished the job. Proper response.'],
       ['MeretUnion','Everyone thank Meret before discussing the comeback.'],
+      ['MapeiMouth','Enjoy the comeback speeches. If we defend the last ten minutes like adults, half this article does not exist.','SASSUOLO'],
       ['beierburner','That late winner is exactly why Beier keeps getting trusted.'],
       ['ultras_di_toronto','85th-minute winners are terrible for my blood pressure.']
     ],
     'bayern-test': [
       ['EuropeanNights','Bayern were cleaner. Learn from it and move.'],
+      ['SuedkurveVisitor','Good team. Big ambitions. But when the chances came, you saw what this level actually costs.','BAYERN'],
       ['DaviesExpress','Davies was cooking that left side and nobody finished the meal.'],
       ['KDBTruthers','The second half changed the second Kevin came on.'],
+      ['MiaSanMiaTalk','Davies can run at us all night. Scoreboard still says 0–2. Welcome to the deep end.','BAYERN'],
       ['curva_bastoni','Nübel needs another hobby besides saving everything.'],
       ['NapoliDoomer','PROJECT OVER. I WILL REVERSE THIS TAKE AFTER THE NEXT WIN.']
     ],
     'torino-control': [
       ['EndrickEra','That finish is exactly why Endrick has to keep getting real minutes.'],
+      ['GranataGuest','One McTominay pass, one Endrick finish. That was basically the whole difference and somehow that makes it more irritating.','TORINO'],
       ['PeacockWatch','Clean sheet for Peacock. Development game went exactly how you want it to go.'],
       ['McTominayMileage','Comes on at halftime, finds Endrick for the winner. Job done.'],
+      ['ToroTillIDie','Congrats on the rotation win. We will remember how comfortable you looked before the goal.','TORINO'],
       ['RotationPolice','Finally a rotated match that did not become a three-hour medical emergency.'],
       ['BayernNext','Three points, protected legs, now onto Bayern.']
     ],
     'chiesa-pisa': [
       ['FedeForever','CHIESA 80TH MINUTE. CINEMA.'],
+      ['PisaAway','You were 2–0 up and we still had your stadium panicking at 2–2. Do not pretend this was comfortable.','PISA'],
       ['PisaTrauma','Why did Pisa look like 2011 Barcelona for twenty minutes?'],
       ['StachAttack','Goal and assist from Stach and somehow nobody talks about it.'],
+      ['NerazzurriPisa','If Chiesa puts that five yards wider, every Napoli account is melting down tonight. Fine margins.','PISA'],
       ['NapoliTherapy','This club refuses to win a normal match.'],
       ['EndrickEra','Endrick opening the scoring keeps getting forgotten because the ending was insane.']
     ],
     'pio-shirt': [
       ['PioNation','The shirt is his until someone takes it. Simple.'],
       ['BeierDefenseLeague','Praise Pio without pretending Beier is useless challenge.'],
+      ['InteristaPassingBy','Napoli fans crowning a striker in October. Surely this has never gone wrong before.','INTER'],
       ['PioHaterForNoReason','Fine goals. Wake me when he scores from the parking lot.'],
       ['No9Discourse','One quiet game and this section becomes a civil war.']
     ],
     'three-nos': [
       ['KeepTheCore','Turning down those numbers is a statement. This save is about winning now.'],
+      ['CuleWindowWatch','Two hundred million rejected for Beier? Fine. We will ask again when he starts liking Barcelona posts.','BARCELONA'],
       ['BeierDefenseLeague','Barcelona can keep calling. He is not for sale.'],
+      ['BayernScoutRoom','You turned down 133.6 for Pio and then brought him to Munich anyway? We were only trying to save everybody time.','BAYERN'],
       ['PioNation','Bayern offering that much for Pio this early tells you everything.'],
       ['CaptainRespect','Keeping Di Lorenzo matters even if Kayode is the future.'],
       ['MercatoMadness','Three giant offers rejected and somehow the squad got stronger anyway.']
@@ -79,6 +99,7 @@
     'paz-kdb': [
       ['PazEnjoyer','It does not have to be one or the other. Play both and let teams suffer.'],
       ['KDBForever','You cannot teach that final pass.'],
+      ['MadridistaGuest','Paz discourse after every big match is going to be hilarious. You paid superstar money, now enjoy superstar expectations.','REAL MADRID'],
       ['TacticsInBio','Different profiles for different game states. This is called depth.'],
       ['CommentSectionCoach','Personally I would start twelve players. Problem solved.']
     ],
@@ -90,6 +111,7 @@
     ],
     'italy-pipeline': [
       ['AzzurriCentral','The Napoli-to-Italy pipeline is getting ridiculous and I am completely fine with it.'],
+      ['LesBleusVisitor','One 1–0 and suddenly you are rebuilding the Roman Empire in the comments. We will see you again.','FRANCE'],
       ['KayodeClub','Kayode earning national-team trust while starting for Napoli is exactly the development loop you want.'],
       ['PioNation','Pio club form feeding directly into Italy minutes. Keep it moving.'],
       ['ClubCountryNerd','Two clean sheets for Italy and the same defensive core developing together at club level. There is value in that.']
@@ -109,7 +131,9 @@
     'napoli-still-top': [
       ['TableWatcher','Unbeaten and top after eight. That is the only table argument I need right now.'],
       ['MilanTracker','Two points is nothing. Keep stacking wins.'],
+      ['InterAwayAccount','Enjoy the October screenshots. Titles are not handed out before the Christmas decorations go up.','INTER'],
       ['ScudettoStress','I hate that every random October match already feels like title-race mathematics.'],
+      ['RossoneroPassingBy','Top by two and already writing dynasty posts. Please keep the receipts visible.','MILAN'],
       ['NapoliSempre','Strong start, but nobody gets a trophy for leading in October. Keep going.']
     ]
   };
@@ -156,7 +180,7 @@
 
   function renderComments(article){
     const rows = commentsFor(article);
-    return `<section class="fan-comments" data-comments-for="${escapeComment(article.id)}" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text],i)=>`<article class="fan-comment"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong><span>${i===0?'just now':`${i*4+3}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
+    return `<section class="fan-comments" data-comments-for="${escapeComment(article.id)}" aria-label="Fictional fan comments"><div class="fan-comments-head"><div><span>CURVA COMMENTS</span><h3>What the fans are saying</h3></div><small>Fictional comments · ${rows.length} shown</small></div><div class="fan-comments-list">${rows.map(([user,text,visitor],i)=>`<article class="fan-comment${visitor?' visitor-comment':''}"><div class="fan-avatar">${escapeComment(user.slice(0,1).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${escapeComment(user)}</strong>${visitor?`<em class="visitor-badge">${escapeComment(visitor)} FAN</em>`:''}<span>${i===0?'just now':`${i*4+3}m`}</span></div><p>${escapeComment(text)}</p><div class="fan-actions"><span>▲ ${13+i*9}</span><span>Reply</span></div></div></article>`).join('')}</div></section>`;
   }
 
   let syncing = false;
@@ -200,12 +224,15 @@
     .fan-comments-head small{color:var(--muted);font-size:.7rem;white-space:nowrap}
     .fan-comment{display:grid;grid-template-columns:38px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
     .fan-avatar{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--sky);font-weight:950}
-    .fan-comment-meta{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+    .visitor-comment{border-left:3px solid #b7bec8;padding-left:12px}
+    .visitor-comment .fan-avatar{background:#e7e9ec;color:#303946}
+    .fan-comment-meta{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
     .fan-comment-meta strong{font-size:.84rem;color:var(--navy)}
     .fan-comment-meta span,.fan-actions{font-size:.68rem;color:var(--muted)}
+    .visitor-badge{display:inline-flex;align-items:center;border:1px solid #c7ccd3;border-radius:999px;padding:2px 6px;font-size:.56rem;font-style:normal;font-weight:950;letter-spacing:.06em;color:#58616d;background:#f3f4f5;white-space:nowrap}
     .fan-comment p{margin:4px 0 7px!important;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;font-size:.9rem!important;line-height:1.45!important;color:var(--ink)!important}
     .fan-actions{display:flex;gap:15px;font-weight:800}
-    @media(max-width:760px){.fan-comments{margin:0 20px 24px}.fan-comments-head{align-items:flex-start;flex-direction:column;gap:4px}.fan-comments-head small{white-space:normal}.fan-comment{grid-template-columns:34px 1fr}.fan-avatar{width:34px;height:34px}}
+    @media(max-width:760px){.fan-comments{margin:0 20px 24px}.fan-comments-head{align-items:flex-start;flex-direction:column;gap:4px}.fan-comments-head small{white-space:normal}.fan-comment{grid-template-columns:34px 1fr}.fan-avatar{width:34px;height:34px}.visitor-comment{padding-left:9px}}
     @media(max-width:390px){.fan-comments{margin-left:16px;margin-right:16px}}
   `;
   document.head.appendChild(style);
