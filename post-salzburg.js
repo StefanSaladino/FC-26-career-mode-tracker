@@ -4,7 +4,7 @@
 
   const article = {
     id:'salzburg-pio-1-1',
-    category:'Europe',
+    category:'Match Report',
     label:'Champions League',
     date:'Napoli 1–1 RB Salzburg · FT',
     headline:'Pio Strikes Again, but Salzburg Snatch a 1–1 Draw Late',
