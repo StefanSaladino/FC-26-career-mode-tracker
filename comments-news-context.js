@@ -73,6 +73,9 @@
   function inferContext(a){
     const explicit = String(a?.commentContext||'').toLowerCase();
     if (Object.prototype.hasOwnProperty.call(banks, explicit)) return explicit;
+    // Explicit match/competition contexts belong to comments-context.js. Do not
+    // fall through to transfer keyword inference and relabel match stories.
+    if (explicit) return '';
     if (a?.id === 'buongiorno-davies-extensions') return 'contract-renewal';
     const t = textOf(a);
     if (/contract renewal|contract extension|new deal|extends? (?:his|her|their)? ?contract|renewal|extension|agreed new terms|signs? new terms/.test(t)) return 'contract-renewal';
