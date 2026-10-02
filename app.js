@@ -56,8 +56,12 @@ function articleCard(a,variant='standard'){
 }
 function openArticle(id){
   const a=articleById(id); if(!a||!$('readerContent')||!$('articleModal'))return;
-  $('readerContent').innerHTML=`${a.image?`<div class="reader-media">${img(a.image,a.headline,true,'reader-hero',a.objectPosition,a.objectFit)}${credit(a)}</div>`:''}<div class="reader-body"><div class="story-meta"><span>${escapeHTML(a.category)}</span><span>${escapeHTML(a.date)}</span></div><div class="reader-label">${escapeHTML(a.label||'Season Room')}</div><h2 id="readerHeadline">${escapeHTML(a.headline)}</h2><p class="reader-dek">${escapeHTML(a.dek)}</p>${(a.body||[a.dek]).map(p=>`<p>${escapeHTML(p)}</p>`).join('')}<div class="reader-end">Season Room · Fictional in-universe coverage</div></div>`;
+  const reader=$('readerContent');
+  reader.dataset.articleId=a.id;
+  reader.dataset.articleHeadline=a.headline;
+  reader.innerHTML=`${a.image?`<div class="reader-media">${img(a.image,a.headline,true,'reader-hero',a.objectPosition,a.objectFit)}${credit(a)}</div>`:''}<div class="reader-body"><div class="story-meta"><span>${escapeHTML(a.category)}</span><span>${escapeHTML(a.date)}</span></div><div class="reader-label">${escapeHTML(a.label||'Season Room')}</div><h2 id="readerHeadline">${escapeHTML(a.headline)}</h2><p class="reader-dek">${escapeHTML(a.dek)}</p>${(a.body||[a.dek]).map(p=>`<p>${escapeHTML(p)}</p>`).join('')}<div class="reader-end">Season Room · Fictional in-universe coverage</div></div>`;
   $('articleModal').classList.add('open'); $('articleModal').setAttribute('aria-hidden','false'); document.body.classList.add('modal-open');
+  document.dispatchEvent(new CustomEvent('seasonroom:article-opened',{detail:{id:a.id}}));
 }
 function closeArticle(){if(!$('articleModal'))return;$('articleModal').classList.remove('open');$('articleModal').setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');}
 document.addEventListener('click',e=>{const c=e.target.closest?.('[data-article]');if(c)openArticle(c.dataset.article);if(e.target.closest?.('[data-close-article]'))closeArticle();});
