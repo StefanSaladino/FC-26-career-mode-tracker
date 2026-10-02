@@ -4,102 +4,80 @@
 
   const pieces = [
     {
+      id:'italy-saladino-turnaround', category:'Italy', label:'AZZURRI DEBATE · Matteo Rinaldi', date:'December 2027 · National team',
+      headline:'Three World Cups Missed. Italy Are Top of Their EURO Group. Can Saladino Actually Turn This Around?',
+      dek:'The trauma has not disappeared, but the early evidence is finally moving in the right direction: Italy lead their EURO qualifying group and have just come through three logged internationals without conceding.',
+      image:null, tone:'opinion', commentHeat:5,
+      body:[
+        'Italian football has earned its distrust. Three consecutive World Cups missed in this universe cannot be washed away by a promising autumn, a fashionable tactical idea or a friendly victory.',
+        'That is the burden Stefan Saladino inherited. Italy are not merely trying to qualify for another tournament. They are trying to convince a country that qualification can become normal again.',
+        'The early returns are encouraging. Italy currently sit top of their EURO qualifying group. The latest logged qualifier brought a 2–0 win over Iceland, followed by a 0–0 friendly with Wales and a 1–0 victory over France. Three matches, three clean sheets.',
+        'France is the result that changes the tone. A friendly does not repair a generation of failure, but beating elite opposition while keeping another clean sheet gives Saladino something more useful than optimism: evidence.',
+        'The skepticism should remain. Italy have produced false dawns before. The standard cannot be a respectable qualifying campaign or competitive friendlies. The standard is returning to major tournaments and behaving like Italy once there.',
+        'But for the first time in a while, the question around the Azzurri is beginning to change. It is no longer only “how did it get this bad?” It is becoming “what if this is actually the start?”'
+      ]
+    },
+    {
+      id:'italy-france-approval', category:'Italy', label:'PUNDIT DESK · Alessia Conti', date:'After Italy 1–0 France · Opinion',
+      headline:'Beating France Does Not Erase the Past. It Does Give Saladino Something Italy Have Lacked: Credibility.',
+      dek:'Wales was functional. France was different. A 1–0 win over one of Europe’s reference sides has given the new direction its first genuine statement result.',
+      image:null, tone:'analysis', commentHeat:4,
+      body:[
+        'Nobody should organize a parade for winning a friendly. Italy, of all nations, should understand the danger of celebrating progress before qualification is secured.',
+        'Still, France matters.',
+        'The 0–0 with Wales showed defensive control but also invited familiar questions about invention. The response was not a speech. It was a 1–0 win over France and another clean sheet.',
+        'Saladino’s strongest early achievement is not aesthetic. It is that Italy are beginning to look difficult to beat again. For a national team carrying the psychological weight of three missed World Cups, restoring that basic certainty is not a small thing.',
+        'Approval should therefore be conditional rather than euphoric. The structure looks healthier. The qualifying table looks healthy. The France result deserves respect. Now repeat it when the matches carry consequences.'
+      ]
+    },
+    {
+      id:'italy-wales-warning', category:'Italy', label:'COUNTERPOINT · Paolo Serra', date:'After Italy 0–0 Wales · Column',
+      headline:'Do Not Let the France Win Make Us Forget Wales',
+      dek:'Italy are defending beautifully, but the scoreless draw with Wales exposed the same question Napoli have heard all season: where does the reliable attacking production come from?',
+      image:null, tone:'opinion', commentHeat:5,
+      body:[
+        'The temptation after beating France is to rewrite the entire international window as a triumph. That would be convenient and wrong.',
+        'Wales held Italy to 0–0. The clean sheet was useful; the lack of a goal was not. A national team trying to rebuild trust cannot depend on every match being decided by one breakthrough while the defence carries the emotional weight.',
+        'There is an obvious parallel with Saladino’s Napoli. Both teams increasingly look structurally secure. Both have young attacking talent. Both can still make scoring look unnecessarily complicated.',
+        'That does not invalidate the project. It identifies the next stage of it. Italy have rediscovered solidity faster than they have rediscovered inevitability.',
+        'France showed the ceiling. Wales showed the work still sitting on the desk.'
+      ]
+    },
+    {
+      id:'italy-napotalia-question', category:'Italy', label:'CALCIO ITALIA · Giulia Moretti', date:'December 2027 · Feature',
+      headline:'Napotalia: Clever Development Pipeline or Too Much Power in One Project?',
+      dek:'Meret, Bastoni, Buongiorno, Kayode, Di Lorenzo, Chiesa and Pio connect Napoli to the national side. The overlap is producing results — and inevitable debate.',
+      image:null, tone:'feature', commentHeat:5,
+      body:[
+        'There is no pretending the Napoli and Italy projects are separate. They share a manager, a growing core of players and increasingly the same football language.',
+        'For Saladino, the advantage is obvious. Club form can be evaluated every week. Young Italians can be developed inside a structure that resembles the national-team demands. Relationships that normally require short international windows are being built over an entire season.',
+        'The criticism is equally obvious. Does familiarity become preference? Do Napoli players receive more patience because the national-team manager sees them every day? Does the Azzurri pool become narrower when one club provides so much of the reference point?',
+        'So far, the results make the experiment difficult to attack outright. Italy are top of their EURO qualifying group, beat Iceland 2–0 in the latest logged qualifier and followed it with clean sheets against Wales and France.',
+        'But Napotalia will ultimately be judged by Italy, not Napoli. If the national team returns to major tournaments and competes deep into them, the overlap will be called vision. If Italy stumble again, it will be called obsession.'
+      ]
+    },
+    {
       id:'opinion-fortress-needs-goals', category:'Opinion', label:'THE PRESS BOX · Marco Bellini', date:'December 2027 · Column',
-      headline:'Napoli Have Built a Fortress. So Why Does Every Goal Feel Like Work?',
-      dek:'Eight league goals conceded in 15 matches should feel like the foundation of a title charge. Instead, Napoli keep asking an extraordinary defence to live on the thinnest margins.',
-      image:'assets/bastoni-buongiorno-napoli.jpg', objectPosition:'50% 28%', objectFit:'cover', tone:'opinion', commentHeat:5,
-      body:[
-        'There is a strange contradiction at the centre of Napoli’s season. This is a team defending like a champion and, too often, attacking like it is still trying to discover what kind of team it wants to be.',
-        'Eight goals conceded through 15 Serie A matches is not merely good. It is the sort of defensive record that should let an attack breathe. Bastoni and Buongiorno have turned the centre of the pitch into hostile territory, Kayode can recover ground that should not be recoverable, and Meret has repeatedly supplied the save when the structure finally bends.',
-        'Yet Napoli have spent too many evenings making one goal feel like a weekly engineering project. The consecutive scoreless draws with Lazio and Genoa were the obvious warning, but even some of the wins have carried the same tension: create the lead, protect it, and ask the back line to make it sacred.',
-        'That is why irritation around the attack is not ingratitude. Supporters can appreciate a title race and still ask why this much attacking talent so rarely turns control into separation.',
-        'Pio Esposito has covered some of the cracks with an extraordinary run of decisive goals. Maximilian Beier contributes more between the boxes than his recent scoring numbers suggest. Davies can turn one carry into a crisis. Paz sees passes other players do not. Chiesa and Endrick can change the temperature of a match from the bench. The ingredients exist.',
-        'The question is whether Napoli can turn those ingredients into a repeatable attacking identity before the defence finally has an ordinary night. Because at some point Bastoni will lose a duel. Meret will not make the save. A deflection will go in. Champions need to survive those nights too.',
-        'The defence has already done its part. It is time for the attack to make two goals feel normal.'
-      ]
+      headline:'Napoli Have Built a Fortress. So Why Does Every Goal Feel Like Work?', dek:'Eight league goals conceded in 15 matches should feel like the foundation of a title charge. Instead, Napoli keep asking an extraordinary defence to live on the thinnest margins.', image:'assets/bastoni-buongiorno-napoli.jpg', objectPosition:'50% 28%', objectFit:'cover', tone:'opinion', commentHeat:5,
+      body:['There is a strange contradiction at the centre of Napoli’s season. This is a team defending like a champion and, too often, attacking like it is still trying to discover what kind of team it wants to be.','Eight goals conceded through 15 Serie A matches is not merely good. It is the sort of defensive record that should let an attack breathe. Bastoni and Buongiorno have turned the centre of the pitch into hostile territory, Kayode can recover ground that should not be recoverable, and Meret has repeatedly supplied the save when the structure finally bends.','Yet Napoli have spent too many evenings making one goal feel like a weekly engineering project. The consecutive scoreless draws with Lazio and Genoa were the obvious warning, but even some of the wins have carried the same tension: create the lead, protect it, and ask the back line to make it sacred.','That is why irritation around the attack is not ingratitude. Supporters can appreciate a title race and still ask why this much attacking talent so rarely turns control into separation.','Pio Esposito has covered some of the cracks with an extraordinary run of decisive goals. Maximilian Beier contributes more between the boxes than his recent scoring numbers suggest. Davies can turn one carry into a crisis. Paz sees passes other players do not. Chiesa and Endrick can change the temperature of a match from the bench. The ingredients exist.','The question is whether Napoli can turn those ingredients into a repeatable attacking identity before the defence finally has an ordinary night. Because at some point Bastoni will lose a duel. Meret will not make the save. A deflection will go in. Champions need to survive those nights too.','The defence has already done its part. It is time for the attack to make two goals feel normal.']
     },
-    {
-      id:'opinion-two-points-conversation', category:'Column', label:'TABLE WATCH · Elena Russo', date:'December 2027 · Column',
-      headline:'Five Points Back, One Game in Hand — Napoli Are Closer Than the Noise Suggests',
-      dek:'Inter’s latest draw leaves Napoli five points behind with a match in hand. Win it and the emotional temperature around this team suddenly looks very different.',
-      image:'assets/stadio-maradona-night.jpg', objectPosition:'50% 45%', objectFit:'cover', tone:'opinion', commentHeat:4,
-      body:[
-        'Listen to Naples for long enough and you might think the season is wobbling. Look at the table and the argument becomes harder to sustain.',
-        'Inter have 40 points from 16 matches. Napoli have 35 from 15. The arithmetic is uncomplicated: win the game in hand and the gap is two points with the schedule level.',
-        'None of that erases the attacking concerns. It does, however, put them in context. Napoli have been offensively inconsistent without becoming competitively inconsistent. That distinction matters.',
-        'The 1–0 win in Turin was the kind of result title challengers store away for spring. The draw with Inter kept the leaders within reach. Even the frustrating nights have generally been protected by a defence that refuses to let bad attacking performances become defeats.',
-        'There is pressure here, but there is also opportunity. Napoli do not need a rescue operation. They need improvement in the final third while continuing to do almost everything else at a very high level.',
-        'If the game in hand becomes three points, the conversation changes from “why are Napoli struggling?” to “why are Napoli only two points off the top while still waiting for their attack to click?”',
-        'Those are very different questions. The table has a way of editing the mood.'
-      ]
-    },
-    {
-      id:'opinion-pio-dependence', category:'Opinion', label:'FORWARD LINE · Davide Ferraro', date:'December 2027 · Opinion',
-      headline:'The Pio Problem Is a Wonderful Problem — Until Napoli Become Dependent on Him',
-      dek:'Pio Esposito has become Napoli’s favourite answer to difficult matches. The danger is allowing a breakout season to become an attacking system.',
-      image:'assets/pio-napoli.webp', objectPosition:'50% 24%', objectFit:'cover', tone:'opinion', commentHeat:5,
-      body:[
-        'There are worse problems than having a young centre-forward who keeps scoring important goals. Napoli would happily accept several more of them.',
-        'Pio Esposito has become the emotional centre of this season because his goals arrive with timing attached. Arsenal in stoppage time. Chelsea. Salzburg. Juventus. He does not merely score; he keeps appearing when matches become uncomfortable.',
-        'That is how cult heroes are made. It is also how dependency begins.',
-        'Napoli cannot allow “find Pio” to become the answer every time possession slows down. His emergence should expand the attack, not excuse everybody around him from producing. Beier must remain a scoring threat as well as a connector. Paz has to turn invention into regular final-third production. The wide players need to make opponents defend more than one route to goal.',
-        'There is also a developmental responsibility here. Pio is still becoming the player supporters are already treating as finished. Asking him to carry the decisive action every week is flattering right up until it becomes unfair.',
-        'Enjoy the goals. Sing the songs. Print the shirts. But build an attack where Pio is the sharpest weapon, not the emergency button.'
-      ]
-    },
-    {
-      id:'opinion-beier-case', category:'Opinion', label:'COUNTERPOINT · Sofia Esposito', date:'December 2027 · Counterpoint',
-      headline:'Beier Is Doing More Than the Goals Column Says. Eventually, That Won’t Be Enough.',
-      dek:'Napoli rejected a €204 million approach from Barcelona because Beier is central to the project. That makes both the defence of his game and the demand for more goals reasonable.',
-      image:'assets/beier-napoli.jpg', objectPosition:'50% 25%', objectFit:'cover', tone:'opinion', commentHeat:5,
-      body:[
-        'Maximilian Beier has become the easiest Napoli attacker to argue about because both sides of the argument are right.',
-        'Watch only the scoring column and the frustration makes sense. Napoli rejected an enormous Barcelona approach because Beier was considered foundational. Foundational forwards are eventually judged by goals.',
-        'Watch the matches more closely and the picture becomes less convenient. Beier has repeatedly connected attacks, created space for Pio, and supplied assists in matches where Napoli’s shape would otherwise have become static. His pass for Pio against Salzburg was another example of contribution that does not look like a striker dominating a scoresheet but still changes the match.',
-        'The Cagliari goal mattered because it interrupted the argument. For once, the useful work and the visible reward arrived together.',
-        'But one goal does not settle it. Beier should not be sold because he went through a dry spell, and supporters should not be told the dry spell is irrelevant because his movement is intelligent.',
-        'Napoli said no to Barcelona because they believe there is a star here. The fairest expectation is simple: keep doing the difficult work, and start finishing more of it.'
-      ]
-    },
-    {
-      id:'opinion-defensive-identity', category:'Tactics', label:'TACTICAL ROOM · Luca Vitale', date:'December 2027 · Analysis',
-      headline:'Bastoni and Buongiorno Are Quietly Becoming the Story of Napoli’s Season',
-      dek:'The forwards own the clips. The centre-backs own the margins. Napoli’s title challenge is being built on a partnership that rarely needs to announce itself.',
-      image:'assets/bastoni-buongiorno-napoli.jpg', objectPosition:'50% 30%', objectFit:'cover', tone:'analysis', commentHeat:4,
-      body:[
-        'The best defensive partnerships eventually develop a strange invisibility. You stop noticing individual interventions because attacks simply stop becoming chances.',
-        'That is where Alessandro Bastoni and Alessandro Buongiorno are heading.',
-        'Bastoni gives Napoli aggression without sacrificing progression. He can step forward, carry, pass through pressure and still recover into the line. Buongiorno provides the counterweight: duel strength, penalty-area authority and the kind of uncomplicated defending that becomes more valuable as matches get uglier.',
-        'Together they allow the rest of the team to take risks. Davies can advance. Kayode can attack space. Midfielders can squeeze higher because the centre-backs behind them are comfortable defending large areas.',
-        'Eight league goals conceded in 15 matches is the statistical headline. The more important tactical point is what that number permits. Napoli can win while searching for attacking form because the defence keeps the required score so low.',
-        'Pio will get the murals if the goals keep coming. Bastoni and Buongiorno may be the reason those goals are enough.'
-      ]
-    },
-    {
-      id:'curva-right-to-be-irritated', category:'Curva View', label:'CURVA VIEW · Gennaro ’O Critico', date:'December 2027 · From the stands',
-      headline:'Yes, We’re in the Title Race. The Curva Still Has Every Right to Be Irritated.',
-      dek:'Being five points off Inter with a game in hand does not require supporters to pretend every attacking performance has been acceptable.',
-      image:'assets/stadio-maradona-night.jpg', objectPosition:'50% 42%', objectFit:'cover', tone:'opinion', commentHeat:5,
-      body:[
-        'Here comes the lecture: Napoli are in the title race, the defence is brilliant, Pio is scoring, so everybody in the stands should smile politely and stop complaining.',
-        'No.',
-        'Supporters are allowed to hold two thoughts at once. This is a very good Napoli team. This Napoli team should score more goals.',
-        'We have watched Bastoni and Buongiorno defend one-goal leads like their families are locked inside the penalty area. We have watched Meret turn late chances away. We have watched Pio produce the one moment that saves another night. Eventually you start asking why every match needs to become a referendum on our blood pressure.',
-        'The talent is not the issue. That is precisely why the frustration exists. Davies, Paz, Beier, Chiesa, Endrick, De Bruyne, McTominay and Pio is not an attack that should spend this much time negotiating with the first goal.',
-        'Nobody is asking for five every weekend. Two would be lovely. Occasionally three, just to remember what relaxation feels like.',
-        'We will sing. We will believe. We will check Inter’s score every ten minutes. And if Napoli spend another hour circulating the ball outside a low block without shooting, we will complain loudly because that is also part of the arrangement.'
-      ]
-    }
+    {id:'opinion-two-points-conversation',category:'Column',label:'TABLE WATCH · Elena Russo',date:'December 2027 · Column',headline:'Five Points Back, One Game in Hand — Napoli Are Closer Than the Noise Suggests',dek:'Inter’s latest draw leaves Napoli five points behind with a match in hand. Win it and the emotional temperature around this team suddenly looks very different.',image:'assets/stadio-maradona-night.jpg',objectPosition:'50% 45%',objectFit:'cover',tone:'opinion',commentHeat:4,body:['Listen to Naples for long enough and you might think the season is wobbling. Look at the table and the argument becomes harder to sustain.','Inter have 40 points from 16 matches. Napoli have 35 from 15. The arithmetic is uncomplicated: win the game in hand and the gap is two points with the schedule level.','None of that erases the attacking concerns. It does, however, put them in context. Napoli have been offensively inconsistent without becoming competitively inconsistent. That distinction matters.','The 1–0 win in Turin was the kind of result title challengers store away for spring. The draw with Inter kept the leaders within reach. Even the frustrating nights have generally been protected by a defence that refuses to let bad attacking performances become defeats.','There is pressure here, but there is also opportunity. Napoli do not need a rescue operation. They need improvement in the final third while continuing to do almost everything else at a very high level.','If the game in hand becomes three points, the conversation changes from “why are Napoli struggling?” to “why are Napoli only two points off the top while still waiting for their attack to click?”','Those are very different questions. The table has a way of editing the mood.']},
+    {id:'opinion-pio-dependence',category:'Opinion',label:'FORWARD LINE · Davide Ferraro',date:'December 2027 · Opinion',headline:'The Pio Problem Is a Wonderful Problem — Until Napoli Become Dependent on Him',dek:'Pio Esposito has become Napoli’s favourite answer to difficult matches. The danger is allowing a breakout season to become an attacking system.',image:'assets/pio-napoli.webp',objectPosition:'50% 24%',objectFit:'cover',tone:'opinion',commentHeat:5,body:['There are worse problems than having a young centre-forward who keeps scoring important goals. Napoli would happily accept several more of them.','Pio Esposito has become the emotional centre of this season because his goals arrive with timing attached. Arsenal in stoppage time. Chelsea. Salzburg. Juventus. He does not merely score; he keeps appearing when matches become uncomfortable.','That is how cult heroes are made. It is also how dependency begins.','Napoli cannot allow “find Pio” to become the answer every time possession slows down. His emergence should expand the attack, not excuse everybody around him from producing. Beier must remain a scoring threat as well as a connector. Paz has to turn invention into regular final-third production. The wide players need to make opponents defend more than one route to goal.','There is also a developmental responsibility here. Pio is still becoming the player supporters are already treating as finished. Asking him to carry the decisive action every week is flattering right up until it becomes unfair.','Enjoy the goals. Sing the songs. Print the shirts. But build an attack where Pio is the sharpest weapon, not the emergency button.']},
+    {id:'opinion-beier-case',category:'Opinion',label:'COUNTERPOINT · Sofia Esposito',date:'December 2027 · Counterpoint',headline:'Beier Is Doing More Than the Goals Column Says. Eventually, That Won’t Be Enough.',dek:'Napoli rejected a €204 million approach from Barcelona because Beier is central to the project. That makes both the defence of his game and the demand for more goals reasonable.',image:'assets/beier-napoli.jpg',objectPosition:'50% 25%',objectFit:'cover',tone:'opinion',commentHeat:5,body:['Maximilian Beier has become the easiest Napoli attacker to argue about because both sides of the argument are right.','Watch only the scoring column and the frustration makes sense. Napoli rejected an enormous Barcelona approach because Beier was considered foundational. Foundational forwards are eventually judged by goals.','Watch the matches more closely and the picture becomes less convenient. Beier has repeatedly connected attacks, created space for Pio, and supplied assists in matches where Napoli’s shape would otherwise have become static. His pass for Pio against Salzburg was another example of contribution that does not look like a striker dominating a scoresheet but still changes the match.','The Cagliari goal mattered because it interrupted the argument. For once, the useful work and the visible reward arrived together.','But one goal does not settle it. Beier should not be sold because he went through a dry spell, and supporters should not be told the dry spell is irrelevant because his movement is intelligent.','Napoli said no to Barcelona because they believe there is a star here. The fairest expectation is simple: keep doing the difficult work, and start finishing more of it.']},
+    {id:'opinion-defensive-identity',category:'Tactics',label:'TACTICAL ROOM · Luca Vitale',date:'December 2027 · Analysis',headline:'Bastoni and Buongiorno Are Quietly Becoming the Story of Napoli’s Season',dek:'The forwards own the clips. The centre-backs own the margins. Napoli’s title challenge is being built on a partnership that rarely needs to announce itself.',image:'assets/bastoni-buongiorno-napoli.jpg',objectPosition:'50% 30%',objectFit:'cover',tone:'analysis',commentHeat:4,body:['The best defensive partnerships eventually develop a strange invisibility. You stop noticing individual interventions because attacks simply stop becoming chances.','That is where Alessandro Bastoni and Alessandro Buongiorno are heading.','Bastoni gives Napoli aggression without sacrificing progression. He can step forward, carry, pass through pressure and still recover into the line. Buongiorno provides the counterweight: duel strength, penalty-area authority and the kind of uncomplicated defending that becomes more valuable as matches get uglier.','Together they allow the rest of the team to take risks. Davies can advance. Kayode can attack space. Midfielders can squeeze higher because the centre-backs behind them are comfortable defending large areas.','Eight league goals conceded in 15 matches is the statistical headline. The more important tactical point is what that number permits. Napoli can win while searching for attacking form because the defence keeps the required score so low.','Pio will get the murals if the goals keep coming. Bastoni and Buongiorno may be the reason those goals are enough.']},
+    {id:'curva-right-to-be-irritated',category:'Curva View',label:'CURVA VIEW · Gennaro ’O Critico',date:'December 2027 · From the stands',headline:'Yes, We’re in the Title Race. The Curva Still Has Every Right to Be Irritated.',dek:'Being five points off Inter with a game in hand does not require supporters to pretend every attacking performance has been acceptable.',image:'assets/stadio-maradona-night.jpg',objectPosition:'50% 42%',objectFit:'cover',tone:'opinion',commentHeat:5,body:['Here comes the lecture: Napoli are in the title race, the defence is brilliant, Pio is scoring, so everybody in the stands should smile politely and stop complaining.','No.','Supporters are allowed to hold two thoughts at once. This is a very good Napoli team. This Napoli team should score more goals.','We have watched Bastoni and Buongiorno defend one-goal leads like their families are locked inside the penalty area. We have watched Meret turn late chances away. We have watched Pio produce the one moment that saves another night. Eventually you start asking why every match needs to become a referendum on our blood pressure.','The talent is not the issue. That is precisely why the frustration exists. Davies, Paz, Beier, Chiesa, Endrick, De Bruyne, McTominay and Pio is not an attack that should spend this much time negotiating with the first goal.','Nobody is asking for five every weekend. Two would be lovely. Occasionally three, just to remember what relaxation feels like.','We will sing. We will believe. We will check Inter’s score every ten minutes. And if Napoli spend another hour circulating the ball outside a low block without shooting, we will complain loudly because that is also part of the arrangement.']}
   ];
 
   const ids = new Set(pieces.map(x => x.id));
   D.articles = D.articles.filter(a => !ids.has(a.id));
-  // Keep the latest match report as the lead story; editorial follows immediately beneath it.
   const lead = D.articles.shift();
   D.articles = lead ? [lead, ...pieces, ...D.articles] : [...pieces, ...D.articles];
 
   if (Array.isArray(D.whispers)) {
-    D.whispers = D.whispers.filter(w => w[0] !== 'Press Box Temperature');
-    D.whispers.unshift(['Press Box Temperature','The defensive record is earning admiration; the attack is earning questions. With Inter five points ahead having played one more, Napoli are close enough that every dropped attacking point feels expensive.']);
+    D.whispers = D.whispers.filter(w => !['Press Box Temperature','Azzurri Temperature'].includes(w[0]));
+    D.whispers.unshift(
+      ['Azzurri Temperature','Italy are top of their EURO qualifying group and the latest logged run is three matches without conceding. After three consecutive missed World Cups, approval is growing — trust is not yet restored.'],
+      ['Press Box Temperature','The defensive record is earning admiration; the attack is earning questions. With Inter five points ahead having played one more, Napoli are close enough that every dropped attacking point feels expensive.']
+    );
   }
 })();
