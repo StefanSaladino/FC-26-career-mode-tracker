@@ -1,12 +1,7 @@
 (() => {
   const D=window.NAPOLI_DATA;if(!D?.articles)return;
+  const cache=new Map();
   const esc=(s='')=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
-  const itWord={the:'il',a:'un',and:'e',but:'ma',with:'con',without:'senza',for:'per',from:'da',to:'a',in:'in',of:'di',is:'è',are:'sono',was:'era',were:'erano',win:'vittoria',wins:'vince',won:'ha vinto',loss:'sconfitta',draw:'pareggio',goal:'gol',goals:'gol',team:'squadra',season:'stagione',match:'partita',game:'partita',manager:'allenatore',defence:'difesa',defense:'difesa',attack:'attacco',player:'giocatore',players:'giocatori',points:'punti',point:'punto',league:'campionato',cup:'coppa',night:'serata',pressure:'pressione',still:'ancora',now:'adesso',again:'di nuovo',against:'contro',after:'dopo',before:'prima',this:'questo',that:'quello',not:'non',we:'noi',they:'loro',he:'lui',his:'suo',our:'nostro',their:'loro',good:'buono',great:'grande',big:'grande',clean:'pulito',sheet:'porta inviolata'};
-  const phrase=[[/\bthree points\b/gi,'tre punti'],[/\bclean sheet\b/gi,'porta inviolata'],[/\btitle race\b/gi,'corsa Scudetto'],[/\bChampions League\b/gi,'Champions League'],[/\bSerie A\b/gi,'Serie A'],[/\bWorld Cup\b/gi,'Mondiale'],[/\bEuropean Championship\b/gi,'Europeo'],[/\bgame in hand\b/gi,'partita in meno'],[/\btransfer market\b/gi,'mercato'],[/\bstarting eleven\b/gi,'undici titolare']];
-  function autoIt(text){let s=String(text||'');phrase.forEach(([r,v])=>s=s.replace(r,v));s=s.replace(/\b[A-Za-z]+\b/g,w=>itWord[w.toLowerCase()]||w);return s===text?`Versione italiana: ${text}`:s;}
-  function italian(a){return a.translation||a.it||{headline:autoIt(a.headline),dek:autoIt(a.dek),body:(a.body||[a.dek]).map(autoIt)};}
-  function renderArticleLang(lang){const r=document.getElementById('readerContent');if(!r)return;const id=r.dataset.articleId,a=D.articles.find(x=>x.id===id);if(!a)return;const src=lang==='it'?italian(a):a;r.dataset.lang=lang;const h=r.querySelector('#readerHeadline'),d=r.querySelector('.reader-dek'),ps=[...r.querySelectorAll('.reader-body>p:not(.reader-dek)')];if(h)h.textContent=src.headline||a.headline;if(d)d.textContent=src.dek||a.dek;const body=src.body||a.body||[a.dek];ps.forEach((p,i)=>{if(body[i]!=null)p.textContent=body[i]});const b=r.querySelector('[data-article-language]');if(b)b.textContent=lang==='it'?'Read in English':'Leggi in italiano';}
-  function installArticleToggle(){const r=document.getElementById('readerContent');if(!r||r.querySelector('[data-article-language]'))return;const h=r.querySelector('#readerHeadline');if(!h)return;const b=document.createElement('button');b.type='button';b.className='text-btn article-translation-toggle';b.dataset.articleLanguage='1';b.textContent='Leggi in italiano';h.insertAdjacentElement('afterend',b);}
   const nap=[
     ['QuartieriAzzurri','Uagliù, facimm ’e persone serie: tre punti e jammo annanz.','Lads, let’s be serious: three points and we move forward.'],
     ['VomeroTattico','Il manager certe vote me sta rompendo ’e palle. Verticalizza, cazzo.','Sometimes the manager is pissing me off. Play forward, fuck.'],
@@ -19,12 +14,52 @@
     ['CurvaItalia','Fanculo le chiacchiere. Vincete e basta.','Fuck the talk. Just win.'],
     ['TatticoUbriaco','Il manager mi rompe le palle a volte, però la struttura si vede.','The manager pisses me off sometimes, but you can see the structure.']
   ];
-  function isItaly(a){return /^italy-/i.test(a.id)||/italy|azzurr|nazionale/i.test(`${a.category||''} ${a.label||''} ${a.headline||''}`)}
-  function mixComments(){const r=document.getElementById('readerContent'),id=r?.dataset.articleId,a=D.articles.find(x=>x.id===id),list=r?.querySelector('.fan-comments-list');if(!a||!list||list.dataset.languageMixed===id)return;const bank=isItaly(a)?ita:nap;const wanted=Math.max(2,Math.min(4,Math.ceil(list.children.length/8)));for(let i=0;i<wanted;i++){const [u,t,en]=bank[(i+[...id].reduce((n,c)=>n+c.charCodeAt(0),0))%bank.length];const n=document.createElement('article');n.className='fan-comment multilingual-comment';n.innerHTML=`<div class="fan-avatar">${esc(u.slice(0,2).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${esc(u)}</strong><em class="visitor-badge">${isItaly(a)?'IT':'NAP'}</em><span>${i?'5m':'mo'}</span></div><p lang="${isItaly(a)?'it':'nap'}">${esc(t)}</p><button type="button" class="text-btn" data-comment-translate data-original="${esc(t)}" data-english="${esc(en)}">Translate</button><div class="fan-actions"><span>▲ ${47+i*23}</span><span>Reply</span></div></div>`;const at=list.children[Math.min(list.children.length,2+i*4)];at?list.insertBefore(n,at):list.appendChild(n)}
-    [...list.querySelectorAll('.fan-comment')].forEach((node,i)=>{if(node.querySelector('[data-comment-translate]'))return;const p=node.querySelector('p');if(!p)return;const original=p.textContent.trim();const lang=p.lang||'en';const b=document.createElement('button');b.type='button';b.className='text-btn comment-translation-toggle';b.dataset.commentTranslate='1';b.dataset.original=original;b.dataset.english=lang==='en'?original:'';b.dataset.italian=lang==='en'?autoIt(original):'';b.textContent=lang==='en'?'Italiano':'Translate';p.insertAdjacentElement('afterend',b)});list.dataset.languageMixed=id;
+  const isItaly=a=>/^italy-/i.test(a.id)||/italy|azzurr|nazionale/i.test(`${a.category||''} ${a.label||''} ${a.headline||''}`);
+  async function translate(text,from,to){
+    text=String(text||'');if(!text)return text;
+    const key=`${from}|${to}|${text}`;if(cache.has(key))return cache.get(key);
+    const url=`https://translate.googleapis.com/translate_a/single?client=gtx&sl=${encodeURIComponent(from)}&tl=${encodeURIComponent(to)}&dt=t&q=${encodeURIComponent(text)}`;
+    const res=await fetch(url);if(!res.ok)throw new Error(`Translation ${res.status}`);
+    const data=await res.json();const out=(data?.[0]||[]).map(x=>x?.[0]||'').join('').trim();
+    if(!out)throw new Error('Empty translation');cache.set(key,out);return out;
   }
-  function hydrate(){installArticleToggle();requestAnimationFrame(mixComments)}
+  function handcrafted(a){return a.translation||a.it||null}
+  function installArticleToggle(){const r=document.getElementById('readerContent');if(!r||r.querySelector('[data-article-language]'))return;const h=r.querySelector('#readerHeadline');if(!h)return;const b=document.createElement('button');b.type='button';b.className='text-btn article-translation-toggle';b.dataset.articleLanguage='1';b.textContent='Leggi in italiano';h.insertAdjacentElement('afterend',b);r.dataset.lang='en';}
+  async function renderArticleLang(lang){
+    const r=document.getElementById('readerContent');if(!r)return;const a=D.articles.find(x=>x.id===r.dataset.articleId);if(!a)return;
+    const b=r.querySelector('[data-article-language]');if(b){b.disabled=true;b.textContent=lang==='it'?'Traduzione…':'Restoring…'}
+    try{
+      let src=a;
+      if(lang==='it'){
+        const hand=handcrafted(a);
+        if(hand)src=hand;
+        else src={headline:await translate(a.headline,'en','it'),dek:await translate(a.dek,'en','it'),body:await Promise.all((a.body||[a.dek]).map(x=>translate(x,'en','it')))};
+      }
+      const h=r.querySelector('#readerHeadline'),d=r.querySelector('.reader-dek'),ps=[...r.querySelectorAll('.reader-body>p:not(.reader-dek)')];
+      if(h)h.textContent=src.headline||a.headline;if(d)d.textContent=src.dek||a.dek;const body=src.body||a.body||[a.dek];ps.forEach((p,i)=>{if(body[i]!=null)p.textContent=body[i]});r.dataset.lang=lang;
+      if(b)b.textContent=lang==='it'?'Read in English':'Leggi in italiano';
+    }catch(err){console.error('Article translation failed',err);if(b)b.textContent='Translation failed · retry';}
+    finally{if(b)b.disabled=false}
+  }
+  function mixComments(){
+    const r=document.getElementById('readerContent'),id=r?.dataset.articleId,a=D.articles.find(x=>x.id===id),list=r?.querySelector('.fan-comments-list');if(!a||!list||list.dataset.languageMixed===id)return;
+    const bank=isItaly(a)?ita:nap,wanted=Math.max(2,Math.min(4,Math.ceil(list.children.length/8))),seed=[...id].reduce((n,c)=>n+c.charCodeAt(0),0);
+    for(let i=0;i<wanted;i++){
+      const [u,t,en]=bank[(i+seed)%bank.length],n=document.createElement('article');n.className='fan-comment multilingual-comment';
+      n.innerHTML=`<div class="fan-avatar">${esc(u.slice(0,2).toUpperCase())}</div><div><div class="fan-comment-meta"><strong>@${esc(u)}</strong><em class="visitor-badge">${isItaly(a)?'IT':'NAP'}</em><span>${i?'5m':'mo'}</span></div><p lang="${isItaly(a)?'it':'nap'}">${esc(t)}</p><button type="button" class="text-btn" data-comment-translate data-original="${esc(t)}" data-source="${isItaly(a)?'it':'auto'}" data-target="en" data-handcrafted="${esc(en)}">Translate</button><div class="fan-actions"><span>▲ ${47+i*23}</span><span>Reply</span></div></div>`;
+      const at=list.children[Math.min(list.children.length,2+i*4)];at?list.insertBefore(n,at):list.appendChild(n);
+    }
+    [...list.querySelectorAll('.fan-comment')].forEach(node=>{
+      if(node.querySelector('[data-comment-translate]'))return;const p=node.querySelector('p');if(!p)return;const original=p.textContent.trim(),lang=(p.lang||'en').toLowerCase(),b=document.createElement('button');b.type='button';b.className='text-btn comment-translation-toggle';b.dataset.commentTranslate='1';b.dataset.original=original;b.dataset.source=lang==='en'?'en':'auto';b.dataset.target=lang==='en'?'it':'en';b.textContent=lang==='en'?'Italiano':'Translate';p.insertAdjacentElement('afterend',b);
+    });list.dataset.languageMixed=id;
+  }
+  function hydrate(){installArticleToggle();let tries=0;const wait=()=>{const r=document.getElementById('readerContent');if(r?.querySelector('.fan-comments-list'))mixComments();else if(tries++<12)setTimeout(wait,25)};wait()}
   document.addEventListener('seasonroom:article-opened',()=>requestAnimationFrame(hydrate));
-  document.addEventListener('seasonroom:comments-rendered',()=>requestAnimationFrame(mixComments));
-  document.addEventListener('click',e=>{const a=e.target.closest?.('[data-article-language]');if(a){const r=document.getElementById('readerContent');renderArticleLang(r?.dataset.lang==='it'?'en':'it');return}const b=e.target.closest?.('[data-comment-translate]');if(!b)return;e.preventDefault();e.stopPropagation();const p=b.parentElement.querySelector('p');if(!p)return;const original=b.dataset.original||p.textContent;if(b.dataset.shown==='translated'){p.textContent=original;b.dataset.shown='original';b.textContent=p.lang==='en'?'Italiano':'Translate';return}if(p.lang==='en'){p.textContent=b.dataset.italian||autoIt(original);b.textContent='Original';}else{p.textContent=b.dataset.english||original;b.textContent='Original';}b.dataset.shown='translated';},true);
+  document.addEventListener('click',async e=>{
+    const articleBtn=e.target.closest?.('[data-article-language]');if(articleBtn){e.preventDefault();const r=document.getElementById('readerContent');await renderArticleLang(r?.dataset.lang==='it'?'en':'it');return}
+    const b=e.target.closest?.('[data-comment-translate]');if(!b)return;e.preventDefault();e.stopImmediatePropagation();const p=b.parentElement.querySelector('p');if(!p)return;
+    if(b.dataset.shown==='translated'){p.textContent=b.dataset.original;b.dataset.shown='original';b.textContent=b.dataset.target==='it'?'Italiano':'Translate';return}
+    const old=b.textContent;b.disabled=true;b.textContent='Translating…';
+    try{const out=b.dataset.handcrafted||await translate(b.dataset.original,b.dataset.source||'auto',b.dataset.target||'en');p.textContent=out;b.dataset.shown='translated';b.textContent='Original'}catch(err){console.error('Comment translation failed',err);b.textContent='Retry translation'}finally{b.disabled=false}
+  },true);
 })();
