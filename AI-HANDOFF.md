@@ -1,243 +1,385 @@
-# FC 26 Napoli Career — AI Handoff Guide
+# FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
 ## Purpose
+This is the continuity document for another AI/assistant if the active conversation becomes too long or the save is handed off. It must preserve not only current data but the **story of the career**: club identity, prior seasons, trophies, European history, rivalries, Italy storylines, player arcs, transfers, recurring opponents, media narratives, and operating procedures.
 
-This file is the onboarding document for another AI/assistant if the active conversation becomes too long or the save is handed to a new assistant. It describes the save, the assistant-manager role, known season state, working conventions, and the website update workflow.
+**Authority rule:** never invent missing history. The user's latest explicit report/correction is authoritative. Current canonical repo data comes next. This document comes after those. Older articles/comments are lowest priority.
 
-**Important:** The repository's current canonical data should override any stale number in this document. This guide records the latest known conversational state as of the Napoli 3–0 Como result in the 2027–28 season.
-
----
-
-## Role of the AI
-
-Act as the user's **assistant manager and club media/data assistant**.
-
-During matches:
-
-- React in real time as an assistant manager.
-- Give concise tactical/game-management advice based on the match state, stamina, score and stakes.
-- Track goals, assists, substitutions and notable incidents exactly as the user reports them.
-- Do not invent events.
-- When the user corrects a minute, scorer, assist or result, the correction becomes authoritative.
-
-Between matches:
-
-- Discuss selection, rotation, transfers, youth development and tactical decisions.
-- Remember that this is a long-running FC 26 career-mode universe; internal save facts matter more than real-world football facts.
-- Help maintain the companion website/repository.
-
-For site updates:
-
-- Treat the user's reported save data as authoritative.
-- Update related state together rather than piecemeal.
-- Verify that story, result, form, points, table context, fixtures, stats and comments all agree before deployment.
+**Current snapshot:** 2027–28, third season of the Napoli save, through Napoli 3–0 Como.
 
 ---
 
-## Club / save
+## Assistant role
+Act as the user's **assistant manager plus club media/data assistant**.
 
-Club: **Napoli**
+During matches: react live, give concise tactical/game-management advice, track goals/assists/minutes/substitutions/incidents exactly, and immediately adopt corrections.
 
-Season: **2027–28**, third season of the save.
+Between matches: help with selection, rotation, transfers, contracts, youth development, tactical planning, Italy selection, and the ongoing fictional football narrative.
 
-The user also manages the **Italy national team**.
-
-Long-term club objective: compete for Serie A and the Champions League while developing a strong squad and selected youth prospects.
-
-The save initially emphasized Italian recruitment because of the Italy job, but the squad now has enough Italian representation that recruitment does not need to be restricted to Italians.
+For the website: treat the user's save as its own universe. Never substitute real-world results for career-mode history. Update all connected state together rather than piecemeal.
 
 ---
+
+# PART I — THE CAREER STORY
+
+## Club and project
+- Club: **Napoli**.
+- Current season: **2027–28**, season three of the save.
+- The user also manages **Italy**.
+- The combined Napoli/Italy project has sometimes been thought of as **Project Napotalia**: build an elite Napoli side while developing/recruiting players who can also strengthen the Italian national-team pool.
+- Italian recruitment was emphasized earlier because of the national-team job. The squad now has enough Italian representation that future recruitment does not need to be restricted to Italians.
+- Long-term ambition: establish Napoli as a sustained Serie A and Champions League power while developing selected youth prospects.
+
+## Historical honours and completed-season record
+The first two seasons of the save are completed, but the currently available repo/handoff material does **not** contain a sufficiently reliable trophy-by-trophy or final-table record for both seasons.
+
+Therefore:
+- Preserve a dedicated historical honours section here.
+- Add every confirmed Scudetto, Coppa Italia, Supercoppa, Champions League/European trophy, final, semifinal, league finish and major elimination as soon as it is recovered from prior conversation/save evidence.
+- **Do not infer or fabricate trophies.**
+- A future assistant should actively preserve these facts once recovered because they determine legacy storylines: title defence, repeat champions, European revenge, trophy droughts, dynasty talk, etc.
+
+### Season 1 — 2025–26
+**Final league position:** historical detail still to be recovered/confirmed.
+
+**Trophies:** historical detail still to be recovered/confirmed.
+
+**European campaign:** historical detail still to be recovered/confirmed.
+
+**Major narrative moments:** preserve when recovered.
+
+### Season 2 — 2026–27
+**Final league position:** historical detail still to be recovered/confirmed.
+
+**Trophies:** historical detail still to be recovered/confirmed.
+
+**European campaign:** historical detail still to be recovered/confirmed.
+
+**Major narrative moments:** preserve when recovered.
+
+### Season 3 — 2027–28
+Current season. Detailed current state appears below.
+
+---
+
+## European history and recurring-opponent storylines
+European matches are not isolated fixtures. Track repeat opponents and previous meetings because they create rivalry/revenge narratives.
+
+For every recurring European opponent preserve:
+- seasons met;
+- competition/stage;
+- home/away scores;
+- aggregate score where relevant;
+- decisive players/incidents;
+- whether the opponent eliminated Napoli or Napoli eliminated them;
+- subsequent rematches and revenge/redemption framing.
+
+The full first-two-season European opponent ledger still needs historical reconstruction rather than invention.
+
+### Confirmed 2027–28 European storyline
+Known early league-phase wins included:
+- Napoli 2–1 Fenerbahçe.
+- Napoli 2–1 Club Brugge.
+- Bayern Munich was identified as an early major Champions League measuring-stick fixture.
+- Napoli later beat Chelsea **1–0** in the Champions League: Pio Esposito scored in the 43rd minute from an Alphonso Davies assist; Meret made a key 90+1 save.
+- Marseille later beat Napoli **3–0** under exceptional circumstances described below.
+- The club was chasing a Champions League top-eight league-phase finish to earn the bye past the knockout playoff. Before Marseille, Napoli were 10th and needed results to push into the top eight.
+- After Como, **Bodø/Glimt** was the next known Champions League fixture.
+
+When old European history is recovered, integrate it above these current-season events so a future assistant knows which opponents carry history.
+
+---
+
+## Domestic rivalries and title-race storylines
+Treat Inter, Milan and Juventus as persistent narrative opponents, not generic fixtures.
+
+### Inter
+- Primary current 2027–28 title rival.
+- The lead has changed hands during the season.
+- After Napoli's 2–1 Juventus win, Napoli had 51 points and Inter 50.
+- Inter subsequently dropped points before Napoli beat Como 3–0; the user reported Inter were then **three points behind Napoli**.
+- When covering either club, always consider the title-race consequence.
+
+### Milan
+- Major domestic rival/chaser in the current campaign.
+- At one confirmed table snapshot Milan had 39 points from 20 played while Napoli and Inter had separated themselves at the top.
+- Milan have dropped points at moments that materially changed the title picture.
+
+### Juventus
+- High-value domestic rivalry and recurring cup/league opponent.
+- Napoli beat Juventus **2–1** in the latest confirmed league meeting: Beier 37', Pio Esposito penalty 57' after Pio drew/won the penalty.
+- Juventus have also appeared in the season's Supercoppa storyline. Preserve cup and league meetings separately.
+
+### Roma / Lazio / Atalanta
+At the confirmed post-Juventus table snapshot:
+- Roma 38 from 20.
+- Lazio 37 from 20.
+- Atalanta/Bergamo 36 from 20.
+These clubs form the next competitive tier in the current domestic landscape. Update rather than blindly reuse these figures later.
+
+---
+
+# PART II — CURRENT 2027–28 SEASON
 
 ## Current league state
-
 Latest known league result: **Napoli 3–0 Como**.
 
-Immediately after that result, the user reported that Inter had dropped points in its previous game and was **three points behind Napoli**.
+Immediately after that result, Inter were reported to be **three points behind Napoli**.
 
-Earlier confirmed table state after Napoli beat Juventus 2–1:
+Earlier confirmed table after Napoli 2–1 Juventus:
+- Napoli — 51 points, first.
+- Inter — 50.
+- Milan — 39 from 20 played.
+- Roma — 38 from 20.
+- Lazio — 37 from 20.
+- Atalanta/Bergamo — 36 from 20.
+- Juventus — 34 from 21.
 
-- Napoli — 51 points, first
-- Inter — 50
-- Milan — 39 from 20 played
-- Roma — 38 from 20
-- Lazio — 37 from 20
-- Atalanta/Bergamo — 36 from 20
-- Juventus — 34 from 21
+Do not reuse old points totals once subsequent matches occur; recalculate from canonical current data/user reports.
 
-Do not blindly reuse those numbers later; recalculate/use the repository's latest canonical state as subsequent matches are played.
+## Recent key matches
 
----
-
-## Most recent matches
-
-### Juventus — Napoli 2–1 Juventus
-
-Confirmed details:
-
-- Napoli won 2–1.
-- Maximilian Beier scored in the **37th minute**.
+### Napoli 2–1 Juventus
+- Maximilian Beier 37'.
 - Pio Esposito drew/won the penalty.
-- Pio Esposito scored the penalty in the **57th minute**.
-- This result put Napoli top on 51 after Inter dropped points.
+- Pio Esposito converted it in the 57th minute.
+- The win moved Napoli to 51 points and first after Inter dropped points.
 
-### Marseille — Champions League — Napoli lost 0–3
+### Marseille 3–0 Napoli — Champions League
+Exceptional circumstances are essential to the storyline.
+- Fireworks were set off outside Napoli's team hotel overnight.
+- The squad entered the match exhausted and in poor form.
+- Most starters were around 60–70% stamina.
+- Bastoni and Marin were the only players described as full stamina.
+- De Bruyne and Davies were unavailable for the starting lineup because of the fatigue situation.
+- Napoli deliberately sat deep and conserved energy.
+- Meret made several major saves and Napoli reached halftime 0–0.
+- Marseille eventually broke through and won 3–0.
+- Do not cover this as an ordinary heavy defeat; hotel disruption and widespread fatigue are part of the canonical match context.
 
-This match had exceptional circumstances.
+### Napoli 3–0 Como
+Scoring:
+- 40' Kevin De Bruyne — assist Scott McTominay.
+- 50' Endrick — assist Pio Esposito.
+- 78' Pio Esposito — assist Endrick.
 
-Before the game, fireworks were set off outside the team's hotel. The squad entered the match exhausted and in poor form; most available starters were around 60–70% stamina. Bastoni and Marin were the only players described as being at full stamina. De Bruyne and Davies were initially unavailable for the starting lineup because of the fatigue situation.
+Contributions:
+- Pio: 1 goal, 1 assist.
+- Endrick: 1 goal, 1 assist.
+- De Bruyne: 1 goal.
+- McTominay: 1 assist.
 
-Napoli deliberately sat deep and conserved energy early. Meret made several important saves, including before halftime. Marseille eventually broke through and won **3–0**.
+Other notes:
+- Napoli clean sheet.
+- Geertruida was excellent at left back and repeatedly cut out Como attacks.
+- Bastoni made an important early block.
+- De Bruyne remained fatigued and came off for Nico Paz at halftime.
+- Kayode and Davies later came on to see out the match.
+- The performance was framed as the ideal response to Marseille.
+- Inter had dropped points, leaving Napoli three clear according to the user's immediate post-match update.
 
-The story/comments about this result must acknowledge the hotel disruption and widespread fatigue rather than treating it as an ordinary 3–0 defeat.
+## Upcoming fixtures — last confirmed sequence
+The supplied sequence was:
+1. Marseille — Champions League — played.
+2. Como — Jan 23 — played.
+3. Bodø/Glimt — Jan 26.
+4. Bologna FC — Jan 29.
 
-### Como — Napoli 3–0 Como
-
-Latest confirmed result.
-
-Scoring log:
-
-- **40' — Kevin De Bruyne**, assist Scott McTominay
-- **50' — Endrick**, assist Pio Esposito
-- **78' — Pio Esposito**, assist Endrick
-
-Final individual contributions from the scoring log:
-
-- Pio Esposito: 1 goal, 1 assist
-- Endrick: 1 goal, 1 assist
-- Kevin De Bruyne: 1 goal
-- Scott McTominay: 1 assist
-
-Other match notes:
-
-- Clean sheet for Napoli.
-- Geertruida had an excellent match at left back and repeatedly won/cut out balls.
-- De Bruyne was still tired and came off for Nico Paz at halftime.
-- Kayode and Davies later came on to help see the game out.
-- The result was a strong response to the Marseille defeat.
-
----
-
-## Upcoming fixtures — last explicitly supplied sequence
-
-Before the Como match, the user supplied this order:
-
-1. Marseille — Champions League
-2. Como — 23rd
-3. Bodo/Glimt — 26th
-4. Bologna FC — 29th
-
-Marseille and Como have now been played, so **Bodo/Glimt then Bologna** were the next known fixtures at the time of this handoff. Check canonical repo data before assuming this remains current.
+So at this handoff snapshot the next known fixtures are **Bodø/Glimt, then Bologna**. Verify against current canonical data if the save has advanced.
 
 ---
 
-## Squad context
+# PART III — SQUAD AND PLAYER ARCS
 
-Important known first-team names across the save include:
+## Core attacking group
+- Pio Esposito.
+- Maximilian Beier.
+- Endrick.
+- Federico Chiesa.
+- Noa Lang.
+- Nico Paz.
 
-### Attack / attacking players
-- Pio Esposito
-- Maximilian Beier
-- Endrick
-- Federico Chiesa
-- Noa Lang
-- Nico Paz
+### Pio Esposito
+A central long-term attacking and Italy-project figure. By the Juventus period he had become one of the major production leaders. Track his Napoli and Italy arcs together where relevant.
 
-### Midfield
-- Kevin De Bruyne
-- Scott McTominay
-- Angelo Stach
-- Billy Gilmour
-- Marin
+### Maximilian Beier
+Important scorer and core asset. A huge Barcelona bid (approximately $204m in earlier save context) was rejected, reinforcing his importance to the project.
 
-### Defence
-- Alessandro Bastoni
-- Alphonso Davies
-- Marc Cucurella
-- Michael Kayode
-- Lutsharel Geertruida
-- Giovanni Di Lorenzo
-- Alessandro Buongiorno
+### Endrick
+Part of the striker rotation and capable of major contributions; against Como he produced 1G/1A.
 
-### Goalkeepers
-- Alex Meret
-- Milinkovic-Savic
-- Peacock — youth goalkeeper with low-90s potential noted previously
+### Nico Paz
+Signed for approximately **$125m**, five years, around $180k/week plus $2m signing bonus. Long-term creative centerpiece and viewed as a successor/evolution option as Kevin De Bruyne ages.
 
-This is not guaranteed to be the complete current squad. Use current repo/save data for exact roster questions.
+### Federico Chiesa
+Signed for approximately **$32m**. Important Italian attacking option for both Napoli identity and the broader Italy project.
 
----
+## Midfield
+- Kevin De Bruyne.
+- Scott McTominay.
+- Angelo Stach.
+- Billy Gilmour.
+- Marin.
 
-## Important transfer history / squad-building context
+### De Bruyne
+Veteran elite creator whose minutes/stamina need management. His succession is an active squad-planning storyline, with Paz important to that transition.
 
-Known moves from the 2027–28 window and preceding save context:
+### McTominay
+Key midfield presence and contributor; assisted De Bruyne against Como.
 
-- Nico Paz signed for approximately $125m; five-year deal, $180k wage, $2m signing bonus.
-- Michael Kayode signed for approximately $10.5m plus Lobotka, who had about ten months remaining.
-- Lutsharel Geertruida signed for approximately $31.5m; roughly $105k wage plus bonuses.
-- Federico Chiesa was previously signed for approximately $32m.
-- Pio Esposito was previously signed for approximately $25m.
-- Lawton was loaned for two years.
-- Cheddira was sold.
-- Lobotka left in the Kayode swap.
-- Large bids for core players have been rejected, including a Bournemouth proposal involving Alex Jimenez plus cash for Alphonso Davies.
-- The club has also rejected major offers for Beier, Pio Esposito and captain Di Lorenzo in the broader save storyline.
+## Defence
+- Alessandro Bastoni.
+- Alphonso Davies.
+- Marc Cucurella.
+- Michael Kayode.
+- Lutsharel Geertruida.
+- Giovanni Di Lorenzo.
+- Alessandro Buongiorno.
 
-The user generally values useful positional flexibility and squad depth, particularly players who can cover multiple defensive/midfield roles.
+### Davies
+Core project player. A major Bournemouth proposal involving Alex Jimenez plus cash was rejected. Davies later agreed a three-year extension around $190k/week in known save context.
 
----
+### Bastoni
+Elite defensive cornerstone and part of the Napoli/Italy overlap.
 
-## Youth context
+### Buongiorno
+Another important Italian defensive cornerstone; known context includes a two-year extension around $160k/week.
 
-- Peacock: goalkeeper, low-90s potential noted; should receive development opportunities where sensible.
-- Valentini: high-potential youth player; loan development has been considered.
-- Mancini: high-potential youth player; loan development has been considered.
+### Kayode
+Signed for approximately **$10.5m plus Lobotka**. Established right-back option with major Italy relevance.
 
-Do not invent their current ratings/status if the repository or user has newer information.
+### Geertruida
+Signed for approximately **$31.5m**, around $105k/week plus bonuses. Valuable because of defensive versatility. His standout Como performance at left back is a good example of why that versatility matters.
 
----
+### Di Lorenzo
+Captain and important continuity figure. A Leipzig offer around **$43.5m** was rejected in earlier save context. Preserve his leadership arc even when Kayode competes with him for club/Italy minutes.
 
-## Italy national-team context
+## Goalkeepers
+- Alex Meret.
+- Milinkovic-Savic.
+- Peacock — youth goalkeeper, low-90s potential noted.
 
-The user manages Italy in addition to Napoli.
-
-Recent storyline: **Sandro Tonali and Riccardo Orsolini were injured/unavailable around an Italy selection**. The website contains/contained an Italy injury story; its comments were previously identified as inaccurate and should be treated cautiously until the comment architecture overhaul is complete.
-
-Kayode has previously started for Italy over Di Lorenzo and scored with an 8.2 match rating in the save.
+Meret has produced major saves in important European matches, including Chelsea and Marseille.
 
 ---
 
-## Assistant-manager style
+# PART IV — TRANSFER / SQUAD-BUILDING HISTORY
 
-The user treats the assistant as an active member of the coaching staff. During live matches:
+Known major moves/context:
+- Federico Chiesa — approximately $32m.
+- Pio Esposito — approximately $25m.
+- Nico Paz — approximately $125m.
+- Michael Kayode — approximately $10.5m plus Lobotka.
+- Lutsharel Geertruida — approximately $31.5m.
+- Angelo Stach — approximately $25.5m in earlier tracker context.
+- Lawton — two-year loan.
+- Cheddira — sold.
+- Lobotka — departed in Kayode swap.
+- Major offers for core players have been rejected rather than automatically cashed in.
+- Earlier in the save Napoli lost Lukaku and Højlund, creating the need to rebuild the striker room around Beier/Pio/Endrick and related attacking options.
 
-- Be decisive but concise.
-- React to what is happening rather than giving generic football lectures.
-- Account for fatigue and game state.
-- Track details as they are reported.
-- Acknowledge corrections immediately and use the corrected version thereafter.
-- Do not repeatedly ask for information already supplied.
-
-Examples of useful decisions:
-
-- Protect a lead with possession and compactness.
-- Pre-plan substitutions when stamina is low.
-- Identify when a player should conserve energy versus attack space.
-- Recognize when an ugly result is acceptable because of schedule/fatigue context.
+Squad-building preference: useful positional flexibility and depth, especially defenders/midfielders who can cover multiple roles.
 
 ---
 
-## Website / repository operating procedure
+# PART V — YOUTH / DEVELOPMENT STORYLINES
+
+- **Peacock:** goalkeeper with low-90s potential; meaningful senior minutes are valuable when schedule/risk allows.
+- **Valentini:** high-potential academy prospect; loan development has been considered.
+- **Mancini:** high-potential academy prospect; loan development has been considered.
+- Youth development is connected to the Italy project where applicable.
+
+Do not invent current ratings, loan status or growth if newer data is unavailable.
+
+---
+
+# PART VI — ITALY NATIONAL TEAM STORY
+
+The user is simultaneously **Italy manager**. Italy is not a side activity; it is a parallel storyline intertwined with Napoli.
+
+## Project identity
+Earlier recruitment placed extra value on Italians partly because Napoli could help build the national-team core. The squad now has enough Italians that club recruitment can be broader, but Napoli players' Italy performances remain important storylines.
+
+Known Italy-linked Napoli core includes players such as:
+- Bastoni.
+- Buongiorno.
+- Kayode.
+- Chiesa.
+- Pio Esposito.
+- Meret.
+- Di Lorenzo.
+
+## Confirmed Italy storylines/results
+- A confirmed Italy result in earlier tracker material was a **2–0 European Championship qualifying win over Iceland**, with Retegui and Kean scoring.
+- Kayode has started for Italy over Di Lorenzo and scored, receiving an **8.2** match rating in the save. This creates a genuine club/country generational-selection storyline rather than a simple depth-chart fact.
+- Sandro Tonali and Riccardo Orsolini were injured/unavailable around a recent Italy selection. The website has an Italy injury story; its legacy comments were identified as inaccurate under the old comment system.
+
+## Italy continuity requirements
+A future assistant should preserve:
+- qualifying/tournament results;
+- group/table situation;
+- selection debates;
+- Napoli players earning or losing Italy roles;
+- injuries affecting call-ups;
+- captaincy/leadership changes;
+- emerging youth players who may become Italy options;
+- conflicts where Napoli rotation and Italy development goals pull in different directions.
+
+When historical Italy results from the first two seasons are recovered, add them chronologically rather than summarizing them vaguely.
+
+---
+
+# PART VII — NARRATIVE / MEDIA CONTINUITY
+
+This save has an in-universe media layer. Stories and comments should remember prior events.
+
+Important narrative categories:
+- title-race swings with Inter/Milan/Juventus;
+- European revenge/rematch history;
+- striker competition and production;
+- De Bruyne-to-Paz generational transition;
+- captain Di Lorenzo versus emerging Kayode minutes;
+- Napoli players feeding the Italy project;
+- youth development;
+- huge rejected transfer bids showing which players are considered untouchable;
+- exceptional incidents such as the Marseille hotel fireworks;
+- fan/media pressure after bad results and overreaction after big wins.
+
+Recurring fan/comment personas may have agendas, but **facts always gate the joke/opinion**. A persona cannot complain that Napoli failed to score a second goal after a 3–0 win.
+
+---
+
+# PART VIII — COMMENT SYSTEM
+
+Read `COMMENTS-ARCHITECTURE.md` before modifying comments.
+
+Target architecture: **one engine, two inputs**.
+1. Fact-gated automated comments.
+2. Bespoke seeded comments for important stories/results.
+
+Automated comments must be conditioned on structured facts such as:
+- pre-match vs live vs final;
+- win/draw/loss;
+- exact score;
+- scorers/assists;
+- clean sheet;
+- competition;
+- table/title impact;
+- injuries/fatigue;
+- rivalry/rematch context.
+
+Legacy generic/context/editorial layers have produced contradictions and should not be allowed to overwrite canonical result context.
+
+---
+
+# PART IX — WEBSITE / REPOSITORY PROCEDURE
 
 Repository: `StefanSaladino/FC-26-career-mode-tracker`
 
-Branch used for deployment: `main`.
+Deployment branch: `main`.
 
-The site has historically suffered from partial updates and stale cache/script references. Avoid updating only the headline/story while leaving the data model behind.
-
-### Unified update checklist
-
-Whenever a new match/result is pushed, reconcile all of these in one pass:
-
+## Unified match-update workflow
+Whenever a new match/result is pushed, reconcile in one pass:
 1. Latest result and score.
 2. Goal minutes.
 3. Scorers.
@@ -248,49 +390,45 @@ Whenever a new match/result is pushed, reconcile all of these in one pass:
 8. Upcoming fixtures.
 9. Lead/home-page story.
 10. Article body.
-11. Article comments and comment metadata.
-12. Any ticker/sidebar/latest-result components.
-13. Asset/cache version references.
-14. Deployment/main branch state.
+11. Article comment context.
+12. Bespoke seeded comments where appropriate.
+13. Ticker/sidebar/latest-result components.
+14. Asset/cache version references.
+15. Deployment/main state.
 
-Then verify that the live-facing data does not still contain the previous match as the current state.
+Then verify the live-facing state does not still contain the previous match as current.
 
-### Cache lesson
-
-Updating a JavaScript/data file is insufficient if `index.html` or another loader still references an old version/cache key. Whenever a data/script change is intended to deploy immediately, check the actual referenced asset version as part of the same update.
-
----
-
-## Comment-system overhaul
-
-Read `COMMENTS-ARCHITECTURE.md` before touching the comment generator.
-
-Core rule: **one engine, two inputs**:
-
-1. Fact-gated automated comments.
-2. Bespoke seeded comments for important stories/results.
-
-Do not allow several independent generic/context/editorial layers to generate contradictory reactions. A completed 3–0 win must never receive a comment such as "why can't we score a second?"
-
-The current legacy repository includes several historical comment files/layers. Preserve good copy where useful, but move toward a single source of truth.
+## Cache lesson
+Changing a JS/data file is not enough if `index.html` or another loader references an old cache/version key. Check the actual loaded script reference whenever publishing a change.
 
 ---
 
-## Data-authority rules
+# PART X — DATA AUTHORITY AND HANDOFF RULES
 
-When sources disagree, use this priority:
-
-1. The user's latest explicit correction/report in the active conversation.
-2. Canonical current match/save data in the repository after that correction has been committed.
+When sources disagree:
+1. User's latest explicit correction/report in the active conversation.
+2. Canonical repo/save data committed after that correction.
 3. This handoff document.
 4. Older articles/comments/history.
 
-Never overwrite a newer user correction with an older repo story simply because the older story already exists.
+Never overwrite a newer correction with an older story merely because the older story already exists.
 
----
+This career is a fictional/save-world history. **Do not web-search real football results to 'correct' career-mode facts.**
 
-## Key continuity rule
+If historical facts are missing, inspect repository/past conversation evidence or ask the user. Mark unknown history as unknown rather than inventing it.
 
-This career is an evolving fictional/save-world history. Do **not** web-search real football results to correct career-mode facts. The user's save is its own universe.
+## Historical reconstruction priority
+The biggest remaining handoff gap is the fully verified record of **2025–26 and 2026–27**. When evidence becomes available, fill in:
+- final Serie A standings/points;
+- every trophy won;
+- domestic cup runs;
+- Supercoppa results;
+- Champions League/European stages and eliminations;
+- recurring European opponents and aggregate histories;
+- decisive finals/semifinals;
+- major transfers by season;
+- top scorers/award winners where known;
+- major Italy results/tournaments from those seasons;
+- lasting rivalries and revenge storylines.
 
-When uncertain about a past save event, inspect the repository or ask the user rather than substituting real-world football history.
+Once recovered, these facts should remain permanently in this file so another AI can understand the **entire storyline**, not merely the current table.
