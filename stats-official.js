@@ -4,14 +4,14 @@
 
   // User-verified running totals through the 2–0 Monza win. Includes friendlies.
   D.stats = [
-    ['Pio Esposito',16,4,'Official running total · includes friendlies'],
+    ['Pio Esposito',16,6,'Official running total · includes friendlies'],
     ['Maximilian Beier',9,4,'Official running total · includes friendlies'],
     ['Endrick',6,5,'Official running total · includes friendlies'],
-    ['Nico Paz',2,6,'Official running total · includes friendlies'],
+    ['Nico Paz',2,7,'Official running total · includes friendlies'],
     ['Kevin De Bruyne',2,1,'Official running total · includes friendlies'],
     ['Alphonso Davies',2,2,'Official running total · includes friendlies'],
     ['Federico Chiesa',2,1,'Official running total · includes friendlies'],
-    ['Scott McTominay',1,2,'Official running total · includes friendlies'],
+    ['Scott McTominay',1,3,'Official running total · includes friendlies'],
     ['Alessandro Bastoni',1,0,'Official running total · includes friendlies'],
     ['Anton Stach',1,1,'Official running total · includes friendlies'],
     ['Billy Gilmour',0,1,'Official running total · includes friendlies'],
