@@ -18,27 +18,80 @@ main{padding-bottom:30px}
 .reader-gameplay .season-video-wrap{aspect-ratio:16/9;max-height:428px;background:#02070c}
 .reader-gameplay .season-video{width:100%;height:100%;object-fit:contain;background:#02070c}
 
-/* Unified comments engine: preserve the established Season Room visual language. */
-.fan-comments{margin:34px 0 4px;padding-top:20px;border-top:4px solid var(--navy);font-family:inherit;color:var(--ink)}
-.comments-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:8px}
-.comments-head .section-kicker{margin-bottom:3px}
-.comments-head h3{margin:0;font-size:1.45rem;line-height:1.05;letter-spacing:-.025em;color:var(--navy)}
-.comments-head>span{font-size:.72rem;font-weight:850;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;white-space:nowrap}
-.comments-list{background:#fff;border-top:1px solid var(--line)}
-.fan-comment{display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:15px 2px;border-bottom:1px solid var(--line);align-items:start}
-.comment-avatar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-size:.78rem;font-weight:950;line-height:1}
-.comment-body{min-width:0}
-.comment-user{margin:1px 0 4px;color:var(--blue);font-size:.76rem;font-weight:900;line-height:1.2}
-.comment-body p{margin:0;color:var(--ink);font-size:.9rem;line-height:1.48;overflow-wrap:anywhere}
+/* Comments — contained editorial discussion panel, independent of engine logic. */
+.fan-comments{
+  width:min(100%,780px);
+  margin:42px auto 12px;
+  padding:0;
+  border:1px solid var(--line);
+  border-top:5px solid var(--navy);
+  background:#fff;
+  color:var(--ink);
+  font-family:inherit;
+  box-shadow:0 8px 26px rgba(8,26,45,.06);
+  overflow:hidden;
+}
+.comments-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:20px;
+  padding:22px 26px 18px;
+  margin:0;
+  background:#f8fafc;
+  border-bottom:1px solid var(--line);
+}
+.comments-head>div{min-width:0}
+.comments-head .section-kicker{margin:0 0 4px;color:var(--blue)}
+.comments-head h3{margin:0;color:var(--navy);font-size:1.45rem;line-height:1.08;letter-spacing:-.025em}
+.comments-head>span{flex:0 0 auto;color:var(--muted);font-size:.7rem;font-weight:850;text-transform:uppercase;letter-spacing:.07em;white-space:nowrap}
+.comments-list{margin:0;padding:0 26px 8px;background:#fff;border:0}
+.fan-comment{
+  display:grid;
+  grid-template-columns:42px minmax(0,1fr);
+  gap:14px;
+  align-items:start;
+  margin:0;
+  padding:19px 0;
+  border:0;
+  border-bottom:1px solid #e8edf2;
+  background:transparent;
+}
+.fan-comment:last-child{border-bottom:0}
+.comment-avatar{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:var(--navy);
+  color:#fff;
+  font-size:.78rem;
+  font-weight:950;
+  line-height:1;
+  letter-spacing:-.02em;
+}
+.comment-body{min-width:0;padding-top:1px}
+.comment-user{margin:0 0 5px;color:var(--blue);font-size:.78rem;font-weight:900;line-height:1.2}
+.comment-body p{margin:0;color:#263445;font-size:.92rem;line-height:1.58;overflow-wrap:anywhere}
 
 @media(max-width:760px){
   main{padding-bottom:18px}
   .gameplay-media-card,.reader-gameplay{width:100%;max-width:100%}
   .gameplay-media-card .season-video-wrap,.reader-gameplay .season-video-wrap{max-height:none}
-  .fan-comments{margin-top:26px;padding-top:16px}
-  .comments-head{align-items:flex-start}
-  .comments-head h3{font-size:1.25rem}
-  .fan-comment{grid-template-columns:32px minmax(0,1fr);gap:10px;padding:13px 0}
-  .comment-avatar{width:32px;height:32px;font-size:.72rem}
-  .comment-body p{font-size:.88rem}
+  .fan-comments{width:calc(100% - 24px);margin:30px auto 10px;border-top-width:4px}
+  .comments-head{align-items:flex-start;padding:18px 18px 15px;gap:12px}
+  .comments-head h3{font-size:1.22rem}
+  .comments-head>span{font-size:.64rem;padding-top:3px}
+  .comments-list{padding:0 18px 5px}
+  .fan-comment{grid-template-columns:36px minmax(0,1fr);gap:11px;padding:16px 0}
+  .comment-avatar{width:34px;height:34px;font-size:.7rem}
+  .comment-user{font-size:.75rem;margin-bottom:4px}
+  .comment-body p{font-size:.88rem;line-height:1.52}
+}
+
+@media(max-width:420px){
+  .fan-comments{width:calc(100% - 16px)}
+  .comments-head{padding-left:15px;padding-right:15px}
+  .comments-list{padding-left:15px;padding-right:15px}
 }
