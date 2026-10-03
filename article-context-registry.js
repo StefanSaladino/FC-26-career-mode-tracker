@@ -28,6 +28,7 @@
     'captain-future':['napoli','dressing-room','story','NONE'],
     'stach-insurance':['napoli','feature','story','NONE'],
     'napoli-still-top':['napoli','league-title-race','title-race','NONE'],
+    'saladino-december-manager-month':['napoli','club-news','story','NONE'],
     'opinion-fortress-needs-goals':['napoli','editorial','editorial','NONE'],
     'opinion-two-points-conversation':['napoli','editorial','title-race','NONE'],
     'opinion-pio-dependence':['napoli','editorial','editorial','NONE'],
@@ -69,7 +70,6 @@
     a.commentContext = context;
     a.reaction = reaction;
     a.visitorClub = visitor;
-    // Hard isolation: national-team stories can never inherit club-rival visitors.
     if (domain === 'italy' && ['INTER','JUVENTUS','MILAN','ROMA','LAZIO','NAPOLI'].includes(a.visitorClub)) a.visitorClub = 'NONE';
   });
 
