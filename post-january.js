@@ -14,6 +14,11 @@
     ]
   };
   D.articles = [awardStory, ...(D.articles||[]).filter(a=>a.id!==awardStory.id)];
+  D.hero = {
+    ...(D.hero||{}),
+    articleId: awardStory.id,
+    strap: 'DECEMBER MANAGER OF THE MONTH · SALADINO'
+  };
 
   D.upcoming = [
     ['Inter','Supercoppa Italiana Final','Jan 3'],
