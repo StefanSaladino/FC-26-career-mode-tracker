@@ -2,10 +2,10 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  // User-verified running totals through the 2–0 Monza win. Includes friendlies.
+  // User-verified running totals through the 2–1 Juventus win. Includes friendlies.
   D.stats = [
-    ['Pio Esposito',16,6,'Official running total · includes friendlies'],
-    ['Maximilian Beier',9,4,'Official running total · includes friendlies'],
+    ['Pio Esposito',17,7,'Official running total · includes friendlies'],
+    ['Maximilian Beier',10,4,'Official running total · includes friendlies'],
     ['Endrick',6,5,'Official running total · includes friendlies'],
     ['Nico Paz',2,7,'Official running total · includes friendlies'],
     ['Kevin De Bruyne',2,1,'Official running total · includes friendlies'],
@@ -20,5 +20,5 @@
   ];
 
   D.stats.sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
-  D.statsScope = 'All Napoli matches · friendlies included · updated through Monza 2–0';
+  D.statsScope = 'All Napoli matches · friendlies included · updated through Juventus 2–1';
 })();
