@@ -43,6 +43,22 @@
   function automated(a){const lines=pools[reactionFor(a)]||pools.story;return lines.map((text,i)=>[handles[(hash(a.id)+i)%handles.length],text])}
   function threadFor(a){const seen=new Set();return[...(seeded[a.id]||[]),...automated(a)].filter(([,t])=>{const k=t.toLowerCase();if(seen.has(k))return false;seen.add(k);return true}).slice(0,10)}
   function render(a){const rows=threadFor(a);return `<section class="fan-comments" data-comments-for="${safe(a.id)}"><div class="comments-head"><div><div class="section-kicker">Supporters' thread</div><h3>Comments</h3></div><span>${rows.length} reactions</span></div><div class="comments-list">${rows.map(([u,t])=>`<article class="fan-comment"><div class="comment-avatar">${safe(u).slice(0,1).toUpperCase()}</div><div class="comment-body"><div class="comment-user">@${safe(u)}</div><p>${safe(t)}</p></div></article>`).join('')}</div></section>`}
-  let syncing=false;function sync(){if(syncing)return;const reader=document.getElementById('readerContent');if(!reader)return;const headline=reader.querySelector('#readerHeadline')?.textContent?.trim();if(!headline){reader.querySelector('.fan-comments')?.remove();return}const a=D.articles.find(x=>String(x.headline).trim()===headline);if(!a)return;syncing=true;reader.querySelector('.fan-comments')?.remove();reader.insertAdjacentHTML('beforeend',render(a));syncing=false}
-  const reader=document.getElementById('readerContent');if(reader){new MutationObserver(()=>queueMicrotask(sync)).observe(reader,{childList:true,subtree:true});sync()}document.addEventListener('click',e=>{if(e.target.closest?.('[data-article]'))requestAnimationFrame(sync)});window.NAPOLI_COMMENT_ENGINE_VERSION='2.0';
+  let syncing=false;
+  function sync(){
+    if(syncing)return;
+    const reader=document.getElementById('readerContent');if(!reader)return;
+    const headline=reader.querySelector('#readerHeadline')?.textContent?.trim();
+    if(!headline){reader.querySelector('.fan-comments')?.remove();return}
+    const a=D.articles.find(x=>String(x.headline).trim()===headline);if(!a)return;
+    const current=reader.querySelector('.fan-comments');
+    if(current?.dataset.commentsFor===String(a.id))return;
+    syncing=true;
+    current?.remove();
+    reader.insertAdjacentHTML('beforeend',render(a));
+    syncing=false;
+  }
+  const reader=document.getElementById('readerContent');
+  if(reader){new MutationObserver(()=>queueMicrotask(sync)).observe(reader,{childList:true,subtree:true});sync()}
+  document.addEventListener('click',e=>{if(e.target.closest?.('[data-article]'))requestAnimationFrame(sync)});
+  window.NAPOLI_COMMENT_ENGINE_VERSION='2.0.1';
 })();
