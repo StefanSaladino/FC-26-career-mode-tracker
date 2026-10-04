@@ -4,22 +4,34 @@
 
 This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. Unknown outcomes are never guessed.
 
-### Current domestic position — after Inter 1–1 Napoli
+### Current domestic position
 
-- **Napoli:** 1st, **65 points from 27 matches: 19W–8D–0L**, 39 GF, 15 GA, +24. Still unbeaten.
+- **Napoli:** 1st in Serie A, **65 points from 27 matches: 19W–8D–0L**, 39 GF, 15 GA, +24. Still unbeaten.
 - **Inter/Lombardia FC:** 2nd, **57 points from 27: 16W–9D–2L**, 47 GF, 25 GA, +22.
 - Napoli's league lead remains **eight points**.
 - Other league rows remain at their last manager-supplied totals until refreshed; do not invent results.
 
-### Latest — Inter 1–1 Napoli, Serie A
+### BREAKING — Torino 0–4 Napoli, Coppa Italia
 
-Four days after Napoli eliminated Inter from the Champions League at San Siro, the clubs met again in Milan in Serie A.
+A bizarre knockout match went from **0–0 at halftime** to a four-goal Napoli rout.
 
-- 17': **Maximilian Beier**, assist **Lutsharel Geertruida** — Napoli 1–0.
-- 41': **Giorgian De Arrascaeta** equalized for Inter. He has now scored three times against Napoli across the recent Inter sequence: twice in UCL leg one and once in this league match.
-- 70': Napoli introduced **Endrick, Kevin De Bruyne and Alphonso Davies** together. No winner followed.
-- FT: **Inter 1–1 Napoli.** Napoli preserve the eight-point league lead and remain unbeaten.
-- Beier moves to **12G / 8A**. Geertruida records his first tracked assist: **0G / 1A**.
+- **50': Maximilian Beier penalty — 1–0.** Pio Esposito was resting, so Beier took responsibility.
+- **62': Beier penalty — 2–0.**
+- **66': Beier penalty — 3–0.** Beier completed a **penalty hat trick**, converting three spot kicks in sixteen minutes.
+- **86': Endrick, assist Beier — 4–0.** Beier finished with **3 goals + 1 assist**, directly contributing to every Napoli goal.
+- FT: **Torino 0–4 Napoli. Napoli advance in the Coppa Italia.**
+- Beier rises to **15G / 9A** for the tracked season.
+- Endrick rises to **11G / 7A**.
+- Pio received a full rest.
+- Napoli avoided extra time ahead of the Real Madrid Champions League Round of 16 sequence.
+
+### Beier breakout storyline
+
+Beier has moved from quietly productive to impossible to ignore. He scored Napoli's goal in the 1–1 Serie A draw at Inter and followed it with a hat trick plus an assist against Torino. He has **four goals across the last two matches**, plus the assist for Endrick in Turin.
+
+Current production: **15G / 9A — 24 direct goal contributions.** The editorial framing should no longer treat him merely as supporting cast behind Pio, Endrick and Paz. He is one of Napoli's major attacking producers this season.
+
+The Torino hat trick is specifically notable because all three goals were penalties: 50', 62', 66'. Do not rewrite them as open-play goals. The third conversion carried the pressure of completing the hat trick against the same goalkeeper.
 
 ### Inter rivalry week
 
@@ -28,19 +40,19 @@ Napoli's two trips to San Siro in four days produced:
 1. **Inter 0–2 Napoli — Champions League playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick), Meret MOTM. Napoli overturned the tie and advanced **3–2 on aggregate**.
 2. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'. Napoli protected the **eight-point title lead**.
 
-The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe and then failed to gain any ground in Serie A. The league draw should not be framed as a missed opportunity first; Inter needed the victory more urgently, while Napoli preserved both the cushion and unbeaten record.
+The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe and then failed to gain any ground in Serie A.
 
 ### Champions League state
 
 - Napoli eliminated Inter **3–2 on aggregate** after winning the second leg 2–0 away.
-- **Round of 16 draw: Real Madrid.**
+- **Round of 16: Real Madrid.**
 - **Mar 7 — Napoli vs Real Madrid — R16 leg 1, home.**
 - **Mar 15 — Real Madrid vs Napoli — R16 leg 2, away.**
-- The European narrative has shifted from 'can Napoli do it?' to whether the Inter comeback can become the beginning of a deeper run. Real Madrid is the next and significantly larger test.
+- The European narrative has shifted from 'can Napoli do it?' to whether the Inter comeback can become the beginning of a deeper run.
 
-### March rundown
+### March rundown — updated
 
-- **Mar 1 — Torino away — Coppa Italia.**
+- **Mar 1 — Torino 0–4 Napoli — Coppa Italia — WON / ADVANCED.**
 - **Mar 4 — Cagliari home — Serie A.**
 - **Mar 7 — Real Madrid home — Champions League R16 leg 1.**
 - **Mar 12 — Parma away — Serie A.**
@@ -50,39 +62,40 @@ The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe an
 - **Mar 25 — New Zealand home — International Friendly (Italy).**
 - **Mar 31 — Lazio away — Serie A.**
 
-March squad-management storyline: Torino is a serious Coppa match; Cagliari is the clearest pre-Madrid rotation point; full-strength priority for Madrid leg one; Parma can absorb significant rotation between the European legs; full strength at the Bernabéu; Genoa follows three days later before the international break.
+Cagliari is now the final match before Real Madrid leg one and remains the clearest rotation/rest opportunity. Pio was already rested against Torino. Napoli also avoided extra time in Turin.
 
 ### Recent Napoli results — newest first
 
-1. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'.
-2. **Inter 0–2 Napoli — UCL playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick). Meret MOTM. Napoli advance 3–2 aggregate.
-3. **Lecce 0–2 Napoli — Serie A:** Endrick 55' (Pio), Endrick 75' (Pio).
-4. **Napoli 1–2 Inter — UCL playoff leg 1:** De Arrascaeta 3', Endrick 31' (Beier), De Arrascaeta 63'.
-5. **Udinese 0–0 Napoli — Serie A.**
-6. **Napoli 3–2 Fiorentina — Serie A.**
-7. **Napoli 2–0 Sassuolo — Coppa Italia QF.**
-8. **Bologna 0–1 Napoli — Serie A.**
-9. **Bodø/Glimt 2–1 Napoli — Champions League.**
-10. **Napoli 3–0 Como — Serie A.**
-11. **Marseille 3–0 Napoli — Champions League.**
+1. **Torino 0–4 Napoli — Coppa Italia:** Beier 50' pen, 62' pen, 66' pen; Endrick 86' (Beier). Napoli advance.
+2. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'.
+3. **Inter 0–2 Napoli — UCL playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick). Meret MOTM. Napoli advance 3–2 aggregate.
+4. **Lecce 0–2 Napoli — Serie A:** Endrick 55' (Pio), Endrick 75' (Pio).
+5. **Napoli 1–2 Inter — UCL playoff leg 1:** De Arrascaeta 3', Endrick 31' (Beier), De Arrascaeta 63'.
+6. **Udinese 0–0 Napoli — Serie A.**
+7. **Napoli 3–2 Fiorentina — Serie A.**
+8. **Napoli 2–0 Sassuolo — Coppa Italia QF.**
+9. **Bologna 0–1 Napoli — Serie A.**
+10. **Bodø/Glimt 2–1 Napoli — Champions League.**
+11. **Napoli 3–0 Como — Serie A.**
+12. **Marseille 3–0 Napoli — Champions League.**
 
 ### Key player storylines
 
-- **Alex Meret:** official MOTM in the UCL comeback at Inter after three huge saves during the first-half siege. Peacock is the future prospect; Meret emphatically owns the present No. 1 shirt.
-- **Nico Paz:** 76' aggregate winner against Inter is his defining Napoli moment so far. Current **5G / 7A**; the $125M fee storyline now has a signature European payoff.
-- **Alphonso Davies:** scored the 5' opener in the UCL comeback. Current **3G / 2A**.
-- **Pio Esposito:** **21G / 11A**. His creative evolution remains a major storyline; assisted Davies in Milan and had two assists for Endrick at Lecce.
-- **Endrick:** **10G / 7A**. Scored in UCL leg one, brace at Lecce, assisted Paz's aggregate winner. Rejected $188M/$193.4M bids remain part of his narrative.
-- **Maximilian Beier:** now **12G / 8A** after scoring in the league rematch at Inter. Continues to produce consistently despite less headline attention than Pio/Endrick.
-- **Lutsharel Geertruida:** first tracked assist came for Beier's San Siro goal. His utility-depth signing now has an attacking contribution in a major league fixture.
-- **De Arrascaeta:** recurring antagonist storyline. Three goals against Napoli across the recent Inter fixtures.
+- **Maximilian Beier:** **15G / 9A.** Penalty hat trick + assist at Torino after scoring at Inter. Four goals in his last two matches. Major attacking star, not background support.
+- **Pio Esposito:** **21G / 11A.** Rested completely against Torino ahead of the March gauntlet.
+- **Endrick:** **11G / 7A.** Scored the 86' fourth at Torino from Beier's assist. Earlier scored in UCL leg one, brace at Lecce, and assisted Paz's aggregate winner. Rejected $188M/$193.4M bids remain relevant.
+- **Alex Meret:** official MOTM in the UCL comeback at Inter after three huge saves during the first-half siege.
+- **Nico Paz:** **5G / 7A.** His 76' aggregate winner against Inter remains his defining Napoli moment.
+- **Alphonso Davies:** **3G / 2A.** Scored the 5' opener in the UCL comeback.
+- **Lutsharel Geertruida:** **0G / 1A.** First tracked assist came for Beier's San Siro league goal.
+- **De Arrascaeta:** recurring antagonist storyline after three goals against Napoli across the recent Inter fixtures.
 
 ### Current recorded Napoli production
 
-Current through **Inter 1–1 Napoli**:
+Current through **Torino 0–4 Napoli**:
 - **Pio Esposito: 21G / 11A**
-- **Maximilian Beier: 12G / 8A**
-- **Endrick: 10G / 7A**
+- **Maximilian Beier: 15G / 9A**
+- **Endrick: 11G / 7A**
 - **Nico Paz: 5G / 7A**
 - **Kevin De Bruyne: 3G / 1A**
 - **Federico Chiesa: 3G / 1A**
@@ -97,11 +110,11 @@ Current through **Inter 1–1 Napoli**:
 
 ### Pressure / fan temperature
 
-- Domestic confidence remains elite: **19W–8D–0L, 65 points, eight clear**.
-- Napoli have now gone through the hardest part of the Inter sequence without losing league ground and while advancing in Europe.
-- The manager hot seat is cold: unbeaten league leader, alive in the Coppa, through to the Champions League Round of 16.
-- Real Madrid immediately becomes the defining European storyline, but **Torino in the Coppa comes first**.
-- The supporter tone after the 1–1 draw is satisfaction rather than frustration: Inter needed to cut the gap and failed.
+- Serie A: **19W–8D–0L, 65 points, eight clear**.
+- Coppa Italia: **advanced after 4–0 away at Torino**. Exact next opponent/round details should not be invented until supplied by the manager/game.
+- Champions League: Real Madrid R16 next.
+- Manager hot seat remains cold. Napoli are unbeaten in Serie A, alive in the Coppa and through to the Champions League Round of 16.
+- Supporter mood after Torino is a mix of disbelief at three penalties in sixteen minutes and growing recognition of Beier's season.
 
 ### Peacock contract
 
@@ -113,14 +126,15 @@ No senior Napoli player left. Endrick stayed after rejected bids of $188M Juvent
 
 ### Editorial reminders
 
-- **Inter league draw — PUBLISHED:** Beier 17' (Geertruida), De Arrascaeta 41', triple sub at 70', 1–1 FT, eight-point gap preserved, unbeaten record intact.
-- **Inter comeback/apology thread — PUBLISHED:** do not lose Meret MOTM, Davies/Pio, Paz/Endrick, 3–2 aggregate context.
-- **Real Madrid draw — ACTIVE:** Round of 16, Mar 7 home / Mar 15 away.
-- **March schedule — ACTIVE:** Torino, Cagliari, Madrid, Parma, Madrid, Genoa, Italy friendlies, Lazio.
-- **Comments:** every article requires a custom supporter thread. Knockout articles must discuss qualification/aggregate/tie context, never 'three points.'
+- **Torino Coppa — PUBLISHED:** 0–0 HT; Beier pens 50', 62', 66'; Endrick 86' assisted by Beier; FT 4–0; Beier 3G/1A; Pio rested; Napoli advance. This is knockout coverage: qualification/advancement language, never 'three points.'
+- **Beier storyline — ACTIVE:** 15G/9A, four goals in two matches, now one of the attacking stars.
+- **Inter league draw — PUBLISHED:** eight-point gap preserved, unbeaten record intact.
+- **Inter comeback/apology thread — PUBLISHED:** preserve Meret MOTM and 3–2 aggregate context.
+- **Real Madrid — ACTIVE:** R16 Mar 7 home / Mar 15 away.
+- **Comments:** every article requires a custom supporter thread relevant to that specific story.
 
 ## Site synchronization rules
 
-Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics. Every newly published article must include custom comments relevant to that specific story.
+Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics. Every newly published article must include custom comments relevant to that specific story. Knockout coverage must use qualification/tie/aggregate language where applicable, never league-points language.
 
 All newsroom reporting, quotes and rumours are fictional and refer only to this FC 26 Career Mode save.
