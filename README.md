@@ -56,18 +56,16 @@ Current through Bologna and including Bodø:
 
 ### Deadline-day transfer storyline
 
-- **ENDRICK — NOT FOR SALE THIS WINDOW:** Napoli have rejected **two separate $188M deadline-day offers** for Endrick.
-  - **Juventus — $188M: REJECTED.** Domestic rival, deadline timing, title race and Champions League campaign all factored into the refusal.
-  - **RB Leipzig — $188M: REJECTED.** Leipzig matched Juventus' number. Napoli rejected it as well, demonstrating that the decision is no longer merely about refusing a domestic rival: the club does not intend to sell Endrick during this window.
-  - Endrick remains a Napoli player. Current production: **7G / 6A**.
-  - Editorial meaning: two clubs have independently valued him at $188M on deadline day and Napoli have turned down both. Sporting continuity has been prioritized over an enormous immediate return.
+- **ENDRICK — NOT FOR SALE THIS WINDOW:** Napoli rejected two separate **$188M** deadline-day offers: Juventus and RB Leipzig. Endrick stays for the Scudetto race and Champions League campaign. Current production: 7G / 6A.
 - **Federico Chiesa:** wants to leave. Fiorentina offered $36.2M; negotiation delegated at a **$50M opening / $45M floor**. No sale is recorded until confirmed.
 
 ### Development storyline
 
-- O. Burnett (GK, 18/64), G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) were promoted.
-- Burnett has gone on a **two-year loan**; destination not yet recorded.
-- Ricci and Brun remain in the senior development structure.
+All three newly promoted prospects have now secured loans:
+- **O. Burnett — GK, 18, 64 OVR:** **two-year loan**. Destination club not yet recorded.
+- **G. Ricci — CB, 18, 65 OVR:** **six-month loan**. Destination club not yet recorded.
+- **C. Brun — RM, 18, 61 OVR:** **six-month loan**. Destination club not yet recorded.
+- Ricci and Brun are no longer sitting in the senior development group; both are officially in the loaned-out pool for the remainder of the season.
 
 ### February pressure point
 
@@ -75,8 +73,8 @@ Napoli enter February five points clear of Inter and unbeaten in Serie A, but af
 
 ### Editorial reminders
 
-- **Inter triple-header buildup — REQUIRED:** when Feb 15 approaches, incorporate the latest table/form/injuries, Bologna/Como title swing, Marseille/Bodø European concern, transfer-window outcome, and the fact Napoli rejected **$376M worth of matching Endrick bids in aggregate** ($188M Juventus + $188M RB Leipzig) rather than weaken the squad before the decisive stretch. Do not imply a combined single offer; these were two separate $188M bids.
-- **Endrick deadline-day story — PUBLISHED/UPDATED:** Juventus and Leipzig both offered $188M; both were rejected. Endrick stays. Do not portray negotiations as pending.
+- **Inter triple-header buildup — REQUIRED:** when Feb 15 approaches, incorporate the latest table/form/injuries, Bologna/Como title swing, Marseille/Bodø European concern, transfer-window outcome, and the fact Napoli rejected **$376M worth of matching Endrick bids in aggregate** ($188M Juventus + $188M RB Leipzig) rather than weaken the squad before the decisive stretch. Do not imply a combined single offer.
+- **Endrick deadline-day story — PUBLISHED/UPDATED:** Juventus and Leipzig both offered $188M; both were rejected. Endrick stays.
 
 ## Site synchronization rules
 
