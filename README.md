@@ -2,8 +2,6 @@
 
 A static, dependency-free football team site for a Napoli / Italy FC 26 Career Mode save.
 
-The site is designed as an in-universe football newsroom rather than a spreadsheet dashboard: lead stories, match reports, dressing-room drama, transfer fallout, stats, fixtures, squad pages and a media wall.
-
 ## Canonical current save state
 
 This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. Unknown outcomes are never guessed.
@@ -28,15 +26,13 @@ This README is the continuity reference for the save. Every material development
 
 - Napoli's most recent Champions League match was the **2–1 defeat away to Bodø/Glimt**.
 - Despite that defeat, Napoli completed the Champions League league phase with a place in the **knockout playoffs**. The European campaign is still alive.
-- The knockout-playoff opponent is **Inter**.
 - **Feb 15 — Napoli vs Inter — Champions League knockout playoff, first leg, HOME.**
 - **Feb 23 — Inter vs Napoli — Champions League knockout playoff, second leg, AWAY.**
-- This is a **two-legged European tie**. Do not describe either leg as a league fixture and do not treat Feb 15 as a one-off knockout match.
-- Four days after the European second leg, Napoli face Inter again in Serie A, producing **three Inter matches in 13 days**.
+- Four days later, **Feb 27 — Inter vs Napoli — Serie A, AWAY.** These are three separate fixtures and the two European matches form one two-legged tie.
 
 ### Upcoming fixtures
 
-- **Feb 2:** Napoli vs Sassuolo — **Coppa Italia**, home.
+- **Feb 2:** Napoli vs Sassuolo — **Coppa Italia**, home. Planned rotation; Kevin De Bruyne is expected to start.
 - **Feb 6:** Napoli vs Fiorentina — **Serie A**, home.
 - **Feb 12:** Udinese vs Napoli — **Serie A**, away.
 - **Feb 15:** Napoli vs Inter — **Champions League knockout playoff, first leg**, home.
@@ -46,10 +42,10 @@ This README is the continuity reference for the save. Every material development
 
 ### Current recorded Napoli production
 
-Stats include all recorded Napoli matches, including friendlies, and are current through the 1–0 win at Bologna. **The Bodø/Glimt match is included in these totals: Pio's 38' goal and Beier's assist count.**
+Stats include all recorded Napoli matches and are current through Bologna. **Bodø/Glimt is included: Pio's 38' goal and Beier's assist count.**
 
 - **Pio Esposito:** 19 goals, 8 assists.
-- **Maximilian Beier:** 11 goals, 5 assists. Bologna winner added; no assist on that goal.
+- **Maximilian Beier:** 11 goals, 5 assists.
 - **Endrick:** 7 goals, 6 assists.
 - **Nico Paz:** 2 goals, 7 assists.
 - **Kevin De Bruyne:** 3 goals, 1 assist.
@@ -62,34 +58,29 @@ Stats include all recorded Napoli matches, including friendlies, and are current
 - **Mikey Moore:** 0 goals, 1 assist.
 - **Noa Lang:** 0 goals, 1 assist.
 
+### Deadline-day transfer storyline
+
+- **Endrick — Juventus bid REJECTED:** Juventus made an extraordinary **$188M** eleventh-hour offer for Endrick. Napoli **rejected the bid**. Endrick remains a Napoli player for the Scudetto race and Champions League knockout campaign. The context is critical: Napoli are five points clear, unbeaten in Serie A, the window is closing, and the buyer was a major domestic rival. This is a completed decision, not a pending negotiation.
+- **Federico Chiesa:** wants to leave. Fiorentina offered **$36.2M** and negotiation was delegated at a **$50M opening price / $45M floor**. No sale is recorded until an agreement is confirmed.
+
 ### January squad / development storyline
 
-- **Academy promotions:** O. Burnett (GK, 18/64), G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) were promoted from the academy.
-- **Burnett:** sent on a **two-year loan** after promotion. Destination club not yet recorded.
-- **Ricci and Brun:** remain in the senior development structure while next steps are assessed.
-- **Federico Chiesa:** 30 years old, 82 OVR and wants to leave. Fiorentina offered **$36.2m**. Negotiation was delegated at a **$50m opening price / $45m floor**. No sale is recorded until an agreement is confirmed.
-- Loan and academy players remain a separate category from the main first-team roster on the site.
+- **Academy promotions:** O. Burnett (GK, 18/64), G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) were promoted.
+- **Burnett:** sent on a **two-year loan**. Destination club not yet recorded.
+- **Ricci and Brun:** remain in the senior development structure.
 
 ### February pressure point
 
-Napoli enter February **five points clear of Inter and unbeaten in Serie A**, but after European defeats to Marseille and Bodø/Glimt the Champions League form is a genuine concern. The Feb 15 and Feb 23 Inter matches are the two legs of the Champions League knockout playoff; the Feb 27 Inter match is Serie A. The three matches must never be conflated.
+Napoli enter February **five points clear of Inter and unbeaten in Serie A**, but after European defeats to Marseille and Bodø/Glimt the Champions League form is a genuine concern. Napoli face Inter three times in 13 days: Feb 15 HOME in UCL leg one, Feb 23 AWAY in UCL leg two, and Feb 27 AWAY in Serie A.
 
-### Editorial reminder
+### Editorial reminders
 
-- **Inter triple-header buildup story — REQUIRED:** publish when the Feb 15 first leg is approaching, not prematurely. Use the latest table, injuries, transfer-window outcome, squad availability and intervening results. Current benchmark: Napoli 57, Inter 52 after 23 matches; Napoli 17W–6D–0L. Include the Bologna/Como title-race swing **and the European context of consecutive Champions League defeats at Marseille and Bodø/Glimt before qualification for the playoff was secured**. Frame the Feb 15 HOME UCL first leg, Feb 23 AWAY UCL second leg and Feb 27 AWAY Serie A match correctly.
+- **Inter triple-header buildup story — REQUIRED:** publish when Feb 15 approaches. Use the latest table, injuries, transfer-window outcome, squad availability and intervening results. Include the Bologna/Como title-race swing, the Marseille/Bodø European context, and the **deadline-day rejection of Juventus' $188M Endrick bid** as evidence that Napoli chose sporting continuity over cash before the decisive stretch.
+- **Endrick/Juventus story — PUBLISHED:** headline framing is Napoli rejecting a massive domestic-rival bid on deadline day. Do not portray Endrick as sold, negotiating personal terms, or unsettled unless a later event establishes that.
 
 ## Site synchronization rules
 
-Whenever the save advances, update **all** affected surfaces together:
-
-- Latest result and match-centre results, preserving chronological order.
-- Upcoming fixtures, removing completed fixtures and preserving competition/home-away context.
-- Player goals/assists from confirmed match events only; never drop production from an older match when a newer result is added.
-- Serie A table when the manager provides an updated table.
-- News article/storyline and relevant comments.
-- README continuity state.
-- Ticker/hero where the new event warrants it.
-- Cache version after site changes so GitHub Pages does not serve stale data.
+Whenever the save advances, update **all** affected surfaces together: latest results; upcoming fixtures; confirmed goals/assists; table when supplied; newsroom/storyline; README; ticker/hero where warranted; and cache version after site changes.
 
 ## Content model
 
@@ -98,20 +89,6 @@ Whenever the save advances, update **all** affected surfaces together:
 - `stats-official.js` is the current authoritative running player-production layer.
 - `standings-current.js` stores the latest supplied Serie A table state.
 - `development-roster.js` tracks loaned players and the youth pipeline separately from the first team.
-- `app.js` renders the newsroom, article reader, match centre, squad, stats and media wall.
+- `app.js` renders the site.
 
 All newsroom reporting, quotes and rumours are fictional and refer only to this FC 26 Career Mode save.
-
-## Local use
-
-Open `index.html` directly, or run:
-
-```bash
-python -m http.server 8000
-```
-
-then visit `http://localhost:8000`.
-
-## GitHub Pages
-
-Pages source: **Deploy from a branch** — `main`, `/ (root)`. Every push to `main` updates the published site automatically. No build step or package dependencies are required.
