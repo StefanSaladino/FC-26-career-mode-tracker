@@ -1,13 +1,13 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
- D.serieAStandings={updated:'After Bologna 0–1 Napoli · 23 matches for Napoli',rows:[
-  ['Napoli',23,17,6,0,33,12,21,57],
-  ['Inter (Lombardia FC)',23,15,7,1,42,20,22,52],
-  ['Milan',22,15,0,7,41,24,17,45],
-  ['Roma',23,14,2,7,43,30,13,44],
-  ['Atalanta (Bergamo Calcio)',22,13,3,6,39,27,12,42],
-  ['Lazio (Latium)',23,12,5,6,39,21,18,41]
+ D.serieAStandings={updated:'After Napoli 3–2 Fiorentina · 24 matches',rows:[
+  ['Napoli',24,18,6,0,36,14,22,60],
+  ['Inter (Lombardia FC)',24,15,8,1,44,22,22,53],
+  ['Atalanta (Bergamo Calcio)',24,15,3,6,44,29,15,48],
+  ['Milan',24,16,0,8,45,28,17,48],
+  ['Lazio (Latium)',24,13,5,6,40,21,19,44],
+  ['Roma',24,14,2,8,43,31,12,44]
  ]};
- D.tableContext='Napoli lead Serie A by five points over Inter after 23 matches. Napoli remain unbeaten in league play at 17W–6D–0L. Inter are 15W–7D–1L after their 1–1 draw with Como.';
- D.ticker=['SERIE A · NAPOLI 57 PTS · INTER 52 · FIVE-POINT LEAD','NAPOLI · 23 PLAYED · 17W 6D 0L · UNBEATEN','INTER 1–1 COMO · GAP GROWS TO FIVE',...(D.ticker||[]).filter(x=>!String(x).includes('TITLE RIVALS DROP POINTS')&&!String(x).includes('INTER 1–1 COMO'))].slice(0,8);
+ D.tableContext='Napoli lead Serie A by seven points over Inter after 24 matches. Napoli remain unbeaten at 18W–6D–0L with 60 points. Inter are 15W–8D–1L on 53. Atalanta and Milan sit on 48, with Lazio and Roma on 44.';
+ D.ticker=['SERIE A · NAPOLI 60 PTS · INTER 53 · SEVEN-POINT LEAD','NAPOLI · 24 PLAYED · 18W 6D 0L · UNBEATEN',...(D.ticker||[]).filter(x=>!String(x).includes('57 PTS')&&!String(x).includes('17W 6D 0L')&&!String(x).includes('FIVE-POINT LEAD'))].slice(0,9);
 })();
