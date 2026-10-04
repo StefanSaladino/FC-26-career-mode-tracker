@@ -28,6 +28,17 @@ All newsroom reporting, quotes and rumours are fictional and refer only to the C
 - **Federico Chiesa transfer request:** Chiesa (30, 82 OVR) wants to leave Napoli. Fiorentina submitted a **$36.2m** offer. Negotiation has been **delegated** with instructions to open at **$50m** and accept no less than a **$45m floor**. Status: **negotiation pending**; no sale is recorded until an agreement is actually reached.
 - **Development pipeline:** loaned players, promoted prospects and academy players are tracked separately from the established senior Napoli roster in `development-roster.js`.
 
+### February 2028 — confirmed fixture run
+
+- **Feb 2:** Sassuolo — Coppa Italia, home.
+- **Feb 6:** Fiorentina — Serie A, home.
+- **Feb 12:** Udinese — Serie A, away.
+- **Feb 15:** **Inter — Champions League knockout playoff first leg, home.**
+- **Feb 20:** Lecce — Serie A, away.
+- **Feb 23:** **Inter — Champions League knockout playoff second leg, away.**
+- **Feb 27:** **Inter — Serie A, away.**
+- **Inter rivalry pressure point:** Napoli will face Inter three times in 13 days. The two-leg Champions League playoff determines whether Napoli's European season continues, and only four days after the second leg Napoli return to face Inter away in Serie A. With Inter also central to the Scudetto race, this stretch has the potential to define both the European campaign and the domestic title fight.
+
 ## Local use
 
 Open `index.html` directly, or run:
