@@ -4,63 +4,84 @@
 
 This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. Unknown outcomes are never guessed.
 
-### Current domestic position
+### Current domestic position — after Inter 1–1 Napoli
 
-- **Napoli:** 1st, **64 points from 26 matches: 19W–7D–0L**, 38 GF, 14 GA, +24. Still unbeaten.
-- **Inter/Lombardia FC:** 2nd, **56 points from 26: 16W–8D–2L**, 46 GF, 24 GA, +22.
-- Napoli's league lead is **eight points**.
+- **Napoli:** 1st, **65 points from 27 matches: 19W–8D–0L**, 39 GF, 15 GA, +24. Still unbeaten.
+- **Inter/Lombardia FC:** 2nd, **57 points from 27: 16W–9D–2L**, 47 GF, 25 GA, +22.
+- Napoli's league lead remains **eight points**.
+- Other league rows remain at their last manager-supplied totals until refreshed; do not invent results.
 
-### BREAKING — Napoli eliminate Inter from Europe
+### Latest — Inter 1–1 Napoli, Serie A
 
-**Inter 0–2 Napoli — Champions League knockout playoff LEG 2. Napoli advance 3–2 on aggregate.**
+Four days after Napoli eliminated Inter from the Champions League at San Siro, the clubs met again in Milan in Serie A.
 
-- 5': **Alphonso Davies**, assist **Pio Esposito**. Davies drove from the wing into the box and buried the opener, immediately leveling the aggregate tie 2–2.
-- First-half Inter barrage: **three huge Alex Meret saves**, one Inter effort off the bar, and **Scott McTominay goal-line clearance**. Napoli survived to halftime 1–0 ahead on the night and level on aggregate.
-- 76': **Nico Paz**, assist **Endrick**. Paz's goal put Napoli ahead 3–2 on aggregate.
-- 90': Pio hit the post on a counter; no goal, no statistical change.
-- FT: **Inter 0–2 Napoli; Napoli win 3–2 aggregate and advance.**
-- **Official Man of the Match: Alex Meret.** His first-half saves were decisive to the qualification.
+- 17': **Maximilian Beier**, assist **Lutsharel Geertruida** — Napoli 1–0.
+- 41': **Giorgian De Arrascaeta** equalized for Inter. He has now scored three times against Napoli across the recent Inter sequence: twice in UCL leg one and once in this league match.
+- 70': Napoli introduced **Endrick, Kevin De Bruyne and Alphonso Davies** together. No winner followed.
+- FT: **Inter 1–1 Napoli.** Napoli preserve the eight-point league lead and remain unbeaten.
+- Beier moves to **12G / 8A**. Geertruida records his first tracked assist: **0G / 1A**.
 
-### Latest Napoli results — newest first
+### Inter rivalry week
 
-1. **Inter 0–2 Napoli — UCL playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick). Meret MOTM. Napoli advance 3–2 aggregate.
-2. **Lecce 0–2 Napoli — Serie A:** Endrick 55' (Pio), Endrick 75' (Pio). Juventus beat Inter 2–0 the same round.
-3. **Napoli 1–2 Inter — UCL playoff leg 1:** De Arrascaeta 3', Endrick 31' (Beier), De Arrascaeta 63'.
-4. **Udinese 0–0 Napoli — Serie A.**
-5. **Napoli 3–2 Fiorentina — Serie A.**
-6. **Napoli 2–0 Sassuolo — Coppa Italia QF.**
-7. **Bologna 0–1 Napoli — Serie A.**
-8. **Bodø/Glimt 2–1 Napoli — Champions League.**
-9. **Napoli 3–0 Como — Serie A.**
-10. **Marseille 3–0 Napoli — Champions League.**
+Napoli's two trips to San Siro in four days produced:
 
-### Champions League storyline — THE ANSWER
+1. **Inter 0–2 Napoli — Champions League playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick), Meret MOTM. Napoli overturned the tie and advanced **3–2 on aggregate**.
+2. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'. Napoli protected the **eight-point title lead**.
 
-The European criticism was earned after Marseille 3–0, Bodø/Glimt 2–1 and the 2–1 home loss to Inter in leg one. Napoli then answered it on the pitch rather than pretending it never existed. They went away to Inter, overturned the deficit, kept a clean sheet and advanced 3–2 on aggregate.
+The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe and then failed to gain any ground in Serie A. The league draw should not be framed as a missed opportunity first; Inter needed the victory more urgently, while Napoli preserved both the cushion and unbeaten record.
 
-The framing from this point forward must preserve both truths: Napoli had a real European problem, and **the Inter comeback is the performance that answered it**. The dominant supporter/media response is vindication, relief and an 'apology thread' directed at the loudest critics. Do not rewrite the earlier criticism as illegitimate; the power of this result is that Napoli responded to legitimate pressure.
+### Champions League state
 
-### Meret storyline
+- Napoli eliminated Inter **3–2 on aggregate** after winning the second leg 2–0 away.
+- **Round of 16 draw: Real Madrid.**
+- **Mar 7 — Napoli vs Real Madrid — R16 leg 1, home.**
+- **Mar 15 — Real Madrid vs Napoli — R16 leg 2, away.**
+- The European narrative has shifted from 'can Napoli do it?' to whether the Inter comeback can become the beginning of a deeper run. Real Madrid is the next and significantly larger test.
 
-Alex Meret was the **official Man of the Match** in the 2–0 win at Inter. With Napoli 1–0 up on the night and level on aggregate, Inter created a barrage of chances. Meret made three huge saves; Inter also hit the bar and McTominay cleared one off the line. Meret's interventions kept the tie alive until Paz's 76' aggregate winner. Peacock remains a major long-term goalkeeper prospect, but Meret's Milan performance is a defining veteran moment and a reminder that the current No. 1 shirt remains his.
+### March rundown
 
-### Nico Paz storyline
+- **Mar 1 — Torino away — Coppa Italia.**
+- **Mar 4 — Cagliari home — Serie A.**
+- **Mar 7 — Real Madrid home — Champions League R16 leg 1.**
+- **Mar 12 — Parma away — Serie A.**
+- **Mar 15 — Real Madrid away — Champions League R16 leg 2.**
+- **Mar 18 — Genoa home — Serie A.**
+- **Mar 22 — Egypt home — International Friendly (Italy).**
+- **Mar 25 — New Zealand home — International Friendly (Italy).**
+- **Mar 31 — Lazio away — Serie A.**
 
-Paz's 76' goal at Inter is now the biggest moment of his Napoli career. Endrick supplied the assist and Paz scored the goal that turned a 2–2 aggregate tie into a 3–2 Napoli lead. The $125M fee/poor transfer grade is now a natural storyline: this is precisely the type of high-leverage moment Napoli paid for. Current total: **5G / 7A**.
+March squad-management storyline: Torino is a serious Coppa match; Cagliari is the clearest pre-Madrid rotation point; full-strength priority for Madrid leg one; Parma can absorb significant rotation between the European legs; full strength at the Bernabéu; Genoa follows three days later before the international break.
 
-### Davies storyline
+### Recent Napoli results — newest first
 
-Alphonso Davies scored the 5' opener at Inter, driving inside from the wing and finishing to erase the first-leg deficit almost immediately. Current total: **3G / 2A**. This goal is one of the signature moments of the European campaign.
+1. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'.
+2. **Inter 0–2 Napoli — UCL playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick). Meret MOTM. Napoli advance 3–2 aggregate.
+3. **Lecce 0–2 Napoli — Serie A:** Endrick 55' (Pio), Endrick 75' (Pio).
+4. **Napoli 1–2 Inter — UCL playoff leg 1:** De Arrascaeta 3', Endrick 31' (Beier), De Arrascaeta 63'.
+5. **Udinese 0–0 Napoli — Serie A.**
+6. **Napoli 3–2 Fiorentina — Serie A.**
+7. **Napoli 2–0 Sassuolo — Coppa Italia QF.**
+8. **Bologna 0–1 Napoli — Serie A.**
+9. **Bodø/Glimt 2–1 Napoli — Champions League.**
+10. **Napoli 3–0 Como — Serie A.**
+11. **Marseille 3–0 Napoli — Champions League.**
 
-### Pio / Endrick partnership
+### Key player storylines
 
-Pio assisted Davies for the opener and nearly scored himself at 90', hitting the post. He moves to **21G / 11A**. Endrick assisted Paz's aggregate winner and moves to **10G / 7A**. Combined with Endrick's first-leg goal and Lecce brace, the young attacking core directly drove the response between the two Inter legs.
+- **Alex Meret:** official MOTM in the UCL comeback at Inter after three huge saves during the first-half siege. Peacock is the future prospect; Meret emphatically owns the present No. 1 shirt.
+- **Nico Paz:** 76' aggregate winner against Inter is his defining Napoli moment so far. Current **5G / 7A**; the $125M fee storyline now has a signature European payoff.
+- **Alphonso Davies:** scored the 5' opener in the UCL comeback. Current **3G / 2A**.
+- **Pio Esposito:** **21G / 11A**. His creative evolution remains a major storyline; assisted Davies in Milan and had two assists for Endrick at Lecce.
+- **Endrick:** **10G / 7A**. Scored in UCL leg one, brace at Lecce, assisted Paz's aggregate winner. Rejected $188M/$193.4M bids remain part of his narrative.
+- **Maximilian Beier:** now **12G / 8A** after scoring in the league rematch at Inter. Continues to produce consistently despite less headline attention than Pio/Endrick.
+- **Lutsharel Geertruida:** first tracked assist came for Beier's San Siro goal. His utility-depth signing now has an attacking contribution in a major league fixture.
+- **De Arrascaeta:** recurring antagonist storyline. Three goals against Napoli across the recent Inter fixtures.
 
 ### Current recorded Napoli production
 
-Current through **Inter 0–2 Napoli**:
+Current through **Inter 1–1 Napoli**:
 - **Pio Esposito: 21G / 11A**
-- **Maximilian Beier: 11G / 8A**
+- **Maximilian Beier: 12G / 8A**
 - **Endrick: 10G / 7A**
 - **Nico Paz: 5G / 7A**
 - **Kevin De Bruyne: 3G / 1A**
@@ -69,23 +90,18 @@ Current through **Inter 0–2 Napoli**:
 - **Scott McTominay: 1G / 5A**
 - **Alessandro Bastoni: 1G / 0A**
 - **Anton Stach: 1G / 1A**
+- **Lutsharel Geertruida: 0G / 1A**
 - **Billy Gilmour: 0G / 1A**
 - **Mikey Moore: 0G / 1A**
 - **Noa Lang: 0G / 1A**
 
-### Next fixture / rivalry state
-
-- **Feb 27 — Inter vs Napoli — Serie A, away.**
-- Napoli enter the league rematch **eight points clear, unbeaten domestically, and having just eliminated Inter from the Champions League**.
-- This creates an extreme psychological rivalry swing: Inter beat Napoli in Naples in UCL leg one, then lost 2–0 to Juventus, watched Napoli beat Lecce 2–0, and were eliminated 3–2 aggregate by Napoli four days before the league meeting.
-- Coppa Italia semifinal: qualified; opponent/date still TBD until supplied.
-
 ### Pressure / fan temperature
 
-- Domestic confidence: elite. Napoli are 19W–7D–0L and eight points clear.
-- European pressure has been transformed by the comeback. The criticism does not disappear historically, but the immediate 'can Napoli do it in Europe?' challenge has received a major affirmative answer.
-- Manager hot seat is effectively cold at this moment: unbeaten league leader, Coppa semifinalist, Champions League progression after a major away comeback.
-- The supporter mood is vindication. The canonical social storyline is **THE APOLOGY THREAD**: critics who called Napoli domestic-only are being asked to return to the timeline and acknowledge the response.
+- Domestic confidence remains elite: **19W–8D–0L, 65 points, eight clear**.
+- Napoli have now gone through the hardest part of the Inter sequence without losing league ground and while advancing in Europe.
+- The manager hot seat is cold: unbeaten league leader, alive in the Coppa, through to the Champions League Round of 16.
+- Real Madrid immediately becomes the defining European storyline, but **Torino in the Coppa comes first**.
+- The supporter tone after the 1–1 draw is satisfaction rather than frustration: Inter needed to cut the gap and failed.
 
 ### Peacock contract
 
@@ -97,15 +113,14 @@ No senior Napoli player left. Endrick stayed after rejected bids of $188M Juvent
 
 ### Editorial reminders
 
-- **Inter comeback — PUBLISHED:** Davies 5' (Pio), Inter barrage, Meret ×3, bar, McTominay goal-line clearance, Paz 76' (Endrick), Pio post 90', Meret MOTM, 3–2 aggregate qualification.
-- **Apology thread — PUBLISHED:** mix genuine mea culpas, jokes, receipts and reasonable analysis. Preserve that earlier European criticism was earned; the comeback is powerful because Napoli answered it.
-- **Meret feature — PUBLISHED:** current No. 1 reminds everyone the shirt is his while Peacock remains the long-term prospect.
-- **Next rivalry chapter:** Inter away in Serie A four days later; Napoli eight clear and just eliminated them from Europe.
-- **Endrick bids:** rejected nine-figure bids remain relevant context. Current 10G/7A.
-- **Pio evolution:** 21G/11A; creator as well as scorer.
+- **Inter league draw — PUBLISHED:** Beier 17' (Geertruida), De Arrascaeta 41', triple sub at 70', 1–1 FT, eight-point gap preserved, unbeaten record intact.
+- **Inter comeback/apology thread — PUBLISHED:** do not lose Meret MOTM, Davies/Pio, Paz/Endrick, 3–2 aggregate context.
+- **Real Madrid draw — ACTIVE:** Round of 16, Mar 7 home / Mar 15 away.
+- **March schedule — ACTIVE:** Torino, Cagliari, Madrid, Parma, Madrid, Genoa, Italy friendlies, Lazio.
+- **Comments:** every article requires a custom supporter thread. Knockout articles must discuss qualification/aggregate/tie context, never 'three points.'
 
 ## Site synchronization rules
 
-Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics.
+Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics. Every newly published article must include custom comments relevant to that specific story.
 
 All newsroom reporting, quotes and rumours are fictional and refer only to this FC 26 Career Mode save.
