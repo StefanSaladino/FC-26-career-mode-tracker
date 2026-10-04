@@ -24,7 +24,9 @@ All newsroom reporting, quotes and rumours are fictional and refer only to the C
 ### January 2028 — current storyline
 
 - **Champions League — Bodø/Glimt 2–1 Napoli:** Evjen opened the scoring in the 15th minute. Pio Esposito was denied at 18', then equalised at 38' from Maximilian Beier. Beier was denied from close range on a counter at 44'. The match was 1–1 at halftime. Evjen scored his second at 57' and Bodø/Glimt won 2–1. Despite the defeat, **Napoli secured a place in the Champions League knockout playoffs**, guaranteeing that the European campaign continues.
-- **Academy promotions completed:** O. Burnett (GK, 18/64), G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) have been promoted from the academy into the senior development structure. Their next step is expected to centre on finding senior minutes, with the January window still open.
+- **Academy promotions completed:** O. Burnett (GK, 18/64), G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) were promoted from the academy into the senior development structure with the January window still open.
+- **Burnett loan completed:** O. Burnett (GK, 18/64) has left Napoli on a **two-year loan** after his academy promotion. He now joins Lawton among Napoli's young goalkeepers developing away from the club. Destination club not yet recorded.
+- **Ricci and Brun development:** G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) remain with the senior development group while Napoli seek their next steps.
 - **Federico Chiesa transfer request:** Chiesa (30, 82 OVR) wants to leave Napoli. Fiorentina submitted a **$36.2m** offer. Negotiation has been **delegated** with instructions to open at **$50m** and accept no less than a **$45m floor**. Status: **negotiation pending**; no sale is recorded until an agreement is actually reached.
 - **Development pipeline:** loaned players, promoted prospects and academy players are tracked separately from the established senior Napoli roster in `development-roster.js`.
 
