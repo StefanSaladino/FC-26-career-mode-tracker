@@ -2,23 +2,24 @@
   const D = window.NAPOLI_DATA;
   if (!D) return;
 
-  // User-verified running totals through the 2–1 Juventus win. Includes friendlies.
+  // Running totals through Bodø/Glimt 2–1 Napoli. Includes friendlies.
+  // Since the last verified baseline: Como added KDB goal, McTominay assist,
+  // Endrick 1G/1A, Pio 1G/1A; Bodø added Pio goal and Beier assist.
   D.stats = [
-    ['Pio Esposito',17,7,'Official running total · includes friendlies'],
-    ['Maximilian Beier',10,4,'Official running total · includes friendlies'],
-    ['Endrick',6,5,'Official running total · includes friendlies'],
-    ['Nico Paz',2,7,'Official running total · includes friendlies'],
-    ['Kevin De Bruyne',2,1,'Official running total · includes friendlies'],
-    ['Alphonso Davies',2,2,'Official running total · includes friendlies'],
-    ['Federico Chiesa',2,1,'Official running total · includes friendlies'],
-    ['Scott McTominay',1,3,'Official running total · includes friendlies'],
-    ['Alessandro Bastoni',1,0,'Official running total · includes friendlies'],
-    ['Anton Stach',1,1,'Official running total · includes friendlies'],
-    ['Billy Gilmour',0,1,'Official running total · includes friendlies'],
-    ['Mikey Moore',0,1,'Official running total · includes friendlies'],
-    ['Noa Lang',0,1,'Official running total · includes friendlies']
+    ['Pio Esposito',19,8,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Maximilian Beier',10,5,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Endrick',7,6,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Nico Paz',2,7,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Kevin De Bruyne',3,1,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Alphonso Davies',2,2,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Federico Chiesa',2,1,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Scott McTominay',1,4,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Alessandro Bastoni',1,0,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Anton Stach',1,1,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Billy Gilmour',0,1,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Mikey Moore',0,1,'Running total · includes friendlies · through Bodø/Glimt'],
+    ['Noa Lang',0,1,'Running total · includes friendlies · through Bodø/Glimt']
   ];
-
   D.stats.sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
-  D.statsScope = 'All Napoli matches · friendlies included · updated through Juventus 2–1';
+  D.statsScope = 'All Napoli matches · friendlies included · updated through Bodø/Glimt 2–1 Napoli';
 })();
