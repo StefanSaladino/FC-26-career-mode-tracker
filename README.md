@@ -4,51 +4,51 @@
 
 This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. Unknown outcomes are never guessed.
 
-### Current domestic position — after Udinese / Inter round
+### Current domestic position
 
-- **Napoli:** 1st, **61 points from 25 matches: 18W–7D–0L**, 36 GF, 14 GA, +22. Still unbeaten.
-- **Inter/Lombardia FC:** 2nd, **56 points from 25: 16W–8D–1L**, 46 GF, 22 GA, +24 after a 2–0 win.
-- Napoli's lead is **five points**. It had reached seven after Fiorentina, but Napoli's 0–0 at Udinese plus Inter's win cut it back to five.
-- Atalanta, Milan, Lazio and Roma remain at their last manager-supplied totals until a new table is supplied; do not invent intervening results.
+- **Napoli:** 1st, **61 points from 25 matches: 18W–7D–0L**, 36 GF, 14 GA, +22. Still unbeaten in Serie A.
+- **Inter/Lombardia FC:** 2nd, **56 points from 25: 16W–8D–1L**, 46 GF, 22 GA, +24.
+- Napoli's league lead is **five points**.
 
 ### Latest Napoli results — newest first
 
-1. **Udinese 0–0 Napoli — Serie A:** planned heavy rotation before Inter. Very little attacking action. Chiesa had Napoli's notable first-half chance; Mikey Moore was denied from close range late. Clean sheet. Napoli remain unbeaten.
-2. **Napoli 3–2 Fiorentina — Serie A:** Paz 15' (McTominay assist); Guðmundsson 23'; Pio 58' (Kayode assist); Pio missed pen 70'; Pio penalty 87'; Guðmundsson penalty 88'. Pio's first-time 58' finish from Kayode's halfway-line cross is a Goal of the Year candidate.
-3. **Napoli 2–0 Sassuolo — Coppa Italia quarterfinal:** Chiesa 8' (Beier assist); Paz 70' (Beier assist). Juan Jesus made the crucial tackle before the second goal and left exhausted at 78'. Napoli advanced to the semifinal.
-4. **Bologna 0–1 Napoli — Serie A:** Beier 53', substitute winner. Clean sheet.
-5. **Bodø/Glimt 2–1 Napoli — Champions League:** Evjen 15', Pio 38' (Beier assist), Evjen 57'. Napoli still secured a knockout-playoff place.
-6. **Napoli 3–0 Como — Serie A.**
-7. **Marseille 3–0 Napoli — Champions League.**
+1. **Napoli 1–2 Inter — Champions League knockout playoff LEG 1:** De Arrascaeta 3'; Endrick 31' (**assist Beier**), blasted into the top-left corner; De Arrascaeta 63'. Inter lead the tie **2–1 on aggregate**.
+2. **Udinese 0–0 Napoli — Serie A:** planned heavy rotation before Inter. Chiesa had the notable first-half chance; Mikey Moore was denied from close range late. Inter won 2–0 elsewhere, cutting Napoli's league lead from seven points to five.
+3. **Napoli 3–2 Fiorentina — Serie A:** Paz 15' (McTominay assist); Guðmundsson 23'; Pio 58' (Kayode assist); Pio missed pen 70'; Pio penalty 87'; Guðmundsson penalty 88'. Pio's 58' first-time finish is a Goal of the Year candidate.
+4. **Napoli 2–0 Sassuolo — Coppa Italia quarterfinal:** Chiesa 8' (Beier assist); Paz 70' (Beier assist). Juan Jesus made the crucial tackle before the second goal and left exhausted at 78'.
+5. **Bologna 0–1 Napoli — Serie A:** Beier 53'.
+6. **Bodø/Glimt 2–1 Napoli — Champions League:** Evjen 15', Pio 38' (Beier assist), Evjen 57'.
+7. **Napoli 3–0 Como — Serie A.**
+8. **Marseille 3–0 Napoli — Champions League.**
 
-**Continuity:** Udinese → Fiorentina → Sassuolo → Bologna → Bodø/Glimt → Como → Marseille. The abandoned first Sassuolo attempt remains VOID.
+**Continuity:** Inter UCL L1 → Udinese → Fiorentina → Sassuolo → Bologna → Bodø/Glimt → Como → Marseille. Abandoned first Sassuolo attempt remains VOID.
 
-### Cup / European status
+### Champions League state
 
-- **Coppa Italia:** semifinal qualified; opponent/date not supplied yet.
-- **Champions League:** knockout playoff vs Inter.
-- **Feb 15 — Napoli vs Inter — UCL playoff LEG 1, HOME.**
-- **Feb 23 — Inter vs Napoli — UCL playoff LEG 2, AWAY.**
-- **Feb 27 — Inter vs Napoli — Serie A, AWAY.**
+- Inter lead Napoli **2–1 on aggregate** after winning at the Maradona.
+- **Feb 23 — Inter vs Napoli — knockout playoff LEG 2, AWAY.** Napoli need one goal to draw level on aggregate.
+- The European concern is now a central storyline: recent UCL defeats to **Marseille 3–0, Bodø/Glimt 2–1, and Inter 2–1**.
+- Napoli's domestic record remains elite, creating a deliberate contrast between the unbeaten Serie A campaign and the European results.
 
 ### Upcoming fixtures
 
-- **Feb 15:** Inter — Champions League knockout playoff leg 1, home. **FULL-STRENGTH TARGET MATCH.**
 - **Feb 20:** Lecce — Serie A, away.
-- **Feb 23:** Inter — Champions League knockout playoff leg 2, away.
+- **Feb 23:** Inter — Champions League knockout playoff leg 2, away. **Inter lead 2–1 aggregate.**
 - **Feb 27:** Inter — Serie A, away.
-- Coppa Italia semifinal: opponent/date TBD.
+- Coppa Italia semifinal: qualified; opponent/date TBD until supplied.
 
-### Udinese rotation decision
+### Inter first-leg storyline
 
-Napoli deliberately rotated/rested against Udinese to preserve the core for Inter three days later. The trade-off produced a 0–0 draw: defensively safe but almost no attacking threat. Chiesa had the main first-half chance; Moore was stopped from close range late. Inter then won 2–0, so the Serie A cushion fell from seven points to **five**. The decision is now part of the Inter storyline: the first-choice XI was protected specifically for the Champions League tie and must justify the trade-off at the Maradona.
+Napoli deliberately rotated at Udinese three days before the first leg, drawing 0–0 and accepting two dropped league points to protect the first-choice core. Inter won their league match 2–0, reducing Napoli's lead from seven to five. In the Champions League first leg, De Arrascaeta then scored after only three minutes. Endrick equalized in the 31st from Beier's pass with a powerful finish into the top-left corner. De Arrascaeta struck again in the 63rd and Inter won 2–1.
+
+The strategic consequence is unavoidable: the Udinese rotation did not produce the desired first-leg result. The tie remains fully recoverable, but the second leg is now the immediate referendum on Napoli's European weakness. The fan/media line should be intense but not absurd: a manager who is 18W–7D–0L and five points clear domestically is not reasonably facing dismissal solely because of a one-goal UCL deficit, but repeated European defeats have created legitimate pressure and criticism.
 
 ### Current recorded Napoli production
 
-No goal/assist totals changed at Udinese. Current through the 0–0 draw:
+Current through **Napoli 1–2 Inter**:
 - **Pio Esposito: 21G / 8A**
-- **Maximilian Beier: 11G / 7A**
-- **Endrick: 7G / 6A**
+- **Maximilian Beier: 11G / 8A** — assist vs Inter.
+- **Endrick: 8G / 6A** — Champions League equalizer vs Inter.
 - **Nico Paz: 4G / 7A**
 - **Kevin De Bruyne: 3G / 1A**
 - **Federico Chiesa: 3G / 1A**
@@ -60,6 +60,14 @@ No goal/assist totals changed at Udinese. Current through the 0–0 draw:
 - **Mikey Moore: 0G / 1A**
 - **Noa Lang: 0G / 1A**
 
+### Pressure / fan temperature
+
+- Domestic confidence remains high because Napoli are unbeaten and five clear.
+- European patience has deteriorated sharply. Marseille + Bodø + Inter is now treated as a pattern, not three unrelated bad nights.
+- The dominant supporter split: one camp says judge the tie after Milan because 2–1 is recoverable; the other argues the Udinese rotation makes the home defeat especially frustrating.
+- Endrick's performance is a major positive: he delivered a high-pressure Champions League goal.
+- Pio enters the second-leg buildup as the obvious star under scrutiny: 21 goals on the season and a stage where supporters expect the No. 9 to influence the tie.
+
 ### Peacock contract
 
 Peacock is secured: Prospect role, approximately 4 years + 4 months remaining, $13,000/week, $115,000 signing bonus, no release clause.
@@ -68,15 +76,13 @@ Peacock is secured: Prospect role, approximately 4 years + 4 months remaining, $
 
 No senior Napoli player left. Endrick stayed after rejected bids of $188M Juventus, $188M Leipzig and $193.4M Bergamo; Beier stayed after a $188.9M Juventus bid; Chiesa stayed after no Fiorentina deal was completed. Burnett (two years), Ricci (six months) and Brun (six months) left on development loans.
 
-### February pressure point — NOW INTER
-
-Napoli are **18W–7D–0L, 61 points, five clear of Inter**. The Udinese rotation is complete. The next match is the one the squad was protected for: **Inter at the Maradona, Champions League playoff leg 1**. European form remains the unresolved weakness after Marseille 3–0 and Bodø/Glimt 2–1 defeats. Inter have just won 2–0 and simultaneously tightened the domestic title race.
-
 ### Editorial reminders
 
-- **Inter buildup — REQUIRED:** five-point league lead; Napoli 18W–7D–0L; Inter 16W–8D–1L; Napoli intentionally rotated into a 0–0 at Udinese; Inter won 2–0; Pio remains on 21 goals; European defeats to Marseille and Bodø remain relevant; this is the immediate test of whether the Udinese trade-off was worthwhile.
-- **Pio/Fiorentina:** preserve Goal of the Year candidate at 58', penalty miss at 70', second penalty converted at 87'.
-- **Juan Jesus/Sassuolo:** preserve rare start → 70' tackle → counter → Paz goal → exhausted substitution at 78'.
+- **Inter fallout — PUBLISHED:** emphasize the failed payoff from the Udinese rotation without pretending the tie is over.
+- **European question — ACTIVE:** Marseille 3–0 + Bodø 2–1 + Inter 2–1 versus Napoli's 18W–7D–0L domestic record.
+- **Second-leg buildup — REQUIRED:** Inter lead 2–1; one Napoli goal levels aggregate; Endrick 8G/6A after his first-leg goal; Beier 11G/8A; Pio 21G/8A; pressure is substantial but comeback is realistic.
+- **Pio/Fiorentina:** preserve Goal of the Year candidate at 58', penalty miss 70', second penalty scored 87'.
+- **Juan Jesus/Sassuolo:** preserve rare start → 70' tackle → counter → Paz goal → exhausted substitution 78'.
 
 ## Site synchronization rules
 
