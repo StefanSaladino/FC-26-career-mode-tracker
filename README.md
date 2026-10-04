@@ -11,19 +11,19 @@ This README is the continuity reference for the save. Every material development
 - Napoli's league lead remains **eight points**.
 - Other league rows remain at their last manager-supplied totals until refreshed; do not invent results.
 
-### BREAKING — Torino 0–4 Napoli, Coppa Italia
+### Latest — Torino 0–4 Napoli, Coppa Italia leg one
 
-A bizarre knockout match went from **0–0 at halftime** to a four-goal Napoli rout.
+A bizarre first leg went from **0–0 at halftime** to a four-goal Napoli rout.
 
 - **50': Maximilian Beier penalty — 1–0.** Pio Esposito was resting, so Beier took responsibility.
 - **62': Beier penalty — 2–0.**
 - **66': Beier penalty — 3–0.** Beier completed a **penalty hat trick**, converting three spot kicks in sixteen minutes.
 - **86': Endrick, assist Beier — 4–0.** Beier finished with **3 goals + 1 assist**, directly contributing to every Napoli goal.
-- FT: **Torino 0–4 Napoli. Napoli advance in the Coppa Italia.**
+- FT: **Torino 0–4 Napoli. This was LEG ONE. Napoli are NOT yet through.**
+- Napoli carry a **4–0 aggregate advantage** into the return leg and are in an extremely strong position.
 - Beier rises to **15G / 9A** for the tracked season.
 - Endrick rises to **11G / 7A**.
 - Pio received a full rest.
-- Napoli avoided extra time ahead of the Real Madrid Champions League Round of 16 sequence.
 
 ### Beier breakout storyline
 
@@ -32,6 +32,16 @@ Beier has moved from quietly productive to impossible to ignore. He scored Napol
 Current production: **15G / 9A — 24 direct goal contributions.** The editorial framing should no longer treat him merely as supporting cast behind Pio, Endrick and Paz. He is one of Napoli's major attacking producers this season.
 
 The Torino hat trick is specifically notable because all three goals were penalties: 50', 62', 66'. Do not rewrite them as open-play goals. The third conversion carried the pressure of completing the hat trick against the same goalkeeper.
+
+### Development / ratings watch
+
+Latest manager-supplied ratings:
+- **Alessandro Bastoni — 91 OVR.** Now an elite-rated centerpiece of the senior defence.
+- **Burnett — 69 OVR (loan).** Already showing significant development on his two-year loan; continue monitoring rather than recalling prematurely.
+- **Brun — 67 OVR (loan).** Strong early growth on his six-month development loan.
+- **Ricci — 66 OVR (loan).** Also progressing quickly on his six-month loan.
+
+Brun and Ricci should be reassessed when their short loans end rather than automatically sent back out. Burnett's two-year loan remains a long-development play unless circumstances materially change.
 
 ### Inter rivalry week
 
@@ -48,11 +58,10 @@ The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe an
 - **Round of 16: Real Madrid.**
 - **Mar 7 — Napoli vs Real Madrid — R16 leg 1, home.**
 - **Mar 15 — Real Madrid vs Napoli — R16 leg 2, away.**
-- The European narrative has shifted from 'can Napoli do it?' to whether the Inter comeback can become the beginning of a deeper run.
 
 ### March rundown — updated
 
-- **Mar 1 — Torino 0–4 Napoli — Coppa Italia — WON / ADVANCED.**
+- **Mar 1 — Torino 0–4 Napoli — Coppa Italia LEG 1 — Napoli lead tie 4–0.**
 - **Mar 4 — Cagliari home — Serie A.**
 - **Mar 7 — Real Madrid home — Champions League R16 leg 1.**
 - **Mar 12 — Parma away — Serie A.**
@@ -61,12 +70,13 @@ The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe an
 - **Mar 22 — Egypt home — International Friendly (Italy).**
 - **Mar 25 — New Zealand home — International Friendly (Italy).**
 - **Mar 31 — Lazio away — Serie A.**
+- **Coppa Italia leg 2 vs Torino — date not yet supplied.** Do not invent it.
 
-Cagliari is now the final match before Real Madrid leg one and remains the clearest rotation/rest opportunity. Pio was already rested against Torino. Napoli also avoided extra time in Turin.
+Cagliari is the final match before Real Madrid leg one and remains the clearest rotation/rest opportunity. Pio was already rested against Torino.
 
 ### Recent Napoli results — newest first
 
-1. **Torino 0–4 Napoli — Coppa Italia:** Beier 50' pen, 62' pen, 66' pen; Endrick 86' (Beier). Napoli advance.
+1. **Torino 0–4 Napoli — Coppa Italia leg 1:** Beier 50' pen, 62' pen, 66' pen; Endrick 86' (Beier). Napoli lead tie 4–0; not yet through.
 2. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'.
 3. **Inter 0–2 Napoli — UCL playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick). Meret MOTM. Napoli advance 3–2 aggregate.
 4. **Lecce 0–2 Napoli — Serie A:** Endrick 55' (Pio), Endrick 75' (Pio).
@@ -83,12 +93,12 @@ Cagliari is now the final match before Real Madrid leg one and remains the clear
 
 - **Maximilian Beier:** **15G / 9A.** Penalty hat trick + assist at Torino after scoring at Inter. Four goals in his last two matches. Major attacking star, not background support.
 - **Pio Esposito:** **21G / 11A.** Rested completely against Torino ahead of the March gauntlet.
-- **Endrick:** **11G / 7A.** Scored the 86' fourth at Torino from Beier's assist. Earlier scored in UCL leg one, brace at Lecce, and assisted Paz's aggregate winner. Rejected $188M/$193.4M bids remain relevant.
+- **Endrick:** **11G / 7A.** Scored the 86' fourth at Torino from Beier's assist.
+- **Alessandro Bastoni:** now **91 OVR**, anchoring an already elite defensive group.
 - **Alex Meret:** official MOTM in the UCL comeback at Inter after three huge saves during the first-half siege.
 - **Nico Paz:** **5G / 7A.** His 76' aggregate winner against Inter remains his defining Napoli moment.
 - **Alphonso Davies:** **3G / 2A.** Scored the 5' opener in the UCL comeback.
 - **Lutsharel Geertruida:** **0G / 1A.** First tracked assist came for Beier's San Siro league goal.
-- **De Arrascaeta:** recurring antagonist storyline after three goals against Napoli across the recent Inter fixtures.
 
 ### Current recorded Napoli production
 
@@ -111,10 +121,9 @@ Current through **Torino 0–4 Napoli**:
 ### Pressure / fan temperature
 
 - Serie A: **19W–8D–0L, 65 points, eight clear**.
-- Coppa Italia: **advanced after 4–0 away at Torino**. Exact next opponent/round details should not be invented until supplied by the manager/game.
+- Coppa Italia: **Napoli lead Torino 4–0 after leg one. Not yet qualified.**
 - Champions League: Real Madrid R16 next.
-- Manager hot seat remains cold. Napoli are unbeaten in Serie A, alive in the Coppa and through to the Champions League Round of 16.
-- Supporter mood after Torino is a mix of disbelief at three penalties in sixteen minutes and growing recognition of Beier's season.
+- Manager hot seat remains cold. Napoli are unbeaten in Serie A, hold a huge Coppa first-leg advantage and are through to the Champions League Round of 16.
 
 ### Peacock contract
 
@@ -126,15 +135,14 @@ No senior Napoli player left. Endrick stayed after rejected bids of $188M Juvent
 
 ### Editorial reminders
 
-- **Torino Coppa — PUBLISHED:** 0–0 HT; Beier pens 50', 62', 66'; Endrick 86' assisted by Beier; FT 4–0; Beier 3G/1A; Pio rested; Napoli advance. This is knockout coverage: qualification/advancement language, never 'three points.'
+- **Torino Coppa leg 1 — PUBLISHED/CORRECTED:** 0–0 HT; Beier pens 50', 62', 66'; Endrick 86' assisted by Beier; FT 4–0. Napoli lead the tie 4–0 but ARE NOT THROUGH YET.
 - **Beier storyline — ACTIVE:** 15G/9A, four goals in two matches, now one of the attacking stars.
-- **Inter league draw — PUBLISHED:** eight-point gap preserved, unbeaten record intact.
-- **Inter comeback/apology thread — PUBLISHED:** preserve Meret MOTM and 3–2 aggregate context.
+- **Development — ACTIVE:** Bastoni 91; Burnett 69 on loan; Brun 67 on loan; Ricci 66 on loan.
 - **Real Madrid — ACTIVE:** R16 Mar 7 home / Mar 15 away.
-- **Comments:** every article requires a custom supporter thread relevant to that specific story.
+- **Comments:** every article requires a custom supporter thread relevant to that specific story. Knockout comments must distinguish first-leg advantage from actual qualification.
 
 ## Site synchronization rules
 
-Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics. Every newly published article must include custom comments relevant to that specific story. Knockout coverage must use qualification/tie/aggregate language where applicable, never league-points language.
+Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics. Every newly published article must include custom comments relevant to that specific story. Knockout coverage must distinguish leg-one advantage from confirmed qualification.
 
 All newsroom reporting, quotes and rumours are fictional and refer only to this FC 26 Career Mode save.
