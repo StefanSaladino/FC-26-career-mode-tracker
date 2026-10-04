@@ -2,7 +2,8 @@ const raw = window.NAPOLI_DATA || {};
 const D = {
   meta: raw.meta || {}, ticker: raw.ticker || [], hero: raw.hero || {}, articles: raw.articles || [],
   results: raw.results || [], upcoming: raw.upcoming || [], stats: raw.stats || [], youth: raw.youth || [],
-  whispers: raw.whispers || [], media: raw.media || [], firstXI: raw.firstXI || [], squadPublic: raw.squadPublic || {}
+  whispers: raw.whispers || [], media: raw.media || [], firstXI: raw.firstXI || [], squadPublic: raw.squadPublic || {},
+  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || []
 };
 
 if (!D.articles.length && Array.isArray(raw.news)) {
@@ -96,7 +97,12 @@ $('teamFilter')?.addEventListener('change',renderMatches);compSel?.addEventListe
 if($('upcomingStrip')) $('upcomingStrip').innerHTML=D.upcoming.map(x=>`<div class="fixture"><span>${escapeHTML(x[1])}</span><strong>${escapeHTML(x[0])}</strong><small>${escapeHTML(x[2])}</small></div>`).join('');
 
 if($('formation')&&D.firstXI.length) $('formation').innerHTML=D.firstXI.map(x=>`<div class="formation-row"><span>${escapeHTML(x[0])}</span><strong>${escapeHTML(x[1])}</strong><b>${x[2]}</b></div>`).join('');
-if($('squadGroups')&&Object.keys(D.squadPublic).length) $('squadGroups').innerHTML=Object.entries(D.squadPublic).map(([g,players])=>`<section class="squad-group"><div class="squad-group-head"><h3>${escapeHTML(g)}</h3><span>${players.length}</span></div>${players.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · ${escapeHTML(p[3])}</span></div><b>${p[2]}</b></div>`).join('')}</section>`).join('');
+if($('squadGroups')){
+  const senior=Object.entries(D.squadPublic).map(([g,players])=>`<section class="squad-group"><div class="squad-group-head"><h3>${escapeHTML(g)}</h3><span>${players.length}</span></div>${players.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · ${escapeHTML(p[3])}</span></div><b>${p[2]}</b></div>`).join('')}</section>`).join('');
+  const loans=D.loanedPlayers.length?`<div class="development-roster-head"><div class="section-kicker">Development</div><h2>Players on Loan</h2><p>Registered separately from the Napoli first-team squad.</p></div><section class="squad-group development-group"><div class="squad-group-head"><h3>Loaned Out</h3><span>${D.loanedPlayers.length}</span></div>${D.loanedPlayers.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · Age ${p[2]}</span></div><b>${p[3]}</b></div>`).join('')}</section>`:'';
+  const academy=D.academyPlayers.length?`<div class="development-roster-head"><div class="section-kicker">Future</div><h2>Youth Academy</h2><p>Academy players remain outside the senior roster.</p></div><section class="squad-group development-group"><div class="squad-group-head"><h3>Academy</h3><span>${D.academyPlayers.length}</span></div>${D.academyPlayers.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · Age ${p[2]} · POT ${escapeHTML(p[4])}</span></div><b>${p[3]}</b></div>`).join('')}</section>`:'';
+  $('squadGroups').innerHTML=senior+loans+academy;
+}
 
 function renderTable(el,headers,rows){if(!el)return;el.innerHTML=`<thead><tr>${headers.map(h=>`<th>${escapeHTML(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${escapeHTML(c??'—')}</td>`).join('')}</tr>`).join('')}</tbody>`;}
 renderTable($('statsTable'),['Player','Goals','Assists','Season note'],D.stats);
