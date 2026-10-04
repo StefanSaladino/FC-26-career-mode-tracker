@@ -54,27 +54,34 @@ Current through Bologna and including Bodø:
 - **Mikey Moore:** 0G / 1A
 - **Noa Lang:** 0G / 1A
 
-### Deadline-day transfer storyline
+### Transfer window — CLOSED
 
-- **ENDRICK — NOT FOR SALE THIS WINDOW:** Napoli rejected two separate **$188M** deadline-day offers: Juventus and RB Leipzig. Endrick stays for the Scudetto race and Champions League campaign. Current production: 7G / 6A.
-- **Federico Chiesa:** wants to leave. Fiorentina offered $36.2M; negotiation delegated at a **$50M opening / $45M floor**. No sale is recorded until confirmed.
+**Final outcome: no senior Napoli player left the club. The only completed outgoing moves were development loans for the three recently promoted prospects.**
 
-### Development storyline
+- **Endrick stays.** Napoli rejected three separate deadline-day bids:
+  - Juventus — **$188M — REJECTED**.
+  - RB Leipzig — **$188M — REJECTED**.
+  - Bergamo Calcio / Atalanta — **$193.4M — REJECTED**.
+- **Maximilian Beier stays.** Juventus offered **$188.9M — REJECTED**.
+- **Federico Chiesa stays.** Chiesa wanted to leave and Fiorentina had offered $36.2M, with Napoli delegating negotiations at a $50M opening / $45M floor, but **no transfer was completed before the window closed**. He remains part of the senior squad for the remainder of the current campaign unless circumstances outside the closed window change.
+- Napoli therefore rejected **$758.3M in four separate confirmed deadline-day bids across Endrick and Beier**. This figure is contextual only; the bids were separate and cannot be treated as a single combined offer.
+- Sporting conclusion: Napoli chose to preserve the senior squad while leading Serie A and preparing for the Champions League knockout playoff against Inter.
 
-All three newly promoted prospects have now secured loans:
+### Completed development loans
+
 - **O. Burnett — GK, 18, 64 OVR:** **two-year loan**. Destination club not yet recorded.
 - **G. Ricci — CB, 18, 65 OVR:** **six-month loan**. Destination club not yet recorded.
 - **C. Brun — RM, 18, 61 OVR:** **six-month loan**. Destination club not yet recorded.
-- Ricci and Brun are no longer sitting in the senior development group; both are officially in the loaned-out pool for the remainder of the season.
+- These were the **only outgoing moves completed at the end of the window**.
 
 ### February pressure point
 
-Napoli enter February five points clear of Inter and unbeaten in Serie A, but after European defeats to Marseille and Bodø/Glimt the Champions League form is a concern. Napoli face Inter three times in 13 days: Feb 15 UCL home, Feb 23 UCL away, Feb 27 Serie A away.
+Napoli enter February five points clear of Inter and unbeaten in Serie A, with the senior squad intact after deadline day. European form remains a concern after defeats to Marseille and Bodø/Glimt. Napoli face Inter three times in 13 days: Feb 15 UCL home, Feb 23 UCL away, Feb 27 Serie A away.
 
 ### Editorial reminders
 
-- **Inter triple-header buildup — REQUIRED:** when Feb 15 approaches, incorporate the latest table/form/injuries, Bologna/Como title swing, Marseille/Bodø European concern, transfer-window outcome, and the fact Napoli rejected **$376M worth of matching Endrick bids in aggregate** ($188M Juventus + $188M RB Leipzig) rather than weaken the squad before the decisive stretch. Do not imply a combined single offer.
-- **Endrick deadline-day story — PUBLISHED/UPDATED:** Juventus and Leipzig both offered $188M; both were rejected. Endrick stays.
+- **Inter triple-header buildup — REQUIRED:** when Feb 15 approaches, incorporate the latest table/form/injuries, Bologna/Como title swing, Marseille/Bodø European concern and the **final closed-window outcome**: no senior departures despite $758.3M in four separate rejected Endrick/Beier bids, while Burnett, Ricci and Brun left on development loans.
+- **Deadline-day story — FINALIZED:** window closed. Endrick stays, Beier stays, Chiesa stays. Do not portray any of their January/February negotiations as pending after this point.
 
 ## Site synchronization rules
 
