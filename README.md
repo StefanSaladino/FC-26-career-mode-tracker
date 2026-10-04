@@ -23,12 +23,13 @@ All newsroom reporting, quotes and rumours are fictional and refer only to the C
 
 ### January 2028 — current storyline
 
+- **Serie A — Bologna 0–1 Napoli:** a rotated Napoli side won through substitute Maximilian Beier's 53rd-minute goal. No assist was recorded. Napoli protected the lead for a clean-sheet away win.
+- **Title-race swing:** **Inter were held 1–1 by Como** while Napoli beat Bologna. Napoli therefore gained two points on their principal Scudetto rival on the matchday, adding further weight to the three Inter meetings scheduled in February.
 - **Champions League — Bodø/Glimt 2–1 Napoli:** Evjen opened the scoring in the 15th minute. Pio Esposito was denied at 18', then equalised at 38' from Maximilian Beier. Beier was denied from close range on a counter at 44'. The match was 1–1 at halftime. Evjen scored his second at 57' and Bodø/Glimt won 2–1. Despite the defeat, **Napoli secured a place in the Champions League knockout playoffs**, guaranteeing that the European campaign continues.
 - **Academy promotions completed:** O. Burnett (GK, 18/64), G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) were promoted from the academy into the senior development structure with the January window still open.
 - **Burnett loan completed:** O. Burnett (GK, 18/64) has left Napoli on a **two-year loan** after his academy promotion. He now joins Lawton among Napoli's young goalkeepers developing away from the club. Destination club not yet recorded.
 - **Ricci and Brun development:** G. Ricci (CB, 18/65) and C. Brun (RM, 18/61) remain with the senior development group while Napoli seek their next steps.
 - **Federico Chiesa transfer request:** Chiesa (30, 82 OVR) wants to leave Napoli. Fiorentina submitted a **$36.2m** offer. Negotiation has been **delegated** with instructions to open at **$50m** and accept no less than a **$45m floor**. Status: **negotiation pending**; no sale is recorded until an agreement is actually reached.
-- **Development pipeline:** loaned players, promoted prospects and academy players are tracked separately from the established senior Napoli roster in `development-roster.js`.
 
 ### February 2028 — confirmed fixture run
 
@@ -43,7 +44,7 @@ All newsroom reporting, quotes and rumours are fictional and refer only to the C
 
 ### Editorial reminders / future story beats
 
-- **Inter triple-header buildup story — REQUIRED:** once Napoli have progressed through the immediate fixtures and the Feb 15 Champions League first leg is approaching, publish a dedicated feature framing the three Inter matches in 13 days as a potentially season-defining rivalry stretch. Do **not** publish it too early: incorporate the latest Serie A table position, form, injuries, transfer-window outcome, squad availability and any developments from the matches before Inter. The feature should emphasize the Feb 15 home UCL first leg, Feb 23 away second leg, and Feb 27 away Serie A meeting, with the European campaign and Scudetto race colliding in the same rivalry.
+- **Inter triple-header buildup story — REQUIRED:** once Napoli have progressed through the immediate fixtures and the Feb 15 Champions League first leg is approaching, publish a dedicated feature framing the three Inter matches in 13 days as a potentially season-defining rivalry stretch. Do **not** publish it too early: incorporate the latest Serie A table position, form, injuries, transfer-window outcome, squad availability and any developments from the matches before Inter. **Include the Jan 29 title-race swing in which Napoli beat Bologna 1–0 while Inter were held 1–1 by Como.** The feature should emphasize the Feb 15 home UCL first leg, Feb 23 away second leg, and Feb 27 away Serie A meeting, with the European campaign and Scudetto race colliding in the same rivalry.
 
 ## Local use
 
