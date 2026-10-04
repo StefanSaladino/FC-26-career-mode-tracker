@@ -2,29 +2,30 @@
  const D=window.NAPOLI_DATA;if(!D)return;
  const story={
   id:'endrick-juventus-188m-rejected-2028',category:'Transfer News',label:'Deadline Day',date:'February 2028 · Deadline Day',tone:'transfer',
-  headline:'Napoli Reject Juventus’ $188M Deadline-Day Bid for Endrick',
-  dek:'Juventus launch an extraordinary late move for Endrick, but Napoli refuse to strengthen a domestic rival with the Scudetto race and Champions League knockouts approaching.',
+  headline:'Hands Off: Napoli Reject Matching $188M Bids for Endrick',
+  dek:'Juventus came first. RB Leipzig followed with the same extraordinary $188 million offer. Napoli rejected both: Endrick is staying for the title race and Europe.',
   body:[
-   'Napoli have rejected a stunning $188 million deadline-day offer from Juventus for Endrick, shutting down one of the biggest approaches of the winter window.',
-   'The size of the bid forced attention across Italian football, but the circumstances made Napoli’s position clear. The club are five points clear of Inter, unbeaten in Serie A and preparing for a Champions League knockout playoff against Inter. Selling a major young attacker at the eleventh hour — particularly to another Serie A power — was judged incompatible with the club’s sporting ambitions.',
+   'Napoli have now rejected two extraordinary $188 million deadline-day offers for Endrick, turning away Juventus and then RB Leipzig in rapid succession.',
+   'Juventus made the first approach. Napoli immediately refused to hand a major young attacker to a domestic rival while sitting five points clear at the top of Serie A and preparing for the Champions League knockout playoffs.',
+   'Then came RB Leipzig. The German club matched Juventus’ $188 million offer, removing the domestic-rival issue but not changing Napoli’s answer. The window is closing, the decisive phase of the season is beginning, and Napoli have no intention of dismantling their attack now.',
    'Endrick has recorded seven goals and six assists in Napoli’s tracked season production and remains an important part of an attack that also includes Pio Esposito and Maximilian Beier.',
-   'The identity of the bidder mattered as much as the number. A $188 million approach from abroad might have created a different discussion, particularly with time to plan a replacement. Juventus arriving at the deadline offered Napoli enormous money but almost no time to reshape the squad while simultaneously strengthening a domestic rival.',
-   'Napoli’s answer was rejection. Endrick stays for the title race and for Europe.',
-   'The decision also sends a message about the club’s priorities. Napoli are not treating their position at the top of Serie A as an opportunity to cash out. With the season entering its decisive phase, sporting continuity has won over a massive transfer fee.'
+   'The second rejection changes the meaning of the story. This is no longer simply Napoli refusing Juventus. Napoli have now been offered $188 million by two different clubs and have declined both approaches. The club has effectively placed sporting continuity above an enormous immediate return.',
+   'Endrick stays. Napoli are choosing the Scudetto race, the Champions League campaign and their existing attacking depth over a deadline-day windfall.'
   ],
-  commentHeat:9,reaction:'transfer',visitorClub:'Juventus',
+  commentHeat:10,reaction:'transfer',visitorClub:'Juventus / RB Leipzig',
   comments:[
-   ['PartenopeiProfessor','$188m is absurd money, but selling him to Juventus on deadline day would be even more absurd. Correct decision.'],
-   ['CurvaNordNapoli','Alla Juve? Centottantotto milioni e comunque no. Endrick resta a Napoli.'],
-   ['ScudettoWatch','This is a sporting decision, not a valuation decision. Napoli cannot strengthen a domestic rival at this point of the season.'],
-   ['NoTacticsJustVibes','Juve really put 188 million on the table and Napoli hit DECLINE 😭'],
-   ['AzzurroSempre','Cinque punti avanti, Champions da giocare, mercato quasi chiuso. Non si vende.'],
-   ['NapoliSinceBirth','Come back in the summer if you want to talk numbers. Deadline day to Juventus? Absolutely not.'],
-   ['TransferDeskItalia','The fee is the headline. The rejection is the statement. Napoli are prioritising the season in front of them.'],
-   ['VesuvioVoice','Keep the player. Keep the depth. Go chase trophies.']
+   ['PartenopeiProfessor','Leipzig matching the number proves this was not just about refusing Juventus. Napoli simply are not selling Endrick now.'],
+   ['CurvaNordNapoli','Prima la Juve, poi il Lipsia. Centottantotto milioni due volte. La risposta è sempre no.'],
+   ['ScudettoWatch','The second rejection is the real statement. No domestic-rival excuse this time — Napoli have chosen the squad over the money.'],
+   ['NoTacticsJustVibes','RB Leipzig saw Juve get rejected for 188m and said maybe he means us 😭'],
+   ['AzzurroSempre','Due offerte folli, due no. Adesso basta: Endrick resta a Napoli.'],
+   ['NapoliSinceBirth','If $188m from Leipzig does not move them either, the message is pretty clear. Hands off until summer at minimum.'],
+   ['TransferDeskItalia','Two clubs. Same valuation. Same answer. Napoli have effectively taken Endrick off the deadline-day market.'],
+   ['VesuvioVoice','We said kick rocks in Italian and German. Go win trophies.'],
+   ['MercatoMadness','At this point another club can add another zero and Napoli might still just close the fax machine.']
   ]
  };
  D.articles=[story,...(D.articles||[]).filter(a=>a.id!==story.id)];
- D.hero={...(D.hero||{}),articleId:story.id,strap:'DEADLINE DAY · $188M JUVENTUS BID REJECTED'};
- D.ticker=['BREAKING · NAPOLI REJECT $188M JUVENTUS BID FOR ENDRICK','ENDRICK STAYS · DEADLINE-DAY APPROACH REFUSED','NAPOLI FIVE POINTS CLEAR · NO SALE TO DOMESTIC RIVAL',...(D.ticker||[]).filter(x=>!String(x).includes('188M')&&!String(x).includes('ENDRICK STAYS'))].slice(0,8);
+ D.hero={...(D.hero||{}),articleId:story.id,strap:'DEADLINE DAY · TWO $188M BIDS REJECTED'};
+ D.ticker=['BREAKING · NAPOLI REJECT RB LEIPZIG $188M BID FOR ENDRICK','JUVENTUS $188M REJECTED · LEIPZIG $188M REJECTED','HANDS OFF · ENDRICK STAYS AT NAPOLI',...(D.ticker||[]).filter(x=>!String(x).includes('188M')&&!String(x).includes('ENDRICK STAYS'))].slice(0,8);
 })();
