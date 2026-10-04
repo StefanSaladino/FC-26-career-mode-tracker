@@ -54,4 +54,43 @@
     D.whispers = D.whispers.filter(item => item[0] !== 'Perfect Response');
     D.whispers.unshift(['Perfect Response','Napoli answer the Marseille defeat with a 3–0 win over Como. Endrick and Pio both record a goal and an assist, while Inter’s dropped points leave Napoli three clear at the top.']);
   }
+
+  // Restore native-language supporter voices after comments-engine-v2 renders.
+  // The language controller then adds the appropriate English translation control.
+  const napVoices = [
+    ['nap','Uagliù, chesta è stata ’a risposta ca vulévemo. Tre gol, porta pulita e jammo annanz.','Lads, this was the response we wanted. Three goals, a clean sheet, and we move forward.'],
+    ['it','Pio ed Endrick insieme mi stanno piacendo tantissimo. Si cercano sempre e oggi si è visto.','I am really liking Pio and Endrick together. They are always looking for each other and today it showed.'],
+    ['nap','Doppo Marsiglia servéva proprio na partita accussì. Senza paura e senza fa’ casino.','After Marseille we really needed a match like this. No fear and no unnecessary chaos.'],
+    ['it','Tre punti sopra l’Inter. Adesso niente calcoli: continuiamo a vincere.','Three points above Inter. Now no calculations: just keep winning.']
+  ];
+  const italyVoices = [
+    ['it','La Nazionale viene prima di tutto. Chi entra deve essere pronto subito.','The national team comes first. Whoever comes in has to be ready immediately.'],
+    ['it','Finalmente c’è concorrenza vera per ogni maglia. Era ora.','Finally there is real competition for every shirt. About time.'],
+    ['it','Le assenze pesano, ma una squadra seria non può dipendere da due giocatori.','The absences matter, but a serious team cannot depend on two players.'],
+    ['it','Basta esperimenti infiniti. Serve continuità e bisogna qualificarsi.','Enough endless experiments. We need continuity and we have to qualify.']
+  ];
+  function localiseComments(){
+    const reader=document.getElementById('readerContent');
+    const id=reader?.dataset.articleId;
+    if(!id)return;
+    const a=D.articles?.find(x=>String(x.id)===String(id));
+    const list=reader.querySelector('.fan-comments-list');
+    if(!a||!list||list.dataset.nativeVoices===String(id))return;
+    const meta=`${a.category||''} ${a.label||''} ${a.commentContext||''} ${a.id||''}`.toLowerCase();
+    const isItaly=/italy|azzurr|nazionale|international/.test(meta);
+    const voices=isItaly?italyVoices:napVoices;
+    const rows=[...list.querySelectorAll('.fan-comment')];
+    const slots=isItaly?[0,2,4,6]:[1,3,5,7];
+    slots.forEach((slot,i)=>{
+      const row=rows[slot]; if(!row)return;
+      const p=row.querySelector('p'); if(!p)return;
+      const [lang,text,en]=voices[i%voices.length];
+      p.textContent=text;
+      p.setAttribute('lang',lang);
+      row.dataset.englishTranslation=en;
+      row.dataset.nativeComment='1';
+    });
+    list.dataset.nativeVoices=String(id);
+  }
+  document.addEventListener('seasonroom:comments-rendered',()=>localiseComments());
 })();
