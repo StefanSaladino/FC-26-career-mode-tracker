@@ -7,6 +7,7 @@
     'arsenal-pio-91':['napoli','ucl-league-stage','big-draw','ARSENAL'],
     'chelsea-pio-1-0':['napoli','ucl-league-stage','big-win','CHELSEA'],
     'salzburg-pio-1-1':['napoli','ucl-league-stage','frustrating-draw','RB SALZBURG'],
+    'marseille-3-0-napoli-fireworks-fatigue':['napoli','ucl-fireworks-incident','big-loss','MARSEILLE'],
     'udinese-pio-clean-sheet':['napoli','league-regular','win','UDINESE'],
     'genoa-drought':['napoli','league-regular','frustrating-draw','GENOA'],
     'lazio-control':['napoli','league-regular','frustrating-draw','LAZIO'],
@@ -48,7 +49,7 @@
 
   const opponentFromText = a => {
     const text = `${a.date||''} ${a.headline||''}`.toUpperCase();
-    const names = ['BAYERN','ARSENAL','CHELSEA','RB SALZBURG','INTER','JUVENTUS','CAGLIARI','LECCE','FIORENTINA','UDINESE','GENOA','LAZIO','SASSUOLO','PISA','TORINO','SCOTLAND','SOUTH AFRICA','FRANCE','WALES','ICELAND'];
+    const names = ['MARSEILLE','BAYERN','ARSENAL','CHELSEA','RB SALZBURG','INTER','JUVENTUS','CAGLIARI','LECCE','FIORENTINA','UDINESE','GENOA','LAZIO','SASSUOLO','PISA','TORINO','SCOTLAND','SOUTH AFRICA','FRANCE','WALES','ICELAND'];
     return names.find(n => text.includes(n)) || 'NONE';
   };
 
