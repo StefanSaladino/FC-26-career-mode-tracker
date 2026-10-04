@@ -4,10 +4,6 @@ A static, dependency-free football team site for a Napoli / Italy FC 26 Career M
 
 The site is designed as an in-universe football newsroom rather than a spreadsheet dashboard: lead stories, match reports, dressing-room drama, transfer fallout, stats, fixtures, squad pages and a media wall.
 
-## Live site
-
-`https://stefansaladino.github.io/FC-26-career-mode-tracker/`
-
 ## Canonical current save state
 
 This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. Unknown outcomes are never guessed.
@@ -19,16 +15,19 @@ This README is the continuity reference for the save. Every material development
 - Inter's **1–1 draw with Como**, combined with Napoli's 1–0 win at Bologna, stretched Napoli's lead to **five points**.
 - Milan: 45 points from 22; Roma: 44 from 23; Atalanta/Bergamo Calcio: 42 from 22; Lazio/Latium: 41 from 23.
 
-### Latest Napoli results
+### Latest Napoli results — chronological, newest first
 
-- **Bologna 0–1 Napoli — Serie A:** Maximilian Beier came on as a substitute and scored the winner in the **53rd minute**. No assist recorded. Clean sheet and three points.
-- **Bodø/Glimt 2–1 Napoli — Champions League:** Evjen 15', Pio Esposito 38' from Maximilian Beier, Evjen 57'. Napoli lost but **secured a place in the Champions League knockout playoffs**.
-- **Napoli 3–0 Como — Serie A:** the preceding league win remains part of the recorded results; do not conflate this match with the Marseille European fixture.
-- **Marseille 3–0 Napoli — Champions League:** separate European defeat. Marseille and Como are distinct fixtures and all article/comment context must remain separated.
+1. **Bologna 0–1 Napoli — Serie A:** Maximilian Beier came on as a substitute and scored the winner in the **53rd minute**. No assist recorded. Napoli kept a clean sheet and took all three points.
+2. **Bodø/Glimt 2–1 Napoli — Champions League:** **Evjen 15'**, **Pio Esposito 38' (assist: Maximilian Beier)**, **Evjen 57'**. Pio had also been denied by the goalkeeper at 18', while Beier was denied from close range at 44'. The match was 1–1 at halftime. Napoli lost 2–1, but the result **did not eliminate Napoli**: Napoli secured a place in the **Champions League knockout playoffs**.
+3. **Napoli 3–0 Como — Serie A:** Kevin De Bruyne opened the scoring; Endrick and Pio Esposito also scored. Endrick and Pio each finished with a goal and an assist. This is a separate domestic fixture and must never be conflated with Marseille.
+4. **Marseille 3–0 Napoli — Champions League:** separate European defeat before the Como league win. Marseille, Como and Bodø/Glimt are three distinct fixtures with distinct match/article/comment context.
+
+**Recent-result continuity rule:** until another Napoli match is completed, the site's recent-results sequence must begin **Bologna 0–1 Napoli → Bodø/Glimt 2–1 Napoli → Napoli 3–0 Como → Marseille 3–0 Napoli**. Bodø/Glimt must remain visible directly behind Bologna and its Pio goal/Beier assist must remain included in running player statistics.
 
 ### European status — IMPORTANT
 
-- Napoli have completed the Champions League league phase and **qualified for the knockout playoffs** rather than being eliminated.
+- Napoli's most recent Champions League match was the **2–1 defeat away to Bodø/Glimt**.
+- Despite that defeat, Napoli completed the Champions League league phase with a place in the **knockout playoffs**. The European campaign is still alive.
 - The knockout-playoff opponent is **Inter**.
 - **Feb 15 — Napoli vs Inter — Champions League knockout playoff, first leg, HOME.**
 - **Feb 23 — Inter vs Napoli — Champions League knockout playoff, second leg, AWAY.**
@@ -47,7 +46,7 @@ This README is the continuity reference for the save. Every material development
 
 ### Current recorded Napoli production
 
-Stats include all recorded Napoli matches, including friendlies, and are current through the 1–0 win at Bologna.
+Stats include all recorded Napoli matches, including friendlies, and are current through the 1–0 win at Bologna. **The Bodø/Glimt match is included in these totals: Pio's 38' goal and Beier's assist count.**
 
 - **Pio Esposito:** 19 goals, 8 assists.
 - **Maximilian Beier:** 11 goals, 5 assists. Bologna winner added; no assist on that goal.
@@ -73,19 +72,19 @@ Stats include all recorded Napoli matches, including friendlies, and are current
 
 ### February pressure point
 
-Napoli enter February **five points clear of Inter and unbeaten in Serie A**, but the month combines the Scudetto race with European survival. The Feb 15 and Feb 23 Inter matches are the two legs of the Champions League knockout playoff; the Feb 27 Inter match is Serie A. The three matches must never be conflated.
+Napoli enter February **five points clear of Inter and unbeaten in Serie A**, but after European defeats to Marseille and Bodø/Glimt the Champions League form is a genuine concern. The Feb 15 and Feb 23 Inter matches are the two legs of the Champions League knockout playoff; the Feb 27 Inter match is Serie A. The three matches must never be conflated.
 
 ### Editorial reminder
 
-- **Inter triple-header buildup story — REQUIRED:** publish when the Feb 15 first leg is approaching, not prematurely. Use the latest table, injuries, transfer-window outcome, squad availability and intervening results. Current benchmark: Napoli 57, Inter 52 after 23 matches; Napoli 17W–6D–0L. Include the Bologna/Como swing and frame the Feb 15 HOME UCL first leg, Feb 23 AWAY UCL second leg and Feb 27 AWAY Serie A match correctly.
+- **Inter triple-header buildup story — REQUIRED:** publish when the Feb 15 first leg is approaching, not prematurely. Use the latest table, injuries, transfer-window outcome, squad availability and intervening results. Current benchmark: Napoli 57, Inter 52 after 23 matches; Napoli 17W–6D–0L. Include the Bologna/Como title-race swing **and the European context of consecutive Champions League defeats at Marseille and Bodø/Glimt before qualification for the playoff was secured**. Frame the Feb 15 HOME UCL first leg, Feb 23 AWAY UCL second leg and Feb 27 AWAY Serie A match correctly.
 
 ## Site synchronization rules
 
 Whenever the save advances, update **all** affected surfaces together:
 
-- Latest result and match-centre results.
+- Latest result and match-centre results, preserving chronological order.
 - Upcoming fixtures, removing completed fixtures and preserving competition/home-away context.
-- Player goals/assists from confirmed match events only.
+- Player goals/assists from confirmed match events only; never drop production from an older match when a newer result is added.
 - Serie A table when the manager provides an updated table.
 - News article/storyline and relevant comments.
 - README continuity state.
