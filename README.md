@@ -39,6 +39,10 @@ All newsroom reporting, quotes and rumours are fictional and refer only to the C
 - **Feb 27:** **Inter — Serie A, away.**
 - **Inter rivalry pressure point:** Napoli will face Inter three times in 13 days. The two-leg Champions League playoff determines whether Napoli's European season continues, and only four days after the second leg Napoli return to face Inter away in Serie A. With Inter also central to the Scudetto race, this stretch has the potential to define both the European campaign and the domestic title fight.
 
+### Editorial reminders / future story beats
+
+- **Inter triple-header buildup story — REQUIRED:** once Napoli have progressed through the immediate fixtures and the Feb 15 Champions League first leg is approaching, publish a dedicated feature framing the three Inter matches in 13 days as a potentially season-defining rivalry stretch. Do **not** publish it too early: incorporate the latest Serie A table position, form, injuries, transfer-window outcome, squad availability and any developments from the matches before Inter. The feature should emphasize the Feb 15 home UCL first leg, Feb 23 away second leg, and Feb 27 away Serie A meeting, with the European campaign and Scudetto race colliding in the same rivalry.
+
 ## Local use
 
 Open `index.html` directly, or run:
