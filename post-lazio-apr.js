@@ -1,0 +1,32 @@
+(()=>{
+ const D=window.NAPOLI_DATA;if(!D)return;
+ const stories=[
+ {id:'lazio-1-0-apr-2028',category:'Match Report',label:'Serie A · Matchday 31',date:'Napoli 1–0 Lazio · FT',tone:'news',reaction:'league-win',headline:'Pio Breaks Lazio Resistance as Napoli Move Ten Clear',dek:'Pio Esposito struck in the 73rd minute from Maximilian Beier’s assist before Alex Meret produced a last-gasp save to preserve a 1–0 win.',image:'assets/pio-napoli.webp',body:[
+ 'Napoli had to work for it, but another controlled league victory has pushed the leaders to 75 points after 31 matches and extended their advantage at the top to ten points.',
+ 'Lazio frustrated Napoli for long stretches. Meret was called into action in the 13th minute and remained assured whenever the visitors threatened, while Bastoni and Buongiorno repeatedly killed attacks before they could develop.',
+ 'The breakthrough finally arrived in the 73rd minute. Beier supplied Pio Esposito and Napoli’s leading scorer finished the chance for the only goal of the match.',
+ 'With Atlético Madrid looming in Europe, Napoli managed the closing stages carefully. McTominay made way for Geertruida, Di Lorenzo was introduced for additional control, and Meret made one final save at the death to secure the clean sheet.',
+ 'Napoli are now 22 wins, nine draws and no defeats through 31 Serie A matches. Seven remain.'
+ ],commentHeat:30,comments:[['PioEra','23 goals now. OUR GUY.'],['MeretUnion','Last kick of the game and Meret says absolutely not.'],['BeierHive','Even when he does not score, Beier delivers the assist.'],['SaladinoOutNow','Needed 73 minutes to score at home. Standards have collapsed. Saladino OUT.'],['CurvaCalculator','75 points. Ten clear. Seven left.']]},
+ {id:'title-ten-clear-apr-2028',category:'Opinion',label:'Scudetto Watch · Seven Remaining',date:'Serie A · After 31 matches',tone:'feature',reaction:'discussion',headline:'Ten Clear With Seven Left: The Scudetto Is Now Napoli’s to Finish',dek:'Napoli sit on 75 points, ten ahead of Inter, with Bergamo and Milan another two points back. The unbeaten season is still alive.',image:'assets/bastoni-napoli.jpg',body:[
+ 'The arithmetic is becoming impossible to ignore. Napoli have 75 points from 31 matches. Inter are second on 65, while Bergamo and Milan sit on 63. Roma have 59 and Juventus 57.',
+ 'Seven league matches remain, meaning 21 points are still available. Napoli’s ten-point advantage is not mathematically decisive, but it is now large enough that the chasing pack needs both an exceptional finish and a Napoli collapse.',
+ 'There is another number following this team everywhere: zero. Napoli remain unbeaten in Serie A at 22–9–0.',
+ 'The challenge is managing the title run while Europe and the Coppa Italia remain live. Atlético Madrid is next, and the ability to win a difficult league match while protecting key legs may prove as important as any spectacular performance.',
+ 'The Scudetto is not won. But with seven to play, Napoli control every part of the equation that matters.'
+ ],commentHeat:35,comments:[['ScudettoWatch','TEN CLEAR. Seven games.'],['NapoliDoomer','I refuse to celebrate until the trophy is physically in Naples.'],['CurvaCalculator','Inter max out at 86. Napoli already have 75.'],['Milanista','We are fighting for Champions League places now, be serious.'],['SaladinoOutNow','Ten points clear because the league is weak. Wake me up when Saladino proves it in Europe.']]},
+ {id:'pio-face-apr-2028',category:'Feature',label:'Player Focus · Pio Esposito',date:'After Napoli 1–0 Lazio',tone:'feature',reaction:'player-focus',headline:'When Napoli Needed One Goal, Their Guy Delivered It',dek:'Pio Esposito’s 73rd-minute winner was his 23rd goal of the tracked season and another entry in a campaign increasingly built around his presence.',image:'assets/pio-napoli.webp',body:[
+ 'The Lazio match was not designed for highlight reels. Space was scarce, Napoli’s final ball kept failing them and the breakthrough refused to arrive.',
+ 'Then Pio Esposito arrived. Beier found him in the 73rd minute and Pio supplied the finish that separated the sides.',
+ 'It was exactly the kind of moment that strengthens the argument around Pio’s place in this Napoli era. He does not need every match to revolve around him. He simply keeps appearing when the match needs a decisive action.',
+ 'The numbers now move again: 23 goals and 10 assists in the club’s tracked all-match ledger. Beier, meanwhile, adds another assist to his own remarkable campaign.',
+ 'Napoli have bigger nights immediately ahead. But if this season becomes historic, the face at the centre of it is becoming increasingly difficult to dispute.'
+ ],commentHeat:29,comments:[['PioNation','OUR GUY. End of discussion.'],['PioHaterForNoReason','Only one goal against Lazio? I was promised a superstar.'],['PioShirtOwner','Twenty-three goals and people still debate this.'],['BeierDefenseLeague','Also: Beier with another contribution. The partnership is real.']]}
+ ];
+ const ids=new Set(stories.map(s=>s.id));D.articles=[...stories,...(D.articles||[]).filter(a=>!ids.has(a.id))];
+ if(Array.isArray(D.results)){const row=['Napoli','Lazio','Serie A',1,0,'W',"Pio Esposito 73'","Beier assist; Meret late save"];const i=D.results.findIndex(r=>r[0]==='Napoli'&&r[1]==='Lazio'&&r[2]==='Serie A');if(i>=0)D.results[i]=row;else D.results.push(row);}
+ D.hero={articleId:'lazio-1-0-apr-2028',strap:'NAPOLI 1–0 LAZIO · PIO 73′ · TEN CLEAR'};
+ D.ticker=['FT · NAPOLI 1–0 LAZIO','PIO ESPOSITO 73′ · BEIER ASSIST','SERIE A · NAPOLI 75 · TEN CLEAR','31 PLAYED · 22W 9D 0L','NEXT · ATLÉTICO MADRID · CHAMPIONS LEAGUE',...(D.ticker||[])].slice(0,10);
+ D.standings=[['Napoli',31,22,9,0,null,null,null,75],['Inter',31,null,null,null,null,null,null,65],['Atalanta',31,null,null,null,null,null,null,63],['Milan',31,null,null,null,null,null,null,63],['Roma',31,null,null,null,null,null,null,59],['Juventus',31,null,null,null,null,null,null,57]];
+ if(Array.isArray(D.whispers)){D.whispers.unshift(['Ten Clear','Napoli lead Inter by ten points with seven Serie A matches remaining.'],['Still Unbeaten','Thirty-one league matches played. Napoli have yet to lose.'],['Pio Again','Pio Esposito supplied the 73rd-minute winner against Lazio.']);D.whispers=D.whispers.slice(0,8);}
+})();
