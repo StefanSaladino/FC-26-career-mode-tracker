@@ -1,0 +1,29 @@
+(()=>{
+ const D=window.NAPOLI_DATA;if(!D)return;
+ const stories=[
+ {id:'atletico-0-0-leg1-apr-2028',category:'Match Report',label:'Champions League · Quarter-final · First Leg',date:'Atlético Madrid 0–0 Napoli · FT',tone:'news',reaction:'europe',headline:'Nothing Separates Them in Madrid: Napoli Bring Atlético Back to Naples Level',dek:'Nico Paz struck the post, Oblak denied Napoli repeatedly and Alex Meret produced a huge late one-on-one save as the first leg finished goalless.',image:'assets/bastoni-napoli.jpg',body:[
+ 'Napoli will return from Madrid with the Champions League quarter-final exactly where they wanted it: alive, level and headed back to the Maradona.',
+ 'The visitors had the clearest first-half opening when Nico Paz struck the post in the 34th minute. Atlético carried threat through Julián Álvarez and Santiago Castro, but Napoli’s defensive structure held, with Bastoni and Cucurella making a series of important interventions.',
+ 'Napoli continued to ask questions after the break. Davies forced Oblak into action and the Atlético goalkeeper later produced another major save from substitute Federico Chiesa as Napoli searched for the away breakthrough.',
+ 'The decisive defensive moment came late. Castro escaped clean through, but Alex Meret stood up to the one-on-one and made a huge save to preserve the clean sheet.',
+ 'There is no away-goals calculation and no advantage to protect. The equation in Naples is brutally simple: win the second leg and Napoli are in the Champions League semi-finals.'
+ ],commentHeat:36,comments:[['MeretUnion','That Castro save. THAT is why you trust your keeper in Europe.'],['BastoniAgenda','Another European clean sheet. Bastoni is operating on a different level.'],['PioNation','Bring them to Naples. We finish this there.'],['NapoliDoomer','0-0 means I now have several days to imagine every possible disaster.'],['SaladinoOutNow','Could not even score in Madrid. Apparently this is progress. Saladino OUT.']]},
+ {id:'oblak-meret-apr-2028',category:'Feature',label:'Champions League · Goalkeepers',date:'Atlético Madrid 0–0 Napoli',tone:'feature',reaction:'player-focus',headline:'Oblak at One End, Meret at the Other: The Saves That Kept Madrid Goalless',dek:'Napoli created enough to threaten Atlético’s clean sheet, but Jan Oblak answered. Then, with Castro through late, Alex Meret answered back.',image:'assets/bastoni-napoli.jpg',body:[
+ 'For long stretches, Napoli looked the likelier side to turn a tight European first leg into a lead. Nico Paz hit the post, Alphonso Davies tested Jan Oblak and Federico Chiesa was denied after coming on.',
+ 'Oblak’s resistance kept Atlético level. But the most consequential save of the night may have belonged to the goalkeeper at the other end.',
+ 'Late in the match, Santiago Castro broke free with only Meret to beat. A goal there would have changed the entire second-leg problem. Meret won the duel and Napoli left Madrid at 0-0 instead of chasing the tie.',
+ 'It was not a spectacular Napoli performance. It was something equally useful in Europe: mature, competitive and difficult to break.'
+ ],commentHeat:27,comments:[['MeretUnion','PUT THE SAVE IN THE MUSEUM.'],['CurvaCalculator','One home win from a Champions League semi-final. That is the entire equation.'],['AtletiGuest','Oblak saved us tonight. Naples is going to be horrible.'],['SaladinoOutNow','Celebrating goalkeeper saves now. The standards keep dropping.']]},
+ {id:'naples-decides-atletico-apr-2028',category:'Opinion',label:'Champions League · Second Leg Ahead',date:'Quarter-final tied 0–0',tone:'feature',reaction:'discussion',headline:'Now the Maradona Gets Its Turn',dek:'After surviving and threatening in Madrid, Napoli need no permutations in the return leg: beat Atlético at home and the European run continues.',image:'assets/pio-napoli.webp',body:[
+ 'Napoli did not go to Madrid to win headlines. They went to make sure the quarter-final would still be theirs to take when Atlético arrived in Naples.',
+ 'That objective is complete. The first leg ended 0-0 despite chances at both ends, including Paz’s shot off the post and Meret’s late rescue against Castro.',
+ 'The second leg now strips away every complication. Napoli do not need to defend an away lead or calculate a margin. Win at the Maradona and they reach the Champions League semi-finals.',
+ 'After eliminating Real Madrid in the previous round, another Spanish heavyweight now has to walk into Naples and beat a team that has spent this season becoming increasingly comfortable in pressure matches.'
+ ],commentHeat:32,comments:[['CurvaSud','Bring them home.'],['NapoliDoomer','I am calm. This is a lie.'],['PioHaterForNoReason','Pio did not score so naturally I have prepared a 14-post thread.'],['SaladinoOutNow','If Saladino were elite he would have won the first leg 4-0. Simple.']]}
+ ];
+ const ids=new Set(stories.map(s=>s.id));D.articles=[...stories,...(D.articles||[]).filter(a=>!ids.has(a.id))];
+ if(Array.isArray(D.results)){const row=['Atlético Madrid','Napoli','Champions League',0,0,'D','—','Quarter-final first leg; Paz hit post; Meret late one-on-one save'];const i=D.results.findIndex(r=>r[0]==='Atlético Madrid'&&r[1]==='Napoli'&&r[2]==='Champions League');if(i>=0)D.results[i]=row;else D.results.push(row);}
+ D.hero={articleId:'atletico-0-0-leg1-apr-2028',strap:'ATLÉTICO 0–0 NAPOLI · QUARTER-FINAL LEVEL'};
+ D.ticker=['FT · ATLÉTICO MADRID 0–0 NAPOLI','UCL QF · FIRST LEG · LEVEL','PAZ 34′ · OFF THE POST','MERET · HUGE LATE SAVE','SECOND LEG · NAPLES DECIDES',...(D.ticker||[])].slice(0,10);
+ if(Array.isArray(D.whispers)){D.whispers.unshift(['Naples Decides','The Champions League quarter-final returns to the Maradona tied 0–0.'],['Meret Moment','A late one-on-one save from Meret denied Castro and protected the clean sheet.'],['Oblak Wall','Paz hit the post while Davies and Chiesa forced saves from Atlético’s goalkeeper.']);D.whispers=D.whispers.slice(0,8);}
+})();
