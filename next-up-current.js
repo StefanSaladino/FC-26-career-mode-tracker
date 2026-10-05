@@ -1,8 +1,8 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
  D.upcoming=[
-  ['Atlético Madrid','Champions League · Quarter-final second leg','Home · Aggregate 0–0'],
-  ['Roma','Serie A','Away']
+  ['Roma','Serie A','Home · Apr 15'],
+  ['Torino','Coppa Italia','Home · Apr 19']
  ];
  const el=document.getElementById('nextTwo');
  if(el) el.innerHTML=D.upcoming.map(x=>`<div class="next-row"><strong>${x[0]}</strong><span>${x[1]} · ${x[2]}</span></div>`).join('');
