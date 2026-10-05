@@ -8,6 +8,8 @@
  ];
  const ids=new Set(stories.map(s=>s.id));D.articles=[...stories,...(D.articles||[]).filter(a=>!ids.has(a.id))];
  if(Array.isArray(D.results)){const row=['Napoli','Atlético Madrid','Champions League',1,0,'W','Pio Esposito 44′','Quarter-final second leg; Napoli win 1-0 on aggregate; Davies assist; Meret decisive saves'];const i=D.results.findIndex(r=>r[0]==='Napoli'&&r[1]==='Atlético Madrid'&&r[2]==='Champions League');if(i>=0)D.results[i]=row;else D.results.push(row);}
+ D.latestResult=['Napoli','1–0','Atlético Madrid','Pio Esposito 44′ · Napoli win 1–0 on aggregate'];
+ D.upcoming=[['Roma','Serie A','Home · Apr 15'],['Torino','Coppa Italia','Home · Apr 19']];
  D.hero={articleId:'napoli-atletico-1-0-leg2-apr-2028',strap:'NAPOLI 1–0 ATLÉTICO · SEMI-FINAL BOUND'};
  D.ticker=['FT · NAPOLI 1–0 ATLÉTICO MADRID','AGG · NAPOLI 1–0 ATLÉTICO','PIO 44′ · DAVIES ASSIST','MERET · ONE CONCEDED IN LAST FOUR UCL','SEMI-FINAL · BARCELONA NEXT',...(D.ticker||[])].slice(0,10);
  if(Array.isArray(D.whispers)){D.whispers.unshift(['European Wall','Meret has conceded just once across Napoli’s last four Champions League fixtures.'],['Pio Moment','The 44th-minute winner against Atlético sends Napoli into the semi-finals.'],['Spanish Gauntlet','Real Madrid eliminated. Atlético eliminated. Barcelona next.']);D.whispers=D.whispers.slice(0,8);}
