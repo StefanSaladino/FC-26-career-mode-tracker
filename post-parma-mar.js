@@ -1,0 +1,22 @@
+(()=>{
+ const D=window.NAPOLI_DATA;if(!D)return;
+ const stories=[
+ {id:'parma-away-mar-2028',category:'Match Report',label:'Serie A · Matchday 29',date:'Parma 0–3 Napoli · FT',tone:'news',reaction:'league-win',headline:'Professional, Ruthless, Unbeaten: Napoli Put Three Past Parma',dek:'Beukema opened the scoring from De Bruyne’s corner before second-half penalties from Beier and Endrick completed a 3–0 away win with Madrid looming.',image:'assets/beier-napoli.jpg',body:[
+ 'Napoli handled the assignment exactly as required. With Alessandro Bastoni and Alessandro Buongiorno protected ahead of the Champions League return in Madrid, the league leaders went to Parma, won 3–0 and extended their unbeaten Serie A season to 29 matches.',
+ 'The breakthrough arrived in the 28th minute from a set piece. Kevin De Bruyne delivered the corner and Sam Beukema finished it to put Napoli in front.',
+ 'Parma stayed within touching distance into the second half, but Napoli eventually pulled clear from the penalty spot. Maximilian Beier converted professionally in the 67th minute before Endrick took the second penalty five minutes later and made it 3–0.',
+ 'The performance was not flawless. Billy Gilmour missed several passes Napoli would expect their most creative midfielders to complete, and the rotated side did not always move the ball with its usual precision. But the result never required Napoli to expose the defensive pillars being saved for Madrid.',
+ 'That balance is the real victory. Three goals, a clean sheet, no league defeat, and Bastoni and Buongiorno preserved for the Bernabéu. Napoli now turn immediately toward Real Madrid with a 1–0 first-leg advantage.'
+ ],commentHeat:18,comments:[['RotationNation','Three nil away while resting Bastoni and Buongiorno. That is squad depth.'],['BeierHive','Beier scores against Madrid and scores again at Parma. Keep feeding him.'],['KDBVision','Another assist from Kevin. Corner exactly where it needed to be.'],['MadridNext','Perfect. Nobody celebrate too long. Bernabéu next.']]},
+ {id:'title-race-nine-clear-mar-2028',category:'Opinion',label:'Serie A · Title Race',date:'After Matchday 29',tone:'feature',reaction:'discussion',headline:'Napoli Answer the Opening: Nine Clear and Still Unbeaten',dek:'Cagliari briefly tightened the race. One matchday later Napoli have responded with three goals at Parma while Milan and Inter both drop points.',image:'assets/bastoni-napoli.jpg',body:[
+ 'The 0–0 draw with Cagliari created the first real sense in weeks that Napoli might be giving the chasing pack an opening. Milan moved within six points. Inter remained close enough to believe. The pressure was beginning to change shape.',
+ 'Napoli’s response has been emphatic. A 3–0 away win at Parma takes them to 69 points from 29 matches: 20 wins, nine draws and still no defeats.',
+ 'Around them, the chase stalled. Milan remain second on 60 points after dropping points. Inter drew again and sit on 59, level with Atalanta. Napoli therefore lead Milan by nine and both Inter and Atalanta by ten, with every club having played 29 matches.',
+ 'Nothing is mathematically finished, and a nine-point lead can disappear if standards slip. But this was the kind of matchday champions exploit. Napoli did not merely benefit from mistakes elsewhere; they took care of their own business first.',
+ 'The timing matters too. Napoli are fighting on multiple fronts and travel to Madrid next carrying a one-goal Champions League advantage. Rotation is no longer a luxury. The ability to rest Bastoni and Buongiorno and still win 3–0 away is evidence that the squad can absorb the schedule rather than simply survive it.',
+ 'The Scudetto race is not over. It is, however, increasingly being played on Napoli’s terms.'
+ ],commentHeat:21,comments:[['ScudettoWatch','Nine clear of Milan. Ten clear of Inter. Still unbeaten. This is getting serious.'],['NoComplacency','Great position. Nothing won in March. Keep going.'],['PartenopeiProfessor','The response to Cagliari is what matters. Champions do not let one draw become two.'],['BergamoWatcher','Atalanta quietly level with Inter now. The chase behind Napoli is getting crowded.']]}
+ ];
+ D.articles=[...stories,...(D.articles||[]).filter(a=>!stories.some(s=>s.id===a.id))];
+ D.latestResult=['Parma','0–3','Napoli','Serie A · Beukema 28′ · Beier 67′ pen · Endrick 72′ pen'];
+})();
