@@ -72,8 +72,11 @@ main{padding-bottom:30px}
   letter-spacing:-.02em;
 }
 .comment-body{min-width:0;padding-top:1px}
-.comment-user{margin:0 0 5px;color:var(--blue);font-size:.78rem;font-weight:900;line-height:1.2}
+.comment-user{display:flex;align-items:baseline;gap:8px;margin:0 0 5px;color:var(--blue);font-size:.78rem;font-weight:900;line-height:1.2}
+.comment-user>span{color:var(--muted);font-weight:700;white-space:nowrap}
 .comment-body p{margin:0;color:#263445;font-size:.92rem;line-height:1.58;overflow-wrap:anywhere}
+.fan-actions{display:flex;align-items:center;gap:16px;margin-top:9px;color:var(--muted);font-size:.75rem;font-weight:800}
+.fan-actions>span{display:inline-block;white-space:nowrap}
 
 @media(max-width:760px){
   main{padding-bottom:18px}
@@ -86,8 +89,9 @@ main{padding-bottom:30px}
   .comments-list{padding:0 18px 5px}
   .fan-comment{grid-template-columns:36px minmax(0,1fr);gap:11px;padding:16px 0}
   .comment-avatar{width:34px;height:34px;font-size:.7rem}
-  .comment-user{font-size:.75rem;margin-bottom:4px}
+  .comment-user{font-size:.75rem;margin-bottom:4px;gap:7px}
   .comment-body p{font-size:.88rem;line-height:1.52}
+  .fan-actions{gap:14px;margin-top:8px}
 }
 
 @media(max-width:420px){
