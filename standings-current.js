@@ -1,13 +1,10 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
- D.serieAStandings={updated:'After Inter 1–1 Napoli · 27 matches for Napoli and Inter',rows:[
-  ['Napoli',27,19,8,0,39,15,24,65],
-  ['Inter (Lombardia FC)',27,16,9,2,47,25,22,57],
-  ['Atalanta (Bergamo Calcio)',24,15,3,6,44,29,15,48],
-  ['Milan',24,16,0,8,45,28,17,48],
-  ['Lazio (Latium)',24,13,5,6,40,21,19,44],
-  ['Roma',24,14,2,8,43,31,12,44]
+ D.serieAStandings={updated:'After 28 matches · latest manager-supplied table',rows:[
+  ['Napoli',28,19,9,0,39,15,24,66],
+  ['Milan',28,null,null,null,null,null,null,60],
+  ['Inter (Lombardia FC)',28,null,null,null,null,null,null,58]
  ]};
- D.tableContext='Napoli remain unbeaten at 19W–8D–0L with 65 points from 27 matches. Inter are on 57 from 27 after the 1–1 draw at San Siro, so Napoli preserve the eight-point lead. Other rows remain at their last manager-supplied totals until updated.';
- D.ticker=['SERIE A · NAPOLI 65 PTS · INTER 57 · EIGHT-POINT LEAD','NAPOLI · 27 PLAYED · 19W 8D 0L · UNBEATEN','INTER 1–1 NAPOLI · GAP UNCHANGED',...(D.ticker||[]).filter(x=>!String(x).includes('NAPOLI 64')&&!String(x).includes('26 PLAYED'))].slice(0,9);
+ D.tableContext='Napoli remain unbeaten at 19W–9D–0L with 66 points from 28 matches after the 0–0 draw with Cagliari. Milan hold sole possession of second on 60 points from 28. Inter are third on 58 from 28 after drawing their latest match. Other table details remain at their last manager-supplied totals until updated.';
+ D.ticker=['SERIE A · NAPOLI 66 · MILAN 60 · INTER 58','NAPOLI · 28 PLAYED · 19W 9D 0L · UNBEATEN','MILAN · SOLE POSSESSION OF SECOND',...(D.ticker||[]).filter(x=>!String(x).includes('NAPOLI 65')&&!String(x).includes('27 PLAYED'))].slice(0,9);
 })();
