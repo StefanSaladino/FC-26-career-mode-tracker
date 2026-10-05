@@ -4,14 +4,14 @@
  // individual games, but this file owns the season totals so script order can
  // never double-count or wipe out a later result.
  D.stats=[
- ['Pio Esposito',22,11,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
- ['Maximilian Beier',21,9,'Running total · includes friendlies · brace vs Genoa'],
+ ['Pio Esposito',22,10,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
+ ['Maximilian Beier',20,9,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
  ['Endrick',12,7,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
- ['Nico Paz',5,7,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
+ ['Nico Paz',5,8,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
  ['Kevin De Bruyne',3,3,'Running total · includes friendlies · assisted Beier vs Genoa'],
- ['Alphonso Davies',3,3,'Running total · includes friendlies · assisted Beier at Real Madrid'],
+ ['Alphonso Davies',3,4,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
  ['Federico Chiesa',3,2,'Running total · includes friendlies · assisted Pio vs Genoa'],
- ['Scott McTominay',1,7,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
+ ['Scott McTominay',1,6,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
  ['Alessandro Bastoni',1,0,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
  ['Anton Stach',1,1,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
  ['Sam Beukema',1,0,'Running total · includes friendlies · through Napoli 3–1 Genoa'],
