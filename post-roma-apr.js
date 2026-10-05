@@ -18,6 +18,7 @@
  const ids=new Set(stories.map(s=>s.id));
  D.articles=[...stories,...(D.articles||[]).filter(a=>!ids.has(a.id))];
  D.hero={...(D.hero||{}),articleId:'roma-apr-title-countdown',strap:'ONE WIN FROM THE SCUDETTO'};
+ D.latestResult=['Napoli','2–0','Roma','Serie A · Beier (Chiesa), Endrick (Chiesa) · clean sheet'];
  D.matches=(D.matches||[]).filter(m=>!(m.team==='Napoli'&&m.opponent==='Roma'&&String(m.date||'').includes('Apr')));
  D.matches.unshift({team:'Napoli',competition:'Serie A',date:'Apr 15',opponent:'Roma',venue:'Home',status:'FT',score:'2–0',note:'Beier (Chiesa), Endrick (Chiesa) · Clean sheet'});
 })();
