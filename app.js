@@ -3,7 +3,7 @@ const D = {
   meta: raw.meta || {}, ticker: raw.ticker || [], hero: raw.hero || {}, articles: raw.articles || [],
   results: raw.results || [], upcoming: raw.upcoming || [], stats: raw.stats || [], youth: raw.youth || [],
   whispers: raw.whispers || [], media: raw.media || [], firstXI: raw.firstXI || [], squadPublic: raw.squadPublic || {},
-  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || []
+  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || [], latestResult: raw.latestResult || null
 };
 
 if (!D.articles.length && Array.isArray(raw.news)) {
@@ -84,7 +84,13 @@ if(D.articles.length){
 }
 
 const latestNapoli=napoli[napoli.length-1];
-if($('latestResult')&&latestNapoli) $('latestResult').innerHTML=`<div class="latest-score"><span>NAP</span><strong>${latestNapoli[3]}–${latestNapoli[4]}</strong><span>${escapeHTML(String(latestNapoli[1]).slice(0,3).toUpperCase())}</span></div><p>${escapeHTML(latestNapoli[6])}</p>`;
+if($('latestResult')) {
+  if(Array.isArray(D.latestResult) && D.latestResult.length>=4) {
+    $('latestResult').innerHTML=`<div class="latest-score"><span>${escapeHTML(String(D.latestResult[0]).slice(0,3).toUpperCase())}</span><strong>${escapeHTML(D.latestResult[1])}</strong><span>${escapeHTML(String(D.latestResult[2]).slice(0,3).toUpperCase())}</span></div><p>${escapeHTML(D.latestResult[3])}</p>`;
+  } else if(latestNapoli) {
+    $('latestResult').innerHTML=`<div class="latest-score"><span>NAP</span><strong>${latestNapoli[3]}–${latestNapoli[4]}</strong><span>${escapeHTML(String(latestNapoli[1]).slice(0,3).toUpperCase())}</span></div><p>${escapeHTML(latestNapoli[6])}</p>`;
+  }
+}
 const nextClub=D.upcoming.filter(x=>x[1]!=='International').slice(0,2);
 if($('nextTwo')&&nextClub.length) $('nextTwo').innerHTML=nextClub.map(x=>`<div class="next-row"><strong>${escapeHTML(x[0])}</strong><span>${escapeHTML(x[1])} · ${escapeHTML(x[2])}</span></div>`).join('');
 if($('formLine')&&(serieA.length||ucl.length)) $('formLine').innerHTML=`<div><strong>${record(serieA)}</strong><span>Serie A · ${points(serieA)} pts</span></div><div><strong>${record(ucl)}</strong><span>Europe · ${points(ucl)} pts</span></div>`;
@@ -124,9 +130,9 @@ if($('mediaWall')&&D.media.length) $('mediaWall').innerHTML=D.media.map(item=>{
     const source=item.source?` · <a href="${escapeHTML(item.source)}" target="_blank" rel="noopener noreferrer">source</a>`:'';
     const itemCredit=item.credit?`<div class="photo-credit">${escapeHTML(item.credit)}${source}</div>`:'';
     const articleId=item.articleId||mediaArticleMap[item.title];
-    const attrs=articleId?` data-article="${escapeHTML(articleId)}" tabindex="0" role="button" aria-label="Open article: ${escapeHTML(item.title)}"`:'';
-    const affordance=articleId?'<span class="read-link">Read story →</span>':'';
-    return `<figure class="media-item${articleId?' media-item-link':''}"${attrs}><div class="media-photo">${img(item.src,item.title,false,'',item.objectPosition,item.objectFit)}</div><figcaption><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong>${affordance}${itemCredit}</figcaption></figure>`;
+    const attrs=articleId?` data-article="${escapeHTML(articleId)}" tabindex="0" role="button"`:'';
+    return `<article class="media-item"${attrs}>${img(item.src,item.title,false,'',item.objectPosition,item.objectFit)}<div><span>${escapeHTML(item.tag)}</span><h3>${escapeHTML(item.title)}</h3>${itemCredit}</div></article>`;
   }
-  return `<div class="media-item video-coming"><div class="play-orbit">▶</div><div><span>${escapeHTML(item.tag)}</span><strong>${escapeHTML(item.title)}</strong><p>${escapeHTML(item.note)}</p></div></div>`;
+  if(item.type==='video') return `<article class="media-item video"><video controls preload="metadata" playsinline src="${escapeHTML(item.src)}"></video><div><span>${escapeHTML(item.tag)}</span><h3>${escapeHTML(item.title)}</h3></div></article>`;
+  return '';
 }).join('');
