@@ -7,6 +7,7 @@
  ];
  const ids=new Set(stories.map(s=>s.id));D.articles=[...stories,...(D.articles||[]).filter(a=>!ids.has(a.id))];
  if(Array.isArray(D.results)){const row=['Napoli','Monza','Serie A',2,0,'W','Endrick 52′ (pen); Chiesa 75′','Endrick penalty; Chiesa from Endrick; heavily rotated XI'];const i=D.results.findIndex(r=>r[0]==='Napoli'&&r[1]==='Monza'&&r[2]==='Serie A');if(i>=0)D.results[i]=row;else D.results.push(row);}
+ D.latestResult=['Napoli','2–0','Monza','Endrick 52′ (pen); Chiesa 75′'];
  D.standings=[['Napoli',32,23,9,0,48,16,32,78],['Milan',32,22,0,10,63,34,29,66],['Inter',32,18,11,3,56,32,24,65],['Atalanta',32,19,7,6,59,35,24,64],['Roma',32,19,3,10,56,39,17,60],['Juventus',32,17,7,8,57,40,17,58]];
  D.hero={articleId:'monza-2-0-apr-2028',strap:'NAPOLI 2–0 MONZA · TWELVE CLEAR'};
  D.ticker=['FT · NAPOLI 2–0 MONZA','SERIE A · NAPOLI 78 · MILAN 66','TWELVE CLEAR · SIX TO PLAY','ENDRICK 52′ PEN · CHIESA 75′','MILAN 4–1 INTER · DERBY SHOCK','NEXT · ATLÉTICO MADRID · UCL QF SECOND LEG',...(D.ticker||[])].slice(0,10);
