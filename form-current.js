@@ -1,6 +1,5 @@
 (()=>{
  const form=document.getElementById('formLine');
  if(!form)return;
- const blocks=form.querySelectorAll('div');
- if(blocks[0]) blocks[0].innerHTML='<strong>19-8-0</strong><span>Serie A · 65 pts</span>';
+ form.innerHTML='<div><strong>19-9-0</strong><span>Serie A · 66 pts</span></div>';
 })();
