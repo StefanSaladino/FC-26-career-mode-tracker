@@ -77,6 +77,16 @@ main{padding-bottom:30px}
 .comment-body p{margin:0;color:#263445;font-size:.92rem;line-height:1.58;overflow-wrap:anywhere}
 .fan-actions{display:flex;align-items:center;gap:16px;margin-top:9px;color:var(--muted);font-size:.75rem;font-weight:800}
 .fan-actions>span{display:inline-block;white-space:nowrap}
+.fan-action-button{border:0;background:transparent;padding:0;color:var(--blue);font:inherit;font-weight:850;cursor:pointer}
+.fan-action-button:hover,.fan-action-button:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.comment-replies{margin-top:13px;padding-left:16px;border-left:2px solid #dbe6ef}
+.comment-replies[hidden]{display:none!important}
+.fan-reply{grid-template-columns:32px minmax(0,1fr);gap:10px;padding:13px 0;border-bottom:1px solid #eef2f6}
+.fan-reply:last-child{border-bottom:0}
+.fan-reply .comment-avatar{width:30px;height:30px;font-size:.64rem;background:#173a5f}
+.fan-reply .comment-user{font-size:.72rem;margin-bottom:3px}
+.fan-reply .comment-body p{font-size:.86rem;line-height:1.5}
+.fan-reply .fan-actions{margin-top:6px;font-size:.7rem;gap:12px}
 
 @media(max-width:760px){
   main{padding-bottom:18px}
@@ -92,6 +102,10 @@ main{padding-bottom:30px}
   .comment-user{font-size:.75rem;margin-bottom:4px;gap:7px}
   .comment-body p{font-size:.88rem;line-height:1.52}
   .fan-actions{gap:14px;margin-top:8px}
+  .comment-replies{margin-top:11px;padding-left:11px}
+  .fan-reply{grid-template-columns:29px minmax(0,1fr);gap:8px;padding:11px 0}
+  .fan-reply .comment-avatar{width:27px;height:27px;font-size:.6rem}
+  .fan-reply .comment-body p{font-size:.83rem}
 }
 
 @media(max-width:420px){
