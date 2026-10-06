@@ -6,7 +6,7 @@ FC26 screens / manager-read game data are the statistical source of truth. The c
 
 ## THE CURRENT ERA — CHAMPIONS OF ITALY, CHAMPIONS LEAGUE FINALISTS
 
-SSC Napoli are 2027–28 Serie A champions and, for the first time in club history, UEFA Champions League finalists.
+SSC Napoli are 2027–28 Serie A champions and, for the first time in club history, UEFA Champions League finalists. **Paris Saint-Germain are the confirmed opponent in the Champions League final.**
 
 ### Current league state
 Napoli have played 35 Serie A matches: **26 wins, 9 draws, 0 losses, 87 points**, with three league matches remaining. The unbeaten season remains alive. The latest league result was a heavily rotated **1–0 home win over Pisa**, Federico Chiesa scoring in the 11th minute from Endrick. Endrick later had a penalty saved.
@@ -23,7 +23,7 @@ Second leg at the Maradona: **Napoli 2–0 Barcelona**. Napoli advance **3–1 o
 This sends Napoli to the **first European Cup / Champions League final in club history**. Reaching the semifinal was already a club-best Champions League run; reaching the final extends the record.
 
 ### Champions League knockout gauntlet
-**Inter eliminated → Real Madrid eliminated → Atletico Madrid eliminated → Barcelona eliminated → CHAMPIONS LEAGUE FINAL.**
+**Inter eliminated → Real Madrid eliminated → Atletico Madrid eliminated → Barcelona eliminated → PARIS SAINT-GERMAIN IN THE CHAMPIONS LEAGUE FINAL.**
 
 Inter: Napoli lost 2–1 at home, won 2–0 at San Siro, advanced 3–2 aggregate. Davies scored from Pio; Paz scored the aggregate winner from Endrick; Meret starred.
 
@@ -33,7 +33,7 @@ Atletico Madrid: 0–0 away, 1–0 home, 1–0 aggregate. After 134 scoreless mi
 
 Barcelona: 1–1 away, 2–0 home, 3–1 aggregate. McTominay scored from De Bruyne in the first leg. Paz from Beier and Chiesa from Kayode scored in the historic second leg. Meret was decisive across both matches.
 
-No easy-path framing is legitimate. Napoli reached the final through a brutal sequence of elite opponents and repeatedly won ties in different ways.
+No easy-path framing is legitimate. Napoli reached the final through a brutal sequence of elite opponents and repeatedly won ties in different ways. **PSG are the final obstacle.**
 
 ## Current FC26 production
 These totals are updated through Napoli 2–0 Barcelona and supersede older site/README totals.
@@ -95,7 +95,7 @@ Already secured / alive:
 - **Serie A champions**
 - **26–9–0 / 87 points after 35 league matches**
 - **Unbeaten Serie A season still alive**
-- **First Champions League final in Napoli history**
+- **First Champions League final in Napoli history — vs Paris Saint-Germain**
 - **Coppa Italia remains part of the trophy picture**
 
 ## Championship media
@@ -121,13 +121,14 @@ Major stories should contain bespoke article-specific comments first, seeded can
 5. Latest result / Next Up / Form / pressure points move together after matches.
 6. The Scudetto is won; never revert to title-race framing except historically.
 7. Current league state is **35 played, 26–9–0, 87 points, champions, unbeaten**.
-8. Napoli are **Champions League finalists**, not semifinalists.
+8. Napoli are **Champions League finalists against Paris Saint-Germain**, not semifinalists.
 9. Barcelona semifinal canon: **1–1 away, 2–0 home, 3–1 aggregate; Paz 7′ from Beier, Chiesa 75′ from Kayode.**
 10. Meret's European wall is major canon.
 11. Pio remains face of the era; Beier is a star; Paz's Barcelona goal is a legacy moment.
 12. Scudetto media stays attached to Scudetto coverage. Do not recycle it into unrelated European stories.
 13. Commenter lore persists across engine changes.
 14. Manager narration corrections become canonical immediately.
+15. **PSG are the confirmed 2027–28 Champions League final opponent. Do not revert to “opponent TBD” framing.**
 
 ## Current posture
-Napoli have crossed into unprecedented territory. The Scudetto is secured, the unbeaten league season remains alive, the Coppa remains relevant, and the club will play in its first Champions League final. The European-final opponent and date must remain unspecified until confirmed by FC26.
+Napoli have crossed into unprecedented territory. The Scudetto is secured, the unbeaten league season remains alive, the Coppa remains relevant, and the club will play **Paris Saint-Germain in its first Champions League final**. All current homepage, preview and editorial framing should treat PSG as the confirmed final opponent; unknown final details must remain unspecified until confirmed by FC26.
