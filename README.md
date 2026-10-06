@@ -2,210 +2,201 @@
 
 ## Canonical current save state
 
-This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. Unknown outcomes are never guessed.
+This README is the continuity reference for the save. Every material development discussed with the manager must be recorded here and/or in the appropriate site data file. **FC26 screens / manager-read game data are the statistical source of truth. Unknown outcomes are never guessed.**
 
-### Current domestic position
+## THE CURRENT ERA — SCUDETTO CHAMPIONS
 
-- **Napoli:** 1st in Serie A, **65 points from 27 matches: 19W–8D–0L**, 39 GF, 15 GA, +24. Still unbeaten.
-- **Inter/Lombardia FC:** 2nd, **57 points from 27: 16W–9D–2L**, 47 GF, 25 GA, +22.
-- Napoli's league lead remains **eight points**.
-- Other league rows remain at their last manager-supplied totals until refreshed; do not invent results.
+**SSC Napoli are 2027–28 Serie A champions.** The Scudetto has been clinched and the in-game trophy presentation has occurred. This is no longer a title chase: Saladino's Napoli have won the league.
 
-### Latest — Torino 0–4 Napoli, Coppa Italia leg one
+The championship is the first secured trophy of the current end-of-season run. Napoli's season remains alive in Europe and the Coppa Italia, so the final historical status of the campaign is not yet settled.
 
-A bizarre first leg went from **0–0 at halftime** to a four-goal Napoli rout.
+### Championship media
 
-- **50': Maximilian Beier penalty — 1–0.** Pio Esposito was resting, so Beier took responsibility.
-- **62': Beier penalty — 2–0.**
-- **66': Beier penalty — 3–0.** Beier completed a **penalty hat trick**, converting three spot kicks in sixteen minutes.
-- **86': Endrick, assist Beier — 4–0.** Beier finished with **3 goals + 1 assist**, directly contributing to every Napoli goal.
-- FT: **Torino 0–4 Napoli. This was LEG ONE. Napoli are NOT yet through.**
-- Napoli carry a **4–0 aggregate advantage** into the return leg and are in an extremely strong position.
-- Beier rises to **15G / 9A** for the tracked season.
-- Endrick rises to **11G / 7A**.
-- Pio received a full rest.
+The manager supplied video of the full Serie A trophy celebration/presentation. Treat that footage as canonical championship media and preserve it for the Season Room's Scudetto coverage / Media section. Do not describe the title as merely projected or likely after this point.
 
-### Beier breakout storyline
+## The identity of Saladino's Napoli
 
-Beier has moved from quietly productive to impossible to ignore. He scored Napoli's goal in the 1–1 Serie A draw at Inter and followed it with a hat trick plus an assist against Torino. He has **four goals across the last two matches**, plus the assist for Endrick in Turin.
+This team has moved beyond being a promising project. The defining characteristic of the season has become its ability to survive different kinds of matches with different match-winners. Pio Esposito has been the attacking constant; Beier has developed into a major star; Endrick gives the attack another elite route; Paz is the long-term creative centerpiece; Bastoni and Buongiorno have become the defensive foundation; Meret has delivered major saves in Europe; Davies, Kayode, Chiesa, McTominay, De Bruyne and the supporting cast have all had decisive moments.
 
-Current production: **15G / 9A — 24 direct goal contributions.** The editorial framing should no longer treat him merely as supporting cast behind Pio, Endrick and Paz. He is one of Napoli's major attacking producers this season.
+The editorial framing should reflect a team that is **difficult to kill**, not a one-player side.
 
-The Torino hat trick is specifically notable because all three goals were penalties: 50', 62', 66'. Do not rewrite them as open-play goals. The third conversion carried the pressure of completing the hat trick against the same goalkeeper.
+## Pio Esposito — OUR GUY / face of the era
 
-### Development / ratings watch
+Pio is currently the closest thing this Napoli has to its defining player — the player whose face represents the Saladino era in the way iconic club eras become associated with one figure.
 
-Latest manager-supplied ratings:
-- **Alessandro Bastoni — 91 OVR.** Now an elite-rated centerpiece of the senior defence.
-- **Burnett — 69 OVR (loan).** Already showing significant development on his two-year loan; continue monitoring rather than recalling prematurely.
-- **Brun — 67 OVR (loan).** Strong early growth on his six-month development loan.
-- **Ricci — 66 OVR (loan).** Also progressing quickly on his six-month loan.
+This is **not** merely a claim that Pio is always the best player in every match. Beier can be hotter, Paz may eventually become the technical centerpiece, Bastoni can be the elite defensive standard, and Endrick can decide major games. The distinction is identity.
 
-Brun and Ricci should be reassessed when their short loans end rather than automatically sent back out. Burnett's two-year loan remains a long-development play unless circumstances materially change.
+Pio's rise was organic. He was not installed as the face of the project by transfer fee or marketing. He became central while the squad around him grew more expensive and more talented. His combination of goals, creation, Italian identity and continuity with the project makes him the current face of Napoli.
 
-### Inter rivalry week
+The long-term legend comparison still requires time, loyalty and trophies. The canonical question is now whether Pio can turn 'face of this Napoli team' into genuine club-icon status over many seasons.
 
-Napoli's two trips to San Siro in four days produced:
+## Current FC26 production — source-of-truth audit
 
-1. **Inter 0–2 Napoli — Champions League playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick), Meret MOTM. Napoli overturned the tie and advanced **3–2 on aggregate**.
-2. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'. Napoli protected the **eight-point title lead**.
+The manager manually read the current FC26 goals and assists. These numbers supersede older site-derived totals.
 
-The rivalry-week verdict belongs to Napoli: Inter were eliminated from Europe and then failed to gain any ground in Serie A.
+### Goals
+- **Pio Esposito — 22**
+- **Maximilian Beier — 20**
+- **Endrick — 12**
+- **Nico Paz — 5**
+- **Alphonso Davies — 4**
+- **Kevin De Bruyne — 3**
+- **Federico Chiesa — 3**
+- **Alessandro Bastoni — 1**
+- **Scott McTominay — 1**
+- **Anton Stach — 1**
+- **Sam Beukema — 1**
 
-### Champions League state
+### Assists
+- **Pio Esposito — 10**
+- **Maximilian Beier — 9**
+- **Nico Paz — 8**
+- **Endrick — 7**
+- **Scott McTominay — 6**
+- **Alphonso Davies — 4**
+- **Kevin De Bruyne — 3**
+- **Federico Chiesa — 2**
+- **Anton Stach — 1**
+- **Lutsharel Geertruida — 1**
+- **Noa Lang — 1**
+- **Mikey Moore — 1**
+- **Billy Gilmour — 1**
 
-- Napoli eliminated Inter **3–2 on aggregate** after winning the second leg 2–0 away.
-- **Round of 16: Real Madrid.**
-- **Mar 7 — Napoli vs Real Madrid — R16 leg 1, home.**
-- **Mar 15 — Real Madrid vs Napoli — R16 leg 2, away.**
+Do not restore superseded totals such as Beier 21 goals or Pio 11 assists. FC26 is authoritative.
 
-### March rundown — updated
+## Major season storylines
 
-- **Mar 1 — Torino 0–4 Napoli — Coppa Italia LEG 1 — Napoli lead tie 4–0.**
-- **Mar 4 — Cagliari home — Serie A.**
-- **Mar 7 — Real Madrid home — Champions League R16 leg 1.**
-- **Mar 12 — Parma away — Serie A.**
-- **Mar 15 — Real Madrid away — Champions League R16 leg 2.**
-- **Mar 18 — Genoa home — Serie A.**
-- **Mar 22 — Egypt home — International Friendly (Italy).**
-- **Mar 25 — New Zealand home — International Friendly (Italy).**
-- **Mar 31 — Lazio away — Serie A.**
-- **Coppa Italia leg 2 vs Torino — date not yet supplied.** Do not invent it.
+### Beier's transformation
 
-Cagliari is the final match before Real Madrid leg one and remains the clearest rotation/rest opportunity. Pio was already rested against Torino.
+Beier is no longer supporting cast. His season evolved from useful production into genuine star status. The turning point included the extraordinary Coppa Italia first leg at Torino, where he scored a **penalty hat trick** and assisted Endrick, followed by major contributions during the European run and continued league production. He now sits only two goals behind Pio in the FC26 goal ledger.
 
-### Recent Napoli results — newest first
+Beier and Pio should be treated as co-headliners of the attack without erasing Endrick's importance.
 
-1. **Torino 0–4 Napoli — Coppa Italia leg 1:** Beier 50' pen, 62' pen, 66' pen; Endrick 86' (Beier). Napoli lead tie 4–0; not yet through.
-2. **Inter 1–1 Napoli — Serie A:** Beier 17' (Geertruida), De Arrascaeta 41'.
-3. **Inter 0–2 Napoli — UCL playoff leg 2:** Davies 5' (Pio), Paz 76' (Endrick). Meret MOTM. Napoli advance 3–2 aggregate.
-4. **Lecce 0–2 Napoli — Serie A:** Endrick 55' (Pio), Endrick 75' (Pio).
-5. **Napoli 1–2 Inter — UCL playoff leg 1:** De Arrascaeta 3', Endrick 31' (Beier), De Arrascaeta 63'.
-6. **Udinese 0–0 Napoli — Serie A.**
-7. **Napoli 3–2 Fiorentina — Serie A.**
-8. **Napoli 2–0 Sassuolo — Coppa Italia QF.**
-9. **Bologna 0–1 Napoli — Serie A.**
-10. **Bodø/Glimt 2–1 Napoli — Champions League.**
-11. **Napoli 3–0 Como — Serie A.**
-12. **Marseille 3–0 Napoli — Champions League.**
+### The three-forward ecosystem
 
-### Key player storylines
+Napoli do not have a simple ST1/ST2/ST3 hierarchy. Pio is the face of the era and overall attacking reference; Beier has become one of the team's hottest and most decisive scorers; Endrick provides a different profile and has produced in major matches. Leaving any one of them out can be tactically justified, but should be recognized as leaving out a high-level contributor.
 
-- **Maximilian Beier:** **15G / 9A.** Penalty hat trick + assist at Torino after scoring at Inter. Four goals in his last two matches. Major attacking star, not background support.
-- **Pio Esposito:** **21G / 11A.** Rested completely against Torino ahead of the March gauntlet.
-- **Endrick:** **11G / 7A.** Scored the 86' fourth at Torino from Beier's assist.
-- **Alessandro Bastoni:** now **91 OVR**, anchoring an already elite defensive group.
-- **Alex Meret:** official MOTM in the UCL comeback at Inter after three huge saves during the first-half siege.
-- **Nico Paz:** **5G / 7A.** His 76' aggregate winner against Inter remains his defining Napoli moment.
-- **Alphonso Davies:** **3G / 2A.** Scored the 5' opener in the UCL comeback.
-- **Lutsharel Geertruida:** **0G / 1A.** First tracked assist came for Beier's San Siro league goal.
+### Bastoni–Buongiorno defensive identity
 
-### Current recorded Napoli production
+Alessandro Bastoni and Alessandro Buongiorno have become the foundation of a defence capable of surviving elite European opposition. Bastoni's 91 OVR reflects his status as a centerpiece, but Buongiorno must not disappear from the narrative. Their partnership is one of the reasons Napoli can absorb pressure without losing its identity.
 
-Current through **Torino 0–4 Napoli**:
-- **Pio Esposito: 21G / 11A**
-- **Maximilian Beier: 15G / 9A**
-- **Endrick: 11G / 7A**
-- **Nico Paz: 5G / 7A**
-- **Kevin De Bruyne: 3G / 1A**
-- **Federico Chiesa: 3G / 1A**
-- **Alphonso Davies: 3G / 2A**
-- **Scott McTominay: 1G / 5A**
-- **Alessandro Bastoni: 1G / 0A**
-- **Anton Stach: 1G / 1A**
-- **Lutsharel Geertruida: 0G / 1A**
-- **Billy Gilmour: 0G / 1A**
-- **Mikey Moore: 0G / 1A**
-- **Noa Lang: 0G / 1A**
+### Meret's European credibility
+
+Alex Meret has repeatedly supplied important saves in the Champions League, most notably during the Inter comeback and the Real Madrid tie. His story is not background goalkeeper competence; he has actively preserved Napoli in major European moments.
+
+### Kayode's emergence
+
+Michael Kayode has grown into a trusted high-level option and has also produced for Italy, including starting ahead of Di Lorenzo and scoring. His rise creates a genuine succession story with Di Lorenzo without requiring disrespect toward the captain/old guard.
+
+### Nico Paz — long-term succession
+
+Paz remains the major long-term creative investment. The €125m transfer carries expectations, but his story should not be reduced to price. His Champions League aggregate winner against Inter remains an early defining moment. The long-term question is whether he becomes the technical heartbeat of the post-KDB Napoli and eventually challenges Pio as the public face of the side.
+
+## Champions League canon
+
+### Inter playoff comeback
+
+Napoli lost the first leg at home **2–1 to Inter**, then won **2–0 at San Siro** to advance **3–2 on aggregate**. Davies scored early from Pio; Paz scored the aggregate winner from Endrick; Meret was the major defensive hero.
+
+### Real Madrid — Napoli announce themselves
+
+Napoli eliminated **Real Madrid** in the Champions League knockout stage.
+
+Canonical tie result:
+- **Napoli 1–0 Real Madrid at home.**
+- **Real Madrid 1–1 Napoli in Madrid.**
+- **Napoli advance 2–1 on aggregate.**
+
+The Madrid second leg became one of the defining nights of the save. Real generated sustained pressure, but Napoli's defensive group repeatedly survived it. Bastoni and Buongiorno were central to the resistance. Napoli's ability to withstand Madrid changed the internal assessment of the squad: from a strong team to a side with legitimate Champions League-winning capability.
+
+### Atlético Madrid
+
+After eliminating Real, Napoli drew **Atlético Madrid** in the next Champions League round. Atlético coverage is a current major storyline and must sit above older league filler when it is the newest material. Do not bury current Champions League stories beneath Monza or other older league stories simply because of script load order.
+
+The exact latest Atlético match score/details must come from the current site/game record or manager confirmation before being rewritten here; do not reconstruct missing facts from memory.
+
+## Serie A championship arc
+
+At the last fully manager-confirmed table checkpoint before the title was clinched, Napoli were **30 played, 21 wins, 9 draws, 0 losses, 72 points, 45 GF, 16 GA, +29 GD**, nine points ahead of Milan.
+
+Napoli were still unbeaten at that checkpoint. The later Scudetto clinch is confirmed; do not invent a newer W-D-L or points total until supplied directly from FC26.
+
+The unbeaten-season storyline matters, but trophies take priority over preserving an invincible record if the schedule forces a choice.
+
+### Genoa comeback at the 30-match checkpoint
+
+Napoli beat Genoa **3–1** after falling behind: Ostigard scored for Genoa in the 24th; Beier equalized in the 31st from De Bruyne; Beier hit the post in the 45th; Pio went close in the 69th; Pio's shot was spilled for Beier's second in the 83rd; Pio scored from Chiesa on the counter in the 88th.
+
+Important continuity correction: **this was Pio Esposito, not Theo. Napoli do not have Theo Hernández.**
+
+## Italy national-team canon
+
+Saladino also manages Italy. The club initially prioritized Italian recruitment partly because of the dual Napoli/Italy role, but Napoli no longer needs to recruit Italy-first; the squad already has a strong Italian core.
+
+Latest international-friendly window:
+- **Italy 0–3 Egypt — loss.**
+- **Italy 1–0 New Zealand — win.**
+
+These were friendlies. Canonical framing is intentionally restrained: poor first result, useful rebound, no crisis narrative. The focus immediately returned to Napoli.
+
+## Squad / transfer canon
+
+Major 2027–28 additions and decisions include:
+- **Nico Paz — $125m**, 5 years, $180k wage, $2m signing bonus.
+- **Michael Kayode — $10.5m + Lobotka**, $120k wage, $1.5m bonus.
+- **Lutsharel Geertruida — $31.5m**, $105k wage, $970k bonus, $1m/10 apps; 81 OVR when signed.
+- Earlier additions included **Federico Chiesa ($32m)** and **Pio Esposito ($25m)**.
+- Alphonso Davies remains a core player; Bournemouth's Alex Jiménez + $62.4m offer was rejected.
+- Youth/development remains important; Valentini, Mancini, Peacock and loan prospects continue to be monitored.
 
 ## Dressing-room personality & quote bible
 
-These are the canonical starting personalities for fictional in-universe interviews, press quotes and article comments. They are **guides, not caricatures**. Do not force a player into the same catchphrase or emotional reaction every time. Form, age, role, results, rivalry and career development can change how a player speaks over time. Quotes should remain occasional so that hearing directly from a player feels meaningful.
+These are canonical guides, not caricatures. Form, age, role, results, rivalry and career development can change how a player speaks. Quotes should remain occasional so direct player voices feel meaningful.
 
-### Core voices
+- **Alessandro Bastoni — statesman / defensive leader.** Calm, intelligent, authoritative. Strong statements carry weight.
+- **Pio Esposito — quiet killer / emerging face of the club.** Grounded and team-first, but increasingly aware of his status. Confidence without manufactured swagger.
+- **Maximilian Beier — blunt professional.** Reserved, direct, dry humour, intensely competitive.
+- **Nico Paz — thinker.** Reflective and tactically articulate; natural long-form interview voice.
+- **Endrick — spark.** Expressive, enthusiastic, energized by big occasions; confident without arrogance.
+- **Alex Meret — professional.** Humble and team-first; rare emotional statements signal real significance.
+- **Scott McTominay — warrior / standards guy.** Direct, accountable, comfortable discussing suffering, duels and work.
+- **Kevin De Bruyne — veteran technician.** Pragmatic, dry, focused on decisions and game management; growing mentorship angle.
+- **Marc Cucurella — wind-up merchant / energy guy.** Loves duels and hostile atmospheres; cheeky rather than malicious.
+- **Michael Kayode — fearless young gun.** Wants elite assignments; respects stars without fearing them.
+- **Alphonso Davies — positive star.** Relaxed, charismatic, attacking energy; can sharpen tone for major occasions.
+- **Alessandro Buongiorno — understated lieutenant.** Quietly intense and influential; partnership/clean-sheet voice.
+- **Giovanni Di Lorenzo — old guard / captain.** Dignified, reflective, conscious of succession and the shirt. Retirement is not assumed unless manager confirms it.
+- **Federico Chiesa — emotional competitor.** Passionate and visibly invested; fiery without attacking teammates.
+- **Noa Lang — expressive individualist.** Creative, confident, colourful without becoming a dressing-room problem.
+- **Mikey Moore — ambitious youngster.** Energetic, learning, confidence grows with opportunity.
+- **Billy Gilmour — cerebral connector.** Calm, technical, talks rhythm and pressure escape.
+- **Anton Stach — utility professional.** Practical, reliable, preparation-first.
+- **Lutsharel Geertruida — adaptable problem-solver.** Proud of versatility and assertive about its value.
+- **Sam Beukema — no-drama defender.** Collective, straightforward, dependable.
 
-- **Alessandro Bastoni — The statesman / defensive leader.** Calm, intelligent, articulate and authoritative. Proud without being theatrical. Speaks like someone who expects Napoli and Italy to compete with the best rather than merely admire them. Respects former clubs and opponents but is unequivocal about his present loyalties. Comfortable discussing leadership, defensive detail and the direction of the project. Strong statements from Bastoni should carry unusual weight because he does not make them cheaply. Can become visibly sharper when standards slip or when Napoli are patronized.
+## Canonical supporter/commenter universe
 
-- **Pio Esposito — The quiet killer.** Grounded, team-first and initially understated, but his confidence is growing with his status. Does not chase attention or manufacture swagger. Usually redirects individual praise toward teammates, while increasingly sounding like a player who knows he belongs at this level. Big-game quotes should feel composed rather than boastful. His long-term arc can naturally move from promising striker to one of the public faces of Napoli and Italy.
+The recurring commenters are part of the save's continuity. Engine changes must be additive, never erase established personalities. Full architecture lives in `COMMENTS-ARCHITECTURE.md`.
 
-- **Maximilian Beier — The blunt professional.** Reserved, economical and extremely matter-of-fact. Dry humour often comes from how little he embellishes anything. A four-goal contribution night might receive a simple acknowledgement that it was “a good evening.” He is competitive rather than emotionless; frustration and ambition appear in short, direct answers instead of speeches. Never turn him into a robotic German stereotype—his restraint is personality, not parody.
+Core recurring agendas include **SaladinoOutNow, NapoliDoomer, PioNation, PioEra, PioShirtOwner, PioHaterForNoReason, BeierDefenseLeague, BeierHive, EndrickEra, PazEnjoyer/Pazienza, ChiesaHive, MeretUnion, DaviesExpress, BastoniAgenda, BuongiornoBrigade, StachAttack, CaptainRespect, KDBClock/KDBVision, GeertruidaWatch, PeacockWatch, TacticalNonno, RotationPolice, SquadDepthDept, CurvaCalculator, CalendarVictim** and the older general/rival supporter cast.
 
-- **Nico Paz — The thinker.** Reflective, tactically articulate and unusually good at explaining what he saw on the pitch. Talks about spaces, movement, timing and combinations without sounding like a coach giving a lecture. More introspective than confrontational. As his role grows, he can become one of the squad's most interesting long-form interview subjects and eventually a quiet creative leader.
+Do not flatten successful-season comments into universal praise. Player defenders, player haters, tactical arguments, rival trolls and manager agendas are all part of the atmosphere. `SaladinoOutNow` remains anti-manager even when success makes the argument increasingly absurd.
 
-- **Endrick — The spark.** Expressive, enthusiastic and energized by major occasions. Pressure tends to excite rather than intimidate him. More likely to smile when asked about facing a superstar than to give a rehearsed line. Confident, but **not arrogant and not an asshole**. Preserve the youthful joy in his personality even as his status rises. He can occasionally say something bold because he genuinely believes it, not because he is trying to disrespect someone.
+## Editorial rules / continuity safeguards
 
-- **Alex Meret — The professional.** Humble, calm and deeply team-first. Almost instinctively redirects praise toward the defenders and collective effort. After a great goalkeeping performance, he is likely to mention a teammate's block or clearance before his own saves. Usually measured in public; therefore a rare angry or emotional Meret quote should signal that something genuinely significant happened.
+1. **FC26 is the source of truth for stats.** Site-derived arithmetic never overrides a manager-read FC26 screen.
+2. **Never invent an outcome, scorer, assist, aggregate score, table total or transfer.** If missing, leave it unknown until supplied.
+3. **Newest major story wins placement.** Current Champions League, trophy and major-match coverage must not be buried beneath older league filler because of script order.
+4. **The Scudetto is won.** Never revert to 'title race' framing for the 2027–28 league unless discussing the historical path to the championship.
+5. **Pio is currently the face of the era**, but this is identity/editorial canon rather than a rule that he must always be rated the best player.
+6. **Beier is a star**, not supporting cast.
+7. **Bastoni and Buongiorno are a partnership.** Do not make defensive coverage Bastoni-only.
+8. **International friendlies are friendlies.** Do not manufacture crisis from Egypt/New Zealand.
+9. **Commenter lore persists across engine changes.** Do not delete the OG cast.
+10. When manager narration corrects a transcription (e.g. Pio/Theo, post/goal, offside state), the correction is canonical immediately.
 
-- **Scott McTominay — The warrior / standards guy.** Direct, physically and mentally tough, serious about accountability. Talks naturally about suffering, work rate, duels, concentration and doing difficult things for teammates. Not especially interested in romantic narratives when there is a job to do. A natural post-defeat voice because he will acknowledge poor standards without throwing teammates under the bus. Can sound forceful without becoming performatively aggressive.
+## Current assistant-manager posture
 
-- **Kevin De Bruyne — The veteran technician.** Pragmatic, dry and experienced. Has seen enough elite football that hype rarely moves him. Talks about game management, decision-making and what actually wins knockout matches. Can display understated veteran impatience when asked a simplistic question. As his minutes are managed and Paz assumes more responsibility, his voice should gradually include mentorship and perspective without making him prematurely sentimental.
+The season has crossed from 'prove Napoli are elite' into 'define how historic this becomes.' The Scudetto is secured. The remaining priority is maximizing the cup/European ceiling while managing fatigue and protecting the squad. An unbeaten league season is meaningful if still alive, but it is subordinate to winning trophies.
 
-- **Marc Cucurella — The wind-up merchant / energy guy.** Loves the duel, hostile atmospheres and the psychological side of defending. Cheeky rather than malicious. Will talk to opponents, celebrate a huge tackle and occasionally deliver a sly line that irritates the other fanbase. Example energy: “Was he frustrated? I didn't notice. I was busy defending.” Do not make every quote trash talk; the fun is that he can switch between serious tactical answers and a mischievous jab.
-
-- **Michael Kayode — The fearless young gun.** Self-assured, hungry and genuinely wants the hardest assignment. His attitude is not “that superstar is overrated”; it is “he is one of the best in the world—good, I want to test myself against him.” Carries the confidence of a young player who believes his moment is now. Can be one of the most quotable players before major matches because his lack of fear feels sincere rather than manufactured.
-
-- **Alphonso Davies — The positive star.** Relaxed, charismatic and visibly enjoys attacking football. Brings levity to a dressing room containing several very serious personalities. Comfortable with attention without needing to dominate it. Quotes can have warmth, humour and excitement, especially after big attacking moments. When the occasion becomes serious, his experience allows the tone to sharpen without losing his natural optimism.
-
-- **Alessandro Buongiorno — The understated lieutenant.** Quietly intense, dependable and less interested in the spotlight than Bastoni. Speaks plainly about defensive responsibility and trust. Within the dressing room he should feel more influential than his media profile suggests. Excellent voice for pieces about partnerships, clean sheets and doing unglamorous work. If Buongiorno gives an unusually forceful quote, readers should notice.
-
-- **Giovanni Di Lorenzo — The old guard / captain.** Reflective, dignified and conscious of the responsibility attached to the shirt. With retirement now under consideration, he can increasingly speak about standards, succession, Napoli, Italy and what remains after a player leaves—but **do not treat retirement as decided until the manager confirms it**. He should be supportive of Kayode without sounding eager to surrender his place. Sentimentality is earned and should increase only as his career decision approaches.
-
-### Supporting and rotation voices
-
-- **Federico Chiesa — The emotional competitor.** Intense, passionate and visibly invested in winning. More likely than the quieter players to show frustration after a poor result or excitement after a decisive contribution. With his Napoli future expected to end after the season, quotes can gradually carry an undercurrent of wanting to finish properly, but do not turn every appearance into a farewell story. He can be fiery without attacking teammates.
-
-- **Noa Lang — The expressive individualist.** Stylish, confident and comfortable speaking with personality. More willing than most of the squad to talk about creativity, freedom and enjoying football. Can have a little edge when discussing competition for places, but should remain a teammate rather than a dressing-room problem. Useful when an article needs a less corporate, more colourful voice.
-
-- **Mikey Moore — The ambitious youngster.** Curious, energetic and slightly less polished in interviews than the established stars. Excited by opportunities and openly learning from senior attackers. Confidence should grow with minutes and production. Avoid making him sound either awestruck by everything or prematurely superstar-like; he is a talented young player trying to force his way upward.
-
-- **Billy Gilmour — The cerebral connector.** Calm, technical and team-oriented. Likes discussing rhythm, possession and helping the team escape pressure. Less grandiose than Paz and less blunt than McTominay. A useful voice for explaining why a match felt difficult even when the scoreline looked comfortable.
-
-- **Anton Stach — The utility professional.** Reliable, practical and low-maintenance. Embraces being asked to solve different problems. Speaks about preparation, physical work and being ready when selected rather than demanding attention. His personality should reinforce why coaches trust him as insurance across midfield roles.
-
-- **Lutsharel Geertruida — The adaptable problem-solver.** Confident, composed and proud of his versatility. Does not want “utility player” to mean “less important player.” Can talk intelligently about switching positions and reading what a match requires. A little more assertive than Stach about his value to the team.
-
-- **Sam Beukema — The no-drama defender.** Straightforward, dependable and collective-minded. Does not seek headlines. Talks about communication, positioning and taking chances when they come. His quotes should sound like a player who is comfortable doing necessary work even when Bastoni and Buongiorno receive more attention.
-
-- **Rafa Marín — The competitor for minutes.** Professional but ambitious. More willing than Beukema to acknowledge that every appearance matters personally. Wants to prove he belongs in an elite defensive rotation. Contract/role uncertainty can add tension, but never invent discontent unless the manager supplies it.
-
-- **Peacock — The fearless apprentice.** Young goalkeeper with huge potential who understands that development will include mistakes. Enthusiastic, coachable and not intimidated by being thrown into senior matches. Praise should produce excitement rather than entitlement. Meret is a natural mentor figure in his public comments. As he develops, confidence can become more pronounced, but his current voice remains that of a prospect earning trust.
-
-### Personality use rules
-
-1. **Do not quote everybody.** Most articles should remain journalism. Use player quotes when the story genuinely benefits from a dressing-room voice: major results, pressure moments, individual breakthroughs, rivalry, controversy, tactical features, transfer/future pieces, international duty or major European ties.
-2. **Choose the speaker logically.** Tactical creativity → Paz/KDB/Gilmour. Defensive authority → Bastoni/Buongiorno/Meret. Physical battle/accountability → McTominay. Psychological warfare → Cucurella. Fearless challenge → Kayode. Youthful big-game energy → Endrick. Leadership/legacy → Di Lorenzo. Striker form → Pio/Beier/Endrick.
-3. **No repeated catchphrases.** Personality should be recognizable through worldview, sentence rhythm and subject matter, not through recycling the same line.
-4. **Allow development.** Personalities can evolve with age, form, status and events. Pio can become more authoritative; Paz can become a leader; Kayode can mature; Peacock can gain swagger; Di Lorenzo can become more reflective.
-5. **Allow emotional range.** Bastoni can get angry. Meret can celebrate. Cucurella can be serious. Beier can be emotional. The profile defines a baseline, not a cage.
-6. **Quotes are fictional in-universe material.** Never present these generated quotes as real-world statements by the actual players.
-7. **Respect continuity.** Before writing a quote-heavy feature or sit-down interview, check this personality bible plus current storylines/results so the player's voice reflects what has actually happened in the save.
-
-### Pressure / fan temperature
-
-- Serie A: **19W–8D–0L, 65 points, eight clear**.
-- Coppa Italia: **Napoli lead Torino 4–0 after leg one. Not yet qualified.**
-- Champions League: Real Madrid R16 next.
-- Manager hot seat remains cold. Napoli are unbeaten in Serie A, hold a huge Coppa first-leg advantage and are through to the Champions League Round of 16.
-
-### Peacock contract
-
-Peacock is secured: Prospect role, approximately 4 years + 4 months remaining, $13,000/week, $115,000 signing bonus, no release clause.
-
-### Transfer window — CLOSED
-
-No senior Napoli player left. Endrick stayed after rejected bids of $188M Juventus, $188M Leipzig and $193.4M Bergamo; Beier stayed after a $188.9M Juventus bid; Chiesa stayed after no Fiorentina deal was completed. Burnett (two years), Ricci (six months) and Brun (six months) left on development loans.
-
-### Editorial reminders
-
-- **Torino Coppa leg 1 — PUBLISHED/CORRECTED:** 0–0 HT; Beier pens 50', 62', 66'; Endrick 86' assisted by Beier; FT 4–0. Napoli lead the tie 4–0 but ARE NOT THROUGH YET.
-- **Beier storyline — ACTIVE:** 15G/9A, four goals in two matches, now one of the attacking stars.
-- **Development — ACTIVE:** Bastoni 91; Burnett 69 on loan; Brun 67 on loan; Ricci 66 on loan.
-- **Real Madrid — ACTIVE:** R16 Mar 7 home / Mar 15 away.
-- **Player voices — ACTIVE:** use the dressing-room personality bible above for occasional quotes/interviews. Quotes should be distinctive, contextual and never overused.
-- **Comments:** every article requires a custom supporter thread relevant to that specific story. Knockout comments must distinguish first-leg advantage from actual qualification.
-
-## Site synchronization rules
-
-Whenever the save advances, update latest results, upcoming fixtures, confirmed stats, supplied table, cup/European status, storyline, README, ticker/hero, canonical league form and cache version together. Do not infer unknown opponent results or statistics. Every newly published article must include custom comments relevant to that specific story. Knockout coverage must distinguish leg-one advantage from confirmed qualification.
-
-All newsroom reporting, quotes and rumours are fictional and refer only to this FC 26 Career Mode save.
+This is now the story of **Saladino's champions**, with Pio as the face of the era and a deep cast capable of deciding major matches.
