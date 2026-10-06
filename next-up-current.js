@@ -1,10 +1,8 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
- D.upcoming=[
-  ['Barcelona','Champions League','Home · May 2 · semifinal second leg · 1–1 aggregate']
- ];
+ D.upcoming=[];
  const el=document.getElementById('nextTwo');
- if(el) el.innerHTML=D.upcoming.map(x=>`<div class="next-row"><strong>${x[0]}</strong><span>${x[1]} · ${x[2]}</span></div>`).join('');
+ if(el) el.innerHTML='<div class="next-row"><strong>CHAMPIONS LEAGUE FINAL</strong><span>Opponent / date pending canonical FC26 fixture confirmation</span></div>';
  const strip=document.getElementById('upcomingStrip');
- if(strip) strip.innerHTML=D.upcoming.map(x=>`<div class="fixture"><span>${x[1]}</span><strong>${x[0]}</strong><small>${x[2]}</small></div>`).join('');
+ if(strip) strip.innerHTML='<div class="fixture"><span>Champions League</span><strong>FINALIST</strong><small>Opponent / date pending FC26 confirmation</small></div>';
 })();
