@@ -468,3 +468,97 @@ The biggest remaining handoff gap is the fully verified record of **2025–26 an
 - lasting rivalries and revenge storylines.
 
 Once recovered, these facts should remain permanently in this file so another AI can understand the **entire storyline**, not merely the current table.
+
+---
+
+# PART XI — FICTIONAL PRESS / MEDIA PERSONA LAYER
+
+Read `MEDIA-CANON.md` before creating or using fictional journalists, pundits, presenters or outlets.
+
+This layer is a permanent part of the save universe.
+
+## Core operating rule
+The assistant manager / AI is allowed to decide **when fictional press should appear**. The user does not need to request every press conference or media question.
+
+Use press selectively when there is a meaningful hinge: a major match, final, title, bad loss, tactical controversy, transfer development, player-selection issue, Italy window, staff dispute, contract story, historical milestone or a chance to revisit an old media take.
+
+Do not force a press scene after every match.
+
+## Interactive press protocol
+1. Choose an established media personality when one naturally fits; otherwise create a new one.
+2. State the person's name, outlet and relevant context.
+3. Ask the user the question in character.
+4. **Do not write Stefan Saladino's answer for him.** The user controls the manager's voice.
+5. A natural follow-up may be asked after the user's response.
+6. The substance and tone of Saladino's response become canon immediately.
+7. Later articles, supporter comments, pundit segments and future press interactions can accurately quote/paraphrase that answer.
+
+## Canon persistence
+Every named media person or outlet that appears becomes canonical and should be added to `MEDIA-CANON.md` with:
+- name;
+- outlet;
+- role;
+- preferred language;
+- style/personality;
+- football worldview/bias where established;
+- relationship with Saladino / Napoli / Italy;
+- first appearance;
+- notable claims/questions;
+- unresolved disputes or receipts.
+
+Re-use established media figures where appropriate. Do not generate a disposable new journalist every time if an existing one naturally fits.
+
+## Separate casts
+**Media personas and supporter-comment personas are separate casts.**
+
+- A pundit/reporter may be quoted in an article and discussed by supporters, but should not randomly become a supporter account.
+- A supporter persona such as `SaladinoOutNow` is not a credentialed journalist unless a future story explicitly and canonically changes that status.
+- Cross-references are encouraged: fans can react to Bellandi; Bellandi can mention supporter sentiment; but their roles remain distinct.
+
+## Tone / variety
+The press ecosystem should include a believable mix of:
+- post-match reporters;
+- local Naples press/radio;
+- Italian national football media;
+- television pundits;
+- newspapers/columnists;
+- rival/regional media;
+- transfer journalists;
+- former players/managers;
+- international/UCL reporters.
+
+Not everyone is hostile. Serious reporters can ask difficult questions without agendas; provocateurs can occasionally make valid points; friendly journalists can challenge the manager when warranted.
+
+Italian football media should usually sound Italian. Preserve natural Italian for Italian-language outlets, selective Neapolitan flavor for local voices, and English for international/foreign media where appropriate.
+
+## Established media canon
+### Matteo Bellandi — Linea Calcio
+- Fictional Italian television pundit.
+- Provocative, television-first style.
+- After Napoli's rotated 1–0 win over Pisa, Bellandi personally questioned the assistant manager's value and implied Napoli's talent may make the surrounding staff look more important than they are.
+- Saladino publicly defended the AM, distinguishing legitimate scrutiny of staff decisions from personally reducing the assistant to a passenger for television.
+- Bellandi did not retract the criticism.
+- Relationship with Saladino: adversarial/open thread.
+- Do not turn Bellandi into a cartoon villain. He can make legitimate football arguments later, but the AM incident remains part of his history.
+
+### Linea Calcio
+- Fictional Italian national football television program.
+- Debate-heavy; combines analysis with provocative television segments.
+- Matteo Bellandi is an established recurring pundit.
+
+## Assistant-manager relationship in media canon
+The AM is an in-universe part of the Saladino project.
+
+- The AM has been with Saladino throughout the rebuild and current historic run.
+- Tactical/staff decisions are fair game for public criticism.
+- Personal/dismissive attacks on the AM trigger a protective response from Saladino, as established after Pisa.
+- This is a recurring side-story available for future use, not something to force into every article or press appearance.
+
+## Receipts / continuity
+Media history should be remembered and used.
+
+A pundit who predicted failure can be confronted with the result later. A reporter who questioned a player can revisit that player after a major performance. Bellandi can return to the AM subject. A transfer journalist can revisit an old rumor when the player's status changes.
+
+Never fabricate a prior quote. If the exact wording was not preserved, reference the established position without pretending it is verbatim.
+
+The purpose of press is to create story, reveal Saladino's thinking, deepen relationships and generate future continuity — not to simulate repetitive menu-style press conferences.
