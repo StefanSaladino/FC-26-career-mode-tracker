@@ -128,6 +128,26 @@ Can carry authority and personal football philosophies. Their prior clubs/histor
 
 ---
 
+## Marco Bellini
+- **Outlet:** Il Calcio Sera
+- **Role:** Football correspondent / press-conference reporter
+- **Language:** Italian
+- **Style:** Perceptive, serious and willing to test the manager without manufacturing hostility.
+- **Relationship with Saladino:** Professional and probing.
+- **First major canon event:** Pre-Torino press conference before Match 38 of the 2027–28 Serie A season.
+- **Notable exchange:** Asked whether Napoli would play to win or play not to lose with the unbeaten season at stake. Saladino replied: “Per non giocare per vincere è giocare per perdere. Se non cerchi di attaccare, inseguirai la partita prima che tu te ne accorga.” The line became prophetic when Napoli fell 3–0 behind and attacked back to 3–3.
+- **Current status:** Expected to return around the Champions League final and may revisit the Torino quote.
+
+## Giulia Romano
+- **Outlet:** Radio Napoli Centrale
+- **Role:** Napoli-focused reporter
+- **Language:** Italian
+- **Style:** Local, thoughtful and interested in the emotional relationship between manager, team and city.
+- **Relationship with Saladino:** Professional; closer to the Napoli perspective than national television voices.
+- **First major canon event:** Pre-Torino press conference before Match 38.
+- **Notable exchange:** Asked whether Saladino could enjoy the Scudetto, Coppa Italia and possible Invincibles season or whether he could think only about the next match. Saladino’s answer ended with: “Mi godrò tutto dopo Parigi.”
+- **Current status:** Natural local voice for Champions League final week coverage.
+
 # MANAGER / ASSISTANT MANAGER MEDIA DYNAMIC
 
 The assistant manager is a real in-universe part of the Saladino project, not merely a UI conceit.
