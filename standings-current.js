@@ -9,5 +9,5 @@
   ['Roma',33,19,3,11,56,41,15,60]
  ]};
  D.tableContext='Napoli are 2027–28 Serie A champions and Invincibles: 94 points from 38 matches, 28 wins, 10 draws and 0 defeats. Rival rows remain at their last verified checkpoint until a final FC26 table screen is supplied.';
- D.ticker=['INVINCIBILI · NAPOLI 94 POINTS','NAPOLI · 38 PLAYED · 28W 10D 0L','SERIE A SEASON COMPLETE · ZERO DEFEATS',...(D.ticker||[]).filter(x=>!/ONE WIN FROM THE SCUDETTO|33 PLAYED|34 PLAYED|NAPOLI 81|NAPOLI 84|FOUR LEAGUE MATCHES/.test(String(x)))].slice(0,9);
+
 })();
