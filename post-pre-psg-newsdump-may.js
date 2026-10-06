@@ -9,5 +9,15 @@
  const ids=new Set(stories.map(s=>s.id));
  D.articles=stories.concat((D.articles||[]).filter(a=>!ids.has(a.id)));
  D.hero={articleId:'real-madrid-saladino-offer-may-2028',strap:'REAL MADRID APPROACH · NO DECISION BEFORE PARIS'};
+ D.ticker=[
+  'BREAKING · REAL MADRID WANT SALADINO',
+  'SALADINO · NO MANAGERIAL DECISION BEFORE SEASON END',
+  'SERIE A · NAPOLI INVINCIBILI · 28W 10D 0L · 94 PTS',
+  'AWARDS SHOCK · ZERO NAPOLI PLAYERS IN SERIE A TOTS',
+  'PLAYER OF THE SEASON · DE KETELAERE · 19G 8A',
+  'PIO · 20G 9A IN SERIE A · OMITTED FROM TOTS',
+  'ACADEMY · RIZZI + HABER CONSIDERING FUTURES',
+  'MAY 27 · NAPOLI vs PSG · CHAMPIONS LEAGUE FINAL'
+ ];
  D.whispers=[['MADRID WANT SALADINO','Real Madrid have approached the Napoli manager. No decision until the season is over.'],['INVINCIBLE. INVISIBLE.','28–10–0 champions Napoli have zero players in Serie A’s Team of the Season.'],['CDK WINS POTY','19 goals, 8 assists. Pio finished 20+9; Openda 27+7.'],['ACADEMY WARNING','Rizzi and Haber want senior promotion; decisions wait until after Paris.'],['PARIS IS NEXT','PSG await in Napoli’s first Champions League final on May 27.']].concat((D.whispers||[]).filter(w=>!['MADRID WANT SALADINO','INVINCIBLE. INVISIBLE.','CDK WINS POTY','ACADEMY WARNING','PARIS IS NEXT'].includes(w?.[0]))).slice(0,8);
 })();
