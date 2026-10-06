@@ -2,5 +2,7 @@
  const D=window.NAPOLI_DATA;
  const form=document.getElementById('formLine');
  if(!form)return;
- form.innerHTML='<div><strong>24-9-0</strong><span>Serie A · 81 pts · 13 clear</span></div><div><strong>Unbeaten</strong><span>33 league matches · one win from title</span></div>';
+ const state=D?.seasonState||{league:{w:25,d:9,l:0,points:84,played:34,remaining:4,status:'Serie A champions'}};
+ const L=state.league;
+ form.innerHTML=`<div><strong>${L.w}-${L.d}-${L.l}</strong><span>Serie A · ${L.points} pts · Champions</span></div><div><strong>Unbeaten</strong><span>${L.played} league matches · ${L.remaining} from an invincible season</span></div>`;
 })();
