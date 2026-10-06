@@ -8,7 +8,7 @@
  ];
  const ids=new Set(stories.map(s=>s.id));
  D.articles=stories.concat((D.articles||[]).filter(a=>!ids.has(a.id)));
- D.hero={articleId:'real-madrid-saladino-offer-may-2028',strap:'REAL MADRID APPROACH · NO DECISION BEFORE PARIS'};
+ /* Hero intentionally not set here. Current-event packages own D.hero so this older Madrid story can never retake the homepage on partial/cache-mixed loads. */
  D.ticker=[
   'BREAKING · REAL MADRID WANT SALADINO',
   'SALADINO · NO MANAGERIAL DECISION BEFORE SEASON END',
