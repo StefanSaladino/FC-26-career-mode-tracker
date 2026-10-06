@@ -1,6 +1,7 @@
 (() => {
   const D=window.NAPOLI_DATA;if(!D||!Array.isArray(D.articles))return;
   const explicit={
+   'saladino-final-press-conference-may':['napoli','psg-ucl-final','manager-press-conference','PSG'],
    'psg-final-player-voices-may':['napoli','psg-ucl-final','player-interviews','PSG'],
    'psg-final-game-day-gate-may':['napoli','psg-ucl-final','game-day','PSG'],'psg-final-lineups-may':['napoli','psg-ucl-final','tactics','PSG'],'psg-final-position-by-position-may':['napoli','psg-ucl-final','comparison','PSG'],'psg-final-kvara-return-may':['napoli','psg-ucl-final','kvaratskhelia','PSG'],'psg-final-world-watch-may':['napoli','psg-ucl-final','international','PSG'],
    'real-madrid-saladino-offer-may-2028':['napoli','managerial-future','breaking-news','REAL MADRID'],'serie-a-awards-snub-may-2028':['napoli','serie-a-awards','controversy','NONE'],'de-ketelaere-serie-a-poty-may-2028':['napoli','serie-a-awards','discussion','NONE'],'rizzi-haber-academy-warning-may-2028':['napoli','academy-future','club-news','NONE'],
