@@ -370,6 +370,42 @@ Automated comments must be conditioned on structured facts such as:
 
 Legacy generic/context/editorial layers have produced contradictions and should not be allowed to overwrite canonical result context.
 
+## Comment language / cultural voice — durable rule
+The Napoli comment section should feel like a real Napoli/Italian supporter ecosystem, **not an overwhelmingly English-speaking generic football forum**.
+
+- On Napoli-centric articles, a substantial share of local-supporter comments should be written naturally in **Italian**. On large historic or match threads, roughly half or more of the local Napoli voices being Italian is a good default unless the article context suggests otherwise.
+- Use **natural colloquial Italian**, including football slang, emotional phrasing and profanity where the persona/context warrants it. Do not make comments read like textbook Italian or machine-translated English.
+- Use **Neapolitan / Napoletano flavor selectively** for clearly local personas or emotionally charged moments. Keep it natural and readable; do not turn every comment into caricature dialect.
+- English remains appropriate for international supporters, some established English-speaking canonical personas, and foreign/rival visitors. Rival Italian-club accounts such as Milanista/Interista/Juventino voices will normally sound more authentic in Italian.
+- Language should be part of the **persona**, not randomly swapped every render. A recurring account can have a preferred language/style and retain it across articles.
+- Preserve `lang` metadata on comments and replies. Italian/Napoletano comments should support **Translate to English**; English comments may support **Traduci in italiano**. A translation control is a usability layer, not a reason to write the source comment in English.
+- Bespoke important-story comments should deliberately include Italian voices rather than relying only on the generator to add them later.
+- The Italy national-team threads should remain especially Italian in voice, as already established by `editorial-italian-layer.js`.
+
+## Threaded replies — durable rule
+Replies are now part of the supporter ecosystem and should be treated as **first-class nested comment data**, not fake indented prose.
+
+- Replies should react to the actual parent comment, not merely repeat the article topic.
+- Use replies to create recurring relationships: corrections, arguments, supporter-faction feuds, rival-fan exchanges, receipts and callbacks to prior takes.
+- Canonical examples: `SaladinoOutNow` gets challenged when he moves the goalposts; `PioHaterForNoReason` attracts Pio Nation replies; doomposting can be answered by accounts carrying receipts; rival fans may get dogpiled or grudgingly agreed with.
+- Preserve explicit article-authored replies when present. Generated replies can supplement them but should not overwrite them.
+- Keep reply chains readable. One nested level with a small number of good replies is preferable to meaningless deep nesting or reply spam.
+- Replies should obey the same Italian/English/Napoletano persona rules as top-level comments.
+- Thread history should become usable narrative continuity: accounts can reference prior predictions, admit they were wrong, refuse to admit they were wrong, or bring back old comments after a result.
+
+## Opponent/context freshness — critical rule
+The **current competitive context overrides historical mentions inside article prose**.
+
+Example: after Napoli eliminate Barcelona and PSG are confirmed for the Champions League final, an article may still mention Barcelona repeatedly while reviewing the route. The comment engine must understand that **Barcelona are historical context and PSG are the active opponent**. It must not generate lines such as “Barcelona will reveal the truth” or speak as if the semifinal is still upcoming.
+
+When determining current opponent/context, prioritize:
+1. explicit structured article context / registry;
+2. current canonical save state and confirmed next opponent;
+3. article label/headline/current framing;
+4. historical names appearing in body text only.
+
+Do not infer the active opponent by scanning the whole article body without considering chronology.
+
 ---
 
 # PART IX — WEBSITE / REPOSITORY PROCEDURE
