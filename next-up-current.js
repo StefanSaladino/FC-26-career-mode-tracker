@@ -1,7 +1,6 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
  D.upcoming=[
-  ['Pisa','Serie A','Home · next fixture'],
   ['Barcelona','Champions League','Home · May 2 · semifinal second leg · 1–1 aggregate']
  ];
  const el=document.getElementById('nextTwo');
