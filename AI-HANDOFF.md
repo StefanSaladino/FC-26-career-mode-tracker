@@ -571,8 +571,10 @@ This section is the canonical squad-movement log for the 2028–29 summer window
 - Billy Gilmour — **sold**; fee/destination not recorded here unless later confirmed.
 - Juan Jesus — **released for $2M**.
 - Obaretin — **sold for $3.5M**.
+- Ambrosino — **sold to Parma for $13M**.
 - G. Ricci — **loaned to Hull City**.
 - V. Mancini — **loaned to Fiorentina**.
+- Vergara — **loaned to Benfica**.
 - C. Brun — **loaned to Paris FC**.
 - L. Resende — **promoted from academy and loan-listed**; destination not yet confirmed.
 - A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; loan plan remains pending.
