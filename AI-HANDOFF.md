@@ -564,6 +564,15 @@ Never fabricate a prior quote. If the exact wording was not preserved, reference
 The purpose of press is to create story, reveal Saladino's thinking, deepen relationships and generate future continuity — not to simulate repetitive menu-style press conferences.
 
 
+## Summer 2028 cornerstone — João Neves
+- **SIGNED:** João Neves from PSG for **$250M + 5% sell-on**.
+- Age/OVR at signing: **23 / 93**.
+- Contract: **Crucial · 5 years · $470K/week · $5M signing bonus · $1.4M after 5 appearances**.
+- He is the highest-rated player in the current Napoli squad and a cornerstone of the next era with Nico Paz.
+- Major continuity: Neves scored PSG’s **38′ equalizer** against Napoli in the 2028 UCL final (PSG 3–2 Napoli AET). He then represented Portugal in the EURO 2028 semifinal lost **2–1 AET** to Saladino’s Italy.
+- Tactical/narrative role: elite midfield engine, pressure-resistant controller and ball-winner alongside Paz/McTominay; he is expected to help convert Napoli from UCL finalist into UCL winner.
+- Canonical fictional interview: Neves discussed facing Saladino twice, the transfer-fee pressure and his new midfield partners; closing line on choosing Napoli after the final: **“Maybe because I know how close they are.”** Do not present the fictional interview as a real-world quote.
+
 ## Summer 2028 squad movement ledger
 - João Neves — **signed from PSG for $250M + 5% sell-on**; 23 years old, 93 OVR. Crucial role, 5-year contract, $470K/week, $5M signing bonus + $1.4M after 5 appearances.
 This section is the canonical squad-movement log for the 2028–29 summer window. Update it immediately when the manager confirms a move; do not infer destinations or fees.
