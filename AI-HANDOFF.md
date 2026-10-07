@@ -565,6 +565,7 @@ The purpose of press is to create story, reveal Saladino's thinking, deepen rela
 
 
 ## Summer 2028 squad movement ledger
+- João Neves — **signed from PSG for $250M + 5% sell-on**; 23 years old, 93 OVR. Crucial role, 5-year contract, $470K/week, $5M signing bonus + $1.4M after 5 appearances.
 This section is the canonical squad-movement log for the 2028–29 summer window. Update it immediately when the manager confirms a move; do not infer destinations or fees.
 
 - Noa Lang — **sold to Bournemouth for $47M**.
