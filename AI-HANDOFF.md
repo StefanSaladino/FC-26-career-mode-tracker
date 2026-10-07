@@ -576,6 +576,6 @@ This section is the canonical squad-movement log for the 2028–29 summer window
 - V. Mancini — **loaned to Fiorentina**.
 - Vergara — **loaned to Benfica**.
 - C. Brun — **loaned to Paris FC**.
-- L. Resende — **promoted from academy and loan-listed**; destination not yet confirmed.
-- A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; loan plan remains pending.
+- L. Resende — **promoted from academy and loaned out**; destination not recorded.
+- A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; **loaned to Pisa**.
 - Federico Chiesa — requested to leave; Bournemouth $36.7M bid rejected; still a Napoli player until a transfer is confirmed.
