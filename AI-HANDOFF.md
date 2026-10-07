@@ -589,3 +589,6 @@ This section is the canonical squad-movement log for the 2028–29 summer window
 - L. Resende — **promoted from academy and loaned out**; destination not recorded.
 - A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; **loaned to Pisa**.
 - Federico Chiesa — requested to leave; Bournemouth $36.7M bid rejected; still a Napoli player until a transfer is confirmed.
+
+## Permanent statistical archive rule
+Player history is never deleted when a player leaves Napoli. **Current Squad** contains only currently registered players; **Season Stats** retain every player who appeared in that season, including mid-season or summer departures; **Napoli Career** totals preserve all recorded Napoli production for active and former players. Departed players' totals freeze rather than disappear. The archive currently has verified 2027–28 production and opens 2028–29 at zero for new arrivals. 2025–26 and 2026–27 must remain marked unavailable until canonical stats are recovered; never invent them.
