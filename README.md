@@ -133,6 +133,16 @@ Major stories should contain bespoke article-specific comments first, seeded can
 ## Current posture
 Napoli have crossed into unprecedented territory. The Scudetto is secured, the unbeaten league season remains alive, the Coppa remains relevant, and the club will play **Paris Saint-Germain in its first Champions League final**. All current homepage, preview and editorial framing should treat PSG as the confirmed final opponent; unknown final details must remain unspecified until confirmed by FC26.
 
+## SUMMER 2028 — JOÃO NEVES CHANGES THE LEVEL
+
+Napoli have completed the blockbuster signing of **João Neves from Paris Saint-Germain for $250M plus a 5% sell-on clause**. Neves is **23 years old and 93 OVR**, making him the highest-rated player in the current Napoli squad and the defining acquisition of the summer so far.
+
+Contract: **Crucial role · 5 years · $470K/week · $5M signing bonus · $1.4M after 5 appearances**.
+
+The move carries major continuity: Neves scored PSG’s **38′ equalizer against Napoli in the 2028 Champions League final**, which PSG won 3–2 after extra time. Weeks later, Neves represented Portugal against Saladino’s Italy in the EURO 2028 semifinal, where Italy won 2–1 after extra time. He now joins Saladino at Napoli as the elite midfield engine beside **Nico Paz** and **Scott McTominay**.
+
+Editorial identity: Neves arrives as an established world-class player, not a prospect. The expectation is immediate Champions League-level impact. His first long-form Napoli interview is canonical: he discussed facing Saladino twice, the $250M pressure, playing with Paz/McTominay, and closed on why Napoli appealed after the UCL final: **“Maybe because I know how close they are.”** This is fictional in-universe interview dialogue, not real-world quotation.
+
 ## Summer 2028 squad movement ledger
 - João Neves — **signed from PSG for $250M + 5% sell-on**; 23 years old, 93 OVR. Crucial role, 5-year contract, $470K/week, $5M signing bonus + $1.4M after 5 appearances.
 This section is the canonical squad-movement log for the 2028–29 summer window. Update it immediately when the manager confirms a move; do not infer destinations or fees.
