@@ -22,7 +22,28 @@
    ['Billy Gilmour',0,1,'Historical 2027–28 contribution · sold summer 2028']
   ],
   '2028–29':[
-   ['João Neves',0,0,'Summer 2028 signing · no Napoli appearances yet']
+   ['Alex Meret',0,0,'Current Napoli player · season not started'],
+   ['Alphonso Davies',0,0,'Current Napoli player · season not started'],
+   ['Marc Cucurella',0,0,'Current Napoli player · season not started'],
+   ['Alessandro Bastoni',0,0,'Current Napoli player · season not started'],
+   ['Lutsharel Geertruida',0,0,'Current Napoli player · season not started'],
+   ['Alessandro Buongiorno',0,0,'Current Napoli player · season not started'],
+   ['Sam Beukema',0,0,'Current Napoli player · season not started'],
+   ['Rafa Marín',0,0,'Current Napoli player · season not started'],
+   ['Giovanni Di Lorenzo',0,0,'Current Napoli player · season not started'],
+   ['Zanoli',0,0,'Current Napoli player · season not started'],
+   ['Michael Kayode',0,0,'Current Napoli player · season not started'],
+   ['Kevin De Bruyne',0,0,'Current Napoli player · season not started'],
+   ['Scott McTominay',0,0,'Current Napoli player · season not started'],
+   ['Anton Stach',0,0,'Current Napoli player · season not started'],
+   ['Nico Paz',0,0,'Current Napoli player · season not started'],
+   ['João Neves',0,0,'Summer 2028 signing · no Napoli appearances yet'],
+   ['Federico Chiesa',0,0,'Current Napoli player · Fiorentina transfer pending'],
+   ['Mikey Moore',0,0,'Current Napoli player · season not started'],
+   ['Rao',0,0,'Current Napoli player · season not started'],
+   ['Maximilian Beier',0,0,'Current Napoli player · season not started'],
+   ['Endrick',0,0,'Current Napoli player · Barcelona transfer not completed'],
+   ['Pio Esposito',0,0,'Current Napoli player · season not started']
   ]
  };
  D.statsSeasonOrder=['2028–29','2027–28'];
