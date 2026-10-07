@@ -139,6 +139,7 @@ This section is the canonical squad-movement log for the 2028–29 summer window
 - Noa Lang — **sold to Bournemouth for $47M**.
 - Billy Gilmour — **sold**; fee/destination not recorded here unless later confirmed.
 - Juan Jesus — **released for $2M**.
+- Obaretin — **sold for $3.5M** to **Al Q…**; exact destination club name pending confirmation.
 - G. Ricci — **loaned to Hull City**.
 - V. Mancini — **loaned to Fiorentina**.
 - C. Brun — **loaned to Paris FC**.
