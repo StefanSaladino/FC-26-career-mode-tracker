@@ -6,7 +6,17 @@
  D.loanDetails={...(D.loanDetails||{}),'O. Burnett':'loan','G. Ricci':'development','C. Brun':'development'};
  D.promotedProspects=[];
  D.academyPlayers=[
- ['A. Benzekri','GK',16,57,'73–87'],['D. Barone','LB',16,59,'73–79'],['Y. Tran','LB',16,54,'86–92'],['S. Vitale','LB',16,60,'86–92'],['A. De Luca','RB',16,59,'73–79'],['L. Caruso','RB',16,59,'82–88'],['A. Benedetti','CDM',14,54,'75–81'],['M. Allen','LM',15,63,'76–82'],['L. Resende','CAM',16,64,'80–86'],['E. Rossetti','RM',16,59,'89–94'],['F. Freitas','ST',16,57,'85–91']
+ ['A. Benzekri','GK',16,59,'75–81'],
+ ['D. Barone','LB',16,60,'73–79'],
+ ['Y. Tran','LB',17,55,'86–92'],
+ ['S. Vitale','LB',16,61,'86–92'],
+ ['A. De Luca','RB',17,60,'73–79'],
+ ['L. Caruso','RB',17,60,'82–88'],
+ ['A. Benedetti','CDM',15,55,'75–81'],
+ ['M. Allen','LM',16,55,'76–82'],
+ ['L. Resende','CAM',17,65,'80–86'],
+ ['E. Rossetti','RM',16,60,'89–94'],
+ ['F. Freitas','ST',16,58,'85–91']
  ];
- D.developmentNote='Summer 2028 snapshot. Loan destinations shown in-game are current where applicable; future loan decisions are not assumed until confirmed.';
+ D.developmentNote='Summer 2028 snapshot. Academy ratings and potential ranges updated from the latest in-game youth squad. Resende remains in the academy; possible promotion and loan is under consideration but not yet confirmed.';
 })();
