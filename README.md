@@ -132,3 +132,16 @@ Major stories should contain bespoke article-specific comments first, seeded can
 
 ## Current posture
 Napoli have crossed into unprecedented territory. The Scudetto is secured, the unbeaten league season remains alive, the Coppa remains relevant, and the club will play **Paris Saint-Germain in its first Champions League final**. All current homepage, preview and editorial framing should treat PSG as the confirmed final opponent; unknown final details must remain unspecified until confirmed by FC26.
+
+## Summer 2028 squad movement ledger
+This section is the canonical squad-movement log for the 2028–29 summer window. Update it immediately when the manager confirms a move; do not infer destinations or fees.
+
+- Noa Lang — **sold to Bournemouth for $47M**.
+- Billy Gilmour — **sold**; fee/destination not recorded here unless later confirmed.
+- Juan Jesus — **released for $2M**.
+- G. Ricci — **loaned to Hull City**.
+- V. Mancini — **loaned to Fiorentina**.
+- C. Brun — **loaned to Paris FC**.
+- L. Resende — **promoted from academy and loan-listed**; destination not yet confirmed.
+- A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; loan plan remains pending.
+- Federico Chiesa — requested to leave; Bournemouth $36.7M bid rejected; still a Napoli player until a transfer is confirmed.
