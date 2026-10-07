@@ -1,7 +1,7 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
  D.loanedPlayers=[
- ['Lawton','GK',18,72],['O. Burnett','GK',18,70],['G. Ricci','CB',18,67],['C. Brun','RM',18,69],['Obaretin','CB',25,72],['Marianucci','CB',23,75],['Valentini','CB',19,69],['Reyna','CB',20,69],['Zanoli','RB',27,77],['Sanchez','CDM',19,65],['Hasa','CM',24,77],['Mancini','RM',19,74],['Rao','LW',22,73],['Vergara','RW',25,72],['Giovane','ST',24,76],['Ambrosino','ST',24,75]
+ ['Lawton','GK',18,72],['O. Burnett','GK',18,70],['G. Ricci','CB',18,67],['C. Brun','RM',18,69],['Marianucci','CB',23,75],['Valentini','CB',19,69],['Reyna','CB',20,69],['Zanoli','RB',27,77],['Sanchez','CDM',19,65],['Hasa','CM',24,77],['Mancini','RM',19,74],['Rao','LW',22,73],['Vergara','RW',25,72],['Giovane','ST',24,76],['Ambrosino','ST',24,75]
  ];
  D.loanDetails={...(D.loanDetails||{}),'O. Burnett':'loan','G. Ricci':'Hull City — loan','C. Brun':'Paris FC — loan','Mancini':'Fiorentina — loan'};
  D.promotedProspects=[['L. Resende','CAM',17,65,'80–86','Loan listed']];
