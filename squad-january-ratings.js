@@ -1,8 +1,15 @@
 (()=>{const D=window.NAPOLI_DATA;if(!D)return;const info={
-'Pio Esposito':[22,86],'Maximilian Beier':[25,87],'Alphonso Davies':[27,88],'Kevin De Bruyne':[36,82],'Nico Paz':[23,87],'Scott McTominay':[31,88],'Marc Cucurella':[29,88],'Alessandro Bastoni':[28,91],'Alessandro Buongiorno':[28,87],'Michael Kayode':[23,86],'Alex Meret':[30,85],'Giovanni Di Lorenzo':[34,79],'Mikey Moore':[20,83],'Anton Stach':[29,81],'Endrick':[21,85],'Noa Lang':[28,82],'Lutsharel Geertruida':[27,82],'Peacock':[19,73],'Rafa Marín':[25,80],'Federico Chiesa':[30,82],'Juan Jesus':[36,62],'Billy Gilmour':[26,78],'Sam Beukema':[29,80]};
+'Alex Meret':[31,86],'Lawton':[18,72],'Peacock':[19,73],'O. Burnett':[18,70],
+'Alphonso Davies':[27,88],'Marc Cucurella':[30,88],
+'Obaretin':[25,72],'Juan Jesus':[37,61],'Alessandro Bastoni':[29,91],'Lutsharel Geertruida':[28,82],'Alessandro Buongiorno':[29,87],'Sam Beukema':[29,80],'Rafa Marín':[26,80],'Marianucci':[23,75],'Valentini':[19,69],'G. Ricci':[18,67],'Reyna':[20,69],
+'Giovanni Di Lorenzo':[34,78],'Zanoli':[27,77],'Michael Kayode':[24,86],
+'Sanchez':[19,65],'Hasa':[24,77],'Kevin De Bruyne':[37,82],'Scott McTominay':[31,88],'Anton Stach':[29,81],'Nico Paz':[23,88],
+'Federico Chiesa':[30,82],'C. Brun':[18,69],'Mancini':[19,74],'Mikey Moore':[20,84],'Rao':[22,73],'Vergara':[25,72],
+'Giovane':[24,76],'Maximilian Beier':[25,88],'Endrick':[22,86],'Ambrosino':[24,75],'Pio Esposito':[23,86]
+};
 D.playerAges=Object.fromEntries(Object.entries(info).map(([n,[age]])=>[n,age]));
 const rating=n=>info[n]?.[1];
 if(Array.isArray(D.firstXI))D.firstXI=D.firstXI.map(r=>rating(r[1])?[r[0],r[1],rating(r[1])]:r);
 if(D.squadPublic)Object.keys(D.squadPublic).forEach(g=>{D.squadPublic[g]=(D.squadPublic[g]||[]).map(r=>rating(r[0])?[r[0],r[1],rating(r[0]),r[3]]:r);});
-D.squadSnapshot={updated:'April 2028',players:Object.fromEntries(Object.entries(info).map(([n,[age,overall]])=>[n,{age,overall}]))};
+D.squadSnapshot={updated:'Summer 2028 · post-EURO',players:Object.fromEntries(Object.entries(info).map(([n,[age,overall]])=>[n,{age,overall}]))};
 })();
