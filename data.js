@@ -225,7 +225,7 @@ window.NAPOLI_DATA = {
       ["Kevin De Bruyne", "CAM / CM", 83, "Veteran creator"],
       ["Nico Paz", "CAM / RM", 86, "Creative successor"],
       ["Anton Stach", "CDM / CM", 80, "Rotation"],
-      ["Billy Gilmour", "CM / CDM", 78, "Rotation"]
+      ["João Neves", "CM / CDM", 93, "Crucial · $250M signing"]
     ],
     Attackers: [
       ["Pio Esposito", "ST", 83, "In-form striker"],
@@ -233,7 +233,6 @@ window.NAPOLI_DATA = {
       ["Endrick", "ST / RW", 84, "Flexible attacker"],
       ["Alphonso Davies", "LM / LB", 87, "Advanced left role"],
       ["Federico Chiesa", "RW / ST", 81, "Impact attacker"],
-      ["Noa Lang", "LW / AM", 81, "Wide rotation"],
       ["Mikey Moore", "W / AM", 81, "Young rotation attacker"]
     ]
   },
