@@ -14,11 +14,10 @@
  ['Sam Beukema',1,0,'FC26 canonical total · through Sassuolo'],
  ['Anton Stach',0,1,'FC26 canonical total · through Sassuolo'],
  ['Lutsharel Geertruida',0,1,'FC26 canonical total · through Sassuolo'],
- ['Noa Lang',0,1,'FC26 canonical total · through Sassuolo'],
  ['Mikey Moore',0,1,'FC26 canonical total · through Sassuolo'],
  ['Michael Kayode',0,1,'FC26 canonical total · through Sassuolo'],
- ['Billy Gilmour',0,1,'Season contribution · sold']
+ ['João Neves',0,0,'Summer 2028 signing · 23 years old · 93 OVR · no Napoli appearances yet']
  ];
  D.stats.sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
- D.statsScope='All Napoli matches · friendlies included · FC26 source of truth · updated through PSG 3–2 Napoli AET · 2027–28 season complete';
+ D.statsScope='2027–28 Napoli production retained as completed-season canon · departed players Lang and Gilmour removed from current display · João Neves added as summer 2028 arrival with no Napoli appearances yet';
 })();
