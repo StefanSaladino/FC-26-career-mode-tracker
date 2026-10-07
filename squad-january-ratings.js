@@ -11,6 +11,6 @@ D.playerAges=Object.fromEntries(Object.entries(info).map(([n,[age]])=>[n,age]));
 const rating=n=>info[n]?.[1];
 if(Array.isArray(D.firstXI))D.firstXI=D.firstXI.map(r=>rating(r[1])?[r[0],r[1],rating(r[1])]:r);
 if(D.squadPublic)Object.keys(D.squadPublic).forEach(g=>{D.squadPublic[g]=(D.squadPublic[g]||[]).map(r=>rating(r[0])?[r[0],r[1],rating(r[0]),r[3]]:r);});
-D.departures={...(D.departures||{}),'Juan Jesus':{age:37,overall:61,type:'Released',cost:2000000},'Obaretin':{age:25,overall:72,type:'Sold',fee:3500000,destination:'Al Q… (club name pending confirmation)'}};
+D.departures={...(D.departures||{}),'Juan Jesus':{age:37,overall:61,type:'Released',cost:2000000},'Obaretin':{age:25,overall:72,type:'Sold',fee:3500000}};
 D.squadSnapshot={updated:'Summer 2028 · post-EURO',players:Object.fromEntries(Object.entries(info).map(([n,[age,overall]])=>[n,{age,overall}]))};
 })();
