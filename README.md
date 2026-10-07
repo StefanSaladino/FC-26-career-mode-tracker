@@ -134,6 +134,7 @@ Major stories should contain bespoke article-specific comments first, seeded can
 Napoli have crossed into unprecedented territory. The Scudetto is secured, the unbeaten league season remains alive, the Coppa remains relevant, and the club will play **Paris Saint-Germain in its first Champions League final**. All current homepage, preview and editorial framing should treat PSG as the confirmed final opponent; unknown final details must remain unspecified until confirmed by FC26.
 
 ## Summer 2028 squad movement ledger
+- João Neves — **signed from PSG for $250M + 5% sell-on**; 23 years old, 93 OVR. Crucial role, 5-year contract, $470K/week, $5M signing bonus + $1.4M after 5 appearances.
 This section is the canonical squad-movement log for the 2028–29 summer window. Update it immediately when the manager confirms a move; do not infer destinations or fees.
 
 - Noa Lang — **sold to Bournemouth for $47M**.
