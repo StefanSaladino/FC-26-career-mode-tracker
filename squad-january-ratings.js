@@ -5,7 +5,7 @@
 'Giovanni Di Lorenzo':[34,78],'Zanoli':[27,77],'Michael Kayode':[24,86],
 'Sanchez':[19,65],'Hasa':[24,77],'Kevin De Bruyne':[37,82],'Scott McTominay':[31,88],'Anton Stach':[29,81],'Nico Paz':[23,88],
 'Federico Chiesa':[30,82],'C. Brun':[18,69],'Mancini':[19,74],'Mikey Moore':[20,84],'Rao':[22,73],'Vergara':[25,72],
-'Giovane':[24,76],'Maximilian Beier':[25,88],'Endrick':[22,86],'Ambrosino':[24,75],'Pio Esposito':[23,86]
+'Giovane':[24,76],'Maximilian Beier':[25,88],'Endrick':[22,86],'Pio Esposito':[23,86]
 };
 D.playerAges=Object.fromEntries(Object.entries(info).map(([n,[age]])=>[n,age]));
 const rating=n=>info[n]?.[1];
