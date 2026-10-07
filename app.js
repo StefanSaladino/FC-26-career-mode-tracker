@@ -3,7 +3,8 @@ const D = {
   meta: raw.meta || {}, ticker: raw.ticker || [], hero: raw.hero || {}, articles: raw.articles || [],
   results: raw.results || [], upcoming: raw.upcoming || [], stats: raw.stats || [], youth: raw.youth || [],
   whispers: raw.whispers || [], media: raw.media || [], firstXI: raw.firstXI || [], squadPublic: raw.squadPublic || {},
-  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || [], latestResult: raw.latestResult || null
+  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || [], latestResult: raw.latestResult || null,
+  statsBySeason: raw.statsBySeason || {}, statsSeasonOrder: raw.statsSeasonOrder || [], statsCurrentSeason: raw.statsCurrentSeason || '', careerStats: raw.careerStats || [], statsUnavailableSeasons: raw.statsUnavailableSeasons || []
 };
 
 if (!D.articles.length && Array.isArray(raw.news)) {
@@ -111,8 +112,29 @@ if($('squadGroups')){
 }
 
 function renderTable(el,headers,rows){if(!el)return;el.innerHTML=`<thead><tr>${headers.map(h=>`<th>${escapeHTML(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${escapeHTML(c??'—')}</td>`).join('')}</tr>`).join('')}</tbody>`;}
-renderTable($('statsTable'),['Player','Goals','Assists','Season note'],D.stats);
-if(D.stats.length){const top=[...D.stats].sort((a,b)=>b[1]-a[1])[0];if($('topScorer'))$('topScorer').innerHTML=`<span>Top scorer</span><strong>${escapeHTML(top[0])}</strong><b>${top[1]}</b><small>goals</small>`;const max=Math.max(...D.stats.map(s=>s[1]),1);if($('goalBars'))$('goalBars').innerHTML=D.stats.filter(s=>s[1]>0).map(s=>`<div class="goal-row"><span>${escapeHTML(s[0])}</span><div class="bar-track"><div class="bar-fill" style="width:${s[1]/max*100}%"></div></div><strong>${s[1]}</strong></div>`).join('');}
+const statsTable=$('statsTable');
+const statsHead=statsTable?.closest('.stats-feature')?.previousElementSibling;
+if(statsTable&&Object.keys(D.statsBySeason).length){
+ const controls=document.createElement('div');controls.className='article-filters stats-filters';
+ const available=D.statsSeasonOrder.filter(s=>D.statsBySeason[s]);
+ controls.innerHTML=[...available.map((s,i)=>`<button class="filter-pill ${i===0?'active':''}" data-stats-view="${escapeHTML(s)}">${escapeHTML(s)}</button>`),`<button class="filter-pill" data-stats-view="career">Napoli Career</button>`].join('');
+ statsTable.closest('.stats-feature')?.insertAdjacentElement('beforebegin',controls);
+ const renderStatsView=view=>{
+   controls.querySelectorAll('.filter-pill').forEach(b=>b.classList.toggle('active',b.dataset.statsView===view));
+   const rows=view==='career'?D.careerStats:(D.statsBySeason[view]||[]);
+   const display=rows.map(r=>view==='career'?[r[0],r[1],r[2],(Number(r[1])||0)+(Number(r[2])||0),r[3]]:[r[0],r[1],r[2],(Number(r[1])||0)+(Number(r[2])||0),r[3]]);
+   renderTable(statsTable,['Player','Goals','Assists','G+A',view==='career'?'Recorded seasons':'Season note'],display);
+   if($('topScorer')){
+     const top=[...rows].sort((a,b)=>(b[1]-a[1])||(b[2]-a[2]))[0];
+     $('topScorer').innerHTML=top?`<span>${view==='career'?'Recorded Napoli leader':'Top scorer · '+escapeHTML(view)}</span><strong>${escapeHTML(top[0])}</strong><b>${top[1]}</b><small>goals</small>`:'<span>No appearances recorded yet</span>';
+   }
+   if($('goalBars')){const max=Math.max(...rows.map(s=>Number(s[1])||0),1);$('goalBars').innerHTML=rows.filter(s=>(Number(s[1])||0)>0).map(s=>`<div class="goal-row"><span>${escapeHTML(s[0])}</span><div class="bar-track"><div class="bar-fill" style="width:${(Number(s[1])||0)/max*100}%"></div></div><strong>${s[1]}</strong></div>`).join('');}
+ };
+ controls.addEventListener('click',e=>{const b=e.target.closest('[data-stats-view]');if(b)renderStatsView(b.dataset.statsView);});
+ renderStatsView(available[0]||'career');
+}else{
+ renderTable(statsTable,['Player','Goals','Assists','Season note'],D.stats);
+}
 renderTable($('youthTable'),['Player','Pos','Age','OVR','Potential','Plan','Note'],D.youth);
 const mediaArticleMap = {
   'Bayern: The First Real Test': 'bayern-test',
