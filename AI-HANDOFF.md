@@ -562,3 +562,17 @@ A pundit who predicted failure can be confronted with the result later. A report
 Never fabricate a prior quote. If the exact wording was not preserved, reference the established position without pretending it is verbatim.
 
 The purpose of press is to create story, reveal Saladino's thinking, deepen relationships and generate future continuity — not to simulate repetitive menu-style press conferences.
+
+
+## Summer 2028 squad movement ledger
+This section is the canonical squad-movement log for the 2028–29 summer window. Update it immediately when the manager confirms a move; do not infer destinations or fees.
+
+- Noa Lang — **sold to Bournemouth for $47M**.
+- Billy Gilmour — **sold**; fee/destination not recorded here unless later confirmed.
+- Juan Jesus — **released for $2M**.
+- G. Ricci — **loaned to Hull City**.
+- V. Mancini — **loaned to Fiorentina**.
+- C. Brun — **loaned to Paris FC**.
+- L. Resende — **promoted from academy and loan-listed**; destination not yet confirmed.
+- A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; loan plan remains pending.
+- Federico Chiesa — requested to leave; Bournemouth $36.7M bid rejected; still a Napoli player until a transfer is confirmed.
