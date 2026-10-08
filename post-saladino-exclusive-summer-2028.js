@@ -1,5 +1,8 @@
 (()=>{
  const D=window.NAPOLI_DATA;if(!D)return;
+ // Persist the existing Bellandi/Linea Calcio media character beyond this story.
+ D.mediaPersonas={...(D.mediaPersonas||{}),MatteoBellandi:{...(D.mediaPersonas?.MatteoBellandi||{}),name:'Matteo Bellandi',outlet:'Linea Calcio',type:'television pundit and long-form interviewer',stance:'probing; earlier assistant-manager criticism unresolved',canon:'Criticized Saladino\'s assistant manager after the Pisa win; Saladino defended his AM. Subsequently conducted the major summer 2028 Italian-language Saladino interview on the Manchester scar, tactical Neves signing, squad rotation, dressing-room pride and Naples restaurant anecdote. No apology or retraction is confirmed.'}};
+
  const story={
   "id": "saladino-exclusive-sono-fiero-torneremo-2028",
   "category": "Interview",
