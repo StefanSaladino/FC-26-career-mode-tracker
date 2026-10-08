@@ -15,11 +15,11 @@ if(Array.isArray(D.firstXI)){
   // Provisional XI following confirmed Endrick/Chiesa exits; exact formation is manager-controlled.
 }
 if(D.squadPublic){
- Object.keys(D.squadPublic).forEach(g=>{D.squadPublic[g]=(D.squadPublic[g]||[]).filter(r=>!['Billy Gilmour','Noa Lang','Federico Chiesa','Endrick','Juan Jesus','Obaretin','Ambrosino','Vergara','C. Brun','Mancini','G. Ricci','Reyna'].includes(r[0])).map(r=>rating(r[0])?[r[0],r[1],rating(r[0]),r[3]]:r);});
+ Object.keys(D.squadPublic).forEach(g=>{D.squadPublic[g]=(D.squadPublic[g]||[]).filter(r=>!['Billy Gilmour','Noa Lang','Federico Chiesa','Endrick','Zanoli','Juan Jesus','Obaretin','Ambrosino','Vergara','C. Brun','Mancini','G. Ricci','Reyna'].includes(r[0])).map(r=>rating(r[0])?[r[0],r[1],rating(r[0]),r[3]]:r);});
  D.squadPublic.Midfielders=D.squadPublic.Midfielders||[];
  if(!D.squadPublic.Midfielders.some(r=>r[0]==='João Neves'))D.squadPublic.Midfielders.unshift(['João Neves','CM / CDM',93,'Crucial · $250M signing']);
 }
 D.arrivals={...(D.arrivals||{}),'João Neves':{age:23,overall:93,type:'Signed',fee:250000000,sellOn:'5%',role:'Crucial',contractYears:5,wage:470000,signingBonus:5000000,appearanceBonus:1400000,appearanceThreshold:5}};
-D.departures={...(D.departures||{}),'Juan Jesus':{age:37,overall:61,type:'Released',cost:2000000},'Obaretin':{age:25,overall:72,type:'Sold',fee:3500000},'Federico Chiesa':{age:30,overall:82,type:'Sold',destination:'Fiorentina',fee:37500000},'Endrick':{age:22,overall:86,type:'Sold',destination:'Barcelona',fee:310000000}};
-D.squadSnapshot={updated:'Summer 2028 · after confirmed Endrick and Chiesa sales',players:Object.fromEntries(Object.entries(info).filter(([n])=>!['Endrick','Federico Chiesa'].includes(n)).map(([n,[age,overall]])=>[n,{age,overall}]))};
+D.departures={...(D.departures||{}),'Juan Jesus':{age:37,overall:61,type:'Released',cost:2000000},'Obaretin':{age:25,overall:72,type:'Sold',fee:3500000},'Federico Chiesa':{age:30,overall:82,type:'Sold',destination:'Fiorentina',fee:37500000},'Endrick':{age:22,overall:86,type:'Sold',destination:'Barcelona',fee:310000000},'Zanoli':{age:27,overall:77,type:'Sold',destination:'Fulham',fee:15000000}};
+D.squadSnapshot={updated:'Summer 2028 · after confirmed Endrick and Chiesa sales',players:Object.fromEntries(Object.entries(info).filter(([n])=>!['Endrick','Federico Chiesa','Zanoli'].includes(n)).map(([n,[age,overall]])=>[n,{age,overall}]))};
 })();
