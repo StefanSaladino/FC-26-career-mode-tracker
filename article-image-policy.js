@@ -18,7 +18,7 @@
   const candidates=a=>{const out=[];for(const field of allText(a))for(const p of players)if(p.keys.some(k=>has(field,k))&&!out.some(x=>x.src===p.src))out.push(p);return out};
   const approved=src=>players.some(p=>p.src===String(src||'').split('?')[0]||p.src===String(src||''));
   const generic=src=>!src||/stadium|generic|placeholder|default|unsplash|pexels/i.test(src)||approved(src);
-  const authored=a=>{const cur=String(a.image||a.img||a.imageUrl||'');return cur&&!generic(cur)};
+  const authored=a=>{if(a.imageLocked===true)return true;const cur=String(a.image||a.img||a.imageUrl||'');return cur&&!generic(cur)};
   const apply=(a,p)=>{if(!p)return;a.image=p.src;a.img=p.src;a.imageUrl=p.src;a.objectPosition=p.pos;a.objectFit='cover';a.imagePolicy=p.kind==='official'?'official-napoli-photo':'approved-player-feed-aware';};
 
   // Feed-aware assignment. Real-life Napoli players use official SSC Napoli photos;
