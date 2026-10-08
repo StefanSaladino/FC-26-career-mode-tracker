@@ -31,7 +31,6 @@
    ['Sam Beukema',0,0,'Current Napoli player · season not started'],
    ['Rafa Marín',0,0,'Current Napoli player · season not started'],
    ['Giovanni Di Lorenzo',0,0,'Current Napoli player · season not started'],
-   ['Zanoli',0,0,'Current Napoli player · season not started'],
    ['Michael Kayode',0,0,'Current Napoli player · season not started'],
    ['Kevin De Bruyne',0,0,'Current Napoli player · season not started'],
    ['Scott McTominay',0,0,'Current Napoli player · season not started'],
