@@ -41,15 +41,15 @@
  {user:'PioHaterForNoReason',lang:'en',text:'Zero goals against England. Bench him immediately. I have been waiting weeks for this.'},
  {user:'PioNation',lang:'en',text:'Four goals got us here. Retegui gets us through tonight. That is a team.'}
  ]},
- {id:'bellingham-crossroads-england-napoli-2028',category:'Mercato',label:'MERCATO · THE TIMING',date:'After Italy vs England',headline:'BELLINGHAM GOES HOME. NAPOLI’S $285M QUESTION IS STILL WAITING.',dek:'The midfielder linked with Napoli has just been eliminated by Stefan Saladino’s Italy. The club’s confirmed $285M budget makes the summer question impossible to ignore — but there is still no bid or agreement.',commentContext:'bellingham-england-napoli',commentHeat:88,body:[
+ {id:'bellingham-crossroads-england-napoli-2028',category:'Mercato',label:'MERCATO · THE TIMING',date:'After Italy vs England',headline:'BELLINGHAM GOES HOME. NAPOLI’S SUMMER QUESTION IS STILL WAITING.',dek:'The midfielder linked with Napoli has just been eliminated by Stefan Saladino’s Italy. Napoli’s growing ambitions make the summer question impossible to ignore — but there is still no bid or agreement.',commentContext:'bellingham-england-napoli',commentHeat:88,body:[
  'The timing could hardly be cleaner.',
- 'Napoli enter the summer with a confirmed $285 million budget. Jude Bellingham remains part of the speculation around what kind of elite midfield addition could push the Champions League runners-up forward.',
+ 'Napoli enter the summer with formidable ambition and an appetite for elite additions. Jude Bellingham remains part of the speculation around what kind of midfield signing could push the Champions League runners-up forward.',
  'Now Bellingham’s England have been eliminated from EURO 2028 by the same manager who would be coaching him in Naples: Stefan Saladino.',
  'None of that constitutes a transfer. Napoli have made no confirmed bid, there is no agreement, and there is no confirmed indication that Real Madrid intend to sell.',
  'But after Madrid’s $158.6 million approach for Alessandro Bastoni and Italy’s quarterfinal victory over England, the Madrid-Naples storyline has acquired another layer. The Euros continue first. The mercato will still be there when Saladino gets home.'
  ],comments:[
  {user:'Pazienza',lang:'en',text:'Paz plus Bellingham discourse is going to consume my entire summer, isn’t it.'},
- {user:'CurvaCalculator',lang:'en',text:'$285M budget. Please remember that having money does not legally require spending all of it.'},
+ {user:'CurvaCalculator',lang:'en',text:'Having financial power does not legally require spending all of it.'},
  {user:'SaladinoOutNow',lang:'en',text:'He eliminated Bellingham before signing Bellingham. Reckless asset management. SALADINO OUT.'}
  ]}
  ];
@@ -60,10 +60,10 @@
  ['ITALY INTO THE SEMIS','Retegui 75′ from Kean sends England home, 1–0.'],
  ['450 MINUTES · ZERO CONCEDED','Five EURO matches. Five clean sheets.'],
  ['DEPTH DELIVERS','Pio’s scoring streak ends; Kean and Retegui provide the winner.'],
- ['$285M CONFIRMED','Napoli enter 2028–29 with a $285 million budget.'],
+ ['SUMMER FINANCES','Napoli are weighing ambitious plans for the next transfer window.'],
  ['MADRID REBUFFED','Real Madrid’s $158.6M approach for Bastoni gets nowhere.'],
  ['SEMIFINAL NEXT','Opponent not yet reported.'],
- ...(D.whispers||[]).filter(w=>!['ITALY INTO THE QUARTERS','PIO: FOUR IN FOUR','360 MINUTES · ZERO CONCEDED','KAYODE ABSENT','QUARTERFINAL NEXT','ITALY INTO THE SEMIS','450 MINUTES · ZERO CONCEDED','DEPTH DELIVERS','$285M CONFIRMED','MADRID REBUFFED','SEMIFINAL NEXT'].includes(w?.[0]))
+ ...(D.whispers||[]).filter(w=>!['ITALY INTO THE QUARTERS','PIO: FOUR IN FOUR','360 MINUTES · ZERO CONCEDED','KAYODE ABSENT','QUARTERFINAL NEXT','ITALY INTO THE SEMIS','450 MINUTES · ZERO CONCEDED','DEPTH DELIVERS','SUMMER FINANCES','MADRID REBUFFED','SEMIFINAL NEXT'].includes(w?.[0]))
  ].slice(0,10);
- D.ticker=['EURO 2028 · ITALY 1–0 ENGLAND','RETEGUI 75′ · ASSIST KEAN','ITALY ARE INTO THE SEMIFINALS','450 MINUTES · ZERO GOALS CONCEDED','NAPOLI · $285M SUMMER BUDGET'];
+ D.ticker=['EURO 2028 · ITALY 1–0 ENGLAND','RETEGUI 75′ · ASSIST KEAN','ITALY ARE INTO THE SEMIFINALS','450 MINUTES · ZERO GOALS CONCEDED','NAPOLI · BIG SUMMER QUESTIONS AHEAD'];
 })();
