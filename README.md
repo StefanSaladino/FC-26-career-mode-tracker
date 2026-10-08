@@ -1,5 +1,22 @@
 # Napoli FC26 — 2027–28 Season Room
 
+## CURRENT CANON — SUMMER 2028 / OPENING OF 2028–29 (MOST RECENT)
+
+> **This section supersedes earlier 2027–28 snapshots further below, which are historical.** Authoritative timeline: `SUMMER-2028-CANON.md`. Exact manager-authored interview remarks: `SALADINO-BELLANDI-INTERVIEW-CANON.md`.
+
+- **Endrick SOLD to Barcelona for $310M, officially completed.** Negotiation chronology: earlier $300.4M handshake → Saladino asked $310M → Barcelona agreed → player move officially completed. **Do not mark as pending.** Age 22, OVR 86; preserve 2027–28 **14 goals, 11 assists** in the Napoli historical archive.
+- **Federico Chiesa SOLD to Fiorentina for $37.5M, officially completed.** Earlier Bournemouth $36.7M bid rejected. Preserve 2027–28 **9 goals, 4 assists**, including the Barcelona semifinal goal. Chiesa and Endrick are **both out of the current Napoli squad and unopened 2028–29 season list**.
+- **João Neves SIGNED from PSG** for **$250M + 5% sell-on**; 23 years old, 93 OVR, five-year Crucial contract at $470K/week, $5M signing bonus, $1.4M after five apps.
+- Other confirmed sales: **Noa Lang → Bournemouth $47M; Ambrosino → Parma $13M; Obaretin $3.5M (destination unconfirmed); Billy Gilmour sold (destination/fee unconfirmed)**. **Juan Jesus released at $2M cost**. Loans: Vergara Benfica, G. Ricci Hull, V. Mancini Fiorentina, C. Brun Paris FC, A. Reyna Pisa, L. Resende destination unconfirmed.
+- **Financial caution:** Earlier $100M FC26 budget was a snapshot immediately after Neves, not the current available budget. The Chiesa and Endrick transfer fees are confirmed but do **not** automatically equal spendable budget; wait for manager's updated in-game figure.
+- 2027–28 Napoli: **28W, 10D, 0L, 94 points, Serie A champions and Coppa Italia champions**, Champions League **runners-up** to PSG **3–2 AET**. EURO 2028 Italy runners-up to Germany 3–2 AET.
+- **Stefan Saladino's Matteo Bellandi / Linea Calcio summer interview is permanent canon**, published in `post-saladino-exclusive-summer-2028.js`: proud of invincibles, Manchester scar, Neves tactical not revenge, faith in squad rotation and acceptance of occasional mistakes, dressing-room words **«Sono fiero e torneremo.»**, free dinner after Inter win and joke **«Ma a volte penso… cosa sarebbe successo se avessimo perso?»**. Bellandi previously criticised the AM on air; interview did **not** resolve that conflict.
+- The **latest homepage transfer articles** are `post-summer-2028-transfer-confirmations.js`: Endrick $310M OFFICIAL (lead), Chiesa $37.5M OFFICIAL. Do not erase the interview from the archive when new stories lead the homepage.
+- **Current squad / stats**: remove sold players from active squad and pre-season 2028–29 zero totals. Never delete their 2027–28 contributions or recorded Napoli-career production. 2025–26/2026–27 production remains unverified.
+
+---
+
+
 ## Canonical current save state
 
 FC26 screens / manager-read game data are the statistical source of truth. The chronological site story files are canonical history. Unknown outcomes, scorers, assists, fixtures or totals are never guessed.
@@ -130,7 +147,7 @@ Major stories should contain bespoke article-specific comments first, seeded can
 14. Manager narration corrections become canonical immediately.
 15. **PSG are the confirmed 2027–28 Champions League final opponent. Do not revert to “opponent TBD” framing.**
 
-## Current posture
+## Historical posture from spring 2028 (archival)
 Napoli have crossed into unprecedented territory. The Scudetto is secured, the unbeaten league season remains alive, the Coppa remains relevant, and the club will play **Paris Saint-Germain in its first Champions League final**. All current homepage, preview and editorial framing should treat PSG as the confirmed final opponent; unknown final details must remain unspecified until confirmed by FC26.
 
 ## SUMMER 2028 — JOÃO NEVES CHANGES THE LEVEL
@@ -158,7 +175,7 @@ This section is the canonical squad-movement log for the 2028–29 summer window
 - C. Brun — **loaned to Paris FC**.
 - L. Resende — **promoted from academy and loaned out**; destination not recorded.
 - A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; **loaned to Pisa**.
-- Federico Chiesa — requested to leave; Bournemouth $36.7M bid rejected; still a Napoli player until a transfer is confirmed.
+- Federico Chiesa — **officially SOLD to Fiorentina for $37.5M** after rejected Bournemouth $36.7M bid. Historical Napoli stats retained.
 
 ## Permanent statistical archive rule
 Player history is never deleted when a player leaves Napoli. **Current Squad** contains only currently registered players; **Season Stats** retain every player who appeared in that season, including mid-season or summer departures; **Napoli Career** totals preserve all recorded Napoli production for active and former players. Departed players' totals freeze rather than disappear. The archive currently has verified 2027–28 production and opens 2028–29 at zero for new arrivals. 2025–26 and 2026–27 must remain marked unavailable until canonical stats are recovered; never invent them.
