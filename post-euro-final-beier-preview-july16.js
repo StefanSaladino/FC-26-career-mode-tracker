@@ -23,8 +23,8 @@
  ['JULY 16 · THE FINAL','Italy vs Germany · one match for Europe.'],
  ['NAPOLI PARTNERS DIVIDED','Pio 29G/12A and Beier 25G/11A combined for 77 club goal contributions last season.'],
  ['ITALY · 6–0–0','Nine scored · one conceded · one match remaining.'],
- ['$353M CURRENT BUDGET','Napoli’s current transfer budget has risen to $353M.'],
- ...(D.whispers||[]).filter(w=>!['EURO FINAL NEXT','HELLO, BEIER','JULY 16 · THE FINAL','NAPOLI PARTNERS DIVIDED','ITALY · 6–0–0','$353M CURRENT BUDGET'].includes(w?.[0]))
+ ['MARKET WATCH','Napoli are preparing for a summer of significant transfer decisions.'],
+ ...(D.whispers||[]).filter(w=>!['EURO FINAL NEXT','HELLO, BEIER','JULY 16 · THE FINAL','NAPOLI PARTNERS DIVIDED','ITALY · 6–0–0','MARKET WATCH'].includes(w?.[0]))
  ].slice(0,10);
- D.ticker=['EURO 2028 FINAL · JULY 16 · ITALY vs GERMANY','PIO vs BEIER · NAPOLI PARTNERS BECOME FINAL OPPONENTS','ITALY · 6–0–0 · 9 GF · 1 GA','NAPOLI · CURRENT TRANSFER BUDGET $353M'];
+ D.ticker=['EURO 2028 FINAL · JULY 16 · ITALY vs GERMANY','PIO vs BEIER · NAPOLI PARTNERS BECOME FINAL OPPONENTS','ITALY · 6–0–0 · 9 GF · 1 GA','NAPOLI · SUMMER TRANSFER PLANS UNDER WAY'];
 })();
