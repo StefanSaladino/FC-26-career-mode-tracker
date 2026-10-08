@@ -2,6 +2,13 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
+## SCREENSHOT-VERIFIED CALENDAR · SEPTEMBER/OCTOBER 2028
+
+- Italy friendlies completed: Sep 1 Côte d’Ivoire 0–0 Italy; Sep 5 Korea 0–1 Italy. Korea scorer and assists unconfirmed. These are national-team results, not Napoli league matches.
+- Sep 8 Venezia away (Serie A); Sep 12 Galatasaray home (UCL); Sep 16 Como home; Sep 23 Torino away; Sep 26 Bayer Leverkusen home (UCL).
+- Oct 1 Milan home; Oct 6 Italy vs Côte d’Ivoire friendly home (badge appears Côte d’Ivoire); Oct 10 Italy away to Tunisia friendly; Oct 13 Roma away; Oct 17 Slavia Prague home (UCL); Oct 21 Empoli home; Oct 25 Juventus away; Oct 28 Sampdoria home; Oct 31 Arsenal away (UCL).
+- This screenshot supersedes the previously reported Sep 10 Venezia date: **Sep 8** is confirmed. Napoli's first listed UCL league-phase match is Galatasaray home Sep 12.
+
 ## LATEST VERIFIED UPDATE — AFTER INTER
 
 - Napoli 2–0 Inter, second confirmed 2028–29 Serie A match (exact date not confirmed). Davies 8′ (Pio assist); Pio 18′ (Beier assist). Halftime 2–0; Calafiori and Nico Paz introduced at half (outgoing players not confirmed); full time 2–0. Calafiori debut confirmed; Olise debut unconfirmed.
