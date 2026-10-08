@@ -2,6 +2,40 @@
  const D=window.NAPOLI_DATA;if(!D)return;
  const stories=[
   {
+    "id": "zanoli-fulham-15m-official-summer-2028",
+    "category": "Mercato",
+    "label": "CONFIRMED · FULHAM",
+    "date": "Summer 2028",
+    "tone": "news",
+    "commentContext": "zanoli-fulham-confirmed-exit",
+    "commentHeat": 38,
+    "headline": "ZANOLI JOINS FULHAM AS NAPOLI CONFIRM $15M SALE.",
+    "dek": "The 27-year-old fullback is officially a Fulham player. Napoli continue their summer squad reshuffle after the high-profile Chiesa and Endrick departures.",
+    "body": [
+      "Alessandro Zanoli has officially left Napoli for Fulham in a $15 million transfer confirmed by manager Stefan Saladino.",
+      "The 27-year-old right-back, rated 77 overall in the latest squad snapshot, departs during a summer of significant change at Napoli. Endrick's $310 million move to Barcelona and Federico Chiesa's $37.5 million transfer to Fiorentina are also now complete.",
+      "Zanoli is no longer a Napoli player or part of the club's loan/development group. The permanent archive will continue to preserve any recorded Napoli historical contributions; no unreported appearance or scoring totals have been assigned to him.",
+      "No new game-reported transfer budget or replacement for Zanoli has been confirmed. Napoli's right-back options in the present squad include Michael Kayode and Giovanni Di Lorenzo."
+    ],
+    "comments": [
+      {
+        "user": "TacticalNonno",
+        "lang": "it",
+        "text": "15 milioni per Zanoli, ufficiale. Ora attenzione alla profondità dei terzini."
+      },
+      {
+        "user": "CurvaCalculator",
+        "lang": "en",
+        "text": "Another completed outgoing deal. Somebody tell me when the actual in-game budget updates."
+      },
+      {
+        "user": "SaladinoOutNow",
+        "lang": "en",
+        "text": "They sold another fullback. I demand a tactical inquiry. SALADINO OUT."
+      }
+    ]
+  },
+  {
     "id": "endrick-barcelona-310m-official-summer-2028",
     "category": "Mercato",
     "label": "BREAKING · CONFIRMED DEPARTURE",
@@ -118,13 +152,15 @@
  D.ticker=[
    'OFFICIAL · ENDRICK JOINS BARCELONA · $310 MILLION',
    'OFFICIAL · CHIESA JOINS FIORENTINA · $37.5 MILLION',
+   'OFFICIAL · ZANOLI JOINS FULHAM · $15 MILLION',
    'SUMMER 2028 · NAPOLI COMPLETE TWO MAJOR FORWARD EXITS',
    ...(D.ticker||[]).filter(x=>!/ENDRICK|CHIESA|BARCELONA PAY|SALADINO: “SONO FIERO/.test(String(x).toUpperCase()))
  ];
  D.whispers=[
    ['ENDRICK · OFFICIAL','$310M sale to Barcelona completed · 14G/11A last season · Napoli historical archive preserved'],
    ['CHIESA · OFFICIAL','$37.5M move to Fiorentina completed · 9G/4A last season'],
+   ['ZANOLI · OFFICIAL','$15M sale to Fulham completed · right-back leaves Napoli'],
    ['FRONT-LINE RESET','Pio and Beier remain; the manager has not confirmed a replacement for Endrick'],
-   ...(D.whispers||[]).filter(w=>!['ENDRICK · OFFICIAL','CHIESA · OFFICIAL','FRONT-LINE RESET'].includes(w?.[0]))
+   ...(D.whispers||[]).filter(w=>!['ENDRICK · OFFICIAL','CHIESA · OFFICIAL','ZANOLI · OFFICIAL','FRONT-LINE RESET'].includes(w?.[0]))
  ].slice(0,10);
 })();
