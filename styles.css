@@ -263,3 +263,12 @@ td{padding:12px;border-bottom:1px solid #edf1f5;vertical-align:top}
   .upcoming-strip{grid-template-columns:1fr}
   .fixture,.fixture:nth-child(2){border-right:0;border-bottom:1px solid var(--line)}
 }
+
+
+/* Magazine-style long-form reading treatment, opt-in per feature. */
+.reader-longform .reader-byline{font:700 .77rem/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-transform:uppercase;letter-spacing:.075em;color:#53677c;border-bottom:1px solid var(--line);margin:-2px 0 29px;padding-bottom:16px}
+.reader-longform .reader-chapter{font:850 clamp(1.2rem,2.8vw,1.55rem)/1.14 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.025em;color:var(--navy);margin:43px 0 18px;padding-top:18px;border-top:3px solid var(--navy)}
+.reader-longform .reader-pullquote{max-width:650px;margin:34px 0 37px;padding:14px 0 15px 23px;border-left:5px solid var(--blue);font:700 clamp(1.55rem,4vw,2.25rem)/1.25 Georgia,"Times New Roman",serif;letter-spacing:-.025em;color:var(--navy)}
+.reader-longform.reader-body>p:not(.reader-dek){font-size:1.115rem;line-height:1.86;margin-bottom:1.55rem}
+.reader-longform.reader-body>p:not(.reader-dek):first-of-type{font-size:1.19rem;line-height:1.77}
+@media(max-width:760px){.reader-longform .reader-chapter{margin-top:34px}.reader-longform .reader-pullquote{padding-left:15px;margin:29px 0}.reader-longform.reader-body>p:not(.reader-dek){font-size:1.045rem;line-height:1.75}}
