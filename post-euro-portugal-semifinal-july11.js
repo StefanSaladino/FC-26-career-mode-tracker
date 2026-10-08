@@ -46,7 +46,7 @@
  'Noa Lang is officially a Bournemouth player.',
  'Bournemouth initially approached Napoli with a $41.4 million offer. Negotiations continued and the clubs ultimately agreed a $47 million fee.',
  'Lang leaves after contributing one assist during Napoli’s 2027–28 campaign.',
- 'The deal is the first confirmed major outgoing of Napoli’s new summer window. It comes with the club already entering 2028–29 with a confirmed $285 million starting budget.',
+ 'The deal is the first confirmed major outgoing of Napoli’s new summer window. The club is entering 2028–29 with major ambitions, but its precise spending allocation remains an internal matter.',
  'Napoli have not treated every offer the same way. Real Madrid’s $158.6 million approach for Alessandro Bastoni was rejected, while Bournemouth’s separate pursuit of Federico Chiesa has also failed to produce an agreement after Napoli turned down $36.7 million.',
  'Lang, however, is gone. Napoli have converted a depth attacker into a $47 million sale while preserving the core of the squad.'
  ],comments:[
@@ -67,7 +67,7 @@
  ['LANG TO BOURNEMOUTH','Official: Noa Lang leaves Napoli in a $47M deal.'],
  ['CHIESA OFFER REJECTED','Bournemouth stopped at $36.7M. Napoli said no.'],
  ['EURO FINAL NEXT','Opponent not yet reported.'],
- ...(D.whispers||[]).filter(w=>!['ITALY INTO THE SEMIS','450 MINUTES · ZERO CONCEDED','DEPTH DELIVERS','$285M CONFIRMED','MADRID REBUFFED','SEMIFINAL NEXT','ITALY ARE IN THE FINAL','BARELLA BRACE','FIRST GOAL CONCEDED','PERFECT RECORD LIVES','LANG TO BOURNEMOUTH','CHIESA OFFER REJECTED','EURO FINAL NEXT'].includes(w?.[0]))
+ ...(D.whispers||[]).filter(w=>!['ITALY INTO THE SEMIS','450 MINUTES · ZERO CONCEDED','DEPTH DELIVERS','SUMMER FINANCES','MADRID REBUFFED','SEMIFINAL NEXT','ITALY ARE IN THE FINAL','BARELLA BRACE','FIRST GOAL CONCEDED','PERFECT RECORD LIVES','LANG TO BOURNEMOUTH','CHIESA OFFER REJECTED','EURO FINAL NEXT'].includes(w?.[0]))
  ].slice(0,10);
  D.ticker=['EURO 2028 · ITALY 2–1 PORTUGAL · AET','BARELLA 16′, 103′ · ITALY ARE FINALISTS','BUONGIORNO ASSISTS THE EQUALIZER','ITALY · 6 WINS · 9 GF · 1 GA','OFFICIAL · NOA LANG TO BOURNEMOUTH · $47M'];
 })();
