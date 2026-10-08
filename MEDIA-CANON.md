@@ -207,3 +207,14 @@ The goal is not to simulate repetitive press-conference menus. A good appearance
 - build historical texture around the season.
 
 If the question adds nothing, skip the press appearance.
+
+## Summer 2028 — Matteo Bellandi's long-form Saladino exclusive
+
+**Outlet:** Linea Calcio. **Byline:** Matteo Bellandi. **Mode:** serious long-form sit-down conducted in Italian, with reporter probing manager Stefan Saladino about the historic season, transfer decisions and leadership. The previously adversarial staff relationship is **not erased**: Bellandi had publicly questioned the AM after the rotated Pisa win, Saladino defended the AM, and Bellandi had not withdrawn his comments. The summer interview did **not include an apology or retraction**. Their willingness to conduct a probing professional discussion does not resolve the dispute.
+
+- **Article:** `post-saladino-exclusive-summer-2028.js`, headline *“Sono fiero. E torneremo.” — The Man Behind Napoli's Invincibles Is Not Finished*. One-on-one authored in the interactive roleplay with actual manager answers, not invented manager quotations.
+- **Raw authentic manager-answer transcript:** `SALADINO-BELLANDI-INTERVIEW-CANON.md` — use when later articles, press conferences or pundit follow-ups reference exact wording.
+- **Topics:** 28–10–0 / 94-point invincible Scudetto, Coppa Italia, Champions League final loss to PSG 3–2 AET, João Neves' $250M signing as a tactical decision *not revenge*, selection dilemma between Esposito, Beier and Endrick *before Endrick's later official sale*, reliance on rotation, admission that selection calls can be mistakes, the brief post-PSG message **«Sono fiero e torneremo.»**, and a Napoli restaurant declining payment after an Inter win; Saladino wondered whether they'd have charged him if he'd lost.
+- **Current transfer status AFTER interview:** Endrick's sale to Barcelona is **official for $310M**; Chiesa's sale to Fiorentina is **official for $37.5M**. These later developments must not be projected backward into the original recorded questions/answers.
+- **Narrative evolution:** Bellandi can press Saladino on how he plans to replace 14-goal/11-assist Endrick and 9-goal/4-assist Chiesa, whether rotating the rest of the forward line will remain the manager's preferred strategy, and whether the promised European return comes true. **Do not invent Saladino's replies.**
+- **Editorial interpretation:** the piece is serious and intimate rather than a debate-show confrontation. Reuse the established Bellandi persona; no new journalist, apology or reconciliation without a future user-led scene.
