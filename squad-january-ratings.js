@@ -21,5 +21,5 @@ if(D.squadPublic){
 }
 D.arrivals={...(D.arrivals||{}),'João Neves':{age:23,overall:93,type:'Signed',fee:250000000,sellOn:'5%',role:'Crucial',contractYears:5,wage:470000,signingBonus:5000000,appearanceBonus:1400000,appearanceThreshold:5}};
 D.departures={...(D.departures||{}),'Juan Jesus':{age:37,overall:61,type:'Released',cost:2000000},'Obaretin':{age:25,overall:72,type:'Sold',fee:3500000},'Federico Chiesa':{age:30,overall:82,type:'Sold',destination:'Fiorentina',fee:37500000},'Endrick':{age:22,overall:86,type:'Sold',destination:'Barcelona',fee:310000000}};
-D.squadSnapshot={updated:'Summer 2028 · post-EURO',players:Object.fromEntries(Object.entries(info).map(([n,[age,overall]])=>[n,{age,overall}]))};
+D.squadSnapshot={updated:'Summer 2028 · after confirmed Endrick and Chiesa sales',players:Object.fromEntries(Object.entries(info).filter(([n])=>!['Endrick','Federico Chiesa'].includes(n)).map(([n,[age,overall]])=>[n,{age,overall}]))};
 })();
