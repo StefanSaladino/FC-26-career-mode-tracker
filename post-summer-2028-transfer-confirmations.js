@@ -16,7 +16,7 @@
       "Alessandro Zanoli has officially left Napoli for Fulham in a $15 million transfer confirmed by manager Stefan Saladino.",
       "The 27-year-old right-back, rated 77 overall in the latest squad snapshot, departs during a summer of significant change at Napoli. Endrick's $310 million move to Barcelona and Federico Chiesa's $37.5 million transfer to Fiorentina are also now complete.",
       "Zanoli is no longer a Napoli player or part of the club's loan/development group. The permanent archive will continue to preserve any recorded Napoli historical contributions; no unreported appearance or scoring totals have been assigned to him.",
-      "No new game-reported transfer budget or replacement for Zanoli has been confirmed. Napoli's right-back options in the present squad include Michael Kayode and Giovanni Di Lorenzo."
+      "The club has not announced a replacement for Zanoli. Napoli's right-back options in the present squad include Michael Kayode and Giovanni Di Lorenzo, with the summer's spending strategy still a subject of debate."
     ],
     "comments": [
       {
@@ -60,7 +60,7 @@
       "This is not the end of a poor experiment or a panic sale. It is the departure of a productive young attacker at an extraordinary agreed fee, at a moment when Napoli are trying to turn a domestic double and European runner-up finish into sustained continental dominance.",
       "It also forces a tactical rethink. In his recent Linea Calcio interview with Matteo Bellandi, Saladino laughed at rumours about how to accommodate three prolific forwards. The coach insisted that rotation was fundamental to the unbeaten campaign. That exchange took place before Endrick's transfer was officially completed. The dilemma has changed.",
       "Pio Esposito scored 29 goals last season. Maximilian Beier scored 25 and provided 11 assists. Both remain at Napoli, and the club's midfield has gained 93-rated João Neves for $250 million plus a five-per-cent sell-on clause. It is an elite spine, but Endrick's departure removes 25 direct goal contributions from the last campaign's squad.",
-      "Whether Napoli recruit another forward, remodel the shape or trust internal depth is not yet confirmed. Nor has the manager reported a new in-game transfer budget following the completed sale. A $310 million fee is a historic headline; it is not proof that $310 million can immediately be spent under FC26's budget rules.",
+      "Whether Napoli recruit another forward, remodel the shape or trust internal depth is not yet confirmed. That $310 million fee is an extraordinary headline, but transfer revenue should not be mistaken for an automatic licence to spend the identical sum. Exactly how aggressively Napoli reinvest remains the summer's next argument.",
       "What can be reported without qualification is the transfer itself: Endrick is now a Barcelona player. The original $300.4 million handshake has been superseded by a completed $310 million transaction. In Naples, the next chapter begins without him."
     ],
     "comments": [
