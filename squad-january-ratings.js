@@ -11,7 +11,7 @@ D.playerAges=Object.fromEntries(Object.entries(info).map(([n,[age]])=>[n,age]));
 const rating=n=>info[n]?.[1];
 if(Array.isArray(D.firstXI))D.firstXI=D.firstXI.map(r=>rating(r[1])?[r[0],r[1],rating(r[1])]:r);
 if(D.squadPublic){
- Object.keys(D.squadPublic).forEach(g=>{D.squadPublic[g]=(D.squadPublic[g]||[]).filter(r=>!['Billy Gilmour','Noa Lang','Juan Jesus','Obaretin','Ambrosino','Vergara','C. Brun','Mancini','G. Ricci','Reyna'].includes(r[0])).map(r=>rating(r[0])?[r[0],r[1],rating(r[0]),r[3]]:r);});
+ Object.keys(D.squadPublic).forEach(g=>{D.squadPublic[g]=(D.squadPublic[g]||[]).filter(r=>!['Billy Gilmour','Noa Lang','Federico Chiesa','Juan Jesus','Obaretin','Ambrosino','Vergara','C. Brun','Mancini','G. Ricci','Reyna'].includes(r[0])).map(r=>rating(r[0])?[r[0],r[1],rating(r[0]),r[3]]:r);});
  D.squadPublic.Midfielders=D.squadPublic.Midfielders||[];
  if(!D.squadPublic.Midfielders.some(r=>r[0]==='João Neves'))D.squadPublic.Midfielders.unshift(['João Neves','CM / CDM',93,'Crucial · $250M signing']);
 }
