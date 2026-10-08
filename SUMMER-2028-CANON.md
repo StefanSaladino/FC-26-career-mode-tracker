@@ -2,6 +2,15 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
+## LATEST VERIFIED UPDATE — AFTER LECCE, OLISE AND CALAFIORI
+
+- **19 August 2028, Lecce 0–2 Napoli:** Maximilian Beier scored at **31' (Scott McTominay assist)** and **87' (Kevin De Bruyne assist)**. Alex Meret made two decisive saves in the 67th minute. João Neves played Pio Esposito through in the 58th, saved by Klaverboer; Pio was denied again in the 69th. Napoli: **1W 0D 0L, 3 points, 2 GF, 0 GA**. Beier: **2 goals** in 2028–29. Neves: no recorded goal contribution in opener.
+- **MICHAEL OLISE OFFICIALLY SIGNED:** age 26, **91 OVR**, RM/RW; confirmed transfer fee **$137.5M plus 5% future sell-on**. Earlier $180M and $175M figures were mistaken and are superseded. **Four years, Crucial, $350K/week, $3.6M signing bonus, $13.2M if 20 goals**. The previously secret transfer target was Olise; do not report him as pending.
+- **RICCARDO CALAFIORI OFFICIALLY SIGNED from Roma:** age 26, **86 OVR**, LB/CB; **$83.5M** fee. He transferred Arsenal → Roma earlier in this save. Contract: **$170K/week, $1.55M signing bonus, $2.3M after 10 clean sheets**. Contract length and squad role were not confirmed; do not invent them.
+- **INTERNAL ONLY — latest manager-reported available in-game budget: $172M projected if Calafiori accepted**, followed by explicit confirmation that the deal was completed. Treat **$172M as the latest reported planning figure**, pending a new post-signing budget screen; earlier $267M and $440M are superseded. **Never publish exact available budget in Season Room UI or public-facing prose.** Transfer fees themselves are publishable.
+- **Bastoni extension:** two additional years, $460K/week, $4.45M signing bonus, $4.5M after five appearances. **PSG $50M Meret bid rejected.**
+- Olise and Calafiori are active squad members; neither is yet confirmed to have made a Napoli appearance. **Do not overwrite manager's last confirmed expected XI** or erase 2027–28 history.
+
 ## Transfer status: confirmations supersede previous agreements
 
 **Endrick → Barcelona: OFFICIALLY SOLD FOR $310,000,000. TRANSFER COMPLETE.**
@@ -11,14 +20,14 @@
 - Saladino **returned to Barcelona to negotiate a higher fee**, demanded **$310M** (an additional **$9.6M**), and **Barcelona's manager accepted**. Saladino confirmed a handshake at club-manager level.
 - The **latest confirmed club-to-club agreement is $310M**, superseding the earlier $300.4M proposal. It is not a second sale or an additional $310M on top of $300.4M.
 - **Latest manager confirmation: the Endrick deal is OFFICIAL.** Endrick has departed Napoli for **Barcelona** for **$310M**. This supersedes the earlier handshake and waiting-for-personal-terms status.
-- **Record Endrick as a completed $310M sale.** Remove him from the current Napoli squad, 2028–29 unopened-season roster and current formation; **retain 2027–28 14G/11A and all future Napoli historical career records**. Fee is confirmed. **The manager subsequently reported $451M as the available FC26 transfer budget.** Do not invent any further changes.
+- **Record Endrick as a completed $310M sale.** Remove him from the current Napoli squad, 2028–29 unopened-season roster and current formation; **retain 2027–28 14G/11A and all future Napoli historical career records**. Fee is confirmed. **The manager subsequently reported $172M (latest projected) as the available FC26 transfer budget.** Do not invent any further changes.
 - No Endrick replacement or Barcelona salary, release clause or other add-ons were reported. Do not invent them.
 
 **Federico Chiesa → Fiorentina: COMPLETED TRANSFER FOR $37.5M. SOLD.**
 - Manager confirmed the **official departure to Fiorentina for $37,500,000** after the earlier club-level agreement; completion supersedes the prior pending-personal-terms status.
 - Earlier **Bournemouth $36.7M bid rejected** remains historical background.
 - Remove Chiesa from **current squad** and unstarted **2028–29 season stats**; preserve **2027–28 and Napoli-career historical records** permanently.
-- Completed sale: $37.5M fee is confirmed. **Current transfer budget has since been confirmed by the manager as $451M**; do not calculate it from individual transfer fees.
+- Completed sale: $37.5M fee is confirmed. **Current transfer budget has since been confirmed by the manager as $172M (latest projected)**; do not calculate it from individual transfer fees.
 
 ## Confirmed transfers out (completed)
 
@@ -33,7 +42,7 @@
 | Endrick | **Sold** | Barcelona | **$310M** |
 | Zanoli | **Sold** | Fulham | **$15M** |
 
-**Zanoli → Fulham: confirmed, completed $15M sale.** Remove from Napoli's current squad, current formation if present, loan/development displays and unopened 2028–29 zero-production roster. Retain any verified historical Napoli appearances and production; none should be fabricated. **The manager has since confirmed a $451M in-game transfer budget** after the completed transfers.
+**Zanoli → Fulham: confirmed, completed $15M sale.** Remove from Napoli's current squad, current formation if present, loan/development displays and unopened 2028–29 zero-production roster. Retain any verified historical Napoli appearances and production; none should be fabricated. **The manager has since confirmed a $172M (latest projected) in-game transfer budget** after the completed transfers.
 
 **Do not invent destinations for Billy Gilmour or Obaretin.** Juan Jesus's $2M is a cost, not a fee received.
 
@@ -59,7 +68,7 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 - Important arc: Neves scored PSG's 38th-minute equaliser in the UCL final against Napoli, then lost Portugal's EURO 2028 semifinal to Saladino's Italy. His signing is completed and central to midfield plans.
 - Saladino said explicitly in the Linea Calcio interview that the signing was **tactical**, **not revenge or malice**.
 
-**CURRENT VERIFIED IN-GAME TRANSFER BUDGET: $451,000,000.** The manager explicitly reported this figure **after signing João Neves** and after the completed summer departures (Endrick $310M, Chiesa $37.5M, Zanoli $15M). This is the authoritative available FC26 budget for new squad planning until a subsequent manager update; do **not** add sales or subtract Neves again. An earlier **$100M** figure was a superseded historical snapshot. **EDITORIAL SEPARATION:** the $451M figure is internal staff/save-management data and must **never appear on the public-facing Season Room website** (articles, ticker, comments, whispers, squad cards, homepage, or other rendered UI). Public journalism may discuss spending power, financial speculation, transfer fees, and financial strategy without disclosing the actual in-game budget number.
+**CURRENT VERIFIED IN-GAME TRANSFER BUDGET: $172,000,000 (latest projected).** The manager explicitly reported this figure **after signing João Neves** and after the completed summer departures (Endrick $310M, Chiesa $37.5M, Zanoli $15M). This is the authoritative available FC26 budget for new squad planning until a subsequent manager update; do **not** add sales or subtract Neves again. An earlier **$100M** figure was a superseded historical snapshot. **EDITORIAL SEPARATION:** the $172M (latest projected) figure is internal staff/save-management data and must **never appear on the public-facing Season Room website** (articles, ticker, comments, whispers, squad cards, homepage, or other rendered UI). Public journalism may discuss spending power, financial speculation, transfer fees, and financial strategy without disclosing the actual in-game budget number.
 
 ## Current player selection
 
