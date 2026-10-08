@@ -51,7 +51,7 @@
  'Noa Lang has completed his $47 million move to Bournemouth. Billy Gilmour is also out, having already been sold.',
  'Federico Chiesa remains a Napoli player after Bournemouth’s $36.7 million offer was rejected. Real Madrid’s $158.6 million approach for Alessandro Bastoni was also rejected.',
  'The message from the Napoli board mirrors the mood around the Italy project: satisfaction with how far the team has come, but no sense that the work is finished.',
- 'Napoli return from an unbeaten Serie A title, a Coppa Italia triumph and a first Champions League final. The squad does not require a rebuild. With $353 million available, the summer is about deciding which roles can turn last season’s near-miss in Europe into the next step.'
+ 'Napoli return from an unbeaten Serie A title, a Coppa Italia triumph and a first Champions League final. The squad does not require a rebuild. The summer is about deciding which roles can turn last season’s near-miss in Europe into the next step, rather than making signings simply because the club has the financial power to do so.'
  ],comments:[
  {user:'CurvaCalculator',lang:'en',text:'Lang out. Gilmour out. Do not buy a name simply because we can. Buy the missing piece.'},
  {user:'SquadDepthDept',lang:'en',text:'This is the fun kind of window. Champion squad, huge budget, targeted surgery.'},
