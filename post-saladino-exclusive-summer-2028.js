@@ -27,7 +27,7 @@
   },
   "body": [
     "The most revealing thing Stefan Saladino said in our conversation did not concern a formation, a transfer fee or the Champions League trophy his team had almost lifted. It concerned a restaurant bill.",
-    "A few evenings after beating Inter, Napoli's manager went out for dinner. A member of staff recognised him. When Saladino tried to pay, the answer was immediate: no. Dinner was on the house. He tried again. The refusal stood.",
+    "After beating Inter, Napoli's manager went out for dinner. A member of staff recognised him. When Saladino tried to pay, the answer was immediate: no. Dinner was on the house. He tried again. The refusal stood.",
     "Saladino laughed as he recalled it, before offering a line that gets closer to the emotional economy of football in Naples than almost any speech from a touchline: «Questa è Napoli. Calcio è ancora piu importanti di contanti.» Football, here, matters even more than money.",
     "And then the punchline, delivered after a pause: «Ma a volte penso… cosa sarebbe successo se avessimo perso?» Sometimes I wonder what would have happened if we had lost.",
     "That is the man behind the season. A manager capable of laughing at what success buys him in Naples, while carrying a rather less amusing memory from Manchester.",
