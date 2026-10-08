@@ -3,6 +3,7 @@
   const explicit={
    'endrick-barcelona-310m-official-summer-2028':['napoli','transfer-completed','record-sale','BARCELONA'],
    'chiesa-fiorentina-37-5m-official-summer-2028':['napoli','transfer-completed','confirmed-departure','FIORENTINA'],
+   'zanoli-fulham-15m-official-summer-2028':['napoli','transfer-completed','confirmed-departure','FULHAM'],
    'saladino-exclusive-sono-fiero-torneremo-2028':['napoli','manager-interview','exclusive','NONE'],
    'saladino-final-press-conference-may':['napoli','psg-ucl-final','manager-press-conference','PSG'],
    'psg-final-player-voices-may':['napoli','psg-ucl-final','player-interviews','PSG'],
