@@ -2,17 +2,17 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
-## Absolute distinction: agreed fee is not a completed transfer
+## Transfer status: confirmations supersede previous agreements
 
-**Endrick → Barcelona: CLUBS AGREED ON $310,000,000; PLAYER PERSONAL TERMS PENDING. NOT SOLD.**
+**Endrick → Barcelona: OFFICIALLY SOLD FOR $310,000,000. TRANSFER COMPLETE.**
 - Player: Endrick, **22 years old, 86 OVR**.
 - Season 2027–28: **14 goals, 11 assists**; historic stats remain permanently archived.
 - Barcelona and Napoli originally agreed at **$300.4M** at club level, with player terms not yet concluded.
 - Saladino **returned to Barcelona to negotiate a higher fee**, demanded **$310M** (an additional **$9.6M**), and **Barcelona's manager accepted**. Saladino confirmed a handshake at club-manager level.
 - The **latest confirmed club-to-club agreement is $310M**, superseding the earlier $300.4M proposal. It is not a second sale or an additional $310M on top of $300.4M.
-- **Endrick has not agreed personal terms / the transfer is not completed.** He remains a Napoli player and remains eligible for the current squad and the unopened 2028–29 season records until departure is confirmed.
-- **Do not book $310M as received funds**, do not remove him from current squad, do not enter him as a completed outgoing transfer, do not adjust the FC26-reported transfer budget, and do not assign Barcelona playing statistics yet.
-- No replacement, player salary, release clause, or completed final transfer has been confirmed.
+- **Latest manager confirmation: the Endrick deal is OFFICIAL.** Endrick has departed Napoli for **Barcelona** for **$310M**. This supersedes the earlier handshake and waiting-for-personal-terms status.
+- **Record Endrick as a completed $310M sale.** Remove him from the current Napoli squad, 2028–29 unopened-season roster and current formation; **retain 2027–28 14G/11A and all future Napoli historical career records**. Fee is confirmed, but the **new FC26 budget has not been reported**; do not invent the game's account balance or budget.
+- No Endrick replacement or Barcelona salary, release clause or other add-ons were reported. Do not invent them.
 
 **Federico Chiesa → Fiorentina: COMPLETED TRANSFER FOR $37.5M. SOLD.**
 - Manager confirmed the **official departure to Fiorentina for $37,500,000** after the earlier club-level agreement; completion supersedes the prior pending-personal-terms status.
@@ -30,6 +30,7 @@
 | Obaretin | **Sold** | Not confirmed in available canon | **$3.5M** |
 | Ambrosino | **Sold** | Parma | **$13M** |
 | Federico Chiesa | **Sold** | Fiorentina | **$37.5M** |
+| Endrick | **Sold** | Barcelona | **$310M** |
 
 **Do not invent destinations for Billy Gilmour or Obaretin.** Juan Jesus's $2M is a cost, not a fee received.
 
@@ -55,11 +56,11 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 - Important arc: Neves scored PSG's 38th-minute equaliser in the UCL final against Napoli, then lost Portugal's EURO 2028 semifinal to Saladino's Italy. His signing is completed and central to midfield plans.
 - Saladino said explicitly in the Linea Calcio interview that the signing was **tactical**, **not revenge or malice**.
 
-**Budget:** The last manager-reported in-game transfer budget after signing Neves was **$100M** (historical snapshot, **not a verified current balance**). The Chiesa sale has now completed, but the manager has not reported an updated game budget. **Do not manually infer the live budget**. Endrick's $310M agreement is still uncompleted and must not be counted as received.
+**Budget:** The last manager-reported in-game transfer budget after signing Neves was **$100M** (historical snapshot, **not a verified current balance**). Since then, Chiesa's **$37.5M** sale and Endrick's **$310M** sale have **both completed**. Do not calculate or assert a new available in-game budget; the manager must report the authoritative FC26 figure. Gross transfer receipts are not necessarily equal to available budget.
 
 ## Current player selection
 
-- **Endrick remains Napoli** because Barcelona personal terms are pending; **Chiesa is officially a Fiorentina player**, having completed his $37.5M transfer.
+- **Endrick is officially a Barcelona player**, sold for **$310M**; **Chiesa is officially a Fiorentina player**, sold for **$37.5M**. Neither belongs in the current Napoli lineup/squad for 2028–29.
 - Maximilian Beier: **25 years old, 88 OVR**, **25 goals / 11 assists** in the completed 2027–28 season.
 - Pio Esposito: **23 years old, 86 OVR**, **29 goals / 12 assists** in 2027–28.
 - Endrick: **22 years old, 86 OVR**, **14 goals / 11 assists** in 2027–28.
@@ -87,8 +88,8 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 
 ## Transfer / journalism guardrails
 
-- A manager-manager handshake on **transfer fee** is not a signature by the player.
+- A manager-manager handshake on **transfer fee** is not a signature by the player. **Endrick's handshake subsequently became a confirmed completed transfer**, as directly stated by the manager; do not regress to pending.
 - Clearly distinguish **"club agreement reached"** vs **"personal terms pending"** vs **"transfer confirmed"** in headlines, ticker, cards, staff advice, budget math, and roster filters.
-- **Barcelona's $310M club agreement for Endrick** (personal terms pending) and **Fiorentina's completed $37.5M Chiesa signing** are separate statuses. Transfer coverage may lead the homepage; the Saladino–Bellandi exclusive remains a full permanent article, not overwritten.
+- **Barcelona's completed $310M Endrick signing** and **Fiorentina's completed $37.5M Chiesa signing** are both definitive sales. Transfer coverage may lead the homepage; the Saladino–Bellandi exclusive remains a full permanent article, not overwritten.
 - No invented agreement dates, Barcelona wages, add-ons, release clauses, player responses, official club press releases, or transfer completions.
 - Fan comments and editorial analysis may be fictional *in universe*, but never pass them off as manager/game-record facts.
