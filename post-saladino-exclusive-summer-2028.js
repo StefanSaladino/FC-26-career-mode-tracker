@@ -37,7 +37,7 @@
     "There was an obvious follow-up. João Neves scored against Napoli for PSG in that final. This summer, Napoli signed the Portuguese midfielder for $250 million plus a five-per-cent sell-on clause. At 23 and rated 93 overall, he arrives as a transformative addition to a midfield already featuring Nico Paz and Scott McTominay.",
     "Was this revenge disguised as squad-building? Bellandi put the suggestion to Saladino directly. The manager did not entertain it.",
     "«João Neves è un giocatore immenso. Senza dubbio.» He called Neves an immense player, without doubt, and described the move as tactical. He dismissed any motive of vengeance or malice.",
-    "Saladino also brought up Chiesa and Lang when explaining the summer's attacking changes. There is an important distinction: Noa Lang has been sold to Bournemouth; Federico Chiesa's proposed Fiorentina move has a club agreement but remains subject to the player's personal terms. Chiesa is still a Napoli player for now.",
+    "Saladino also brought up Chiesa and Lang when explaining the summer's attacking changes. There is an important distinction: Noa Lang has been sold to Bournemouth; Federico Chiesa has since completed a $37.5 million move to Fiorentina. Both have departed. Chiesa's deal was still developing around the time of the interview, and his original remarks are preserved without rewriting them.",
     "The positional puzzle remains intriguing. Neves is a midfielder, not a direct replacement for a wide attacker. The manager's answer points to a broader reshaping of Napoli's system rather than a one-for-one exchange. He offered no detailed formation in the interview, but he was adamant that the signing was about football, not settling a score.",
     "The Neves deal makes a brilliant squad deeper and the team sheet harder to predict. Pio Esposito scored 29 goals last season, Maximilian Beier scored 25 and Endrick contributed 14. That is 68 goals from three forwards. Beier and Pio also combined for 23 assists.",
     "Bellandi asked whether a team built around Paz and Neves could make room for all three. Saladino's first reaction was laughter: «Ahhhh hai sentito le voci?» You have heard the rumours?",
@@ -73,7 +73,7 @@
     {
       "user": "TacticalNonno",
       "lang": "it",
-      "text": "Lang via, Chiesa ancora in trattativa, Neves dentro: non è vendetta. È una rivoluzione tattica."
+      "text": "Lang e Chiesa ceduti, Neves dentro: non è vendetta. È una rivoluzione tattica."
     },
     {
       "user": "MeretUnion",
