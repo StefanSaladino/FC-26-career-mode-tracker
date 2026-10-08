@@ -3,6 +3,7 @@
  const stories=[
   {
     "id": "zanoli-fulham-15m-official-summer-2028",
+    "imageLocked": true,
     "category": "Mercato",
     "label": "CONFIRMED · FULHAM",
     "date": "Summer 2028",
@@ -37,6 +38,7 @@
   },
   {
     "id": "endrick-barcelona-310m-official-summer-2028",
+    "imageLocked": true,
     "category": "Mercato",
     "label": "BREAKING · CONFIRMED DEPARTURE",
     "date": "Summer 2028",
@@ -101,6 +103,7 @@
   },
   {
     "id": "chiesa-fiorentina-37-5m-official-summer-2028",
+    "imageLocked": true,
     "category": "Mercato",
     "label": "CONFIRMED · FIORENTINA",
     "date": "Summer 2028",
