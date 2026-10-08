@@ -2,7 +2,14 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
-## LATEST VERIFIED UPDATE — AFTER LECCE, OLISE AND CALAFIORI
+## LATEST VERIFIED UPDATE — AFTER INTER
+
+- Napoli 2–0 Inter, second confirmed 2028–29 Serie A match (exact date not confirmed). Davies 8′ (Pio assist); Pio 18′ (Beier assist). Halftime 2–0; Calafiori and Nico Paz introduced at half (outgoing players not confirmed); full time 2–0. Calafiori debut confirmed; Olise debut unconfirmed.
+- Napoli league: 2W 0D 0L, 6 points, GF4 GA0, two clean sheets. 2028–29 contributions: Beier 2G/1A; Pio 1G/1A; Davies 1G; McTominay 1A; De Bruyne 1A.
+- Manager-confirmed elite 4-2-3-1: Meret; Cucurella, Bastoni, Buongiorno, Kayode; McTominay and Neves; Davies, Nico Paz CAM, Olise; Beier. Alternative two-striker 4-1-3-2 remains. Do not infer Inter XI from these plans.
+- Inter date and next exact fixture not verified; do not show the old Aug 27 TBC fixture as upcoming. Preserve all 2027–28 stats and never publish exact remaining transfer budget.
+
+## PREVIOUS VERIFIED UPDATE — AFTER LECCE, OLISE AND CALAFIORI
 
 - **19 August 2028, Lecce 0–2 Napoli:** Maximilian Beier scored at **31' (Scott McTominay assist)** and **87' (Kevin De Bruyne assist)**. Alex Meret made two decisive saves in the 67th minute. João Neves played Pio Esposito through in the 58th, saved by Klaverboer; Pio was denied again in the 69th. Napoli: **1W 0D 0L, 3 points, 2 GF, 0 GA**. Beier: **2 goals** in 2028–29. Neves: no recorded goal contribution in opener.
 - **MICHAEL OLISE OFFICIALLY SIGNED:** age 26, **91 OVR**, RM/RW; confirmed transfer fee **$137.5M plus 5% future sell-on**. Earlier $180M and $175M figures were mistaken and are superseded. **Four years, Crucial, $350K/week, $3.6M signing bonus, $13.2M if 20 goals**. The previously secret transfer target was Olise; do not report him as pending.
