@@ -45,18 +45,18 @@
  {user:'PioShirtOwner',lang:'en',text:'He is coming back to Napoli angry. I would like to apologize in advance to Serie A.'},
  {user:'AzzurriSempre',lang:'it',text:'Pio deve ricordare questo dolore. E poi tornare più forte.'}
  ]},
- {id:'napoli-window-open-lang-gilmour-out-july-2028',category:'Mercato',label:'MERCATO · WINDOW OPEN',date:'July 2028',headline:'BACK TO NAPLES. THE WINDOW IS OPEN — LANG AND GILMOUR ARE OUT.',dek:'The international run is over. Napoli turn immediately toward 2028–29 with a $353M current budget and two confirmed departures already on the books.',commentContext:'napoli-window-open-july',commentHeat:96,body:[
+ {id:'napoli-window-open-lang-gilmour-out-july-2028',category:'Mercato',label:'MERCATO · WINDOW OPEN',date:'July 2028',headline:'BACK TO NAPLES. THE WINDOW IS OPEN — LANG AND GILMOUR ARE OUT.',dek:'The international run is over. Napoli turn immediately toward 2028–29 with major decisions ahead and two confirmed departures already on the books.',commentContext:'napoli-window-open-july',commentHeat:96,body:[
  'The EURO run is over. Napoli business resumes immediately.',
- 'The transfer window is open and Napoli’s current budget stands at $353 million.',
+ 'The transfer window is open, and Napoli’s recruitment department is assessing the next moves after an extraordinary season.',
  'Noa Lang has completed his $47 million move to Bournemouth. Billy Gilmour is also out, having already been sold.',
  'Federico Chiesa remains a Napoli player after Bournemouth’s $36.7 million offer was rejected. Real Madrid’s $158.6 million approach for Alessandro Bastoni was also rejected.',
  'The message from the Napoli board mirrors the mood around the Italy project: satisfaction with how far the team has come, but no sense that the work is finished.',
  'Napoli return from an unbeaten Serie A title, a Coppa Italia triumph and a first Champions League final. The squad does not require a rebuild. With $353 million available, the summer is about deciding which roles can turn last season’s near-miss in Europe into the next step.'
  ],comments:[
- {user:'CurvaCalculator',lang:'en',text:'$353M. Lang out. Gilmour out. Do not buy a name because the number is big. Buy the missing piece.'},
+ {user:'CurvaCalculator',lang:'en',text:'Lang out. Gilmour out. Do not buy a name simply because we can. Buy the missing piece.'},
  {user:'SquadDepthDept',lang:'en',text:'This is the fun kind of window. Champion squad, huge budget, targeted surgery.'},
  {user:'ChiesaHive',lang:'en',text:'And Chiesa is STILL HERE after that Bournemouth bid. I am watching every notification.'},
- {user:'SaladinoOutNow',lang:'en',text:'$353M available. Anything less than signing eleven Ballon d’Or winners is unacceptable. SALADINO OUT.'}
+ {user:'SaladinoOutNow',lang:'en',text:'Financial ambition is no excuse for failing to sign eleven Ballon d’Or winners. SALADINO OUT.'}
  ]}
  ];
  const ids=new Set(stories.map(a=>a.id));
@@ -67,11 +67,11 @@
  ['NAPOTALIA','No trophy. Clear signs of a national-team foundation.'],
  ['PIO · THE NEXT ARC','Four EURO goals after a 29-goal Napoli season.'],
  ['BOARDS BACK THE PROJECT','Napoli and Italy are thrilled with the results so far — and expect more work.'],
- ['$353M CURRENT BUDGET','The Napoli transfer window is open.'],
+ ['SUMMER REBUILD','The Napoli transfer window is open and the club faces major decisions.'],
  ['LANG OUT','Official: Bournemouth · $47M.'],
  ['GILMOUR OUT','Billy Gilmour has been sold.'],
  ['CHIESA STILL HERE','Bournemouth’s $36.7M offer was rejected.'],
- ...(D.whispers||[]).filter(w=>!['GERMANY 3–2 ITALY · AET','NAPOTALIA','PIO · THE NEXT ARC','BOARDS BACK THE PROJECT','$353M CURRENT BUDGET','LANG OUT','GILMOUR OUT','CHIESA STILL HERE'].includes(w?.[0]))
+ ...(D.whispers||[]).filter(w=>!['GERMANY 3–2 ITALY · AET','NAPOTALIA','PIO · THE NEXT ARC','BOARDS BACK THE PROJECT','SUMMER REBUILD','LANG OUT','GILMOUR OUT','CHIESA STILL HERE'].includes(w?.[0]))
  ].slice(0,10);
- D.ticker=['EURO 2028 FINAL · GERMANY 3–2 ITALY · AET','ITALY · RUNNERS-UP · SIX STRAIGHT WINS BEFORE THE FINAL','NAPOTALIA · NO TROPHY · SOMETHING IS BUILDING','PIO · 4 EURO GOALS · 29 NAPOLI GOALS LAST SEASON','NAPOLI TRANSFER WINDOW OPEN · CURRENT BUDGET $353M','OUT · NOA LANG · BILLY GILMOUR'];
+ D.ticker=['EURO 2028 FINAL · GERMANY 3–2 ITALY · AET','ITALY · RUNNERS-UP · SIX STRAIGHT WINS BEFORE THE FINAL','NAPOTALIA · NO TROPHY · SOMETHING IS BUILDING','PIO · 4 EURO GOALS · 29 NAPOLI GOALS LAST SEASON','NAPOLI TRANSFER WINDOW OPEN · RECRUITMENT PLANS UNDER WAY','OUT · NOA LANG · BILLY GILMOUR'];
 })();
