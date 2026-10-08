@@ -22,7 +22,7 @@
    ['Billy Gilmour',0,1,'Historical 2027–28 contribution · sold summer 2028']
   ],
   '2028–29':[
-   ['Alex Meret',0,0,'Current Napoli player · season not started'],
+   ['Alex Meret',0,0,'2028–29 · clean sheet at Lecce'],
    ['Alphonso Davies',0,0,'Current Napoli player · season not started'],
    ['Marc Cucurella',0,0,'Current Napoli player · season not started'],
    ['Alessandro Bastoni',0,0,'Current Napoli player · season not started'],
@@ -32,15 +32,17 @@
    ['Rafa Marín',0,0,'Current Napoli player · season not started'],
    ['Giovanni Di Lorenzo',0,0,'Current Napoli player · season not started'],
    ['Michael Kayode',0,0,'Current Napoli player · season not started'],
-   ['Kevin De Bruyne',0,0,'Current Napoli player · season not started'],
-   ['Scott McTominay',0,0,'Current Napoli player · season not started'],
+   ['Kevin De Bruyne',0,1,'Assist on Beier second vs Lecce'],
+   ['Scott McTominay',0,1,'Assist on Beier opener vs Lecce'],
    ['Anton Stach',0,0,'Current Napoli player · season not started'],
    ['Nico Paz',0,0,'Current Napoli player · season not started'],
-   ['João Neves',0,0,'Summer 2028 signing · no Napoli appearances yet'],
+   ['João Neves',0,0,'Started at Lecce in advanced midfield'],
    ['Mikey Moore',0,0,'Current Napoli player · season not started'],
    ['Rao',0,0,'Current Napoli player · season not started'],
-   ['Maximilian Beier',0,0,'Current Napoli player · season not started'],
-   ['Pio Esposito',0,0,'Current Napoli player · season not started']
+   ['Maximilian Beier',2,0,'Brace at Lecce · 31′ and 87′'],
+   ['Pio Esposito',0,0,'Played at Lecce · two saved chances'],
+   ['Michael Olise',0,0,'Signed · appearance not yet confirmed'],
+   ['Riccardo Calafiori',0,0,'Signed · appearance not yet confirmed']
   ]
  };
  D.statsSeasonOrder=['2028–29','2027–28'];
@@ -52,6 +54,6 @@
    Object.entries(D.statsBySeason).forEach(([season,rows])=>{const r=rows.find(x=>x[0]===name);if(r){goals+=Number(r[1])||0;assists+=Number(r[2])||0;seasons.push(season);}});
    return [name,goals,assists,seasons.join(', ')];
  }).sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
- D.stats=D.statsBySeason['2027–28'];
- D.statsScope='Permanent Napoli archive · 2027–28 verified · 2028–29 opened · 2025–26 and 2026–27 remain unavailable until canonical data is recovered';
+ D.stats=D.statsBySeason['2028–29'];
+ D.statsScope='Permanent Napoli archive · 2027–28 verified · 2028–29 opening match recorded · 2025–26 and 2026–27 remain unavailable until canonical data is recovered';
 })();
