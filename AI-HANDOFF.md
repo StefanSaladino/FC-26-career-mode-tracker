@@ -1,5 +1,7 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+> **LATEST ADDITION: Zanoli SOLD officially to Fulham for $15M.** He is no longer a Napoli squad member or loanee; remove from active squad, development/loans list, and 2028–29 unopened-season production, retain any verified historic records. Budget post-sale unconfirmed.
+
 > **CURRENT STATE OVERRIDE — SUMMER 2028 / 2028–29:** Completed Endrick transfer to **Barcelona $310M** (original $300.4M agreement renegotiated upward, now official) and Chiesa transfer to **Fiorentina $37.5M**. Both are **SOLD**, not pending; remove from current squad but archive their 2027–28 stats forever. João Neves **SIGNED** from PSG for $250M + 5% sell-on. Last reported post-Neves in-game budget $100M is STALE; do not infer new budget. Manager's Bellandi interview and exact quotations are canonical; read `SALADINO-BELLANDI-INTERVIEW-CANON.md`. Latest full transfer/status ledger: `SUMMER-2028-CANON.md`. Earlier 2027–28 or pre-sale "current" sections below are historical snapshots.
 
 
