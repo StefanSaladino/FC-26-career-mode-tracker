@@ -1,5 +1,8 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+> **CURRENT STATE OVERRIDE — SUMMER 2028 / 2028–29:** Completed Endrick transfer to **Barcelona $310M** (original $300.4M agreement renegotiated upward, now official) and Chiesa transfer to **Fiorentina $37.5M**. Both are **SOLD**, not pending; remove from current squad but archive their 2027–28 stats forever. João Neves **SIGNED** from PSG for $250M + 5% sell-on. Last reported post-Neves in-game budget $100M is STALE; do not infer new budget. Manager's Bellandi interview and exact quotations are canonical; read `SALADINO-BELLANDI-INTERVIEW-CANON.md`. Latest full transfer/status ledger: `SUMMER-2028-CANON.md`. Earlier 2027–28 or pre-sale "current" sections below are historical snapshots.
+
+
 ## Purpose
 This is the continuity document for another AI/assistant if the active conversation becomes too long or the save is handed off. It must preserve not only current data but the **story of the career**: club identity, prior seasons, trophies, European history, rivalries, Italy storylines, player arcs, transfers, recurring opponents, media narratives, and operating procedures.
 
@@ -588,7 +591,15 @@ This section is the canonical squad-movement log for the 2028–29 summer window
 - C. Brun — **loaned to Paris FC**.
 - L. Resende — **promoted from academy and loaned out**; destination not recorded.
 - A. Reyna — **contract extended**: 3 years, Prospect role, $27.5K/week, $100K signing bonus; **loaned to Pisa**.
-- Federico Chiesa — requested to leave; Bournemouth $36.7M bid rejected; still a Napoli player until a transfer is confirmed.
+- Federico Chiesa — **officially SOLD to Fiorentina for $37.5M**; Bournemouth's $36.7M bid was previously rejected. Historical Napoli stats retained.
 
 ## Permanent statistical archive rule
 Player history is never deleted when a player leaves Napoli. **Current Squad** contains only currently registered players; **Season Stats** retain every player who appeared in that season, including mid-season or summer departures; **Napoli Career** totals preserve all recorded Napoli production for active and former players. Departed players' totals freeze rather than disappear. The archive currently has verified 2027–28 production and opens 2028–29 at zero for new arrivals. 2025–26 and 2026–27 must remain marked unavailable until canonical stats are recovered; never invent them.
+
+## CURRENT SUMMER 2028: OFFICIAL END OF ENDRICK / CHIESA NEGOTIATIONS
+
+- **ENDRICK → BARCELONA: OFFICIALLY SOLD FOR $310,000,000**. Age **22**, **86 OVR**. Initial Barcelona club deal $300.4M was renegotiated upward by Saladino; buyer accepted $310M; initially personal terms pending; **manager has subsequently confirmed the move is OFFICIAL**. Final confirmed fee $310M. 2027–28 Napoli numbers **14G/11A**. Endrick is NO LONGER in current Napoli squad, default XI, or unborn 2028–29 season stats; retain previous historical stats, past articles, and Napoli career totals.
+- **CHIESA → FIORENTINA: OFFICIALLY SOLD FOR $37,500,000**. Age **30**, **82 OVR**. Fiorentina personal terms later completed after club-level agreement; previous Bournemouth $36.7M offer rejected. Historic 2027–28 **9G/4A**, including semifinal strike against Barcelona, preserved.
+- **Transfer budget is NOT verified after either sale.** The prior $100M game budget was immediately after Neves, not after both exits. Do not simply add $310M/$37.5M to spendable budget. Let game/user decide.
+- **Manager interview with Matteo Bellandi is primary canon.** Full Italian user-authored answers are in `SALADINO-BELLANDI-INTERVIEW-CANON.md`; polished feature in `post-saladino-exclusive-summer-2028.js`. Sequence: proud of invincible season + UCL scar; Neves purchased for tactics, not revenge; squad rotation got results; selection decisions sometimes wrong; post-PSG message **«Sono fiero e torneremo.»**; Napoli restaurant refuses payment after Inter win, manager jokes about losing. Bellandi earlier attacked assistant manager in media; subsequent interview did not apologize. Protect manager-authored quotes from fabricated rewrites.
+- **Transfer stories:** `post-summer-2028-transfer-confirmations.js` (Endrick and Chiesa). Maintain site hero and newsroom continuity. No fabricated replacements, new budget, player quotes or extra contractual conditions.
