@@ -27,7 +27,7 @@
     "25": "THE NIGHT THE BILL WAS ON NAPLES"
   },
   "body": [
-    "Stefan Saladino has just won Serie A without losing a match, lifted the Coppa Italia and come within ten minutes of a European Cup. Yet toward the end of our conversation, when asked when Naples first began to feel different, he did not reach for a trophy. He remembered a restaurant bill.",
+    "Stefan Saladino has just won Serie A without losing a match, lifted the Coppa Italia and taken Napoli to its first Champions League final. Yet toward the end of our conversation, when asked when Naples first began to feel different, he did not reach for a trophy. He remembered a restaurant bill.",
     "That story can wait. To understand why it mattered, we started in Manchester, with the night Napoli's extraordinary season ended without the trophy they wanted most.",
     "The numbers are extraordinary: 28 Serie A victories, 10 draws, no defeats, 94 points. Napoli won the Scudetto and the Coppa Italia, then eliminated Inter, Real Madrid, Atlético Madrid and Barcelona on the way to the club's first Champions League final. At Old Trafford, Pio Esposito scored twice against Paris Saint-Germain, including an equaliser in the 90th minute. Kvaratskhelia's 110th-minute winner made it PSG 3–2 Napoli after extra time.",
     "When Bellandi asked which part of that season had stayed with him, Saladino refused to let the final swallow everything that came before it.",
