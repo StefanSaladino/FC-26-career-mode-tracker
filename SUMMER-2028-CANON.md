@@ -14,11 +14,11 @@
 - **Do not book $310M as received funds**, do not remove him from current squad, do not enter him as a completed outgoing transfer, do not adjust the FC26-reported transfer budget, and do not assign Barcelona playing statistics yet.
 - No replacement, player salary, release clause, or completed final transfer has been confirmed.
 
-**Federico Chiesa → Fiorentina: CLUBS AGREED ON $37.5M; PERSONAL TERMS PENDING. NOT SOLD.**
-- Player requested a departure. Earlier **Bournemouth $36.7M bid was rejected**.
-- Subsequent **Fiorentina $37.5M agreement at club level**, but contract/personal terms have not been confirmed.
-- Chiesa remains a **Napoli player**, stays in the squad and 2028–29 season stats at zero until a completed move is explicitly confirmed.
-- Do not include the $37.5M as received revenue or count Chiesa as departed yet.
+**Federico Chiesa → Fiorentina: COMPLETED TRANSFER FOR $37.5M. SOLD.**
+- Manager confirmed the **official departure to Fiorentina for $37,500,000** after the earlier club-level agreement; completion supersedes the prior pending-personal-terms status.
+- Earlier **Bournemouth $36.7M bid rejected** remains historical background.
+- Remove Chiesa from **current squad** and unstarted **2028–29 season stats**; preserve **2027–28 and Napoli-career historical records** permanently.
+- Completed sale: $37.5M fee is confirmed. **Do not calculate a new current FC26 budget unless the manager reports it**.
 
 ## Confirmed transfers out (completed)
 
@@ -29,6 +29,7 @@
 | Juan Jesus | **Released** | — | **$2M** release cost |
 | Obaretin | **Sold** | Not confirmed in available canon | **$3.5M** |
 | Ambrosino | **Sold** | Parma | **$13M** |
+| Federico Chiesa | **Sold** | Fiorentina | **$37.5M** |
 
 **Do not invent destinations for Billy Gilmour or Obaretin.** Juan Jesus's $2M is a cost, not a fee received.
 
@@ -54,11 +55,11 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 - Important arc: Neves scored PSG's 38th-minute equaliser in the UCL final against Napoli, then lost Portugal's EURO 2028 semifinal to Saladino's Italy. His signing is completed and central to midfield plans.
 - Saladino said explicitly in the Linea Calcio interview that the signing was **tactical**, **not revenge or malice**.
 
-**Budget:** The latest manager-reported in-game transfer budget after signing Neves was **$100M**. Do not revise it by adding either pending Endrick or Chiesa fee. Future manager-reported game budget always overrides.
+**Budget:** The last manager-reported in-game transfer budget after signing Neves was **$100M** (historical snapshot, **not a verified current balance**). The Chiesa sale has now completed, but the manager has not reported an updated game budget. **Do not manually infer the live budget**. Endrick's $310M agreement is still uncompleted and must not be counted as received.
 
 ## Current player selection
 
-- Endrick and Chiesa **remain Napoli players while their contracts with their proposed buyers are pending**.
+- **Endrick remains Napoli** because Barcelona personal terms are pending; **Chiesa is officially a Fiorentina player**, having completed his $37.5M transfer.
 - Maximilian Beier: **25 years old, 88 OVR**, **25 goals / 11 assists** in the completed 2027–28 season.
 - Pio Esposito: **23 years old, 86 OVR**, **29 goals / 12 assists** in 2027–28.
 - Endrick: **22 years old, 86 OVR**, **14 goals / 11 assists** in 2027–28.
@@ -78,7 +79,7 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 - Published in `post-saladino-exclusive-summer-2028.js`; exact user-authored spoken-language remarks preserved in `SALADINO-BELLANDI-INTERVIEW-CANON.md`.
 - **This is an actual interactive manager interview in the fictional save:** the user supplied Saladino's answers in Italian; the assistant played Bellandi and authored the questions. Do not invent further direct Saladino answers.
 - Saladino is **proud** of the unbeaten double but described the UCL defeat as a **scar** that will sharpen the squad's desire.
-- Neves signing was a **tactical decision**, not an act of revenge against PSG. When Saladino grouped Lang and Chiesa as players the club had lost, that reflected an anticipated departure in the conversational answer, **not confirmation that Chiesa's move had completed**.
+- Neves signing was a **tactical decision**, not an act of revenge against PSG. Saladino grouped Lang and Chiesa among players lost in his interview. **Chiesa has since officially departed to Fiorentina**; reflect the newest confirmed transfer status without modifying the historical transcript.
 - The squad rotation policy is deliberate, a contributor to success; all 25 players have worked hard; the manager acknowledges selection mistakes but aims to win.
 - To the squad after the PSG final: **«Sono fiero e torneremo.»** No fabricated longer speech.
 - Moment Naples made sense: after a win over Inter, a restaurant employee recognised Saladino and would not accept payment. His closing joke: **«Ma a volte penso… cosa sarebbe successo se avessimo perso?»**
@@ -88,6 +89,6 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 
 - A manager-manager handshake on **transfer fee** is not a signature by the player.
 - Clearly distinguish **"club agreement reached"** vs **"personal terms pending"** vs **"transfer confirmed"** in headlines, ticker, cards, staff advice, budget math, and roster filters.
-- **Barcelona deal coverage is new** and may lead the homepage; the Saladino–Bellandi exclusive remains a full permanent article, not overwritten.
+- **Barcelona's $310M club agreement for Endrick** (personal terms pending) and **Fiorentina's completed $37.5M Chiesa signing** are separate statuses. Transfer coverage may lead the homepage; the Saladino–Bellandi exclusive remains a full permanent article, not overwritten.
 - No invented agreement dates, Barcelona wages, add-ons, release clauses, player responses, official club press releases, or transfer completions.
 - Fan comments and editorial analysis may be fictional *in universe*, but never pass them off as manager/game-record facts.
