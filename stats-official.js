@@ -23,7 +23,7 @@
   ],
   '2028–29':[
    ['Alex Meret',0,0,'2028–29 · clean sheet at Lecce'],
-   ['Alphonso Davies',0,0,'Current Napoli player · season not started'],
+   ['Alphonso Davies',1,0,'Goal vs Inter'],
    ['Marc Cucurella',0,0,'Current Napoli player · season not started'],
    ['Alessandro Bastoni',0,0,'Current Napoli player · season not started'],
    ['Lutsharel Geertruida',0,0,'Current Napoli player · season not started'],
@@ -35,14 +35,14 @@
    ['Kevin De Bruyne',0,1,'Assist on Beier second vs Lecce'],
    ['Scott McTominay',0,1,'Assist on Beier opener vs Lecce'],
    ['Anton Stach',0,0,'Current Napoli player · season not started'],
-   ['Nico Paz',0,0,'Current Napoli player · season not started'],
+   ['Nico Paz',0,0,'Half-time substitute vs Inter'],
    ['João Neves',0,0,'Started at Lecce in advanced midfield'],
    ['Mikey Moore',0,0,'Current Napoli player · season not started'],
    ['Rao',0,0,'Current Napoli player · season not started'],
-   ['Maximilian Beier',2,0,'Brace at Lecce · 31′ and 87′'],
-   ['Pio Esposito',0,0,'Played at Lecce · two saved chances'],
+   ['Maximilian Beier',2,1,'Two goals vs Lecce, assist vs Inter'],
+   ['Pio Esposito',1,1,'Goal and assist vs Inter'],
    ['Michael Olise',0,0,'Signed · appearance not yet confirmed'],
-   ['Riccardo Calafiori',0,0,'Signed · appearance not yet confirmed']
+   ['Riccardo Calafiori',0,0,'Debut vs Inter']
   ]
  };
  D.statsSeasonOrder=['2028–29','2027–28'];
