@@ -31,6 +31,9 @@
 | Ambrosino | **Sold** | Parma | **$13M** |
 | Federico Chiesa | **Sold** | Fiorentina | **$37.5M** |
 | Endrick | **Sold** | Barcelona | **$310M** |
+| Zanoli | **Sold** | Fulham | **$15M** |
+
+**Zanoli → Fulham: confirmed, completed $15M sale.** Remove from Napoli's current squad, current formation if present, loan/development displays and unopened 2028–29 zero-production roster. Retain any verified historical Napoli appearances and production; none should be fabricated. Current FC26 budget after the sale has not been reported.
 
 **Do not invent destinations for Billy Gilmour or Obaretin.** Juan Jesus's $2M is a cost, not a fee received.
 
@@ -56,11 +59,11 @@ Loans are not permanent sales. Their historical Napoli records must remain archi
 - Important arc: Neves scored PSG's 38th-minute equaliser in the UCL final against Napoli, then lost Portugal's EURO 2028 semifinal to Saladino's Italy. His signing is completed and central to midfield plans.
 - Saladino said explicitly in the Linea Calcio interview that the signing was **tactical**, **not revenge or malice**.
 
-**Budget:** The last manager-reported in-game transfer budget after signing Neves was **$100M** (historical snapshot, **not a verified current balance**). Since then, Chiesa's **$37.5M** sale and Endrick's **$310M** sale have **both completed**. Do not calculate or assert a new available in-game budget; the manager must report the authoritative FC26 figure. Gross transfer receipts are not necessarily equal to available budget.
+**Budget:** The last manager-reported in-game transfer budget after signing Neves was **$100M** (historical snapshot, **not a verified current balance**). Since then, Chiesa's **$37.5M**, Endrick's **$310M**, and Zanoli's **$15M** sales have **all completed**. Do not calculate or assert a new available in-game budget; the manager must report the authoritative FC26 figure. Gross transfer receipts are not necessarily equal to available budget.
 
 ## Current player selection
 
-- **Endrick is officially a Barcelona player**, sold for **$310M**; **Chiesa is officially a Fiorentina player**, sold for **$37.5M**. Neither belongs in the current Napoli lineup/squad for 2028–29.
+- **Endrick is officially a Barcelona player** ($310M), **Chiesa a Fiorentina player** ($37.5M), and **Zanoli a Fulham player** ($15M). None belongs in the current Napoli squad or unopened 2028–29 season stats.
 - Maximilian Beier: **25 years old, 88 OVR**, **25 goals / 11 assists** in the completed 2027–28 season.
 - Pio Esposito: **23 years old, 86 OVR**, **29 goals / 12 assists** in 2027–28.
 - Endrick: **22 years old, 86 OVR**, **14 goals / 11 assists** in 2027–28.
