@@ -4,6 +4,7 @@
 
 > **This section supersedes earlier 2027–28 snapshots further below, which are historical.** Authoritative timeline: `SUMMER-2028-CANON.md`. Exact manager-authored interview remarks: `SALADINO-BELLANDI-INTERVIEW-CANON.md`.
 
+- **Zanoli SOLD to Fulham for $15M, officially completed.** Remove from current squad, loan/development roster, and unopened 2028–29 stats while protecting genuine historical Napoli production. Updated FC26 spendable budget is unknown.
 - **Endrick SOLD to Barcelona for $310M, officially completed.** Negotiation chronology: earlier $300.4M handshake → Saladino asked $310M → Barcelona agreed → player move officially completed. **Do not mark as pending.** Age 22, OVR 86; preserve 2027–28 **14 goals, 11 assists** in the Napoli historical archive.
 - **Federico Chiesa SOLD to Fiorentina for $37.5M, officially completed.** Earlier Bournemouth $36.7M bid rejected. Preserve 2027–28 **9 goals, 4 assists**, including the Barcelona semifinal goal. Chiesa and Endrick are **both out of the current Napoli squad and unopened 2028–29 season list**.
 - **João Neves SIGNED from PSG** for **$250M + 5% sell-on**; 23 years old, 93 OVR, five-year Crucial contract at $470K/week, $5M signing bonus, $1.4M after five apps.
@@ -11,7 +12,7 @@
 - **Financial caution:** Earlier $100M FC26 budget was a snapshot immediately after Neves, not the current available budget. The Chiesa and Endrick transfer fees are confirmed but do **not** automatically equal spendable budget; wait for manager's updated in-game figure.
 - 2027–28 Napoli: **28W, 10D, 0L, 94 points, Serie A champions and Coppa Italia champions**, Champions League **runners-up** to PSG **3–2 AET**. EURO 2028 Italy runners-up to Germany 3–2 AET.
 - **Stefan Saladino's Matteo Bellandi / Linea Calcio summer interview is permanent canon**, published in `post-saladino-exclusive-summer-2028.js`: proud of invincibles, Manchester scar, Neves tactical not revenge, faith in squad rotation and acceptance of occasional mistakes, dressing-room words **«Sono fiero e torneremo.»**, free dinner after Inter win and joke **«Ma a volte penso… cosa sarebbe successo se avessimo perso?»**. Bellandi previously criticised the AM on air; interview did **not** resolve that conflict.
-- The **latest homepage transfer articles** are `post-summer-2028-transfer-confirmations.js`: Endrick $310M OFFICIAL (lead), Chiesa $37.5M OFFICIAL. Do not erase the interview from the archive when new stories lead the homepage.
+- The **latest homepage transfer articles** are `post-summer-2028-transfer-confirmations.js`: Endrick $310M OFFICIAL (lead), Chiesa $37.5M OFFICIAL, Zanoli $15M Fulham OFFICIAL. Do not erase the interview from the archive when new stories lead the homepage.
 - **Current squad / stats**: remove sold players from active squad and pre-season 2028–29 zero totals. Never delete their 2027–28 contributions or recorded Napoli-career production. 2025–26/2026–27 production remains unverified.
 
 ---
