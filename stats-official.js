@@ -41,7 +41,6 @@
    ['Mikey Moore',0,0,'Current Napoli player · season not started'],
    ['Rao',0,0,'Current Napoli player · season not started'],
    ['Maximilian Beier',0,0,'Current Napoli player · season not started'],
-   ['Endrick',0,0,'Current Napoli player · Barcelona transfer not completed'],
    ['Pio Esposito',0,0,'Current Napoli player · season not started']
   ]
  };
