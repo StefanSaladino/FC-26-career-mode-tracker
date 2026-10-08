@@ -39,10 +39,10 @@
     "«João Neves è un giocatore immenso. Senza dubbio.» He called Neves an immense player, without doubt, and described the move as tactical. He dismissed any motive of vengeance or malice.",
     "Saladino also brought up Chiesa and Lang when explaining the summer's attacking changes. There is an important distinction: Noa Lang has been sold to Bournemouth; Federico Chiesa has since completed a $37.5 million move to Fiorentina. Both have departed. Chiesa's deal was still developing around the time of the interview, and his original remarks are preserved without rewriting them.",
     "The positional puzzle remains intriguing. Neves is a midfielder, not a direct replacement for a wide attacker. The manager's answer points to a broader reshaping of Napoli's system rather than a one-for-one exchange. He offered no detailed formation in the interview, but he was adamant that the signing was about football, not settling a score.",
-    "The Neves deal makes a brilliant squad deeper and the team sheet harder to predict. Pio Esposito scored 29 goals last season, Maximilian Beier scored 25 and Endrick contributed 14. That is 68 goals from three forwards. Beier and Pio also combined for 23 assists.",
+    "At the time of the conversation, the Neves deal appeared to deepen an extraordinary selection dilemma. Pio Esposito had scored 29 goals the previous season, Maximilian Beier 25 and Endrick 14: 68 between them. Beier and Pio also combined for 23 assists. Since the interview, Napoli have officially sold Endrick to Barcelona for $310 million; the question Bellandi asked belonged to the period before that transfer was completed.",
     "Bellandi asked whether a team built around Paz and Neves could make room for all three. Saladino's first reaction was laughter: «Ahhhh hai sentito le voci?» You have heard the rumours?",
     "His answer was not a promise that everyone would start every important match. It was a defence of the rotation that had carried Napoli through four competitions. «Devo ruotare la squadra, sempre.» He insisted on rotating the team, always, and making playing time available across the squad.",
-    "In his view, rotation was one of the reasons Napoli succeeded, not an inconvenience to manage after success. The question of who starts a European semifinal is still there; Saladino simply refuses to frame one starting eleven as the entire club.",
+    "In his view, rotation was one of the reasons Napoli succeeded, not an inconvenience to manage after success. Endrick's subsequent departure has changed the specific selection puzzle, but not the manager's position: success depends on more than the same eleven names every week.",
     "That left the human question. It is one thing to believe in rotation. It is another to explain to a player who has trained and delivered all season that he will not play tonight.",
     "«Prima di tutto devo dire che non è una scelta facile. È molto difficile.» Saladino began by admitting how hard those decisions are. He spoke about the effort he receives from all 25 players, night after night.",
     "Most, he suggested, understand a decision even when they dislike it, because the collective result matters more than any single selection. That understanding is not automatic; it has to be earned over the season.",
@@ -93,7 +93,7 @@
     {
       "user": "PazEnjoyer",
       "lang": "en",
-      "text": "Neves-Paz-McTominay and 68 goals from the three forwards last year. I sympathise with the tactical whiteboard."
+      "text": "The interview happened before the Endrick sale. We went from wondering how to start three forwards to wondering how to replace one of them."
     },
     {
       "user": "SaladinoOutNow",
