@@ -38,7 +38,6 @@
    ['Anton Stach',0,0,'Current Napoli player · season not started'],
    ['Nico Paz',0,0,'Current Napoli player · season not started'],
    ['João Neves',0,0,'Summer 2028 signing · no Napoli appearances yet'],
-   ['Federico Chiesa',0,0,'Current Napoli player · Fiorentina transfer pending'],
    ['Mikey Moore',0,0,'Current Napoli player · season not started'],
    ['Rao',0,0,'Current Napoli player · season not started'],
    ['Maximilian Beier',0,0,'Current Napoli player · season not started'],
