@@ -242,7 +242,7 @@
     {
       "user": "EuropeanNights",
       "lang": "en",
-      "text": "Galatasaray comeback on Wednesday, a late Serie A winner today. Torino away and then Leverkusen. These matches are coming fast.",
+      "text": "Galatasaray comeback earlier this week, a late Serie A winner today. Torino away and then Leverkusen. These matches are coming fast.",
       "replies": [
         {
           "user": "CalendarVictim",
