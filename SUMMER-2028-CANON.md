@@ -1,6 +1,16 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
-**As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
+**As of the manager's latest confirmed result (Como, 16 September 2028 in-game; 9 October 2026 real conversation date).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
+
+## LATEST OFFICIAL FULL TIME · COMO 0–1 NAPOLI · 16 SEPTEMBER 2028
+
+- **CONFIRMED RESULT:** **Como 0–1 Napoli**, Serie A Matchday 4, **away at Como** on 16 September 2028. **0–0 at halftime**. **88′ Maximilian Beier** — **Scott McTominay assist**. Full time 0–1. No other scorers, assists, goalkeeper actions, match formations or substitutions from the completed version have been confirmed.
+- **Restart integrity:** The manager explicitly discarded TWO glitched/abandoned attempts. Their events (including Perrone scoring in the first and De Coster/Beier/Paz in the second) are **void and must never appear in the 16 September official match, article, result table, stats, or season totals**. Only the third completed attempt counts.
+- **Venue correction:** Earlier planning data labelled the Como fixture at home. Manager's live report located the game **in Como** and the verified third attempt was consistently recorded as **Como 0–1 Napoli**. Use **Away** for this fixture and never report it as Napoli 1–0 Como at home.
+- **Serie A record:** **3W 1D 0L · 10 points · 6 GF · 1 GA · +5 GD**, 4 played, unbeaten. 2028–29 league scorers/assists through this match: **Maximilian Beier 3 league goals, 1 league assist** (2 vs Lecce, 1 vs Como, assist vs Inter); **Scott McTominay 2 league assists** (Beier opener at Lecce and 88′ winner at Como). Clean sheet is the third in Serie A this season, but the goalkeeper for this specific completed attempt has **not been manager-confirmed**; do not assign a clean sheet or save to an individual.
+- **Cup/Europe:** UCL opener remains **Napoli 2–1 Galatasaray**, UCL **1W 0D 0L, 3 points**. Do not change any historical results.
+- **Upcoming:** **Torino away 23 September**, **Bayer Leverkusen home (UCL) 26 September**. Other clubs' league table results unconfirmed; display Napoli-only standing.
+- **New Season Room coverage:** `post-como-beier-88-sep-2028.js` publishes a live-first FT report, Beier–McTominay connection analysis and a supporter-pressure opinion. `comments-como-beier-curated.js` contains **46 editorially written top-level supporter comments and 64 nested replies** across these three articles, grounded in the completed attempt only and retaining recurring Italian/Napoletano and rival-fan cast. The main match report uses labelled `assets/beier-napoli.jpg` file media, **not actual footage from Como**.
 
 ## OFFICIAL FULL TIME · NAPOLI 2–1 GALATASARAY · 12 SEPTEMBER 2028
 
