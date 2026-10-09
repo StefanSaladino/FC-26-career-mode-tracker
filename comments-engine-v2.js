@@ -3,30 +3,30 @@ const D=window.NAPOLI_DATA;if(!D||!Array.isArray(D.articles))return;
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const C={
 'venezia-draw-sep-2028':[
-['PeacockUnion','Peacock kept us in this. Two big saves before we even found our feet.',['CurvaB','Esatto. Criticate il risultato, ma lasciate stare il ragazzo.'],['NapoliTherapy','A point feels a lot better when you remember what he prevented.']]],
-['SaladinoOutNow','Rotating that much away from home and dropping points to Venezia? Questions need answering.',['TacticalNonno','Fair to question the balance. But Moore assisted our goal and Peacock saved us twice. Rotation was not all bad.'],['SaladinoOutNow','Then explain why we never controlled the match.']]],
-['MooreMinutes','Mikey gets his chance and sets up Kevin. Please remember that when the usual starters come back.',['KDBVision','That connection between the youngest and one of the oldest is why I love this squad.']]],
+['PeacockUnion','Peacock kept us in this. Two big saves before we even found our feet.',['CurvaB','Esatto. Criticate il risultato, ma lasciate stare il ragazzo.'],['NapoliTherapy','A point feels a lot better when you remember what he prevented.']],
+['SaladinoOutNow','Rotating that much away from home and dropping points to Venezia? Questions need answering.',['TacticalNonno','Fair to question the balance. But Moore assisted our goal and Peacock saved us twice. Rotation was not all bad.'],['SaladinoOutNow','Then explain why we never controlled the match.']],
+['MooreMinutes','Mikey gets his chance and sets up Kevin. Please remember that when the usual starters come back.',['KDBVision','That connection between the youngest and one of the oldest is why I love this squad.']],
 ['AwayDayNapoli','Busio at 67 minutes and you could feel the winner slipping away. Two points dropped, yes, but we are still unbeaten.',[]],
 ['EuropeanNights','Galatasaray in four days. I wanted three points, but I understand why the manager protected some legs.',['CurvaCalculator','Seven from nine is not a crisis. The performance deserves scrutiny though.']]
 ],
 'venezia-rotation-debate-sep-2028':[
-['TacticalNonno','The issue was control, not the names on the team sheet. Peacock should not need to make two huge saves that early.',['MooreMinutes','Exactly. The young players contributed. Fix the structure before blaming the bench.']]],
-['SaladinoOutNow','If the starting eleven is strong enough to beat Inter, why change it against Venezia?',['EuropeanNights','Because Galatasaray, Leverkusen, Milan, Roma, Juventus and Arsenal are on the calendar. You cannot start the same eleven every time.']]],
-['KDBVision','The goal was Moore to De Bruyne. Calling every rotated player a failure is lazy.',['CurvaB','E Peacock? Senza quelle parate eravamo sotto prima del gol.']]],
-['NapoliDoomer','I am not worried about the dropped points. I am worried that Venezia looked more dangerous early on.',['SouthStandAnalyst','That is the correct concern. A lead is not the same thing as control.']]],
+['TacticalNonno','The issue was control, not the names on the team sheet. Peacock should not need to make two huge saves that early.',['MooreMinutes','Exactly. The young players contributed. Fix the structure before blaming the bench.']],
+['SaladinoOutNow','If the starting eleven is strong enough to beat Inter, why change it against Venezia?',['EuropeanNights','Because Galatasaray, Leverkusen, Milan, Roma, Juventus and Arsenal are on the calendar. You cannot start the same eleven every time.']],
+['KDBVision','The goal was Moore to De Bruyne. Calling every rotated player a failure is lazy.',['CurvaB','E Peacock? Senza quelle parate eravamo sotto prima del gol.']],
+['NapoliDoomer','I am not worried about the dropped points. I am worried that Venezia looked more dangerous early on.',['SouthStandAnalyst','That is the correct concern. A lead is not the same thing as control.']],
 ['CurvaB','Sette punti su nove. Respiriamo. Ma contro il Galatasaray voglio una risposta.',['NapoliTherapy','A Napoli fan asking everyone to relax? Historic scenes.']]
 ],
 'inter-2028-win':[
-['CurvaB','Due gol in diciotto minuti contro l’Inter. Questo sì che è un messaggio.',['PioNation','Pio with a goal AND an assist. Remember the doubters.']]],
-['PioNation','Pio sets up Davies, then finishes the move Beier creates. The partnership is already cooking.',['BeierHive','Beier two at Lecce and an assist against Inter. Start giving him his flowers.']]],
-['CalafioriWatch','Calafiori getting his first Napoli minutes against Inter at halftime is a proper welcome.',['TacticalNonno','And Paz coming on at the same break shows how many options Saladino has.']]],
-['NapoliDoomer','Two clean sheets in two games. I am suspicious of how calm I feel.',['NapoliTherapy','Enjoy it before the schedule gets ridiculous.']]]
+['CurvaB','Due gol in diciotto minuti contro l’Inter. Questo sì che è un messaggio.',['PioNation','Pio with a goal AND an assist. Remember the doubters.']],
+['PioNation','Pio sets up Davies, then finishes the move Beier creates. The partnership is already cooking.',['BeierHive','Beier two at Lecce and an assist against Inter. Start giving him his flowers.']],
+['CalafioriWatch','Calafiori getting his first Napoli minutes against Inter at halftime is a proper welcome.',['TacticalNonno','And Paz coming on at the same break shows how many options Saladino has.']],
+['NapoliDoomer','Two clean sheets in two games. I am suspicious of how calm I feel.',['NapoliTherapy','Enjoy it before the schedule gets ridiculous.']]
 ],
 'inter-2028-depth-opinion':[
-['SouthStandAnalyst','Neves deeper with McTominay and Paz at ten makes sense against elite opposition. It is not the same job as the two-striker league setup.',['PazEnjoyer','Exactly. Paz behind Beier changes the passing angles completely.']]],
-['PioNation','We are talking about depth like Pio is a bench problem. He has already scored and assisted against Inter.',['BeierHive','And Beier is producing too. Good problem to have.']]],
-['OliseWatch','I want to see what Olise adds when the right side is fully integrated. No need to pretend we have seen it already.',['ActuallyWatchTheGame','Thank you. Excitement is fine; inventing a debut is not.']]],
-['CurvaB','Questa rosa è fortissima. Ma la vera prova sarà gestire tutti senza perdere equilibrio.',['TacticalNonno','Depth only helps when the structure still works.']]]
+['SouthStandAnalyst','Neves deeper with McTominay and Paz at ten makes sense against elite opposition. It is not the same job as the two-striker league setup.',['PazEnjoyer','Exactly. Paz behind Beier changes the passing angles completely.']],
+['PioNation','We are talking about depth like Pio is a bench problem. He has already scored and assisted against Inter.',['BeierHive','And Beier is producing too. Good problem to have.']],
+['OliseWatch','I want to see what Olise adds when the right side is fully integrated. No need to pretend we have seen it already.',['ActuallyWatchTheGame','Thank you. Excitement is fine; inventing a debut is not.']],
+['CurvaB','Questa rosa è fortissima. Ma la vera prova sarà gestire tutti senza perdere equilibrio.',['TacticalNonno','Depth only helps when the structure still works.']]
 ]
 };
 // The old random/context engines remain DISABLED. Restore only comments already
