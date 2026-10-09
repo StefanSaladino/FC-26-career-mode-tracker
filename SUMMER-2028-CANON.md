@@ -21,7 +21,7 @@
 
 ## Editorial continuity rule — comments and replies
 
-All supporter comments and replies are explicitly authored per article ID, grounded in the facts and timeline known at that publication point. No automatic or generic fallback comments, fabricated engagement, future spoilers or unrelated replies. Unreviewed threads remain empty. See `AI-HANDOFF.md` for the mandatory protocol and `comments-curated-archive.js` / `comments-engine-v2.js` for implementation. Archive coverage is partial.
+All supporter comments and replies are explicitly authored per article ID, grounded in the facts and timeline known at that publication point. No automatic or generic fallback comments, fabricated engagement, future spoilers or unrelated replies. **Preserve original article-authored comments and their reply trees:** the active renderer merges those with curated archives, Galatasaray and historical backfills, and archived static bespoke seeds from the retired generator. Recurring fan identities, rivalries and language remain canonical. See `AI-HANDOFF.md` and `COMMENTS-ARCHITECTURE.md` for current loader, precedence, no-spoiler and validation rules.
 
 ## LATEST RESULT · VENEZIA 1–1 NAPOLI · 8 SEPTEMBER 2028
 
