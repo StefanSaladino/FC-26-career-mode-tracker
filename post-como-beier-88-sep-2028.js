@@ -73,7 +73,7 @@ for(let i=stories.length-1;i>=0;i--)D.articles=[stories[i],...D.articles.filter(
 D.hero={articleId:'como-beier-88-winner-sep-2028',strap:'FT · COMO 0–1 NAPOLI · BEIER 88′'};
 const result=['Napoli','Como','Serie A',1,0,'W','16 Sep 2028 · Away','Beier 88′ (Scott McTominay assist) · 0–0 HT · Napoli away win'];
 D.results=D.results||[];
-{const i=D.results.findIndex(x=>x[0]==='Napoli'&&x[1]==='Como'&&x[2]==='Serie A'&&String(x[6]).includes('2028'));if(i>=0)D.results[i]=result;else D.results.push(result);}
+{const i=D.results.findIndex(x=>x[0]==='Napoli'&&x[1]==='Como'&&x[2]==='Serie A'&&String(x[6]).includes('16 Sep 2028'));if(i>=0)D.results[i]=result;else D.results.push(result);}
 D.results2028=D.results2028||[];
 {const i=D.results2028.findIndex(x=>x[0]==='Napoli'&&x[1]==='Como'&&x[2]==='Serie A');if(i>=0)D.results2028[i]=result;else D.results2028.push(result);}
 if(Array.isArray(D.fixtures2028)){const fixture=D.fixtures2028.find(f=>f.team==='Napoli'&&f.opponent==='Como'&&f.date==='2028-09-16');if(fixture){fixture.venue='Away';fixture.played=true;fixture.result='Como 0–1 Napoli';}D.upcoming=D.fixtures2028.filter(f=>f.team==='Napoli'&&!f.played).map(f=>[f.opponent,f.competition,f.date+' · '+f.venue+(f.verified?'':' · Opponent unconfirmed')]);}
