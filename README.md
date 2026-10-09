@@ -1,8 +1,11 @@
 # Napoli FC26 — 2027–28 Season Room
 
-> **LATEST UPDATE:** Napoli opened 2028–29 with a **2–0 victory at Lecce** (Beier twice, McTominay and De Bruyne assists). **Michael Olise OFFICIALLY SIGNED**: age 26, OVR91, RM/RW, Napoli FC26 — 2027–28 Season Room37.5M + 5% sell-on, four years Crucial, $350K/week, $3.6M signing, Napoli FC26 — 2027–28 Season Room3.2M after 20 goals. **Riccardo Calafiori OFFICIALLY SIGNED** from Roma: age 26, OVR86, LB/CB, $83.5M, Napoli FC26 — 2027–28 Season Room70K/week, Napoli FC26 — 2027–28 Season Room.55M signing, $2.3M after 10 clean sheets. His earlier Arsenal → Roma move occurred in this save. Squad and Season Room articles updated. Exact remaining budget is internal-only; see SUMMER-2028-CANON.md.
+> **LIVE CANON · 2028–29 · CONFIRMED FULL TIME (12 SEPTEMBER 2028):** Napoli **2–1 Galatasaray** in the Champions League opener. Gabriel Sara 25′; Alessandro Bastoni **32′ unassisted**; João Neves **41′ from Michael Olise**. Neves's first Napoli goal is the winner. Meret's close-range second-half save protects the result. Napoli's UCL record: **1W 0D 0L, 3 points**; Serie A remains **2W 1D 0L, 7 points**. Next: **Como at home, 16 Sep**, then Torino away, Leverkusen home in the UCL. The homepage leads with `post-galatasaray-ft-sep-2028.js`; `SUMMER-2028-CANON.md` carries the authoritative detailed ledger. Older material below is archival unless expressly reconfirmed.
 
-## CURRENT CANON — SUMMER 2028 / OPENING OF 2028–29 (MOST RECENT)
+
+> **ARCHIVAL OPENING-DAY UPDATE (SUPERSEDED):** Napoli opened 2028–29 with a **2–0 victory at Lecce** (Beier twice, McTominay and De Bruyne assists). **Michael Olise OFFICIALLY SIGNED**: age 26, OVR91, RM/RW, Napoli FC26 — 2027–28 Season Room37.5M + 5% sell-on, four years Crucial, $350K/week, $3.6M signing, Napoli FC26 — 2027–28 Season Room3.2M after 20 goals. **Riccardo Calafiori OFFICIALLY SIGNED** from Roma: age 26, OVR86, LB/CB, $83.5M, Napoli FC26 — 2027–28 Season Room70K/week, Napoli FC26 — 2027–28 Season Room.55M signing, $2.3M after 10 clean sheets. His earlier Arsenal → Roma move occurred in this save. Squad and Season Room articles updated. Exact remaining budget is internal-only; see SUMMER-2028-CANON.md.
+
+## HISTORICAL CANON — SUMMER 2028 / OPENING OF 2028–29
 
 > **This section supersedes earlier 2027–28 snapshots further below, which are historical.** Authoritative timeline: `SUMMER-2028-CANON.md`. Exact manager-authored interview remarks: `SALADINO-BELLANDI-INTERVIEW-CANON.md`.
 
