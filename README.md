@@ -134,7 +134,7 @@ Quotes are editorial colour, not factual FC26 dialogue unless explicitly supplie
 ## Supporter/commenter canon
 Recurring accounts remain permanent continuity: SaladinoOutNow, NapoliDoomer, PioNation, PioEra, PioShirtOwner, PioHaterForNoReason, BeierDefenseLeague, BeierHive, EndrickEra, PazEnjoyer/Pazienza, ChiesaHive, MeretUnion, DaviesExpress, BastoniAgenda, BuongiornoBrigade, StachAttack, CaptainRespect, KDBClock/KDBVision, GeertruidaWatch, PeacockWatch, TacticalNonno, RotationPolice, SquadDepthDept, CurvaCalculator, CalendarVictim and the established general/rival cast.
 
-Major stories should contain bespoke article-specific comments first, seeded canonical comments second, and context-aware generated crowd comments after that. Generated comments react to facts without quoting article prose. Championship and historic European threads should feel large; do not leave them with tiny comment sections.
+The active supporter system is now authored-only and additive: it preserves comments and nested replies embedded in original articles, merges them with individually reviewed archives and saved bespoke legacy seeds, and retains established recurring accounts and Italian/Neapolitan voice. Generic/generated comment pools remain disabled. See `COMMENTS-ARCHITECTURE.md` and `AI-HANDOFF.md` for the current rules; never silently replace or discard existing authored threads.
 
 ## Editorial safeguards
 1. FC26 is source of truth for stats/current save state.
