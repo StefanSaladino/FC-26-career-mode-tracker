@@ -1,5 +1,17 @@
 # Comment System Architecture
 
+## CURRENT OPERATING RULES — 9 OCTOBER 2026 (SUPERSEDES ORIGINAL GENERATOR DESIGN BELOW)
+
+- **Preserve existing authored posts, do not replace or drop them.** Threads are assembled by exact article ID from the reviewed maps in `comments-engine-v2.js` and `comments-curated-archive.js`, the Galatasaray and historical backfill archives, original `a.comments` / `a.seededComments` in post scripts, and the 80 **static** saved legacy bespoke comments in `comments-legacy-authored.js`. All authored nested replies remain attached to their original parent. Deduplicate repeated copies of the same author/comment while merging their saved replies.
+- **Recurring cast is mandatory continuity:** `CurvaB`, `TacticalNonno`, `SaladinoOutNow`, `NapoliDoomer`, `PioNation`, `PioHaterForNoReason`, `BeierHive`, `MeretUnion`, `DaviesExpress`, `BastoniAgenda`, `BuongiornoBrigade`, `NapoliTherapy`, opposition and Italy fans, and the broader established cast. Preserve each account's voice, grudges and chronology; reuse when genuinely relevant, never stamp the same text across all threads.
+- **No synthetic filler:** Retired random, commentHeat, context-hash and old seeded fallback generators stay disabled. `comments.js` must never be executed. Its 80 bespoke seeds have been *copied as inert data*, not restored as an algorithm. Do not backfill later knowledge into earlier threads.
+- **Source fidelity:** Article-authored comments are first-class published archival content, not disposable input. Preserve original comments, Italian/Napoletano language, guest voices and nested replies through renderer changes. A previously authored comment may be excluded only if demonstrably factually incorrect or chronologically misplaced; archive it rather than silently destroying the source.
+- **Loader and validation:** The archive scripts load before `comments-engine-v2.js` in `index.html`; bump cache query strings with content changes. Validate JS syntax, cross-check loaded IDs and per-article comment/reply counts, review relevant live reader/mobile behavior when a browser is available, and never claim browser verification when none occurred.
+- **For new stories:** Write 2–5 genuinely different, in-universe comments with meaningful replies, rooted in the article's known facts and time. If a brand-new thread has not been reviewed, show the explicit empty state instead of fabricated posts.
+
+## ORIGINAL ENGINE DESIGN (HISTORICAL, NO LONGER ACTIVE)
+
+
 ## Purpose
 
 The comment section should feel like a live football community without ever contradicting the article or match state. The system has two sources only:
