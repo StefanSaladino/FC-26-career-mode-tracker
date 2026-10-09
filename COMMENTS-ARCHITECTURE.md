@@ -7,7 +7,28 @@
 - **No synthetic filler:** Retired random, commentHeat, context-hash and old seeded fallback generators stay disabled. `comments.js` must never be executed. Its 80 bespoke seeds have been *copied as inert data*, not restored as an algorithm. Do not backfill later knowledge into earlier threads.
 - **Source fidelity:** Article-authored comments are first-class published archival content, not disposable input. Preserve original comments, Italian/Napoletano language, guest voices and nested replies through renderer changes. A previously authored comment may be excluded only if demonstrably factually incorrect or chronologically misplaced; archive it rather than silently destroying the source.
 - **Loader and validation:** The archive scripts load before `comments-engine-v2.js` in `index.html`; bump cache query strings with content changes. Validate JS syntax, cross-check loaded IDs and per-article comment/reply counts, review relevant live reader/mobile behavior when a browser is available, and never claim browser verification when none occurred.
-- **For new stories:** Write 2–5 genuinely different, in-universe comments with meaningful replies, rooted in the article's known facts and time. If a brand-new thread has not been reviewed, show the explicit empty state instead of fabricated posts.
+- **For new stories:** Follow the **manager's turnout and emotional-intensity scale** below. Substantially more hand-authored comments and meaningful replies are required going forward; an unreviewed new thread still shows the explicit empty state rather than fabricated posts.
+
+## Supporter-thread scale and emotional intensity — manager directive · 9 October 2026
+
+**Effective for all NEW articles and new match reports; this replaces the old 2–5 comments default.** A convincing Napoli football community should feel substantially busier, especially when the stakes or surprise warrant it. The article's actual in-universe impact determines both the number of distinct top-level comments and the intensity of the replies, not a random generator.
+
+| Article / event | Editorial target (top-level comments) | Reaction and conversation |
+| --- | --- | --- |
+| Routine news, previews, minor features, expected results | **6–10** | Thoughtful variety, a handful of authentic replies, modest disagreements and running jokes |
+| Typical league/cup match, meaningful player performance, ordinary dropped points | **10–16** | More supporters weighing in, competing player takes, some arguments and meaningful back-and-forth |
+| Derby/rivalry, title-six-pointer, major Champions League match, high-profile transfers, controversial selection, unexpected draw or upset | **16–25** | Noticeably crowded and heated; rival fans, distinct factions, receipts, frustrations, passionate Italian/Napoletano reactions, multiple live-feeling reply exchanges |
+| Historic final, trophy clincher, catastrophic upset, extraordinary comeback, dramatic elimination, highly shocking or deeply polarising result | **25–40+**, if the confirmed event genuinely warrants it | The comment section should *explode*: jubilant or furious supporter factions, arguments, hot takes, people walking back old predictions, rival visitors, memorable quote-worthy meltdowns, and substantially more nested replies |
+
+**Scale importance AND surprise separately.** Even an ostensibly low-profile fixture can generate a furious crowd if Napoli lose unexpectedly, concede late, blow a big lead, or survive a wild comeback. Conversely, an uneventful expected win should not read like a Champions League final. Emotional heat may also come from a dramatic refereeing incident, managerial controversy or transfer shock when actually confirmed in the save.
+
+- These are **editorial targets**, not mechanically enforced counts or permission to pad threads. A large story should contain multiple distinct reactions and genuinely sustained interactions; do not meet a target with repetitive copy. Add relevant top-level voices and context-responsive replies instead of random filler.
+- **Recurring supporter cast and continuity are essential.** Let `CurvaB`, `TacticalNonno`, `SaladinoOutNow`, `NapoliDoomer`, `PioNation`, `PioHaterForNoReason`, `BeierHive`, `MeretUnion`, etc. react consistently and sometimes fight, admit errors, double down or bring receipts from their earlier remarks. Mix these accounts with ordinary fans, rivals and visiting supporters rather than letting the same few monopolise every thread.
+- Stronger results may mean **more emotional language**, passionate colloquial Italian, occasional natural Neapolitan and justified profanity; avoid universal all-caps, cartoon rage, identical reactions or outrage unrelated to the actual result. The thread needs both exuberant/angry voices and occasional cooler tactical observers.
+- Create **substantial nested reply exchanges** on important stories. Replies answer the specific parent and respect chronology; keep the one-level thread UI unless the design changes explicitly. Opponent fans should have distinct views; fan rivalries should grow through prior article history.
+- Do not invent unconfirmed match facts, manager quotations, injuries, controversy or outcomes to manufacture engagement. Never insert future knowledge in historically earlier posts.
+- Every reaction remains **hand-authored for that specific article ID** and preserved when article or rendering code changes. The old synthetic generator and generic fallback remain disabled; grow the bespoke editorial threads, not an algorithm.
+- On every new article: assign a **reaction tier** from the story's stakes + unexpectedness, author an appropriately sized thread, verify both comment and reply counts and factual/timeline accuracy, and inspect the mobile reader when possible.
 
 ## ORIGINAL ENGINE DESIGN (HISTORICAL, NO LONGER ACTIVE)
 
