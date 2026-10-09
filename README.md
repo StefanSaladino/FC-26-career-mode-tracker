@@ -136,6 +136,8 @@ Recurring accounts remain permanent continuity: SaladinoOutNow, NapoliDoomer, Pi
 
 The active supporter system is now authored-only and additive: it preserves comments and nested replies embedded in original articles, merges them with individually reviewed archives and saved bespoke legacy seeds, and retains established recurring accounts and Italian/Neapolitan voice. Generic/generated comment pools remain disabled. See `COMMENTS-ARCHITECTURE.md` and `AI-HANDOFF.md` for the current rules; never silently replace or discard existing authored threads.
 
+**New canon for future stories:** Every new article should attract more distinct, bespoke comments and meaningful nested replies than the former small-thread default. Typical editorial tiers: **6–10** routine, **10–16** regular match, **16–25** major fixture/surprise, **25–40+** extraordinary upset/comeback/title/final. Bigger stakes and more unexpected results mean more intense, passionate, argumentative, funny and emotionally charged threads while preserving recurring-account continuity, Italian/Napoletano voice, factual constraints and chronology. Targets are not license for repetitive filler or artificial engagement. See `COMMENTS-ARCHITECTURE.md` and `EDITORIAL-RULES.md`.
+
 ## Editorial safeguards
 1. FC26 is source of truth for stats/current save state.
 2. Chronological post files are canonical season history.
