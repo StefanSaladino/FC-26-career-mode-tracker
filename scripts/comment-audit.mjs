@@ -50,6 +50,9 @@ const expected=[
  ['psg-final-report-may-2028',8,3],
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
+ ['leverkusen-92-sep-2028',32,37],
+ ['leverkusen-beier-pio-analysis-sep-2028',20,24],
+ ['leverkusen-defence-opinion-sep-2028',25,26],
  ['como-beier-88-winner-sep-2028',22,36],
  ['beier-mctominay-late-goal-como-analysis-sep-2028',14,17],
  ['napoli-como-late-winner-fan-pressure-sep-2028',10,11]
