@@ -32,7 +32,12 @@ const C={
 // The old random/context engines remain DISABLED. Restore only comments already
 // explicitly written for this exact article: recent curated maps, archived
 // curated maps, inline article comments, and archived legacy bespoke seeds.
-const language=s=>/[àèéìòùÀÈÉÌÒÙ]/.test(String(s||''))||/\b(?:siamo|questa|questo|perché|dobbiamo|ragazzi|partita|campionato|allora|bella|napoletani|andiamo|basta|grazie|forza)\b/i.test(String(s||''))?'it':'en';
+const language=s=>{
+ const t=String(s||'');
+ if(/[àèéìòùÀÈÉÌÒÙ]/.test(t)||/\b(?:esatto|grande|uagliù|andiamo|basta|davvero|grazie|forza|siamo|ragazzi|napoletani|campionato|squadra|partita)\b/i.test(t))return 'it';
+ const matches=t.match(/\b(?:il|gli|della|delle|dopo|prima|non|che|con|senza|anche|tutti|troppo|ancora|sempre|perché|quando|questo|questa|bisogna|abbiamo|stiamo|avete|bene|male|sul|poi|così|sotto|contro|era|siamo|abbiamo)\b/gi)||[];
+ return matches.length>=2?'it':'en';
+};
 const pair=x=>Array.isArray(x)&&x.length>=2&&typeof x[0]==='string'&&typeof x[1]==='string';
 const textKey=s=>String(s||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase();
 function parseReply(item){
@@ -82,5 +87,5 @@ let busy=false;function sync(){if(busy)return;const r=document.getElementById('r
 const reader=document.getElementById('readerContent');if(reader){new MutationObserver(()=>queueMicrotask(sync)).observe(reader,{childList:true,subtree:true});sync()}
 document.addEventListener('seasonroom:article-opened',()=>requestAnimationFrame(sync));
 document.addEventListener('click',e=>{const b=e.target.closest?.('[data-reply-toggle]');if(b){const t=document.getElementById(b.dataset.replyToggle);if(t){const opening=t.hasAttribute('hidden');if(opening)t.removeAttribute('hidden');else t.setAttribute('hidden','');b.textContent=opening?'Hide replies':'View replies';}return}if(e.target.closest?.('[data-article]'))requestAnimationFrame(sync)});
-window.NAPOLI_COMMENT_ENGINE_VERSION='8.0.0-custom-only';
+window.NAPOLI_COMMENT_ENGINE_VERSION='8.1.0-authored-restore';
 })();
