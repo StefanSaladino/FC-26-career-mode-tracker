@@ -1,4 +1,8 @@
-# Napoli FC26 — 2027–28 Season Room
+# Napoli FC26 — 2028–29 Season Room
+
+> **LATEST CANON · 2028–29 · FULL TIME 23 SEPTEMBER 2028:** **TORINO 0–1 NAPOLI (AWAY)**. **Pio Esposito 17′** (assist not confirmed). Bastoni made a key block; Napoli also had a close-range effort stopped at 56′ and a corner at 76′. Serie A: **4W, 1D, 0L · 13 points · 7 GF · 1 GA**, four clean sheets after five matches. Pio: **2 league goals, 1 assist**. Next: **Bayer Leverkusen at home, 26 September (UCL)**. Three new articles in `post-torino-pio-17-sep-2028.js`, with **43 bespoke comments and 54 replies** in `comments-torino-pio-curated.js`. The 16 September Como update below is now historical. 
+
+
 
 > **LIVE CANON · 2028–29 · LATEST CONFIRMED FULL TIME (16 SEPTEMBER 2028):** **COMO 0–1 NAPOLI (AWAY)**, 0–0 at halftime, **Maximilian Beier 88′ (Scott McTominay assist)**. The manager voided the two earlier glitched restarts: no De Coster/Perrone goals, false Beier goals or Nico Paz assists enter the official ledger. Serie A now **3W 1D 0L · 10 pts · 6 GF · 1 GA**. Beier **3 league goals/1 assist**, McTominay **2 league assists**. Next **Torino away 23 September**, then **Bayer Leverkusen UCL home 26 September**. Three live full-time articles in `post-como-beier-88-sep-2028.js`; 46 custom supporter comments + 64 nested replies in `comments-como-beier-curated.js`. All historical coverage, including Galatasaray, remains preserved. More details: `SUMMER-2028-CANON.md`. Earlier latest-result snapshots below are superseded.
 
