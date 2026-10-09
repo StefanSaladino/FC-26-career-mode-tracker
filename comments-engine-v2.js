@@ -68,7 +68,9 @@ function curated(a){
   ...(C[id]||(window.NAPOLI_CURATED_ARCHIVE||{})[id]||[]),
   ...(Array.isArray(a.comments)?a.comments:[]),
   ...(Array.isArray(a.seededComments)?a.seededComments:[]),
-  ...((window.NAPOLI_LEGACY_AUTHORED_COMMENTS||{})[id]||[])
+  // Older post-match Sassuolo seed copy was incorrectly keyed to a PREVIEW:
+  // keep it in the static archive but do not spoil the earlier article.
+  ...(id==='sassuolo-response'?[]:((window.NAPOLI_LEGACY_AUTHORED_COMMENTS||{})[id]||[]))
  ];
  const result=[], lookup=new Map();
  for(const source of entries){
