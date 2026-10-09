@@ -1,5 +1,7 @@
 # Napoli FC26 — 2028–29 Season Room
 
+> **LATEST CANON · 2028–29 · FULL TIME 26 SEPTEMBER 2028:** **NAPOLI 3–3 BAYER LEVERKUSEN (HOME, UCL)**. **39′ Beier (Paz); 86′ Pio Esposito (Beier); 90+2′ Beier (McTominay).** Opponent goals: Palacios header after Meret's punch (minute unconfirmed), Mateta 53′, later header by unconfirmed scorer (minute unconfirmed). **HT 1–1; Napoli recovered from 3–1 down.** Champions League: **1W 1D, 4 points, GF5 GA4**. Serie A unchanged: **4W 1D, 13 pts**. Three new articles and **77 curated comments / 87 replies**. Code: `post-leverkusen-comeback-sep-2028.js`, `state-leverkusen-26-sep-2028.js`, `comments-leverkusen-*-curated.js`. Next: **Milan home 1 October**. Consult `SUMMER-2028-CANON.md` for authoritative chronology.
+
 > **LATEST CANON · 2028–29 · FULL TIME 23 SEPTEMBER 2028:** **TORINO 0–1 NAPOLI (AWAY)**. **Pio Esposito 17′** (assist not confirmed). Bastoni made a key block; Napoli also had a close-range effort stopped at 56′ and a corner at 76′. Serie A: **4W, 1D, 0L · 13 points · 7 GF · 1 GA**, four clean sheets after five matches. Pio: **2 league goals, 1 assist**. Next: **Bayer Leverkusen at home, 26 September (UCL)**. Three new articles in `post-torino-pio-17-sep-2028.js`, with **43 bespoke comments and 54 replies** in `comments-torino-pio-curated.js`. The 16 September Como update below is now historical. 
 
 
