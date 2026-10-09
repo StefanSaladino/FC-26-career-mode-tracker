@@ -1,5 +1,12 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## LATEST OFFICIAL FULL TIME · NAPOLI 3–3 BAYER LEVERKUSEN · 26 SEPTEMBER 2028
+
+- **Confirmed 2028–29 UCL home draw:** Napoli **3–3 Bayer Leverkusen**. Leverkusen led through **Palacios** (headed in Meret's punch; exact minute unconfirmed), **Mateta 53′**, and a later **headed third goal** (scorer and precise minute unconfirmed). Napoli: **Beier 39′ (Nico Paz assist)**; **Pio Esposito 86′ (Beier assist)**; **Beier 90+2′ (Scott McTominay assist)**. **1–1 HT**. Pio was a second-half substitute; João Neves made a late interception, which is not the credited assist on the equaliser. Olise hit the post, Beier had a major chance saved in the 61st, Leverkusen hit the crossbar; Meret also made significant early saves.
+- **UCL: 2 played, 1W 1D 0L, 4 points, 5 GF, 4 GA.** Beier match **2 goals/1 assist**; Pio **1 goal**; Paz and McTominay **1 assist each**. **All-competition 2028–29 running totals:** Beier **5G/2A**, Pio **3G/1A**, Paz **0G/1A**, McTominay **0G/3A**. 2028–29 Serie A record unchanged at **4W 1D 0L, 13 points**.
+- **Editorial verdict:** an extraordinary comeback from **3–1 down at 86′** to **3–3 at 90+2′**, but still two home points dropped and three goals conceded. Balanced coverage: heroic Beier/Pio rescue alongside a critical defensive and Meret-error review. No invented third opposition scorer or minute.
+- **Published coverage:** `post-leverkusen-comeback-sep-2028.js` adds three stories; `state-leverkusen-26-sep-2028.js` updates result/fixture/UCL points/stats; `comments-leverkusen-match-curated.js`, `comments-leverkusen-analysis-curated.js`, `comments-leverkusen-opinion-curated.js` supply **77 bespoke top-level comments and 87 nested replies**. Next Napoli fixture: **Milan home on 1 October**, then **Roma away 13 October** (national-team fixtures occur between). Earlier Torino coverage and history are retained.
+
 **As of the manager's latest confirmed result (Torino, 23 September 2028 in-game; 9 October 2026 real conversation date).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
 ## LATEST OFFICIAL FULL TIME · TORINO 0–1 NAPOLI · 23 SEPTEMBER 2028
