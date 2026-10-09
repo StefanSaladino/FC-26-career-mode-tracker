@@ -1,8 +1,15 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
-**As of the manager's latest confirmed result (Como, 16 September 2028 in-game; 9 October 2026 real conversation date).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
+**As of the manager's latest confirmed result (Torino, 23 September 2028 in-game; 9 October 2026 real conversation date).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
-## LATEST OFFICIAL FULL TIME · COMO 0–1 NAPOLI · 16 SEPTEMBER 2028
+## LATEST OFFICIAL FULL TIME · TORINO 0–1 NAPOLI · 23 SEPTEMBER 2028
+
+- **Confirmed Serie A Matchday 5:** Napoli win **1–0 away at Torino**, with **Pio Esposito scoring at 17′**. Assist not confirmed. Bastoni supplied a key block, Napoli saw a close-range attempt stopped around 56′, and won a corner around 76′. Do not invent additional details.
+- **2028–29 standings (Napoli only):** Played 5, **4W 1D 0L · 13 points · 7 GF · 1 GA · +6 GD**, four clean sheets. Pio now has **two league goals and one assist**; Beier three goals, one assist; McTominay two assists.
+- **Editorial angle:** Two consecutive **1–0 away victories** at Como and Torino; defensive consistency and narrow attacking margins both merit discussion. Bayer Leverkusen next, **26 September 2028 (home, UCL)**, then Milan **1 October (home, league)**.
+- **Published:** Three Torino stories in `post-torino-pio-17-sep-2028.js` with 43 bespoke supporter comments and 54 replies in `comments-torino-pio-curated.js`. Earlier Como and historic 2027–28 Torino material remains unchanged.
+
+## PRIOR OFFICIAL FULL TIME · COMO 0–1 NAPOLI · 16 SEPTEMBER 2028
 
 - **CONFIRMED RESULT:** **Como 0–1 Napoli**, Serie A Matchday 4, **away at Como** on 16 September 2028. **0–0 at halftime**. **88′ Maximilian Beier** — **Scott McTominay assist**. Full time 0–1. No other scorers, assists, goalkeeper actions, match formations or substitutions from the completed version have been confirmed.
 - **Restart integrity:** The manager explicitly discarded TWO glitched/abandoned attempts. Their events (including Perrone scoring in the first and De Coster/Beier/Paz in the second) are **void and must never appear in the 16 September official match, article, result table, stats, or season totals**. Only the third completed attempt counts.
