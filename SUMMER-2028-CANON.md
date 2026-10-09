@@ -2,6 +2,10 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
+## Editorial continuity rule — comments and replies
+
+All supporter comments and replies are explicitly authored per article ID, grounded in the facts and timeline known at that publication point. No automatic or generic fallback comments, fabricated engagement, future spoilers or unrelated replies. Unreviewed threads remain empty. See `AI-HANDOFF.md` for the mandatory protocol and `comments-curated-archive.js` / `comments-engine-v2.js` for implementation. Archive coverage is partial.
+
 ## LATEST RESULT · VENEZIA 1–1 NAPOLI · 8 SEPTEMBER 2028
 
 - Napoli rotated before the Galatasaray UCL opener. Venezia pressured Napoli early; goalkeeper Peacock made two major saves. Kevin De Bruyne scored at 40′ (Mikey Moore assist); Gianluca Busio equalised for Venezia at 67′. Full time 1–1, no Napoli winner. No other goals or assists confirmed.
