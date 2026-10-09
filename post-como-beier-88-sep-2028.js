@@ -50,7 +50,7 @@ const stories=[
   {
     "id": "napoli-como-late-winner-fan-pressure-sep-2028",
     "category": "Opinion",
-    "label": "THE MONDAY ARGUMENT · CHAMPIONSHIP TEMPERAMENT",
+    "label": "THE FULL-TIME ARGUMENT · CHAMPIONSHIP TEMPERAMENT",
     "date": "16 September 2028 · After full time",
     "byline": "Napoli Season Room · Opinion Desk",
     "tone": "opinion",
@@ -80,7 +80,7 @@ if(Array.isArray(D.fixtures2028)){const fixture=D.fixtures2028.find(f=>f.team===
 D.latestResult=['COM','0–1','NAP','16 SEP · SERIE A · FT · Beier 88′ (McTominay)'];
 D.seasonState={...(D.seasonState||{}),league:{...(D.seasonState?.league||{}),w:3,d:1,l:0,points:10,played:4,remaining:34,gf:6,ga:1,status:'2028–29 · defending champions · unbeaten after four'}};
 D.serieAStandings={updated:'2028–29 · after Como · Napoli-only record',rows:[['Napoli',4,3,1,0,6,1,5,10]]};
-D.tableContext='2028–29 · Napoli-only league record: Lecce 2–0 Napoli away win, Inter 2–0 home win, Venezia 1–1 away draw, Como 1–0 away win (Beier 88′, McTominay assist). Other clubs’ outcomes/positions unverified; this is not a complete Serie A table.';
+D.tableContext='2028–29 · Napoli-only league record: Napoli beat Lecce 2–0 away, Inter 2–0 at home, drew 1–1 away at Venezia, then won 1–0 away at Como (Beier 88′, McTominay assist). Other clubs’ outcomes/positions unverified; this is not a complete Serie A table.';
 D.ticker=['FT · COMO 0–1 NAPOLI · BEIER 88′','McTOMINAY ASSISTS BEIER · LATE AWAY WIN','SERIE A · UNBEATEN · 3W 1D · 10 POINTS','BEIER · 3 SERIE A GOALS THIS SEASON','UCL · 3 POINTS AFTER GALATASARAY','NEXT · TORINO AWAY · 23 SEP','THEN · BAYER LEVERKUSEN HOME · 26 SEP'];
 D.whispers=[['BEIER, AT THE DEATH','Beier scores in the 88th minute at Como, with Scott McTominay supplying the decisive assist.'],['TEN POINTS FROM FOUR','Napoli win 1–0 away at Como and remain unbeaten after four Serie A matches.'],['THE DEBATE CONTINUES','Another nervy league away day ends in three points. Is the late winner a sign of champions’ resilience or a warning?'],['EUROPE STILL LOOMS','Napoli host Bayer Leverkusen in their next confirmed Champions League fixture on 26 September.'],['NEXT · TORINO','The champions visit Torino on 23 September after their narrow Como win.']];
 const season=D.statsBySeason?.['2028–29'];
