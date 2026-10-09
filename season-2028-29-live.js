@@ -2,7 +2,7 @@
 const e=id=>document.getElementById(id);
 if(e('tickerTrack'))e('tickerTrack').innerHTML=[...D.ticker,...D.ticker].map(s=>'<span>'+s+'</span>').join('');
 if(e('latestResult')&&Array.isArray(D.latestResult)){const r=D.latestResult;e('latestResult').innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
-if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Latest: Napoli 3–3 Leverkusen</span></div>';}
+if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Napoli 3–3 Leverkusen</span></div>';}
 if(e('nextTwo'))e('nextTwo').innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
 if(e('upcomingStrip'))e('upcomingStrip').innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
 const row=x=>'<div class="formation-row"><span>'+x[0]+'</span><strong>'+x[1]+'</strong><b>'+x[2]+'</b></div>';
@@ -18,6 +18,11 @@ const existingLeverkusen=[...el.children].filter(x=>x.classList.contains('match-
 existingLeverkusen.forEach(x=>x.remove());
 const lev=document.createElement('div');lev.className='match-card';
 lev.innerHTML='<div class="result-badge D">D</div><div class="match-main"><span>2028–29 · Champions League · 26 Sep · Home</span><strong>Napoli <b>3–3</b> Bayer Leverkusen</strong><p>Beier 39′ (Paz), Pio 86′ (Beier), Beier 90+2′ (McTominay) · 1–1 HT</p></div>';
-el.prepend(lev);}
+el.prepend(lev);
+const milanCards=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Milan')&&x.textContent.includes('1 Oct 2028'));
+milanCards.forEach(x=>x.remove());
+const milan=document.createElement('div');milan.className='match-card';
+milan.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 1 Oct 2028 · Away · San Siro</span><strong>AC Milan <b>1–2</b> Napoli</strong><p>Rabiot 55′ · Pio 68′ (McTominay) · Beier 90+1′ (McTominay) · 0–0 HT</p></div>';
+el.prepend(milan);}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
