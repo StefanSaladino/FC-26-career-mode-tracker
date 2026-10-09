@@ -1,5 +1,19 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+**CURRENT / MOST RECENT RESULT (as manager-confirmed 1 October 2028).** See the section immediately below; older “latest” captions further down are historical snapshots.
+
+## LATEST CONFIRMED FULL TIME · 1 OCTOBER 2028 · AC MILAN 1–2 NAPOLI · SAN SIRO (AWAY)
+
+- **Serie A Matchday 6, RAINY night at San Siro:** **AC Milan 1–2 Napoli**, **0–0 at halftime**. **55′ Adrien Rabiot** (Milan); **68′ Pio Esposito** (assist **Scott McTominay**); **90+1′ Maximilian Beier** (assist **Scott McTominay**). Full-time whistle confirmed by the manager.
+- **First-half chronology:** **14′ Pio Esposito offside goal disallowed** (Olise played him through; NOT a goal or assist); **30′ Mike Maignan made a major save from Nico Paz**; **40′ Pio denied close-in**. No other goals, scorers, assist providers, penalty situations, substitution minutes or xG confirmed. Do **not** invent them.
+- **Venue CORRECTION:** The old planning fixture incorrectly listed Napoli vs Milan at home. The manager confirmed **rainy SAN SIRO**, therefore **Milan 1–2 Napoli AWAY**. Apply this correction in fixture, match centre, article, ticker and all current-state docs. The result ledger records Napoli goals first internally, but UI must display Milan 1–2 Napoli.
+- **Serie A:** **6 played · 5W 1D 0L · 16 points · 9 GF, 2 GA, +7 GD · four clean sheets**. This is a **Napoli-only** record: other clubs' points/positions are unknown. **UCL unchanged:** 2 played, 1W 1D, 4 points, 5 GF, 4 GA.
+- **2028–29 all-competition totals:** **Maximilian Beier 6G/2A** (4 league goals, 2 UCL goals; 1 league and 1 UCL assist); **Pio Esposito 4G/1A** (3 league and 1 UCL goal); **Scott McTominay 0G/5A** (4 league assists: Lecce, Como, two at Milan; plus 1 UCL assist vs Leverkusen). **Nico Paz 0G/1A**. Historical season stats retained.
+- **Editorial package:** Three original in-universe longform stories in `post-milan-beier-san-siro-oct-2028.js`: result/night report, McTominay two-assist analysis, and late-winner/finishing opinion. `comments-milan-san-siro-curated.js` contains **75 bespoke top-level supporter/rival comments and 88 nested replies** across the three articles. Loaded by `index.html` before `app.js` (stories/state) and comments renderer (reactions); match-state script `state-milan-san-siro-2028.js` records the score, stats, 16 league points, and next matches.
+- **Next Napoli fixture:** **Roma away 13 October 2028**; **Italy** friendlies 6 October home vs Côte d’Ivoire and 10 October away to Tunisia happen before that. Then **Slavia Prague UCL home 17 October**.
+- **Journalism voice:** Heroic Beier **90+1′** late winner, McTominay **two assists**, Pio perseverance, Maignan denied Paz/Pio earlier, Rabiot opening goal. References to Como 88′ and Leverkusen 90+2′ should be historically accurate. Never manufacture direct Saladino quotes, Milan league standing or additional match actions.
+
+
 ## LATEST OFFICIAL FULL TIME · NAPOLI 3–3 BAYER LEVERKUSEN · 26 SEPTEMBER 2028
 
 - **Confirmed 2028–29 UCL home draw:** Napoli **3–3 Bayer Leverkusen**. Leverkusen led through **Palacios** (headed in Meret's punch; exact minute unconfirmed), **Mateta 53′**, and a later **headed third goal** (scorer and precise minute unconfirmed). Napoli: **Beier 39′ (Nico Paz assist)**; **Pio Esposito 86′ (Beier assist)**; **Beier 90+2′ (Scott McTominay assist)**. **1–1 HT**. Pio was a second-half substitute; João Neves made a late interception, which is not the credited assist on the equaliser. Olise hit the post, Beier had a major chance saved in the 61st, Leverkusen hit the crossbar; Meret also made significant early saves.
