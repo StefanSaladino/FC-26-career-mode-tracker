@@ -1,5 +1,20 @@
 # Season Room Editorial Rules
 
+## Non-negotiable supporter engagement canon · 9 October 2026
+
+All **new** Napoli Season Room articles need lively, intentionally authored supporter threads, **larger than the old 2–5 comment default**. The stronger the result's significance, surprise or controversy, the more supporters should appear, and the more emotionally charged the arguments and replies should feel.
+
+- **Routine news/features:** approximately **6–10** distinct top-level comments.
+- **Regular matches and meaningful debates:** approximately **10–16**.
+- **Major rivalries, European knockouts, unexpected results, high-stakes transfer/manager disputes:** approximately **16–25**.
+- **Historic titles/finals, shocking upsets, collapses and unbelievable comebacks:** **25–40 or more**, with extended, lively reply exchanges when warranted.
+
+**Emotional heat must be earned by the story, not generated arbitrarily.** Supporters may explode with joy, anger, panic, arguments, receipts, rivalry trolling, selective Napoli profanity, colloquial Italian and natural Neapolitan after extraordinary events, while routine results remain more measured. An unlikely loss can produce more outrage than a routine victory in an important competition. Let the established recurring accounts keep their own personalities and ongoing grudges; mix them with other fans and opposition visitors. Posts must be original to their specific article, chronologically correct, and factually constrained by manager-confirmed game canon. Do not restore the random/commentHeat generator or pad an article with repeated filler. Preserve all existing published comments and nested replies.
+
+For operational criteria, see `COMMENTS-ARCHITECTURE.md` under **Supporter-thread scale and emotional intensity**.
+
+---
+
 ## Historical season ranking embargo
 
 The article comparing 2027–28 Napoli with the greatest single-season teams in Serie A / Italian club history is **embargoed unless Napoli defeat Paris Saint-Germain in the 2027–28 Champions League final**.
