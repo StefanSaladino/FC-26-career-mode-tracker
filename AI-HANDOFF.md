@@ -1,6 +1,9 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
-> **CURRENT MATCH OVERRIDE · 2028–29:** Napoli drew **1–1 away to Venezia on 8 September 2028** after a rotated side came under early pressure. Peacock made two major early saves; De Bruyne scored in the 40th minute (Mikey Moore assist); Busio equalised for Venezia in the 67th. Napoli 2W 1D 0L, **7 points, 5 GF, 1 GA**. Next: **Galatasaray home, 12 September (UCL)**. This overrides the outdated “after Inter” lead below. The manager-confirmed elite XI and other prior canon remain valid. Never publish exact remaining transfer budget.
+> **NEWEST CONFIRMED RESULT · 2028–29 CHAMPIONS LEAGUE:** **NAPOLI 2–1 GALATASARAY · FULL TIME · 12 SEPTEMBER 2028.** 25′ Gabriel Sara, **32′ Alessandro Bastoni (unassisted)**, **41′ João Neves (Michael Olise assist)**. Neves's first Napoli goal, Bastoni's first goal this season. Meret made a vital close-range second-half save. Pio threatened but was denied; Beier played CAM behind Pio and the manager liked the experiment. Davies off for Paz at halftime; later De Bruyne, Moore and Marín appeared (Marín for Buongiorno). Napoli UCL **1W 0D 0L, 3 points**. Serie A still **2W 1D 0L, 7 points**. **Next: Como home 16 Sep 2028**, Bayer Leverkusen UCL home 26 Sep. This overrides the older Venezia-as-latest / Galatasaray-as-upcoming statement below. See `SUMMER-2028-CANON.md`.
+
+
+> **PREVIOUS MATCH OVERRIDE · 2028–29 (HISTORICAL, SUPERSEDED):** Napoli drew **1–1 away to Venezia on 8 September 2028** after a rotated side came under early pressure. Peacock made two major early saves; De Bruyne scored in the 40th minute (Mikey Moore assist); Busio equalised for Venezia in the 67th. Napoli 2W 1D 0L, **7 points, 5 GF, 1 GA**. Next: **Galatasaray home, 12 September (UCL)**. This overrides the outdated “after Inter” lead below. The manager-confirmed elite XI and other prior canon remain valid. Never publish exact remaining transfer budget.
 
 ## Editorial comments protocol · 9 October 2026 (MANDATORY)
 
