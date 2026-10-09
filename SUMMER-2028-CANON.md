@@ -2,6 +2,13 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
+## LATEST RESULT · VENEZIA 1–1 NAPOLI · 8 SEPTEMBER 2028
+
+- Napoli rotated before the Galatasaray UCL opener. Venezia pressured Napoli early; goalkeeper Peacock made two major saves. Kevin De Bruyne scored at 40′ (Mikey Moore assist); Gianluca Busio equalised for Venezia at 67′. Full time 1–1, no Napoli winner. No other goals or assists confirmed.
+- Serie A after three: 2W 1D 0L, 7 pts, 5 GF, 1 GA. Peacock played; no clean sheet. 2028–29 production: De Bruyne 1G/1A, Moore 0G/1A; prior contributions unchanged.
+- Next club match: Napoli vs Galatasaray, Champions League, Sep 12. Venezia Sep 8 is completed and must not appear in upcoming fixtures.
+- Editorial narrative: first dropped points, rotation under scrutiny, but no defeat. Do not invent manager quotes or Peacock save count beyond the two major early saves.
+
 ## SCREENSHOT-VERIFIED CALENDAR · SEPTEMBER/OCTOBER 2028
 
 - Italy friendlies completed: Sep 1 Côte d’Ivoire 0–0 Italy; Sep 5 Korea 0–1 Italy. Korea scorer and assists unconfirmed. These are national-team results, not Napoli league matches.
