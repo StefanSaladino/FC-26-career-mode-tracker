@@ -10,6 +10,8 @@ const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const html=read('index.html');
 const scripts=[...html.matchAll(/<script\s+src="([^"]+\.js)(?:\?[^"]*)?"/g)].map(x=>x[1]);
 assert(scripts.includes('comments-engine-v2.js'),'The live HTML must load the comment renderer.');
+assert(scripts.indexOf('post-milan-beier-san-siro-oct-2028.js')>=0 && scripts.indexOf('post-milan-beier-san-siro-oct-2028.js')<scripts.indexOf('app.js'),'Milan stories must load before app snapshot.');
+assert(scripts.indexOf('state-milan-san-siro-2028.js')>=0 && scripts.indexOf('state-milan-san-siro-2028.js')<scripts.indexOf('app.js'),'Milan stats must load before app snapshot.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -50,6 +52,9 @@ const expected=[
  ['psg-final-report-may-2028',8,3],
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
+ ['milan-san-siro-beier-91-match-report-oct-2028',33,45],
+ ['mctominay-two-assists-milan-big-game-oct-2028',22,22],
+ ['milan-maignan-napoli-mentalita-opinion-oct-2028',20,21],
  ['leverkusen-92-sep-2028',32,37],
  ['leverkusen-beier-pio-analysis-sep-2028',20,24],
  ['leverkusen-defence-opinion-sep-2028',25,26],
