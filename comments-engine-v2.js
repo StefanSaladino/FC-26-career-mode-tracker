@@ -29,8 +29,53 @@ const C={
 ['CurvaB','Questa rosa è fortissima. Ma la vera prova sarà gestire tutti senza perdere equilibrio.',['TacticalNonno','Depth only helps when the structure still works.']]]
 ]
 };
-const norm=x=>Array.isArray(x)?{u:x[0],t:x[1],lang:/[àèéìòù]/i.test(x[1])?'it':'en',replies:(x[2]||[]).map(y=>({u:y[0],t:y[1],lang:/[àèéìòù]/i.test(y[1])?'it':'en'}))}:null;
-const curated=a=>{const seed=(window.NAPOLI_SEEDED_COMMENTS||{})[a.id];const entries=C[a.id]||(window.NAPOLI_CURATED_ARCHIVE||{})[a.id]||[];return entries.map(norm).filter(x=>x&&x.t)};
+// The old random/context engines remain DISABLED. Restore only comments already
+// explicitly written for this exact article: recent curated maps, archived
+// curated maps, inline article comments, and archived legacy bespoke seeds.
+const language=s=>/[àèéìòùÀÈÉÌÒÙ]/.test(String(s||''))||/\b(?:siamo|questa|questo|perché|dobbiamo|ragazzi|partita|campionato|allora|bella|napoletani|andiamo|basta|grazie|forza)\b/i.test(String(s||''))?'it':'en';
+const pair=x=>Array.isArray(x)&&x.length>=2&&typeof x[0]==='string'&&typeof x[1]==='string';
+const textKey=s=>String(s||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase();
+function parseReply(item){
+ const r=pair(item)?{u:item[0],t:item[1],lang:item[3]||language(item[1])}:item&&typeof item==='object'&&!Array.isArray(item)?{u:item.user||item.handle||item.u,t:item.text||item.body||item.t,lang:item.lang||language(item.text||item.t)}:null;
+ if(!r||typeof r.u!=='string'||typeof r.t!=='string'||!r.t.trim())return null;
+ return r;
+}
+function parseComment(item){
+ let raw;
+ if(pair(item)){
+  let visitor='';
+  const replies=[];
+  for(const field of item.slice(2)){
+   if(typeof field==='string'){visitor=field;continue}
+   if(pair(field)){replies.push(field);continue}
+   if(Array.isArray(field))replies.push(...field.filter(x=>pair(x)||(x&&typeof x==='object'&&!Array.isArray(x))));
+  }
+  raw={u:item[0],t:item[1],lang:item[3]&&['it','en','nap'].includes(item[3])?item[3]:language(item[1]),visitor,replies};
+ }else if(item&&typeof item==='object'&&!Array.isArray(item)){
+  raw={u:item.user||item.handle||item.author||item.u,t:item.text||item.body||item.t,lang:item.lang||language(item.text||item.t),visitor:item.visitorClub||item.visitor||'',replies:item.replies||[]};
+ }
+ if(!raw||typeof raw.u!=='string'||typeof raw.t!=='string'||!raw.t.trim())return null;
+ return {u:raw.u,t:raw.t,lang:raw.lang,visitor:raw.visitor,replies:(Array.isArray(raw.replies)?raw.replies:[]).map(parseReply).filter(Boolean)};
+}
+function curated(a){
+ const id=String(a.id||'');
+ const entries=[
+  ...(C[id]||(window.NAPOLI_CURATED_ARCHIVE||{})[id]||[]),
+  ...(Array.isArray(a.comments)?a.comments:[]),
+  ...(Array.isArray(a.seededComments)?a.seededComments:[]),
+  ...((window.NAPOLI_LEGACY_AUTHORED_COMMENTS||{})[id]||[])
+ ];
+ const result=[], lookup=new Map();
+ for(const source of entries){
+  const item=parseComment(source);if(!item)continue;
+  const key=textKey(item.u)+'|'+textKey(item.t);
+  const existing=lookup.get(key);
+  if(!existing){result.push(item);lookup.set(key,item);continue}
+  const replySeen=new Set(existing.replies.map(r=>textKey(r.u)+'|'+textKey(r.t)));
+  for(const r of item.replies){const rk=textKey(r.u)+'|'+textKey(r.t);if(!replySeen.has(rk)){existing.replies.push(r);replySeen.add(rk)}}
+ }
+ return result;
+}
 const reply=(r)=>'<article class="fan-comment fan-reply"><div class="comment-avatar fan-avatar">'+safe(r.u).slice(0,1).toUpperCase()+'</div><div class="comment-body"><div class="comment-user fan-comment-meta"><strong>@'+safe(r.u)+'</strong></div><p lang="'+safe(r.lang)+'">'+safe(r.t)+'</p></div></article>';
 function render(a){const rows=curated(a),total=rows.reduce((n,x)=>n+x.replies.length,0);return '<section class="fan-comments" data-comments-for="'+safe(a.id)+'" data-engine="custom"><div class="comments-head fan-comments-head"><div><div class="section-kicker">Supporters’ thread · curated fiction</div><h3>Comments</h3></div><span>'+rows.length+' comments'+(total?' · '+total+' replies':'')+'</span></div><div class="comments-list fan-comments-list">'+(rows.length?rows.map((x,i)=>{const id='custom-replies-'+i;return '<article class="fan-comment"><div class="comment-avatar fan-avatar">'+safe(x.u).slice(0,1).toUpperCase()+'</div><div class="comment-body"><div class="comment-user fan-comment-meta"><strong>@'+safe(x.u)+'</strong></div><p lang="'+safe(x.lang)+'">'+safe(x.t)+'</p><div class="fan-actions">'+(x.replies.length?'<button type="button" class="fan-action-button" data-reply-toggle="'+id+'">View '+x.replies.length+' replies</button>':'')+'</div>'+(x.replies.length?'<div class="comment-replies" id="'+id+'" hidden>'+x.replies.map(reply).join('')+'</div>':'')+'</div></article>'}).join(''):'<p class="comments-empty">No curated supporter reactions published for this article yet.</p>')+'</div></section>'}
 let busy=false;function sync(){if(busy)return;const r=document.getElementById('readerContent');if(!r)return;const id=String(r.dataset.articleId||'');if(!id)return;const a=D.articles.find(x=>String(x.id)===id);if(!a)return;const old=r.querySelector('.fan-comments');if(old?.dataset.engine==='custom'&&old.dataset.commentsFor===id)return;busy=true;old?.remove();r.insertAdjacentHTML('beforeend',render(a));busy=false}
