@@ -19,7 +19,7 @@ for(const name of scripts){
  assert(fs.existsSync(path.join(root,name)),'HTML references missing script: '+name);
  new vm.Script(read(name),{filename:name});
 }
-const ctx={window:{NAPOLI_DATA:{articles:[]}},console};
+const ctx={window:{NAPOLI_DATA:{articles:[],results:[],whispers:[],ticker:[],upcoming:[]}},console};
 ctx.document={write(){}};
 ctx.window.document=ctx.document;
 vm.createContext(ctx);
@@ -29,18 +29,26 @@ const legacy=ctx.window.NAPOLI_LEGACY_AUTHORED_COMMENTS||{};
 assert(Object.keys(archive).length>=60,'Reviewed article thread coverage unexpectedly shrank.');
 assert(Object.values(archive).every(rows=>Array.isArray(rows)&&rows.length),'Archived article with no comments.');
 assert(Object.values(legacy).every(rows=>Array.isArray(rows)&&rows.length),'Legacy author archive contains empty article rows.');
+// These post files carry first-class historic inline comments/replies. Include them
+// when auditing parity (archives alone are intentionally not the entire source).
+for(const name of [
+ 'post-transfer-rumours-may.js',
+ 'post-am-controversy-may.js',
+ 'post-psg-final-result-may.js',
+ 'post-torino-invincibles-may.js'
+])vm.runInContext(read(name),ctx,{filename:name,timeout:3000});
 const engine=read('comments-engine-v2.js');
 const cut=engine.indexOf('const reply=(r)=>');
 assert(cut>0,'Cannot audit comment renderer parser.');
 vm.runInContext(engine.slice(0,cut)+'window.__auditCurated=curated;})();',ctx,{timeout:3000});
-const thread=(id,inline=[])=>ctx.window.__auditCurated({id,comments:inline});
+const thread=(id,inline)=>ctx.window.__auditCurated(ctx.window.NAPOLI_DATA.articles.find(a=>a.id===id)||{id,comments:inline||[]});
 const expected=[
  ['galatasaray-comeback-sep-2028',5,5],
  ['venezia-draw-sep-2028',5,5],
  ['inter-2028-win',4,4],
- ['saladino-defends-am-pisa-may-2028',10,7],
- ['psg-final-report-may-2028',3,1],
- ['torino-invincibles-comeback-may-2028',2,0],
+ ['saladino-defends-am-pisa-may-2028',11,7],
+ ['psg-final-report-may-2028',8,3],
+ ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1]
 ];
 for(const [id,minComments,minReplies] of expected){
