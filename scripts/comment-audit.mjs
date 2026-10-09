@@ -49,7 +49,10 @@ const expected=[
  ['saladino-defends-am-pisa-may-2028',11,7],
  ['psg-final-report-may-2028',8,3],
  ['torino-invincibles-comeback-may-2028',8,4],
- ['sassuolo-response',2,1]
+ ['sassuolo-response',2,1],
+ ['como-beier-88-winner-sep-2028',22,36],
+ ['beier-mctominay-late-goal-como-analysis-sep-2028',14,17],
+ ['napoli-como-late-winner-fan-pressure-sep-2028',10,11]
 ];
 for(const [id,minComments,minReplies] of expected){
  const rows=thread(id);
