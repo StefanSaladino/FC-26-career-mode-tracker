@@ -1,5 +1,7 @@
 # Napoli FC26 — 2027–28 Season Room
 
+> **LIVE CANON · 2028–29 · LATEST CONFIRMED FULL TIME (16 SEPTEMBER 2028):** **COMO 0–1 NAPOLI (AWAY)**, 0–0 at halftime, **Maximilian Beier 88′ (Scott McTominay assist)**. The manager voided the two earlier glitched restarts: no De Coster/Perrone goals, false Beier goals or Nico Paz assists enter the official ledger. Serie A now **3W 1D 0L · 10 pts · 6 GF · 1 GA**. Beier **3 league goals/1 assist**, McTominay **2 league assists**. Next **Torino away 23 September**, then **Bayer Leverkusen UCL home 26 September**. Three live full-time articles in `post-como-beier-88-sep-2028.js`; 46 custom supporter comments + 64 nested replies in `comments-como-beier-curated.js`. All historical coverage, including Galatasaray, remains preserved. More details: `SUMMER-2028-CANON.md`. Earlier latest-result snapshots below are superseded.
+
 > **LIVE CANON · 2028–29 · CONFIRMED FULL TIME (12 SEPTEMBER 2028):** Napoli **2–1 Galatasaray** in the Champions League opener. Gabriel Sara 25′; Alessandro Bastoni **32′ unassisted**; João Neves **41′ from Michael Olise**. Neves's first Napoli goal is the winner. Meret's close-range second-half save protects the result. Napoli's UCL record: **1W 0D 0L, 3 points**; Serie A remains **2W 1D 0L, 7 points**. Next: **Como at home, 16 Sep**, then Torino away, Leverkusen home in the UCL. The homepage leads with `post-galatasaray-ft-sep-2028.js`; `SUMMER-2028-CANON.md` carries the authoritative detailed ledger. Older material below is archival unless expressly reconfirmed.
 
 
