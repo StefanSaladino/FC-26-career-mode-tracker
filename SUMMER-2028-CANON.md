@@ -2,7 +2,16 @@
 
 **As of the manager's latest update (8 October 2026 real conversation date; in-game summer 2028).** This is the authoritative current-state ledger for the 2028–29 Napoli season. The FC26 save and the manager's latest explicit confirmations supersede this file. Dates below are *in-universe* unless stated.
 
-## LIVE MATCH LEDGER · NAPOLI vs GALATASARAY · 12 SEPTEMBER 2028 (NOT FINAL)
+## OFFICIAL FULL TIME · NAPOLI 2–1 GALATASARAY · 12 SEPTEMBER 2028
+
+- **CONFIRMED FINAL:** Napoli **2–1 Galatasaray**, Champions League league-phase opener at home. Napoli **1W 0D 0L, 3 points** in this season's UCL. This supersedes the in-progress live ledger below; do not list the match as upcoming.
+- **Goals:** 25′ Gabriel Sara (Galatasaray); **32′ Alessandro Bastoni** (Napoli, **unassisted**); **41′ João Neves** (Napoli, **Michael Olise assist**). Bastoni's first of 2028–29; Neves's first Napoli goal and the winner. Olise earns one season assist.
+- **Notable:** Meret made a major close-range second-half save with Napoli leading. Pio Esposito was dangerous but did not score; Galatasaray goalkeeper made strong saves, and Pio narrowly missed a free kick. The manager praised Beier's movement/passing while deployed at CAM behind Pio and considers this shape worth another look.
+- **Personnel:** Meret started. Davies was replaced by Nico Paz at halftime. Later De Bruyne, Mikey Moore and Rafa Marín appeared; Marín replaced tiring Buongiorno. Do not invent other substitution pairings or minutes.
+- **2028–29 Serie A remains** 2W 1D 0L, 7 pts, 5 GF, 1 GA after Venezia. **Next fixture:** Como at home, **16 September 2028**. Next UCL fixture: Bayer Leverkusen home **26 September 2028**.
+- **Season Room:** Official match report `post-galatasaray-ft-sep-2028.js` plus tactical analysis and chronological, individually curated supporter threads in `comments-galatasaray-curated.js`. Historic Venezia coverage remains intact. Photo accompanying report is a labelled Bastoni file image, **not match footage**.
+
+## HISTORICAL IN-PROGRESS LEDGER · GALATASARAY (SUPERSEDED BY CONFIRMED FULL TIME)
 
 - Champions League home opener; last confirmed live state: Napoli **2–1 Galatasaray**, into second-half stoppage time. **DO NOT record a final result or UCL points until the manager confirms the whistle.**
 - **25′ Gabriel Sara (Galatasaray); 32′ Alessandro Bastoni (Napoli, unassisted); 41′ João Neves (Napoli, Michael Olise assist).** Bastoni minute was explicitly corrected to 32′; never use another minute. Bastoni's first goal this season; Neves's first for Napoli.
