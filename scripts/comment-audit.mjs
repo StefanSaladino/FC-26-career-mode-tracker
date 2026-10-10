@@ -14,6 +14,9 @@ assert(scripts.indexOf('post-milan-beier-san-siro-oct-2028.js')>=0 && scripts.in
 assert(scripts.indexOf('state-milan-san-siro-2028.js')>=0 && scripts.indexOf('state-milan-san-siro-2028.js')<scripts.indexOf('app.js'),'Milan stats must load before app snapshot.');
 assert(scripts.indexOf('post-italy-oct-friendlies-2028.js')>scripts.indexOf('post-milan-beier-san-siro-oct-2028.js'),'Italy notebook must not displace Milan hero.');
 assert(scripts.indexOf('state-italy-oct-friendlies-2028.js')<scripts.indexOf('app.js'),'Italy results must load before app snapshot.');
+assert(scripts.indexOf('post-roma-streak-ends-oct-2028.js')>scripts.indexOf('post-italy-oct-friendlies-2028.js'),'Roma stories must follow Italy friendly brief.');
+assert(scripts.indexOf('post-roma-streak-ends-oct-2028.js')<scripts.indexOf('app.js'),'Roma articles must load before rendering.');
+assert(scripts.indexOf('state-roma-loss-oct-2028.js')<scripts.indexOf('app.js'),'Roma state must load before rendering.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -55,6 +58,8 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['roma-ends-44-match-run-oct-2028',32,52],
+ ['roma-first-loss-what-now-oct-2028',18,20],
  ['milan-san-siro-beier-91-match-report-oct-2028',33,45],
  ['mctominay-two-assists-milan-big-game-oct-2028',22,22],
  ['milan-maignan-napoli-mentalita-opinion-oct-2028',20,21],
@@ -74,6 +79,18 @@ for(const [id,minComments,minReplies] of expected){
 const noSpoilers=thread('sassuolo-response');
 assert(noSpoilers.every(x=>!/winner|dragged us level|finished the job|last ten minutes/i.test(x.t)),
   'Future match spoilers leaked into the Sassuolo preview.');
+// Independent Roma state check: loss is Napoli's first in seven Serie A matches.
+const romaFixture={date:'2028-10-13',team:'Napoli',opponent:'Roma',venue:'Away',competition:'Serie A',verified:true};
+const sc={window:{NAPOLI_DATA:{results:[],results2028:[],fixtures2028:[romaFixture,{date:'2028-10-17',team:'Napoli',opponent:'Slavia Prague',venue:'Home',competition:'Champions League',verified:true}],seasonState:{ucl:{played:2,w:1,d:1,points:4,gf:5,ga:4}},statsBySeason:{'2028–29':[['Pio Esposito',4,1,'Club only']]}}}}};
+vm.createContext(sc);
+vm.runInContext(read('state-roma-loss-oct-2028.js'),sc,{filename:'state-roma-loss-oct-2028.js',timeout:3000});
+const D=sc.window.NAPOLI_DATA;
+assert(D.results.some(x=>x[1]==='Roma'&&x[3]===0&&x[4]===1&&x[5]==='L'),'Roma result missing.');
+const l=D.seasonState.league;
+assert(l.played===7&&l.w===5&&l.d===1&&l.l===1&&l.points===16&&l.gf===9&&l.ga===3,'Incorrect Roma league totals.');
+assert(D.seasonState.ucl.points===4,'Roma must not modify UCL points.');
+assert(D.statsBySeason['2028–29'][0][1]===4&&D.statsBySeason['2028–29'][0][2]===1,'Club player stats must not change for no Napoli scorer.');
+assert(romaFixture.played&&D.upcoming[0][0]==='Slavia Prague','Next Napoli match should be Slavia Prague.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
