@@ -4,6 +4,13 @@
 > This is a role-play confidentiality classification and an editorial firewall, **not GitHub access control**. The repository is publicly viewable; nothing in a public repo can be genuinely private. This file is not loaded by the Season Room site and none of its quotes or sentiments may be used to generate public articles, supporter posts, tickers, rumours, or press statements.
 > For genuinely confidential storage, move this ledger into a separate **private** repository.
 
+## November 2028: Atalanta 6–2 private touchline decision
+
+- With Napoli leading **5–1 after 55 minutes**, assistant manager privately proposed considering substitutions, including protecting the heavily involved forwards.
+- Saladino's private reply was that **Pio Esposito and Maximilian Beier still had enough in their legs to stay on** if they chose their runs intelligently. He preferred addressing midfield and defensive rotation first. This is canon **internal staff discussion**, NOT a public interview, press leak or a quotation a match reporter could have overheard.
+- **Observed outcome:** At 61 minutes, Beier assisted Pio's hat-trick goal to make it 6–1; full-time Napoli 6–2 Atalanta. The goal is public football history. The preceding staff conversation and justification remain private.
+- The existing news feature that once described Saladino overruling his assistant was rewritten as an independent account of Esposito's ruthless sixth goal involvement, with supporter reactions revised accordingly.
+
 ## 21 November 2028: PSG post-match dressing-room assessment
 
 **Setting:** staff-only tactical debrief after Napoli 0–2 PSG (Dembélé 23′; Kvaratskhelia 84′), following Arsenal 2–0 Napoli on 31 October.
