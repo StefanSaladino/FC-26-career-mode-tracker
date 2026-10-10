@@ -56,6 +56,11 @@ assert(scripts.indexOf('state-serie-a-table-after-atalanta-12p-nov-2028.js')>scr
 assert(scripts.indexOf('post-psg-final-rematch-neves-changes-sides-nov-21-2028.js')>scripts.indexOf('post-atalanta-six-two-pio-three-three-nov-2028.js'),'PSG preview hero must follow full-time Atalanta newsroom.');
 assert(scripts.indexOf('post-psg-final-rematch-neves-changes-sides-nov-21-2028.js')<scripts.indexOf('app.js'),'PSG preview must load before app render.');
 assert(scripts.indexOf('comments-psg-neves-final-rematch-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'PSG reaction archive must be loaded before comment renderer.');
+assert(scripts.indexOf('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js')>scripts.indexOf('post-psg-final-rematch-neves-changes-sides-nov-21-2028.js'),'PSG 0–2 postmatch story must follow prematch preview.');
+assert(scripts.indexOf('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js')<scripts.indexOf('app.js'),'PSG 0–2 newsroom must load before app snapshots.');
+assert(scripts.indexOf('state-psg-nov21-zero-two-monza-peacock-2028.js')>scripts.indexOf('state-serie-a-table-after-atalanta-12p-nov-2028.js'),'New PSG 0–2 result state must follow photographed Serie A table.');
+assert(scripts.indexOf('state-psg-nov21-zero-two-monza-peacock-2028.js')<scripts.indexOf('app.js'),'PSG FT result must load before app render.');
+assert(scripts.indexOf('comments-psg-ft-meret-peacock-monza-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'New Meret/PSG/Monza supporter reactions must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -97,6 +102,9 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['psg-two-nil-kvaratskhelia-again-nov-21-2028',20,20],
+ ['meret-pressure-peacock-audition-after-psg-nov-2028',16,16],
+ ['monza-away-title-race-peacock-decision-nov-26-2028',12,12],
  ['psg-final-rematch-neves-switches-sides-nov-21-2028',25,25],
  ['pio-six-involvements-napoli-six-two-atalanta-2028',18,19],
  ['beier-pio-partnership-four-combinations-atalanta-2028',16,16],
@@ -459,6 +467,40 @@ assert(previewText.includes('league phase, not another final'),'Upcoming PSG lea
 assert(IN.nextClubMatch.opponent==='Paris Saint-Germain'&&IN.nextClubMatch.played===false&&IN.nextClubMatch.date==='2028-11-21','PSG HOME on Nov 21 remains UNPLAYED.');
 assert(IN.seasonState.ucl.played===4&&IN.seasonState.ucl.points===7,'PSG preview must NOT fabricate new European result.');
 assert(IN.seasonState.league.played===12&&IN.seasonState.league.points===31&&IN.latestResult[1]==='6–2','Fixture preview must not erase Atalanta FT or Serie A record.');
+// Manager-confirmed Napoli 0–2 PSG 21 November 2028 FT, GK concern and Monza next.
+vm.runInContext(read('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js'),italyNext,{filename:'post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js',timeout:3000});
+assert(IN.articles.length===10,'Three PSG/Monza full-time stories should lead, retaining pregame story and Atalanta archive.');
+assert(IN.articles[0].id==='psg-two-nil-kvaratskhelia-again-nov-21-2028'&&IN.hero.articleId===IN.articles[0].id,'Full-time 0–2 PSG story must replace preview as hero.');
+assert(IN.articles.slice(0,3).every(x=>x.image&&x.imageLocked&&x.body.length>=10),'Post-PSG story package must include long-form, existing Napoli-colours player artwork.');
+assert(IN.articles.find(x=>x.id==='meret-pressure-peacock-audition-after-psg-nov-2028').body.join(' ').includes('NOT confirmation'),'Peacock recommendation must not be reported as confirmed XI.');
+assert(IN.articles.find(x=>x.id==='monza-away-title-race-peacock-decision-nov-26-2028').body.join(' ').includes('Roma have 30'),'Monza story must mention Roma one point behind.');
+const mayPsg=['Napoli','Paris Saint-Germain','Champions League',2,3,'L','27 May 2028 · Final, after extra time','Pio 17 pen/90; Neves PSG 38; Kvara 54/110'];
+IN.results.push(mayPsg);
+vm.runInContext(read('state-psg-nov21-zero-two-monza-peacock-2028.js'),italyNext,{filename:'state-psg-nov21-zero-two-monza-peacock-2028.js',timeout:3000});
+assert(IN.psgNovember2028.played===true&&IN.psgNovember2028.date==='2028-11-21'&&IN.psgNovember2028.venue==='Home','Nov PSG home FT must be on 21 November 2028.');
+assert(IN.psgNovember2028.goals.length===2,'Only two PSG goals confirmed.');
+assert(IN.psgNovember2028.goals[0].minute===23&&IN.psgNovember2028.goals[0].scorer==='Ousmane Dembélé','PSG Dembélé 23rd minute opener missing.');
+assert(IN.psgNovember2028.goals[1].minute===84&&IN.psgNovember2028.goals[1].scorer==='Khvicha Kvaratskhelia','Kvaratskhelia 84th minute second PSG goal missing.');
+assert(IN.psgNovember2028.halftime==='Napoli 0–1 Paris Saint-Germain','Confirmed PSG halftime 0–1 is not reflected.');
+assert(IN.psgNovember2028.goals.every(x=>x.assist===null&&x.assistStatus==='not supplied'),'PSG assists are unknown; never fabricate scorer-assist pairings.');
+assert(IN.psgNovember2028.startingXIConfirmed===false&&IN.psgNovember2028.substitutionsConfirmed===false&&IN.psgNovember2028.meretResponsibleForIndividualGoalsConfirmed===false,'Starting XI, substitutions, and keeper blame have NOT been confirmed.');
+assert(IN.results.some(r=>r[1]==='Paris Saint-Germain'&&r[3]===2&&r[4]===3&&String(r[6]).includes('27 May 2028')),'Historical PSG 3–2 Champions League final MUST be preserved.');
+assert(IN.results.some(r=>r[1]==='Paris Saint-Germain'&&r[3]===0&&r[4]===2&&String(r[6]).includes('21 Nov 2028')),'Nov PSG 0–2 UCL league phase must appear separately from historical final.');
+assert(IN.results2028.some(r=>r[1]==='Paris Saint-Germain'&&r[3]===0&&r[4]===2),'Season 2028–29 results archive missing Napoli 0–2 PSG.');
+assert(IN.latestResult[0]==='NAP'&&IN.latestResult[1]==='0–2'&&IN.latestResult[2]==='PSG','Latest full-time match widget must be Napoli 0–2 PSG.');
+assert(IN.seasonState.ucl.played===5&&IN.seasonState.ucl.w===2&&IN.seasonState.ucl.d===1&&IN.seasonState.ucl.l===2&&IN.seasonState.ucl.points===7,'European record after five matches is 2W 1D 2L seven points.');
+assert(IN.seasonState.ucl.gf===8&&IN.seasonState.ucl.ga===10&&IN.seasonState.ucl.gd===-2,'UCL GF/GA and goal difference wrong after PSG.');
+assert(IN.goalkeeperReview2028.managerAssessment.includes('other teams are getting'),'Actual manager concern about lack of key saves must be recorded.');
+assert(IN.goalkeeperReview2028.peacockSelectedConfirmed===false&&IN.goalkeeperReview2028.meretDroppedConfirmed===false,'Peacock at Monza is only a proposed start, not yet confirmed by manager.');
+assert(IN.goalkeeperReview2028.proposedNextStart.opponent==='Monza'&&IN.goalkeeperReview2028.proposedNextStart.date==='2028-11-26','Peacock trial proposal applies to Monza away Nov26.');
+assert(IN.nextClubMatch.opponent==='Monza'&&IN.nextClubMatch.venue==='Away'&&IN.nextClubMatch.date==='2028-11-26'&&IN.nextClubMatch.played===false,'After PSG, Monza away Nov26 must be NEXT and UNPLAYED.');
+assert(IN.verifiedUpcoming2028.length===8&&IN.verifiedUpcoming2028[0].opponent==='Monza'&&IN.verifiedUpcoming2028.every(f=>f.date!=='2028-11-21'),'No PSG match in upcoming fixtures after full time.');
+assert(IN.fixtures2028.find(f=>f.date==='2028-11-21'&&f.opponent==='Paris Saint-Germain').played===true,'Original PSG fixture must be flagged played, never listed as upcoming.');
+assert(IN.upcoming.length===8&&IN.upcoming[0][0]==='Monza'&&IN.upcoming[1][0]==='Udinese','Monza then Udinese must lead schedule after PSG.');
+assert(IN.seasonState.league.played===12&&IN.seasonState.league.points===31,'UCL PSG defeat does NOT alter domestic league points.');
+assert(IN.serieAStandings.rows[0][8]===31&&IN.serieAStandings.rows[1][8]===30,'Roma remains one behind Napoli after a EUROPEAN match.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===10&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===8,'0–2 PSG must not add Napoli player stats.');
+assert(IN.italy2028FriendlySummary.pioGoals===5,'0–2 PSG must not change Italy national-team records.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
