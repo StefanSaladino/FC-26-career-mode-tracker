@@ -50,6 +50,8 @@ assert(scripts.indexOf('post-atalanta-six-two-pio-three-three-nov-2028.js')>scri
 assert(scripts.indexOf('post-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('app.js'),'Atalanta FT lead articles must load before app render.');
 assert(scripts.indexOf('state-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('app.js'),'Atalanta six-two result and stats must load before app render.');
 assert(scripts.indexOf('comments-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Atalanta comments must load before renderer.');
+assert(scripts.indexOf('state-fixtures-psg-monza-december-2028.js')>scripts.indexOf('state-atalanta-six-two-pio-three-three-nov-2028.js'),'New fixture schedule must load AFTER Atalanta FT.');
+assert(scripts.indexOf('state-fixtures-psg-monza-december-2028.js')<scripts.indexOf('app.js'),'New fixture schedule must load BEFORE app snapshots.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -408,6 +410,28 @@ assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='João Neves')[1]===1&&IN.st
 assert(IN.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Past club season must stay unchanged.');
 assert(IN.italy2028FriendlySummary.pioGoals===5&&IN.italy2028FriendlySummary.pioAssists===2,'Pio national-team record must not change following Atalanta.');
 assert(IN.nextClubMatch.played===true&&IN.upcoming[0][0]==='Next opponent TBC','Atalanta must be completed, and next fixture opponent unconfirmed.');
+// Verified manager PSG/Monza dates + December 2028 in-game screenshot fixture audit. No scores or kickoff times invented.
+vm.runInContext(read('state-fixtures-psg-monza-december-2028.js'),italyNext,{filename:'state-fixtures-psg-monza-december-2028.js',timeout:3000});
+assert(IN.verifiedUpcoming2028.length===9,'Upcoming FC26 December fixtures must total NINE including PSG and Monza.');
+const expectedDates=['2028-11-21','2028-11-26','2028-12-02','2028-12-05','2028-12-09','2028-12-13','2028-12-17','2028-12-24','2028-12-29'];
+assert(JSON.stringify(Array.from(IN.verifiedUpcoming2028,x=>x.date))===JSON.stringify(expectedDates),'PSG Monza and December 2028 fixture dates inaccurate.');
+const namesFixture=['Paris Saint-Germain','Monza','Udinese','Borussia Dortmund','Lazio','Como','Palermo','Bologna','AC Milan'];
+assert(JSON.stringify(Array.from(IN.verifiedUpcoming2028,x=>x.opponent))===JSON.stringify(namesFixture),'PSG/Monza/December opponents incorrectly transcribed.');
+assert(IN.verifiedUpcoming2028[0].venue==='Home'&&IN.verifiedUpcoming2028[0].competition==='Champions League','PSG is HOME 21 November in UCL.');
+assert(IN.verifiedUpcoming2028[1].venue==='Away'&&IN.verifiedUpcoming2028[1].competition==='Serie A','Monza is AWAY 26 November in league.');
+assert(IN.verifiedUpcoming2028[3].venue==='Away'&&IN.verifiedUpcoming2028[3].competition==='Champions League','Dortmund away UCL 5 December.');
+assert(IN.verifiedUpcoming2028[5].venue==='Home'&&IN.verifiedUpcoming2028[5].competition==='Domestic Cup','Como home CUP 13 December. Round unconfirmed.');
+assert(IN.verifiedUpcoming2028[8].venue==='Home'&&IN.verifiedUpcoming2028[8].competition==='Supercoppa'&&IN.verifiedUpcoming2028[8].gameAlias==='Milano FC','29 December game-calendar Home SUPERCUP vs Milano FC (AC Milan).');
+assert(IN.verifiedUpcoming2028.every(x=>x.played===false&&x.verified===true),'Upcoming events must remain UNPLAYED and manager/screenshot verified.');
+assert(IN.verifiedUpcoming2028.every(x=>!('result' in x)),'Do NOT invent scores for future fixtures.');
+assert(IN.scheduleSnapshot.kickoffTimesVerified===false&&IN.scheduleSnapshot.domesticCupRoundVerified===false,'Kickoff times and domestic cup round are not supplied.');
+assert(IN.nextClubMatch.opponent==='Paris Saint-Germain'&&IN.nextClubMatch.date==='2028-11-21'&&IN.nextClubMatch.confirmedNext===true,'PSG HOME is the next fixture after Atalanta FT.');
+assert(IN.upcoming.length===9&&IN.upcoming[0][0]==='PSG'&&IN.upcoming[1][0]==='Monza','Live next-two fixture module must show PSG and Monza.');
+assert(IN.seasonState.league.points===31&&IN.seasonState.league.played===12&&IN.atalantaMatch.played===true,'Adding upcoming calendar must NOT change completed Napoli league record.');
+assert(IN.latestResult[0]==='NAP'&&IN.latestResult[1]==='6–2'&&IN.latestResult[2]==='ATA','Latest Napoli FT widget must remain Napoli 6–2 Atalanta.');
+assert(IN.hero.articleId==='pio-six-involvements-napoli-six-two-atalanta-2028','Fixture-only update must NOT replace the Atalanta 6–2 front-page hero.');
+assert(IN.seasonState.ucl.played===4&&IN.seasonState.ucl.points===7,'Upcoming PSG/Dortmund fixtures must not change prior European stats.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===10,'Calendar must not alter Pio stats.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
