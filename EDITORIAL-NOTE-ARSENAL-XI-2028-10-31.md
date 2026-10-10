@@ -1,5 +1,10 @@
 # Arsenal away — prematch selection controversy (31 October 2028)
 
+## Postmatch correction, 31 October 2028
+
+Arsenal 2–0 Napoli FT. Arsenal goals: Merino and Martinelli; minutes and order unknown. At 4′ Pio shot wide; at 11′ Raya saved from Pio. Halftime 0–0 and Arsenal no shots on target first half. Paz and Calafiori DID BOTH COME ON early second half and BOTH WERE ON the pitch for Arsenal's second goal. Exact substitution times, players replaced and individual defensive responsibilities unknown. Debate their benching without saying they were unused or at fault. UCL now 2W 1D 1L, 7 points, 8 GF 8 GA. Preserve 2027–28 Arsenal 1–1 archived match.
+
+
 **STATUS: Manager-approved starting XI and substitution INTENT only. Arsenal game NOT YET PLAYED. Do not write that any substitution occurred until the manager actually confirms it. This is a forward-looking newsroom storyline note, not a published result or match report.**
 
 ## The selection
