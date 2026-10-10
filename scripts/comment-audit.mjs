@@ -29,6 +29,11 @@ assert(scripts.indexOf('post-juventus-pio-brace-top-oct-2028.js')>scripts.indexO
 assert(scripts.indexOf('post-juventus-pio-brace-top-oct-2028.js')<scripts.indexOf('app.js'),'Juve FT article loading order wrong.');
 assert(scripts.indexOf('state-juventus-pio-25-oct-2028.js')<scripts.indexOf('app.js'),'Juventus FT and screenshot state must load before rendering.');
 assert(scripts.indexOf('comments-juventus-pio-top-oct-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Juventus comments must precede the comment renderer.');
+assert(scripts.indexOf('post-sampdoria-arsenal-rematch-oct-2028.js')>scripts.indexOf('post-juventus-pio-brace-top-oct-2028.js'),'Arsenal/Sampdoria newsroom must follow Juventus FT.');
+assert(scripts.indexOf('post-sampdoria-arsenal-rematch-oct-2028.js')<scripts.indexOf('app.js'),'Arsenal preview stories must load before render.');
+assert(scripts.indexOf('state-sampdoria-arsenal-28-oct-2028.js')<scripts.indexOf('app.js'),'Sampdoria match state must load before render.');
+assert(scripts.indexOf('comments-sampdoria-arsenal-rematch-oct-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Arsenal preview comments must load before renderer.');
+assert(scripts.includes('post-arsenal.js'),'Historic Arsenal draw archive must remain available.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -70,6 +75,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['arsenal-rematch-pio-91-history-oct-2028',19,25],
+ ['sampdoria-3-0-rotation-beier-pio-oct-2028',19,24],
+ ['pio-beier-swap-roles-sampdoria-oct-2028',18,19],
+ ['rotation-gamble-paid-arsenal-ahead-oct-2028',18,18],
  ['pio-turin-brace-napoli-top-oct-2028',20,28],
  ['juventus-napoli-pio-double-di-gregorio-oct-2028',18,21],
  ['roma-unbeaten-napoli-title-fight-oct-2028',18,19],
@@ -197,6 +206,38 @@ assert(JT.every((r,i)=>r[2]+r[3]+r[4]===r[1]&&r[5]-r[6]===r[7]&&r[2]*3+r[3]===r[
 vm.runInContext(read('post-juventus-pio-brace-top-oct-2028.js'),postContext,{filename:'post-juventus-pio-brace-top-oct-2028.js',timeout:3000});
 assert(JD.hero.articleId==='pio-turin-brace-napoli-top-oct-2028'&&JD.articles.length===4,'Juventus lead story not leading.');
 assert(JD.articles.every(a=>a.body.length>=6&&a.headline&&a.image),'Juve article content or image missing.');
+// Sampdoria FULL TIME + arsenal historic meeting with upcoming fixture kept unplayed.
+const sampFixture={date:'2028-10-28',team:'Napoli',opponent:'Sampdoria',venue:'Home',competition:'Serie A',verified:true};
+const arsenalUpcomingFixture={date:'2028-10-31',team:'Napoli',opponent:'Arsenal',venue:'Away',competition:'Champions League',verified:true};
+const sampCtx={window:{NAPOLI_DATA:{
+ results:[],results2028:[],fixtures2028:[sampFixture,arsenalUpcomingFixture],
+ seasonState:{league:{played:9,w:7,d:1,l:1,points:22,gf:13,ga:3},ucl:{played:3,w:2,d:1,l:0,points:7,gf:8,ga:6}},
+ serieAStandings:{updated:'25 Oct 2028',rows:[['Napoli',9,7,1,1,13,3,10,22],['Roma',9,6,3,0,22,7,15,21],['Atalanta',9,6,2,1,21,10,11,20]]},
+ statsBySeason:{'2027–28':[['Pio Esposito',29,12,'Archive'],['Maximilian Beier',25,11,'Archive']],'2028–29':[['Pio Esposito',6,4,'Current'],['Maximilian Beier',9,2,'Current'],['Nico Paz',1,2,'Current'],['Kevin De Bruyne',1,1,'Current']]},
+ articles:[]
+}}};
+vm.createContext(sampCtx);
+vm.runInContext(read('state-sampdoria-arsenal-28-oct-2028.js'),sampCtx,{filename:'state-sampdoria-arsenal-28-oct-2028.js',timeout:3000});
+const SM=sampCtx.window.NAPOLI_DATA;
+assert(SM.results.length===1&&SM.results[0][1]==='Sampdoria'&&SM.results[0][3]===3&&SM.results[0][4]===0,'Sampdoria score wrong.');
+assert(SM.results[0][7].includes('Beier entered at halftime')&&SM.results[0][7].includes('Pio Esposito 70′'),'Missing confirmed Sampdoria events.');
+assert(SM.seasonState.league.played===10&&SM.seasonState.league.w===8&&SM.seasonState.league.d===1&&SM.seasonState.league.l===1&&SM.seasonState.league.points===25&&SM.seasonState.league.gf===16&&SM.seasonState.league.ga===3,'Sampdoria Serie A totals incorrect.');
+assert(SM.seasonState.ucl.points===7&&SM.seasonState.ucl.gf===8&&SM.seasonState.ucl.ga===6,'Sampdoria must not change UCL record.');
+assert(SM.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===7&&SM.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===5,'Pio Samp goal/assist not counted.');
+assert(SM.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[1]===10&&SM.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[2]===3,'Beier Samp goal/assist not counted.');
+assert(SM.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[2]===3,'Paz Samp assist not counted.');
+assert(SM.statsBySeason['2028–29'].find(r=>r[0]==='Kevin De Bruyne')[1]===2,'De Bruyne Samp goal not counted.');
+assert(SM.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Historical 2027–28 Napoli goals must remain unchanged.');
+assert(sampFixture.played&&SM.upcoming[0][0]==='Arsenal'&&!arsenalUpcomingFixture.played,'Arsenal must be next and NOT completed.');
+assert(SM.latestResult[0]==='NAP'&&SM.latestResult[1]==='3–0'&&SM.latestResult[2]==='SAM','Result widget should show Sampdoria.');
+assert(SM.arsenalRematch.previous.result==='Napoli 1–1 Arsenal'&&SM.arsenalRematch.previous.napoliScorer.includes('90+1')&&SM.arsenalRematch.previous.napoliAssist==='Maximilian Beier','Arsenal 2027–28 history missing or altered.');
+assert(SM.serieAStandings.rows[0][8]===25&&SM.serieAStandings.rows[1][8]===21&&SM.serieAStandings.rows[2][8]===20,'Should update only Napoli, keep rival points as latest known.');
+assert(SM.titleRaceSnapshot2028.confirmed===false,'New post-Sampdoria rival standings have not been provided.');
+vm.runInContext(read('post-sampdoria-arsenal-rematch-oct-2028.js'),sampCtx,{filename:'post-sampdoria-arsenal-rematch-oct-2028.js',timeout:3000});
+assert(SM.hero.articleId==='arsenal-rematch-pio-91-history-oct-2028','Arsenal rematch should lead home.');
+assert(SM.articles.length===4&&SM.articles.every(a=>a.body.length>=6&&a.image&&a.headline),'Arsenal/Sampdoria long-form stories incomplete.');
+assert(SM.articles.find(a=>a.id==='arsenal-rematch-pio-91-history-oct-2028').body.join(' ').includes('90+1'),'Arsenal 90+1 historical moment missing from preview.');
+assert(!SM.results.some(r=>r[1]==='Arsenal'),'NO current-season Arsenal result should be published.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
