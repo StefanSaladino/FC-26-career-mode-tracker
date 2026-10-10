@@ -46,6 +46,10 @@ assert(scripts.indexOf('post-italy-senegal-turkey-atalanta-preview-2028.js')>scr
 assert(scripts.indexOf('post-italy-senegal-turkey-atalanta-preview-2028.js')<scripts.indexOf('app.js'),'Atalanta preview must load before initial rendering.');
 assert(scripts.indexOf('state-italy-senegal-turkey-atalanta-next-2028.js')<scripts.indexOf('app.js'),'New international results and next fixture must load before rendering.');
 assert(scripts.indexOf('comments-italy-senegal-turkey-atalanta-preview-2028.js')<scripts.indexOf('comments-engine-v2.js'),'New supporter comments must load before renderer.');
+assert(scripts.indexOf('post-atalanta-six-two-pio-three-three-nov-2028.js')>scripts.indexOf('post-italy-senegal-turkey-atalanta-preview-2028.js'),'New Atalanta FT stories should supersede pre-game preview.');
+assert(scripts.indexOf('post-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('app.js'),'Atalanta FT lead articles must load before app render.');
+assert(scripts.indexOf('state-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('app.js'),'Atalanta six-two result and stats must load before app render.');
+assert(scripts.indexOf('comments-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Atalanta comments must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -87,6 +91,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['pio-six-involvements-napoli-six-two-atalanta-2028',18,19],
+ ['beier-pio-partnership-four-combinations-atalanta-2028',16,16],
+ ['saladino-overrules-bench-pio-hat-trick-atalanta-2028',16,16],
+ ['napoli-31-points-atalanta-pasalic-brace-2028',16,16],
  ['atalanta-next-title-test-after-italy-friendlies-2028',16,16],
  ['pio-kean-senegal-turkey-friendlies-2028',12,12],
  ['mctominay-67-jankowski-genoa-win-nov-2028',18,20],
@@ -351,6 +359,55 @@ vm.runInContext(read('post-italy-senegal-turkey-atalanta-preview-2028.js'),italy
 assert(IN.hero.articleId==='atalanta-next-title-test-after-italy-friendlies-2028'&&IN.articles.length===2,'Atalanta should be lead and Italy friendly recap secondary.');
 assert(IN.articles.find(x=>x.id==='pio-kean-senegal-turkey-friendlies-2028').body.join(' ').includes('NO ASSIST credited'),'Italy short report must preserve unassisted rebound correction.');
 assert(IN.articles.find(x=>x.id==='atalanta-next-title-test-after-italy-friendlies-2028').body.length>=6,'Atalanta should have substantial preview coverage.');
+// Atalanta 6–2 FT · all eight minute/scorer records, six credited Napoli assists, and updated season totals.
+const preAtalanta=JSON.stringify({
+  played:IN.seasonState.league.played,points:IN.seasonState.league.points,
+  pio:IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito').slice(1,3)
+});
+assert(preAtalanta.includes('"played":11')&&preAtalanta.includes('"points":28'),'Atalanta state test must begin AFTER Genoa and Italy friendlies.');
+IN.statsBySeason['2028–29'].push(['Nico Paz',1,3,'prior Genoa-confirmed'],['João Neves',1,0,'first Napoli goal vs Galatasaray']);
+IN.serieAStandings={updated:'25 Oct snapshot plus Napoli Genoa',rows:[
+ ['Napoli',11,9,1,1,17,3,14,28],
+ ['Roma',9,6,3,0,22,7,15,21],
+ ['Atalanta',9,6,2,1,21,10,11,20]]};
+IN.titleRaceSnapshot2028={confirmed:false};
+vm.runInContext(read('post-atalanta-six-two-pio-three-three-nov-2028.js'),italyNext,{filename:'post-atalanta-six-two-pio-three-three-nov-2028.js',timeout:3000});
+assert(IN.hero.articleId==='pio-six-involvements-napoli-six-two-atalanta-2028'&&IN.articles.length===6,'Atalanta FT must lead above old previews and remain in history.');
+assert(IN.articles.slice(0,4).every(x=>x.image&&x.imageLocked&&x.body.length>=8),'Every Atalanta story needs an archival image and substantial journalism.');
+vm.runInContext(read('state-atalanta-six-two-pio-three-three-nov-2028.js'),italyNext,{filename:'state-atalanta-six-two-pio-three-three-nov-2028.js',timeout:3000});
+assert(IN.atalantaMatch.played===true&&IN.atalantaMatch.result==='Napoli 6–2 Atalanta','Atalanta FT score and completed state incorrect.');
+assert(IN.atalantaMatch.goals.length===8,'Exactly eight goals must be recorded, with no invented extra strikes.');
+assert(JSON.stringify([...IN.atalantaMatch.goals.map(x=>x.minute)])===JSON.stringify([18,27,33,36,44,55,61,89]),'Goal event minute ordering must match manager narration.');
+assert(IN.atalantaMatch.halftime==='4–1','Halftime score Atalanta must be 4–1.');
+assert(IN.atalantaMatch.goals[0].scorer==='Pio Esposito'&&IN.atalantaMatch.goals[0].assist==='João Neves','18th minute Esposito top-corner goal from Neves missing.');
+assert(IN.atalantaMatch.goals[1].scorer==='Nico Paz'&&IN.atalantaMatch.goals[1].assist==='Pio Esposito','27th minute Pio to Paz combination missing.');
+assert(IN.atalantaMatch.goals[2].scorer==='Mario Pašalić'&&IN.atalantaMatch.goals[6].scorer==='Pio Esposito'&&IN.atalantaMatch.goals[7].scorer==='Mario Pašalić','Pašalić goals at 33/89 and Pio hat trick at 61 must be accurate.');
+const napoliEvents=IN.atalantaMatch.goals.filter(x=>x.team==='Napoli');
+assert(napoliEvents.length===6&&napoliEvents.every(x=>x.assist),'All six Napoli goals have grounded official assists.');
+const pioScored=napoliEvents.filter(x=>x.scorer==='Pio Esposito');
+const pioAssisted=napoliEvents.filter(x=>x.assist==='Pio Esposito');
+const beierScored=napoliEvents.filter(x=>x.scorer==='Maximilian Beier');
+const beierAssisted=napoliEvents.filter(x=>x.assist==='Maximilian Beier');
+assert(pioScored.length===3&&pioAssisted.length===3&&beierScored.length===2&&beierAssisted.length===2,'Pio must have 3G 3A and Beier 2G 2A in Atalanta game.');
+assert(napoliEvents.every(x=>x.scorer==='Pio Esposito'||x.assist==='Pio Esposito'),'Pio involved in ALL six Napoli goals.');
+assert(IN.atalantaMatch.exactDate===null&&IN.atalantaMatch.venue===null,'Do NOT fabricate match date or location.');
+assert(IN.atalantaMatch.substitutionsConfirmed===false&&IN.atalantaMatch.confirmedSubstitutions.length===0,'Substitutions NOT confirmed, do not invent completion.');
+assert(IN.results.find(r=>r[1]==='Atalanta')[3]===6&&IN.results.find(r=>r[1]==='Atalanta')[4]===2,'Atalanta game must appear with 6–2 in the result archive.');
+assert(IN.results2028.find(r=>r[1]==='Atalanta')[3]===6,'Season 2028 fixture result must be appended.');
+assert(IN.latestResult[0]==='NAP'&&IN.latestResult[1]==='6–2'&&IN.latestResult[2]==='ATA','Latest match widget must be NAP 6–2 ATA.');
+assert(IN.seasonState.league.played===12&&IN.seasonState.league.w===10&&IN.seasonState.league.d===1&&IN.seasonState.league.l===1,'Napoli 12 league matches record 10W 1D 1L incorrect.');
+assert(IN.seasonState.league.points===31&&IN.seasonState.league.gf===23&&IN.seasonState.league.ga===5,'31pts,23GF,5GA missing after Atalanta.');
+assert(IN.atalantaMatch.goals.filter(x=>x.team==='Atalanta').length===2,'Atalanta conceded 2, Pašalić brace must be captured.');
+assert(IN.serieAStandings.rows[0][8]===31&&IN.serieAStandings.rows[0][7]===18,'League row points/+18 wrong.');
+assert(IN.serieAStandings.rows[1][8]===21&&IN.serieAStandings.rows[2][8]===20&&IN.titleRaceSnapshot2028.confirmed===false,'Do not fabricate rival league points.');
+assert(IN.seasonState.ucl.played===4&&IN.seasonState.ucl.points===7&&IN.seasonState.ucl.gf===8&&IN.seasonState.ucl.ga===8,'League game must not alter the Champions League.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===10&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===8,'Pio club cumulative 10G 8A incorrect.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[1]===12&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[2]===5,'Beier club cumulative 12G 5A incorrect.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[1]===2&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[2]===3,'Nico club cumulative 2G 3A incorrect.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='João Neves')[1]===1&&IN.statsBySeason['2028–29'].find(r=>r[0]==='João Neves')[2]===1,'Neves club cumulative 1G 1A incorrect.');
+assert(IN.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Past club season must stay unchanged.');
+assert(IN.italy2028FriendlySummary.pioGoals===5&&IN.italy2028FriendlySummary.pioAssists===2,'Pio national-team record must not change following Atalanta.');
+assert(IN.nextClubMatch.played===true&&IN.upcoming[0][0]==='Next opponent TBC','Atalanta must be completed, and next fixture opponent unconfirmed.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
