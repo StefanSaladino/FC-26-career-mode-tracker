@@ -37,6 +37,8 @@ D.serieAGoalAssistLeaders2028={asOf:'After Monza 0–3 Napoli on 26 Nov 2028',pl
  preciseLeagueGoals:null,preciseLeagueAssists:null,tiedScorer:null,
  managerVerified:true,note:'User expressly confirmed Pio tied for the SERIE A GOALS LEAD and leads Serie A ASSISTS. These are league-only relative ranks; do not confuse with Napoli club all-competitions 11G/10A.'};
 if(D.serieAStandings?.rows){
+ // Clone the current mixed-date table before updating Napoli; the 12-game photographed snapshot must remain immutable.
+ D.serieAStandings={...D.serieAStandings,rows:D.serieAStandings.rows.map(r=>[...r])};
  const r=D.serieAStandings.rows.find(x=>x[0]==='Napoli');
  if(r){r[1]=13;r[2]=11;r[3]=1;r[4]=1;r[5]=26;r[6]=5;r[7]=21;r[8]=34;}
  D.serieAStandings.updated='After Napoli 0–3 Monza away 26 Nov 2028 · Napoli 13 games; all other clubs still 12 games from prior manager screenshot';
@@ -45,7 +47,7 @@ if(D.serieAStandings?.rows){
 D.titleRaceSnapshot2028={...(D.titleRaceSnapshot2028||{}),
  confirmed:false,date:'26 November 2028 · Napoli after Monza; Roma and rivals still photographed after 12 matches',
  napolirank:1,napolipoints:34,romapoints:30,
- confirmedRivalCurrent:false,
+ table:D.serieAStandings?.rows||[],confirmedRivalCurrent:false,
  notes:'Napoli 34 points after 13 games. Last CONFIRMED Roma: 30pts after 12, unbeaten 9W3D; whether they have played game 13 is unknown. Do not assert a four-point current gap or record a Roma result.'};
 D.tableContext='AFTER MONZA 0–3 NAPOLI 26 NOV 2028: Napoli have 13 Serie A games, 11W1D1L, 34pts, 26GF 5GA +21, nine clean sheets. Pio tied league goals lead and leads league assists (counts/rival name unknown). Other top-five rivals from previous screenshot AFTER ATALANTA: Roma 30pts/12 unbeaten, Atalanta 24pts/12, Juventus 22pts/12, Milan 22pts/12, Lazio 20pts/12. Other clubs have not been refreshed to matchday 13; gap to Roma currently cannot be asserted. Last UCL Napoli 0–2 PSG, 5P 7pts, 8GF 10GA.';
 D.goalkeeperReview2028={...(D.goalkeeperReview2028||{}),
