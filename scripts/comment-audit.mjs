@@ -61,6 +61,11 @@ assert(scripts.indexOf('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js')<scr
 assert(scripts.indexOf('state-psg-nov21-zero-two-monza-peacock-2028.js')>scripts.indexOf('state-serie-a-table-after-atalanta-12p-nov-2028.js'),'New PSG 0–2 result state must follow photographed Serie A table.');
 assert(scripts.indexOf('state-psg-nov21-zero-two-monza-peacock-2028.js')<scripts.indexOf('app.js'),'PSG FT result must load before app render.');
 assert(scripts.indexOf('comments-psg-ft-meret-peacock-monza-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'New Meret/PSG/Monza supporter reactions must load before renderer.');
+assert(scripts.indexOf('post-monza-three-nil-peacock-team-of-week-pio-leaders-2028.js')>scripts.indexOf('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js'),'Monza FT articles must supersede PSG postmatch hero.');
+assert(scripts.indexOf('post-monza-three-nil-peacock-team-of-week-pio-leaders-2028.js')<scripts.indexOf('app.js'),'Monza stories load before first render.');
+assert(scripts.indexOf('state-monza-three-nil-peacock-totw-pio-leaders-nov26-2028.js')>scripts.indexOf('state-psg-nov21-zero-two-monza-peacock-2028.js'),'Monza FT state loads after PSG FT.');
+assert(scripts.indexOf('state-monza-three-nil-peacock-totw-pio-leaders-nov26-2028.js')<scripts.indexOf('app.js'),'Monza goal/fixture state loads before first render.');
+assert(scripts.indexOf('comments-monza-peacock-totw-pio-leaders-nov2028.js')<scripts.indexOf('comments-engine-v2.js'),'Monza Team of the Week supporter reactions must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -102,6 +107,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['peacock-monza-clean-sheet-serie-a-team-of-week-2028',18,18],
+ ['beier-pio-triple-combination-monza-three-nil-nov-2028',16,16],
+ ['pio-joint-serie-a-golden-boot-top-assist-leader-monza-2028',16,16],
+ ['napoli-34-points-udinese-dortmund-peacock-selection-debate-2028',14,14],
  ['psg-two-nil-kvaratskhelia-again-nov-21-2028',20,20],
  ['meret-pressure-peacock-audition-after-psg-nov-2028',16,16],
  ['monza-away-title-race-peacock-decision-nov-26-2028',12,12],
@@ -501,6 +510,52 @@ assert(IN.seasonState.league.played===12&&IN.seasonState.league.points===31,'UCL
 assert(IN.serieAStandings.rows[0][8]===31&&IN.serieAStandings.rows[1][8]===30,'Roma remains one behind Napoli after a EUROPEAN match.');
 assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===10&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===8,'0–2 PSG must not add Napoli player stats.');
 assert(IN.italy2028FriendlySummary.pioGoals===5,'0–2 PSG must not change Italy national-team records.');
+// Manager-confirmed Monza 0–3 Napoli 26 Nov 2028 + Peacock TOTW + Pio joint goal leader / outright assist leader.
+vm.runInContext(read('post-monza-three-nil-peacock-team-of-week-pio-leaders-2028.js'),italyNext,{filename:'post-monza-three-nil-peacock-team-of-week-pio-leaders-2028.js',timeout:3000});
+const monzaIds=[
+ 'peacock-monza-clean-sheet-serie-a-team-of-week-2028',
+ 'beier-pio-triple-combination-monza-three-nil-nov-2028',
+ 'pio-joint-serie-a-golden-boot-top-assist-leader-monza-2028',
+ 'napoli-34-points-udinese-dortmund-peacock-selection-debate-2028'
+];
+assert(IN.articles.length===14,'Monza editorial must prepend four stories and preserve previous ten in archive.');
+assert(IN.hero.articleId===monzaIds[0]&&IN.articles[0].id===monzaIds[0],'Peacock Team of Week must lead Monza newsroom after manager update.');
+assert(monzaIds.every((id,i)=>IN.articles[i].id===id&&IN.articles[i].body.length>=10),'Four Monza-related features must be longform and remain in correct order.');
+assert(monzaIds.every((id,i)=>IN.articles[i].image&&fs.existsSync(path.join(root,IN.articles[i].image))),'All Monza editorial images must exist locally; no broken paths.');
+assert(IN.articles[0].body.join(' ').includes('TEAM OF THE WEEK')&&IN.articles[0].body.join(' ').includes('breakaway'),'Peacock TOTW and Monza breakaway save are primary facts.');
+assert(IN.articles[2].body.join(' ').includes('joint first')&&IN.articles[2].body.join(' ').includes('outright first'),'Pio league scoring and assist leads must be reported without invented leader name.');
+assert(IN.articles.some(x=>x.id==='psg-two-nil-kvaratskhelia-again-nov-21-2028'),'PSG 0–2 full time article must remain in newsroom archive.');
+vm.runInContext(read('state-monza-three-nil-peacock-totw-pio-leaders-nov26-2028.js'),italyNext,{filename:'state-monza-three-nil-peacock-totw-pio-leaders-nov26-2028.js',timeout:3000});
+assert(IN.monzaNovember2028.played===true&&IN.monzaNovember2028.fullTime===true&&IN.monzaNovember2028.date==='2028-11-26','Monza 0–3 Napoli FULL TIME 26 Nov 2028.');
+const eg=[['Maximilian Beier','Pio Esposito',43],['Pio Esposito','Maximilian Beier',48],['Maximilian Beier','Pio Esposito',53]];
+assert(IN.monzaNovember2028.goals.length===3&&IN.monzaNovember2028.goals.every((x,i)=>x.scorer===eg[i][0]&&x.assist===eg[i][1]&&x.minute===eg[i][2]),'All THREE Monza goals (43,48,53) and reciprocal Pio/Beier assists must be exact.');
+assert(IN.monzaNovember2028.halftime==='Monza 0–1 Napoli','Only 43rd minute Beier goal before half-time.');
+assert(IN.monzaNovember2028.peacock.started===true&&IN.monzaNovember2028.peacock.breakawaySave===true&&IN.monzaNovember2028.peacock.cleanSheet===true&&IN.monzaNovember2028.peacock.teamOfWeek===true,'Peacock starts, makes a confirmed breakaway save, earns clean sheet and manager-confirmed TOTW.');
+assert(IN.monzaNovember2028.peacock.breakawaySaveMinute===null&&IN.monzaNovember2028.peacock.totalSaves===null&&IN.monzaNovember2028.peacock.rating===null,'Do not invent exact Peacock save minute, match rating or save total.');
+assert(IN.monzaNovember2028.fullStartingXIConfirmed===false&&IN.monzaNovember2028.outfieldSubstitutionsConfirmed===false,'Starting Peacock does not confirm the other ten player selections or substitutions.');
+assert(IN.goalkeeperReview2028.peacockSelectedConfirmed===true&&IN.goalkeeperReview2028.peacockTeamOfWeekConfirmed===true,'Previously proposed Peacock trial must now be marked completed and Team of Week.');
+assert(IN.goalkeeperReview2028.permanentChangeConfirmed===false&&IN.goalkeeperReview2028.meretDroppedConfirmed===false,'Do not invent permanent demotion of Meret.');
+assert(IN.serieAGoalAssistLeaders2028.goalsRank==='joint-first'&&IN.serieAGoalAssistLeaders2028.assistsRank==='first-alone'&&IN.serieAGoalAssistLeaders2028.managerVerified===true,'Pio joint top Serie A goals and outright league assists lead must be tracked.');
+assert(IN.serieAGoalAssistLeaders2028.preciseLeagueGoals===null&&IN.serieAGoalAssistLeaders2028.preciseLeagueAssists===null&&IN.serieAGoalAssistLeaders2028.tiedScorer===null,'Unprovided Serie A-only goals/assist counts and tied scorer name must stay UNKNOWN.');
+assert(IN.seasonState.league.played===13&&IN.seasonState.league.w===11&&IN.seasonState.league.d===1&&IN.seasonState.league.l===1&&IN.seasonState.league.points===34,'League record after Monza must be 13P 11W1D1L 34pts.');
+assert(IN.seasonState.league.gf===26&&IN.seasonState.league.ga===5&&IN.seasonState.league.gd===21&&IN.seasonState.league.cleanSheets===9,'League 26GF5GA +21 and ninth clean sheet after Monza.');
+assert(IN.latestResult[0]==='MON'&&IN.latestResult[1]==='0–3'&&IN.latestResult[2]==='NAP','Latest result widget must show Monza 0–3 Napoli.');
+assert(IN.results.find(r=>r[1]==='Monza'&&String(r[6]).includes('26 Nov 2028'))[3]===3,'Monza result must appear in career archive.');
+assert(IN.results2028.find(r=>r[1]==='Monza'&&String(r[6]).includes('26 Nov 2028'))[4]===0,'Monza result must be in 2028–29 archive.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===11&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===10,'Pio all-comps through Monza 11 goals / 10 assists.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[1]===14&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[2]===6,'Beier all-comps through Monza 14 goals / 6 assists.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[1]===2&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[2]===3,'Nico Paz totals must not change against Monza.');
+assert(IN.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Prior Napoli 2027–28 Pio season remains untouched.');
+assert(IN.italy2028FriendlySummary.pioGoals===5&&IN.italy2028FriendlySummary.pioAssists===2,'No national team statistics added for Napoli Monza game.');
+assert(IN.seasonState.ucl.played===5&&IN.seasonState.ucl.points===7&&IN.seasonState.ucl.gf===8&&IN.seasonState.ucl.ga===10,'Monza Serie A result MUST NOT change Champions League totals.');
+assert(IN.serieAStandingsSnapshot2028.rows[0][1]===12&&IN.serieAStandingsSnapshot2028.rows[0][8]===31,'Original photographed prior table should retain Napoli 31pts/12, not be mutated.');
+assert(IN.serieAStandings.rows[0][1]===13&&IN.serieAStandings.rows[0][8]===34&&IN.serieAStandings.rows[0][5]===26,'Mixed-date table should show Napoli 34pts/13.');
+assert(IN.serieAStandings.rows[1][1]===12&&IN.serieAStandings.rows[1][8]===30&&IN.titleRaceSnapshot2028.confirmedRivalCurrent===false,'ROMA results unknown after twelve; do NOT claim current four-point gap.');
+assert(IN.nextClubMatch.opponent==='Udinese'&&IN.nextClubMatch.date==='2028-12-02'&&IN.nextClubMatch.venue==='Home'&&IN.nextClubMatch.played===false,'Udinese 2 December home should be next match after Monza.');
+assert(IN.verifiedUpcoming2028.length===7&&IN.verifiedUpcoming2028[0].opponent==='Udinese'&&IN.verifiedUpcoming2028[1].opponent==='Borussia Dortmund','Seven upcoming fixtures start Udinese then Dortmund.');
+assert(IN.fixtures2028.find(f=>f.date==='2028-11-26'&&f.opponent==='Monza').played===true,'Monza should be a completed fixture, not upcoming.');
+assert(IN.upcoming.length===7&&IN.upcoming[0][0]==='Udinese'&&IN.upcoming[1][0]==='Dortmund','Schedule updated to Udinese first and Dortmund second.');
+assert(IN.psgNovember2028.played===true&&IN.latestResult[1]==='0–3','Old PSG defeat must remain played, new latest result is Monza victory.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
