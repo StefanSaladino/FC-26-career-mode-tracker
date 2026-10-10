@@ -1,6 +1,14 @@
 # Napoli FC26 — 2028–29 Season Room
 
-## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL NEXT
+## CURRENT CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI
+
+- Champions League away 31 Oct, FT Arsenal 2–0 Napoli. Merino and Martinelli scored for Arsenal; minutes, assists and order not confirmed. Pio 4′ wide, 11′ Raya save; HT 0–0 and Arsenal no first-half shots on target.
+- **Important:** Nico Paz and Riccardo Calafiori began benched but BOTH CAME ON EARLY in the SECOND HALF and BOTH WERE ON for Arsenal's SECOND goal. Sub minutes/replaced players and individual errors not confirmed. Do not publish speculation as match facts.
+- Napoli UCL now 4P 2W 1D 1L, 7pts, 8GF 8GA. Napoli Serie A remains 10P, 25pts, 16GF 3GA. Club G/A unchanged after scoreless trip. The 2027–28 Napoli 1–1 Arsenal and Pio 90+1 equalizer (Beier assist) are historical, with archived gameplay clip.
+- 4 new stories in `post-arsenal-2-0-selection-inquest-oct-2028.js`, result in `state-arsenal-2-0-31-oct-2028.js`, supporters in `comments-arsenal-2-0-controversy-oct-2028.js`.
+
+
+## PREVIOUS CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL NEXT
 
 - Napoli 3–0 Sampdoria, Serie A home, 28 Oct 2028 (confirmed FT). Heavy rotation ahead of Arsenal. Kevin De Bruyne 27′ from Nico Paz assist, unusual shot sneaking inside the post; HT 1–0. Beier came on at halftime. Beier 52′ from Pio Esposito assist. Pio Esposito 70′ from Beier assist. No other starting XI or substitution times confirmed.
 - Napoli Serie A after Sampdoria: 10P, 8W 1D 1L, 25 points, 16GF 3GA +13, SEVEN league clean sheets. No new complete standings screenshot after Sampdoria: last VERIFIED rivals were Roma 21, Atalanta 20, Juventus 17, Milan 16 and Lazio 15 following Juventus match. Do not claim an updated current gap.
