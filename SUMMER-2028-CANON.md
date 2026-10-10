@@ -1,6 +1,15 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
-## CURRENT CANON · NOVEMBER 2028 · NAPOLI 1–0 GENOA
+## CURRENT CANON · NOVEMBER 2028 · ITALY SENEGAL AND TURKEY COMPLETE · ATALANTA NEXT
+
+- **New ITALY international friendlies finished:** Italy **1–1 Senegal** (Pio Esposito goal FROM Kean assist; Gianluigi Donnarumma SAVED A PENALTY); Italy **2–1 Turkey** (Pio BOTH GOALS: first Kean assist, SECOND rebound was **UNASSISTED**, explicitly confirmed by manager). No other confirmed scorer, goal minute, exact date or venue; do not invent.
+- Latest Italy window: **1W 1D, 3GF 2GA**; Pio **3G/0A** and Kean **0G/2A**; Donnarumma one penalty save. Across FOUR confirmed 2028 Italy friendlies counting October Côte d’Ivoire and Tunisia, Pio **5G/2A**, Kean **2G/2A**. ITALY statistics only; do not add to Napoli club stats.
+- **Next Napoli match ATALANTA** (aka Bergamo Calcio), SERIE A, unplayed. User reports a big title clash after international break. Exact fixture date, venue and starting lineups UNCONFIRMED. Last verified Atalanta table is **20 points from 9 (21GF 10GA)** after Juventus on 25 October; Napoli has 28 from 11 after Genoa. Other clubs' recent results not confirmed; do NOT infer a current eight-point gap.
+- Napoli league remains **11 played, 9W 1D 1L 28pts, 17GF 3GA +14, eight league shutouts**. Last Napoli FT **Napoli 1–0 Genoa, Scott McTominay 67′ from Alphonso Davies**. Club G/A Pio 7G 5A, Beier 10G 3A, McT 1G 6A, Davies 2G 1A unchanged by friendlies. UCL still 4P 2W 1D 1L, 7pts, 8GF 8GA.
+- Two new newsroom pieces: `post-italy-senegal-turkey-atalanta-preview-2028.js` (short Italy recap + long Atalanta preview HERO), current results/next opponent in `state-italy-senegal-turkey-atalanta-next-2028.js`, fans in `comments-italy-senegal-turkey-atalanta-preview-2028.js`. No Atalanta result yet.
+
+
+## PREVIOUS CANON · NOVEMBER 2028 · NAPOLI 1–0 GENOA
 
 - Napoli 1–0 Genoa Serie A FT after Arsenal away, date and venue unconfirmed. Genoa goalkeeper Jankowski multiple saves; Beier 36′ goal DISALLOWED offside; De Bruyne stopped just before halftime; HT 0–0; Jankowski saves from Davies and others. **67′ McTominay scores from Davies assist.** One goal and no further confirmed events. EIGHTH league clean sheet.
 - Napoli Serie A now **11 played, 9W 1D 1L, 28pts, 17GF 3GA +14, eight shutouts**. Rivals have NOT been rechecked since Oct 25, Roma last 21 points from 9, Atalanta 20 from 9. Do NOT compute current 7pt gap.
