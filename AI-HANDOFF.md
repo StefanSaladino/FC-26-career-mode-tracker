@@ -1,15 +1,5 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
-## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL NEXT
-
-- Napoli 3–0 Sampdoria, Serie A home, 28 Oct 2028 (confirmed FT). Heavy rotation ahead of Arsenal. Kevin De Bruyne 27′ from Nico Paz assist, unusual shot sneaking inside the post; HT 1–0. Beier came on at halftime. Beier 52′ from Pio Esposito assist. Pio Esposito 70′ from Beier assist. No other starting XI or substitution times confirmed.
-- Napoli Serie A after Sampdoria: 10P, 8W 1D 1L, 25 points, 16GF 3GA +13, SEVEN league clean sheets. No new complete standings screenshot after Sampdoria: last VERIFIED rivals were Roma 21, Atalanta 20, Juventus 17, Milan 16 and Lazio 15 following Juventus match. Do not claim an updated current gap.
-- Current 2028–29 NAPOLI CLUB G/A only (Italy friendly stats excluded): Beier 10G 3A, Pio 7G 5A, Nico Paz 1G 3A, Kevin De Bruyne 2G 1A, McTominay 0G 6A, Davies 2G 0A, Olise 0G 2A. Beier/Pio combined 25 G+A (17 goals, eight assists, not 25 unique goals). Preserve historical prior-season values.
-- Original archived `post-arsenal.js` confirms Napoli 1–1 Arsenal in 2027–28 Champions League: Ødegaard 24′ Arsenal goal; Pio Esposito 90+1′ equalizer assisted by Beier; keeper Raya made important saves and Meret made key interventions. The equalizer ended Napoli's scoring drought. Existing video `assets/pio-arsenal-equalizer.mp4` attached to archive story `arsenal-pio-91`. This result belongs to LAST season, not the imminent Arsenal away game.
-- NEXT Arsenal vs Napoli, Champions League at Arsenal, 31 Oct 2028. NOT YET PLAYED. Current UCL Napoli 3P 2W 1D 0L, 7 points, 8GF 6GA, unchanged after Sampdoria. Do not invent a result, Arsenal starters or match events.
-- Newsroom: `post-sampdoria-arsenal-rematch-oct-2028.js` has four articles, lead headline “90+1 IN NAPLES. NOW LONDON. ARSENAL REMEMBER PIO — AND NAPOLI WANT MORE.” Other articles: Napoli 3–0 Sampdoria, partnership analysis, rotation debate. `comments-sampdoria-arsenal-rematch-oct-2028.js` contains 74 authored top-level comments and 86 replies with Napoli and Arsenal fans. Stories are fictional newsroom journalism built on manager-confirmed save facts.
-
-
 ## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL AWAY NEXT
 
 - **28 October 2028, Napoli 3–0 Sampdoria SERIE A home, manager-confirmed FULL TIME.** This match was played with **heavy rotation specifically to preserve the squad for Arsenal UCL away on 31 Oct**. **27′ Kevin De Bruyne goal**, a strange finish that sneaked JUST inside the post, **Nico Paz confirmed assist**; **halftime Napoli 1–0 Sampdoria**. **Beier entered as a substitute at HALFTIME**, then **52′ Maximilian Beier goal, Pio Esposito assist** (2–0); **70′ Pio Esposito goal, Maximilian Beier assist** (3–0). FT **3–0**, Napoli's **seventh Serie A clean sheet in ten games**. The full XI and other substitutions/minutes are **not confirmed**. Do NOT invent additional match incidents or claim particular starters' minute totals.
