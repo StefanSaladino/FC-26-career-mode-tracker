@@ -1,6 +1,14 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
-## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL AWAY NEXT
+## CURRENT CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI · EUROPEAN DEFEAT
+
+- Arsenal 2–0 Napoli FULL TIME, 2028–29 UCL away 31 October. Merino and Martinelli Arsenal scorers; exact minutes/order and assists unknown. Pio shot wide 4′, Raya denied Pio 11′. Halftime 0–0: Arsenal had no shot on target in first half.
+- Paz and Calafiori benched at kickoff, BOTH actually introduced EARLY IN SECOND HALF, BOTH on pitch for Arsenal SECOND goal. No exact substitution minutes, replaced players, individual defensive culpability or relative time of first goal confirmed. Do NOT invent details or say they were unused.
+- Napoli UCL 4P 2W 1D 1L, 7pts, 8GF 8GA. Serie A unchanged 10P, 8W 1D 1L 25pts 16GF 3GA, seven shutouts. Club scorers unchanged: Beier 10G/3A, Pio 7G/5A, Paz 1G/3A, KDB 2G/1A. Last year's Arsenal 1–1, Pio 90+1 assist Beier, is archived separately.
+- News: `post-arsenal-2-0-selection-inquest-oct-2028.js`, `state-arsenal-2-0-31-oct-2028.js`, `comments-arsenal-2-0-controversy-oct-2028.js`. Keep selection controversy grounded in actual substitutions.
+
+
+## PREVIOUS CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL AWAY NEXT
 **Arsenal pregame selection:** Manager chooses Nico Paz and Riccardo Calafiori to begin on the BENCH; both are intended to come on later. These are plans, NOT completed substitutes. Note possible controversy for future stories, especially Paz's good form and Calafiori's former Arsenal history. See EDITORIAL-NOTE-ARSENAL-XI-2028-10-31.md.
 
 
