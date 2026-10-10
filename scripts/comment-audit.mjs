@@ -17,6 +17,10 @@ assert(scripts.indexOf('state-italy-oct-friendlies-2028.js')<scripts.indexOf('ap
 assert(scripts.indexOf('post-roma-streak-ends-oct-2028.js')>scripts.indexOf('post-italy-oct-friendlies-2028.js'),'Roma stories must follow Italy friendly brief.');
 assert(scripts.indexOf('post-roma-streak-ends-oct-2028.js')<scripts.indexOf('app.js'),'Roma articles must load before rendering.');
 assert(scripts.indexOf('state-roma-loss-oct-2028.js')<scripts.indexOf('app.js'),'Roma state must load before rendering.');
+assert(scripts.indexOf('post-slavia-comeback-oct-2028.js')>scripts.indexOf('post-roma-streak-ends-oct-2028.js'),'Latest Slavia stories must follow Roma.');
+assert(scripts.indexOf('post-slavia-comeback-oct-2028.js')<scripts.indexOf('app.js'),'Slavia stories must load before rendering.');
+assert(scripts.indexOf('state-slavia-17-oct-2028.js')<scripts.indexOf('app.js'),'Slavia result must load before rendering.');
+assert(scripts.indexOf('comments-slavia-comeback-curated.js')<scripts.indexOf('comments-engine-v2.js'),'Slavia comments must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -58,6 +62,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['slavia-beier-pio-3-2-oct-2028',36,53],
+ ['pio-beier-triple-assist-oct-2028',22,24],
+ ['slavia-rotation-gamble-doubts-oct-2028',26,28],
+ ['slavia-doubters-editorial-oct-2028',30,37],
  ['roma-ends-44-match-run-oct-2028',32,52],
  ['roma-first-loss-what-now-oct-2028',18,20],
  ['milan-san-siro-beier-91-match-report-oct-2028',33,45],
@@ -91,6 +99,25 @@ assert(l.played===7&&l.w===5&&l.d===1&&l.l===1&&l.points===16&&l.gf===9&&l.ga===
 assert(D.seasonState.ucl.points===4,'Roma must not modify UCL points.');
 assert(D.statsBySeason['2028–29'][0][1]===4&&D.statsBySeason['2028–29'][0][2]===1,'Club player stats must not change for no Napoli scorer.');
 assert(romaFixture.played&&D.upcoming[0][0]==='Slavia Prague','Next Napoli match should be Slavia Prague.');
+// Independent match-state smoke test: Slavia is a UCL comeback, not a league win.
+const slaviaFixture={date:'2028-10-17',team:'Napoli',opponent:'Slavia Prague',venue:'Home',competition:'Champions League',verified:true};
+const slaviaContext={window:{NAPOLI_DATA:{
+ results:[],results2028:[],
+ fixtures2028:[slaviaFixture,{date:'2028-10-21',team:'Napoli',opponent:'Empoli',venue:'Home',competition:'Serie A',verified:true}],
+ seasonState:{league:{played:7,w:5,d:1,l:1,points:16,gf:9,ga:3},ucl:{played:2,w:1,d:1,l:0,points:4,gf:5,ga:4}},
+ statsBySeason:{'2027–28':[['Maximilian Beier',25,11,'Archived'],['Pio Esposito',29,12,'Archived']],'2028–29':[['Maximilian Beier',6,2,'Current'],['Pio Esposito',4,1,'Current'],['Scott McTominay',0,5,'Current']]}}
+}}};
+vm.createContext(slaviaContext);
+vm.runInContext(read('state-slavia-17-oct-2028.js'),slaviaContext,{filename:'state-slavia-17-oct-2028.js',timeout:3000});
+const SD=slaviaContext.window.NAPOLI_DATA;
+assert(SD.results.some(r=>r[1]==='Slavia Prague'&&r[2]==='Champions League'&&r[3]===3&&r[4]===2&&r[5]==='W'),'Slavia result missing or wrong.');
+assert(SD.seasonState.ucl.played===3&&SD.seasonState.ucl.w===2&&SD.seasonState.ucl.d===1&&SD.seasonState.ucl.points===7&&SD.seasonState.ucl.gf===8&&SD.seasonState.ucl.ga===6,'UCL points/goals incorrect.');
+assert(SD.seasonState.league.played===7&&SD.seasonState.league.points===16&&SD.seasonState.league.ga===3,'UCL incorrectly modified league results.');
+assert(SD.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[1]===9,'Beier hat-trick missing.');
+assert(SD.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===4,'Pio triple assist missing.');
+assert(SD.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Historical Napoli stats overwritten.');
+assert(SD.upcoming[0][0]==='Empoli'&&slaviaFixture.played,'Next fixture not updated.');
+assert(SD.latestResult[0]==='NAP'&&SD.latestResult[1]==='3–2','Latest match widget stale.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
