@@ -1,6 +1,14 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
-## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL AWAY NEXT
+## CURRENT CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI · CHAMPIONS LEAGUE
+
+- **Arsenal 2–0 Napoli FT (away, UCL):** Arsenal scorers **Merino and Martinelli**; exact goal minutes, assists and scorer order NOT confirmed. **Pio Esposito shot wide 4′; Raya made excellent save from Pio 11′. HT 0–0, Arsenal ZERO shots on target in first half** despite pushes. Manager felt the goals came from practically Arsenal's only chances; do not invent numeric match shot totals.
+- **Paz and Calafiori started on bench**, per pregame plan. **BOTH WERE ACTUALLY BROUGHT ON EARLY IN SECOND HALF** and **BOTH WERE ON PITCH FOR SECOND ARSENAL GOAL**. Unknown: exact substitution minutes and replacements, which scorer got the second goal, timing of first goal relative to substitutions, and individual blame. Do not claim either was unused or made specific defensive errors.
+- **Current UCL after Arsenal:** 4P, **2W 1D 1L**, **7 points, 8GF 8GA**. Napoli club G/A remain Beier 10G 3A, Pio 7G 5A, Paz 1G 3A, KDB 2G 1A; 0 Napoli Arsenal goals. Serie A unchanged 10P 8W 1D 1L 25pts 16GF 3GA, 7 clean sheets. Rival table remains unverified after Sampdoria.
+- Preserve 2027–28 **Napoli 1–1 Arsenal**, Ødegaard 24′, Beier assists Pio 90+1′, with preserved gameplay video. New website publication: `post-arsenal-2-0-selection-inquest-oct-2028.js`, `state-arsenal-2-0-31-oct-2028.js`, `comments-arsenal-2-0-controversy-oct-2028.js`. Selection inquest discusses a disputed decision, not invented dressing-room reactions.
+
+
+## PREVIOUS CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL AWAY NEXT
 
 **Arsenal prematch selection (manager-approved, not yet a completed match):** Nico Paz and Riccardo Calafiori will start on the BENCH vs Arsenal on 31 October 2028. The manager plans to bring BOTH on later in the match, but no actual substitutions, timings, or lineup appearances have yet been reported. The choice is potentially controversial given Paz's recent goal contributions and Calafiori's previous Arsenal connection. Proposed 4-2-3-1: Meret; Cucurella, Bastoni, Buongiorno, Kayode; McTominay, Neves; Davies, Beier as CAM, Olise; Pio. For later stories, use EDITORIAL-NOTE-ARSENAL-XI-2028-10-31.md. Do NOT prewrite substitutions or results as confirmed.
 
