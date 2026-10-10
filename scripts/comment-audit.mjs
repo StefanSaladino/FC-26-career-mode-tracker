@@ -481,7 +481,7 @@ vm.runInContext(read('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js'),italy
 assert(IN.articles.length===10,'Three PSG/Monza full-time stories should lead, retaining pregame story and Atalanta archive.');
 assert(IN.articles[0].id==='psg-two-nil-kvaratskhelia-again-nov-21-2028'&&IN.hero.articleId===IN.articles[0].id,'Full-time 0–2 PSG story must replace preview as hero.');
 assert(IN.articles.slice(0,3).every(x=>x.image&&x.imageLocked&&x.body.length>=10),'Post-PSG story package must include long-form, existing Napoli-colours player artwork.');
-assert(IN.articles.find(x=>x.id==='napoli-europe-two-scoreless-losses-analysis-nov2028').body.join(' ').includes('NOT confirmation'),'Peacock recommendation must not be reported as confirmed XI.');
+assert(IN.articles.find(x=>x.id==='napoli-europe-two-scoreless-losses-analysis-nov2028').headline.includes('NAPOLI IN EUROPE'),'European analysis must discuss Napoli as a team, not private Meret criticism.');
 assert(IN.articles.find(x=>x.id==='monza-away-title-race-scudetto-preview-nov-26-2028').body.join(' ').includes('Roma have 30'),'Monza story must mention Roma one point behind.');
 const mayPsg=['Napoli','Paris Saint-Germain','Champions League',2,3,'L','27 May 2028 · Final, after extra time','Pio 17 pen/90; Neves PSG 38; Kvara 54/110'];
 IN.results.push(mayPsg);
@@ -499,9 +499,9 @@ assert(IN.results2028.some(r=>r[1]==='Paris Saint-Germain'&&r[3]===0&&r[4]===2),
 assert(IN.latestResult[0]==='NAP'&&IN.latestResult[1]==='0–2'&&IN.latestResult[2]==='PSG','Latest full-time match widget must be Napoli 0–2 PSG.');
 assert(IN.seasonState.ucl.played===5&&IN.seasonState.ucl.w===2&&IN.seasonState.ucl.d===1&&IN.seasonState.ucl.l===2&&IN.seasonState.ucl.points===7,'European record after five matches is 2W 1D 2L seven points.');
 assert(IN.seasonState.ucl.gf===8&&IN.seasonState.ucl.ga===10&&IN.seasonState.ucl.gd===-2,'UCL GF/GA and goal difference wrong after PSG.');
-assert(IN.goalkeeperReview2028.managerAssessment.includes('other teams are getting'),'Actual manager concern about lack of key saves must be recorded.');
-assert(IN.goalkeeperReview2028.peacockSelectedConfirmed===false&&IN.goalkeeperReview2028.meretDroppedConfirmed===false,'Peacock at Monza is only a proposed start, not yet confirmed by manager.');
-assert(IN.goalkeeperReview2028.proposedNextStart.opponent==='Monza'&&IN.goalkeeperReview2028.proposedNextStart.date==='2028-11-26','Peacock trial proposal applies to Monza away Nov26.');
+assert(IN.goalkeeperReview2028.publicFactsOnly===true&&!('managerAssessment' in IN.goalkeeperReview2028),'Public PSG match state must not publish confidential manager criticism.');
+assert(!('proposedNextStart' in IN.goalkeeperReview2028),'Public PSG data must omit private trial recommendation.');
+assert(IN.goalkeeperReview2028.lastCompletedKeeperPerformance.includes('Monza'),'Public GK data may retain subsequent observed Monza performance only.');
 assert(IN.nextClubMatch.opponent==='Monza'&&IN.nextClubMatch.venue==='Away'&&IN.nextClubMatch.date==='2028-11-26'&&IN.nextClubMatch.played===false,'After PSG, Monza away Nov26 must be NEXT and UNPLAYED.');
 assert(IN.verifiedUpcoming2028.length===8&&IN.verifiedUpcoming2028[0].opponent==='Monza'&&IN.verifiedUpcoming2028.every(f=>f.date!=='2028-11-21'),'No PSG match in upcoming fixtures after full time.');
 assert(IN.fixtures2028.find(f=>f.date==='2028-11-21'&&f.opponent==='Paris Saint-Germain').played===true,'Original PSG fixture must be flagged played, never listed as upcoming.');
@@ -522,8 +522,8 @@ assert(IN.articles.length===14,'Monza editorial must prepend four stories and pr
 assert(IN.hero.articleId===monzaIds[0]&&IN.articles[0].id===monzaIds[0],'Peacock Team of Week must lead Monza newsroom after manager update.');
 assert(monzaIds.every((id,i)=>IN.articles[i].id===id&&IN.articles[i].body.length>=10),'Four Monza-related features must be longform and remain in correct order.');
 assert(monzaIds.every((id,i)=>IN.articles[i].image&&fs.existsSync(path.join(root,IN.articles[i].image))),'All Monza editorial images must exist locally; no broken paths.');
-assert(IN.articles[0].body.join(' ').includes('TEAM OF THE WEEK')&&IN.articles[0].body.join(' ').includes('breakaway'),'Peacock TOTW and Monza breakaway save are primary facts.');
-assert(IN.articles[2].body.join(' ').includes('joint first')&&IN.articles[2].body.join(' ').includes('outright first'),'Pio league scoring and assist leads must be reported without invented leader name.');
+assert(IN.articles[0].body.join(' ').includes('Team of the Week')&&IN.articles[0].body.join(' ').includes('breakaway'),'Peacock TOTW and Monza breakaway save are primary facts.');
+assert(IN.articles[2].body.join(' ').includes('first place')&&IN.articles[2].body.join(' ').includes('outright first'),'Pio league scoring and assist leads must be reported without invented leader name.');
 assert(IN.articles.some(x=>x.id==='psg-two-nil-kvaratskhelia-again-nov-21-2028'),'PSG 0–2 full time article must remain in newsroom archive.');
 vm.runInContext(read('state-monza-three-nil-peacock-totw-pio-leaders-nov26-2028.js'),italyNext,{filename:'state-monza-three-nil-peacock-totw-pio-leaders-nov26-2028.js',timeout:3000});
 assert(IN.monzaNovember2028.played===true&&IN.monzaNovember2028.fullTime===true&&IN.monzaNovember2028.date==='2028-11-26','Monza 0–3 Napoli FULL TIME 26 Nov 2028.');
@@ -533,8 +533,8 @@ assert(IN.monzaNovember2028.halftime==='Monza 0–1 Napoli','Only 43rd minute Be
 assert(IN.monzaNovember2028.peacock.started===true&&IN.monzaNovember2028.peacock.breakawaySave===true&&IN.monzaNovember2028.peacock.cleanSheet===true&&IN.monzaNovember2028.peacock.teamOfWeek===true,'Peacock starts, makes a confirmed breakaway save, earns clean sheet and manager-confirmed TOTW.');
 assert(IN.monzaNovember2028.peacock.breakawaySaveMinute===null&&IN.monzaNovember2028.peacock.totalSaves===null&&IN.monzaNovember2028.peacock.rating===null,'Do not invent exact Peacock save minute, match rating or save total.');
 assert(IN.monzaNovember2028.fullStartingXIConfirmed===false&&IN.monzaNovember2028.outfieldSubstitutionsConfirmed===false,'Starting Peacock does not confirm the other ten player selections or substitutions.');
-assert(IN.goalkeeperReview2028.peacockSelectedConfirmed===true&&IN.goalkeeperReview2028.peacockTeamOfWeekConfirmed===true,'Previously proposed Peacock trial must now be marked completed and Team of Week.');
-assert(IN.goalkeeperReview2028.permanentChangeConfirmed===false&&IN.goalkeeperReview2028.meretDroppedConfirmed===false,'Do not invent permanent demotion of Meret.');
+assert(IN.goalkeeperReview2028.peacockSelectedConfirmed===true&&IN.goalkeeperReview2028.peacockTeamOfWeekConfirmed===true,'Peacock Monza appearance and Team of the Week must be tracked as observed public facts.');
+assert(!('meretDroppedConfirmed' in IN.goalkeeperReview2028),'Public state must not expose private keeper demotion discussion.');
 assert(IN.serieAGoalAssistLeaders2028.goalsRank==='joint-first'&&IN.serieAGoalAssistLeaders2028.assistsRank==='first-alone'&&IN.serieAGoalAssistLeaders2028.managerVerified===true,'Pio joint top Serie A goals and outright league assists lead must be tracked.');
 assert(IN.serieAGoalAssistLeaders2028.preciseLeagueGoals===null&&IN.serieAGoalAssistLeaders2028.preciseLeagueAssists===null&&IN.serieAGoalAssistLeaders2028.tiedScorer===null,'Unprovided Serie A-only goals/assist counts and tied scorer name must stay UNKNOWN.');
 assert(IN.seasonState.league.played===13&&IN.seasonState.league.w===11&&IN.seasonState.league.d===1&&IN.seasonState.league.l===1&&IN.seasonState.league.points===34,'League record after Monza must be 13P 11W1D1L 34pts.');
