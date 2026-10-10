@@ -52,6 +52,10 @@ assert(scripts.indexOf('state-atalanta-six-two-pio-three-three-nov-2028.js')<scr
 assert(scripts.indexOf('comments-atalanta-six-two-pio-three-three-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Atalanta comments must load before renderer.');
 assert(scripts.indexOf('state-fixtures-psg-monza-december-2028.js')>scripts.indexOf('state-atalanta-six-two-pio-three-three-nov-2028.js'),'New fixture schedule must load AFTER Atalanta FT.');
 assert(scripts.indexOf('state-fixtures-psg-monza-december-2028.js')<scripts.indexOf('app.js'),'New fixture schedule must load BEFORE app snapshots.');
+assert(scripts.indexOf('state-serie-a-table-after-atalanta-12p-nov-2028.js')>scripts.indexOf('state-fixtures-psg-monza-december-2028.js'),'New 12-game league screenshot should supersede October rival rows.');
+assert(scripts.indexOf('post-psg-final-rematch-neves-changes-sides-nov-21-2028.js')>scripts.indexOf('post-atalanta-six-two-pio-three-three-nov-2028.js'),'PSG preview hero must follow full-time Atalanta newsroom.');
+assert(scripts.indexOf('post-psg-final-rematch-neves-changes-sides-nov-21-2028.js')<scripts.indexOf('app.js'),'PSG preview must load before app render.');
+assert(scripts.indexOf('comments-psg-neves-final-rematch-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'PSG reaction archive must be loaded before comment renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -93,6 +97,7 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['psg-final-rematch-neves-switches-sides-nov-21-2028',25,25],
  ['pio-six-involvements-napoli-six-two-atalanta-2028',18,19],
  ['beier-pio-partnership-four-combinations-atalanta-2028',16,16],
  ['saladino-overrules-bench-pio-hat-trick-atalanta-2028',16,16],
@@ -432,6 +437,28 @@ assert(IN.latestResult[0]==='NAP'&&IN.latestResult[1]==='6–2'&&IN.latestResult
 assert(IN.hero.articleId==='pio-six-involvements-napoli-six-two-atalanta-2028','Fixture-only update must NOT replace the Atalanta 6–2 front-page hero.');
 assert(IN.seasonState.ucl.played===4&&IN.seasonState.ucl.points===7,'Upcoming PSG/Dortmund fixtures must not change prior European stats.');
 assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===10,'Calendar must not alter Pio stats.');
+// NEW post-Atalanta 12-game standings screenshot and PSG final-rematch preview checks.
+vm.runInContext(read('state-serie-a-table-after-atalanta-12p-nov-2028.js'),italyNext,{filename:'state-serie-a-table-after-atalanta-12p-nov-2028.js',timeout:3000});
+assert(IN.serieAStandings.rows.length===6,'Fresh photographed table has only top SIX club rows.');
+const expectedTable=[
+ ['Napoli',12,10,1,1,23,5,18,31],['Roma',12,9,3,0,28,10,18,30],
+ ['Atalanta',12,7,3,2,27,18,9,24],['Juventus',12,6,4,2,21,13,8,22],
+ ['AC Milan',12,6,4,2,21,13,8,22],['Lazio',12,5,5,2,22,18,4,20]
+];
+assert(JSON.stringify(Array.from(IN.serieAStandings.rows,r=>Array.from(r)))===JSON.stringify(expectedTable),'Latest FC26 12-game top-six Serie A table transcription error.');
+assert(IN.titleRaceSnapshot2028.confirmed===true&&IN.titleRaceSnapshot2028.romapoints===30&&IN.titleRaceSnapshot2028.napolipoints===31,'Roma exactly ONE behind Napoli and still UNBEATEN in new screenshot.');
+assert(IN.serieAStandings.rows[1][4]===0&&IN.serieAStandings.rows[1][3]===3&&IN.serieAStandings.rows[1][7]===18,'Roma 9W3D0L and +18 GD from twelve.');
+assert(IN.serieAStandings.rows[2][8]===24,'Atalanta now 24 points, not the stale 20 from October.');
+vm.runInContext(read('post-psg-final-rematch-neves-changes-sides-nov-21-2028.js'),italyNext,{filename:'post-psg-final-rematch-neves-changes-sides-nov-21-2028.js',timeout:3000});
+assert(IN.hero.articleId==='psg-final-rematch-neves-switches-sides-nov-21-2028','PSG/Neves story must be current headline above Atalanta FT.');
+const preview=IN.articles[0],previewText=preview.body.join(' ');
+assert(preview.id==='psg-final-rematch-neves-switches-sides-nov-21-2028'&&preview.body.length>=9&&preview.image==='assets/pio-napoli.webp','New PSG headline must have long-form story with existing Napoli player image.');
+assert(previewText.includes('38th minute')&&previewText.includes('João Neves')&&previewText.includes('$250 million'),'João Neves PSG 38th minute final goal and later $250m Napoli move are crucial to rematch.');
+assert(previewText.includes('110 minutes')&&previewText.includes('Kvaratskhelia')&&previewText.includes('90th'),'Confirmed PSG 3–2 AET 2028 final history must be intact.');
+assert(previewText.includes('league phase, not another final'),'Upcoming PSG league phase must not be misrepresented as 2028 final replay for trophy.');
+assert(IN.nextClubMatch.opponent==='Paris Saint-Germain'&&IN.nextClubMatch.played===false&&IN.nextClubMatch.date==='2028-11-21','PSG HOME on Nov 21 remains UNPLAYED.');
+assert(IN.seasonState.ucl.played===4&&IN.seasonState.ucl.points===7,'PSG preview must NOT fabricate new European result.');
+assert(IN.seasonState.league.played===12&&IN.seasonState.league.points===31&&IN.latestResult[1]==='6–2','Fixture preview must not erase Atalanta FT or Serie A record.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
