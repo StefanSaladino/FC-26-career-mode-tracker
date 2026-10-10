@@ -117,7 +117,7 @@ const expected=[
  ['psg-final-rematch-neves-switches-sides-nov-21-2028',25,25],
  ['pio-six-involvements-napoli-six-two-atalanta-2028',18,19],
  ['beier-pio-partnership-four-combinations-atalanta-2028',16,16],
- ['saladino-overrules-bench-pio-hat-trick-atalanta-2028',16,16],
+ ['pio-esposito-stays-ruthless-sixth-goal-atalanta-2028',16,16],
  ['napoli-31-points-atalanta-pasalic-brace-2028',16,16],
  ['atalanta-next-title-test-after-italy-friendlies-2028',16,16],
  ['pio-kean-senegal-turkey-friendlies-2028',12,12],
@@ -581,6 +581,14 @@ for(const id of ['psg-two-nil-kvaratskhelia-again-nov-21-2028','napoli-europe-tw
   const v=txt.toLowerCase();
   assert(!v.includes('manager said')&&!v.includes('manager confirmed')&&!v.includes('assistant manager thinks')&&!v.includes('according to mister'),'A fan comment improperly knows staff-only discussions on '+id);
  }
+}
+// The Atalanta Pio/Beier substitution debate also stays staff-room only.
+assert(staffNotes.includes('Atalanta 6–2')&&staffNotes.includes('midfield and defensive rotation'),'Private Atalanta coaching plan must remain canon.');
+const publicAtalanta=IN.articles.find(x=>x.id==='pio-esposito-stays-ruthless-sixth-goal-atalanta-2028');
+assert(publicAtalanta&&publicAtalanta.headline.includes('ESPOSITO'),'Public Atalanta story is Pio's visible performance, not manager versus assistant.');
+for(const txt of [publicAtalanta.headline,publicAtalanta.dek,...publicAtalanta.body])assert(!/assistant manager|saladino.*overrul|manager.*(?:decided|rejected|told)|midfield and defensive rotation/i.test(txt),'Private Atalanta dressing-room talk leaked into article.');
+for(const post of thread('pio-esposito-stays-ruthless-sixth-goal-atalanta-2028')){
+ for(const txt of [post.t,...post.replies.map(x=>x.t)])assert(!/assistant manager|assistant:|manager:|mister.*(?:said|bought)|coach.*clipboard/i.test(txt),'Private Atalanta dressing-room talk leaked into comments.');
 }
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
