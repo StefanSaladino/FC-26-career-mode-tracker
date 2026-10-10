@@ -110,10 +110,10 @@ const expected=[
  ['peacock-monza-clean-sheet-serie-a-team-of-week-2028',18,18],
  ['beier-pio-triple-combination-monza-three-nil-nov-2028',16,16],
  ['pio-joint-serie-a-golden-boot-top-assist-leader-monza-2028',16,16],
- ['napoli-34-points-udinese-dortmund-peacock-selection-debate-2028',14,14],
+ ['napoli-34-points-udinese-dortmund-december-preview-2028',14,14],
  ['psg-two-nil-kvaratskhelia-again-nov-21-2028',20,20],
- ['meret-pressure-peacock-audition-after-psg-nov-2028',16,16],
- ['monza-away-title-race-peacock-decision-nov-26-2028',12,12],
+ ['napoli-europe-two-scoreless-losses-analysis-nov2028',16,16],
+ ['monza-away-title-race-scudetto-preview-nov-26-2028',12,12],
  ['psg-final-rematch-neves-switches-sides-nov-21-2028',25,25],
  ['pio-six-involvements-napoli-six-two-atalanta-2028',18,19],
  ['beier-pio-partnership-four-combinations-atalanta-2028',16,16],
@@ -481,8 +481,8 @@ vm.runInContext(read('post-psg-nov21-ft-goalkeeper-inquest-monza-2028.js'),italy
 assert(IN.articles.length===10,'Three PSG/Monza full-time stories should lead, retaining pregame story and Atalanta archive.');
 assert(IN.articles[0].id==='psg-two-nil-kvaratskhelia-again-nov-21-2028'&&IN.hero.articleId===IN.articles[0].id,'Full-time 0–2 PSG story must replace preview as hero.');
 assert(IN.articles.slice(0,3).every(x=>x.image&&x.imageLocked&&x.body.length>=10),'Post-PSG story package must include long-form, existing Napoli-colours player artwork.');
-assert(IN.articles.find(x=>x.id==='meret-pressure-peacock-audition-after-psg-nov-2028').body.join(' ').includes('NOT confirmation'),'Peacock recommendation must not be reported as confirmed XI.');
-assert(IN.articles.find(x=>x.id==='monza-away-title-race-peacock-decision-nov-26-2028').body.join(' ').includes('Roma have 30'),'Monza story must mention Roma one point behind.');
+assert(IN.articles.find(x=>x.id==='napoli-europe-two-scoreless-losses-analysis-nov2028').body.join(' ').includes('NOT confirmation'),'Peacock recommendation must not be reported as confirmed XI.');
+assert(IN.articles.find(x=>x.id==='monza-away-title-race-scudetto-preview-nov-26-2028').body.join(' ').includes('Roma have 30'),'Monza story must mention Roma one point behind.');
 const mayPsg=['Napoli','Paris Saint-Germain','Champions League',2,3,'L','27 May 2028 · Final, after extra time','Pio 17 pen/90; Neves PSG 38; Kvara 54/110'];
 IN.results.push(mayPsg);
 vm.runInContext(read('state-psg-nov21-zero-two-monza-peacock-2028.js'),italyNext,{filename:'state-psg-nov21-zero-two-monza-peacock-2028.js',timeout:3000});
@@ -516,7 +516,7 @@ const monzaIds=[
  'peacock-monza-clean-sheet-serie-a-team-of-week-2028',
  'beier-pio-triple-combination-monza-three-nil-nov-2028',
  'pio-joint-serie-a-golden-boot-top-assist-leader-monza-2028',
- 'napoli-34-points-udinese-dortmund-peacock-selection-debate-2028'
+ 'napoli-34-points-udinese-dortmund-december-preview-2028'
 ];
 assert(IN.articles.length===14,'Monza editorial must prepend four stories and preserve previous ten in archive.');
 assert(IN.hero.articleId===monzaIds[0]&&IN.articles[0].id===monzaIds[0],'Peacock Team of Week must lead Monza newsroom after manager update.');
