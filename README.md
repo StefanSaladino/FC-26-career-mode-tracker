@@ -1,6 +1,16 @@
 # Napoli FC26 — 2028–29 Season Room
 
-## CURRENT CANON · 25 OCTOBER 2028 · JUVENTUS 0–2 NAPOLI · PIO BRACE · NAPOLI TOP, ROMA ONE POINT BACK
+## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL NEXT
+
+- Napoli 3–0 Sampdoria, Serie A home, 28 Oct 2028 (confirmed FT). Heavy rotation ahead of Arsenal. Kevin De Bruyne 27′ from Nico Paz assist, unusual shot sneaking inside the post; HT 1–0. Beier came on at halftime. Beier 52′ from Pio Esposito assist. Pio Esposito 70′ from Beier assist. No other starting XI or substitution times confirmed.
+- Napoli Serie A after Sampdoria: 10P, 8W 1D 1L, 25 points, 16GF 3GA +13, SEVEN league clean sheets. No new complete standings screenshot after Sampdoria: last VERIFIED rivals were Roma 21, Atalanta 20, Juventus 17, Milan 16 and Lazio 15 following Juventus match. Do not claim an updated current gap.
+- Current 2028–29 NAPOLI CLUB G/A only (Italy friendly stats excluded): Beier 10G 3A, Pio 7G 5A, Nico Paz 1G 3A, Kevin De Bruyne 2G 1A, McTominay 0G 6A, Davies 2G 0A, Olise 0G 2A. Beier/Pio combined 25 G+A (17 goals, eight assists, not 25 unique goals). Preserve historical prior-season values.
+- Original archived `post-arsenal.js` confirms Napoli 1–1 Arsenal in 2027–28 Champions League: Ødegaard 24′ Arsenal goal; Pio Esposito 90+1′ equalizer assisted by Beier; keeper Raya made important saves and Meret made key interventions. The equalizer ended Napoli's scoring drought. Existing video `assets/pio-arsenal-equalizer.mp4` attached to archive story `arsenal-pio-91`. This result belongs to LAST season, not the imminent Arsenal away game.
+- NEXT Arsenal vs Napoli, Champions League at Arsenal, 31 Oct 2028. NOT YET PLAYED. Current UCL Napoli 3P 2W 1D 0L, 7 points, 8GF 6GA, unchanged after Sampdoria. Do not invent a result, Arsenal starters or match events.
+- Newsroom: `post-sampdoria-arsenal-rematch-oct-2028.js` has four articles, lead headline “90+1 IN NAPLES. NOW LONDON. ARSENAL REMEMBER PIO — AND NAPOLI WANT MORE.” Other articles: Napoli 3–0 Sampdoria, partnership analysis, rotation debate. `comments-sampdoria-arsenal-rematch-oct-2028.js` contains 74 authored top-level comments and 86 replies with Napoli and Arsenal fans. Stories are fictional newsroom journalism built on manager-confirmed save facts.
+
+
+## PREVIOUS CANON · 25 OCTOBER 2028 · JUVENTUS 0–2 NAPOLI · PIO BRACE · NAPOLI TOP, ROMA ONE POINT BACK
 
 - **Juventus 0–2 Napoli, Serie A away, 25 October 2028, manager-confirmed FULL TIME.** **20′** Juventus keeper **Michele Di Gregorio saves Beier's effort**. **37′** Davies shoots, Di Gregorio saves, **Pio Esposito converts rebound (0–1)**. **43′** Di Gregorio denies Pio another opportunity. **Half time Juventus 0–1 Napoli**. **89′** Nico Paz plays Pio through, Di Gregorio stops first shot, **Pio converts his OWN rebound (0–2)**. The **EA FC26 game officially awards Nico Paz the 89′ ASSIST despite the save/rebound**. That official credit OVERRIDES any assumption based on conventional assist rules; **do not assume an assist on the 37′ goal** (no credit confirmed). FT **Juventus 0–2 Napoli**. No other exact unreported events, lineups, substitutions or saves are confirmed.
 - **Napoli Serie A NOW 9 played, 7W 1D 1L, 22 points, 13 GF, 3 GA, +10 goal difference, SIX CLEAN SHEETS**, FIRST in verified post-Juventus screenshot. Napoli have beaten **Inter 2–0**, **AC Milan 2–1 (away)** and **Juventus 2–0 (away)** already in 2028–29 league play. UCL remains **3 played, 2W 1D, 7 points, 8 GF, 6 GA** (Galatasaray W 2–1, Leverkusen D 3–3, Slavia W 3–2).
