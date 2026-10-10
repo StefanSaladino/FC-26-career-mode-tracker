@@ -38,6 +38,11 @@ const oldEmpoli=[...el.children].filter(x=>x.classList.contains('match-card')&&x
 oldEmpoli.forEach(x=>x.remove());
 const empoli=document.createElement('div');empoli.className='match-card';
 empoli.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 21 Oct 2028 · Home</span><strong>Napoli <b>2–0</b> Empoli</strong><p>Davies 12′ (Olise cross), Nico Paz 80′ (McTominay) · Olise 23′ disallowed for offside · Paz hit post 90+3′ · clean sheet</p></div>';
-el.prepend(empoli);}
+el.prepend(empoli);
+const oldJuve=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Juventus')&&x.textContent.includes('25 Oct 2028'));
+oldJuve.forEach(x=>x.remove());
+const juve=document.createElement('div');juve.className='match-card';
+juve.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 25 Oct 2028 · Away</span><strong>Juventus <b>0–2</b> Napoli</strong><p>Pio Esposito 37′ (rebound from saved Davies shot), 89′ (Paz officially credited assist after saved attempt/rebound) · Di Gregorio denies Beier 20′, Pio 43′ · HT 0–1 · sixth Serie A clean sheet</p></div>';
+el.prepend(juve);}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
