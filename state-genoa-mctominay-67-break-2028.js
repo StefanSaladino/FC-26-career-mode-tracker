@@ -38,7 +38,7 @@ D.ticker=[
  'NEXT · INTERNATIONAL BREAK · ITALY FRIENDLIES · OPPONENTS UNCONFIRMED',
  'ARSENAL REMAINS FIRST UCL DEFEAT · 7 POINTS FROM FOUR EUROPEAN GAMES'];
 D.whispers=[
- ['SCOTT FINDS A WAY','Jankowski stopped shots from Beier, De Bruyne, Davies and others; McTominay scores from Davies 67′ for a 1–0 Napoli win.'],
+ ['SCOTT FINDS A WAY','Jankowski denied De Bruyne, Davies and other Napoli attempts; Beier had a separate goal ruled out offside; McTominay scores from Davies 67′ for a 1–0 Napoli win.'],
  ['BEIER GOAL DISALLOWED','At 36′, Beier finished but was offside. It is not a credited goal and Napoli went in 0–0 at halftime.'],
  ['28 POINTS, EIGHT SHUTOUTS','Napoli have 9W 1D 1L from 11 Serie A matches and just three goals conceded, with their eighth clean sheet against Genoa.'],
  ['CREATOR TURNS SCORER','Scott McTominay now has one club goal and six assists. Alphonso Davies has two goals and one assist.'],
