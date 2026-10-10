@@ -1,6 +1,15 @@
 # Napoli FC26 — 2028–29 Season Room
 
-## CURRENT CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI
+## CURRENT CANON · NOVEMBER 2028 · NAPOLI 1–0 GENOA · ITALY FRIENDLIES NEXT
+
+- FT Napoli 1–0 Genoa, 2028–29 Serie A, AFTER Arsenal defeat. Match date and venue NOT supplied. Genoa goalkeeper Jankowski made numerous saves. Beier 36′ goal ruled out for offside (DOES NOT COUNT). De Bruyne denied at or near halftime. HT 0–0. Davies and other Napoli attackers stopped in second half. **McTominay 67′ goal, Davies assist.** Eighth league clean sheet.
+- Current Napoli Serie A: **11P 9W 1D 1L, 28 points, 17 GF 3 GA +14, eight clean sheets.** Other Serie A teams have no updated screenshot after last verified table 25 October (Roma 21 in 9 games, Atalanta 20 in 9). Do not claim exact current lead.
+- Club attacking totals: **McTominay 1G/6A; Davies 2G/1A; Beier 10G/3A; Pio 7G/5A; Paz 1G/3A; KDB 2G/1A; Olise 0G/2A.** Disallowed goals excluded. UCL unchanged: 4P 2W 1D 1L, 7 points, 8 GF 8 GA.
+- **Next: international break, Italy national-team friendlies.** Exact opponents, dates, venues, call-ups and results UNKNOWN. Do not invent any. Last October Italy friendlies historical and separate from club results.
+- Published newsroom: `post-genoa-mctominay-67-international-break-2028.js` (four features), `state-genoa-mctominay-67-break-2028.js` (match and stats), `comments-genoa-italy-break-nov-2028.js` (69 top-level comments, 72 replies). Exact Genoa date/venue deliberately unconfirmed.
+
+
+## PREVIOUS CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI
 
 - Champions League away 31 Oct, FT Arsenal 2–0 Napoli. Merino and Martinelli scored for Arsenal; minutes, assists and order not confirmed. Pio 4′ wide, 11′ Raya save; HT 0–0 and Arsenal no first-half shots on target.
 - **Important:** Nico Paz and Riccardo Calafiori began benched but BOTH CAME ON EARLY in the SECOND HALF and BOTH WERE ON for Arsenal's SECOND goal. Sub minutes/replaced players and individual errors not confirmed. Do not publish speculation as match facts.
