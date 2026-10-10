@@ -1,5 +1,20 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## PUBLIC NEWSROOM VS PRIVATE DRESSING ROOM · 10 OCTOBER 2026 · PERMANENT RULE
+
+The **manager and assistant manager's private conversations are still canon** and materially shape football decisions, but they are **NOT automatically public statements**. `STAFF-ROOM-CANON.md` preserves the internal Meret/Peacock coaching-room storyline and must **NEVER** be loaded into the Season Room site or sourced for fan comments, press claims, headlines or public tickers. Note: this is an **editorial firewall**, not GitHub privacy; the repository is publicly readable.
+
+**Journalistic camera stays inside the football world.** The newsroom attends matches, watches the game, reads the confirmed team sheet and league honours, and can independently analyse visible results. DO NOT claim the manager or the user "reported" a goal, supplied data, confirmed a match event, furnished a screenshot, or explained what happened to the staff. Do not describe missing user inputs, unverified saves, archive limitations, "in-game", the save, or code work in published football prose. If a detail is unknown, omit the detail and keep the writing natural rather than writing a disclaimer about not receiving it.
+
+**Quotes and manager public criticism:** Only actual public interviews, user-played press conference scenes and expressly authorised public statements may be attributed to the manager. Ordinary tactical chat with the AM—even emotional criticism of players—is PRIVATE. Do not invent quotes, leaks or a press reaction to that private criticism. Football supporters may debate Peacock's observed selection, breakaway stop, clean sheet and Team of the Week award, but may NOT know or react to Saladino's private assessment of Meret. Meret's place in the squad is not necessarily a public crisis because staff privately debated it.
+
+**Scope every interaction:** `internal-coaching`, `press-conference`, `public-interview`, `on-field`, `official-award`, or `public-analysis`. Only the last five can support publication, and press/public interview statements require genuine user-authored public answers.
+
+**Retcon applied to 2028 PSG and Monza coverage:** The analysis piece formerly asserting "Saladino questions Meret" is rewritten as collective European tactics analysis. Monza previews no longer expose the private Peacock trial recommendation. The Peacock Team of the Week article covers the keeper's ACTUAL start, breakaway save, clean sheet and official selection independently. The team's behind-the-scenes reasoning stays preserved in the staff canon, never flattened or forgotten.
+
+---
+
+
 ## Purpose
 This document is the permanent ledger for fictional journalists, pundits, presenters, outlets and press interactions in the FC26 Napoli save universe.
 
@@ -34,8 +49,8 @@ Do **not** force press after every match. It should feel occasional, organic and
 2. The AI presents the source clearly: person, outlet and relevant context.
 3. The AI asks Stefan Saladino the question **in character as the journalist/pundit**.
 4. The AI does **not** invent Saladino's answer in an interactive press appearance.
-5. The user answers as Saladino.
-6. The substance and tone of that answer become save-universe canon immediately.
+5. The user answers as Saladino **in this explicit public interview or press scene**.
+6. The substance and tone of that **PUBLIC press answer** become public save-universe canon immediately; ordinary private staff chat does NOT.
 7. The journalist may ask a natural follow-up if warranted by the answer.
 8. Later articles, pundit segments, fan comments and future press questions may quote, paraphrase or reference the exchange accurately.
 
