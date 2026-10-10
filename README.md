@@ -1,6 +1,15 @@
 # Napoli FC26 — 2028–29 Season Room
 
-## CURRENT CANON · NOVEMBER 2028 · NAPOLI 1–0 GENOA · ITALY FRIENDLIES NEXT
+## CURRENT CANON · NOVEMBER 2028 · ITALY FRIENDLIES COMPLETE · ATALANTA NEXT
+
+- **Italy 1–1 Senegal FT:** Pio Esposito goal, **Moise Kean assist**; Gianluigi Donnarumma **penalty save**. **Italy 2–1 Turkey FT:** Pio Esposito **both Italy goals**; first assisted by Kean, **second from rebound UNASSISTED** as manager explicitly confirmed. Goal minutes and match dates/venues unknown.
+- New Italy window **1W 1D, 3 GF 2 GA**; Pio **3 goals**; Kean **2 assists** (ONE each match). Across four reported 2028 friendlies: Pio 5 Italy goals and 2 assists; separate entirely from Napoli club totals.
+- **NEXT: ATALANTA / BERGAMO CALCIO** in Serie A, manager confirmed upcoming and UNPLAYED. Exact match date, venue and starting XI not known. Napoli have **28 points from 11 league games, 9W 1D 1L, 17 GF 3 GA, eight clean sheets**. Latest verified Atalanta snapshot: 20 points from 9 played after 25 Oct; no newer Atalanta results or current head-to-head points gap known.
+- Napoli club numbers unchanged after friendlies: Pio 7G/5A, Beier 10G/3A, McTominay 1G/6A, Davies 2G/1A. UCL remains 2W 1D 1L, seven points from four games, 8GF 8GA.
+- Live: `post-italy-senegal-turkey-atalanta-preview-2028.js` (short Italy recap, substantial Atalanta preview lead); `state-italy-senegal-turkey-atalanta-next-2028.js`; `comments-italy-senegal-turkey-atalanta-preview-2028.js`.
+
+
+## PREVIOUS CANON · NOVEMBER 2028 · NAPOLI 1–0 GENOA · ITALY FRIENDLIES NEXT
 
 - FT Napoli 1–0 Genoa, 2028–29 Serie A, AFTER Arsenal defeat. Match date and venue NOT supplied. Genoa goalkeeper Jankowski made numerous saves. Beier 36′ goal ruled out for offside (DOES NOT COUNT). De Bruyne denied at or near halftime. HT 0–0. Davies and other Napoli attackers stopped in second half. **McTominay 67′ goal, Davies assist.** Eighth league clean sheet.
 - Current Napoli Serie A: **11P 9W 1D 1L, 28 points, 17 GF 3 GA +14, eight clean sheets.** Other Serie A teams have no updated screenshot after last verified table 25 October (Roma 21 in 9 games, Atalanta 20 in 9). Do not claim exact current lead.
