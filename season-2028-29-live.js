@@ -65,6 +65,13 @@ senegal.innerHTML='<div class="result-badge D">D</div><div class="match-main"><s
 const turkey=document.createElement('div');turkey.className='match-card';
 turkey.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>Italy · International Friendly · Nov 2028 · exact date/venue unconfirmed</span><strong>Italy <b>2–1</b> Turkey</strong><p>Pio Esposito scores twice · First from Kean assist · Second rebound UNASSISTED</p></div>';el.prepend(turkey);
 }}
+if(e('matchesList')&&D.atalantaMatch?.played){
+const el=e('matchesList');
+const prior=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Atalanta')&&x.textContent.includes('6–2'));prior.forEach(x=>x.remove());
+const at=document.createElement('div');at.className='match-card';
+at.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · Nov 2028 · exact date and venue unconfirmed · FT</span><strong>Napoli <b>6–2</b> Atalanta</strong><p>PIO 18′ (Neves), 44′ (Beier), 61′ (Beier) · PAZ 27′ (Pio) · BEIER 36′, 55′ (both Pio) · Pašalić 33′, 89′ · HT 4–1 · Pio 3 GOALS + 3 ASSISTS · Beier 2G + 2A · 31pts/12 league · substitutions unconfirmed</p></div>';
+el.prepend(at);
+}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});if(!D.fixtures2028.some(f=>!f.played)&&D.nextInternationalWindow?.stage==='Upcoming'){
 const international=document.createElement('div');international.className='match-card';
 international.innerHTML='<div class="result-badge">INT</div><div class="match-main"><span>International break · Italy national team</span><strong>Friendlies upcoming — opponents to be confirmed</strong><p>Exact dates, venues and call-ups have not been verified. Manager Saladino returns to national team duty.</p></div>';
@@ -73,5 +80,8 @@ if(!D.fixtures2028.some(f=>!f.played)&&D.nextClubMatch?.confirmedNext&&!D.nextCl
 const fixture=document.createElement('div');fixture.className='match-card';
 fixture.innerHTML='<div class="result-badge">NEXT</div><div class="match-main"><span>Serie A · Next Napoli game</span><strong>Atalanta (Bergamo Calcio)</strong><p>Date, venue and starting XI not yet confirmed · Major Scudetto matchup after Italy friendlies</p></div>';
 list.appendChild(fixture);}
+if(!D.fixtures2028.some(f=>!f.played)&&D.atalantaMatch?.played){
+const unknown=document.createElement('div');unknown.className='match-card';unknown.innerHTML='<div class="result-badge">TBC</div><div class="match-main"><span>Next Napoli fixture</span><strong>Opponent awaiting manager confirmation</strong><p>Date, venue and competition have not been provided. Napoli 6–2 Atalanta is already completed.</p></div>';list.appendChild(unknown);
+}
 e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
