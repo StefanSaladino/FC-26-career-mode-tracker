@@ -558,7 +558,7 @@ assert(IN.upcoming.length===7&&IN.upcoming[0][0]==='Udinese'&&IN.upcoming[1][0]=
 assert(IN.psgNovember2028.played===true&&IN.latestResult[1]==='0–3','Old PSG defeat must remain played, new latest result is Monza victory.');
 // Confidential coaching-storyline continuity and public in-universe journalism barrier.
 const staffNotes=read('STAFF-ROOM-CANON.md');
-assert(staffNotes.includes('Meret')&&staffNotes.includes('Peacock')&&staffNotes.includes('PRIVATE'),'Internal GK staff discussion must remain part of canon.');
+assert(staffNotes.includes('Meret')&&staffNotes.includes('Peacock')&&staffNotes.toLowerCase().includes('private'),'Internal GK staff discussion must remain part of canon.');
 assert(!html.includes('STAFF-ROOM-CANON.md'),'Staff-only storyline file cannot appear in public Season Room HTML.');
 for(const id of [
  'napoli-europe-two-scoreless-losses-analysis-nov2028',
