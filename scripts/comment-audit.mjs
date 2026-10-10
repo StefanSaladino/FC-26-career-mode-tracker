@@ -184,6 +184,7 @@ assert(JD.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[2]===2,'Paz offi
 assert(JD.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Historic Pio goals unexpectedly changed.');
 assert(juveFixture.played&&JD.upcoming[0][0]==='Sampdoria'&&!JD.upcoming.some(x=>x[0]==='Juventus'),'Juventus should be final and Sampdoria next.');
 assert(JD.latestResult[0]==='JUV'&&JD.latestResult[1]==='0–2'&&JD.latestResult[2]==='NAP','Latest result widget stale.');
+assert(!JD.whispers.some(w=>/89.? winner/i.test(w[1])),'89th minute was the second goal; the 37th was the match winner.');
 const JT=JD.serieAStandings.rows;
 assert(JT.length===6,'Only the six photographed teams should be displayed.');
 assert(JT[0][0]==='Napoli'&&JT[0][8]===22&&JT[0][7]===10,'Napoli not first on 22.');
