@@ -1,14 +1,24 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## LATEST CANON · 13 OCTOBER 2028 · ROMA 1–0 NAPOLI (AWAY) · 44-MATCH LEAGUE STREAK ENDS
+
+- **Full time confirmed by manager:** Roma **1–0 Napoli**, 13 October 2028, away in Serie A. **Niccolò Pisilli** scored in the **first half**, after a scramble following a whipped-in corner. Halftime Roma **1–0** Napoli; full time **1–0**. **Do not invent Pisilli's precise minute**, Roma’s assist, other major chances, substitutions, or unconfirmed players responsible for the scramble.
+- This is **Napoli’s first league defeat after 44 consecutive undefeated Serie A fixtures**: all **38** in the 2027–28 Invincibles Scudetto season (**28W 10D 0L**), followed by the **first six** of 2028–29 (**5W 1D 0L**). The Roma match was the 45th. Avoid mistakenly describing a 45-game unbeaten streak.
+- **Updated 2028–29 Napoli Serie A:** **7 played, 5W 1D 1L, 16 points, 9 GF, 3 GA, +6 GD, four clean sheets**. No scorers or assistants credited to Napoli at Roma; no changes to individual club goal/assist totals. Champions League still 1W 1D, four points, pending Slavia. Italy October friendlies remain separate, as previously documented.
+- Latest Napoli article is **“FORTY-FOUR MATCHES. ONE CORNER SCRAMBLE. THE STREAK IS OVER.”** and companion opinion **“THE INVINCIBLES ARE FINALLY BEATEN. NOW COMES THE HARDER TEST.”** Files: `post-roma-streak-ends-oct-2028.js`, `state-roma-loss-oct-2028.js`, and `comments-roma-first-defeat-curated.js` (50 top-level comments, 72 replies across two pieces). Roma supporter reactions included; **all fan comments are fictional in-universe** and do not establish on-field events.
+- **Next Napoli fixture:** Slavia Prague **home**, Champions League, **17 October 2028**; then Empoli home 21 October, Juventus away 25 October, Sampdoria home 28 October, Arsenal away in UCL 31 October.
+- **Editorial priority:** Roma first league defeat is the lead hero and ticker. Prior San Siro win, Italy friendly note and Leverkusen draw are archived underneath, retaining their dates and historical facts. The 44-game run was exceptional; one defeat ends the sequence but does not undo last season’s invincible title.
+
+
 ## ITALY INTERNATIONAL WINDOW · 6 & 10 OCTOBER 2028 (FRIENDLIES, NOT COMPETITIVE)
 
 - **6 October, Italy 2–0 Côte d’Ivoire (home)** — Pio Esposito scored **both goals**. Minutes and assists unconfirmed.
 - **10 October, Tunisia 0–2 Italy (away)** — Moise Kean scored **both goals**, with **both assists from Pio Esposito**. Minutes unconfirmed.
-- **Pio’s window: 2 goals + 2 assists**; Kean 2 goals. These are **national-team friendlies** only. **Do not** add any production to Napoli club stats or treat the games as qualification/tournament points. Editorial significance deliberately modest; Italy article is **below the Milan main package**, not the homepage lead. Napoli latest remains the 1 October away 2–1 win over Milan, league 16 points (5W 1D), next club match **Roma away 13 October**.
+- **Pio’s window: 2 goals + 2 assists**; Kean 2 goals. These are **national-team friendlies** only. **Do not** add any production to Napoli club stats or treat the games as qualification/tournament points. Editorial significance deliberately modest; Italy article is **below the Milan main package**, not the homepage lead. That Milan result was the most recent at this earlier snapshot; Roma away on 13 October has now been completed (see current canon at top).
 - Site files: `post-italy-oct-friendlies-2028.js`, `state-italy-oct-friendlies-2028.js`, `comments-italy-friendlies-oct-2028.js` (eight modest authored reactions).
 
 
-**CURRENT / MOST RECENT RESULT (as manager-confirmed 1 October 2028).** See the section immediately below; older “latest” captions further down are historical snapshots.
+**HISTORICAL RESULT SNAPSHOT (as manager-confirmed 1 October 2028).** See the section immediately below; older “latest” captions further down are historical snapshots.
 
 ## LATEST CONFIRMED FULL TIME · 1 OCTOBER 2028 · AC MILAN 1–2 NAPOLI · SAN SIRO (AWAY)
 
