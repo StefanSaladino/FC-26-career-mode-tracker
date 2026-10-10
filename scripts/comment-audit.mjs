@@ -21,6 +21,10 @@ assert(scripts.indexOf('post-slavia-comeback-oct-2028.js')>scripts.indexOf('post
 assert(scripts.indexOf('post-slavia-comeback-oct-2028.js')<scripts.indexOf('app.js'),'Slavia stories must load before rendering.');
 assert(scripts.indexOf('state-slavia-17-oct-2028.js')<scripts.indexOf('app.js'),'Slavia result must load before rendering.');
 assert(scripts.indexOf('comments-slavia-comeback-curated.js')<scripts.indexOf('comments-engine-v2.js'),'Slavia comments must load before renderer.');
+assert(scripts.indexOf('post-empoli-title-race-juve-oct-2028.js')>scripts.indexOf('post-slavia-comeback-oct-2028.js'),'Empoli and title race package should follow Slavia.');
+assert(scripts.indexOf('post-empoli-title-race-juve-oct-2028.js')<scripts.indexOf('app.js'),'October title-race stories should load before app.');
+assert(scripts.indexOf('state-empoli-standings-juve-oct-2028.js')<scripts.indexOf('app.js'),'Empoli stats and photographed Serie A table should load before app.');
+assert(scripts.indexOf('comments-empoli-title-race-juve-2028.js')<scripts.indexOf('comments-engine-v2.js'),'October comments must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -62,6 +66,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['bergamo-stumble-turin-title-race-oct-2028',18,25],
+ ['napoli-empoli-davies-paz-clean-sheet-oct-2028',18,21],
+ ['juventus-napoli-turin-preview-title-oct-2028',18,19],
+ ['milan-inter-struggle-new-powers-oct-2028',18,19],
  ['slavia-beier-pio-3-2-oct-2028',36,53],
  ['pio-beier-triple-assist-oct-2028',22,24],
  ['slavia-rotation-gamble-doubts-oct-2028',26,28],
@@ -118,6 +126,35 @@ assert(SD.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===4,'Pio 
 assert(SD.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Historical Napoli stats overwritten.');
 assert(SD.upcoming[0][0]==='Empoli'&&slaviaFixture.played,'Next fixture not updated.');
 assert(SD.latestResult[0]==='NAP'&&SD.latestResult[1]==='3–2','Latest match widget stale.');
+// FC26 October standings screenshot and 21 October home victory: no fabricated Juve result.
+const empCtx={window:{NAPOLI_DATA:{}}};
+const ED=empCtx.window.NAPOLI_DATA;
+ED.results=[];ED.results2028=[];
+const empFixture={date:'2028-10-21',team:'Napoli',opponent:'Empoli',competition:'Serie A',venue:'Home',verified:true};
+ED.fixtures2028=[empFixture,{date:'2028-10-25',team:'Napoli',opponent:'Juventus',competition:'Serie A',venue:'Away',verified:true}];
+ED.seasonState={league:{played:7,w:5,d:1,l:1,points:16,gf:9,ga:3},ucl:{played:3,w:2,d:1,l:0,points:7,gf:8,ga:6}};
+ED.statsBySeason={'2027–28':[['Alphonso Davies',5,5,'Archive']],'2028–29':[['Alphonso Davies',1,0,'Current'],['Michael Olise',0,1,'Current'],['Nico Paz',0,1,'Current'],['Scott McTominay',0,5,'Current'],['Maximilian Beier',9,2,'Current'],['Pio Esposito',4,4,'Current']]};
+vm.createContext(empCtx);
+vm.runInContext(read('state-empoli-standings-juve-oct-2028.js'),empCtx,{filename:'state-empoli-standings-juve-oct-2028.js',timeout:3000});
+assert(ED.results.length===1&&ED.results[0][1]==='Empoli'&&ED.results[0][3]===2&&ED.results[0][4]===0,'Empoli result incorrect.');
+assert(ED.seasonState.league.played===8&&ED.seasonState.league.w===6&&ED.seasonState.league.d===1&&ED.seasonState.league.l===1&&ED.seasonState.league.points===19&&ED.seasonState.league.gf===11&&ED.seasonState.league.ga===3,'After-Empoli league state wrong.');
+assert(ED.seasonState.ucl.points===7&&ED.seasonState.ucl.ga===6,'Empoli match incorrectly altered UCL.');
+assert(ED.statsBySeason['2028–29'].find(r=>r[0]==='Alphonso Davies')[1]===2,'Davies second league goal missing.');
+assert(ED.statsBySeason['2028–29'].find(r=>r[0]==='Michael Olise')[2]===2,'Olise real assist missing or offside goal counted.');
+assert(ED.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[1]===1,'Nico first goal missing.');
+assert(ED.statsBySeason['2028–29'].find(r=>r[0]==='Scott McTominay')[2]===6,'McTominay sixth assist missing.');
+assert(ED.statsBySeason['2027–28'][0][1]===5,'Old player totals must remain.');
+assert(empFixture.played&&ED.upcoming[0][0]==='Juventus','Juventus away should be next and unplayed.');
+const T=ED.serieAStandings.rows;
+assert(T.length===13,'Expected 13 photographed teams only.');
+assert(T[0][0]==='Atalanta'&&T[0][1]===9&&T[0][4]===1&&T[0][8]===20,'Atalanta first loss missing.');
+assert(T[1][0]==='Napoli'&&T[1][1]===8&&T[1][8]===19,'Napoli photographed table record missing.');
+assert(T[2][0]==='Roma'&&T[2][4]===0&&T[2][8]===18,'Roma unbeaten position incorrect.');
+assert(T[3][0]==='Juventus'&&T[3][8]===17,'Juventus now have 17, not 14.');
+assert(T[6][0]==='AC Milan'&&T[6][8]===13,'AC Milan seventh with 13.');
+assert(T[8][0]==='Inter'&&T[8][8]===10,'Inter ninth with ten.');
+assert(T.every(r=>r[2]+r[3]+r[4]===r[1]&&r[5]-r[6]===r[7]&&r[2]*3+r[3]===r[8]),'Photographed table rows fail arithmetic validation.');
+assert(ED.results.every(r=>r[1]!=='Juventus'),'Do not publish a Juventus result before playing.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
