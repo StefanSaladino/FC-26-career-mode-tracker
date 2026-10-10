@@ -2,7 +2,7 @@
 const e=id=>document.getElementById(id);
 if(e('tickerTrack'))e('tickerTrack').innerHTML=[...D.ticker,...D.ticker].map(s=>'<span>'+s+'</span>').join('');
 if(e('latestResult')&&Array.isArray(D.latestResult)){const r=D.latestResult;e('latestResult').innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
-if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Napoli 3–2 Slavia Prague</span></div>';}
+if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Arsenal 2–0 Napoli</span></div>';}
 if(e('nextTwo'))e('nextTwo').innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
 if(e('upcomingStrip'))e('upcomingStrip').innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
 const row=x=>'<div class="formation-row"><span>'+x[0]+'</span><strong>'+x[1]+'</strong><b>'+x[2]+'</b></div>';
@@ -58,10 +58,20 @@ const oldGenoa=[...el.children].filter(x=>x.classList.contains('match-card')&&x.
 oldGenoa.forEach(x=>x.remove());
 const genoa=document.createElement('div');genoa.className='match-card';
 genoa.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · Nov 2028 · exact date and venue unconfirmed</span><strong>Napoli <b>1–0</b> Genoa</strong><p>McTominay 67′ (Davies assist) · Beier 36′ ruled offside, NO GOAL · Jankowski saves from De Bruyne, Davies and others · HT 0–0 · EIGHTH league clean sheet</p></div>';
-el.prepend(genoa);}
+el.prepend(genoa);
+if(D.italyNovember2028?.played===2){
+const senegal=document.createElement('div');senegal.className='match-card';
+senegal.innerHTML='<div class="result-badge D">D</div><div class="match-main"><span>Italy · International Friendly · Nov 2028 · exact date/venue unconfirmed</span><strong>Italy <b>1–1</b> Senegal</strong><p>Pio Esposito goal (Kean assist) · Donnarumma saves penalty</p></div>';el.prepend(senegal);
+const turkey=document.createElement('div');turkey.className='match-card';
+turkey.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>Italy · International Friendly · Nov 2028 · exact date/venue unconfirmed</span><strong>Italy <b>2–1</b> Turkey</strong><p>Pio Esposito scores twice · First from Kean assist · Second rebound UNASSISTED</p></div>';el.prepend(turkey);
+}}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});if(!D.fixtures2028.some(f=>!f.played)&&D.nextInternationalWindow?.stage==='Upcoming'){
 const international=document.createElement('div');international.className='match-card';
 international.innerHTML='<div class="result-badge">INT</div><div class="match-main"><span>International break · Italy national team</span><strong>Friendlies upcoming — opponents to be confirmed</strong><p>Exact dates, venues and call-ups have not been verified. Manager Saladino returns to national team duty.</p></div>';
 list.appendChild(international);}
+if(!D.fixtures2028.some(f=>!f.played)&&D.nextClubMatch?.confirmedNext&&!D.nextClubMatch.played){
+const fixture=document.createElement('div');fixture.className='match-card';
+fixture.innerHTML='<div class="result-badge">NEXT</div><div class="match-main"><span>Serie A · Next Napoli game</span><strong>Atalanta (Bergamo Calcio)</strong><p>Date, venue and starting XI not yet confirmed · Major Scudetto matchup after Italy friendlies</p></div>';
+list.appendChild(fixture);}
 e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
