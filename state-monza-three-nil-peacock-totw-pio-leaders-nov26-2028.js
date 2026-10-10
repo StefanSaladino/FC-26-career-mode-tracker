@@ -1,7 +1,7 @@
 /* MANAGER-CONFIRMED NAPOLI 2028-29 · 26 NOVEMBER 2028 · MONZA 0–3 NAPOLI FT.
  43′ Maximilian Beier (Pio Esposito assist), 48′ Pio Esposito (Maximilian Beier assist),
  53′ Maximilian Beier (Pio Esposito assist). No later goals, FT 3–0.
- PEACOCK STARTED IN GOAL: manager reported breakaway save during game, keeper finished
+ PEACOCK STARTED IN GOAL: breakaway save observed during game, keeper finished
  with clean sheet and was named SERIE A TEAM OF THE WEEK (manager confirmed afterward).
  Other keeper saves, rating, exact breakaway minute, full XI and outfield substitutions UNKNOWN.
  Pio manager-confirmed JOINT LEADER Serie A goal scorer and OUTRIGHT ASSISTS LEADER after Monza.
@@ -11,7 +11,7 @@
  UCL remains 5P 7pts, 8GF10GA; Italy NT unchanged. */
 (()=>{const D=window.NAPOLI_DATA;if(!D)return;
 const row=['Napoli','Monza','Serie A',3,0,'W','26 Nov 2028 · Away',
- 'MONZA 0–3 NAPOLI FT · 43′ Beier (Pio assist), 48′ Pio (Beier assist), 53′ Beier (Pio assist) · Halftime 0–1 based on reported 43′ opener and next goal 48′ · Peacock starts, makes breakaway save (minute unknown), earns clean sheet, named Serie A Team of the Week · other match events and substitutions not supplied.'];
+ 'MONZA 0–3 NAPOLI FT · 43′ Beier (Pio assist), 48′ Pio (Beier assist), 53′ Beier (Pio assist) · Halftime 0–1 based on reported 43′ opener and next goal 48′ · Peacock starts, makes breakaway save (minute unknown), earns clean sheet, named Serie A Team of the Week.']'];
 for(const key of ['results','results2028']){
  D[key]=D[key]||[];
  const i=D[key].findIndex(x=>x[0]==='Napoli'&&x[1]==='Monza'&&x[2]==='Serie A'&&String(x[6]).includes('26 Nov 2028'));
@@ -26,7 +26,7 @@ D.monzaNovember2028={played:true,fullTime:true,date:'2028-11-26',venue:'Away',co
  peacock:{started:true,cleanSheet:true,teamOfWeek:true,breakawaySave:true,breakawaySaveMinute:null,
  totalSaves:null,rating:null,teamOfWeekSource:'Manager confirmed after Monza 0–3 Napoli FT'},
  outfieldSubstitutionsConfirmed:false,disciplinaryEventsConfirmed:false,
- note:'Manager announced three goals, Peacock breakaway save, FT and then Peacock Team of the Week. Do not invent full XI, shot count, assist extras or ratings.'
+ note:'Public match chronicle: three recorded Napoli goals, goalkeeper breakaway save, FT and league Team of the Week. Other events are not established.'
 };
 D.latestResult=['MON','0–3','NAP','SERIE A · 26 NOV 2028 · FT · BEIER 43′,53′ (PIO BOTH) · PIO 48′ (BEIER) · PEACOCK CLEAN SHEET / TEAM OF THE WEEK'];
 D.seasonState={...(D.seasonState||{}),league:{...(D.seasonState?.league||{}),
@@ -45,17 +45,16 @@ if(D.serieAStandings?.rows){
  D.serieAStandings.source='Napoli result manager-confirmed 26 Nov; all rival rows manager-photo verified after Atalanta but NOT updated to 13th game';
 }
 D.titleRaceSnapshot2028={...(D.titleRaceSnapshot2028||{}),
- confirmed:false,date:'26 November 2028 · Napoli after Monza; Roma and rivals still photographed after 12 matches',
+ confirmed:false,date:'26 November 2028 · Napoli after Monza; Roma and rivals from prior 12-match standings',
  napolirank:1,napolipoints:34,romapoints:30,
  table:D.serieAStandings?.rows||[],confirmedRivalCurrent:false,
  notes:'Napoli 34 points after 13 games. Last CONFIRMED Roma: 30pts after 12, unbeaten 9W3D; whether they have played game 13 is unknown. Do not assert a four-point current gap or record a Roma result.'};
 D.tableContext='AFTER MONZA 0–3 NAPOLI 26 NOV 2028: Napoli have 13 Serie A games, 11W1D1L, 34pts, 26GF 5GA +21, nine clean sheets. Pio tied league goals lead and leads league assists (counts/rival name unknown). Other top-five rivals from previous screenshot AFTER ATALANTA: Roma 30pts/12 unbeaten, Atalanta 24pts/12, Juventus 22pts/12, Milan 22pts/12, Lazio 20pts/12. Other clubs have not been refreshed to matchday 13; gap to Roma currently cannot be asserted. Last UCL Napoli 0–2 PSG, 5P 7pts, 8GF 10GA.';
-D.goalkeeperReview2028={...(D.goalkeeperReview2028||{}),
- latestVerified:'Monza 0–3 Napoli away 26 Nov 2028: Peacock started, made a breakaway save, kept clean sheet, and was selected for Serie A Team of the Week.',
- proposedNextStart:{opponent:'Monza',date:'2028-11-26',venue:'Away',competition:'Serie A',status:'COMPLETED; Peacock actually started and saved breakaway'},
+// Public-facing goalkeeper information is limited to observed match events and official honours.
+D.goalkeeperReview2028={publicFactsOnly:true,
+ latestVerified:'Monza 0–3 Napoli away 26 Nov 2028: Peacock started, made a breakaway save, kept a clean sheet, and was selected for Serie A Team of the Week.',
  peacockSelectedConfirmed:true,peacockMonzaStartedConfirmed:true,peacockCleanSheetConfirmed:true,peacockTeamOfWeekConfirmed:true,
- meretDroppedConfirmed:false,permanentChangeConfirmed:false,
- futureGoalkeeperDecisions:'Not confirmed: selection for Udinese 2 Dec or Borussia Dortmund 5 Dec.'};
+ nextGoalkeeperSelection:'Udinese 2 Dec and Borussia Dortmund 5 Dec starting goalkeepers not yet announced'};
 const season=D.statsBySeason?.['2028–29'];
 if(Array.isArray(season)){
  const totals=[
@@ -92,7 +91,7 @@ D.whispers=[
  ['PIO AT THE TOP OF BOTH RACES','Manager confirms Pio Esposito is tied for the Serie A scoring lead and leads Serie A outright for assists after Monza. Exact league-only counts and his co-leader remain unconfirmed.'],
  ['THE PARTNERSHIP STRIKES AGAIN','Beier 43′ (Pio), Pio 48′ (Beier), Beier 53′ (Pio): three straight goals, all direct Pio-Beier combinations, in the 3–0 away victory.'],
  ['SCUDETTO · 34 POINTS','Napoli have 34 points from 13, 26 scored and five conceded with nine clean sheets. Roma last pictured on 30 from 12; current title-race gap unverified.'],
- ['PEACOCK OR MERET NEXT?','Peacock started and made Team of the Week vs Monza; no confirmed goalkeeper selection yet for Udinese or Dortmund.'],
+ ['NEXT LINE-UP AWAITS','Peacock made Serie A Team of the Week after Monza; Udinese and Dortmund line-ups are yet to be announced.'],
  ['EUROPE NEXT WEEK','Udinese home on 2 Dec; Borussia Dortmund away in UCL 5 Dec. PSG and Arsenal previously blanked Napoli 2–0 each.'],
  ...(D.whispers||[]).filter(x=>!x[0].includes('NEXT · 26 NOV')&&!x[0].includes('PEACOCK IN CONTENTION')).slice(0,4)
 ];
