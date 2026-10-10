@@ -33,6 +33,11 @@ const oldSlavia=[...el.children].filter(x=>x.classList.contains('match-card')&&x
 oldSlavia.forEach(x=>x.remove());
 const slavia=document.createElement('div');slavia.className='match-card';
 slavia.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Champions League · 17 Oct 2028 · Home</span><strong>Napoli <b>3–2</b> Slavia Prague</strong><p>Slavia: Chytil 17′, Moses 22′ · Napoli: Beier 36′, 64′, 71′ (Pio Esposito assists on all three) · Slavia hit post late</p></div>';
-el.prepend(slavia);}
+el.prepend(slavia);
+const oldEmpoli=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Empoli')&&x.textContent.includes('21 Oct 2028'));
+oldEmpoli.forEach(x=>x.remove());
+const empoli=document.createElement('div');empoli.className='match-card';
+empoli.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 21 Oct 2028 · Home</span><strong>Napoli <b>2–0</b> Empoli</strong><p>Davies 12′ (Olise cross), Nico Paz 80′ (McTominay) · Olise 23′ disallowed for offside · Paz hit post 90+3′ · clean sheet</p></div>';
+el.prepend(empoli);}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
