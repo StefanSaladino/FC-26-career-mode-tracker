@@ -585,7 +585,7 @@ for(const id of ['psg-two-nil-kvaratskhelia-again-nov-21-2028','napoli-europe-tw
 // The Atalanta Pio/Beier substitution debate also stays staff-room only.
 assert(staffNotes.includes('Atalanta 6–2')&&staffNotes.includes('midfield and defensive rotation'),'Private Atalanta coaching plan must remain canon.');
 const publicAtalanta=IN.articles.find(x=>x.id==='pio-esposito-stays-ruthless-sixth-goal-atalanta-2028');
-assert(publicAtalanta&&publicAtalanta.headline.includes('ESPOSITO'),'Public Atalanta story is Pio's visible performance, not manager versus assistant.');
+assert(publicAtalanta&&publicAtalanta.headline.includes('ESPOSITO'),'Public Atalanta story covers the Pio hat-trick, not manager versus assistant.');
 for(const txt of [publicAtalanta.headline,publicAtalanta.dek,...publicAtalanta.body])assert(!/assistant manager|saladino.*overrul|manager.*(?:decided|rejected|told)|midfield and defensive rotation/i.test(txt),'Private Atalanta dressing-room talk leaked into article.');
 for(const post of thread('pio-esposito-stays-ruthless-sixth-goal-atalanta-2028')){
  for(const txt of [post.t,...post.replies.map(x=>x.t)])assert(!/assistant manager|assistant:|manager:|mister.*(?:said|bought)|coach.*clipboard/i.test(txt),'Private Atalanta dressing-room talk leaked into comments.');
