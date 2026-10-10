@@ -48,6 +48,11 @@ const oldSamp=[...el.children].filter(x=>x.classList.contains('match-card')&&x.t
 oldSamp.forEach(x=>x.remove());
 const samp=document.createElement('div');samp.className='match-card';
 samp.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 28 Oct 2028 · Home</span><strong>Napoli <b>3–0</b> Sampdoria</strong><p>De Bruyne 27′ (Paz), Beier 52′ (Pio), Pio 70′ (Beier) · Beier on at halftime · heavy rotation before Arsenal · seventh Serie A clean sheet</p></div>';
-el.prepend(samp);}
+el.prepend(samp);
+const oldArsenal=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Arsenal')&&x.textContent.includes('31 Oct 2028'));
+oldArsenal.forEach(x=>x.remove());
+const arsenal=document.createElement('div');arsenal.className='match-card';
+arsenal.innerHTML='<div class="result-badge L">L</div><div class="match-main"><span>2028–29 · Champions League · 31 Oct 2028 · Away</span><strong>Arsenal <b>2–0</b> Napoli</strong><p>Merino and Martinelli scored (goal minutes and order unconfirmed) · Pio wide 4′, Raya save 11′ · HT 0–0, Arsenal zero shots on target first half · Paz and Calafiori both entered early second half, both on for second Arsenal goal</p></div>';
+el.prepend(arsenal);}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
