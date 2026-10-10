@@ -11,7 +11,7 @@
  UCL remains 5P 7pts, 8GF10GA; Italy NT unchanged. */
 (()=>{const D=window.NAPOLI_DATA;if(!D)return;
 const row=['Napoli','Monza','Serie A',3,0,'W','26 Nov 2028 · Away',
- 'MONZA 0–3 NAPOLI FT · 43′ Beier (Pio assist), 48′ Pio (Beier assist), 53′ Beier (Pio assist) · Halftime 0–1 based on reported 43′ opener and next goal 48′ · Peacock starts, makes breakaway save (minute unknown), earns clean sheet, named Serie A Team of the Week.']'];
+ 'MONZA 0–3 NAPOLI FT · 43′ Beier (Pio assist), 48′ Pio (Beier assist), 53′ Beier (Pio assist) · Halftime 0–1 based on reported 43′ opener and next goal 48′ · Peacock starts, makes breakaway save (minute unknown), earns clean sheet, named Serie A Team of the Week.'];
 for(const key of ['results','results2028']){
  D[key]=D[key]||[];
  const i=D[key].findIndex(x=>x[0]==='Napoli'&&x[1]==='Monza'&&x[2]==='Serie A'&&String(x[6]).includes('26 Nov 2028'));
