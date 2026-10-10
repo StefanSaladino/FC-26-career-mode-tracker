@@ -556,6 +556,32 @@ assert(IN.verifiedUpcoming2028.length===7&&IN.verifiedUpcoming2028[0].opponent==
 assert(IN.fixtures2028.find(f=>f.date==='2028-11-26'&&f.opponent==='Monza').played===true,'Monza should be a completed fixture, not upcoming.');
 assert(IN.upcoming.length===7&&IN.upcoming[0][0]==='Udinese'&&IN.upcoming[1][0]==='Dortmund','Schedule updated to Udinese first and Dortmund second.');
 assert(IN.psgNovember2028.played===true&&IN.latestResult[1]==='0–3','Old PSG defeat must remain played, new latest result is Monza victory.');
+// Confidential coaching-storyline continuity and public in-universe journalism barrier.
+const staffNotes=read('STAFF-ROOM-CANON.md');
+assert(staffNotes.includes('Meret')&&staffNotes.includes('Peacock')&&staffNotes.includes('PRIVATE'),'Internal GK staff discussion must remain part of canon.');
+assert(!html.includes('STAFF-ROOM-CANON.md'),'Staff-only storyline file cannot appear in public Season Room HTML.');
+for(const id of [
+ 'napoli-europe-two-scoreless-losses-analysis-nov2028',
+ 'monza-away-title-race-scudetto-preview-nov-26-2028',
+ 'peacock-monza-clean-sheet-serie-a-team-of-week-2028',
+ 'beier-pio-triple-combination-monza-three-nil-nov-2028',
+ 'pio-joint-serie-a-golden-boot-top-assist-leader-monza-2028',
+ 'napoli-34-points-udinese-dortmund-december-preview-2028'
+]){
+ const a=IN.articles.find(x=>x.id===id);
+ assert(a,'Missing rewritten football article: '+id);
+ const prose=[a.headline,a.dek,...a.body].join(' ').toLowerCase();
+ for(const forbidden of ['saladino complained','saladino questioned meret','the manager complained','the manager said','the manager reported','manager-confirmed','manager-supplied','assistant manager recommended','not supplied by manager','the manager has not supplied','peacock was proposed']){
+  assert(!prose.includes(forbidden),'Private meeting leak or fourth wall in newsroom article '+id+': '+forbidden);
+ }
+ assert(thread(id).length>0,'Revised article lost supporter discussion: '+id);
+}
+for(const id of ['psg-two-nil-kvaratskhelia-again-nov-21-2028','napoli-europe-two-scoreless-losses-analysis-nov2028','monza-away-title-race-scudetto-preview-nov-26-2028','peacock-monza-clean-sheet-serie-a-team-of-week-2028','beier-pio-triple-combination-monza-three-nil-nov-2028','pio-joint-serie-a-golden-boot-top-assist-leader-monza-2028','napoli-34-points-udinese-dortmund-december-preview-2028']){
+ for(const post of thread(id))for(const txt of [post.t,...post.replies.map(x=>x.t)]){
+  const v=txt.toLowerCase();
+  assert(!v.includes('manager said')&&!v.includes('manager confirmed')&&!v.includes('assistant manager thinks')&&!v.includes('according to mister'),'A fan comment improperly knows staff-only discussions on '+id);
+ }
+}
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
