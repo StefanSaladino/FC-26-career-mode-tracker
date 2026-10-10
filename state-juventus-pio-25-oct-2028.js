@@ -38,8 +38,8 @@ D.whispers=[
  ['TURIN IS BLUE','Pio Esposito scored 37′ and 89′ to beat Juventus 2–0. Di Gregorio denied Beier 20′ and Pio 43′.'],
  ['ROMA ONLY ONE BACK','Unbeaten Roma move second on 21 points, +15 goal difference. They ended Napoli’s 44-game league streak earlier this month.'],
  ['ATALANTA DOWN TO THIRD','Atalanta’s first defeat leaves them on 20 after nine. Napoli 22 and Roma 21 now lead the table.'],
- ['PIO'S SIXTH','Two rebounds, two goals in Turin. Pio now has six confirmed Napoli club goals and four assists in 2028–29.'],
- ['PAZ'S OFFICIAL ASSIST','Nico Paz played Pio through for the 89′ second goal and the game awarded him the assist despite the save and rebound.'],
+ ['PIO SIXTH GOAL','Two rebounds, two goals in Turin. Pio now has six confirmed Napoli club goals and four assists in 2028–29.'],
+ ['PAZ OFFICIAL ASSIST','Nico Paz played Pio through for the 89′ second goal and the game awarded him the assist despite the save and rebound.'],
  ['MILAN CLIMB','AC Milan are up to fifth with 16 points; their opponent and scorers in the latest win are unconfirmed.'],
  ['NEXT · SAMPDORIA / ARSENAL','Sampdoria visit Napoli 28 October in Serie A before the Champions League trip to Arsenal 31 October.']
 ];
