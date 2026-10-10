@@ -23,6 +23,11 @@ const milanCards=[...el.children].filter(x=>x.classList.contains('match-card')&&
 milanCards.forEach(x=>x.remove());
 const milan=document.createElement('div');milan.className='match-card';
 milan.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 1 Oct 2028 · Away · San Siro</span><strong>AC Milan <b>1–2</b> Napoli</strong><p>Rabiot 55′ · Pio 68′ (McTominay) · Beier 90+1′ (McTominay) · 0–0 HT</p></div>';
-el.prepend(milan);}
+el.prepend(milan);
+const romaCards=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Roma')&&x.textContent.includes('13 Oct 2028'));
+romaCards.forEach(x=>x.remove());
+const roma=document.createElement('div');roma.className='match-card';
+roma.innerHTML='<div class="result-badge L">L</div><div class="match-main"><span>2028–29 · Serie A · 13 Oct 2028 · Away</span><strong>Roma <b>1–0</b> Napoli</strong><p>Pisilli first half · corner scramble · exact minute unconfirmed · 44-match league unbeaten run ends</p></div>';
+el.prepend(roma);}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
