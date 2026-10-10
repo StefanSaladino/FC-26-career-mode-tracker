@@ -2,7 +2,7 @@
 const e=id=>document.getElementById(id);
 if(e('tickerTrack'))e('tickerTrack').innerHTML=[...D.ticker,...D.ticker].map(s=>'<span>'+s+'</span>').join('');
 if(e('latestResult')&&Array.isArray(D.latestResult)){const r=D.latestResult;e('latestResult').innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
-if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Napoli 3–3 Leverkusen</span></div>';}
+if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Napoli 3–2 Slavia Prague</span></div>';}
 if(e('nextTwo'))e('nextTwo').innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
 if(e('upcomingStrip'))e('upcomingStrip').innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
 const row=x=>'<div class="formation-row"><span>'+x[0]+'</span><strong>'+x[1]+'</strong><b>'+x[2]+'</b></div>';
@@ -28,6 +28,11 @@ const romaCards=[...el.children].filter(x=>x.classList.contains('match-card')&&x
 romaCards.forEach(x=>x.remove());
 const roma=document.createElement('div');roma.className='match-card';
 roma.innerHTML='<div class="result-badge L">L</div><div class="match-main"><span>2028–29 · Serie A · 13 Oct 2028 · Away</span><strong>Roma <b>1–0</b> Napoli</strong><p>Pisilli first half · corner scramble · exact minute unconfirmed · 44-match league unbeaten run ends</p></div>';
-el.prepend(roma);}
+el.prepend(roma);
+const oldSlavia=[...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Slavia Prague')&&x.textContent.includes('17 Oct 2028'));
+oldSlavia.forEach(x=>x.remove());
+const slavia=document.createElement('div');slavia.className='match-card';
+slavia.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Champions League · 17 Oct 2028 · Home</span><strong>Napoli <b>3–2</b> Slavia Prague</strong><p>Slavia: Chytil 17′, Moses 22′ · Napoli: Beier 36′, 64′, 71′ (Pio Esposito assists on all three) · Slavia hit post late</p></div>';
+el.prepend(slavia);}
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');D.fixtures2028.filter(f=>!f.played).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
 })();
