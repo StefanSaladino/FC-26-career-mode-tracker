@@ -1,5 +1,13 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## ITALY INTERNATIONAL WINDOW · 6 & 10 OCTOBER 2028 (FRIENDLIES, NOT COMPETITIVE)
+
+- **6 October, Italy 2–0 Côte d’Ivoire (home)** — Pio Esposito scored **both goals**. Minutes and assists unconfirmed.
+- **10 October, Tunisia 0–2 Italy (away)** — Moise Kean scored **both goals**, with **both assists from Pio Esposito**. Minutes unconfirmed.
+- **Pio’s window: 2 goals + 2 assists**; Kean 2 goals. These are **national-team friendlies** only. **Do not** add any production to Napoli club stats or treat the games as qualification/tournament points. Editorial significance deliberately modest; Italy article is **below the Milan main package**, not the homepage lead. Napoli latest remains the 1 October away 2–1 win over Milan, league 16 points (5W 1D), next club match **Roma away 13 October**.
+- Site files: `post-italy-oct-friendlies-2028.js`, `state-italy-oct-friendlies-2028.js`, `comments-italy-friendlies-oct-2028.js` (eight modest authored reactions).
+
+
 **CURRENT / MOST RECENT RESULT (as manager-confirmed 1 October 2028).** See the section immediately below; older “latest” captions further down are historical snapshots.
 
 ## LATEST CONFIRMED FULL TIME · 1 OCTOBER 2028 · AC MILAN 1–2 NAPOLI · SAN SIRO (AWAY)
