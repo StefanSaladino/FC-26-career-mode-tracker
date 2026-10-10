@@ -1,6 +1,8 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
 ## CURRENT CANON · 28 OCTOBER 2028 · NAPOLI 3–0 SAMPDORIA · ARSENAL AWAY NEXT
+**Arsenal pregame selection:** Manager chooses Nico Paz and Riccardo Calafiori to begin on the BENCH; both are intended to come on later. These are plans, NOT completed substitutes. Note possible controversy for future stories, especially Paz's good form and Calafiori's former Arsenal history. See EDITORIAL-NOTE-ARSENAL-XI-2028-10-31.md.
+
 
 **Arsenal 31 Oct 2028 manager-confirmed PREMATCH SELECTION DECISION (not actual match events):** Manager accepted the 4-2-3-1 plan to start **Nico Paz and Riccardo Calafiori ON THE BENCH** despite Paz's current 1G/3A and Calafiori's high-profile status/former Arsenal link in this save. Manager intends to bring **BOTH on LATER IN THE ARSENAL MATCH**; no exact sub minute, player replaced, match score or completed substitutions confirmed. Proposed outfield starters: Cucurella, Bastoni, Buongiorno, Kayode; McTominay, João Neves; Davies, Beier in the advanced CAM role, Olise; Pio ST (Meret GK). The manager may revise at kickoff; recorded plan is NOT an in-game appearance. This could become a **controversial selection narrative** regardless of result; evaluate from confirmed match events only, avoid invented locker-room objections, and no publication of outcomes in advance. See [Arsenal XI editorial note](EDITORIAL-NOTE-ARSENAL-XI-2028-10-31.md) for precise framing and later story hooks.
 
