@@ -42,6 +42,10 @@ assert(scripts.indexOf('post-genoa-mctominay-67-international-break-2028.js')>sc
 assert(scripts.indexOf('post-genoa-mctominay-67-international-break-2028.js')<scripts.indexOf('app.js'),'Genoa article data must load before snapshot.');
 assert(scripts.indexOf('state-genoa-mctominay-67-break-2028.js')<scripts.indexOf('app.js'),'Genoa result/stat state must load before render.');
 assert(scripts.indexOf('comments-genoa-italy-break-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Genoa comment thread must load before renderer.');
+assert(scripts.indexOf('post-italy-senegal-turkey-atalanta-preview-2028.js')>scripts.indexOf('post-genoa-mctominay-67-international-break-2028.js'),'Latest Italy/Atalanta preview must follow Genoa stories.');
+assert(scripts.indexOf('post-italy-senegal-turkey-atalanta-preview-2028.js')<scripts.indexOf('app.js'),'Atalanta preview must load before initial rendering.');
+assert(scripts.indexOf('state-italy-senegal-turkey-atalanta-next-2028.js')<scripts.indexOf('app.js'),'New international results and next fixture must load before rendering.');
+assert(scripts.indexOf('comments-italy-senegal-turkey-atalanta-preview-2028.js')<scripts.indexOf('comments-engine-v2.js'),'New supporter comments must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -83,6 +87,8 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['atalanta-next-title-test-after-italy-friendlies-2028',16,16],
+ ['pio-kean-senegal-turkey-friendlies-2028',12,12],
  ['mctominay-67-jankowski-genoa-win-nov-2028',18,20],
  ['jankowski-saves-beier-offside-genoa-nov-2028',17,18],
  ['napoli-28-points-eight-clean-sheets-genoa-2028',17,17],
@@ -310,6 +316,41 @@ vm.runInContext(read('post-genoa-mctominay-67-international-break-2028.js'),geno
 assert(GN.hero.articleId==='mctominay-67-jankowski-genoa-win-nov-2028'&&GN.articles.length===4,'Genoa lead hero missing.');
 assert(GN.articles.every(a=>a.body.length>=6&&a.image&&a.headline),'Genoa/new international feature must contain longform copy and a real archive asset.');
 assert(GN.articles.some(a=>a.id==='italy-friendlies-international-break-napoli-nov-2028'&&a.body.join(' ').includes('opponents, dates and venues have not yet been supplied')),'International break story should avoid invented schedules.');
+// Senegal/Turkey Italy friendlies and manager-confirmed Atalanta NEXT: no invented match events or dates.
+const italyNext={window:{NAPOLI_DATA:{
+ articles:[],results:[['Napoli','Genoa','Serie A',1,0,'W','November 2028 · unconfirmed date','McTominay 67′ from Davies']],
+ results2028:[],fixtures2028:[],
+ seasonState:{league:{played:11,w:9,d:1,l:1,points:28,gf:17,ga:3},ucl:{played:4,w:2,d:1,l:1,points:7,gf:8,ga:8}},
+ italyOctober2028:{played:2,wins:2,players:[{name:'Pio Esposito',goals:2,assists:2},{name:'Moise Kean',goals:2,assists:0}]},
+ nextInternationalWindow:{stage:'Upcoming',opponentsVerified:false},
+ latestResult:['NAP','1–0','GEN','McTominay 67′'],
+ statsBySeason:{'2027–28':[['Pio Esposito',29,12,'archive']],'2028–29':[['Pio Esposito',7,5,'current'],['Scott McTominay',1,6,'current'],['Maximilian Beier',10,3,'current']]},
+ upcoming:[['Italy friendlies','International Friendly','TBC']],ticker:[],whispers:[]
+}}};
+vm.createContext(italyNext);
+vm.runInContext(read('state-italy-senegal-turkey-atalanta-next-2028.js'),italyNext,{filename:'state-italy-senegal-turkey-atalanta-next-2028.js',timeout:3000});
+const IN=italyNext.window.NAPOLI_DATA;
+assert(IN.italyNovember2028.played===2&&IN.italyNovember2028.wins===1&&IN.italyNovember2028.draws===1,'New Italy two-game friendly record must be 1W1D.');
+assert(IN.results.filter(r=>r[0]==='Italy').length===2,'Senegal/Turkey both must appear in the Italy friendly results archive.');
+assert(IN.results.find(r=>r[1]==='Senegal')[3]===1&&IN.results.find(r=>r[1]==='Senegal')[4]===1,'Senegal Italy 1–1 incorrect.');
+assert(IN.results.find(r=>r[1]==='Turkey')[3]===2&&IN.results.find(r=>r[1]==='Turkey')[4]===1,'Turkey Italy 2–1 incorrect.');
+assert(IN.results.find(r=>r[1]==='Senegal')[7].includes('Donnarumma saved a penalty'),'Donnarumma Senegal penalty save omitted.');
+assert(IN.results.find(r=>r[1]==='Turkey')[7].includes('UNASSISTED'),'Pio second Turkey goal MUST be unassisted.');
+assert(IN.italyNovember2028.results[1].keanAssists===1&&IN.italyNovember2028.results[1].pioSecondGoalUnassisted===true,'Kean only assists the first Turkey goal; second Pio rebound has zero assists.');
+assert(IN.italy2028FriendlySummary.played===4&&IN.italy2028FriendlySummary.wins===3&&IN.italy2028FriendlySummary.draws===1&&IN.italy2028FriendlySummary.gf===7&&IN.italy2028FriendlySummary.ga===2,'Four reported 2028 Italy friendlies have incorrect W/D or goal totals.');
+assert(IN.italy2028FriendlySummary.pioGoals===5&&IN.italy2028FriendlySummary.pioAssists===2&&IN.italy2028FriendlySummary.keanAssists===2,'Pio/Kean 2028 Italy confirmed goal/assist totals incorrect.');
+assert(IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===7&&IN.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===5,'Italy goals must not increase Napoli club statistics.');
+assert(IN.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Historical club seasons must remain untouched.');
+assert(IN.seasonState.league.points===28&&IN.seasonState.league.played===11&&IN.seasonState.ucl.points===7,'Friendlies must not alter Napoli club league/UCL statistics.');
+assert(IN.nextInternationalWindow.stage==='Completed','Italy friendlies must not remain upcoming.');
+assert(IN.nextClubMatch.opponent==='Atalanta'&&IN.nextClubMatch.played===false&&IN.nextClubMatch.date===null&&IN.nextClubMatch.venue===null,'Next Atalanta match must remain unplayed with no invented fixture date or venue.');
+assert(IN.upcoming.length===1&&IN.upcoming[0][0]==='Atalanta','Atalanta must be next in fixtures sidebar.');
+assert(IN.latestResult[0]==='NAP'&&IN.latestResult[1]==='1–0'&&IN.latestResult[2]==='GEN','Latest NAPOLI match should remain the Genoa victory.');
+assert(IN.results.every(r=>r[1]!=='Atalanta'),'Do not publish a result for the unplayed Atalanta game.');
+vm.runInContext(read('post-italy-senegal-turkey-atalanta-preview-2028.js'),italyNext,{filename:'post-italy-senegal-turkey-atalanta-preview-2028.js',timeout:3000});
+assert(IN.hero.articleId==='atalanta-next-title-test-after-italy-friendlies-2028'&&IN.articles.length===2,'Atalanta should be lead and Italy friendly recap secondary.');
+assert(IN.articles.find(x=>x.id==='pio-kean-senegal-turkey-friendlies-2028').body.join(' ').includes('NO ASSIST credited'),'Italy short report must preserve unassisted rebound correction.');
+assert(IN.articles.find(x=>x.id==='atalanta-next-title-test-after-italy-friendlies-2028').body.length>=6,'Atalanta should have substantial preview coverage.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
