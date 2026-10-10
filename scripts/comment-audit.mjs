@@ -34,6 +34,10 @@ assert(scripts.indexOf('post-sampdoria-arsenal-rematch-oct-2028.js')<scripts.ind
 assert(scripts.indexOf('state-sampdoria-arsenal-28-oct-2028.js')<scripts.indexOf('app.js'),'Sampdoria match state must load before render.');
 assert(scripts.indexOf('comments-sampdoria-arsenal-rematch-oct-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Arsenal preview comments must load before renderer.');
 assert(scripts.includes('post-arsenal.js'),'Historic Arsenal draw archive must remain available.');
+assert(scripts.indexOf('post-arsenal-2-0-selection-inquest-oct-2028.js')>scripts.indexOf('post-sampdoria-arsenal-rematch-oct-2028.js'),'Arsenal FT stories must follow match preview.');
+assert(scripts.indexOf('post-arsenal-2-0-selection-inquest-oct-2028.js')<scripts.indexOf('app.js'),'Arsenal FT story must load before app snapshot.');
+assert(scripts.indexOf('state-arsenal-2-0-31-oct-2028.js')<scripts.indexOf('app.js'),'Arsenal state must load before app render.');
+assert(scripts.indexOf('comments-arsenal-2-0-controversy-oct-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Arsenal comments must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -75,6 +79,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['arsenal-two-chances-two-goals-saladinio-oct-2028',18,19],
+ ['arsenal-paz-calafiori-bench-controversy-2028',17,19],
+ ['raya-pio-rematch-two-season-story-2028',16,16],
+ ['napoli-europe-eight-conceded-arsenal-2028',16,16],
  ['arsenal-rematch-pio-91-history-oct-2028',19,25],
  ['sampdoria-3-0-rotation-beier-pio-oct-2028',19,24],
  ['pio-beier-swap-roles-sampdoria-oct-2028',18,19],
@@ -238,6 +246,32 @@ assert(SM.hero.articleId==='arsenal-rematch-pio-91-history-oct-2028','Arsenal re
 assert(SM.articles.length===4&&SM.articles.every(a=>a.body.length>=6&&a.image&&a.headline),'Arsenal/Sampdoria long-form stories incomplete.');
 assert(SM.articles.find(a=>a.id==='arsenal-rematch-pio-91-history-oct-2028').body.join(' ').includes('90+1'),'Arsenal 90+1 historical moment missing from preview.');
 assert(!SM.results.some(r=>r[1]==='Arsenal'),'NO current-season Arsenal result should be published.');
+// 2028 Arsenal away FT: verified events and early substitutions, unconfirmed exact minutes respected.
+const arsenalMatch={date:'2028-10-31',team:'Napoli',opponent:'Arsenal',venue:'Away',competition:'Champions League',verified:true};
+const arsenalCtx={window:{NAPOLI_DATA:{
+ articles:[],results:[],results2028:[],fixtures2028:[arsenalMatch],
+ seasonState:{league:{played:10,w:8,d:1,l:1,points:25,gf:16,ga:3},ucl:{played:3,w:2,d:1,l:0,points:7,gf:8,ga:6}},
+ arsenalRematch:{played:false,upcoming:'2028-10-31',previous:{season:'2027–28',result:'Napoli 1–1 Arsenal',napoliScorer:'Pio Esposito 90+1′',napoliAssist:'Maximilian Beier'}},
+ statsBySeason:{'2027–28':[['Pio Esposito',29,12,'Previous']],'2028–29':[['Pio Esposito',7,5,'Current'],['Maximilian Beier',10,3,'Current'],['Nico Paz',1,3,'Current']]}
+}}};
+vm.createContext(arsenalCtx);
+vm.runInContext(read('state-arsenal-2-0-31-oct-2028.js'),arsenalCtx,{filename:'state-arsenal-2-0-31-oct-2028.js',timeout:3000});
+const AR=arsenalCtx.window.NAPOLI_DATA;
+assert(AR.results.length===1&&AR.results[0][1]==='Arsenal'&&AR.results[0][3]===0&&AR.results[0][4]===2,'Arsenal away 2-0 FT wrong.');
+assert(AR.results[0][7].includes('Merino')&&AR.results[0][7].includes('Martinelli'),'Arsenal confirmed goal scorers missing.');
+assert(AR.results[0][7].includes('both entered early')&&AR.results[0][7].includes('second Arsenal goal'),'Paz and Calafiori actual early second-half appearances not preserved.');
+assert(AR.arsenalRematch.selection.bothCameOnEarlySecondHalf&&AR.arsenalRematch.selection.bothOnForSecondGoal,'Substitution and second-concession attendance must be explicit.');
+assert(AR.arsenalRematch.selection.minutes==='unconfirmed'&&AR.arsenalRematch.goalOrder==='unconfirmed','Do not invent goal order or substitution minutes.');
+assert(AR.arsenalRematch.previous.result==='Napoli 1–1 Arsenal'&&AR.arsenalRematch.previous.napoliAssist==='Maximilian Beier','Historic 1-1 Arsenal match incorrectly changed.');
+assert(arsenalMatch.played&&AR.upcoming.length===0,'Arsenal FT must not remain upcoming.');
+assert(AR.latestResult[0]==='ARS'&&AR.latestResult[1]==='2–0'&&AR.latestResult[2]==='NAP','Latest result must show Arsenal FT.');
+assert(AR.seasonState.ucl.played===4&&AR.seasonState.ucl.w===2&&AR.seasonState.ucl.d===1&&AR.seasonState.ucl.l===1&&AR.seasonState.ucl.points===7&&AR.seasonState.ucl.gf===8&&AR.seasonState.ucl.ga===8,'UCL 2-1-1 7pts 8GF 8GA incorrect.');
+assert(AR.seasonState.league.played===10&&AR.seasonState.league.points===25&&AR.seasonState.league.ga===3,'Champions League defeat incorrectly changed league.');
+assert(AR.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===7&&AR.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[2]===3,'Player club goal contributions should not change in 0-2 loss.');
+vm.runInContext(read('post-arsenal-2-0-selection-inquest-oct-2028.js'),arsenalCtx,{filename:'post-arsenal-2-0-selection-inquest-oct-2028.js',timeout:3000});
+assert(AR.hero.articleId==='arsenal-two-chances-two-goals-saladinio-oct-2028'&&AR.articles.length===4,'Arsenal FT hero missing.');
+assert(AR.articles.every(a=>a.headline&&a.image&&a.body.length>=6),'Arsenal coverage incomplete.');
+assert(AR.articles.some(a=>a.id==='arsenal-paz-calafiori-bench-controversy-2028'&&a.body.join(' ').includes('BOTH WERE ALREADY ON THE PITCH')),'Selection follow-up omitted critical confirmed participation.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
