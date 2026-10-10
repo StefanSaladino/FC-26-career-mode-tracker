@@ -12,6 +12,8 @@ const scripts=[...html.matchAll(/<script\s+src="([^"]+\.js)(?:\?[^"]*)?"/g)].map
 assert(scripts.includes('comments-engine-v2.js'),'The live HTML must load the comment renderer.');
 assert(scripts.indexOf('post-milan-beier-san-siro-oct-2028.js')>=0 && scripts.indexOf('post-milan-beier-san-siro-oct-2028.js')<scripts.indexOf('app.js'),'Milan stories must load before app snapshot.');
 assert(scripts.indexOf('state-milan-san-siro-2028.js')>=0 && scripts.indexOf('state-milan-san-siro-2028.js')<scripts.indexOf('app.js'),'Milan stats must load before app snapshot.');
+assert(scripts.indexOf('post-italy-oct-friendlies-2028.js')>scripts.indexOf('post-milan-beier-san-siro-oct-2028.js'),'Italy notebook must not displace Milan hero.');
+assert(scripts.indexOf('state-italy-oct-friendlies-2028.js')<scripts.indexOf('app.js'),'Italy results must load before app snapshot.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -52,6 +54,7 @@ const expected=[
  ['psg-final-report-may-2028',8,3],
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
+ ['italy-friendly-double-pio-kean-oct-2028',8,9],
  ['milan-san-siro-beier-91-match-report-oct-2028',33,45],
  ['mctominay-two-assists-milan-big-game-oct-2028',22,22],
  ['milan-maignan-napoli-mentalita-opinion-oct-2028',20,21],
