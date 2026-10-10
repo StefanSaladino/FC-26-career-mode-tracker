@@ -30,7 +30,7 @@ D.nextInternationalWindow={stage:'Completed',type:'International Friendlies',tea
 D.nextClubMatch={opponent:'Atalanta',gameAlias:'Bergamo Calcio',competition:'Serie A',played:false,date:null,venue:null,confirmedNext:true,details:'Manager-confirmed next match after Italy Senegal/Turkey friendlies; match date and home/away location not supplied.'};
 D.upcoming=[['Atalanta','Serie A','Next after Italy friendlies · date and venue unconfirmed']];
 D.ticker=[
- 'NEXT · NAPOLI vs ATALANTA · SERIE A · SCUDETTO SHOWDOWN',
+ 'NEXT · NAPOLI FACE ATALANTA · SERIE A · SCUDETTO SHOWDOWN',
  'ITALY 1–1 SENEGAL · PIO GOAL (KEAN) · DONNARUMMA SAVES PENALTY',
  'ITALY 2–1 TURKEY · PIO BRACE · KEAN ASSIST ON FIRST',
  'PIO TURKEY REBOUND GOAL · NO ASSIST CREDITED',
