@@ -271,7 +271,7 @@ assert(AR.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===7&&AR.s
 vm.runInContext(read('post-arsenal-2-0-selection-inquest-oct-2028.js'),arsenalCtx,{filename:'post-arsenal-2-0-selection-inquest-oct-2028.js',timeout:3000});
 assert(AR.hero.articleId==='arsenal-two-chances-two-goals-saladinio-oct-2028'&&AR.articles.length===4,'Arsenal FT hero missing.');
 assert(AR.articles.every(a=>a.headline&&a.image&&a.body.length>=6),'Arsenal coverage incomplete.');
-assert(AR.articles.some(a=>a.id==='arsenal-paz-calafiori-bench-controversy-2028'&&a.body.join(' ').includes('BOTH WERE ALREADY ON THE PITCH')),'Selection follow-up omitted critical confirmed participation.');
+assert(AR.articles.some(a=>a.id==='arsenal-paz-calafiori-bench-controversy-2028'&&a.body.join(' ').includes('Both were on the pitch when Arsenal scored their SECOND goal')),'Selection follow-up omitted critical confirmed participation.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
