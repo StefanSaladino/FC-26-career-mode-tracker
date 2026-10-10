@@ -347,7 +347,7 @@ assert(GN.latestResult[0]==='NAP'&&GN.latestResult[1]==='1–0'&&GN.latestResult
 vm.runInContext(read('post-genoa-mctominay-67-international-break-2028.js'),genoaCtx,{filename:'post-genoa-mctominay-67-international-break-2028.js',timeout:3000});
 assert(GN.hero.articleId==='mctominay-67-jankowski-genoa-win-nov-2028'&&GN.articles.length===4,'Genoa lead hero missing.');
 assert(GN.articles.every(a=>a.body.length>=6&&a.image&&a.headline),'Genoa/new international feature must contain longform copy and a real archive asset.');
-assert(GN.articles.some(a=>a.id==='italy-friendlies-international-break-napoli-nov-2028'&&a.body.join(' ').includes('opponents, dates and venues have not yet been supplied')),'International break story should avoid invented schedules.');
+assert(GN.articles.some(a=>a.id==='italy-friendlies-international-break-napoli-nov-2028'&&a.body.join(' ').includes('opponents and venues still to be announced')),'International break story should avoid invented schedules.');
 // Senegal/Turkey Italy friendlies and manager-confirmed Atalanta NEXT: no invented match events or dates.
 const italyNext={window:{NAPOLI_DATA:{
  articles:[],results:[['Napoli','Genoa','Serie A',1,0,'W','November 2028 · unconfirmed date','McTominay 67′ from Davies']],
