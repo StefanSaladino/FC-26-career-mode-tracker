@@ -38,6 +38,10 @@ assert(scripts.indexOf('post-arsenal-2-0-selection-inquest-oct-2028.js')>scripts
 assert(scripts.indexOf('post-arsenal-2-0-selection-inquest-oct-2028.js')<scripts.indexOf('app.js'),'Arsenal FT story must load before app snapshot.');
 assert(scripts.indexOf('state-arsenal-2-0-31-oct-2028.js')<scripts.indexOf('app.js'),'Arsenal state must load before app render.');
 assert(scripts.indexOf('comments-arsenal-2-0-controversy-oct-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Arsenal comments must load before renderer.');
+assert(scripts.indexOf('post-genoa-mctominay-67-international-break-2028.js')>scripts.indexOf('post-arsenal-2-0-selection-inquest-oct-2028.js'),'Genoa stories should follow Arsenal FT.');
+assert(scripts.indexOf('post-genoa-mctominay-67-international-break-2028.js')<scripts.indexOf('app.js'),'Genoa article data must load before snapshot.');
+assert(scripts.indexOf('state-genoa-mctominay-67-break-2028.js')<scripts.indexOf('app.js'),'Genoa result/stat state must load before render.');
+assert(scripts.indexOf('comments-genoa-italy-break-nov-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Genoa comment thread must load before renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -79,6 +83,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['mctominay-67-jankowski-genoa-win-nov-2028',18,20],
+ ['jankowski-saves-beier-offside-genoa-nov-2028',17,18],
+ ['napoli-28-points-eight-clean-sheets-genoa-2028',17,17],
+ ['italy-friendlies-international-break-napoli-nov-2028',17,17],
  ['arsenal-two-chances-two-goals-saladinio-oct-2028',18,19],
  ['arsenal-paz-calafiori-bench-controversy-2028',17,19],
  ['raya-pio-rematch-two-season-story-2028',16,16],
@@ -272,6 +280,36 @@ vm.runInContext(read('post-arsenal-2-0-selection-inquest-oct-2028.js'),arsenalCt
 assert(AR.hero.articleId==='arsenal-two-chances-two-goals-saladinio-oct-2028'&&AR.articles.length===4,'Arsenal FT hero missing.');
 assert(AR.articles.every(a=>a.headline&&a.image&&a.body.length>=6),'Arsenal coverage incomplete.');
 assert(AR.articles.some(a=>a.id==='arsenal-paz-calafiori-bench-controversy-2028'&&a.body.join(' ').includes('Both were on the pitch when Arsenal scored their SECOND goal')),'Selection follow-up omitted critical confirmed participation.');
+// Genoa FT after Arsenal with no fictitious dates, clean sheet and international window.
+const genoaCtx={window:{NAPOLI_DATA:{
+ articles:[],results:[],results2028:[],fixtures2028:[],
+ seasonState:{league:{played:10,w:8,d:1,l:1,points:25,gf:16,ga:3},ucl:{played:4,w:2,d:1,l:1,points:7,gf:8,ga:8}},
+ serieAStandings:{updated:'after Sampdoria',rows:[['Napoli',10,8,1,1,16,3,13,25],['Roma',9,6,3,0,22,7,15,21],['Atalanta',9,6,2,1,21,10,11,20]]},
+ statsBySeason:{'2027–28':[['Scott McTominay',7,11,'Archive'],['Alphonso Davies',12,8,'Archive']],'2028–29':[['Scott McTominay',0,6,'Current'],['Alphonso Davies',2,0,'Current'],['Maximilian Beier',10,3,'Current'],['Pio Esposito',7,5,'Current']]},
+ upcoming:[],ticker:[],whispers:[]
+}}};
+vm.createContext(genoaCtx);
+vm.runInContext(read('state-genoa-mctominay-67-break-2028.js'),genoaCtx,{filename:'state-genoa-mctominay-67-break-2028.js',timeout:3000});
+const GN=genoaCtx.window.NAPOLI_DATA;
+assert(GN.results.length===1&&GN.results[0][1]==='Genoa'&&GN.results[0][3]===1&&GN.results[0][4]===0,'Genoa 1–0 score missing/incorrect.');
+assert(GN.results[0][7].includes('Jankowski')&&GN.results[0][7].includes('Beier 36′')&&GN.results[0][7].includes('offside'),'Genoa goalkeeper heroics and 36th minute DISALLOWED goal omitted.');
+assert(GN.results[0][7].includes('67′')&&GN.results[0][7].includes('SCOTT McTOMINAY')&&GN.results[0][7].includes('ALPHONSO DAVIES'),'Goal scorer, assist and minute must be verified.');
+assert(GN.genoaMatch.exactDate===null&&GN.genoaMatch.venue===null,'Do not invent Genoa match date or venue.');
+assert(GN.seasonState.league.played===11&&GN.seasonState.league.w===9&&GN.seasonState.league.d===1&&GN.seasonState.league.l===1&&GN.seasonState.league.points===28&&GN.seasonState.league.gf===17&&GN.seasonState.league.ga===3,'Genoa corrected Serie A 11P/28pts/17GF/3GA totals missing.');
+assert(GN.genoaMatch.cleanSheetNumber===8,'Genoa was eighth domestic clean sheet.');
+assert(GN.seasonState.ucl.played===4&&GN.seasonState.ucl.points===7&&GN.seasonState.ucl.gf===8&&GN.seasonState.ucl.ga===8,'Genoa must not alter UCL stats.');
+assert(GN.statsBySeason['2028–29'].find(r=>r[0]==='Scott McTominay')[1]===1&&GN.statsBySeason['2028–29'].find(r=>r[0]==='Scott McTominay')[2]===6,'Scott should have one goal and six assists.');
+assert(GN.statsBySeason['2028–29'].find(r=>r[0]==='Alphonso Davies')[1]===2&&GN.statsBySeason['2028–29'].find(r=>r[0]==='Alphonso Davies')[2]===1,'Davies should have two goals and one assist.');
+assert(GN.statsBySeason['2028–29'].find(r=>r[0]==='Maximilian Beier')[1]===10,'Offside Beier goal must NOT increase season goal count.');
+assert(GN.statsBySeason['2027–28'].find(r=>r[0]==='Scott McTominay')[1]===7,'Prior-season Scott goals should remain unchanged.');
+assert(GN.nextInternationalWindow.opponentsVerified===false&&GN.nextInternationalWindow.datesVerified===false,'International friendly opponents/dates are NOT known.');
+assert(GN.upcoming[0][0]==='Italy friendlies','International break must be next in upcoming state.');
+assert(GN.serieAStandings.rows[0][8]===28&&GN.serieAStandings.rows[1][8]===21&&GN.titleRaceSnapshot2028.confirmed===false,'No invented new Roma standings or current point gap allowed.');
+assert(GN.latestResult[0]==='NAP'&&GN.latestResult[1]==='1–0'&&GN.latestResult[2]==='GEN','Latest score widget must show Genoa.');
+vm.runInContext(read('post-genoa-mctominay-67-international-break-2028.js'),genoaCtx,{filename:'post-genoa-mctominay-67-international-break-2028.js',timeout:3000});
+assert(GN.hero.articleId==='mctominay-67-jankowski-genoa-win-nov-2028'&&GN.articles.length===4,'Genoa lead hero missing.');
+assert(GN.articles.every(a=>a.body.length>=6&&a.image&&a.headline),'Genoa/new international feature must contain longform copy and a real archive asset.');
+assert(GN.articles.some(a=>a.id==='italy-friendlies-international-break-napoli-nov-2028'&&a.body.join(' ').includes('opponents, dates and venues have not yet been supplied')),'International break story should avoid invented schedules.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
