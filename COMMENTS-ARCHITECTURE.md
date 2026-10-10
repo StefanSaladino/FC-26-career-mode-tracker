@@ -1,5 +1,20 @@
 # Comment System Architecture
 
+## PUBLIC NEWSROOM VS PRIVATE DRESSING ROOM · 10 OCTOBER 2026 · PERMANENT RULE
+
+The **manager and assistant manager's private conversations are still canon** and materially shape football decisions, but they are **NOT automatically public statements**. `STAFF-ROOM-CANON.md` preserves the internal Meret/Peacock coaching-room storyline and must **NEVER** be loaded into the Season Room site or sourced for fan comments, press claims, headlines or public tickers. Note: this is an **editorial firewall**, not GitHub privacy; the repository is publicly readable.
+
+**Journalistic camera stays inside the football world.** The newsroom attends matches, watches the game, reads the confirmed team sheet and league honours, and can independently analyse visible results. DO NOT claim the manager or the user "reported" a goal, supplied data, confirmed a match event, furnished a screenshot, or explained what happened to the staff. Do not describe missing user inputs, unverified saves, archive limitations, "in-game", the save, or code work in published football prose. If a detail is unknown, omit the detail and keep the writing natural rather than writing a disclaimer about not receiving it.
+
+**Quotes and manager public criticism:** Only actual public interviews, user-played press conference scenes and expressly authorised public statements may be attributed to the manager. Ordinary tactical chat with the AM—even emotional criticism of players—is PRIVATE. Do not invent quotes, leaks or a press reaction to that private criticism. Football supporters may debate Peacock's observed selection, breakaway stop, clean sheet and Team of the Week award, but may NOT know or react to Saladino's private assessment of Meret. Meret's place in the squad is not necessarily a public crisis because staff privately debated it.
+
+**Scope every interaction:** `internal-coaching`, `press-conference`, `public-interview`, `on-field`, `official-award`, or `public-analysis`. Only the last five can support publication, and press/public interview statements require genuine user-authored public answers.
+
+**Retcon applied to 2028 PSG and Monza coverage:** The analysis piece formerly asserting "Saladino questions Meret" is rewritten as collective European tactics analysis. Monza previews no longer expose the private Peacock trial recommendation. The Peacock Team of the Week article covers the keeper's ACTUAL start, breakaway save, clean sheet and official selection independently. The team's behind-the-scenes reasoning stays preserved in the staff canon, never flattened or forgotten.
+
+---
+
+
 ## CURRENT OPERATING RULES — 9 OCTOBER 2026 (SUPERSEDES ORIGINAL GENERATOR DESIGN BELOW)
 
 - **Preserve existing authored posts, do not replace or drop them.** Threads are assembled by exact article ID from the reviewed maps in `comments-engine-v2.js` and `comments-curated-archive.js`, the Galatasaray and historical backfill archives, original `a.comments` / `a.seededComments` in post scripts, and the 80 **static** saved legacy bespoke comments in `comments-legacy-authored.js`. All authored nested replies remain attached to their original parent. Deduplicate repeated copies of the same author/comment while merging their saved replies.
