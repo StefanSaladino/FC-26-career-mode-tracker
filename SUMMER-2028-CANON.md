@@ -1,6 +1,15 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
-## CURRENT CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI · EUROPEAN DEFEAT
+## CURRENT CANON · NOVEMBER 2028 · NAPOLI 1–0 GENOA
+
+- Napoli 1–0 Genoa Serie A FT after Arsenal away, date and venue unconfirmed. Genoa goalkeeper Jankowski multiple saves; Beier 36′ goal DISALLOWED offside; De Bruyne stopped just before halftime; HT 0–0; Jankowski saves from Davies and others. **67′ McTominay scores from Davies assist.** One goal and no further confirmed events. EIGHTH league clean sheet.
+- Napoli Serie A now **11 played, 9W 1D 1L, 28pts, 17GF 3GA +14, eight shutouts**. Rivals have NOT been rechecked since Oct 25, Roma last 21 points from 9, Atalanta 20 from 9. Do NOT compute current 7pt gap.
+- Confirmed current Napoli club totals: **Scott McTominay 1G 6A**, **Alphonso Davies 2G 1A**, Beier 10G 3A (offside does NOT count), Pio 7G 5A, Paz 1G 3A, KDB 2G 1A, Olise 0G 2A. UCL remains 4P 2W 1D 1L 7pts, 8GF 8GA from before Genoa.
+- **Next: International break for FRIENDLIES**; Saladino also manages Italy. New opponent names, dates, venues and player selection UNKNOWN. Keep Italy national team statistics separate from Napoli club. Last confirmed Italy friendlies were Côte d'Ivoire 2–0 and Tunisia 2–0 in October, not new November fixtures.
+- Live newsroom includes `post-genoa-mctominay-67-international-break-2028.js`, `state-genoa-mctominay-67-break-2028.js` and `comments-genoa-italy-break-nov-2028.js`. Original Genoa exact date/venue deliberately withheld.
+
+
+## PREVIOUS CANON · 31 OCTOBER 2028 · ARSENAL 2–0 NAPOLI · EUROPEAN DEFEAT
 
 - Arsenal 2–0 Napoli FULL TIME, 2028–29 UCL away 31 October. Merino and Martinelli Arsenal scorers; exact minutes/order and assists unknown. Pio shot wide 4′, Raya denied Pio 11′. Halftime 0–0: Arsenal had no shot on target in first half.
 - Paz and Calafiori benched at kickoff, BOTH actually introduced EARLY IN SECOND HALF, BOTH on pitch for Arsenal SECOND goal. No exact substitution minutes, replaced players, individual defensive culpability or relative time of first goal confirmed. Do NOT invent details or say they were unused.
