@@ -25,6 +25,10 @@ assert(scripts.indexOf('post-empoli-title-race-juve-oct-2028.js')>scripts.indexO
 assert(scripts.indexOf('post-empoli-title-race-juve-oct-2028.js')<scripts.indexOf('app.js'),'October title-race stories should load before app.');
 assert(scripts.indexOf('state-empoli-standings-juve-oct-2028.js')<scripts.indexOf('app.js'),'Empoli stats and photographed Serie A table should load before app.');
 assert(scripts.indexOf('comments-empoli-title-race-juve-2028.js')<scripts.indexOf('comments-engine-v2.js'),'October comments must load before renderer.');
+assert(scripts.indexOf('post-juventus-pio-brace-top-oct-2028.js')>scripts.indexOf('post-empoli-title-race-juve-oct-2028.js'),'Juventus FT stories must follow the pre-match coverage.');
+assert(scripts.indexOf('post-juventus-pio-brace-top-oct-2028.js')<scripts.indexOf('app.js'),'Juve FT article loading order wrong.');
+assert(scripts.indexOf('state-juventus-pio-25-oct-2028.js')<scripts.indexOf('app.js'),'Juventus FT and screenshot state must load before rendering.');
+assert(scripts.indexOf('comments-juventus-pio-top-oct-2028.js')<scripts.indexOf('comments-engine-v2.js'),'Juventus comments must precede the comment renderer.');
 assert(!scripts.includes('comments.js'),'Retired randomly generated comment engine must stay disabled.');
 const engineAt=scripts.indexOf('comments-engine-v2.js');
 const archives=scripts.filter(x=>x.startsWith('comments-')&&x!=='comments-engine-v2.js');
@@ -66,6 +70,10 @@ const expected=[
  ['torino-invincibles-comeback-may-2028',8,4],
  ['sassuolo-response',2,1],
  ['italy-friendly-double-pio-kean-oct-2028',8,9],
+ ['pio-turin-brace-napoli-top-oct-2028',20,28],
+ ['juventus-napoli-pio-double-di-gregorio-oct-2028',18,21],
+ ['roma-unbeaten-napoli-title-fight-oct-2028',18,19],
+ ['pio-paz-partnership-beier-depth-oct-2028',18,18],
  ['bergamo-stumble-turin-title-race-oct-2028',18,25],
  ['napoli-empoli-davies-paz-clean-sheet-oct-2028',18,21],
  ['juventus-napoli-turin-preview-title-oct-2028',18,19],
@@ -155,6 +163,39 @@ assert(T[6][0]==='AC Milan'&&T[6][8]===13,'AC Milan seventh with 13.');
 assert(T[8][0]==='Inter'&&T[8][8]===10,'Inter ninth with ten.');
 assert(T.every(r=>r[2]+r[3]+r[4]===r[1]&&r[5]-r[6]===r[7]&&r[2]*3+r[3]===r[8]),'Photographed table rows fail arithmetic validation.');
 assert(ED.results.every(r=>r[1]!=='Juventus'),'Do not publish a Juventus result before playing.');
+// Juventus away, new post-match screenshot and Pio/Paz official contributions audit.
+const juveFixture={date:'2028-10-25',team:'Napoli',opponent:'Juventus',venue:'Away',competition:'Serie A',verified:true};
+const postContext={window:{NAPOLI_DATA:{
+ results:[],results2028:[],fixtures2028:[juveFixture,{date:'2028-10-28',team:'Napoli',opponent:'Sampdoria',venue:'Home',competition:'Serie A',verified:true}],
+ seasonState:{league:{played:8,w:6,d:1,l:1,points:19,gf:11,ga:3},ucl:{played:3,w:2,d:1,l:0,points:7,gf:8,ga:6}},
+ statsBySeason:{'2027–28':[['Pio Esposito',29,12,'Archive'],['Nico Paz',6,8,'Archive']],'2028–29':[['Pio Esposito',4,4,'Current'],['Nico Paz',1,1,'Current'],['Maximilian Beier',9,2,'Current']]},
+ articles:[]
+}}};
+vm.createContext(postContext);
+vm.runInContext(read('state-juventus-pio-25-oct-2028.js'),postContext,{filename:'state-juventus-pio-25-oct-2028.js',timeout:3000});
+const JD=postContext.window.NAPOLI_DATA;
+assert(JD.results.length===1&&JD.results[0][1]==='Juventus'&&JD.results[0][3]===2&&JD.results[0][4]===0,'Juventus result missing or wrong.');
+assert(JD.results[0][7].includes('Di Gregorio')&&JD.results[0][7].includes('Nico Paz officially credited'),'Juve verified match events missing.');
+assert(JD.seasonState.league.played===9&&JD.seasonState.league.w===7&&JD.seasonState.league.d===1&&JD.seasonState.league.l===1&&JD.seasonState.league.points===22&&JD.seasonState.league.gf===13&&JD.seasonState.league.ga===3,'Incorrect Juventus result league totals.');
+assert(JD.seasonState.ucl.points===7&&JD.seasonState.ucl.gf===8&&JD.seasonState.ucl.ga===6,'Juventus incorrectly changed Champions League.');
+assert(JD.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[1]===6,'Pio Juventus brace did not update season goal total.');
+assert(JD.statsBySeason['2028–29'].find(r=>r[0]==='Pio Esposito')[2]===4,'Pio assists altered without cause.');
+assert(JD.statsBySeason['2028–29'].find(r=>r[0]==='Nico Paz')[2]===2,'Paz official assist at 89 minutes missing.');
+assert(JD.statsBySeason['2027–28'].find(r=>r[0]==='Pio Esposito')[1]===29,'Historic Pio goals unexpectedly changed.');
+assert(juveFixture.played&&JD.upcoming[0][0]==='Sampdoria'&&!JD.upcoming.some(x=>x[0]==='Juventus'),'Juventus should be final and Sampdoria next.');
+assert(JD.latestResult[0]==='JUV'&&JD.latestResult[1]==='0–2'&&JD.latestResult[2]==='NAP','Latest result widget stale.');
+const JT=JD.serieAStandings.rows;
+assert(JT.length===6,'Only the six photographed teams should be displayed.');
+assert(JT[0][0]==='Napoli'&&JT[0][8]===22&&JT[0][7]===10,'Napoli not first on 22.');
+assert(JT[1][0]==='Roma'&&JT[1][2]===6&&JT[1][3]===3&&JT[1][4]===0&&JT[1][8]===21&&JT[1][7]===15,'Unbeaten Roma on 21 not reflected.');
+assert(JT[2][0]==='Atalanta'&&JT[2][8]===20,'Atalanta third on 20 not reflected.');
+assert(JT[3][0]==='Juventus'&&JT[3][8]===17,'Juve after second defeat incorrect.');
+assert(JT[4][0]==='AC Milan'&&JT[4][8]===16,'Milan fifth, 16 points not reflected.');
+assert(JT[5][0]==='Lazio'&&JT[5][8]===15,'Lazio sixth, 15 points not reflected.');
+assert(JT.every((r,i)=>r[2]+r[3]+r[4]===r[1]&&r[5]-r[6]===r[7]&&r[2]*3+r[3]===r[8]&&(i===0||JT[i-1][8]>=r[8])),'Post-Juve standings arithmetic / order incorrect.');
+vm.runInContext(read('post-juventus-pio-brace-top-oct-2028.js'),postContext,{filename:'post-juventus-pio-brace-top-oct-2028.js',timeout:3000});
+assert(JD.hero.articleId==='pio-turin-brace-napoli-top-oct-2028'&&JD.articles.length===4,'Juventus lead story not leading.');
+assert(JD.articles.every(a=>a.body.length>=6&&a.headline&&a.image),'Juve article content or image missing.');
 // Verify each reviewed/hand-authored archive identity can be resolved by the current renderer.
 for(const id of Object.keys(archive))assert(thread(id).length>0,'An archived article is unreachable: '+id);
 console.log('PASS: '+scripts.length+' JavaScript scripts parse; '+Object.keys(archive).length+
