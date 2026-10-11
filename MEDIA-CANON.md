@@ -24,6 +24,41 @@ This file should be updated whenever a new recurring media personality or outlet
 
 ---
 
+## Story programming: player voices, interviews, pundit columns · 11 October 2026
+
+The assistant manager's primary responsibility is still coaching Napoli and Italy alongside Saladino. **When publishing the Season Room**, build a recognisable football media world rather than an endless stream of matching result reports. Rotate the editorial perspectives organically. An occasional reader should find game coverage, ambitious player profiles, credible positional debates, independent pundit opinion, short fictional player remarks, and the rare dedicated player interview.
+
+### Fictional player quotations
+- **Sporadic, not compulsory.** Most articles can stand without quoted speech. A major sporting milestone, transfer adjustment, newly prominent player or tactical role change may justify a brief comment from a player.
+- Write player speech as **fictional in-universe dialogue for the FC26 career story**. It is *not* a real transcript from a real-world professional footballer. Do not assert the real player was interviewed in reality.
+- The line should sound like the individual: thoughtful, excited, frustrated, cautious, ambitious, humorous or reserved as the moment deserves; not interchangeable AI motivational talk. A plausible two-line quotation is more valuable than an entire manufactured press conference.
+- Plausible topics include Pio and Beier's visible combination play, Neves adjusting to Napoli after PSG, Peacock's *on-field* clean sheet and weekly accolade, academy players hoping for playing time, a squad member learning a new role, the pressure of European football, and life around Naples.
+- Quote content may invent *subjective colour* consistent with established canon but must **not invent material external events**: a secret negotiation, dressing-room speech, injury status, promise of minutes, player's dissatisfaction, private tactical instructions, or unverified confrontation.
+- Manager and assistant-manager **private conversations are never sources** for player speech. A fictional player must not conveniently repeat the contents of a confidential staff meeting.
+
+### Occasional standalone player interviews
+- Occasionally publish a believable newspaper interview/Q&A or personality profile separate from any match report. Cover football and human-interest angles: motivation, adapting to a transfer or country, friendship and chemistry, working with a more senior teammate, competing for places, recovering from a verified rough spell, hopes for the next fixtures.
+- Give the player distinct answers rather than merely restating game results. Allow nuance: uncertainty, humility, nerves, pride or humour.
+- Revisit previous player quotes or interviews in later articles where their words form an authentic public storyline. Do not publish one player interview per game; choose the timing carefully.
+
+### Independent pundit stories and position debates
+- Use established voices in `MEDIA-CANON.md` when their agenda fits; introduce new journalists/analysts sparingly and record their continuity.
+- Topics include **players over-performing or under-performing against observable evidence**, competition for minutes after a team-sheet switch, two plausible options for a single position, summer recruit adaptation, youth prospects, tactical structural concerns and title-race pressure.
+- Pundits may argue strongly, get things wrong and later face criticism, provided the reader can see what public evidence drives the opinion. They cannot know private AM advice or Saladino's unspoken grievances, and cannot claim the club has a real internal rift unless the manager explicitly makes it a public storyline.
+- Multiple perspectives help. One writer may advocate promoting a promising backup, another may defend the senior incumbent. This is a *media debate*, not confirmation of the manager's own plans.
+
+### Public-manager participation is exclusive to the user
+The manager's public answers must always be provided by the user in a clear press scene or explicitly approved for publication. Player interviews can be fictionally written by the newsroom; a simulated interview with *Saladino* must pause for the user's response. Ordinary tactical chat with the AM is never treated as a public statement.
+
+### Example editorial mix (illustrative, NOT mandatory publication orders)
+- After Monza 0–3: report Beier/Pio combinations; highlight Peacock's Team of the Week appearance based strictly on the public performance; an occasional brief invented-for-story Peacock quote about the experience **may** be included, but without referring to Meret criticism or private goalkeeper selection discussion.
+- Before Dortmund: a football-analyst column on Napoli's successive goalless European defeats; a future separate Neves profile on the unique dynamic of having left PSG for Napoli.
+- Another week: a longer Q&A with a young squad player adapting to new responsibility, or a sharp opinion from established television pundit Matteo Bellandi on a visibly out-of-form starter.
+
+This programme is creative guidance. Do **not** add an interview, statement, controversy or transfer development as an actual match event. 
+
+---
+
 # CORE PRESS INTERACTION RULE
 
 The assistant manager / AI decides when a fictional press appearance is narratively useful and may initiate it without waiting for the user to request one.
