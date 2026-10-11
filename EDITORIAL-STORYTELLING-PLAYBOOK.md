@@ -46,14 +46,14 @@ Use selected Italian and Neapolitan quotes where the speaker or outlet naturally
 
 Maintain a living list of promising **public-facing arcs** while keeping underlying staff motivations in their separate canon:
 
-- Peacock: strong Monza debut and Team of the Week, with the next observable goalkeeper selection pending; **no press claim of manager criticism of Meret**.
+- Peacock: strong Monza appearance and Team of the Week, with the next observable goalkeeper selection pending; **no press claim of manager criticism of Meret**.
 - Pio: tied at the top of the Serie A goals table and leading Serie A assists; his partnership with Beier is thriving, even as Napoli have suffered European scoreless games.
 - Beier: a prolific club scorer who also creates for Pio; the pair's reciprocal assists give the desk an ongoing form story.
 - João Neves: a Napoli midfielder facing his former PSG club after scoring against Napoli in the historical final, a football narrative that does not need private locker-room leaks.
 - Europe versus Italy: PSG and Arsenal beat Napoli 2–0, despite dominant recent domestic results. Tactics and attack/defence balance are legitimate **independent public** analysis subjects.
 - Scudetto race: Napoli 34 points after 13, Roma's last confirmed 30 from 12. Do not invent the rival's 13th result or an exact current gap.
 
-An occasional **exclusive player interview** can explore Pio's creativity, Beier's adaptation to Napoli, Neves' expensive move and changed shirt, Peacock's first spotlight, Paz's role or a youth player's adjustment. Only suggest subjects when they remain current and relevant. Do not assign unconfirmed feelings, motives, problems or selection promises as hard factual canon.
+An occasional **exclusive player interview** can explore Pio's creativity, Beier's adaptation to Napoli, Neves' expensive move and changed shirt, Peacock's recent spotlight, Paz's role or a youth player's adjustment. Only suggest subjects when they remain current and relevant. Do not assign unconfirmed feelings, motives, problems or selection promises as hard factual canon.
 
 ## Practical publishing checklist
 
