@@ -1,9 +1,9 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
-## CURRENT MANAGER UPDATE · 5 DECEMBER 2028 · CUCURELLA CONTRACT AND DORTMUND KICKOFF
+## CURRENT CANON · 5 DECEMBER 2028 · DORTMUND 0–1 NAPOLI FT · MERET CLEAN SHEET · CUCURELLA EXTENSION
 
 - Marc Cucurella **30 years old, 88 OVR**, agrees to an **Important** squad-role extension: **two additional years**; **3 years 6 months total remaining**; **$200,000 weekly wage**, **$2.5m signing bonus**, **$3.5m bonus if 10 clean sheets**. The clean-sheet bonus is conditional, not an already-earned payment.
-- **Borussia Dortmund away UCL on 5 December 2028 is UNDERWAY.** Saladino selected **Alex Meret** in goal after Peacock played Monza 3–0 and Udinese 1–1. No further confirmed Dortmund events or outcomes. No public manager quote given.
+- **5 DECEMBER 2028 UEFA CHAMPIONS LEAGUE FULL TIME:** **Borussia Dortmund 0–1 Napoli**. **27′ Pio Esposito goal (Maximilian Beier assist)**, **halftime 0–1**. Napoli initially pressed, João Neves won an early corner; Gregor Kobel saved Beier's shot shortly before halftime. **Alex Meret started and kept a clean sheet**; his selection followed Peacock's Monza 3–0 and Udinese 1–1 appearances. No confirmed Meret save count, rating, further XI or substitutions. This is the corrected scoreline (prior provisional halftime 0–0 was mistaken). **Champions League 6 played, 10 points, 3W/1D/2L, 9GF/10GA, GD −1.** Napoli 2028–29 all-competition totals: **Pio 12 goals/10 assists; Beier 15 goals/7 assists.** Next verified fixture: **9 Dec Lazio away, Serie A**, unplayed. No public manager quote given.
 - This supersedes stale notes indicating Udinese is next or the Meret selection is merely a possibility. Internal reasoning remains in `STAFF-ROOM-CANON.md`. No site article without manager authorisation.
 
 ---
