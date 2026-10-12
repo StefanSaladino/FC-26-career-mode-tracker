@@ -62,6 +62,14 @@ The assistant manager's primary responsibility is still coaching Napoli and Ital
 - Pundits may argue strongly, get things wrong and later face criticism, provided the reader can see what public evidence drives the opinion. They cannot know private AM advice or Saladino's unspoken grievances, and cannot claim the club has a real internal rift unless the manager explicitly makes it a public storyline.
 - Multiple perspectives help. One writer may advocate promoting a promising backup, another may defend the senior incumbent. This is a *media debate*, not confirmation of the manager's own plans.
 
+### Rumours, form verdicts and controversies — how they become canon
+
+- A **form verdict** is an attributed newspaper/pundit interpretation of actual playing evidence. It can be harsh, polarising or wrong; no private coach verdict may be smuggled into it.
+- A **rumour or market watch** may be a question raised by an outlet, a potential fit or cautious supporter speculation. Keep it in a distinct *speculation* state. A named club making an approach, a fee being proposed, a player asking out, or a negotiation underway is not established simply because the fictional press wondered aloud about it.
+- A **controversy** may be a public argument about performances, selection, tactics, awards, rivalries or a public quote. Do not invent a training-ground altercation, dressing-room mutiny, agent allegation or staff leak in order to manufacture scandal.
+- **Continuity matters:** record meaningful recurring media positions and subsequent reversals in this canon. If Bellandi doubts a player and that player later flourishes, the earlier position still happened; Bellandi may acknowledge it, rationalise it or double down. Public supporter reactions can challenge pundits, but cannot know confidential AM conversations.
+- Player interviews and short quotations are **fictional in-universe speech**, not real-world athlete interviews. Their publicly published *narrative* words may be referenced later; their imagined interior feelings cannot establish a new injury, dispute, transfer or private meeting. Public statements by Saladino still require his own participation or explicit authorisation.
+
 ### Public-manager participation is exclusive to the user
 The manager's public answers must always be provided by the user in a clear press scene or explicitly approved for publication. Player interviews can be fictionally written by the newsroom; a simulated interview with *Saladino* must pause for the user's response. Ordinary tactical chat with the AM is never treated as a public statement.
 
