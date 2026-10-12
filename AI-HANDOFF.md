@@ -1,5 +1,14 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## LATEST CONFIRMED · 7 JANUARY 2029 · MANAGER-VERIFIED 35-PLAYER SQUAD CENSUS
+
+Manager supplied **35 current player age/overall readings** before the **Jan 7 home match against Palermo (still UNPLAYED)**: **22 senior players, 13 currently out on loan**. Every reading appears in `JANUARY-2029-35-PLAYER-SQUAD-CENSUS-CANON.md`; live roster override `state-squad-ratings-jan7-2029.js` is loaded in `index.html` immediately ahead of `app.js`. The squad UI now prints **senior-player ages** as well as overalls, while loan list shows 13 verified ages/ratings. Older article ratings remain period-specific history.
+
+**Headline current ratings:** Meret 31/86, Peacock 20/74, Bastoni 29/91, Davies 28/89, Cucurella 30/88, Calafiori 26/87, Buongiorno 29/88, Kayode 24/87, Di Lorenzo 35/77, Neves 24/93, McTominay 32/88, KDB 37/81, Paz 24/88, Olise 27/91, Moore 21/84, Beier 26/89, Pio 23/87. **Hasa returned from loan** and is now 25/78 in the senior squad; **Di Lorenzo contract talks have broken down**, with earlier Everton approach but NO confirmed transfer. Loaned 13 include Lawton 18/73, O. Burnett 19/71, Marianucci 24/75, Valentini 19/69, G. Ricci 19/68, Reyna 20/69, Sanchez 19/66, L. Resende 17/68, C. Brun 19/71, Mancini 20/75, Rao 22/73, Vergara 25/73, Giovane 25/76. Detailed ratings are canonical in the census document.
+
+**Do not confuse this in-save Jan 2029 snapshot with 2026 wall-clock time**; historical statistics, standings and match dates remain unchanged. Napoli are still 45 points/18 Serie A matches after Parma; next Palermo home Jan 7. No Palermo result recorded and no unsourced lineup change.
+
+
 ## LATEST CONFIRMED · 4 JANUARY 2029 · NAPOLI 2–0 PARMA, 45 PTS/18
 
 **SERIE A HOME · 4 Jan 2029 · FT NAPOLI 2–0 PARMA.** 27′ **Kevin De Bruyne unassisted** after Pio's extremely sharp-angle shot nearly trickled in near post and sat on the goal line; KDB crashed in and pushed it over line (**NO Pio assist**). 75′ **Pio Esposito unassisted** goal, reacting to the rebound from **Scott McTominay's SAVED shot** (**NO McTominay assist**). **GK PEACOCK CLEAN SHEET**. Do NOT invent Peacock saves count, HT score, full XI, subs, match chances or xG. **Pio now 14 club goals/12 assists**, Beier remains last verified **19G/7A**; KDB has at least two proven 2028–29 goals (Venezia + Parma), all-season exact total incomplete. Penalty shootout kicks NEVER count as goals.
