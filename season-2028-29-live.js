@@ -2,7 +2,7 @@
 const e=id=>document.getElementById(id);
 if(e('tickerTrack'))e('tickerTrack').innerHTML=[...D.ticker,...D.ticker].map(s=>'<span>'+s+'</span>').join('');
 if(e('latestResult')&&Array.isArray(D.latestResult)){const r=D.latestResult;e('latestResult').innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
-if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Arsenal 2–0 Napoli</span></div>';}
+if(e('formLine')){const l=D.seasonState?.league||{};const u=D.seasonState?.ucl||{};e('formLine').innerHTML='<div><strong>'+[l.w,l.d,l.l].join('-')+'</strong><span>2028–29 Serie A · '+l.points+' pts · '+(l.gf??D.serieAStandings?.rows?.[0]?.[4]??'?')+' GF · '+(l.ga??D.serieAStandings?.rows?.[0]?.[5]??'?')+' GA</span></div><div><strong>'+[u.w,u.d,u.l].join('-')+'</strong><span>2028–29 UCL · '+u.points+' pts · Most recent UCL: Dortmund 0–1 Napoli</span></div>';}
 if(e('nextTwo'))e('nextTwo').innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
 if(e('upcomingStrip'))e('upcomingStrip').innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
 const row=x=>'<div class="formation-row"><span>'+x[0]+'</span><strong>'+x[1]+'</strong><b>'+x[2]+'</b></div>';
