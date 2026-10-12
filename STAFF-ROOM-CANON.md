@@ -49,7 +49,7 @@
 - Comparison of each keeper's overall and Champions League averages: Meret's UCL figure is **1.02 lower**; Peacock's is **1.32 lower**. Overall averages include multiple competitions and are not standalone domestic-league ratings.
 - **Do not infer causality or sample size.** Manager confirmed four European appearances for Meret and one for Peacock. Match-by-match ratings and goalkeeper errors remain unconfirmed. Peacock's single 5.50 should not be treated as a reliable European trend; Meret's 5.82 over four appearances warrants closer review. Do not automatically conclude either keeper personally caused Arsenal's or PSG's goals.
 - **Private assessment:** Peacock's 26 November Monza breakaway save, clean sheet and Team of the Week award warrant serious consideration for a further domestic start, but they do not establish European superiority. Neither keeper presently has a statistical claim to convincing Champions League form. Keep goalkeeper selection genuinely competitive and assess shot-stopping, command, distribution, confidence, and performance versus strong opposition as further evidence arrives.
-- **Future decisions (updated after Udinese):** Peacock started the 2 December Udinese 1–1 draw. Dortmund away 5 December remains unplayed; Saladino is privately leaning toward Meret, with no starting goalkeeper yet confirmed.
+- **Confirmed internal Dortmund selection after Udinese:** Peacock started the 2 December Udinese 1–1 draw. **Saladino has decided Alex Meret will start at Borussia Dortmund away on 5 December 2028.** This is staff-only pre-match intent, not yet a publicly announced team sheet. Dortmund remains unplayed.
 - **Editorial boundary:** Do not quote the manager's private evaluation or this private rating comparison as leaked club sentiment. If public figures are independently established in future, an autonomous pundit may discuss actual observable goalkeeping form, but must not claim access to this conversation.
 
 ## 2 December 2028: Napoli 1–1 Udinese — private touchline and match record
@@ -70,6 +70,14 @@
 
 **Editorial firewall:** the result, goals, saves and xG can support future independent news coverage **when the manager authorises publication**. The staff's private goalkeeper debate and Saladino's Meret lean must never enter stories, fan comments or imaginary leaked quotes.
 
+## After Udinese: final staff discussion and photographed league table
+
+- **Manager's assessment:** Peacock was neither poor nor exceptional against Udinese; Saladino considers his two-match league audition encouraging but not decisive. No goalkeeper blame for Garcia's corner equaliser was established.
+- **Manager's decision:** Restore **Alex Meret as starting goalkeeper against Borussia Dortmund (away, 5 December 2028)**. Treat this as internal tactical selection until the match team sheet is publicly seen. His UCL average before Dortmund was 5.82 across four appearances; Peacock's was 5.50 across one European appearance. These are private review figures.
+- **Updated league table, 14 matches each, verified from manager's post-Udinese image:** Napoli 35 points (11W 2D 1L, GF27 GA6 GD+21); Roma 33 (10W 3D 1L, GF32 GA14 GD+18); Atalanta/Bergamo Calcio 28; Juventus 25; Parma 23; Milan/Milano FC 23. Napoli's lead over Roma is **two points**.
+- No press statement was issued and no public interview was given. No articles should describe Meret being chosen for Dortmund as a public decision prior to the actual official lineup.
+- Udinese reporting is manager-authorised for the independent newsroom. The score, goals, saved chances, xG and photographed table are public football information; the staff assessment and goalkeeper reasoning are not.
+
 ## Permanent story-universe separation rules
 
 1. **Internal conversation remains canon.** Everything discussed between manager and AM can matter to motivation, tactical choices, trust and future selection, even when unseen by the public.
@@ -83,4 +91,4 @@
 
 ## Status
 
-As of **2 December 2028**, Napoli have drawn 1–1 with Udinese after Beier's eighth-minute goal and Garcia's 63rd-minute equaliser from a corner; 35 points from 14 league games. Peacock played after his strong Monza outing. The staff's goalkeeper assessment remains confidential. Saladino is privately leaning toward Meret for Dortmund on 5 December, but has not finalised the decision.
+As of **2 December 2028**, Napoli have drawn 1–1 with Udinese after Beier's eighth-minute goal and Garcia's 63rd-minute equaliser from a corner; 35 points from 14 league games. Peacock played after his strong Monza outing. The staff's goalkeeper assessment remains confidential. Saladino has privately chosen Meret to start away against Dortmund on 5 December; the publicly visible starting XI is not yet confirmed.
