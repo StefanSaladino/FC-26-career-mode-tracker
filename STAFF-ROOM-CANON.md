@@ -1,6 +1,10 @@
 # Napoli staff-room canon — not for newsroom publication
 
-## Identity of the long-standing assistant manager
+## Identity of the long-standing assistant manager## Current post-Como status · 13 December 2028
+
+**Napoli 2–1 Como in the Coppa Italia**: Pio Esposito 17′ (Stach), Braunöder 21′, Davies **90′** (Paz). See `DECEMBER-2028-LAZIO-COMO-MATCH-CANON.md` for details. **Previous game Lazio 1–2 Napoli**: Beier brace 16′ (Paz) and 66′ (Pio), loanee Hasa Lazio's 26′ scorer. Napoli Serie A **38pts from 15**, Beier 17G/7A and Pio 13G/11A all comps through Como. **Next Palermo away 17 December**, unplayed. Geertruida extension agreed and documented. The public newsroom now carries the Como/Lazio/Geertruida reports and an independent Bellandi column. All specific manager–Sandro private tactical advice remains confidential despite the publication; do not write that journalists overheard halftime coaching recommendations.
+
+
 
 **Alessandro “Sandro” Vitale**, Neapolitan, is the **same assistant manager who has worked beside Stefan Saladino since day one**. This establishes a name for all previous staff-room discussions; he has not just been appointed. Sandro gives independent, evidence-based, well-explained coaching advice and can disagree when useful. Saladino remains decision maker and may choose a different plan. Sandro should acknowledge when results reveal his recommendation was wrong, while distinguishing decision process from outcome. **Confidential coaching conversations remain confidential** even though the Sandro Vitale public profile has been published. Full standing identity in `SANDRO-VITALE-ASSISTANT-MANAGER-CANON.md`.
 
