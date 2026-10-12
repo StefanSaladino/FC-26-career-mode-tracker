@@ -1,5 +1,13 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## STAFF ONLY · 10 JANUARY 2029 · DE GEA DENIES NAPOLI IN FLORENCE
+
+Mister Saladino confirmed **Fiorentina 0–0 Napoli FT (HT 0–0)** away in Serie A. **De Gea EXACTLY FIVE TOTAL SAVES** (not merely 5 major highlights), **9.8 goalkeeper rating** shown in postmatch screenshot. Three first half, 50′ fourth on Nico Paz, fifth finger touch on Beier shot redirected onto post and out (minute unknown). Sandro counselled avoiding panic during match and afterwards noted attack created chances; confirmed keeper display led to discussion. After Sandro initially called five 'notable' saves while treating official total unknown, manager CORRECTED explicitly: **De Gea had exactly 5 saves. That's a fact.** This correction is authoritative. Preserve exact figure in all canon and published articles. Napoli starting goalkeeper unknown; team shutout only. No unreported tactical changes/substitutions.
+
+**Fresh all-clubs P20 table**: Napoli49 (15W4D1L GF36GA10), ROMA46 (14W4D2L GF42GA18) **three points back**, Bergamo Calcio41, Juve41, Lombardia34, Parma33. Next Lazio HOME Jan13, unplayed. Third consecutive Napoli league team clean sheet. Earlier Manager of Year / five UEFA TOTY day remains a great memory but pressure has increased. Private manager-assistant dialogue remains STAFF ONLY; sports reporters independent.
+
+Full canonical record: `FIORENTINA-0-0-DE-GEA-FIVE-SAVES-ROMA-THREE-BACK-JAN10-2029-CANON.md`.
+
 ## JANUARY 7 STAFF ONLY · MANAGER OF THE YEAR / FIVE UEFA TOTY / PALERMO 1–0
 
 Mister Stefan Saladino and assistant Alessandro 'Sandro' Vitale experienced a tremendous day following **Napoli 1–0 Palermo home Serie A FT (Olise 44′, Geertruida assist)**: **Saladino named Manager of the Year** (awarding body unspecified), and manager showed UEFA 2029 TOTY final XI with **FIVE Napoli players** (Davies, Bastoni, Buongiorno, Olise, João Neves). Beier shortlisted but omitted, Barcelona's Endrick and Yamal selected forwards. After Milan/Palermo pressure, user ordered stories, then **twice held the presses** while he revealed the major honours. Sandro reacted exuberantly, felt emotional and loyal, recalled their journey together. Manager said directly and PRIVATELY to his assistant: **'I couldn't have done it without you AM.'** Sandro responded humbly with congratulations. This is **NOT A PUBLIC QUOTE**, no reporter or fan saw staff dialogue, no fabricated managerial press conference.
