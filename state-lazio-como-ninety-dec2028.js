@@ -24,7 +24,7 @@ startingXI:[['GK','Peacock'],['LB','Riccardo Calafiori'],['CB','Alessandro Buong
 substitutesConfirmed:[{player:'Nico Paz',entered:true,entryMinute:null,playerOut:null},{player:'Alphonso Davies',entered:true,entryMinute:null,playerOut:null}],
 substitutesOtherUnknown:true,goalkeeperErrorAtEqualiser:'not established',
 napoliWereSuperiorAtHalftime:true,
-notes:'The manager approved Buongiorno for Bastoni to rest; final confirmed lineup is public, private reasons are not press quotations.'};
+notes:'Buongiorno and Geertruida started in central defence; Bastoni did not start. Private selection planning is not a public press quotation.'};
 D.lazioDecember2028=lazio;
 D.comoCoppaDecember2028=como;
 const games=[
