@@ -85,6 +85,13 @@
 - **Dortmund UCL away, 5 December 2028:** Match is **underway**. Saladino has chosen **Alex Meret** as starting goalkeeper after reviewing Peacock's two domestic appearances. The remainder of the Dortmund lineup, all minute-by-minute match events and the result are not established yet. The manager's earlier private reasoning remains internal; the fact of a starting goalkeeper becomes publicly observable only through the official lineup.
 - **Publishing:** No automatic website article, press quote or locker-room leak. Report the contract as an actual agreement rather than a rumour if later authorised for the newsroom; keep the private keeper-selection conversation off the public site.
 
+
+## December 2028: Cucurella contract extension
+
+Marc Cucurella, age 30 and 88 OVR, agrees to an Important-role extension. Two years added, leaving three years and six months total. Weekly wage $200,000; signing bonus $2.5 million; further $3.5 million conditional on ten clean sheets. The condition has not been established as met.
+
+Dortmund away, 5 December: play has begun. Saladino has selected Meret in goal. No match outcome has yet been reported. Keep the goalkeeper debate confidential.
+
 ## Permanent story-universe separation rules
 
 1. **Internal conversation remains canon.** Everything discussed between manager and AM can matter to motivation, tactical choices, trust and future selection, even when unseen by the public.
