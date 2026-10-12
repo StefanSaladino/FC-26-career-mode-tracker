@@ -1,5 +1,13 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## JANUARY 7 STAFF ONLY · MANAGER OF THE YEAR / FIVE UEFA TOTY / PALERMO 1–0
+
+Mister Stefan Saladino and assistant Alessandro 'Sandro' Vitale experienced a tremendous day following **Napoli 1–0 Palermo home Serie A FT (Olise 44′, Geertruida assist)**: **Saladino named Manager of the Year** (awarding body unspecified), and manager showed UEFA 2029 TOTY final XI with **FIVE Napoli players** (Davies, Bastoni, Buongiorno, Olise, João Neves). Beier shortlisted but omitted, Barcelona's Endrick and Yamal selected forwards. After Milan/Palermo pressure, user ordered stories, then **twice held the presses** while he revealed the major honours. Sandro reacted exuberantly, felt emotional and loyal, recalled their journey together. Manager said directly and PRIVATELY to his assistant: **'I couldn't have done it without you AM.'** Sandro responded humbly with congratulations. This is **NOT A PUBLIC QUOTE**, no reporter or fan saw staff dialogue, no fabricated managerial press conference.
+
+Match details: Desplanches Palermo keeper excellent saves, Nico Paz saved 27′, Napoli headed a corner off crossbar (shooter not verified); 44′ Olise scored from Geertruida assist; **HT 1–0**; João Neves 93 rated SUB ON AT HALFTIME; Davies 89 & Calafiori 87 both ON at 65′; Beier point-blank shot saved; Neves passed to Moore who miscontrolled in box; FT 1–0. **NO NAPOLI KEEPER NAMED**; record team clean sheet only. League now **48 points/19 15W3D1L GF36 GA10 +26**; Roma 40/18 & Bergamo 41/19 last verified **Jan4**, not current Jan7. Next Fiorentina AWAY Jan10 unplayed. Neves's qualities reflect deep options, but starting lineup or players subbed OFF not supplied.
+
+GDL **renewal talks broken down**, 35/77, remains at Napoli; earlier Everton contact but not completed transfer. Hasa 25/78 returned loan, role under review. Squad ages/OVR confirmed previously all 35 players. Sandro's tactical critique remains independent from public coverage. Full reference `SALADINO-MANAGER-OF-YEAR-5-UEFA-TOTY-PALERMO-JAN2029-CANON.md`.
+
 ## LATEST STAFF ROOM · PARMA 2–0 NAPOLI WIN, 4 JAN 2029
 
 Mister reports Napoli HOME **2–0 Parma FT**, De Bruyne 27′ **unassisted** goal-line finish after Pio sharp angled shot sat on line, Pio 75′ **unassisted** rebound from McTominay saved shot. Peacock **clean sheet** (no saves count known), total Pio 14G/12A, last Beier 19G/7A. Sandro advised control and protection of lead from 75′ before FT; this private discussion is **not public news**. Last big match Jan1 Roma final 0–0 after 90, Roma 4–3 pens champions; Meret starred but now Peacock clean sheet creates healthy competition; **NO permanent number one proclaimed**. Next Jan7 Palermo HOME unplayed.
