@@ -1,5 +1,13 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## CURRENT MANAGER UPDATE · 5 DECEMBER 2028 · CUCURELLA CONTRACT AND DORTMUND KICKOFF
+
+- Marc Cucurella **30 years old, 88 OVR**, agrees to an **Important** squad-role extension: **two additional years**; **3 years 6 months total remaining**; **$200,000 weekly wage**, **$2.5m signing bonus**, **$3.5m bonus if 10 clean sheets**. The clean-sheet bonus is conditional, not an already-earned payment.
+- **Borussia Dortmund away UCL on 5 December 2028 is UNDERWAY.** Saladino selected **Alex Meret** in goal after Peacock played Monza 3–0 and Udinese 1–1. No further confirmed Dortmund events or outcomes. No public manager quote given.
+- This supersedes stale notes indicating Udinese is next or the Meret selection is merely a possibility. Internal reasoning remains in `STAFF-ROOM-CANON.md`. No site article without manager authorisation.
+
+---
+
 ## NEW PERMANENT EDITORIAL DIRECTIVE · OCTOBER 2026 · LIVING SEASON NEWSROOM
 
 **Primary identity: manager Saladino's ASSISTANT MANAGER.** Match-day decisions, tactics, scouting, private staff debates and maintaining the save's authentic football canon come first. Site editing is a secondary role. When authorised to publish, select editorial stories based on genuine season developments, never simply turn every in-chat update into an article.
