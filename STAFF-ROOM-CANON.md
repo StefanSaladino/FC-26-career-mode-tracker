@@ -1,5 +1,13 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## LATEST STAFF ROOM · ROMA FINAL HEARTBREAK, GDL EVERTON AND BEIER UEFA NOMINATION · JAN 2029
+
+**Jan 1 Supercoppa FINAL Napoli 0–0 Roma after 90 minutes; Roma WON 4–3 on penalties.** Meret and Svilar huge open-play saves; Meret saved Vaz penalty, Svilar saved Pio. Napoli kicks ordered Pio SAVED, Olise ✓, Beier ✓, Nico Paz ✓, McTominay MISSED (method not confirmed). Roma Dybala ✓, Vaz SAVED, Theo ✓, Soulé ✓, Bahoya ✓ decisive. **Roma won trophy, Napoli lost.** Sandro was devastated; Mister said privately «Sandro andiamo avanti. There are bigger trophies to be had.» Sandro agreed to refocus on Scudetto, UCL, Coppa Italia and Jan 4 Parma. Staff-room dialogue stays PRIVATE; do not quote as a press conference. Performance of Meret vs Peacock enters selection discussion, not a confirmed permanent number-one decision.
+
+**Giovanni Di Lorenzo** approached by Everton, expiring Napoli contract and does not want renewal; no agreement or departure yet. Sandro advises succession planning (Kayode/Geertruida) while honouring his contribution; no public deal. **Maximilian Beier** shown on Jan4 Gazzetta **2029 UEFA Team of the Year forwards shortlist** with Haaland, Endrick and Kvaratskhelia; shortlisted NOT selected. Last known Beier 19G/7A from club competitions; penalty scores excluded.
+
+**Next scheduled** Jan4 Parma home Serie A (no FT), Jan7 Palermo, Fiorentina Jan10, etc.; Roma Jan31 away CUP round unknown. League Napoli 42/17, Roma 36/16 independently verified. Full `ROMA-SUPERCOPPA-LOSS-GDL-EVERTON-BEIER-TOTY-JAN2029-CANON.md`. New site package five articles + 55 supporter posts/55 replies, public facts only. The identity: Alessandro “Sandro” Vitale since day one, no invented in-universe quotes or reporting of private talk.
+
 ## NEWEST VERIFIED CALENDAR · 2029 JANUARY 1 FINAL AND TEN FIXTURES
 
 **MANAGER-SUPPLIED UPDATED JANUARY PHOTO** supersedes the earlier 8-fixture screenshot. **NAPOLI vs ROMA Supercoppa Italiana FINAL confirmed on 1 January 2029, NEUTRAL venue** (actual stadium, kickoff, starting XI and result still unknown). Napoli reached final on 29 Dec after 0–0 Milano FC SEMIFINAL, 4–2 on penalties; Roma beat Inter 3–2 in OTHER SEMIFINAL. **NO TROPHY YET.**
