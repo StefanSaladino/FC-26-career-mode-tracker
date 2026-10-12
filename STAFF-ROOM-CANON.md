@@ -92,6 +92,13 @@ Marc Cucurella, age 30 and 88 OVR, agrees to an Important-role extension. Two ye
 
 Dortmund away, 5 December: play has begun. Saladino has selected Meret in goal. No match outcome has yet been reported. Keep the goalkeeper debate confidential.
 
+## 5 December 2028: Dortmund away, corrected first-half record
+
+- **Score at half-time: Borussia Dortmund 0–1 Napoli.** **27′ Pio Esposito goal, assisted by Maximilian Beier.** This explicitly corrects the earlier erroneous 0–0 half-time report, which must not enter the site or historical results.
+- João Neves won an early Napoli corner during an encouraging opening period. Late in the first half Beier attempted a shot saved by Dortmund goalkeeper Gregor Kobel. Exact minute of the save is not established.
+- Meret started for Napoli. This selection is now visible on the pitch; the reasons discussed by manager and assistant remain confidential.
+- Second half and match result have **not** been reported. Do not advance the fixture to full-time or attribute later goals or other events.
+
 ## Permanent story-universe separation rules
 
 1. **Internal conversation remains canon.** Everything discussed between manager and AM can matter to motivation, tactical choices, trust and future selection, even when unseen by the public.
