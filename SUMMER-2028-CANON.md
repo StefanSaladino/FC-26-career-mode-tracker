@@ -1,5 +1,15 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## LATEST VERIFIED · 17 DECEMBER 2028 · PALERMO 2–2 / JANUARY 2029 CALENDAR
+
+**Palermo away 2–2 FT, 17 December 2028:** Palermo Diakité 29′, 75′ (second on counterattack); Napoli McTominay 60′ assisted by **Michael Olise**, Beier 86′ assisted by **Anton Stach**. **Peacock SIX saves in FIRST HALF** (not confirmed full-game total); poor Napoli first half, much better second. **Olise and Alphonso Davies both entered AT HALFTIME**. **Pio Esposito's stoppage-time shot was saved by the Palermo goalkeeper**. Starting XI outside confirmed goalkeeper and identified players remains incomplete. Palermo were bottom of the table. Do not blame Peacock for concessions without further evidence.
+
+**Screenshot-verified Serie A table after 16 played EACH:** Napoli **39pts, 12W-3D-1L, 31GF/9GA, GD+22**; Roma **36pts, 11W-3D-2L, 35GF/16GA, +19**; Atalanta/Bergamo Calcio **32pts**, Juventus **31pts**, Parma **26pts**, AC Milan/Milano FC **25pts**. Napoli lead Roma by **THREE** after the draw (vs two at 14 played). By comparing 14- and 16-match records, Roma took 3 points (1 win, 1 loss), but identity of opponent unknown. Napoli club 2028–29 all comps Beier **18G/7A**, Pio **13G/11A** through Palermo.
+
+**January 2029 VERIFIED eight scheduled games (NONE of these results reported):** Jan 3 Parma H Serie A, Jan 6 Palermo H Serie A, Jan 10 Fiorentina A Serie A, Jan 13 Lazio/Latium H Serie A, Jan 16 **Real Sociedad A UCL**, Jan 21 Sampdoria A Serie A, Jan 24 **KS Cracovia A UCL** (waving red-white flag crest), Jan 27 Juventus H Serie A. No verified kickoffs, results or starting XIs. **Outstanding December:** Bologna home Dec 24 and AC Milan/Milano FC home-designated Supercoppa Dec 29 result UNKNOWN; January screenshot does not establish either result. Do not silently skip or fill these.
+
+**Publishing authorised by manager:** New articles about Palermo 2–2, Roma's slip, Peacock six-save performance, January schedule; state/standings/schedule and reader comments including established `SaladinoOutNow`. `VitaleOutNow` is only a prior staff-room joke and is NOT a verified active commenter. Files `post-palermo-roma-january2029.js`, `state-palermo-table-january2029.js`, `comments-palermo-roma-january2029.js` in `index.html`. Full canonical reference: `PALERMO-DEC2028-JANUARY2029-SCHEDULE-CANON.md`. Staff/private selection arguments are not public and never material for reporter quotations. Alessandro “Sandro” Vitale is the long-serving assistant manager, coach first and publisher second.
+
 ## NEW PERMANENT EDITORIAL DIRECTIVE · OCTOBER 2026 · LIVING SEASON NEWSROOM
 
 **Primary identity: manager Saladino's ASSISTANT MANAGER.** Match-day decisions, tactics, scouting, private staff debates and maintaining the save's authentic football canon come first. Site editing is a secondary role. When authorised to publish, select editorial stories based on genuine season developments, never simply turn every in-chat update into an article.
