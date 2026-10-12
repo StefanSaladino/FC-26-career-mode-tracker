@@ -1,5 +1,9 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## Current staff-room match canon · 29 December 2028
+
+Napoli 0–0 Milano FC in Supercoppa SEMIFINAL, won 4–2 on shootout. Napoli penalties ordered: Pio scored, De Bruyne scored, Neves saved by Maignan, Beier scored, Moore scored decisive fifth. Milan: Giménez over, Fofana scored, Roony scored, Bondo hit post, fifth kick not taken. Maignan earlier stopped chances by Neves from distance and Davies and Nico Paz near goal. Napoli goalkeeper and extra time not confirmed. Manager corrected Sandro's initial excitement: SEMIFINAL, no trophy yet. Roma defeated Inter 3–2 in the other semifinal, so final is Napoli vs Roma, date/location unknown. User authorised publication, private exchanges stay private. Reference `SUPERCOPPA-SEMI-NAPOLI-MILANO-ROMA-INTER-DEC2028-CANON.md`. Current league Napoli 42/17, Roma last verified 36/16, unrelated to cup game.
+
 ## LATEST CONFIRMED: 24 DEC 2028 — NAPOLI 2–1 BOLOGNA FT
 
 **Serie A · HOME · 24 Dec 2028 · Napoli 2–1 Bologna full-time**. **Davies 58′**, assist **Pio Esposito**, remarkable angle with **manager-provided shot xG 0.08**; **Openda 80′** equalised; **Beier 85′ unassisted** winner from the rebound of a **João Neves blocked shot** at the edge of the box. **Neves receives NO assist.** This is full-time, not live. No confirmable Bologna starting XI, goalkeeper, substitution details, HT score or buildup explanation for the Bologna goal.
