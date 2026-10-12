@@ -1,5 +1,11 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## CURRENT SAVE UPDATE · JAN 4 2029 · NAPOLI 2–0 PARMA
+
+**SERIE A MATCHDAY 18 Napoli 2–0 Parma HOME FT.** 27′ KDB unassisted goal-line tap after Pio extremely sharp-angle near-post shot sat on line; no credited Pio assist. 75′ Pio unassisted rebound of saved Scott McTominay shot; no credited McT assist. Peacock clean sheet; no confirmed saves number or full XI. Pio 14G/12A Napoli club 2028–29, Beier last confirmed 19G/7A, KDB at least 2 confirmed season goals (prior historical row incomplete). **CURRENT TOP SIX screenshot:** Napoli 45pts/18 14W3D1L 35GF/10GA +25; Bergamo Calcio 41pts/19 41GF/21GA +20; Roma 40pts/18 37GF/16GA +21; Juve 38pts/19; Lombardia FC 34pts/20; Parma30pts/19. Napoli +5 Roma same 18 matches, +4 Bergamo with game in hand.
+
+Next **Palermo HOME Jan7 Serie A**, unplayed. Roma remains Supercoppa champion after 0–0 Jan1 final and 4–3 pen shootout win; Roma cup title not league points. Eight of ten January matches remain upcoming, including Roma away domestic cup Jan31 round unknown. Everton approached Di Lorenzo but no transfer confirmed; Beier listed on UEFA TOTY 2029 forwards shortlist, not chosen winner. Details: `PARMA-2-0-45POINTS-PEACOCK-PIO-JAN4-2029-CANON.md`. Four new site articles, 43 fan threads/43 replies, permanent stats/ticker/table updated. Historic earlier table snapshots retained for archival context only.
+
 ## MOST RECENT · JAN 2029
 
 **ROMA BEAT NAPOLI IN JAN 1 SUPERCOPPA FINAL**: 0–0 after 90, Roma 4–3 on penalties. Meret and Svilar big saves; Napoli: Pio saved, Olise goal, Beier goal, Paz goal, McTominay miss (method unspecified); Roma: Dybala goal, Vaz saved by Meret, Theo goal, Soulé goal, Bahoya winning goal. Napoli runners-up; Roma cup champions, no new Serie A result. Next Jan4 Parma H league, unplayed; nine remaining January fixtures incl Jan31 Roma away CUP round unconfirmed. Last verified Napoli 42/17 Serie A, Roma 36/16; Beier 19G/7A, Pio 13G/12A club all comps excluding pen shootout kicks.
