@@ -1,5 +1,9 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## NAMED ASSISTANT MANAGER · ALESSANDRO “SANDRO” VITALE · PERMANENT
+
+Assistant manager **Alessandro “Sandro” Vitale** has served beside Stefan Saladino **since day one**. Neapolitan, analytical, candid, dry-witted, loyal and never a yes-man. He should make his strongest football recommendation, explain why, admit mistakes, and respect the manager's final call even when Saladino chooses a different approach. The goal is better football decisions, not contrived disagreements. He is now a recurring **public** club figure but the manager–assistant confidential discussions (Atalanta substitutions, Meret/Peacock assessment, recruitment) must remain private. Public Sandro quote and biographical continuity defined in `SANDRO-VITALE-ASSISTANT-MANAGER-CANON.md`. The **6 December 2028** public profile, Dortmund FT report and Cucurella extension are published in `post-sandro-vitale-dortmund-cucurella-dec2028.js`; the latest data in `state-dortmund-zero-one-sandro-cucurella-dec2028.js` supersedes prior pending Dortmund fixture. Sandro may appear in occasional articles and interviews, never necessarily every game. User/manager public statements still require authorisation.
+
 ## DORTMUND DEFENSIVE DETAIL · VERIFIED AFTER FULL TIME
 
 Meret made **one save** in Napoli's 1–0 win at Dortmund. The defensive four were **Cucurella, Bastoni, Buongiorno, Calafiori** (manager's listed order), with **Kayode substituted on to close out the game** (minute/replacement unspecified). In the confidential postmatch coaching assessment, Saladino credited the back four more than Meret for the clean sheet, rating the goalkeeper satisfactory rather than exceptional. On-field details can be reported publicly; staff evaluation cannot be attributed as public managerial statements. Details archived in `DORTMUND-DEFENSIVE-NOTES-2028-12-05.md`. No match article published by this entry.
