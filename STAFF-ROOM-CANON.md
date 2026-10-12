@@ -49,8 +49,26 @@
 - Comparison of each keeper's overall and Champions League averages: Meret's UCL figure is **1.02 lower**; Peacock's is **1.32 lower**. Overall averages include multiple competitions and are not standalone domestic-league ratings.
 - **Do not infer causality or sample size.** Manager confirmed four European appearances for Meret and one for Peacock. Match-by-match ratings and goalkeeper errors remain unconfirmed. Peacock's single 5.50 should not be treated as a reliable European trend; Meret's 5.82 over four appearances warrants closer review. Do not automatically conclude either keeper personally caused Arsenal's or PSG's goals.
 - **Private assessment:** Peacock's 26 November Monza breakaway save, clean sheet and Team of the Week award warrant serious consideration for a further domestic start, but they do not establish European superiority. Neither keeper presently has a statistical claim to convincing Champions League form. Keep goalkeeper selection genuinely competitive and assess shot-stopping, command, distribution, confidence, and performance versus strong opposition as further evidence arrives.
-- **Future decisions:** Udinese home 2 December and Dortmund away 5 December remain unplayed and goalkeeper choices remain open; a recommendation is not a confirmed lineup.
+- **Future decisions (updated after Udinese):** Peacock started the 2 December Udinese 1–1 draw. Dortmund away 5 December remains unplayed; Saladino is privately leaning toward Meret, with no starting goalkeeper yet confirmed.
 - **Editorial boundary:** Do not quote the manager's private evaluation or this private rating comparison as leaked club sentiment. If public figures are independently established in future, an autonomous pundit may discuss actual observable goalkeeping form, but must not claim access to this conversation.
+
+## 2 December 2028: Napoli 1–1 Udinese — private touchline and match record
+
+**On-field canon available to independent match reporters:**
+- Napoli started **Peacock** in goal and used a moderately rotated XI (individual rotated names not established).
+- **8′ Beier goal:** Beier intercepted an Udinese pass between their centre-backs, advanced alone and scored. No teammate assist.
+- **29′ and 34′:** João Neves delivered two effective through balls to Beier; Udinese goalkeeper **Sava** saved both chances.
+- **Half-time:** Napoli led 1–0.
+- **63′ Garcia equaliser for Udinese** following a corner. The exact marking breakdown, shot type, and any goalkeeper fault have **not** been established.
+- **Full-time 1–1**, expected goals **Napoli 2.3, Udinese 1.4**. Napoli earned one point, moving from 34 points in 13 Serie A matches to **35 points in 14 matches**.
+
+**Private manager–AM match-management discussion:**
+- Before kickoff, Saladino confirmed Peacock would start Udinese, while he remained **inclined toward Meret for the upcoming Dortmund Champions League fixture**, reserving the final choice until after Udinese. This preference was private and **is not a confirmed Dortmund XI or a public club statement**.
+- At half-time, the staff judged the first half positive despite a narrow lead and discussed retaining control and using rotation cautiously with Dortmund approaching.
+- After the draw, review unconverted chances and defending at the corner before attributing responsibility to a player. Do **not** conclude that Peacock was at fault based only on conceding from a corner. The result alone does not establish whether Peacock or Meret is the superior option for Dortmund.
+- **Dortmund away 5 December remains unplayed** and the goalkeeper decision remains with Saladino. Meret UCL 5.82 across four matches; Peacock UCL 5.50 from one match prior to Udinese; averages were provided before Udinese and must not be represented as newly recalculated.
+
+**Editorial firewall:** the result, goals, saves and xG can support future independent news coverage **when the manager authorises publication**. The staff's private goalkeeper debate and Saladino's Meret lean must never enter stories, fan comments or imaginary leaked quotes.
 
 ## Permanent story-universe separation rules
 
@@ -65,4 +83,4 @@
 
 ## Status
 
-As of after Monza on 26 November 2028, **Peacock has a clean sheet, a breakaway save and a Serie A Team of the Week selection**. The internal discussion has gained narrative significance. The Napoli press knows the result, not the discussion. The manager's trust in Meret and goalkeeper plans for Udinese/Dortmund remain future staff decisions.
+As of **2 December 2028**, Napoli have drawn 1–1 with Udinese after Beier's eighth-minute goal and Garcia's 63rd-minute equaliser from a corner; 35 points from 14 league games. Peacock played after his strong Monza outing. The staff's goalkeeper assessment remains confidential. Saladino is privately leaning toward Meret for Dortmund on 5 December, but has not finalised the decision.
