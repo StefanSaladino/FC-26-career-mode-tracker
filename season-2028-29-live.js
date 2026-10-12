@@ -87,16 +87,7 @@ monza.innerHTML='<div class="result-badge W">W</div><div class="match-main"><spa
 el.prepend(monza);
 }
 if(e('matchesList')){const section=document.createElement('section');section.className='season-2028-fixtures';section.innerHTML='<h3>2028–29 · Upcoming fixtures</h3><div class="match-list"></div>';const list=section.querySelector('.match-list');
-if(D.supercoppaFinal2028?.verified===true&&D.supercoppaFinal2028.played===false&&D.supercoppaFinal2028.opponent==='Roma'){
-const finalCard=document.createElement('div');finalCard.className='match-card';
-const finalBadge=document.createElement('div');finalBadge.className='result-badge';finalBadge.textContent='TBC';
-const finalMain=document.createElement('div');finalMain.className='match-main';
-const finalType=document.createElement('span');finalType.textContent='SUPERCOPPA ITALIANA · FINAL · Date TBC';
-const finalTitle=document.createElement('strong');finalTitle.textContent='Napoli vs Roma';
-const finalDescription=document.createElement('p');finalDescription.textContent='Both finalists confirmed · Final date, venue and result have not yet been reported';
-finalMain.append(finalType,finalTitle,finalDescription);finalCard.append(finalBadge,finalMain);list.appendChild(finalCard);
-}
-(D.verifiedUpcoming2028?.length?D.verifiedUpcoming2028:D.fixtures2028.filter(f=>!f.played)).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team;const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});if(!D.verifiedUpcoming2028?.length&&!D.fixtures2028.some(f=>!f.played)&&D.nextInternationalWindow?.stage==='Upcoming'){
+(D.verifiedUpcoming2028?.length?D.verifiedUpcoming2028:D.fixtures2028.filter(f=>!f.played)).forEach(f=>{const item=document.createElement('div');item.className='match-card';const date=document.createElement('div');date.className='result-badge';date.textContent=f.date.slice(5).replace('-','/');const body=document.createElement('div');body.className='match-main';const type=document.createElement('span');type.textContent=f.competition;const title=document.createElement('strong');title.textContent=f.venue==='Neutral'?f.team+' vs '+f.opponent:(f.venue==='Home'?f.team+' vs '+f.opponent:f.opponent+' vs '+f.team);const detail=document.createElement('p');detail.textContent=f.date+' · '+f.venue+(f.verified?'':' · Opponent awaiting confirmation');body.append(type,title,detail);item.append(date,body);list.appendChild(item)});if(!D.verifiedUpcoming2028?.length&&!D.fixtures2028.some(f=>!f.played)&&D.nextInternationalWindow?.stage==='Upcoming'){
 const international=document.createElement('div');international.className='match-card';
 international.innerHTML='<div class="result-badge">INT</div><div class="match-main"><span>International break · Italy national team</span><strong>Friendlies upcoming — opponents to be confirmed</strong><p>Exact dates, venues and call-ups have not been verified. Manager Saladino returns to national team duty.</p></div>';
 list.appendChild(international);}
