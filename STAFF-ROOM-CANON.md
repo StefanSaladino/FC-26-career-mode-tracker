@@ -42,12 +42,12 @@
 
 | Goalkeeper | Overall average match rating | Champions League average match rating |
 | --- | ---: | ---: |
-| Alex Meret | **6.84** | **5.82** |
-| Peacock | **6.82** | **5.50** |
+| Alex Meret | **6.84** | **5.82** (4 appearances) |
+| Peacock | **6.82** | **5.50** (1 appearance) |
 
 - Overall difference: Meret leads by **0.02**, effectively level. In the Champions League Meret leads by **0.32**, but **both European averages are poor relative to their overall marks**.
 - Comparison of each keeper's overall and Champions League averages: Meret's UCL figure is **1.02 lower**; Peacock's is **1.32 lower**. Overall averages include multiple competitions and are not standalone domestic-league ratings.
-- **Do not infer causality or sample size.** The manager has not yet supplied appearance counts for either average, the exact reporting window/season selection, individual match-rating distribution or goalkeeper error breakdown. Peacock's 5.50 in particular may be based on few European starts. Do not automatically conclude either keeper personally caused Arsenal's or PSG's goals.
+- **Do not infer causality or sample size.** Manager confirmed four European appearances for Meret and one for Peacock. Match-by-match ratings and goalkeeper errors remain unconfirmed. Peacock's single 5.50 should not be treated as a reliable European trend; Meret's 5.82 over four appearances warrants closer review. Do not automatically conclude either keeper personally caused Arsenal's or PSG's goals.
 - **Private assessment:** Peacock's 26 November Monza breakaway save, clean sheet and Team of the Week award warrant serious consideration for a further domestic start, but they do not establish European superiority. Neither keeper presently has a statistical claim to convincing Champions League form. Keep goalkeeper selection genuinely competitive and assess shot-stopping, command, distribution, confidence, and performance versus strong opposition as further evidence arrives.
 - **Future decisions:** Udinese home 2 December and Dortmund away 5 December remain unplayed and goalkeeper choices remain open; a recommendation is not a confirmed lineup.
 - **Editorial boundary:** Do not quote the manager's private evaluation or this private rating comparison as leaked club sentiment. If public figures are independently established in future, an autonomous pundit may discuss actual observable goalkeeping form, but must not claim access to this conversation.
