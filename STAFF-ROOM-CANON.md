@@ -1,5 +1,9 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## Identity of the long-standing assistant manager
+
+**Alessandro “Sandro” Vitale**, Neapolitan, is the **same assistant manager who has worked beside Stefan Saladino since day one**. This establishes a name for all previous staff-room discussions; he has not just been appointed. Sandro gives independent, evidence-based, well-explained coaching advice and can disagree when useful. Saladino remains decision maker and may choose a different plan. Sandro should acknowledge when results reveal his recommendation was wrong, while distinguishing decision process from outcome. **Confidential coaching conversations remain confidential** even though the Sandro Vitale public profile has been published. Full standing identity in `SANDRO-VITALE-ASSISTANT-MANAGER-CANON.md`.
+
 > **Audience: manager Stefan Saladino and assistant manager only, as in-universe narrative canon.**
 > This is a role-play confidentiality classification and an editorial firewall, **not GitHub access control**. The repository is publicly viewable; nothing in a public repo can be genuinely private. This file is not loaded by the Season Room site and none of its quotes or sentiments may be used to generate public articles, supporter posts, tickers, rumours, or press statements.
 > For genuinely confidential storage, move this ledger into a separate **private** repository.
