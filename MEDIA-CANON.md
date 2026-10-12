@@ -1,5 +1,11 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## LATEST NEWSROOM PUBLICATION · PARMA 2–0, 4 JANUARY 2029
+
+Napoli responded to Jan1 Supercoppa final loss to Roma with **2–0 HOME Serie A WIN Parma** on Jan4, **De Bruyne 27′ UNASSISTED** goal-line follow-up after Pio's extreme sharp-angle shot lay on line, and **Pio Esposito 75′ UNASSISTED** rebound from Scott McTominay's saved shot; GK **Peacock confirmed clean sheet**. Two goals each UNASSISTED. Pio 14G/12A Napoli club competitions. No fabricated xG, saves count, full team XI, substitutions or halftime result. Meret was outstanding versus Roma on Jan1, Peacock clean sheet versus Parma; keeper debate is INDEPENDENT public sports analysis, no manager private quotes or leaks.
+
+**Verified 6-club table** after Napoli match18: Napoli45/18 (14W3D1L GF35 GA10 +25), Bergamo41/19 (+20), Roma40/18 (+21), Juve38/19 (+16), Lombardia FC34/20 (+8), Parma30/19 (+5). Napoli **+5 Roma with 18 matches each**, +4 Bergamo who have played one more. Current news package has four distinct articles: official match report, Meret–Peacock goalkeeper feature, top-six title-race analysis, Pio's 14th goal / unassisted contributions feature. Supporting fan archive includes **43 posts and 43 replies** with CurvaB, @SaladinoOutNow, @RomaSud, etc. Images are existing Napoli archive graphics / portraits, not fabricated live Parma action; captions explain. More: `PARMA-2-0-45POINTS-PEACOCK-PIO-JAN4-2029-CANON.md`. Next Jan7 Palermo HOME scheduled, no score. Di Lorenzo–Everton and Beier shortlist remain ongoing, no resolution.
+
 ## LATEST PUBLIC MEDIA COVERAGE · JAN 1–4 2029
 
 **SUPERCOPPA FINAL:** Napoli 0–0 Roma after ninety, Roma **4–3 penalties winners** and champions Jan1 neutral. Meret and Svilar strong in play; Svilar saved Pio, Meret saved Vaz, Olise/Beier/Paz scored, McTominay failed fifth (miss mechanism unknown), Roma Dybala/Theo/Soulé/Bahoya scored with Bahoya decisive. Do not invent saved-by-Svilar for McTominay, extra time or precise open-play save count. Roma cup win doesn't change Serie A standings. **TRANSFER WATCH:** Giovanni Di Lorenzo approached by Everton, expiring deal, no wish to renew, no signed deal; **AWARD:** La Gazzetta Jan4 names Napoli Beier and Haaland/Endrick/Kvaratskhelia as 2029 UEFA TOTY **forward shortlist only**, NOT winner. Beier last verified 19G/7A.
