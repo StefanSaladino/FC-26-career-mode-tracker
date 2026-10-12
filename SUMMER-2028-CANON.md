@@ -1,5 +1,9 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## Most recent · Napoli and Roma advance to 2028–29 Supercoppa final
+
+Napoli 0–0 Milano FC (AC Milan) Supercoppa SEMIFINAL, 29 Dec 2028; Napoli won 4–2 on penalties after Pio goal, KDB goal, Neves saved, Beier goal, Mikey Moore decisive fifth goal. Milano FC Giménez high, Fofana scored, Roony scored, Bondo hit post; fifth Milan kick not taken. Maignan denied Neves, Davies and Paz during play. Roma beat Inter 3–2 in OTHER semifinal. Final Napoli v Roma, date and venue unconfirmed, NO TROPHY YET. Last league Napoli 42pts/17, Roma 36pts/16, different games played; penalty shootout doesn't add goals or assists. Full details `SUPERCOPPA-SEMI-NAPOLI-MILANO-ROMA-INTER-DEC2028-CANON.md`, news/state/comments modules added to homepage. January fixtures preserved, final awaiting date.
+
 ## LATEST CONFIRMED: 24 DEC 2028 — NAPOLI 2–1 BOLOGNA FT
 
 **Serie A · HOME · 24 Dec 2028 · Napoli 2–1 Bologna full-time**. **Davies 58′**, assist **Pio Esposito**, remarkable angle with **manager-provided shot xG 0.08**; **Openda 80′** equalised; **Beier 85′ unassisted** winner from the rebound of a **João Neves blocked shot** at the edge of the box. **Neves receives NO assist.** This is full-time, not live. No confirmable Bologna starting XI, goalkeeper, substitution details, HT score or buildup explanation for the Bologna goal.
