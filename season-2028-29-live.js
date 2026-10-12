@@ -123,4 +123,13 @@ if(D.palermoJanuary2029?.fullTime===true && D.palermoJanuary2029?.score==='Napol
  palermo.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 7 Jan 2029 · Home · Matchday 19</span><strong>Napoli <b>1–0</b> Palermo</strong><p>Olise 44′ (Geertruida assist) · HT 1–0 · Desplanches key saves; header off crossbar · Neves on HT · Davies and Calafiori on 65′ · Napoli team clean sheet · 48 points in 19 matches</p></div>';
  el.prepend(palermo);
 }
+
+/* Jan 10 2029 Fiorentina 0-0 Napoli: prepend latest official full-time match; team clean sheet, goalkeeper not named. */
+if(D.fiorentinaJanuary2029?.fullTime===true&&D.fiorentinaJanuary2029.score==='Fiorentina 0–0 Napoli'&&e('matchesList')){
+ const el=e('matchesList');
+ for(const old of [...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Fiorentina')&&x.textContent.includes('10 Jan 2029')))old.remove();
+ const game=document.createElement('div');game.className='match-card';
+ game.innerHTML='<div class="result-badge D">D</div><div class="match-main"><span>2028–29 · Serie A · 10 Jan 2029 · AWAY · Matchday 20</span><strong>Fiorentina <b>0–0</b> Napoli</strong><p>De Gea 9.8 goalkeeper rating · EXACTLY 5 SAVES · Paz denied 50′ · Beier tipped onto post · Napoli TEAM clean sheet · 49 points after 20, Roma 46 after 20</p></div>';
+ el.prepend(game);
+}
 })();
