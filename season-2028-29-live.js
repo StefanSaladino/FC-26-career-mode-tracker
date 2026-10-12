@@ -10,6 +10,13 @@ if(e('formation'))e('formation').innerHTML=D.firstXI.map(row).join('');
 if(e('eliteFormation'))e('eliteFormation').innerHTML=D.eliteXI.map(row).join('');
 if(e('whisperList'))e('whisperList').innerHTML=D.whispers.map(w=>'<div class="whisper"><span>'+w[0]+'</span><p>'+w[1]+'</p></div>').join('');
 if(e('matchesList')){const el=e('matchesList');
+if(D.parmaJanuary2029?.fullTime===true&&D.parmaJanuary2029?.score==='Napoli 2–0 Parma'){
+for(const old of [...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('4 Jan 2029')&&x.textContent.includes('Parma')))old.remove();
+const parma=document.createElement('div');parma.className='match-card';
+parma.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 4 Jan 2029 · Home · Matchday 18</span><strong>Napoli <b>2–0</b> Parma</strong><p>De Bruyne 27′ unassisted · Pio Esposito 75′ unassisted · Peacock clean sheet · Napoli 45 points / 18 games</p></div>';
+el.prepend(parma);
+}
+
 if(D.supercoppaFinal2028?.played===true&&D.supercoppaFinal2028?.winner==='Roma'){
 for(const old of [...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('1 Jan 2029')&&x.textContent.includes('Supercoppa')))old.remove();
 const cupFinal=document.createElement('div');cupFinal.className='match-card';
