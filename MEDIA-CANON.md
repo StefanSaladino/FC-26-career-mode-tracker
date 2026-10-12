@@ -1,5 +1,11 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## LATEST PUBLIC MEDIA COVERAGE · JAN 1–4 2029
+
+**SUPERCOPPA FINAL:** Napoli 0–0 Roma after ninety, Roma **4–3 penalties winners** and champions Jan1 neutral. Meret and Svilar strong in play; Svilar saved Pio, Meret saved Vaz, Olise/Beier/Paz scored, McTominay failed fifth (miss mechanism unknown), Roma Dybala/Theo/Soulé/Bahoya scored with Bahoya decisive. Do not invent saved-by-Svilar for McTominay, extra time or precise open-play save count. Roma cup win doesn't change Serie A standings. **TRANSFER WATCH:** Giovanni Di Lorenzo approached by Everton, expiring deal, no wish to renew, no signed deal; **AWARD:** La Gazzetta Jan4 names Napoli Beier and Haaland/Endrick/Kvaratskhelia as 2029 UEFA TOTY **forward shortlist only**, NOT winner. Beier last verified 19G/7A.
+
+**FIVE ARTICLES RELEASED:** match report by Giulia Romano; Meret/Svilar profile Sara Ferraro; Bellandi critical opinion on two goalless Supercoppa games; Luca Bellini Di Lorenzo Everton developing transfer; Giulia Romano Beier nomination. Public fan thread 55 posts/55 replies includes established @SaladinoOutNow, CurvaB, RomaSud, goalkeeper fans, Kvaratskhelia nostalgia. Older Jan1 pre-game articles explicitly marked ARCHIVE; historic semi articles retained. Current public hero Roma winning final, ticker Roma win/GDL interest/Beier shortlist. Public reporters do not have access to Sandro/Saladino private tactical debrief; any invented interviews or manager words are prohibited. Full `ROMA-SUPERCOPPA-LOSS-GDL-EVERTON-BEIER-TOTY-JAN2029-CANON.md`.
+
 ## FINAL DATE AND JANUARY UPDATE · POST 29 DECEMBER 2028
 
 Public match calendar confirms Jan 1 **Napoli–Roma Supercoppa FINAL (neutral)** and Jan 31 **Roma–Napoli away domestic cup (round unverified)**. Parma H Jan 4, Palermo H Jan 7; January ten fixtures total (six Serie A, two UCL, two cups). Two new stories preview the New Year final and fixture pile-up, without private tactical dialogue, fabricated quotes or match results. Original 8-match fixture article and earlier Roma 'date unannounced' preview are updated in the site layer, while archives retain source chronology. See `JANUARY-2029-UPDATED-TEN-GAME-CALENDAR-ROMA-FINAL-CANON.md`. Final not played, cup trophy not awarded; latest Serie A Napoli 42/17 Roma 36/16 from their respective last verifications.
