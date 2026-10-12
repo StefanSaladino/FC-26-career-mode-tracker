@@ -1,5 +1,22 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## LATEST SIX-STORY NEWSROOM EDITION · AFTER JAN 7 PALERMO 1–0 / MANAGER OF YEAR / FIVE UEFA TOTY
+
+**Lead publication: 'MANAGER OF THE YEAR. SALADINO'S NAPOLI REVOLUTION RECOGNISED.'** Stefan Saladino wins Manager of the Year (exact awarding body and award edition-year not confirmed, so NEVER call him UEFA Manager of Year without official proof). Accompanied by **five actual selections** in 2029 UEFA Team of Year FINAL XI: Napoli **Michael Olise, João Neves, Alphonso Davies, Alessandro Bastoni, Alessandro Buongiorno**, 3 of 4 defenders, 2 of 4 midfielders; other six **Endrick (BARCELONA), Lamine Yamal (BARCELONA), Pedri (BARCELONA), Musiala (Bayern), Nuno Mendes (PSG), Joan García (Barcelona)**. Beier on forwards shortlist with Haaland/Endrick/Kvara but NOT in final XI. Endrick sold Napoli -> Barcelona $310M last summer.
+
+**MATCH** Jan7 Napoli 1–0 Palermo HOME: **44′ Olise goal, Geertruida assist**, HT1–0, Desplanches key early and Paz27 saves, corner header off bar, pressure, Beier point blank save, Neves on HT (93OVR), Davies+Calafiori on65 (89OVR/87OVR), Moore poor control after Neves opportunity. Napoli TEAM clean sheet, Napoli GK unidentified. Napoli **48 points/19 15W3D1L 36GF 10GA +26**, no newly verified rival standings after January4.
+
+**SIX published pieces** in `post-saladino-manager-of-year-five-toty-palermo-jan2029.js`:
+1 Giulia Romano **Manager of the Year**, heroic contextualisation (previous unbeaten Scudetto, Coppa Italia, UCL final loss PSG).
+2 Luca Bellini **Five UEFA TOTY** (actual complete 11, not nominations).
+3 Giulia Romano **Palermo match report** (Desplanches, Olise and Geertruida, deep bench, 48pt table).
+4 Marco D'Amato **Beier shortlisting snub and former Napoli striker Endrick at Barcelona**.
+5 Sara Ferraro **João Neves 93 OVR enters at halftime, Davies/Calafiori at 65**; realistic 1–0 finishing worries.
+6 Matteo Bellandi **'FIVE IN THE XI. MANAGER OF THE YEAR. NOW WIN THE BIG ONE.'** Independent pundit column with congratulations AND constructive scrutiny of consecutive Supercoppa 0–0 matches, PSG Champions League final loss and challenge to win in Europe. Bellandi previously criticised Sandro in public; can be nuanced, not an automatic cartoon antagonist.
+**Supporters**: `comments-saladino-year-five-toty-palermo-jan2029.js` has **116 unique, human-authored top-level comments and 116 responsive replies across 6 articles**. Established CurvaB, AzzurriAlSud, BellandiReceipts, RomaSud, BeierHive, NapoliTherapy, SaladinOutNow (actual established **SaladinoOutNow**), among others; multilingual, opponent rival banter, meaningful context. `index.html` latest hero and ticker updated; `season-2028-29-live.js` includes Palermo win as newest full-time score. Current next fixture Fiorentina A Jan10 unplayed. Full canon `SALADINO-MANAGER-OF-YEAR-5-UEFA-TOTY-PALERMO-JAN2029-CANON.md`.
+
+**MEDIA/FAN PRIVACY**: Manager privately told Sandro **'I couldn't have done it without you AM'** and Sandro replied emotionally. This is ***NOT PUBLIC***. NEVER quote manager as saying it in press or fictional article; reporters observe award and matches independently, not user inputs. Do not fake other awards, UEFA manager sponsor, opposing latest table, Palermo GK identity or player testimony. If discussing team of year selection, distinguish the final eleven vs earlier nomination. Site archive from Roma Jan1 and Parma Jan4 stays intact.
+
 ## LATEST NEWSROOM PUBLICATION · PARMA 2–0, 4 JANUARY 2029
 
 Napoli responded to Jan1 Supercoppa final loss to Roma with **2–0 HOME Serie A WIN Parma** on Jan4, **De Bruyne 27′ UNASSISTED** goal-line follow-up after Pio's extreme sharp-angle shot lay on line, and **Pio Esposito 75′ UNASSISTED** rebound from Scott McTominay's saved shot; GK **Peacock confirmed clean sheet**. Two goals each UNASSISTED. Pio 14G/12A Napoli club competitions. No fabricated xG, saves count, full team XI, substitutions or halftime result. Meret was outstanding versus Roma on Jan1, Peacock clean sheet versus Parma; keeper debate is INDEPENDENT public sports analysis, no manager private quotes or leaks.
