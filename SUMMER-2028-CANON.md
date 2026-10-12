@@ -1,5 +1,11 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## MOST RECENT · JAN 2029
+
+**ROMA BEAT NAPOLI IN JAN 1 SUPERCOPPA FINAL**: 0–0 after 90, Roma 4–3 on penalties. Meret and Svilar big saves; Napoli: Pio saved, Olise goal, Beier goal, Paz goal, McTominay miss (method unspecified); Roma: Dybala goal, Vaz saved by Meret, Theo goal, Soulé goal, Bahoya winning goal. Napoli runners-up; Roma cup champions, no new Serie A result. Next Jan4 Parma H league, unplayed; nine remaining January fixtures incl Jan31 Roma away CUP round unconfirmed. Last verified Napoli 42/17 Serie A, Roma 36/16; Beier 19G/7A, Pio 13G/12A club all comps excluding pen shootout kicks.
+
+**Giovanni Di Lorenzo approached by Everton**, contract nearing expiry and player does not wish to renew; no confirmed deal/signed contract. **Beier nominated on 2029 UEFA Team of the Year forwards shortlist** with Haaland, Endrick, Khvicha Kvaratskhelia per in-save La Gazzetta Jan 4 2029; award result UNKNOWN. Site publishes five new articles and 55 fan comments and 55 replies. See `ROMA-SUPERCOPPA-LOSS-GDL-EVERTON-BEIER-TOTY-JAN2029-CANON.md`. Public media never quotes private staff conversations.
+
 ## NEWEST VERIFIED CALENDAR · 2029 JANUARY 1 FINAL AND TEN FIXTURES
 
 **MANAGER-SUPPLIED UPDATED JANUARY PHOTO** supersedes the earlier 8-fixture screenshot. **NAPOLI vs ROMA Supercoppa Italiana FINAL confirmed on 1 January 2029, NEUTRAL venue** (actual stadium, kickoff, starting XI and result still unknown). Napoli reached final on 29 Dec after 0–0 Milano FC SEMIFINAL, 4–2 on penalties; Roma beat Inter 3–2 in OTHER SEMIFINAL. **NO TROPHY YET.**
