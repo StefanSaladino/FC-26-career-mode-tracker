@@ -1,10 +1,22 @@
 # Napoli staff-room canon — not for newsroom publication
 
-## Identity of the long-standing assistant manager## Current post-Como status · 13 December 2028
+## LATEST VERIFIED · 17 DECEMBER 2028 · PALERMO 2–2 / JANUARY 2029 CALENDAR
+
+**Palermo away 2–2 FT, 17 December 2028:** Palermo Diakité 29′, 75′ (second on counterattack); Napoli McTominay 60′ assisted by **Michael Olise**, Beier 86′ assisted by **Anton Stach**. **Peacock SIX saves in FIRST HALF** (not confirmed full-game total); poor Napoli first half, much better second. **Olise and Alphonso Davies both entered AT HALFTIME**. **Pio Esposito's stoppage-time shot was saved by the Palermo goalkeeper**. Starting XI outside confirmed goalkeeper and identified players remains incomplete. Palermo were bottom of the table. Do not blame Peacock for concessions without further evidence.
+
+**Screenshot-verified Serie A table after 16 played EACH:** Napoli **39pts, 12W-3D-1L, 31GF/9GA, GD+22**; Roma **36pts, 11W-3D-2L, 35GF/16GA, +19**; Atalanta/Bergamo Calcio **32pts**, Juventus **31pts**, Parma **26pts**, AC Milan/Milano FC **25pts**. Napoli lead Roma by **THREE** after the draw (vs two at 14 played). By comparing 14- and 16-match records, Roma took 3 points (1 win, 1 loss), but identity of opponent unknown. Napoli club 2028–29 all comps Beier **18G/7A**, Pio **13G/11A** through Palermo.
+
+**January 2029 VERIFIED eight scheduled games (NONE of these results reported):** Jan 3 Parma H Serie A, Jan 6 Palermo H Serie A, Jan 10 Fiorentina A Serie A, Jan 13 Lazio/Latium H Serie A, Jan 16 **Real Sociedad A UCL**, Jan 21 Sampdoria A Serie A, Jan 24 **KS Cracovia A UCL** (waving red-white flag crest), Jan 27 Juventus H Serie A. No verified kickoffs, results or starting XIs. **Outstanding December:** Bologna home Dec 24 and AC Milan/Milano FC home-designated Supercoppa Dec 29 result UNKNOWN; January screenshot does not establish either result. Do not silently skip or fill these.
+
+**Publishing authorised by manager:** New articles about Palermo 2–2, Roma's slip, Peacock six-save performance, January schedule; state/standings/schedule and reader comments including established `SaladinoOutNow`. `VitaleOutNow` is only a prior staff-room joke and is NOT a verified active commenter. Files `post-palermo-roma-january2029.js`, `state-palermo-table-january2029.js`, `comments-palermo-roma-january2029.js` in `index.html`. Full canonical reference: `PALERMO-DEC2028-JANUARY2029-SCHEDULE-CANON.md`. Staff/private selection arguments are not public and never material for reporter quotations. Alessandro “Sandro” Vitale is the long-serving assistant manager, coach first and publisher second.
+
+**INTERNAL COACHING READ:** Peacock's six first-half saves show the need to fix protection in transition; the manager did not wait to introduce Olise and Davies at halftime, both changed momentum; this shows Saladino's correction worked even though the 75′ Palermo counter exposed the team again. The manager describes the 2–2 against bottom side as a major letdown despite a fortunate escape. Sandro must offer independent objective judgment, not merely praise every choice. No journalists overhear any of this. The manager joked he would ban critical pundit Bellandi and Sandro asked him not to; ban was NEVER enacted.
+
+## Current post-Como status · 13 December 2028
 
 **Napoli 2–1 Como in the Coppa Italia**: Pio Esposito 17′ (Stach), Braunöder 21′, Davies **90′** (Paz). See `DECEMBER-2028-LAZIO-COMO-MATCH-CANON.md` for details. **Previous game Lazio 1–2 Napoli**: Beier brace 16′ (Paz) and 66′ (Pio), loanee Hasa Lazio's 26′ scorer. Napoli Serie A **38pts from 15**, Beier 17G/7A and Pio 13G/11A all comps through Como. **Next Palermo away 17 December**, unplayed. Geertruida extension agreed and documented. The public newsroom now carries the Como/Lazio/Geertruida reports and an independent Bellandi column. All specific manager–Sandro private tactical advice remains confidential despite the publication; do not write that journalists overheard halftime coaching recommendations.
 
-
+## Identity of the long-standing assistant manager
 
 **Alessandro “Sandro” Vitale**, Neapolitan, is the **same assistant manager who has worked beside Stefan Saladino since day one**. This establishes a name for all previous staff-room discussions; he has not just been appointed. Sandro gives independent, evidence-based, well-explained coaching advice and can disagree when useful. Saladino remains decision maker and may choose a different plan. Sandro should acknowledge when results reveal his recommendation was wrong, while distinguishing decision process from outcome. **Confidential coaching conversations remain confidential** even though the Sandro Vitale public profile has been published. Full standing identity in `SANDRO-VITALE-ASSISTANT-MANAGER-CANON.md`.
 
