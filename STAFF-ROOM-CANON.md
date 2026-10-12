@@ -78,6 +78,13 @@
 - No press statement was issued and no public interview was given. No articles should describe Meret being chosen for Dortmund as a public decision prior to the actual official lineup.
 - Udinese reporting is manager-authorised for the independent newsroom. The score, goals, saved chances, xG and photographed table are public football information; the staff assessment and goalkeeper reasoning are not.
 
+## 5 December 2028: Cucurella extension and Dortmund kickoff — coaching-room record
+
+- **Contract agreed:** Marc Cucurella, **30 years old / 88 OVR**, renewed on an **Important** squad role. **Two additional years** gives a **total remaining tenure of 3 years, 6 months**. Salary **$200,000/week**, guaranteed signing bonus **$2.5 million**, with an additional **$3.5 million only if the 10-clean-sheet bonus condition is met**. No fictional negotiations or unreported clauses.
+- **Coaching assessment:** Securing an 88 OVR versatile defender retains reliable depth and competition; given his age, later physical development must be monitored. Do not assume 10 clean sheets have already been earned under this agreement.
+- **Dortmund UCL away, 5 December 2028:** Match is **underway**. Saladino has chosen **Alex Meret** as starting goalkeeper after reviewing Peacock's two domestic appearances. The remainder of the Dortmund lineup, all minute-by-minute match events and the result are not established yet. The manager's earlier private reasoning remains internal; the fact of a starting goalkeeper becomes publicly observable only through the official lineup.
+- **Publishing:** No automatic website article, press quote or locker-room leak. Report the contract as an actual agreement rather than a rumour if later authorised for the newsroom; keep the private keeper-selection conversation off the public site.
+
 ## Permanent story-universe separation rules
 
 1. **Internal conversation remains canon.** Everything discussed between manager and AM can matter to motivation, tactical choices, trust and future selection, even when unseen by the public.
