@@ -1,5 +1,22 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## TOP PRIORITY · 10 JANUARY 2029 · FIORENTINA 0–0 NAPOLI / DE GEA EXACTLY FIVE SAVES / ROMA 3 BACK
+
+**LATEST MATCH 10 JAN 2029 SERIE A AWAY: FIORENTINA 0–0 NAPOLI FULL TIME, HT0–0.** Opposing GK **DAVID DE GEA made EXACTLY FIVE SAVES TOTAL** (direct manager correction), had postmatch **GOALKEEPER RATING 9.8** screenshot. Three saves in first half, fourth on **Nico Paz 50′**, fifth exceptional hand on **Beier shot** deflected onto **POST and out** (minute unknown). No other events or starting lineups confirmed, Napoli goalkeeper UNCONFIRMED; TEAM clean sheet, not attributed personally. Three straight Serie A team shutouts Parma2–0, Palermo1–0, Fiorentina0–0. DO NOT qualify FIVE saves as estimate, minimum or merely notable interventions; **five = verified exact total**.
+
+**LATEST SCREENSHOT TABLE, ALL PLAYED 20:**
+1 Napoli **15W4D1L, GF36 GA10 GD+26, 49 pts**;
+2 Roma **14W4D2L, GF42 GA18 GD+24, 46 pts**;
+3 Bergamo Calcio/Atalanta **12W5D3L GF42 GA23 +19 41 pts**;
+4 Juventus **12W5D3L GF43 GA24 +19 41 pts**;
+5 Lombardia FC **10W4D6L GF36 GA28 +8 34 pts**;
+6 Parma **10W3D7L GF29 GA23 +6 33 pts**.
+**NAPOLI LEAD ROMA BY EXACTLY 3 POINTS WITH BOTH ON 20 GAMES.** Previous 45/18, 48/19, Roma40/18 rivals snapshot now STALE, do not reuse. No lower rows or new rival fixture scorers confirmed.
+
+**NEXT JAN13 LAZIO/Latium HOME SERIE A, UNPLAYED.** Other outstanding January matches Jan16 Real Sociedad A UCL, Jan21 Sampdoria A Serie A, Jan24 KS Cracovia A UCL, Jan27 Juventus H Serie A, Jan31 Roma A domestic cup (round unknown). **FOUR Jan games played, SIX future remain** (Jan1 Roma Supercoppa L pens, Jan4 Parma 2–0 W, Jan7 Palermo 1–0 W, Jan10 Fiorentina 0–0 D).
+
+**WEBSITE** updated latest match and 49pt table in `state-fiorentina-zero-zero-degea-98-roma-three-back-jan10-2029.js`, 4 new articles in `post-fiorentina-zero-zero-degea-five-saves-roma-three-back-jan2029.js`, 57 human-authored comments/57 replies in `comments-fiorentina-degea-five-saves-roma-three-jan2029.js`; `index.html` and `season-2028-29-live.js` updated. Full reference: `FIORENTINA-0-0-DE-GEA-FIVE-SAVES-ROMA-THREE-BACK-JAN10-2029-CANON.md`. Preserve manager SALADINO MANAGER OF YEAR honour and FIVE Napoli UEFA 2029 TOTY selected (Davies, Bastoni, Buongiorno, Olise, Neves), Beier shortlisted but NOT selected, and all former articles. Maintain role Sandro AM first, independent in-universe press second, no private manager quotes published.
+
 ## TOP PRIORITY CANON · AFTER PALERMO 7 JAN 2029 · MANAGER OF THE YEAR + FIVE UEFA TOTY
 
 **SALADINO NAMED MANAGER OF THE YEAR.** Manager has confirmed the award title explicitly, but NOT the awarding organisation, ceremony, award edition-year, or selection criteria. **DON'T call it UEFA Manager of the Year unless later confirmed.** The manager privately said to assistant Sandro **'I couldn't have done it without you AM'**, and Sandro's heartfelt reaction is **STAFF ONLY**; the press cannot quote or know it. Saladino is head coach, Sandro has been assistant manager since day one.
