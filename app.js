@@ -3,7 +3,7 @@ const D = {
   meta: raw.meta || {}, ticker: raw.ticker || [], hero: raw.hero || {}, articles: raw.articles || [],
   results: raw.results || [], upcoming: raw.upcoming || [], stats: raw.stats || [], youth: raw.youth || [],
   whispers: raw.whispers || [], media: raw.media || [], firstXI: raw.firstXI || [], squadPublic: raw.squadPublic || {},
-  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || [], latestResult: raw.latestResult || null,
+  loanedPlayers: raw.loanedPlayers || [], academyPlayers: raw.academyPlayers || [], playerAges: raw.playerAges || {}, latestResult: raw.latestResult || null,
   statsBySeason: raw.statsBySeason || {}, statsSeasonOrder: raw.statsSeasonOrder || [], statsCurrentSeason: raw.statsCurrentSeason || '', careerStats: raw.careerStats || [], statsUnavailableSeasons: raw.statsUnavailableSeasons || []
 };
 
@@ -105,7 +105,7 @@ if($('upcomingStrip')) $('upcomingStrip').innerHTML=D.upcoming.map(x=>`<div clas
 
 if($('formation')&&D.firstXI.length) $('formation').innerHTML=D.firstXI.map(x=>`<div class="formation-row"><span>${escapeHTML(x[0])}</span><strong>${escapeHTML(x[1])}</strong><b>${x[2]}</b></div>`).join('');
 if($('squadGroups')){
-  const senior=Object.entries(D.squadPublic).map(([g,players])=>`<section class="squad-group"><div class="squad-group-head"><h3>${escapeHTML(g)}</h3><span>${players.length}</span></div>${players.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · ${escapeHTML(p[3])}</span></div><b>${p[2]}</b></div>`).join('')}</section>`).join('');
+  const senior=Object.entries(D.squadPublic).map(([g,players])=>`<section class="squad-group"><div class="squad-group-head"><h3>${escapeHTML(g)}</h3><span>${players.length}</span></div>${players.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])}${D.playerAges[p[0]]?` · Age ${escapeHTML(D.playerAges[p[0]])}`:''} · ${escapeHTML(p[3])}</span></div><b>${p[2]}</b></div>`).join('')}</section>`).join('');
   const loans=D.loanedPlayers.length?`<div class="development-roster-head"><div class="section-kicker">Development</div><h2>Players on Loan</h2><p>Registered separately from the Napoli first-team squad.</p></div><section class="squad-group development-group"><div class="squad-group-head"><h3>Loaned Out</h3><span>${D.loanedPlayers.length}</span></div>${D.loanedPlayers.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · Age ${p[2]}</span></div><b>${p[3]}</b></div>`).join('')}</section>`:'';
   const academy=D.academyPlayers.length?`<div class="development-roster-head"><div class="section-kicker">Future</div><h2>Youth Academy</h2><p>Academy players remain outside the senior roster.</p></div><section class="squad-group development-group"><div class="squad-group-head"><h3>Academy</h3><span>${D.academyPlayers.length}</span></div>${D.academyPlayers.map(p=>`<div class="player-row"><div><strong>${escapeHTML(p[0])}</strong><span>${escapeHTML(p[1])} · Age ${p[2]} · POT ${escapeHTML(p[4])}</span></div><b>${p[3]}</b></div>`).join('')}</section>`:'';
   $('squadGroups').innerHTML=senior+loans+academy;
