@@ -1,5 +1,13 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## LATEST VERIFIED: 29 DEC 2028 — SUPERCOPPA SEMIFINAL WIN; FINAL VS ROMA
+
+**Napoli 0–0 Milano FC/AC Milan, Supercoppa SEMIFINAL 29 Dec 2028. Napoli advance after winning 4–2 on penalties. NOT A TROPHY WIN.** Maignan stopped Napoli chances: Neves from distance, Davies and Nico Paz from close range. Penalty sequence Napoli: Pio goal; De Bruyne goal; Neves saved by Maignan; Beier goal; Mikey Moore winning fifth goal. Milano FC: Giménez over bar; Fofana goal; Roony goal; Bondo off post. Milan fifth kick not taken. Napoli goalkeeper, extra-time details and venue unknown.
+
+**Other SEMIFINAL Roma 3–2 Inter. Final will be Napoli–Roma, DATE AND VENUE UNKNOWN, unplayed.** Cup results do not affect league standings. Napoli last verified Serie A 42 points from 17 matches, Roma last verified 36 from 16; do not invent updated gap. Shootout penalties do not affect season scorer totals: Beier 19G/7A, Pio 13G/12A from Bologna.
+
+**New publications:** `post-supercoppa-semis-moore-roma-dec2028.js`, `state-supercoppa-semis-milano-roma-dec2028.js`, `comments-supercoppa-semis-moore-roma-dec2028.js`, integrated into `index.html` and fixture view. Permanent full reference `SUPERCOPPA-SEMI-NAPOLI-MILANO-ROMA-INTER-DEC2028-CANON.md`. January's eight fixtures unchanged. Private coaching conversations never become reporter access. Assistant manager Sandro Vitale has served since day one.
+
 ## LATEST CONFIRMED: 24 DEC 2028 — NAPOLI 2–1 BOLOGNA FT
 
 **Serie A · HOME · 24 Dec 2028 · Napoli 2–1 Bologna full-time**. **Davies 58′**, assist **Pio Esposito**, remarkable angle with **manager-provided shot xG 0.08**; **Openda 80′** equalised; **Beier 85′ unassisted** winner from the rebound of a **João Neves blocked shot** at the edge of the box. **Neves receives NO assist.** This is full-time, not live. No confirmable Bologna starting XI, goalkeeper, substitution details, HT score or buildup explanation for the Bologna goal.
