@@ -1,0 +1,46 @@
+/* JAN 2029 MANAGER CANON: 1 Jan Napoli 0-0 Roma after 90 minutes, ROMA WON 4-3 ON PENALTIES in SUPERCOPPA FINAL. No match goal scorers. No extra time claim.
+Meret and Svilar made huge in-play saves; exact numbers and times unknown. Napoli: Pio saved by Svilar, Olise scored, Beier scored, Nico Paz scored, McTominay failed (miss method unconfirmed).
+Roma: Dybala scored, Vaz SAVED by Meret, Theo scored, Soulé scored, Bahoya scored to win. Roma trophy WON, Napoli runners-up. Shootout kicks don't count in scorer statistics.
+Giovanni Di Lorenzo APPROACHED by Everton; expiring contract, player unwilling to renew; no signed pre-contract or accepted bid confirmed. January 4 La Gazzetta dello Sport reports Maximilian Beier on 2029 UEFA Team of the Year forwards shortlist with Haaland, Endrick and Kvaratskhelia. Recognition is NOMINATION, not award. Last verified Beier 19 goals 7 assists before Jan 4, no Parma result known. */
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;
+const final={date:'2029-01-01',competition:'Supercoppa Italiana',stage:'Final',round:'Final',verified:true,played:true,fullTime:true,venue:'Neutral',stadium:null,team:'Napoli',opponent:'Roma',score:'Napoli 0–0 Roma',normalTimeScore:'0–0',after90Minutes:true,extraTimePlayed:null,normalTimeGoals:[],goals:[],penaltyScore:'Napoli 3–4 Roma',winner:'Roma',loser:'Napoli',napoliGoalkeeper:'Alex Meret',romaGoalkeeper:'Mile Svilar',notes:'Manager confirmed 0–0 after 90 minutes and straight to penalty shootout. Both Meret and Svilar made huge saves in play, counts unknown. No full XI, minutes or extra-time details established. Roma won Supercoppa on Bahoya fifth penalty.',
+shootout:{winner:'Roma',score:'Napoli 3–4 Roma',
+napoli:[{order:1,player:'Pio Esposito',result:'saved',savedBy:'Mile Svilar'},{order:2,player:'Michael Olise',result:'scored'},{order:3,player:'Maximilian Beier',result:'scored'},{order:4,player:'Nico Paz',result:'scored'},{order:5,player:'Scott McTominay',result:'missed',method:null,notes:'User reported McTominay could not convert; do not invent whether saved, over or wide.'}],
+roma:[{order:1,player:'Paulo Dybala',result:'scored'},{order:2,player:'Vaz',result:'saved',savedBy:'Alex Meret'},{order:3,player:'Theo',result:'scored'},{order:4,player:'Matías Soulé',result:'scored'},{order:5,player:'Bahoya',result:'scored',decisive:true}],allTenTaken:true,noSuddenDeath:true},trophyAwardedTo:'Roma'};
+D.supercoppaFinal2028=final;
+D.supercoppa2028={...(D.supercoppa2028||{}),stage:'Completed',finalOpponent:'Roma',finalDate:'2029-01-01',finalVenue:'Neutral',finalPlayed:true,trophyWon:false,champion:'Roma',runnerUp:'Napoli',finalScore:'Napoli 0–0 Roma (Roma win 4–3 on penalties)'};
+D.seasonState={...(D.seasonState||{}),supercoppa:{...(D.seasonState?.supercoppa||{}),stage:'Completed',finalDate:'2029-01-01',finalVenue:'Neutral',nextOpponent:null,finalPlayed:true,trophyWon:false,winner:'Roma',champion:'Roma',runnerUp:'Napoli',finalScore:'0–0 · Roma 4–3 pens',status:'Supercoppa FINAL 1 Jan 2029: Napoli 0–0 Roma after 90 minutes; Roma won 4–3 on penalties. Meret and Svilar huge in-play saves; Meret saved Vaz penalty, Svilar saved Pio. McTominay failed fifth, Bahoya converted winning fifth. Napoli runners-up.'}};
+const finalResult=['Napoli','Roma','Supercoppa',0,0,'L','1 Jan 2029 · Neutral','SUPERCOPPA FINAL FT · Napoli 0–0 Roma after 90 · ROMA WIN 4–3 PENALTIES · Pio SAVED Olise ✓ Beier ✓ Paz ✓ McTominay MISS (method unknown) · Roma Dybala ✓ Vaz SAVED BY MERET Theo ✓ Soulé ✓ Bahoya ✓ · ROMA CHAMPIONS · Napoli runners-up'];
+for(const key of ['results','results2028']){D[key]=D[key]||[];const i=D[key].findIndex(x=>x[0]==='Napoli'&&x[1]==='Roma'&&x[2]==='Supercoppa'&&String(x[6]).includes('1 Jan 2029'));if(i>=0)D[key][i]=finalResult;else D[key].push(finalResult);}
+for(const key of ['fixtures2028','verifiedUpcoming2028','verifiedUpcoming2029']){if(!Array.isArray(D[key]))continue;for(const f of D[key]){if(f.team==='Napoli'&&f.date==='2029-01-01'&&f.opponent==='Roma'&&f.competition==='Supercoppa')Object.assign(f,{played:true,fullTime:true,score:'0–0',result:'Napoli 0–0 Roma; Roma won 4–3 on penalties',winner:'Roma',shootoutScore:'3–4',resultCode:'L',fixtureResultKnown:true,stage:'Final'});}}
+if(Array.isArray(D.scheduleJanuary2029?.fixtures)){const f=D.scheduleJanuary2029.fixtures.find(x=>x.date==='2029-01-01'&&x.competition==='Supercoppa');if(f)Object.assign(f,{played:true,fullTime:true,score:'0–0',result:'Roma win 4–3 on penalties',winner:'Roma',shootoutScore:'3–4',fixtureResultKnown:true});D.scheduleJanuary2029.matchOutcomesKnown=false;D.scheduleJanuary2029.completedMatches=1;D.scheduleJanuary2029.upcomingMatches=9;D.scheduleJanuary2029.notes='Jan 1 Supercoppa final completed, Roma 4-3 on penalties following 0-0 after 90. Jan 4 Parma home is next; remaining nine January matches have no verified outcome.';}
+if(Array.isArray(D.scheduleSnapshot?.fixtures)){const f=D.scheduleSnapshot.fixtures.find(x=>x.team==='Napoli'&&x.date==='2029-01-01'&&x.opponent==='Roma'&&x.competition==='Supercoppa');if(f)Object.assign(f,{played:true,fullTime:true,result:'0–0 · Roma win 4–3 on pens',winner:'Roma',fixtureResultKnown:true});}
+D.diLorenzoEvertonJan2029={player:'Giovanni Di Lorenzo',club:'Napoli',interestedClub:'Everton',status:'Approached, no agreement confirmed',reportDate:null,reportedAsOf:'Early January 2029',contract:'Expiring',renewalPreference:'Player does not wish to renew',departureConfirmed:false,preContractSigned:false,transferFee:null,proposedWages:null,notes:'Manager confirmed approach, expiring contract and unwillingness to renew. No exact contract expiry date, offer type, fee, acceptance or transfer timing established.'};
+D.transferWhispersJan2029=[{topic:'Giovanni Di Lorenzo',link:'Everton',status:'Approached · departure not confirmed',summary:'Everton have approached Di Lorenzo, whose Napoli contract is nearing expiry. Player currently does not want a renewal; no completed transfer or pre-contract confirmed.'}];
+D.uefaTOTY2029={type:'UEFA Team of the Year',year:2029,stage:'Forward shortlist',nomineesConfirmed:['Erling Haaland','Endrick','Khvicha Kvaratskhelia','Maximilian Beier'],source:'La Gazzetta dello Sport in-save media feed, 4 January 2029; manager screenshot',announcementDate:'2029-01-04',beierNominated:true,beierSelected:false,finalSelectionUnknown:true,notes:'Screenshot names four forwards shortlisted. Do not assert award won, their club affiliations unless independently confirmed in save, or other nominees. Beier last verified Napoli 2028-29 club 19G/7A from Dec 24; no newer totals established.'};
+D.latestResult=['NAP','0–0','ROM','SUPERCOPPA FINAL · 1 JAN 2029 · ROMA WIN 4–3 ON PENALTIES · MERET SAVES VAZ · BAHOYA FIFTH KICK DECIDES IT'];
+D.verifiedUpcoming2028=(D.verifiedUpcoming2028||[]).filter(x=>x.date>'2029-01-01');
+D.verifiedUpcoming2029=(D.verifiedUpcoming2029||[]).filter(x=>x.date>'2029-01-01');
+D.upcoming=(D.verifiedUpcoming2028||[]).map(x=>[x.gameAlias||x.opponent,x.competition,x.date+' · '+x.venue+(x.date==='2029-01-31'?' · Cup round TBC':'')]);
+D.nextClubMatch={opponent:'Parma',competition:'Serie A',date:'2029-01-04',venue:'Home',played:false,confirmedNext:true,confirmedOpponent:true,kickoffTime:null,details:'Next scheduled Napoli game: Parma home on Jan 4. Napoli lost Jan 1 Supercoppa final to Roma 3–4 pens. Parma result not yet confirmed.'};
+D.ticker=[
+ 'SUPERCOPPA FINAL · ROMA BEAT NAPOLI 4–3 ON PENALTIES AFTER 0–0',
+ 'JAN 1 · MERET AND SVILAR SHINE · BAHOYA SCORES WINNING KICK',
+ 'NAPOLI: PIO SAVED · OLISE ✓ · BEIER ✓ · PAZ ✓ · MCTOMINAY MISSES',
+ 'DI LORENZO APPROACHED BY EVERTON · NAPOLI FUTURE IN DOUBT',
+ 'MAXIMILIAN BEIER · UEFA TEAM OF THE YEAR 2029 FORWARD SHORTLIST',
+ 'BEIER LISTED WITH HAALAND, ENDRICK AND KVARATSKHELIA',
+ 'NEXT · PARMA HOME JAN 4 · SERIE A',
+ 'JANUARY 31 · ROMA AWAY DOMESTIC CUP · REMATCH SCHEDULED',
+ 'NAPOLI SERIE A 42 PTS AFTER 17 · ROMA LEAGUE RESULT UNVERIFIED'
+];
+D.whispers=[
+ ['FINAL HEARTBREAK','Roma won the January 1 neutral-site Supercoppa final 4–3 on penalties after Napoli 0–0 Roma after 90 minutes. Napoli runners-up.'],
+ ['MERET MADE HIS CASE','Meret made major saves during play and stopped Vaz in the shootout. Svilar also made major saves and stopped Pio. No exact in-play save counts provided.'],
+ ['PENALTY PRESSURE','Pio saved; Olise, Beier and Nico Paz converted; McTominay failed to score on the fifth. Bahoya settled the final for Roma. Method of McTominay miss unknown.'],
+ ['EVERTON CONTACT DI LORENZO','Everton have approached Napoli veteran Giovanni Di Lorenzo as his contract nears expiry. He does not currently want to renew, but an exit is not agreed.'],
+ ['BEIER IN EUROPEAN COMPANY','La Gazzetta dello Sport lists Beier among 2029 UEFA Team of the Year forward nominees with Haaland, Endrick and Kvaratskhelia. Winner not known.'],
+ ['PARMA NEXT','Napoli return to Serie A at home to Parma on January 4; no result yet. Palermo visit January 7.'],
+ ['ROMA AGAIN','The two clubs meet again at Roma on January 31 in a domestic cup match, round unconfirmed.']
+];
+})();
