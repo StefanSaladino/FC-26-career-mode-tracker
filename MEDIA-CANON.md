@@ -1,5 +1,9 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## FINAL DATE AND JANUARY UPDATE · POST 29 DECEMBER 2028
+
+Public match calendar confirms Jan 1 **Napoli–Roma Supercoppa FINAL (neutral)** and Jan 31 **Roma–Napoli away domestic cup (round unverified)**. Parma H Jan 4, Palermo H Jan 7; January ten fixtures total (six Serie A, two UCL, two cups). Two new stories preview the New Year final and fixture pile-up, without private tactical dialogue, fabricated quotes or match results. Original 8-match fixture article and earlier Roma 'date unannounced' preview are updated in the site layer, while archives retain source chronology. See `JANUARY-2029-UPDATED-TEN-GAME-CALENDAR-ROMA-FINAL-CANON.md`. Final not played, cup trophy not awarded; latest Serie A Napoli 42/17 Roma 36/16 from their respective last verifications.
+
 ## Latest newsroom · Supercoppa semifinal and Roma final qualification
 
 After Napoli's 0–0 draw and 4–2 penalty victory over Milano FC in the SEMIFINAL, Mikey Moore's winning fifth kick is the lead story. Roma beat Inter 3–2 in the other semifinal and will face Napoli in the final, date and venue not yet confirmed. Four articles: Moore semifinal, Roma final preview, Maignan focus, Moore penalty profile; independent supporter reactions. Never claim Supercoppa already won, assign an unverified Napoli keeper, invent Roma goal scorers, or give a final date. Roma cup result is not a league result. Previous fan characters remain, including @SaladinoOutNow and @RomaSud; @VitaleOutNow is only a private joke. No leaked staff discussions or fabricated public manager remarks. Reference `SUPERCOPPA-SEMI-NAPOLI-MILANO-ROMA-INTER-DEC2028-CANON.md`.
