@@ -1,5 +1,17 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## NEWEST VERIFIED CALENDAR · 2029 JANUARY 1 FINAL AND TEN FIXTURES
+
+**MANAGER-SUPPLIED UPDATED JANUARY PHOTO** supersedes the earlier 8-fixture screenshot. **NAPOLI vs ROMA Supercoppa Italiana FINAL confirmed on 1 January 2029, NEUTRAL venue** (actual stadium, kickoff, starting XI and result still unknown). Napoli reached final on 29 Dec after 0–0 Milano FC SEMIFINAL, 4–2 on penalties; Roma beat Inter 3–2 in OTHER SEMIFINAL. **NO TROPHY YET.**
+
+**TEN CURRENT JANUARY FIXTURES, all unplayed:** Jan 1 **Roma neutral SUPERCOPPA FINAL**; Jan 4 Parma home Serie A (**previous Jan 3 date superseded**); Jan 7 Palermo home Serie A (**previous Jan 6 date superseded**); Jan 10 Fiorentina away Serie A; Jan 13 Lazio/Latium home Serie A; Jan 16 Real Sociedad away Champions League; Jan 21 Sampdoria away Serie A; Jan 24 KS Cracovia away Champions League; Jan 27 Juventus home Serie A; Jan 31 **Roma away DOMESTIC CUP** (round **UNKNOWN**). Count 6 league + 2 UCL + 2 cup incl Supercoppa. Five games in opening thirteen days. Jan 1 and Jan 31 are TWO DISTINCT Roma cup fixtures; no inference Jan31 cup stage.
+
+**Current state modules:** `state-supercoppa-final-jan1-ten-match-january2029.js`, `post-supercoppa-final-jan1-roma-calendar-ten.js` (two public stories + corrects previous stale previews), `comments-roma-final-jan1-ten-fixtures.js`, imported in `index.html`. `season-2028-29-live.js` corrected fixture view from final Date TBC to Jan 1 neutral. **Source of truth:** `JANUARY-2029-UPDATED-TEN-GAME-CALENDAR-ROMA-FINAL-CANON.md`. Old Jan3/Jan6 and eight-fixture count persist in archival historical descriptions only; always use updated dates in live recommendations.
+
+**Previous verified Napoli league position untouched:** 42 pts/17, Roma 36 pts/16 at last confirmation; cup results do not change league standings. Beier 19G/7A; Pio 13G/12A all club competitions unchanged. Sandro Vitale is longstanding assistant manager, Mister Saladino remains in charge; no leaks of staff-room dialogue to press.
+
+**INTERNAL STAFF RESPONSE:** Ten January matches is exceptional fixture congestion; opening Jan1/4/7/10/13 five fixtures every three days. January 1 Roma final carries major emotional stakes after 4–2 penalty semi win vs Milan and Roma 3–2 win vs Inter. Recovery/rotation needed but no confirmed fatigue report. Do not publicly quote our coaching conversation. Prepare Roma final squad on manager instruction; do not invent venue beyond neutral.
+
 ## Current staff-room match canon · 29 December 2028
 
 Napoli 0–0 Milano FC in Supercoppa SEMIFINAL, won 4–2 on shootout. Napoli penalties ordered: Pio scored, De Bruyne scored, Neves saved by Maignan, Beier scored, Moore scored decisive fifth. Milan: Giménez over, Fofana scored, Roony scored, Bondo hit post, fifth kick not taken. Maignan earlier stopped chances by Neves from distance and Davies and Nico Paz near goal. Napoli goalkeeper and extra time not confirmed. Manager corrected Sandro's initial excitement: SEMIFINAL, no trophy yet. Roma defeated Inter 3–2 in the other semifinal, so final is Napoli vs Roma, date/location unknown. User authorised publication, private exchanges stay private. Reference `SUPERCOPPA-SEMI-NAPOLI-MILANO-ROMA-INTER-DEC2028-CANON.md`. Current league Napoli 42/17, Roma last verified 36/16, unrelated to cup game.
