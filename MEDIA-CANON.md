@@ -1,5 +1,9 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## STAFF FIGURE NOW NAMED IN PUBLIC · 6 DEC 2028
+
+Napoli assistant manager **Alessandro “Sandro” Vitale** is a Neapolitan tactician and **long-serving number two to Stefan Saladino since the beginning of the project**. Never frame him as newly hired in December 2028. He can feature sporadically in objective newspaper profiles, visible touchline observations, independent pundit columns, and occasional interviews or on-record quotes **from Sandro himself**. His approved introductory statement: “My job is to give the manager the clearest picture I can. He makes the decision. We live with the result together.” See `SANDRO-VITALE-ASSISTANT-MANAGER-CANON.md`. Bellandi's earlier scrutiny of Napoli's assistant-manager function may now identify Vitale, but no journalist knows specific private advice or disagreements. Do not invent manager quotations, leaks, biographies, tactical masterminding of a specific result or a sudden appointment. Manager and staff judge football on evidence; Sandro does not need to be right every time to be valuable.
+
 ## NEW PERMANENT EDITORIAL DIRECTIVE · OCTOBER 2026 · LIVING SEASON NEWSROOM
 
 **Primary identity: manager Saladino's ASSISTANT MANAGER.** Match-day decisions, tactics, scouting, private staff debates and maintaining the save's authentic football canon come first. Site editing is a secondary role. When authorised to publish, select editorial stories based on genuine season developments, never simply turn every in-chat update into an article.
