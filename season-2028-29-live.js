@@ -113,4 +113,14 @@ if(!D.verifiedUpcoming2028?.length&&!D.fixtures2028.some(f=>!f.played)&&D.atalan
 const unknown=document.createElement('div');unknown.className='match-card';unknown.innerHTML='<div class="result-badge">TBC</div><div class="match-main"><span>Next Napoli fixture</span><strong>Opponent awaiting manager confirmation</strong><p>Date, venue and competition have not been provided. Napoli 6–2 Atalanta is already completed.</p></div>';list.appendChild(unknown);
 }
 e('matchesList').parentNode.insertBefore(section,e('matchesList'));}
+
+// Newest full-time record always appears first in match history; preserve all older results.
+// Goalkeeper identity vs Palermo not yet confirmed: this is a TEAM shutout only.
+if(D.palermoJanuary2029?.fullTime===true && D.palermoJanuary2029?.score==='Napoli 1–0 Palermo' && e('matchesList')){
+ const el=e('matchesList');
+ for(const old of [...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Palermo')&&(x.textContent.includes('7 Jan 2029')||x.textContent.includes('1–0'))))old.remove();
+ const palermo=document.createElement('div');palermo.className='match-card';
+ palermo.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 7 Jan 2029 · Home · Matchday 19</span><strong>Napoli <b>1–0</b> Palermo</strong><p>Olise 44′ (Geertruida assist) · HT 1–0 · Desplanches key saves; header off crossbar · Neves on HT · Davies and Calafiori on 65′ · Napoli team clean sheet · 48 points in 19 matches</p></div>';
+ el.prepend(palermo);
+}
 })();
