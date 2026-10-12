@@ -1,5 +1,15 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## LATEST CONFIRMED · JANUARY 4, 2029 · ROMA CUP FINAL LOSS / DI LORENZO / BEIER UEFA SHORTLIST
+
+**1 JAN 2029 SUPERCOPPA ITALIANA FINAL, NEUTRAL:** Napoli 0–0 Roma **after 90 minutes**, **ROMA WIN 4–3 ON PENALTIES**, **ROMA ARE CHAMPIONS**, Napoli runners-up. Meret and Svilar made enormous saves during play (exact details unreported). Napoli penalty sequence **Pio Esposito saved by Svilar, Michael Olise scores, Maximilian Beier scores, Nico Paz scores, Scott McTominay misses (METHOD UNKNOWN)**. Roma **Dybala scores, Vaz saved by Alex Meret, Theo scores, Soulé scores, Bahoya scores decisive fifth**. All 10 kicks taken. No normal-time goals/assists; no penalty kicks count as players' regular goals. Napoli assistant Sandro and Mister agreed privately to move on to bigger trophies; never give reporters private dialogue or invented quotes.
+
+**TRANSFER DEVELOPING:** Giovanni Di Lorenzo **approached by Everton**; expiring Napoli deal and he **does not want to renew**. NO agreement, departure, fee, offer type or signed pre-contract confirmed. **AWARD DEVELOPING:** screenshot of **La Gazzetta dello Sport, JAN 4 2029** names **Haaland, Endrick, Kvaratskhelia and Napoli's Beier** on **2029 UEFA Team of the Year FORWARDS shortlist**. Beier has NOT been selected/won award. Last verified Beier 19G 7A, Pio 13G 12A from Napoli club comps through Bologna; no updated goal tally for shootouts.
+
+**Next Napoli club fixture:** **Jan 4 Parma HOME Serie A**, NOT YET PLAYED; Jan 7 Palermo home and 7 later fixture dates remain unplayed incl **Roma away Jan 31 domestic cup round unknown**. Supercoppa Jan 1 is played; all remaining nine Jan fixtures unplayed. Napoli last verified 42 points/17 Serie A; Roma 36/16 last verified, cup loss not league fixture.
+
+**NEWSROOM PUBLICATION:** `post-roma-supercoppa-di-lorenzo-beier-jan2029.js` (5 pieces: Roma final match, Meret goalkeeper feature, Bellandi criticism of goalless cup games, Di Lorenzo-Everton, Beier TOTY nomination); `state-roma-supercoppa-defeat-di-lorenzo-everton-beier-toty-jan2029.js` exact final/transfer/shortlist; `comments-roma-di-lorenzo-beier-toty-jan2029.js` 55 curated fan posts and 55 replies; `index.html` imports; `season-2028-29-live.js` latest match card. **CANON FULL DETAILS `ROMA-SUPERCOPPA-LOSS-GDL-EVERTON-BEIER-TOTY-JAN2029-CANON.md`**. Retain previous accurate semifinals and Jan calendar docs. Avoid promoting pre-game historic stories as current news. **No fabricated player/media interviews, photo captions or leaked manager–assistant dialogue.**
+
 ## NEWEST VERIFIED CALENDAR · 2029 JANUARY 1 FINAL AND TEN FIXTURES
 
 **MANAGER-SUPPLIED UPDATED JANUARY PHOTO** supersedes the earlier 8-fixture screenshot. **NAPOLI vs ROMA Supercoppa Italiana FINAL confirmed on 1 January 2029, NEUTRAL venue** (actual stadium, kickoff, starting XI and result still unknown). Napoli reached final on 29 Dec after 0–0 Milano FC SEMIFINAL, 4–2 on penalties; Roma beat Inter 3–2 in OTHER SEMIFINAL. **NO TROPHY YET.**
