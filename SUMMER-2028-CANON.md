@@ -1,5 +1,13 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## CURRENT SAVE STATUS · JANUARY 10 2029 · FIORENTINA 0–0 · ROMA THREE BACK
+
+Latest Serie A FT **Fiorentina 0–0 Napoli AWAY Jan10 2029**, HT0–0. **David de Gea GK rating 9.8 and EXACTLY FIVE SAVES TOTAL** confirmed by manager correction, 3 first half, 4th on Paz50′, 5th tipped Beier close-range effort onto POST, minute unknown. Napoli goalkeeper unidentified, Napoli TEAM clean sheet for third consecutive league match after Parma2–0 and Palermo1–0. No goals/assists. League **NAPOLI 20P 15W4D1L GF36 GA10 +26, 49PTS**. New screenshot other top six, all 20P: **ROMA 46 14W4D2L GF42GA18 +24 — JUST THREE BACK**, Bergamo Calcio/Atalanta 41/20 12W5D3L GF42GA23 +19, Juventus 41/20 12W5D3L GF43GA24 +19, Lombardia FC 34/20 10W4D6L GF36GA28 +8, Parma 33/20 10W3D7L GF29GA23 +6. Earlier Jan4 Roma40 or other stale table superseded.
+
+Next **Lazio Jan13 HOME Serie A** unplayed; Jan16 Sociedad A UCL, Jan21 Sampdoria A league, Jan24 Cracovia A UCL, Jan27 Juve H league, Jan31 Roma A domestic cup round unconfirmed. 4 January fixtures done, 6 future. Manager of Year Stefan Saladino, five Napoli selected UEFA 2029 TOTY (Davies/Bastoni/Buongiorno/Olise/Neves), Beier nominee not final selected, Barcelona's former Napoli Endrick selected, historical seasons all preserved. Scores vs Parma, Palermo, Roma cup remain intact.
+
+New canonical file: `FIORENTINA-0-0-DE-GEA-FIVE-SAVES-ROMA-THREE-BACK-JAN10-2029-CANON.md`. New site state, 4 longform reports, 57 authored comments and 57 replies, old awards coverage preserved. Private manager-and-Sandro tactical talks not available to fictional journalists.
+
 ## CURRENT SAVE · 7 JAN 2029 · HONOURS + PALERMO FULL TIME
 
 **NAPOLI 1–0 PALERMO HOME Serie A FT** Jan7, halftime 1–0, **Michael Olise 44′ goal LUTSHAREL GEERTRUIDA ASSIST**. Palermo GK Desplanches made big early save and denied Paz 27′; Napoli header from corner off crossbar (shooter unknown), box scramble, Beier stopped point blank, Neves→Moore chance wasted by Moore bad first touch. **Neves SUB ON HALFTIME**, **Davies & Calafiori SUB ON 65′**, unconfirmed players replaced. TEAM clean sheet; **NAPOLI GK VS PALERMO UNKNOWN**. Napoli league now **19 played 15W3D1L 36GF 10GA +26 48pts**, remain leaders. After Jan4 rivals last verified Roma 40/18, Bergamo41/19, Juventus38/19, Lombardia34/20, Parma30/19; those are NOT verified after Jan7. Next **FIORENTINA AWAY JAN10** unplayed.
