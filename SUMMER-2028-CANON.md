@@ -1,5 +1,15 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## NEWEST VERIFIED CALENDAR · 2029 JANUARY 1 FINAL AND TEN FIXTURES
+
+**MANAGER-SUPPLIED UPDATED JANUARY PHOTO** supersedes the earlier 8-fixture screenshot. **NAPOLI vs ROMA Supercoppa Italiana FINAL confirmed on 1 January 2029, NEUTRAL venue** (actual stadium, kickoff, starting XI and result still unknown). Napoli reached final on 29 Dec after 0–0 Milano FC SEMIFINAL, 4–2 on penalties; Roma beat Inter 3–2 in OTHER SEMIFINAL. **NO TROPHY YET.**
+
+**TEN CURRENT JANUARY FIXTURES, all unplayed:** Jan 1 **Roma neutral SUPERCOPPA FINAL**; Jan 4 Parma home Serie A (**previous Jan 3 date superseded**); Jan 7 Palermo home Serie A (**previous Jan 6 date superseded**); Jan 10 Fiorentina away Serie A; Jan 13 Lazio/Latium home Serie A; Jan 16 Real Sociedad away Champions League; Jan 21 Sampdoria away Serie A; Jan 24 KS Cracovia away Champions League; Jan 27 Juventus home Serie A; Jan 31 **Roma away DOMESTIC CUP** (round **UNKNOWN**). Count 6 league + 2 UCL + 2 cup incl Supercoppa. Five games in opening thirteen days. Jan 1 and Jan 31 are TWO DISTINCT Roma cup fixtures; no inference Jan31 cup stage.
+
+**Current state modules:** `state-supercoppa-final-jan1-ten-match-january2029.js`, `post-supercoppa-final-jan1-roma-calendar-ten.js` (two public stories + corrects previous stale previews), `comments-roma-final-jan1-ten-fixtures.js`, imported in `index.html`. `season-2028-29-live.js` corrected fixture view from final Date TBC to Jan 1 neutral. **Source of truth:** `JANUARY-2029-UPDATED-TEN-GAME-CALENDAR-ROMA-FINAL-CANON.md`. Old Jan3/Jan6 and eight-fixture count persist in archival historical descriptions only; always use updated dates in live recommendations.
+
+**Previous verified Napoli league position untouched:** 42 pts/17, Roma 36 pts/16 at last confirmation; cup results do not change league standings. Beier 19G/7A; Pio 13G/12A all club competitions unchanged. Sandro Vitale is longstanding assistant manager, Mister Saladino remains in charge; no leaks of staff-room dialogue to press.
+
 ## Most recent · Napoli and Roma advance to 2028–29 Supercoppa final
 
 Napoli 0–0 Milano FC (AC Milan) Supercoppa SEMIFINAL, 29 Dec 2028; Napoli won 4–2 on penalties after Pio goal, KDB goal, Neves saved, Beier goal, Mikey Moore decisive fifth goal. Milano FC Giménez high, Fofana scored, Roony scored, Bondo hit post; fifth Milan kick not taken. Maignan denied Neves, Davies and Paz during play. Roma beat Inter 3–2 in OTHER semifinal. Final Napoli v Roma, date and venue unconfirmed, NO TROPHY YET. Last league Napoli 42pts/17, Roma 36pts/16, different games played; penalty shootout doesn't add goals or assists. Full details `SUPERCOPPA-SEMI-NAPOLI-MILANO-ROMA-INTER-DEC2028-CANON.md`, news/state/comments modules added to homepage. January fixtures preserved, final awaiting date.
