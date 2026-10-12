@@ -1,5 +1,15 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## LATEST CONFIRMED: 24 DEC 2028 — NAPOLI 2–1 BOLOGNA FT
+
+**Serie A · HOME · 24 Dec 2028 · Napoli 2–1 Bologna full-time**. **Davies 58′**, assist **Pio Esposito**, remarkable angle with **manager-provided shot xG 0.08**; **Openda 80′** equalised; **Beier 85′ unassisted** winner from the rebound of a **João Neves blocked shot** at the edge of the box. **Neves receives NO assist.** This is full-time, not live. No confirmable Bologna starting XI, goalkeeper, substitution details, HT score or buildup explanation for the Bologna goal.
+
+**Napoli Serie A now 17 P · 13 W · 3 D · 1 L · 42 pts · 33 GF · 10 GA · +23 GD.** **Roma still only verified 36pts/16 matches** (16-game snapshot top six Napoli 39 Roma 36 Atalanta 32 Juventus 31 Parma 26 Milan 25). **Do NOT claim a 6-point current lead**: Roma's 17th fixture and result unverified. Prior comparable gap three points at 16 matches each.
+
+**Confirmed all-competition 2028–29 totals:** Beier **19G/7A**, Pio **13G/12A**. Davies has at least three confirmed 2028–29 goals (Inter, Como 90′ and Bologna 58′), but overall total could be higher if underreported. **Next 29 Dec Supercoppa vs Milano FC/AC Milan, home-designated, NOT YET REPORTED/PLAYED.** Eight manager-screenshot confirmed Jan 2029 games remain: Jan 3 Parma H Serie A; Jan 6 Palermo H Serie A; Jan 10 Fiorentina A Serie A; Jan 13 Lazio/Latium H Serie A; Jan 16 Real Sociedad A UCL; Jan 21 Sampdoria A Serie A; Jan 24 KS Cracovia A UCL; Jan 27 Juventus H Serie A.
+
+**Site newsroom updated on explicit order “FT. RUN THE STORIES.”** Match report lead, Davies low-xG breakdown, Bellandi critical column, Beier player-profile, reader discussions. New files `post-bologna-davies-beier-christmas-dec2028.js`, `state-bologna-two-one-davies-beier-dec2028.js`, `comments-bologna-beier-davies-dec2028.js`; all in `index.html`. Full new canon: `BOLOGNA-24-DEC2028-CHRISTMAS-WINNER-CANON.md`. All previous stories and private staff conversations stay canon. The publicly known role of long-standing assistant manager Sandro Vitale remains distinct from confidential tactical talk and any hypothetical `VitaleOutNow` account is NOT established.
+
 ## LATEST VERIFIED · 17 DECEMBER 2028 · PALERMO 2–2 / JANUARY 2029 CALENDAR
 
 **Palermo away 2–2 FT, 17 December 2028:** Palermo Diakité 29′, 75′ (second on counterattack); Napoli McTominay 60′ assisted by **Michael Olise**, Beier 86′ assisted by **Anton Stach**. **Peacock SIX saves in FIRST HALF** (not confirmed full-game total); poor Napoli first half, much better second. **Olise and Alphonso Davies both entered AT HALFTIME**. **Pio Esposito's stoppage-time shot was saved by the Palermo goalkeeper**. Starting XI outside confirmed goalkeeper and identified players remains incomplete. Palermo were bottom of the table. Do not blame Peacock for concessions without further evidence.
