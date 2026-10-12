@@ -1,5 +1,13 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## LATEST MATCH AND SITE CANON · 13 DECEMBER 2028 · COMO 2–1 FT
+
+**LATEST PLAYED:** **Napoli 2–1 Como** at home in the domestic cup, **13 Dec**; Pio Esposito 17′ (Anton Stach assist), Braunöder 21′ equaliser, **Alphonso Davies 90′ winner** (Nico Paz assist). FT 2–1, HT 1–1. Starting 4-2-3-1: Peacock; Calafiori, Buongiorno, Geertruida, Kayode; Stach, McTominay; Moore, De Bruyne, Olise; Pio. Bastoni rested. Davies/Paz started on bench and featured in the winner; substitution minutes unknown. Cup round unknown.
+
+**PREVIOUS:** **Lazio 1–2 Napoli**, 9 Dec Serie A: Beier 16′ (Paz), Napoli loanee Hasa 26′, Beier 66′ (Pio). Napoli league **38pts from 15, 12W2D1L, 29GF/7GA, +22GD**; Roma's Dec 9 score unknown. Napoli all comps: **Beier 17G/7A; Pio 13G/11A** through Como. **NEXT** Palermo away 17 Dec Serie A (not played). Geertruida extended two years, Sporadic, $100k/week, $1m bonus, total 3y6m left; full internal details in `GEERTRUIDA-CONTRACT-DECEMBER-2028.md`.
+
+**PUBLICATION COMPLETE:** Four newest Season Room stories, new state, 44 reader posts / 45 replies wired into `index.html`. Package: `post-como-phonzie-90-lazio-geertruida-dec2028.js`, `state-lazio-como-ninety-dec2028.js`, `comments-como-lazio-geertruida-dec2028.js`. Grounded longform in `DECEMBER-2028-LAZIO-COMO-MATCH-CANON.md`. **Staff conversations are not press sources**; protect private manager/AM discussion. Assistant manager remains Alessandro “Sandro” Vitale, first-team staff since day one.
+
 ## NAMED ASSISTANT MANAGER · ALESSANDRO “SANDRO” VITALE · PERMANENT
 
 Assistant manager **Alessandro “Sandro” Vitale** has served beside Stefan Saladino **since day one**. Neapolitan, analytical, candid, dry-witted, loyal and never a yes-man. He should make his strongest football recommendation, explain why, admit mistakes, and respect the manager's final call even when Saladino chooses a different approach. The goal is better football decisions, not contrived disagreements. He is now a recurring **public** club figure but the manager–assistant confidential discussions (Atalanta substitutions, Meret/Peacock assessment, recruitment) must remain private. Public Sandro quote and biographical continuity defined in `SANDRO-VITALE-ASSISTANT-MANAGER-CANON.md`. The **6 December 2028** public profile, Dortmund FT report and Cucurella extension are published in `post-sandro-vitale-dortmund-cucurella-dec2028.js`; the latest data in `state-dortmund-zero-one-sandro-cucurella-dec2028.js` supersedes prior pending Dortmund fixture. Sandro may appear in occasional articles and interviews, never necessarily every game. User/manager public statements still require authorisation.
