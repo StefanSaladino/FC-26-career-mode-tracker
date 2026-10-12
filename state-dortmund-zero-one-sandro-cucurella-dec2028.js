@@ -21,7 +21,7 @@ for(const key of ['results','results2028']){
  if(i>=0)D[key][i]=row;else D[key].push(row);
 }
 D.latestResult=['BVB','0–1','NAP','CHAMPIONS LEAGUE · 5 DEC 2028 FT · PIO 27′ (BEIER) · MERET CLEAN SHEET'];
-D.seasonState={...(D.seasonState||{}),ucl:{...(D.seasonState?.ucl||{}),played:6,w:3,d:1,l:2,points:10,gf:9,ga:10,gd:-1,
+D.seasonState={...(D.seasonState||{}),ucl:{...(D.seasonState?.ucl||{}),stage:'League phase',played:6,w:3,d:1,l:2,points:10,gf:9,ga:10,gd:-1,
  status:'2028–29 UCL · 10 points / 6 · away win 0–1 at Borussia Dortmund · Pio 27′ (Beier) · first victory after Arsenal and PSG defeats'}};
 D.assistantManager={name:'Alessandro Vitale',shortName:'Sandro Vitale',role:'Assistant Manager',atNapoliSince:'Beginning of Stefan Saladino project',origin:'Naples',publicQuote:'My job is to give the manager the clearest picture I can. He makes the decision. We live with the result together.',publicProfilePublished:true,profileArticleId:'sandro-vitale-assistant-manager-profile-dec2028'};
 D.cucurellaContract2028Public={player:'Marc Cucurella',age:30,agreed:true,additionalYears:2,remainingYears:3.5,
