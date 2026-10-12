@@ -99,6 +99,24 @@ Dortmund away, 5 December: play has begun. Saladino has selected Meret in goal. 
 - Meret started for Napoli. This selection is now visible on the pitch; the reasons discussed by manager and assistant remain confidential.
 - Second half and match result have **not** been reported. Do not advance the fixture to full-time or attribute later goals or other events.
 
+## 5 December 2028: Borussia Dortmund 0–1 Napoli — Champions League FULL TIME
+
+**Public on-field facts for a future authorised newsroom package:**
+- **Borussia Dortmund 0–1 Napoli, FULL TIME**, 5 December 2028, away in Germany, UEFA Champions League.
+- **27′ Pio Esposito scores**, **Maximilian Beier assists**. The previous initial 0–0 halftime account was explicitly corrected: it was **0–1 at half-time**, and that remained the final score.
+- Early Napoli pressure saw **João Neves win a corner**. Late in the first half, **Gregor Kobel saved a shot from Beier**. Exact minute of Kobel's save unconfirmed.
+- **Alex Meret started in goal and kept a clean sheet**. No save count, match rating, goalkeeping actions or full starting XI provided; do not invent them.
+- Before Dortmund, Napoli were on **7 points from 5 Champions League games** after losing 2–0 to Arsenal and PSG. The Dortmund win moves them to **10 points from 6 games**, **3 wins, 1 draw, 2 defeats**, **9 goals for, 10 against, −1 goal difference** based on the previously established European record.
+- Based on the latest verified Napoli **all-competition** 2028–29 totals after Udinese, Pio rises from **11G/10A to 12G/10A**, Beier from **15G/6A to 15G/7A**. These are club totals, not Italy national team results or league-only goal rankings.
+- The next verified fixture is **Lazio away, Serie A, 9 December 2028**, which remains unplayed.
+
+**Private staff assessment:**
+- Saladino deliberately returned Meret to the XI after Peacock's two Serie A starts. Meret's clean sheet is an important positive outcome, but without match-specific interventions, do not claim he made particular saves or was man of the match.
+- The manager's earlier doubts about Meret and staff decision process remain internal and must never be presented as known to journalists. Public journalists can legitimately observe Meret's selection and clean sheet.
+- No post-match manager press remarks or specific player interview comments have been given. Do not attribute invented manager speech to the press.
+
+**Publication status:** Football result and observations can be used when manager asks to **run stories**. No permission to publish website stories was given in this full-time update.
+
 ## Permanent story-universe separation rules
 
 1. **Internal conversation remains canon.** Everything discussed between manager and AM can matter to motivation, tactical choices, trust and future selection, even when unseen by the public.
@@ -112,4 +130,4 @@ Dortmund away, 5 December: play has begun. Saladino has selected Meret in goal. 
 
 ## Status
 
-As of **2 December 2028**, Napoli have drawn 1–1 with Udinese after Beier's eighth-minute goal and Garcia's 63rd-minute equaliser from a corner; 35 points from 14 league games. Peacock played after his strong Monza outing. The staff's goalkeeper assessment remains confidential. Saladino has privately chosen Meret to start away against Dortmund on 5 December; the publicly visible starting XI is not yet confirmed.
+As of **5 December 2028**, Napoli have won **0–1 away at Borussia Dortmund** in the Champions League, Pio scoring in the 27th minute from Beier's assist. Meret started and kept a clean sheet; Napoli have **10 UCL points after six matches**. Cucurella's extension is already agreed. The next match is Lazio away in Serie A on 9 December; it has not been played. The private goalkeeper assessment remains staff-only and unreported in the newsroom.
