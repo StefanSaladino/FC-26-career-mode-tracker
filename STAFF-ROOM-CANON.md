@@ -1,5 +1,11 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## LATEST STAFF ROOM · PARMA 2–0 NAPOLI WIN, 4 JAN 2029
+
+Mister reports Napoli HOME **2–0 Parma FT**, De Bruyne 27′ **unassisted** goal-line finish after Pio sharp angled shot sat on line, Pio 75′ **unassisted** rebound from McTominay saved shot. Peacock **clean sheet** (no saves count known), total Pio 14G/12A, last Beier 19G/7A. Sandro advised control and protection of lead from 75′ before FT; this private discussion is **not public news**. Last big match Jan1 Roma final 0–0 after 90, Roma 4–3 pens champions; Meret starred but now Peacock clean sheet creates healthy competition; **NO permanent number one proclaimed**. Next Jan7 Palermo HOME unplayed.
+
+Manager-provided post-match top-six table: Napoli 45pts/18 14W3D1L +25 (35GF/10GA); Bergamo Calcio 41pts/19 +20; Roma 40pts/18 +21; Juve38/19; Lombardia34/20; Parma30/19. Five-point lead over Roma SAME 18 played; four over Bergamo despite their one extra game. Full `PARMA-2-0-45POINTS-PEACOCK-PIO-JAN4-2029-CANON.md`. Previously uploaded tables historical, current Roma no longer 36/16. Four independent articles, 43 public comments/43 replies. Press cannot know private quotes.
+
 ## LATEST STAFF ROOM · ROMA FINAL HEARTBREAK, GDL EVERTON AND BEIER UEFA NOMINATION · JAN 2029
 
 **Jan 1 Supercoppa FINAL Napoli 0–0 Roma after 90 minutes; Roma WON 4–3 on penalties.** Meret and Svilar huge open-play saves; Meret saved Vaz penalty, Svilar saved Pio. Napoli kicks ordered Pio SAVED, Olise ✓, Beier ✓, Nico Paz ✓, McTominay MISSED (method not confirmed). Roma Dybala ✓, Vaz SAVED, Theo ✓, Soulé ✓, Bahoya ✓ decisive. **Roma won trophy, Napoli lost.** Sandro was devastated; Mister said privately «Sandro andiamo avanti. There are bigger trophies to be had.» Sandro agreed to refocus on Scudetto, UCL, Coppa Italia and Jan 4 Parma. Staff-room dialogue stays PRIVATE; do not quote as a press conference. Performance of Meret vs Peacock enters selection discussion, not a confirmed permanent number-one decision.
