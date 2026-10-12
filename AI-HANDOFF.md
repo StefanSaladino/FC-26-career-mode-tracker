@@ -1,5 +1,9 @@
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
+## DORTMUND DEFENSIVE DETAIL · VERIFIED AFTER FULL TIME
+
+Meret made **one save** in Napoli's 1–0 win at Dortmund. The defensive four were **Cucurella, Bastoni, Buongiorno, Calafiori** (manager's listed order), with **Kayode substituted on to close out the game** (minute/replacement unspecified). In the confidential postmatch coaching assessment, Saladino credited the back four more than Meret for the clean sheet, rating the goalkeeper satisfactory rather than exceptional. On-field details can be reported publicly; staff evaluation cannot be attributed as public managerial statements. Details archived in `DORTMUND-DEFENSIVE-NOTES-2028-12-05.md`. No match article published by this entry.
+
 ## CURRENT CANON · 5 DECEMBER 2028 · DORTMUND 0–1 NAPOLI FT · MERET CLEAN SHEET · CUCURELLA EXTENSION
 
 - Marc Cucurella **30 years old, 88 OVR**, agrees to an **Important** squad-role extension: **two additional years**; **3 years 6 months total remaining**; **$200,000 weekly wage**, **$2.5m signing bonus**, **$3.5m bonus if 10 clean sheets**. The clean-sheet bonus is conditional, not an already-earned payment.
