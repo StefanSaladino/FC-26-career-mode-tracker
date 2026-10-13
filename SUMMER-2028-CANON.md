@@ -1,5 +1,11 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## CURRENT WORLD · JAN16 2029 · REAL SOCIEDAD 1–1 NAPOLI AWAY UCL
+
+LATEST Napoli Champions League match **REAL SOCIEDAD 1–1 NAPOLI Jan16 away FT (HT0–1)**. **26′ Pio Esposito** from **Mikey Moore** (edge of area to top corner). **88′ Beñat Turrientes** equaliser on Sociedad FIRST SHOT ON TARGET; assist unreported. Sociedad first-half xG **0.1**, full time xG **Napoli2.3 vs Real Sociedad0.6**. Pickford saved Moore close-range effort (unknown minute); denied **substitute Anton Stach 71′**, then saved **Pio rebound 71′**. Official match total Pickford saves unknown, at least three individual interventions directly reported. Napoli GK identity, lineup, substitution timing, full match shots, other goals/events unknown.
+
+Pio 2028–29 Napoli club tracked **16 goals, 14 assists** after Jan16 (was 15G14A Jan13). Moore 1 confirmed assist in THIS match, complete club-season cumulative tally not verified. Serie A Napoli remains **21P 16W4D1L GF39GA11 +28 52pts**; Roma last verified **46/20 as of Jan13**, next result not reported. No domestic standings altered by this UCL draw. January **SIX of TEN fixtures completed**, FOUR remaining: **Jan21 Sampdoria AWAY Serie A**, **Jan24 KS Cracovia AWAY UCL**, **Jan27 Juventus HOME Serie A**, **Jan31 Roma AWAY domestic cup**. Past Napoli 3–1 Lazio Jan13 preserved. Public archive: five Sociedad reports and 68 hand-authored fan comments + 68 replies. Reference `SOCIEDAD-1-1-2029-JAN16-MATCH-CANON.md`. No confidential staff-room operational talk in public content.
+
 ## CURRENT SAVE · JANUARY 13 2029 · NAPOLI 3–1 LAZIO · ROMA MATCH STILL UNPLAYED
 
 Napoli **3–1 Lazio HOME FT Serie A Jan13 2029 (HT2–0)**. Pio Esposito **29′ goal from Beier assist**; Beier **34′ goal from Pio assist**; **second half McTominay goal from Pio assist** (minute unknown); Lazio **Cancellieri 93′ goal** (assist unknown). McT first-half long-range attempt saved; Lazio keeper Motta saved two further second-half Beier attempts off Pio-created chances, neither counts as goal/assist. Pio match **1G+2A** season club tracked **15G14A**, Beier match **1G+1A** season tracked **20G8A**; Scott cumulative unknown. Napoli keeper/lineup and scorer's exact third-goal time unknown. Cancellieri ends three-match Serie A TEAM clean-sheet streak.
