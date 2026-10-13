@@ -1,5 +1,13 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## 13 JANUARY 2029 · STAFF-ONLY · CUCURELLA TALKS AND LAZIO WIN
+
+**STRICTLY PRIVATE WITH MISTER SALADINO AND SANDRO VITALE. NOT PUBLIC NEWS, RUMOUR OR QUOTE.** Tottenham offered **$125M** for Marc Cucurella (30y, 88 OVR). Manager had delegated negotiations opening at **$170M** and would not accept less than **$155M**. Manager now confirms **NEGOTIATIONS BROKE DOWN** because Tottenham thought the opening asking price was too high. No deal, no accepted fee, Cucurella **STAYS at Napoli**. The club had **~$160M budget** before any sale, no added fee from Tottenham. Do not leak any of this to the fictional public site, journalists, fans, ticker or rumours. This is staff-room fact only.
+
+Inter offered **$127.4M** for Michael Kayode (24y, 87); Mister told Inter to get lost, no confirmed sale. E. Rossetti and M. Hooper selected for academy promotion and intended loans; neither a destination nor completed loan is confirmed.
+
+**On field** Jan13 Napoli 3–1 Lazio FT, halftime 2–0: Pio29 (Beier assist), Beier34 (Pio assist), second-half McTominay (Pio assist, goal minute unknown), 93 Cancellieri (Lazio). Motta stopped two other Beier chances created by Pio. Pio match 1G2A, Beier 1G1A; tracked season totals Pio15G14A, Beier20G8A. Napoli 21 played, 16W4D1L, GF39GA11, +28, 52 pts. Mister confirmed **ROMA NEXT MATCH NOT YET PLAYED**: still 46pts/20; current Napoli SIX points ahead with Roma ONE game in hand. Other clubs' current results unknown. Next Real Sociedad away UCL Jan16 not played. Details in `NAPOLI-LAZIO-3-1-PIO-TWO-ASSISTS-JAN13-2029-CANON.md`.
+
 ## STAFF ONLY · 10 JANUARY 2029 · DE GEA DENIES NAPOLI IN FLORENCE
 
 Mister Saladino confirmed **Fiorentina 0–0 Napoli FT (HT 0–0)** away in Serie A. **De Gea EXACTLY FIVE TOTAL SAVES** (not merely 5 major highlights), **9.8 goalkeeper rating** shown in postmatch screenshot. Three first half, 50′ fourth on Nico Paz, fifth finger touch on Beier shot redirected onto post and out (minute unknown). Sandro counselled avoiding panic during match and afterwards noted attack created chances; confirmed keeper display led to discussion. After Sandro initially called five 'notable' saves while treating official total unknown, manager CORRECTED explicitly: **De Gea had exactly 5 saves. That's a fact.** This correction is authoritative. Preserve exact figure in all canon and published articles. Napoli starting goalkeeper unknown; team shutout only. No unreported tactical changes/substitutions.
