@@ -1,5 +1,13 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## CURRENT NAPOLI SAVE · 13 JANUARY 2029 · LAZIO 3–1 HOME / 52 POINTS
+
+Napoli **3–1 Lazio (Latium) FT home Serie A Jan13, HT2–0**: **Pio Esposito 29′ goal from Beier assist**; **Maximilian Beier 34′ goal from Pio assist**; **McTominay 3–0 second half from Pio assist (scoring minute unreported)**; **Matteo Cancellieri Lazio consolation 93′**, assist unknown. McT first-half long-range shot stopped. Motta saved two second-half Beier chances created by Pio. Pio **1G+2A**, Beier **1G+1A**, new tracked Napoli club total **Pio 15G14A, Beier 20G8A**, others not exhaustively established. Napoli keeper identity vs Lazio unknown. Three consecutive league clean sheets broken by 93′ concession.
+
+**NAPOLI Serie A 21P 16W4D1L GF39 GA11 +28 = 52 pts**. **ROMA next league fixture HAS NOT BEEN PLAYED**, manager explicitly confirmed this, therefore Roma **20P 14W4D2L GF42 GA18 +24 = 46pts**; Napoli **SIX POINTS CLEAR** with Roma **ONE GAME IN HAND**. For other clubs, latest standings from Jan10 only (Bergamo41/20, Juve41/20, Lombardia34/20, Parma33/20), don't project any post-Jan10 result. Next Napoli Jan16 **Real Sociedad AWAY Champions League**, unplayed; Jan21 Sampdoria A league, Jan24 Cracovia A Champions League, Jan27 Juventus H league, Jan31 Roma A cup round unknown. **Five Jan games played, five future remaining**.
+
+Past Scudetto invincible/2028 Coppa Italia titles, PSG UCL 2028 final LOSS, Roma Supercoppa 2029 LOSS on penalties, Saladino Manager of Year (awarding body unspecified), and FIVE final Napoli selected to UEFA 2029 TOTY remain canon. Latest full match/newspaper archive: `NAPOLI-LAZIO-3-1-PIO-TWO-ASSISTS-JAN13-2029-CANON.md`. Public newsroom has five articles and 68 initial comments+68 replies. CONFIDENTIAL club negotiations belong only in staff-room canon; never make public material or invented rumors from private talks.
+
 ## CURRENT SAVE STATUS · JANUARY 10 2029 · FIORENTINA 0–0 · ROMA THREE BACK
 
 Latest Serie A FT **Fiorentina 0–0 Napoli AWAY Jan10 2029**, HT0–0. **David de Gea GK rating 9.8 and EXACTLY FIVE SAVES TOTAL** confirmed by manager correction, 3 first half, 4th on Paz50′, 5th tipped Beier close-range effort onto POST, minute unknown. Napoli goalkeeper unidentified, Napoli TEAM clean sheet for third consecutive league match after Parma2–0 and Palermo1–0. No goals/assists. League **NAPOLI 20P 15W4D1L GF36 GA10 +26, 49PTS**. New screenshot other top six, all 20P: **ROMA 46 14W4D2L GF42GA18 +24 — JUST THREE BACK**, Bergamo Calcio/Atalanta 41/20 12W5D3L GF42GA23 +19, Juventus 41/20 12W5D3L GF43GA24 +19, Lombardia FC 34/20 10W4D6L GF36GA28 +8, Parma 33/20 10W3D7L GF29GA23 +6. Earlier Jan4 Roma40 or other stale table superseded.
