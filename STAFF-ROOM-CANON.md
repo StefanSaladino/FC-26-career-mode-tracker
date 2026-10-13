@@ -1,5 +1,15 @@
 # Napoli staff-room canon — not for newsroom publication
 
+## JAN16 2029 · STAFF DEBRIEF · REAL SOCIEDAD 1–1 NAPOLI
+
+**Manager/assistant private matchday debrief, NOT fabricated as public press statements.** Napoli drew **1–1 at Real Sociedad away, Champions League, halftime 1–0 to Napoli**. **Pio Esposito 26′** top-corner shot from edge of box, **Mikey Moore assist**. Pickford saved Moore close-range. **At 71′, substitute Anton Stach's shot saved and Pio's rebound also saved** by Pickford. Hosts had **0.1 xG at halftime**; **88′ Beñat Turrientes equaliser on Sociedad's FIRST SHOT ON TARGET**, score FT1–1. Final xG **Napoli 2.3, Sociedad 0.6**. Staff are frustrated to lose a late lead despite chance dominance. No blame assignment about equaliser build-up without replay; no invented defensive error. Pickford at least three reported saves, official count not confirmed. Napoli goalkeeper unknown.
+
+For next training/video: review why 2.3 xG only earned one goal, review 88′ concession precisely, maintain compactness when nursing a lead without surrendering control. These are **staff recommendations**, not confirmed public game instructions or statements.
+
+Pio recorded 1G for the Sociedad match, now tracked **16G14A club season**. Moore match assist1, cumulative season total not audited. Napoli league unchanged **52pts/21**, others no new confirmed results after Jan13. Six Jan games done, four to come: next **Sampdoria away Jan21 Serie A**, then **Cracovia away Jan24 Champions League**, **Juventus home Jan27 Serie A**, **Roma away Jan31 domestic cup**.
+
+**All previously recorded manager-only football-business and transfer discussions remain internal.** Keep this debrief separate from independent in-universe press articles and fan commentary. Canon full event record: `SOCIEDAD-1-1-2029-JAN16-MATCH-CANON.md`.
+
 ## 13 JANUARY 2029 · STAFF-ONLY · CUCURELLA TALKS AND LAZIO WIN
 
 **STRICTLY PRIVATE WITH MISTER SALADINO AND SANDRO VITALE. NOT PUBLIC NEWS, RUMOUR OR QUOTE.** Tottenham offered **$125M** for Marc Cucurella (30y, 88 OVR). Manager had delegated negotiations opening at **$170M** and would not accept less than **$155M**. Manager now confirms **NEGOTIATIONS BROKE DOWN** because Tottenham thought the opening asking price was too high. No deal, no accepted fee, Cucurella **STAYS at Napoli**. The club had **~$160M budget** before any sale, no added fee from Tottenham. Do not leak any of this to the fictional public site, journalists, fans, ticker or rumours. This is staff-room fact only.
