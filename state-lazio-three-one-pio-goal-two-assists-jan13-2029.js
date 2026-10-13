@@ -17,7 +17,7 @@ for(const k of ['fixtures2028','verifiedUpcoming2028','verifiedUpcoming2029'])if
 for(const a of [D.scheduleJanuary2029?.fixtures,D.scheduleSnapshot?.fixtures])if(Array.isArray(a)){const f=a.find(x=>x.date==='2029-01-13'&&x.opponent==='Lazio');if(f)Object.assign(f,{played:true,fullTime:true,result:'Napoli 3–1 Lazio',score:'3–1',homeGoals:3,awayGoals:1,fixtureResultKnown:true});}
 if(D.scheduleJanuary2029)Object.assign(D.scheduleJanuary2029,{completedMatches:5,upcomingMatches:5,notes:'Five January games finished: Jan1 Roma Supercoppa 0-0 lost 3-4 on penalties, Jan4 Parma 2-0 W, Jan7 Palermo 1-0 W, Jan10 Fiorentina 0-0 D, Jan13 Lazio 3-1 W. Five remain, starting Real Sociedad A UCL Jan16.'});
 D.latestResult=['NAP','3–1','LAZ','SERIE A · 13 JAN 2029 · PIO 29′ (BEIER ASSIST) · BEIER 34′ (PIO ASSIST) · McTOMINAY SECOND HALF (PIO ASSIST) · CANCELLIERI 93′ · HT 2–0'];
-D.seasonState={...(D.seasonState||{}),league:{...(D.seasonState?.league||{}),played:21,w:16,d:4,l:1,points:52,remaining:17,gf:39,ga:11,gd:28,position:1,status:'Napoli 3-1 Lazio Jan13, 52points from21. Roma has NOT played after Jan10, therefore remains at 46/20 and Napoli lead 52/21 by SIX with Roma ONE GAME IN HAND. Other opponents' later results unknown.'}};
+D.seasonState={...(D.seasonState||{}),league:{...(D.seasonState?.league||{}),played:21,w:16,d:4,l:1,points:52,remaining:17,gf:39,ga:11,gd:28,position:1,status:'Napoli 3-1 Lazio Jan13, 52points from21. Roma has NOT played after Jan10, therefore remains at 46/20 and Napoli lead 52/21 by SIX with Roma ONE GAME IN HAND. Other teams results remain unknown.'}};
 D.leagueSnapshot={...(D.leagueSnapshot||{}),played:21,wins:16,draws:4,losses:1,points:52,remaining:17,position:1,gf:39,ga:11,gd:28,status:'Napoli Jan13 latest 52pts/21. Other teams last verified on Jan10 at 20 games; their current scores/gaps not confirmed.'};
 const previous=D.serieAStandings?.rows?.map(x=>[...x])||[];
 if(previous.length){const own=previous.find(x=>x[0]==='Napoli');if(own){own.splice(1,8,21,16,4,1,39,11,28,52);}
@@ -39,7 +39,7 @@ D.whispers=[
 ['STRIKER CONNECTION','Beier scored once and assisted once, while Lazio keeper Motta also saved two other Beier attempts created by Pio.'],
 ['McTOMINAY FINDS GOAL','McTominay had a first-half effort from distance saved, before converting from Pio’s supply in the second half; exact scoring minute unconfirmed.'],
 ['CANCELLIERI LATE CONSOLATION','Matteo Cancellieri scored Lazio’s goal in the 93rd minute, ending Napoli’s three-match Serie A clean-sheet streak. Lazio goal assist unconfirmed.'],
-['NAPOLI 52 POINTS','Napoli improve to 52/21, 16 wins, four draws, one defeat, 39 goals scored and 11 conceded. Roma's next match not played; Napoli currently 6 points clear of Roma, who have a game in hand. Other clubs' latest results unconfirmed.'],
+['NAPOLI 52 POINTS','Napoli improve to 52/21, 16 wins, four draws, one defeat, 39 goals scored and 11 conceded. Roma next match unplayed; Napoli currently 6 points clear of Roma, who have a game in hand. No new results confirmed for other clubs.'],
 ['SCUDETTO CONTEXT','Manager confirms Roma have NOT YET PLAYED next fixture: still 46/20, Napoli 52/21, SIX-point current lead with Roma having ONE game in hand. Other club fixtures await manager.'],
 ['CHAMPIONS LEAGUE NEXT','Napoli travel to Real Sociedad on January 16, three days after their 3–1 Lazio win. No next-match result or lineup is known.'],
 ['HONOURS CONTINUE','Saladino’s Manager of the Year recognition and Napoli’s five final UEFA 2029 Team of the Year selections remain major honours.']
