@@ -1,5 +1,15 @@
 # Napoli Season Room — Fictional Media / Press Canon
 
+## LATEST PUBLISHED EDITION · JAN 13 2029 · NAPOLI 3–1 LAZIO, PIO 1G2A
+
+**Public confirmed match:** Napoli 3–1 Lazio home Jan13, halftime 2–0. 29′ Pio Esposito goal (Beier assist), 34′ Maximilian Beier goal (Pio assist); Scott McTominay third, SECOND-HALF minute unreported, assisted by Pio; 93′ Lazio Matteo Cancellieri consolation (assist not confirmed). Scott first-half long-range chance stopped; Lazio GK Motta saved TWO more second-half Beier efforts from Pio's passes. No Napoli GK identity/lineup/substitutes published because unknown. Pio match 1G2A, Beier 1G1A. Tracked all club season totals Pio15G14A, Beier20G8A.
+
+**Title story** Napoli 52 points in 21 (16W4D1L GF39GA11 GD+28); ROMA **46 points in 20** and their NEXT MATCH **NOT YET PLAYED**, manager confirms. Napoli currently SIX points ahead, Roma have ONE GAME IN HAND. Other rivals latest Jan10 ONLY (Bergamo41/20 Juve41/20 Lombardia34/20 Parma33/20); don't claim latest results without manager. Next Napoli Jan16 Real Sociedad AWAY Champions League unplayed.
+
+Five LONGFORM pieces: Giulia Romano **"PIO'S NIGHT. THREE GOALS. THREE POINTS. NAPOLI ANSWER FLORENCE."**; Sara Ferraro **"MORE THAN A NUMBER NINE. PIO ESPOSITO IS BECOMING NAPOLI'S CREATOR."**; Marco D'Amato **"BEIER TO PIO. PIO TO BEIER. LAZIO NEVER SOLVED THE EXCHANGE."**; Luca Bellini **"SIX POINTS CLEAR. ONE GAME IN HAND. NAPOLI KEEP THEIR NERVE."**; Matteo Bellandi **"BELLANDI: NAPOLI DIDN'T NEED AN EXCUSE. THEY NEEDED GOALS. THEY FOUND THREE."** 68 original public supporter reactions and 68 replies. Files `post-napoli-three-one-lazio-pio-mct-beier-title-race-jan13-2029.js`, `comments-napoli-lazio-pio-beier-mct-jan2029.js`, `state-lazio-three-one-pio-goal-two-assists-jan13-2029.js`, `index.html`, `season-2028-29-live.js`. Canon `NAPOLI-LAZIO-3-1-PIO-TWO-ASSISTS-JAN13-2029-CANON.md`.
+
+**CONFIDENTIALITY:** Newsroom and fictional reporters may NOT access private manager/assistant conversations, delegated transfer negotiations, club budgets, transfer refusals, or academy staff-room instructions. Do NOT imply reporters or fans know them, do NOT publish manager dialogue as public quotes. Prior Fiorentina and award stories retained.
+
 ## LATEST PUBLISHED EDITION · JANUARY 13 2029 · NAPOLI 3–1 LAZIO / PIO 1G2A
 
 **Match newsroom**: Napoli 3–1 Lazio HOME Serie A FULL TIME, HT2–0. Pio Esposito 29′ from Beier; Beier34′ from Pio; McTominay second half (time UNKNOWN) from Pio; Cancellieri93′ Lazio goal. Pio created two further Beier attempts denied by Lazio keeper Motta in second half. McT long shot saved first half. No fabricated substitutions, details or Napoli goalkeeper. Pio club season 15G14A, Beier20G8A after this match. Lazio late goal ends three straight Serie A team clean sheets.
