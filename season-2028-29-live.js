@@ -141,4 +141,14 @@ if(D.lazioJanuary2029?.fullTime===true&&D.lazioJanuary2029.score==='Napoli 3–1
  game.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>2028–29 · Serie A · 13 Jan 2029 · HOME · Matchday 21</span><strong>Napoli <b>3–1</b> Lazio</strong><p>29′ Pio Esposito (Beier assist) · 34′ Beier (Pio assist) · Second half McTominay (Pio assist; time unknown) · 93′ Cancellieri (Lazio) · HT 2–0 · Motta stops two more Beier attempts from Pio service · Napoli 52 points after 21 · Roma 46 after 20, game in hand</p></div>';
  el.prepend(game);
 }
+
+/* Jan 16 2029 manager verified: Real Sociedad 1-1 Napoli AWAY Champions League.
+   Pio 26' from Moore, Turrientes 88' Sociedad FIRST shot ON TARGET. Pickford denied Moore close-range and Stach/Pio rebound at 71'. FT xG Napoli 2.3 / Sociedad 0.6; Sociedad HT xG 0.1. */
+if(D.realSociedadJanuary2029?.fullTime===true&&D.realSociedadJanuary2029.score==='Real Sociedad 1–1 Napoli'&&e('matchesList')){
+ const el=e('matchesList');
+ for(const old of [...el.children].filter(x=>x.classList.contains('match-card')&&x.textContent.includes('Real Sociedad')&&x.textContent.includes('16 Jan 2029')))old.remove();
+ const game=document.createElement('div');game.className='match-card';
+ game.innerHTML='<div class="result-badge D">D</div><div class="match-main"><span>2028–29 · Champions League · 16 Jan 2029 · AWAY · HT 0–1</span><strong>Real Sociedad <b>1–1</b> Napoli</strong><p>26′ Pio Esposito (Moore assist), edge-of-box top corner · 88′ Beñat Turrientes, Sociedad FIRST shot on target · Pickford saves close-range Moore effort and twice at 71′ on Stach shot + Pio rebound · FT xG Napoli 2.3 / Sociedad 0.6 · Sociedad HT xG 0.1</p></div>';
+ el.prepend(game);
+}
 })();
