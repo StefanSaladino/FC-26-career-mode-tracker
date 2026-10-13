@@ -1,0 +1,20 @@
+/* Jan21 2029 manager-confirmed Sampdoria 0-3 Napoli; verified updated Serie A screenshot. */
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;
+D.sampdoriaJanuary2029={date:'2029-01-21',competition:'Serie A',venue:'Away',score:'Sampdoria 0–3 Napoli',fullTime:true,verified:true,halfTime:'0–1',sampdoriaXG:{halfTime:0,fullTime:0},napoliXG:null,goals:[{minute:25,scorer:'Pio Esposito',assist:'Alphonso Davies',finish:'First time, off post and in'},{minute:59,scorer:'Pio Esposito',assist:'Nico Paz'},{minute:84,scorer:'Nico Paz',assist:'Maximilian Beier',beierSubbedOnFor:'Pio Esposito'}]};
+const row=['Napoli','Sampdoria','Serie A',3,0,'W','21 Jan 2029 · Away · HT 0–1','Sampdoria 0–3 Napoli FT · Pio 25′ (Davies), 59′ (Paz); Paz 84′ (Beier) · Sampdoria xG 0.0 at HT and FT'];
+for(const k of ['results','results2028']){D[k]=D[k]||[];const i=D[k].findIndex(x=>x[0]==='Napoli'&&x[1]==='Sampdoria'&&String(x[6]).includes('21 Jan 2029'));if(i>=0)D[k][i]=row;else D[k].push([...row]);}
+for(const k of ['fixtures2028','verifiedUpcoming2028','verifiedUpcoming2029'])if(Array.isArray(D[k]))for(const f of D[k])if(f.date==='2029-01-21'&&f.opponent==='Sampdoria')Object.assign(f,{played:true,fullTime:true,result:'Sampdoria 0–3 Napoli',score:'0–3',fixtureResultKnown:true});
+for(const a of [D.scheduleJanuary2029?.fixtures,D.scheduleSnapshot?.fixtures])if(Array.isArray(a)){const f=a.find(x=>x.date==='2029-01-21'&&x.opponent==='Sampdoria');if(f)Object.assign(f,{played:true,fullTime:true,result:'Sampdoria 0–3 Napoli',score:'0–3'});}
+if(D.scheduleJanuary2029)Object.assign(D.scheduleJanuary2029,{completedMatches:7,upcomingMatches:3});
+D.serieAStandings={...(D.serieAStandings||{}),rows:[['Napoli',22,17,4,1,42,11,31,55],['Roma',22,16,4,2,46,19,27,52],['Juventus',22,14,5,3,47,26,21,47],['Bergamo Calcio',22,12,6,4,43,26,17,42],['Milano FC',22,10,9,3,38,25,13,39],['Lombardia FC',22,11,4,7,40,31,9,37]]};
+D.seasonState=D.seasonState||{};D.seasonState.league={...(D.seasonState.league||{}),played:22,w:17,d:4,l:1,gf:42,ga:11,gd:31,points:55,position:1};
+const stats=D.statsBySeason?.['2028–29'];if(Array.isArray(stats)){for(const s of stats){if(s[0]==='Pio Esposito'){s[1]=18;s[2]=14;s[3]='Tracked Napoli club totals through Sampdoria Jan21: 18G 14A.';}if(s[0]==='Maximilian Beier'){s[1]=20;s[2]=9;s[3]='Tracked Napoli club totals through Sampdoria Jan21: 20G 9A.';}}}
+D.academyLoanJanuary2029={rossetti:{position:'RM',age:17,overall:61,potential:'89–94',loanCompleted:true,clubUnknown:true},hooper:{position:'RW',age:17,overall:64,potential:'80–94',loanCompleted:true,clubUnknown:true}};
+D.uclKnockout2029={firstKnockoutPhasePlayoffConfirmed:true,opponent:null,leaguePhaseFinalRank:null};
+D.verifiedUpcoming2028=(D.verifiedUpcoming2028||[]).filter(x=>x.date>'2029-01-21');D.verifiedUpcoming2029=(D.verifiedUpcoming2029||[]).filter(x=>x.date>'2029-01-21');
+D.upcoming=(D.verifiedUpcoming2028.length?D.verifiedUpcoming2028:D.verifiedUpcoming2029).map(x=>[x.gameAlias||x.opponent,x.competition,x.date+' · '+x.venue]);
+D.nextClubMatch={date:'2029-01-24',opponent:'KS Cracovia',competition:'Champions League',venue:'Away',played:false,confirmedNext:true,kickoffTime:null};
+D.latestResult=['SAM','0–3','NAP','SERIE A · JAN 21 · PIO 25′ 59′ · PAZ 84′ · SAMPDORIA FT XG 0.0'];
+D.ticker=['SAMPDORIA 0–3 NAPOLI · FULL TIME · SERIE A','PIO ESPOSITO BRACE · 25′ DAVIES ASSIST · 59′ PAZ ASSIST','NICO PAZ 84′ FROM SUBSTITUTE MAXIMILIAN BEIER','SAMPDORIA EXPECTED GOALS · 0.0 AT FULL TIME','NAPOLI 55 PTS / 22 · ROMA 52 / 22 · JUVENTUS 47 / 22','NEXT KS CRACOVIA AWAY JAN 24 · UCL','JUVENTUS HOME JAN 27 · ROMA AWAY CUP JAN 31'];
+D.whispers=[['ZERO POINT ZERO','Sampdoria generated 0.0 xG in the entire 0–3 defeat to Napoli.'],['PIO AT THE DOUBLE','Esposito scored twice, assisted by Davies and Paz.'],['PAZ THE PROVIDER AND FINISHER','Nico Paz assisted Pio at 59′ and scored from Beier at 84′.'],['TITLE RACE TIGHT','Napoli 55, Roma 52 and Juventus 47: all three on 22 games.'],['EUROPE AWAITS','Napoli face KS Cracovia away Jan24 and will contest the UCL first knockout-phase playoff.']];
+})();
