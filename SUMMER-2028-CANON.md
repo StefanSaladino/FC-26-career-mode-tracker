@@ -1,5 +1,13 @@
 # Summer 2028 / 2028–29 Napoli — Current Save Canon
 
+## CURRENT SAVE · JANUARY 13 2029 · NAPOLI 3–1 LAZIO · ROMA MATCH STILL UNPLAYED
+
+Napoli **3–1 Lazio HOME FT Serie A Jan13 2029 (HT2–0)**. Pio Esposito **29′ goal from Beier assist**; Beier **34′ goal from Pio assist**; **second half McTominay goal from Pio assist** (minute unknown); Lazio **Cancellieri 93′ goal** (assist unknown). McT first-half long-range attempt saved; Lazio keeper Motta saved two further second-half Beier attempts off Pio-created chances, neither counts as goal/assist. Pio match **1G+2A** season club tracked **15G14A**, Beier match **1G+1A** season tracked **20G8A**; Scott cumulative unknown. Napoli keeper/lineup and scorer's exact third-goal time unknown. Cancellieri ends three-match Serie A TEAM clean-sheet streak.
+
+**Napoli league21P 16W4D1L GF39GA11 GD+28, 52 POINTS. Roma NEXT MATCH NOT YET PLAYED by explicit manager confirmation; Roma20P 14W4D2L GF42GA18 GD+24, 46 points; current Napoli SIX POINTS CLEAR with Roma ONE GAME IN HAND.** Other clubs latest known from Jan10: Bergamo Calcio41/20, Juventus41/20, Lombardia34/20, Parma33/20 (not confirmed their later games). Next Jan16 **REAL SOCIEDAD AWAY UCL**, unplayed, then Jan21 Sampdoria away league, Jan24 Cracovia away UCL, Jan27 Juventus home league, Jan31 Roma away domestic cup stage unknown. FIVE JAN games played / FIVE outstanding.
+
+Previous honours preserved: manager Saladino "Manager of the Year" (awarding organisation unspecified); **five Napoli players** UEFA TOTY final XI 2029 Davies/Bastoni/Buongiorno/Olise/João Neves; Jan1 Roma Supercoppa 4–3 shootout victory after 0–0 was ROMA'S TITLE (not Napoli); 2027–28 invincible Scudetto and Coppa Italia Napoli, PSG 3–2 Napoli UCL final loss after extra time. Latest full Jan13 match: `NAPOLI-LAZIO-3-1-PIO-TWO-ASSISTS-JAN13-2029-CANON.md`. Public articles: 5 new Lazio pieces and 68 supporter comments plus 68 replies. Staff-only negotiation details belong to `STAFF-ROOM-CANON.md` and must never be made public as fictional reports.
+
 ## CURRENT NAPOLI SAVE · 13 JANUARY 2029 · LAZIO 3–1 HOME / 52 POINTS
 
 Napoli **3–1 Lazio (Latium) FT home Serie A Jan13, HT2–0**: **Pio Esposito 29′ goal from Beier assist**; **Maximilian Beier 34′ goal from Pio assist**; **McTominay 3–0 second half from Pio assist (scoring minute unreported)**; **Matteo Cancellieri Lazio consolation 93′**, assist unknown. McT first-half long-range shot stopped. Motta saved two second-half Beier chances created by Pio. Pio **1G+2A**, Beier **1G+1A**, new tracked Napoli club total **Pio 15G14A, Beier 20G8A**, others not exhaustively established. Napoli keeper identity vs Lazio unknown. Three consecutive league clean sheets broken by 93′ concession.
