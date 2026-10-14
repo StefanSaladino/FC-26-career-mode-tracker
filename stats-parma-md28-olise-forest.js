@@ -1,0 +1,1 @@
+(()=>{const d=window.NAPOLI_DATA;if(!d)return;const rows=d.statsBySeason?.['2028–29'];if(!rows)return;const o=rows.find(r=>r[0]==='Michael Olise');const p=rows.find(r=>r[0]==='Nico Paz');if(o)o[1]=Number(o[1]||0)+1;if(p)p[2]=Number(p[2]||0)+1;d.stats=rows;})();
