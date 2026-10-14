@@ -1,0 +1,4 @@
+/* Article portraits: preserve faces and full image in mobile reader. */
+.reader-media{height:auto!important;max-height:none!important;overflow:visible!important;background:#071423}
+.reader-media .reader-hero{display:block;width:100%!important;height:auto!important;max-height:min(68vh,680px);aspect-ratio:auto!important;object-fit:contain!important;object-position:center center!important;background:#071423}
+@media(max-width:760px){.reader-media .reader-hero{max-height:55vh!important}.reader-media{min-height:0!important}}
