@@ -1,3 +1,15 @@
+# CURRENT PRIORITY — LATE FEBRUARY 2029 — SUPERSEDES JANUARY TOP PRIORITY
+
+Latest verified site chronology: Napoli 2–0 Empoli (Serie A matchday 26), Pio Esposito goals 38' and 61', Peacock eight saves and clean sheet. Roma lost 2–4 at home to Palermo. Standings after 26 played: Napoli 63, Roma 59, Juventus 57; 12 league matches remain. Napoli next face Roma HOME in Serie A, exact date not verified; do not treat the Roma match as played. A win would put Napoli seven points ahead of Roma.
+
+Champions League: Napoli beat Monaco 4–0 AWAY in knockout playoff first leg and drew 1–1 in return, winning 5–1 aggregate. Pio Esposito four goals across tie; latest tracked Pio 30G/17A, Beier 22G/16A. Next UCL Round of 16 opponent Nottingham Forest, home March 6 and away March 14, both unplayed.
+
+Coppa Italia: Lazio scheduled February 27, venue and round not confirmed. March calendar: Parma away Mar 3, Forest home Mar 6, Como away Mar 10, Forest away Mar 14, Venezia home Mar 18, Italy vs Egypt Mar 21 and USA Mar 25 friendlies, Bergamo Calcio away Mar 31. Do not claim these have been played.
+
+Source files: post-empoli-palermo-roma-matchday26.js; post-napoli-roma-five-battles-md27.js; post-march-2029-forest-lazio.js; state-march-2029-forest-lazio.js. Earlier January priority blocks are historical, not live state. Sandro Vitale remains Saladino's longstanding assistant manager. Private staff discussions must not leak to the public newsroom.
+
+---
+
 # FC 26 Napoli Career — AI Handoff / Save-Universe Bible
 
 ## TOP PRIORITY · 16 JAN 2029 · REAL SOCIEDAD 1–1 NAPOLI UCL · 2.3–0.6 XG
