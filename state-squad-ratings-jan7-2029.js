@@ -34,7 +34,7 @@
   [
     "Alphonso Davies",
     28,
-    89,
+    90,
     "LM / LB"
   ],
   [
@@ -192,7 +192,7 @@
   [
     "Mikey Moore",
     21,
-    84,
+    85,
     "W / AM"
   ],
   [
@@ -285,7 +285,7 @@
   const getOverall=name=>info[name]?.overall??(name==='Francesco Pio Esposito'?info['Pio Esposito'].overall:null);
   for (const key of ['firstXI','eliteXI']) if (Array.isArray(D[key]))
     D[key]=D[key].map(r=>[r[0],r[1],getOverall(r[1])??r[2],...r.slice(3)]);
-  D.squadSnapshot={updated:'7 January 2029 · before Palermo · manager-confirmed squad census',verified:true,
+  D.squadSnapshot={updated:'14 March 2029 · Davies 90 / Moore 85 refreshed; other ages and ratings Jan 7 census',verified:true,
     players:Object.fromEntries(rows.map(([name,age,overall,position,status])=>[name,{age,overall,position,onLoan:status==='loan'}])),
     playerCount:rows.length,loanCount:D.loanedPlayers.length,
     notes:'Hasa returned from loan, presently a senior player. Di Lorenzo remains at Napoli; contract talks broken down and Everton approach unconfirmed as a move.'};
