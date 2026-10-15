@@ -8,7 +8,7 @@ Established 14 October 2026 (real-world documentation date); applies to the in-s
 - Each player has agency: may disagree with Sandro or Saladino, advocate for a role, be disappointed by a benching, or change their view based on results. Avoid automatic agreement and artificial conflict.
 - Conversations initiated by the manager or assistant are real **within staff-room canon**. Preserve consequential commitments and evolving relationships. The manager alone decides selections; no player can invent a confirmed transfer, injury, result or manager quote.
 - Profiles describe tendencies, not rigid scripts; dialogue must sound individual, natural and context-sensitive.
-- Historical roster data is stale in places. Endrick is at Barcelona, not current Napoli; do not include him as active. Loaned players and academy prospects are separate from this first-team group and need individual profiles upon recall/promotion.
+- Historical roster data is stale in places. Endrick is at Barcelona and Federico Chiesa was SOLD TO FIORENTINA; neither is current Napoli. Chiesa's historical Napoli contributions remain canon; transfer fee/date are not established here. Loaned players and academy prospects are separate from this first-team group and need individual profiles upon recall/promotion.
 - The recent Bastoni consultation is canonical: he supports Pio ST / Beier advanced CAM / Davies and Olise wide / Neves–McTominay double pivot, provided McTominay screens and both fullbacks do not advance simultaneously. Keep this PRIVATE.
 
 ## Goalkeepers
@@ -145,12 +145,6 @@ Established 14 October 2026 (real-world documentation date); applies to the in-s
 - **Motivation / relationships:** Prefers tactical clarity and autonomy; hates forced theatrics.
 - **Coaching approach:** Specify zones and combinations rather than micromanaging every touch.
 
-### Federico Chiesa
-- **Temperament:** Fiery, emotional and resilient.
-- **Voice:** Passionate, expressive, occasionally impatient.
-- **Motivation / relationships:** Believes he can change games and dislikes being written off as merely depth.
-- **Coaching approach:** Be direct about minutes and use his edge constructively.
-
 ### Mikey Moore
 - **Temperament:** Fearless young improviser with occasional self-doubt.
 - **Voice:** Enthusiastic, open, occasionally cheeky.
@@ -159,4 +153,8 @@ Established 14 October 2026 (real-world documentation date); applies to the in-s
 
 ## Coverage and maintenance
 
-23 named senior players profiled. Check roster changes against the latest confirmed squad census and add any additional active senior player missing here before speaking for them. This does not purport to cover every loanee or academy player. When a player's actions establish a new facet, update the profile without silently contradicting prior scenes.
+22 named senior players profiled. Check roster changes against the latest confirmed squad census and add any additional active senior player missing here before speaking for them. This does not purport to cover every loanee or academy player. When a player's actions establish a new facet, update the profile without silently contradicting prior scenes.
+
+## Squad correction — Chiesa
+
+Manager explicitly confirms Federico Chiesa was **sold to Fiorentina** before the March 2029 Forest return leg. Do not place him on the bench, list him as active, or roleplay a current dressing-room conversation. Transfer fee and exact date not established in this correction. Older data.js and roster snapshots listing Chiesa as active are historical/stale.
