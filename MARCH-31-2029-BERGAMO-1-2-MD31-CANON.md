@@ -28,3 +28,6 @@
 ## Editorial discipline
 - Public reporting can discuss manager's observable rotations and results, not private dressing-room remarks.
 - Update latest result, next up, ticker, recent matches, stats and standings with each published match.
+
+## Standings correction (manager confirmed)
+- After Napoli's MD31 Bergamo victory, Napoli lead **both Roma and Juventus by seven points**: Napoli 76, Roma 69, Juventus 69. Roma's exact MD31 result and games played are not independently supplied; do not invent them. Earlier standings narrative omitted Roma.
