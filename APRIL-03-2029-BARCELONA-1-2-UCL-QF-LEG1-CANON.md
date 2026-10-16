@@ -27,3 +27,6 @@
 
 ## Editorial policy
 - No invented manager quotes, final-match stats, private dressing-room content or future results. Articles may analyze publicly observable on-field choices.
+
+## Standings correction (manager confirmed)
+- After Napoli's MD31 Bergamo victory, Napoli lead **both Roma and Juventus by seven points**: Napoli 76, Roma 69, Juventus 69. Roma's exact MD31 result and games played are not independently supplied; do not invent them. Earlier standings narrative omitted Roma.
