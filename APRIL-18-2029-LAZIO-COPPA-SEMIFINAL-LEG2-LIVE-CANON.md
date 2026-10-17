@@ -8,5 +8,6 @@
 - **38' Napoli 2–0 Lazio:** Nico Paz → Maximilian Beier → **Pio Esposito goal**, **Beier credited assist**. Napoli lead **3–0 on aggregate**.
 - **Late first half (exact minute unconfirmed):** Alphonso Davies narrowly missed a chance created by a pass from Pio Esposito. Do not credit an assist for a missed chance.
 - **Half-time: Napoli 2–0 Lazio; Napoli lead 3–0 on aggregate.** Pio 2 goals, Beier 2 assists.
+- **52'** Excellent attacking movement leads to **Pio Esposito drawing a penalty for Napoli**. Penalty taker and outcome not yet confirmed. Score remains **2–0**, aggregate **3–0** at time of award.
 - No other match events, substitutions, bookings, or full-time result confirmed.
 - Public website story not yet authorized for this live event.
