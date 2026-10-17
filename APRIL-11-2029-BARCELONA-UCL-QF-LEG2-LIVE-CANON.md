@@ -3,7 +3,7 @@
 **Date:** April 11, 2029
 **Venue:** Stadio Diego Armando Maradona, Naples
 **Competition:** UEFA Champions League, quarterfinal second leg
-**Status:** Half-time confirmed; second half pending
+**Status:** FULL-TIME — Napoli advance to UEFA Champions League semifinals
 **Second-leg score at kickoff:** Napoli 0–0 Barcelona
 **Aggregate at kickoff:** Napoli lead 2–1 following Barcelona 1–2 Napoli on April 3.
 
@@ -42,3 +42,11 @@
 - Napoli goalkeeper Alex Meret made a major save to deny him.
 - **No goal** from this chance; second-leg score remains Napoli 0–0 Barcelona and aggregate Napoli 2–1 Barcelona.
 - Exact minute, shot details, rebound/corner outcome and defensive assignments are unconfirmed; do not invent.
+
+## Full-time — manager-confirmed
+- **Napoli 0–0 Barcelona** in the April 11 quarterfinal second leg.
+- **Napoli win 2–1 on aggregate and qualify for the UEFA Champions League semifinals.**
+- Confirmed second-leg events: 11' Olise cross, Davies header touched over by García; 37' Olise finds Beier, tight-angle shot saved by García; second-half Endrick close-range chance saved spectacularly by Alex Meret (minute unspecified).
+- No goals scored in second leg. No other incidents, substitutions, lineup or statistics confirmed.
+- The opponent in the semifinals has not been confirmed. Do not invent it.
+- **Public editorial:** Do not publish articles without explicit manager authorization; this update is private canon only.
