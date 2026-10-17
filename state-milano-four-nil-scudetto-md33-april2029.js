@@ -1,0 +1,19 @@
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;
+D.milanoApril14={date:'2029-04-14',competition:'Serie A',matchday:33,home:'Milano FC',away:'Napoli',score:'0–4',halftime:'0–1',final:true,goals:[{minute:18,scorer:'Maximilian Beier',assist:'João Neves'},{minute:54,scorer:'Maximilian Beier',assist:'Nico Paz'},{minute:63,scorer:'Scott McTominay',assist:'Maximilian Beier'},{minute:78,scorer:'Pio Esposito',assist:'João Neves'}]};
+D.seasonState=D.seasonState||{};D.seasonState.league={...(D.seasonState.league||{}),w:24,d:8,l:1,played:33,remaining:5,points:80,gf:62,ga:16};
+D.serieAStandingsSnapshot={...(D.serieAStandingsSnapshot||{}),napoli:80,napoliPlayed:33,roma:73,romaPlayed:33,juventus:72,juventusPlayed:33,remaining:5,lead:7};
+D.serieAStandingsMD33=[{"team":"Napoli","p":33,"w":24,"d":8,"l":1,"gf":62,"ga":16,"gd":46,"pts":80},{"team":"Roma","p":33,"w":22,"d":7,"l":4,"gf":72,"ga":36,"gd":36,"pts":73},{"team":"Juventus","p":33,"w":22,"d":6,"l":5,"gf":67,"ga":36,"gd":31,"pts":72},{"team":"Lombardia FC","p":33,"w":19,"d":7,"l":7,"gf":66,"ga":42,"gd":24,"pts":64},{"team":"Bergamo Calcio","p":33,"w":18,"d":8,"l":7,"gf":60,"ga":37,"gd":23,"pts":62},{"team":"Milano FC","p":33,"w":14,"d":12,"l":7,"gf":56,"ga":43,"gd":13,"pts":54}];
+D.latestResult=['MIL','0–4','NAP','SERIE A · MD33 · FT · BEIER BRACE · NAPOLI 80 POINTS'];
+D.nextClubMatch={team:'Napoli',opponent:'Lazio',competition:'Coppa Italia · Semifinal second leg',date:'2029-04-18',venue:'Home',played:false,aggregateLead:'Napoli 1–0'};
+D.upcoming=(D.upcoming||[]).filter(x=>x[1]>'2029-04-14');
+if(!D.upcoming.some(x=>x[1]==='2029-04-18'&&x[0]==='Lazio'))D.upcoming.push(['Lazio','2029-04-18','Coppa Italia semifinal · Second leg · Home · Napoli lead 1–0']);
+D.upcoming.sort((a,b)=>a[1].localeCompare(b[1]));
+D.ticker=['NAPOLI WIN 4–0 AT MILANO FC · BEIER BRACE','SCUDETTO: NAPOLI 80 · ROMA 73 · JUVENTUS 72','JUVENTUS LOSE · ROMA SECOND · FIVE LEAGUE GAMES LEFT','APR 18: NAPOLI vs LAZIO · COPPA ITALIA SEMIFINAL SECOND LEG','UCL SEMIFINAL: APR 24 NAPOLI vs JUVENTUS · MAY 2 JUVENTUS vs NAPOLI'];
+D.whispers=[['SCUDETTO · SEVEN CLEAR','Napoli reach 80 points after 33 matches; Roma move second on 73, Juventus third on 72.'],['SAN SIRO · FOUR GOALS','Beier scores twice and assists McTominay; Esposito adds the fourth in a 4–0 win.'],['NEXT · LAZIO','Napoli host Lazio April 18 in the Coppa Italia semifinal second leg, leading 1–0 on aggregate.'],['EUROPE · JUVENTUS','Champions League semifinal first leg at home April 24; second leg away May 2.']];
+const el=id=>document.getElementById(id);const latest=el('latestResult');if(latest){const r=D.latestResult;latest.innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
+const next=el('nextTwo');if(next)next.innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
+const strip=el('upcomingStrip');if(strip)strip.innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
+const ticker=el('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(x=>'<span>'+x+'</span>').join('');
+const whispers=el('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+x[0]+'</span><p>'+x[1]+'</p></div>').join('');
+const m=el('matchesList');if(m&&!m.querySelector('[data-match-id="milano-md33-2029"]')){const card=document.createElement('div');card.className='match-card';card.dataset.matchId='milano-md33-2029';card.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>Serie A · MD33 · 14 Apr 2029 · Away</span><strong>Milano FC <b>0–4</b> Napoli</strong><p>Beier 18′, 54′ · McTominay 63′ · Esposito 78′</p></div>';m.prepend(card);}
+})();
