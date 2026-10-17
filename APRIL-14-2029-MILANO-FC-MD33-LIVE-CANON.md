@@ -58,3 +58,17 @@
 - Tracked all-competition totals after match: Beier **31 goals, 19 assists**; Pio **37 goals** (assists unchanged at 21).
 - Next confirmed fixture: April 18, Napoli vs Lazio, Coppa Italia semifinal second leg (Napoli lead 1–0 on aggregate).
 - Public stories not authorized by manager yet; no public publication.
+
+## Confirmed Serie A MD33 standings — manager screenshot
+Screenshot of in-game 2028/29 Serie A standings after all top-six clubs have played 33 matches:
+1. Napoli — P33 W24 D8 L1 GF62 GA16 GD+46 Pts80
+2. Roma — P33 W22 D7 L4 GF72 GA36 GD+36 Pts73
+3. Juventus — P33 W22 D6 L5 GF67 GA36 GD+31 Pts72
+4. Lombardia FC — P33 W19 D7 L7 GF66 GA42 GD+24 Pts64
+5. Bergamo Calcio — P33 W18 D8 L7 GF60 GA37 GD+23 Pts62
+6. Milano FC — P33 W14 D12 L7 GF56 GA43 GD+13 Pts54
+
+- Juventus lost in MD33 (opponent and score not confirmed); Roma won in MD33 (opponent and score not confirmed).
+- Napoli lead Roma by **7** and Juventus by **8**, with **5 league matches remaining**.
+- Nine more Napoli points guarantee finishing above both Roma and Juventus regardless of their results (80+9=89; Roma max88, Juventus max87).
+- Do not invent other match results or publish public articles without explicit authorization.
