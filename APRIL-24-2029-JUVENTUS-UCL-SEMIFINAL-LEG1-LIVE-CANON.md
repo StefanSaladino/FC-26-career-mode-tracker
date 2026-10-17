@@ -7,3 +7,9 @@
 - Private live canon only. Do not invent match events or publish a match report before authorization.
 
 - **Half-time confirmed: Napoli 0–0 Juventus.** Manager's assessment: Napoli looked the more dangerous side but no breakthrough. No specific chances, bookings, substitutions or other incidents supplied; do not invent them.
+
+## Full-time confirmed
+- **74' Kenan Yıldız scores for Juventus**; assist and build-up unknown.
+- **FT Napoli 0–1 Juventus**, Champions League semifinal first leg, April 24, 2029.
+- Napoli trail 0–1 on aggregate heading into **May 2 away second leg**. No other goals, cards, subs, injuries or detailed chances confirmed.
+- Manager authorizes publishing public stories after this result. Do not invent manager quotes or dressing-room dialogue.
