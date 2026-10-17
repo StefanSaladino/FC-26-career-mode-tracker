@@ -1,0 +1,18 @@
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;
+D.lazioCoppaSemiLeg2={date:'2029-04-18',competition:'Coppa Italia',stage:'Semifinal second leg',home:'Napoli',away:'Lazio',score:'4–1',aggregate:'5–1',final:true,goals:[{minute:22,scorer:'Pio Esposito',assist:'Maximilian Beier'},{minute:38,scorer:'Pio Esposito',assist:'Maximilian Beier'},{minute:52,scorer:'Pio Esposito',type:'Penalty',wonBy:'Pio Esposito'},{minute:79,scorer:'Kevin De Bruyne',assist:'Pio Esposito'},{minute:82,scorer:'Boulaye Dia',team:'Lazio'}]};
+D.coppaItaliaFinal={date:'2029-05-09',competition:'Coppa Italia',stage:'Final',home:'Napoli',away:'AC Milan',kickoff:null,venue:null,played:false};
+D.latestResult=['NAP','4–1','LAZ','COPPA ITALIA · SEMIFINAL · FT · PIO HAT-TRICK · NAPOLI THROUGH 5–1 AGG'];
+D.nextClubMatch={team:'Napoli',opponent:'Torino',competition:'Serie A · Matchday 34',date:'2029-04-22',venue:'Home',played:false};
+D.upcoming=(D.upcoming||[]).filter(x=>x[1]>'2029-04-18');
+const fixtures=[['Torino','2029-04-22','Serie A · MD34 · Home'],['Juventus','2029-04-24','Champions League semifinal · First leg · Home'],['Juventus','2029-05-02','Champions League semifinal · Second leg · Away'],['AC Milan','2029-05-09','Coppa Italia final · Venue and kickoff TBC']];
+for(const x of fixtures){if(!D.upcoming.some(y=>y[0]===x[0]&&y[1]===x[1]))D.upcoming.push(x);}
+D.upcoming.sort((a,b)=>a[1].localeCompare(b[1]));
+D.ticker=['COPPA ITALIA FINAL · MAY 9 · NAPOLI vs AC MILAN','PIO ESPOSITO HAT-TRICK · NAPOLI 4–1 LAZIO · 5–1 AGGREGATE','ESPOSITO REACHES 40 GOALS AND 22 ASSISTS THIS SEASON','APR 22: TORINO HOME · SERIE A MD34','APR 24 & MAY 2: CHAMPIONS LEAGUE SEMIFINAL vs JUVENTUS'];
+D.whispers=[['COPPA FINAL · MAY 9','Napoli face AC Milan in the Coppa Italia final. Venue and kickoff are not yet confirmed.'],['PIO · FORTY GOALS','Esposito scores a semifinal hat-trick and assists De Bruyne; 40 goals and 22 assists in the tracked season tally.'],['NEXT · TORINO','Serie A matchday 34 at home on April 22. Napoli lead Roma by seven points after 33 rounds.'],['EUROPE · JUVENTUS','Champions League semifinal first leg at home April 24; second leg away May 2.']];
+const el=id=>document.getElementById(id);const latest=el('latestResult');if(latest){const r=D.latestResult;latest.innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
+const next=el('nextTwo');if(next)next.innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
+const strip=el('upcomingStrip');if(strip)strip.innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
+const ticker=el('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(x=>'<span>'+x+'</span>').join('');
+const whispers=el('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+x[0]+'</span><p>'+x[1]+'</p></div>').join('');
+const m=el('matchesList');if(m&&!m.querySelector('[data-match-id="lazio-coppa-leg2-apr18-2029"]')){const card=document.createElement('div');card.className='match-card';card.dataset.matchId='lazio-coppa-leg2-apr18-2029';card.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>Coppa Italia · Semifinal Leg 2 · 18 Apr 2029 · Home</span><strong>Napoli <b>4–1</b> Lazio</strong><p>Esposito 22′, 38′, 52′ (pen) · De Bruyne 79′ · Dia 82′ · Aggregate 5–1</p></div>';m.prepend(card);}
+})();
