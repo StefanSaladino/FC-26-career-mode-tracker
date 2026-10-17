@@ -11,3 +11,5 @@
 - Pre-match Serie A: Napoli 80 points after 33 matches, Roma 73, Juventus 72. Five league fixtures remaining including this match.
 - Next confirmed fixture: Juventus Champions League semifinal first leg April 24.
 - Private match canon only. Do not publish public articles unless authorized.
+
+- **73' Napoli 3–1 Torino:** Scott McTominay scores, **Mikey Moore assist**. Current confirmed score **3–1 at 73'**; full-time not yet confirmed.
