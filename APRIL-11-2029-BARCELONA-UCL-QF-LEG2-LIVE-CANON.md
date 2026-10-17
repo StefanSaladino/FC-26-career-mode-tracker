@@ -50,3 +50,8 @@
 - No goals scored in second leg. No other incidents, substitutions, lineup or statistics confirmed.
 - The opponent in the semifinals has not been confirmed. Do not invent it.
 - **Public editorial:** Do not publish articles without explicit manager authorization; this update is private canon only.
+
+## Confirmed semifinal fixture dates (manager-supplied)
+- **April 24, 2029:** Napoli vs Juventus, UCL semifinal first leg, **home**.
+- **May 2, 2029:** Juventus vs Napoli, UCL semifinal second leg, **away**.
+- Kickoff times not yet confirmed. No results simulated.
