@@ -17,3 +17,10 @@
 - Manager confirmed kickoff only. No second-leg goals, cards, injuries, substitutions, full starting XI or outcome have been supplied.
 - User controls all in-game events and results. Do not simulate or auto-advance.
 - Private staff discussion only until manager authorizes public stories.
+
+## 11' — Napoli chance (manager-confirmed)
+- Michael Olise delivers a cross.
+- Alphonso Davies meets it with a header.
+- Barcelona goalkeeper García gets a slight touch, deflecting the header over the crossbar.
+- **No goal.** Second-leg score remains Napoli 0–0 Barcelona; aggregate Napoli 2–1 Barcelona.
+- Do not infer whether the resulting corner was taken or its outcome.
