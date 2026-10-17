@@ -13,3 +13,5 @@
 - Public website story not yet authorized for this live event.
 
 - **79' Napoli 4–0 Lazio:** Kevin De Bruyne scores, **Pio Esposito assist**. Napoli lead **5–0 on aggregate**. Pio match tally **3 goals and 1 assist**; tracked season total **40 goals, 22 assists**. Full-time not yet confirmed.
+
+- **82' Napoli 4–1 Lazio:** Boulaye Dia scores for Lazio. Napoli lead **5–1 on aggregate**. Assist and goal details not supplied. Full-time not yet confirmed.
