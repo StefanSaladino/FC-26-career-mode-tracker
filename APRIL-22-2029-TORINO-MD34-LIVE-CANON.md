@@ -15,3 +15,10 @@
 - **73' Napoli 3–1 Torino:** Scott McTominay scores, **Mikey Moore assist**. Current confirmed score **3–1 at 73'**; full-time not yet confirmed.
 
 - **79' Napoli 4–1 Torino:** Maximilian Beier scores, **Kevin De Bruyne assist**. Beier reaches **32 goals** in tracked all-competitions tally. Current score **4–1 at 79'**; full-time not yet confirmed.
+
+## Full-time confirmed
+- **FT Napoli 4–1 Torino**, Serie A matchday 34, April 22, 2029.
+- Scorers: 13' Pio Esposito (Nico Paz assist); 23' Díaz (Torino, after Peacock save and scramble); 30' Sazonov own goal (Pio shot deflected); 73' Scott McTominay (Mikey Moore assist); 79' Maximilian Beier (Kevin De Bruyne assist).
+- Napoli now **83 points from 34 matches**, record 25W 8D 1L, GF 66 GA 17, goal difference +49, four league matches left.
+- Roma and Juventus MD34 results **not yet provided**; their last confirmed points were Roma 73 and Juventus 72 after 33 matches. Do not invent other results.
+- Next known match: Juventus, Champions League semifinal first leg, April 24.
