@@ -28,3 +28,10 @@
 - Only confirmed goal: **18' Maximilian Beier**, assisted by **João Neves**.
 - No other first-half incidents or statistics reported. Do not infer possession, shots, bookings, or substitutions.
 - Staff's half-time suggestions are not confirmed tactical changes.
+
+## 54' — Napoli goal (manager-confirmed)
+- **Milano FC 0–2 Napoli**.
+- **Scorer:** Maximilian Beier, 54' (second goal of the match; brace).
+- **Assist:** Nico Paz.
+- Beier's tracked all-competition goal tally increases to **31** (30 after his 18' goal).
+- No additional match events or statistics confirmed.
