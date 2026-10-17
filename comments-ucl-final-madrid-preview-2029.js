@@ -1,0 +1,1 @@
+(()=>{const A=window.NAPOLI_CURATED_ARCHIVE||(window.NAPOLI_CURATED_ARCHIVE={});A['ucl-final-madrid-2029-lead']=[['CurvaSud92','We are in the European final. Forza Napoli!',[]],['Madridista1902','Respect to Napoli. Madrid will be ready.',[]],['PioNation','Another big night for Pio. Believe.',[]]];})();
