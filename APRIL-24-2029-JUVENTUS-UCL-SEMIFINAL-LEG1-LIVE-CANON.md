@@ -5,3 +5,5 @@
 - Second leg scheduled May 2 away to Juventus.
 - Napoli entered with 83 Serie A points after MD34, Juventus 75. Domestic standings do not affect UCL tie.
 - Private live canon only. Do not invent match events or publish a match report before authorization.
+
+- **Half-time confirmed: Napoli 0–0 Juventus.** Manager's assessment: Napoli looked the more dangerous side but no breakthrough. No specific chances, bookings, substitutions or other incidents supplied; do not invent them.
