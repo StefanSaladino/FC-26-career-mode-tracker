@@ -3,8 +3,8 @@
 **Date:** 8 April 2029
 **Competition:** Serie A, Matchday 32
 **Venue:** Stadio Diego Armando Maradona, Naples
-**Status:** Kickoff confirmed; match underway
-**Score at kickoff:** Napoli 0–0 Genoa (no later events confirmed)
+**Status:** Half-time confirmed; second half not yet started
+**Score at half-time:** Napoli 0–0 Genoa
 
 ## Manager-confirmed selection and availability
 - Heavy rotation against Genoa ahead of the Barcelona Champions League quarterfinal second leg on April 11.
@@ -20,5 +20,11 @@
 
 ## Live tracking rules
 - User controls all match events, outcomes, substitutions, and player selection.
-- No goal, assist, booking, substitution, final result, or additional XI detail is confirmed beyond kickoff.
+- No goal, assist, booking, substitution, final result, or additional XI detail has been confirmed. Half-time score is 0–0.
 - Keep this a private operational canon update; **do not publish public articles or simulate the match without manager authorization.**
+
+## Half-time update — manager-confirmed
+- **Half-time: Napoli 0–0 Genoa.** Uneventful half for Napoli.
+- **Peacock** made a couple of saves that kept Napoli level; no exact number of saves or shot statistics confirmed.
+- **Freitas** is visibly nervous/jittery on his senior debut.
+- No first-half goals confirmed. No other match events, bookings, injuries, or substitutions reported.
