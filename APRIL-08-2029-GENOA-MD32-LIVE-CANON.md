@@ -28,3 +28,8 @@
 - **Peacock** made a couple of saves that kept Napoli level; no exact number of saves or shot statistics confirmed.
 - **Freitas** is visibly nervous/jittery on his senior debut.
 - No first-half goals confirmed. No other match events, bookings, injuries, or substitutions reported.
+
+## Half-time tactical diagnosis — manager-confirmed
+- Napoli are struggling to find the **final pass** in attack, rather than simply missing chances.
+- **Freitas and Pio Esposito lack the established chemistry that Beier has with Pio.** This is an observed issue in the debut match, not a permanent assessment of Freitas.
+- Staff discussion only: proposed simplifying Freitas's movement, using Pio as reference point and Paz as primary final-pass creator. These are recommendations, **not confirmed tactical instructions or in-game changes**.
