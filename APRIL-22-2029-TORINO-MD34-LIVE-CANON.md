@@ -22,3 +22,15 @@
 - Napoli now **83 points from 34 matches**, record 25W 8D 1L, GF 66 GA 17, goal difference +49, four league matches left.
 - Roma and Juventus MD34 results **not yet provided**; their last confirmed points were Roma 73 and Juventus 72 after 33 matches. Do not invent other results.
 - Next known match: Juventus, Champions League semifinal first leg, April 24.
+
+## User-confirmed Serie A standings after MD34 (screenshot)
+| Rank | Club | P | W | D | L | GF | GA | GD | Pts |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Napoli | 34 | 25 | 8 | 1 | 66 | 17 | +49 | 83 |
+| 2 | Roma | 34 | 23 | 7 | 4 | 77 | 37 | +40 | 76 |
+| 3 | Juventus | 34 | 23 | 6 | 5 | 70 | 36 | +34 | 75 |
+| 4 | Bergamo Calcio | 34 | 19 | 8 | 7 | 64 | 37 | +27 | 65 |
+| 5 | Lombardia FC | 34 | 19 | 7 | 8 | 66 | 44 | +22 | 64 |
+| 6 | Milano FC | 34 | 15 | 12 | 7 | 58 | 44 | +14 | 57 |
+
+Roma and Juventus both won MD34; opponents and scores unconfirmed. Napoli seven points ahead of Roma, eight ahead of Juventus. Four league matches left. **Six more Napoli points guarantee title** (Napoli 89 > Roma maximum 88). Do not infer league title already clinched.
