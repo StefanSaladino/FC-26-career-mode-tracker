@@ -43,9 +43,9 @@
 - Confirmed Beier contributions this match: goals at 18' and 54', assist at 63'. Tracked all-competition tally: **31 goals, 19 assists** (starting from 29 goals, 18 assists before this match).
 - No other match events or statistics confirmed; match remains underway.
 
-## Napoli fourth goal — minute not confirmed (manager-confirmed)
+## 78' — Napoli fourth goal (manager-confirmed)
 - **Milano FC 0–4 Napoli**.
-- **Scorer:** Pio Esposito (minute not provided).
+- **Scorer:** Pio Esposito, 78'.
 - **Assist:** João Neves (his second confirmed assist this match).
 - Pio's tracked all-competition goals rise from 36 to **37**; Beier has **31 goals and 19 assists** after his brace and assist earlier in this match.
-- No final whistle or other incidents confirmed. Do not assign a minute to Pio's goal without manager confirmation.
+- No final whistle or other incidents confirmed. Pio's goal minute confirmed by manager as 78'.
