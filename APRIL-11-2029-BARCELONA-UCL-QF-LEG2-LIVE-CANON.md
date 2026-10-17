@@ -36,3 +36,9 @@
 - Confirmed first-half Napoli chances: 11' Olise cross, Davies header tipped over by García; 37' Olise sends Beier through, tight-angle shot saved by García.
 - No first-half goals, cards, substitutions, or other incidents reported. Do not infer match statistics or further events.
 - Staff recommendation to maintain approach is not a confirmed in-game tactical change.
+
+## Second half — Endrick chance saved by Meret (minute not confirmed)
+- Barcelona's Endrick found himself alone in close range.
+- Napoli goalkeeper Alex Meret made a major save to deny him.
+- **No goal** from this chance; second-leg score remains Napoli 0–0 Barcelona and aggregate Napoli 2–1 Barcelona.
+- Exact minute, shot details, rebound/corner outcome and defensive assignments are unconfirmed; do not invent.
