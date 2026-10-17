@@ -3,7 +3,7 @@
 **Date:** April 14, 2029
 **Venue:** San Siro (away)
 **Competition:** Serie A, MD33
-**Status:** Kickoff confirmed; match underway
+**Status:** Half-time confirmed; second half pending
 **Score at kickoff:** Milano FC 0–0 Napoli
 
 ## Context
@@ -22,3 +22,9 @@
 - **Assist:** João Neves.
 - Beier's tracked all-competition goal total rises from 29 to **30** (subject to no other unreported intervening goals).
 - No other match events, shots, or tactical details confirmed.
+
+## Half-time — manager-confirmed
+- **Milano FC 0–1 Napoli at half-time.**
+- Only confirmed goal: **18' Maximilian Beier**, assisted by **João Neves**.
+- No other first-half incidents or statistics reported. Do not infer possession, shots, bookings, or substitutions.
+- Staff's half-time suggestions are not confirmed tactical changes.
