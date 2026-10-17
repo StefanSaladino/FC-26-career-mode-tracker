@@ -33,3 +33,10 @@
 - Napoli are struggling to find the **final pass** in attack, rather than simply missing chances.
 - **Freitas and Pio Esposito lack the established chemistry that Beier has with Pio.** This is an observed issue in the debut match, not a permanent assessment of Freitas.
 - Staff discussion only: proposed simplifying Freitas's movement, using Pio as reference point and Paz as primary final-pass creator. These are recommendations, **not confirmed tactical instructions or in-game changes**.
+
+## Half-time substitutions — manager-confirmed
+- **João Neves ON** at half-time (46th minute / start of second half).
+- **Michael Olise ON** at half-time (46th minute / start of second half).
+- The two players coming OFF have **not been specified**; do not invent them.
+- Manager's rationale: Napoli cannot afford to drop points; seek greater control and final-third creativity after a 0–0 first half.
+- Second-half events and result remain unconfirmed.
