@@ -24,3 +24,9 @@
 - Barcelona goalkeeper García gets a slight touch, deflecting the header over the crossbar.
 - **No goal.** Second-leg score remains Napoli 0–0 Barcelona; aggregate Napoli 2–1 Barcelona.
 - Do not infer whether the resulting corner was taken or its outcome.
+
+## 37' — Napoli chance (manager-confirmed)
+- Michael Olise sends Maximilian Beier into a shooting position.
+- Beier gets a good shot away from a tight angle; Barcelona goalkeeper García saves.
+- **No goal.** Second-leg score remains Napoli 0–0 Barcelona; aggregate Napoli 2–1 Barcelona.
+- No additional events or outcomes confirmed.
