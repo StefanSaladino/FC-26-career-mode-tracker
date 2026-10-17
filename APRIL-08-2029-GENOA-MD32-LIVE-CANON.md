@@ -3,8 +3,8 @@
 **Date:** 8 April 2029
 **Competition:** Serie A, Matchday 32
 **Venue:** Stadio Diego Armando Maradona, Naples
-**Status:** Half-time confirmed; second half not yet started
-**Score at half-time:** Napoli 0–0 Genoa
+**Status:** FULL TIME
+**Final score:** Napoli 0–0 Genoa (half-time 0–0)
 
 ## Manager-confirmed selection and availability
 - Heavy rotation against Genoa ahead of the Barcelona Champions League quarterfinal second leg on April 11.
@@ -40,3 +40,14 @@
 - The two players coming OFF have **not been specified**; do not invent them.
 - Manager's rationale: Napoli cannot afford to drop points; seek greater control and final-third creativity after a 0–0 first half.
 - Second-half events and result remain unconfirmed.
+
+## Full-time — manager-confirmed
+- **Napoli 0–0 Genoa**, Serie A MD32, April 8, 2029, home.
+- **Alphonso Davies** had a great chance; Genoa goalkeeper **Justin Bijlow** made a miraculous save to deny him. Exact minute and shot statistics not confirmed.
+- **Peacock** made a couple of important saves in the first half.
+- **F. Freitas** made his senior debut and showed nerves; his chemistry with Pio Esposito was not yet established.
+- **João Neves and Michael Olise** were introduced at half-time; outgoing players unknown.
+- Napoli drop two points, earn one. **League after MD32: 32 played, 23W 8D 1L, 77 pts, 58 GF, 16 GA, +42 GD; six league matches remain.**
+- **Juventus MD32 result not yet confirmed**, so do not assert a current seven-point lead or updated gap. Last confirmed Juventus 69 pts after MD31.
+- Next: Barcelona home, April 11, UCL QF second leg, Napoli leading 2–1 aggregate.
+- Do not publish a public match report without manager authorization.
