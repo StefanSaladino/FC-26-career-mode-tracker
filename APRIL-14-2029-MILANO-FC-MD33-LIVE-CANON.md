@@ -3,7 +3,7 @@
 **Date:** April 14, 2029
 **Venue:** San Siro (away)
 **Competition:** Serie A, MD33
-**Status:** Half-time confirmed; second half pending
+**Status:** Full-time confirmed — Milano FC 0–4 Napoli
 **Score at kickoff:** Milano FC 0–0 Napoli
 
 ## Context
@@ -48,4 +48,13 @@
 - **Scorer:** Pio Esposito, 78'.
 - **Assist:** João Neves (his second confirmed assist this match).
 - Pio's tracked all-competition goals rise from 36 to **37**; Beier has **31 goals and 19 assists** after his brace and assist earlier in this match.
-- No final whistle or other incidents confirmed. Pio's goal minute confirmed by manager as 78'.
+- Full-time subsequently confirmed at 0–4. Pio's goal minute confirmed by manager as 78'.
+
+## Full-time — manager-confirmed
+- **Milano FC 0–4 Napoli**, April 14, 2029, Serie A MD33.
+- Goals: **18' Beier** (João Neves assist); **54' Beier** (Nico Paz assist); **63' McTominay** (Beier assist); **78' Pio Esposito** (João Neves assist).
+- Napoli league record after MD33: **P33 W24 D8 L1, GF62 GA16, GD+46, 80 points**.
+- Five league matches remain. Juventus and Roma MD33 results unconfirmed, so their points remain last known figures only, not updated standings.
+- Tracked all-competition totals after match: Beier **31 goals, 19 assists**; Pio **37 goals** (assists unchanged at 21).
+- Next confirmed fixture: April 18, Napoli vs Lazio, Coppa Italia semifinal second leg (Napoli lead 1–0 on aggregate).
+- Public stories not authorized by manager yet; no public publication.
