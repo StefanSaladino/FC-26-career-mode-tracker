@@ -13,3 +13,5 @@
 - Private match canon only. Do not publish public articles unless authorized.
 
 - **73' Napoli 3–1 Torino:** Scott McTominay scores, **Mikey Moore assist**. Current confirmed score **3–1 at 73'**; full-time not yet confirmed.
+
+- **79' Napoli 4–1 Torino:** Maximilian Beier scores, **Kevin De Bruyne assist**. Beier reaches **32 goals** in tracked all-competitions tally. Current score **4–1 at 79'**; full-time not yet confirmed.
