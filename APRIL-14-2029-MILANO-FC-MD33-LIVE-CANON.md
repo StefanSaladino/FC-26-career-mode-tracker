@@ -15,3 +15,10 @@
 ## Canon constraints
 - User confirmed kickoff only. No goals, cards, substitutions, starting XI, statistics, or final result confirmed.
 - Do not simulate match events. Public articles only when manager authorizes.
+
+## 18' — Napoli goal (manager-confirmed)
+- **Milano FC 0–1 Napoli**.
+- **Scorer:** Maximilian Beier, 18'.
+- **Assist:** João Neves.
+- Beier's tracked all-competition goal total rises from 29 to **30** (subject to no other unreported intervening goals).
+- No other match events, shots, or tactical details confirmed.
