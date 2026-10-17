@@ -5,7 +5,7 @@
 - **13' Napoli 1–0 Torino:** Pio Esposito scores, **Nico Paz assist**.
 - Pio reaches **41 goals in all competitions** according to tracked tally (40 entering match).
 - **23' Napoli 1–1 Torino:** Peacock makes a great initial save; Díaz scores for Torino after a goalmouth scramble. No assist confirmed. Do not attribute fault for the rebound to any specific player.
-- **30' Napoli 2–1 Torino:** Pio Esposito shoots from outside the box; ball deflects off an unidentified player into the net. **Official goal credit pending** (Pio vs own goal). Do not increase Pio's goal tally yet.
+- **30' Napoli 2–1 Torino:** Pio Esposito shoots from outside the box; ball deflects off an unidentified player into the net. **Officially credited as a Sazonov own goal (Torino)**, confirmed by user. Pio's goal tally stays at 41.
 - Current confirmed score: **Napoli 2–1 Torino at 30'**.
 - No other match events or final result confirmed. Do not invent.
 - Pre-match Serie A: Napoli 80 points after 33 matches, Roma 73, Juventus 72. Five league fixtures remaining including this match.
