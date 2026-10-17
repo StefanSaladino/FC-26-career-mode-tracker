@@ -35,3 +35,10 @@
 - **Assist:** Nico Paz.
 - Beier's tracked all-competition goal tally increases to **31** (30 after his 18' goal).
 - No additional match events or statistics confirmed.
+
+## 63' — Napoli goal (manager-confirmed)
+- **Milano FC 0–3 Napoli**.
+- **Scorer:** Scott McTominay, 63'.
+- **Assist:** Maximilian Beier.
+- Confirmed Beier contributions this match: goals at 18' and 54', assist at 63'. Tracked all-competition tally: **31 goals, 19 assists** (starting from 29 goals, 18 assists before this match).
+- No other match events or statistics confirmed; match remains underway.
