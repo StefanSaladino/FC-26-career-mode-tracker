@@ -1,0 +1,50 @@
+NAPOLI SEASON ROOM — IMAGE ASSETS
+
+Six existing 512x512 player portraits retained unchanged.
+Nine new landscape editorial assets (story-*.webp) added.
+
+All images are AI-generated fictional sports illustrations for the unlisted Career Mode site.
+They do not document real matches, real awards, or actual results.
+
+Suggested usage:
+- story-goal-celebration.webp: match reports with confirmed Napoli goals
+- story-maradona-tifo-night.webp: home European previews / big nights
+- story-champions-league-stakes.webp: UCL knockout analysis and previews
+- story-touchline-pressure.webp: tactical opinion / selection controversy (generic coach, not Stefan)
+- story-napoli-home-crowd.webp: supporter reactions / club culture
+- story-european-team-celebration.webp: confirmed big European wins
+- story-naples-vesuvius-sunset.webp: club identity / season features
+- story-napoli-shirt-identity.webp: transfer / academy / club news
+- story-maradona-stadium-night.webp: upcoming home fixtures
+
+These are extracted from a generated collage and suitable primarily for cards and
+modest-width article heroes. Review visual details and cropping before publishing.
+Avoid using celebration scenes to illustrate defeats, draws, or unplayed fixtures.
+
+
+COACHING STAFF AND PLAYER INTERACTIONS (AI-generated fictional editorial scenes)
+staff-manager-portrait.webp - 765x507
+staff-sandro-vitale-portrait.webp - 765x507
+staff-manager-sandro-touchline.webp - 1536x509
+story-manager-paz-celebration.webp - 507x314
+story-coaches-team-tactics.webp - 508x314
+story-sandro-player-guidance.webp - 506x314
+story-staff-squad-celebration.webp - 507x359
+story-coaches-maradona-atmosphere.webp - 508x359
+story-manager-sandro-players.webp - 506x359
+Manager portrait is a fictional likeness, not a verified likeness of the user. Do not depict these images as documentary photographs or as evidence of actual events.
+
+
+ADDITIONAL COACHING / KEY PLAYER IMAGES (AI-generated, fictional scenes):
+staff-manager-sandro-dugout.webp
+story-manager-pio-esposito.webp
+story-sandro-beier-guidance.webp
+story-manager-davies-handshake.webp
+story-sandro-bastoni-defensive-talk.webp
+story-manager-buongiorno-support.webp
+story-mctominay-celebration.webp
+story-sandro-de-bruyne-tactics.webp
+story-napoli-key-players-huddle.webp
+story-coaches-key-players-walkout.webp
+story-coaches-squad-tactics-session.webp
+These are illustrations of fictional career-mode events, not photographic records. Some lettering/kit numbers may be inaccurate.
