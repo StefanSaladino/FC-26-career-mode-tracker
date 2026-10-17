@@ -51,3 +51,18 @@
 - **Juventus MD32 result not yet confirmed**, so do not assert a current seven-point lead or updated gap. Last confirmed Juventus 69 pts after MD31.
 - Next: Barcelona home, April 11, UCL QF second leg, Napoli leading 2–1 aggregate.
 - Do not publish a public match report without manager authorization.
+
+## Confirmed Serie A table — manager screenshot after MD32
+| Position | Club | P | W | D | L | GF | GA | GD | Pts |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Napoli | 32 | 23 | 8 | 1 | 58 | 16 | +42 | 77 |
+| 2 | Juventus | 32 | 22 | 6 | 4 | 66 | 34 | +32 | 72 |
+| 3 | Roma | 32 | 21 | 7 | 4 | 70 | 36 | +34 | 70 |
+| 4 | Lombardia FC | 32 | 18 | 7 | 7 | 62 | 41 | +21 | 61 |
+| 5 | Bergamo Calcio | 32 | 17 | 8 | 7 | 58 | 36 | +22 | 59 |
+| 6 | Milano FC | 32 | 14 | 12 | 6 | 56 | 39 | +17 | 54 |
+
+Napoli lead Juventus by **5 points** and Roma by **7 points**, six matches remaining. Screenshot does not confirm individual Juventus or Roma MD32 scores/opponents. Next Serie A opponent Milano FC away; next match overall Barcelona home on April 11.
+
+## Editorial authorization
+Manager explicitly authorized publication of stories after MD32. Five stories published via `post-genoa-draw-scudetto-md32-april2029.js`, with curated discussion in `comments-genoa-md32-april2029.js` and site state in `state-genoa-md32-april2029.js`.
