@@ -1,0 +1,20 @@
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;
+D.torinoApril22={date:'2029-04-22',competition:'Serie A',matchday:34,home:'Napoli',away:'Torino',score:'4–1',final:true,goals:[{minute:13,scorer:'Pio Esposito',assist:'Nico Paz'},{minute:23,scorer:'Díaz',team:'Torino'},{minute:30,scorer:'Sazonov',team:'Torino',type:'Own goal'},{minute:73,scorer:'Scott McTominay',assist:'Mikey Moore'},{minute:79,scorer:'Maximilian Beier',assist:'Kevin De Bruyne'}]};
+D.seasonState=D.seasonState||{};D.seasonState.league={...(D.seasonState.league||{}),w:25,d:8,l:1,played:34,remaining:4,points:83,gf:66,ga:17};
+D.serieAStandingsSnapshot={...(D.serieAStandingsSnapshot||{}),napoli:83,napoliPlayed:34,roma:76,romaPlayed:34,juventus:75,juventusPlayed:34,remaining:4,lead:7};
+D.serieAStandingsMD34=[{team:'Napoli',p:34,w:25,d:8,l:1,gf:66,ga:17,gd:49,pts:83},{team:'Roma',p:34,w:23,d:7,l:4,gf:77,ga:37,gd:40,pts:76},{team:'Juventus',p:34,w:23,d:6,l:5,gf:70,ga:36,gd:34,pts:75},{team:'Bergamo Calcio',p:34,w:19,d:8,l:7,gf:64,ga:37,gd:27,pts:65},{team:'Lombardia FC',p:34,w:19,d:7,l:8,gf:66,ga:44,gd:22,pts:64},{team:'Milano FC',p:34,w:15,d:12,l:7,gf:58,ga:44,gd:14,pts:57}];
+D.latestResult=['NAP','4–1','TOR','SERIE A · MD34 · FT · NAPOLI 83 POINTS · SIX MORE TO CLINCH'];
+D.nextClubMatch={team:'Napoli',opponent:'Juventus',competition:'Champions League · Semifinal first leg',date:'2029-04-24',venue:'Home',played:false};
+D.upcoming=(D.upcoming||[]).filter(x=>x[1]>'2029-04-22');
+const fixtures=[['Juventus','2029-04-24','Champions League semifinal · First leg · Home'],['Juventus','2029-05-02','Champions League semifinal · Second leg · Away'],['AC Milan','2029-05-09','Coppa Italia final · Venue and kickoff TBC']];
+for(const x of fixtures)if(!D.upcoming.some(y=>y[0]===x[0]&&y[1]===x[1]))D.upcoming.push(x);
+D.upcoming.sort((a,b)=>a[1].localeCompare(b[1]));
+D.ticker=['APR 24 · NAPOLI vs JUVENTUS · CHAMPIONS LEAGUE SEMIFINAL','NAPOLI 4–1 TORINO · 83 POINTS AFTER MD34','SCUDETTO: NAPOLI 83 · ROMA 76 · JUVENTUS 75 · FOUR LEFT','PIO 41 GOALS · BEIER 32 GOALS · ALL COMPETITIONS','MAY 2 · JUVENTUS vs NAPOLI · SECOND LEG','MAY 9 · COPPA ITALIA FINAL · NAPOLI vs AC MILAN'];
+D.whispers=[['EUROPE · JUVENTUS','Champions League semifinal first leg at the Maradona on April 24; second leg in Turin May 2.'],['SCUDETTO · SIX POINTS','Napoli lead Roma by seven and Juventus by eight with four Serie A matches left.'],['TORINO · FOUR GOALS','Esposito, McTominay and Beier score in a 4–1 win; Sazonov own goal completes the tally.'],['COPPA FINAL · MAY 9','AC Milan await Napoli in the Coppa Italia final.']];
+const el=id=>document.getElementById(id);const latest=el('latestResult');if(latest){const r=D.latestResult;latest.innerHTML='<div class="latest-score"><span>'+r[0]+'</span><strong>'+r[1]+'</strong><span>'+r[2]+'</span></div><p>'+r[3]+'</p>';}
+const next=el('nextTwo');if(next)next.innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+x[0]+'</strong><span>'+x[2]+' · '+x[1]+'</span></div>').join('');
+const strip=el('upcomingStrip');if(strip)strip.innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+x[1]+'</span><strong>'+x[0]+'</strong><small>'+x[2]+'</small></div>').join('');
+const ticker=el('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(x=>'<span>'+x+'</span>').join('');
+const whispers=el('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+x[0]+'</span><p>'+x[1]+'</p></div>').join('');
+const m=el('matchesList');if(m&&!m.querySelector('[data-match-id="torino-md34-apr22-2029"]')){const card=document.createElement('div');card.className='match-card';card.dataset.matchId='torino-md34-apr22-2029';card.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>Serie A · MD34 · 22 Apr 2029 · Home</span><strong>Napoli <b>4–1</b> Torino</strong><p>Esposito 13′ · Sazonov OG 30′ · McTominay 73′ · Beier 79′</p></div>';m.prepend(card);}
+})();
