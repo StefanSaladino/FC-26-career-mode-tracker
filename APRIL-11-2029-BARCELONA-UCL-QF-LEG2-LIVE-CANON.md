@@ -3,7 +3,7 @@
 **Date:** April 11, 2029
 **Venue:** Stadio Diego Armando Maradona, Naples
 **Competition:** UEFA Champions League, quarterfinal second leg
-**Status:** Kickoff confirmed; match underway
+**Status:** Half-time confirmed; second half pending
 **Second-leg score at kickoff:** Napoli 0–0 Barcelona
 **Aggregate at kickoff:** Napoli lead 2–1 following Barcelona 1–2 Napoli on April 3.
 
@@ -30,3 +30,9 @@
 - Beier gets a good shot away from a tight angle; Barcelona goalkeeper García saves.
 - **No goal.** Second-leg score remains Napoli 0–0 Barcelona; aggregate Napoli 2–1 Barcelona.
 - No additional events or outcomes confirmed.
+
+## Half-time — manager-confirmed
+- **Napoli 0–0 Barcelona at half-time** in the second leg; Napoli lead **2–1 on aggregate**.
+- Confirmed first-half Napoli chances: 11' Olise cross, Davies header tipped over by García; 37' Olise sends Beier through, tight-angle shot saved by García.
+- No first-half goals, cards, substitutions, or other incidents reported. Do not infer match statistics or further events.
+- Staff recommendation to maintain approach is not a confirmed in-game tactical change.
