@@ -26,7 +26,7 @@ Status: manager-confirmed. This document supersedes older match-result and roste
 - João Neves retained after rejecting Real Madrid's $318.2m offer; Pio Esposito retained after rejecting Juventus' $331.8m offer.
 - Cucurella sold to Newcastle for $170m. Marianucci sold for $16m. Rao sold for $4.3m with 6% sell-on. Giovane transferred out, fee/destination unknown. Di Lorenzo departed following contract non-renewal.
 - On loan: F. Lawton, O. Burnett, M. Valentini, G. Ricci, A. Reyna, T. Sánchez, L. Hasa, C. Brun, V. Mancini, E. Rossetti, L. Resende, A. Vergara, M. Hooper, F. Freitas. **14 loanees.** Lawton and Burnett remain out for development, not recall targets.
-- Available 19: Meret, Peacock; Davies, Calafiori, Bastoni, Buongiorno, Geertruida, Beukema, Rafa Marín, Kayode; Neves, Zaïre-Emery, McTominay, Stach, De Bruyne, Paz; Olise, Moore; Pio Esposito, Beier. **Correction: this list has 19? Count is 2+8+6+4=20. Actual available count is 20; under contract 34 including 14 loans.** Use individual names rather than stale aggregate counters.
+- Available 19: Meret, Peacock; Davies, Calafiori, Bastoni, Buongiorno, Geertruida, Beukema, Rafa Marín, Kayode; Neves, Zaïre-Emery, McTominay, Stach, De Bruyne, Paz; Olise, Moore; Pio Esposito, Beier. **20 available players; 34 under contract including 14 loanees.** Use individual names rather than stale aggregate counters.
 - Lucas Jetten (Manchester United) is only a **scouting/negotiation target**, NOT signed. Opening offer of $10.5m was contemplated but not confirmed submitted. Max Anchor GK is a target whose save rating remains unknown. No new goalkeeper signing confirmed.
 
 ## Newsroom
