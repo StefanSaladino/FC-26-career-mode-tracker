@@ -1,0 +1,1 @@
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;})();
