@@ -1,0 +1,1 @@
+(()=>{const D=window.NAPOLI_DATA;if(!D)return;D.transferBudget=542000000;D.availableBudget=542000000;D.transferBudgetSummer2029={currency:'USD',available:542000000,source:'Manager confirmed',note:'Available in-game budget, not derived from fees.'};D.meta={...(D.meta||{}),transferBudget:542000000};})();
