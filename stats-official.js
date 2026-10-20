@@ -2,6 +2,7 @@
  const D=window.NAPOLI_DATA;if(!D)return;
  // Permanent Napoli statistical archive. A transfer changes current-squad status, never historical production.
  D.statsBySeason={
+  '2029–30':[["Maximilian Beier",4,1,"Inter winner; Bologna brace; Porto goal. Assisted Pio vs Sassuolo; created Porto penalty (not official assist). · Confirmed match-event minimum; not a complete season stat export"],["Pio Esposito",2,2,"Sassuolo goal; Porto goal; assists vs Udinese and Bologna. Porto penalty missed. · Confirmed match-event minimum; not a complete season stat export"],["Mikey Moore",1,0,"Sassuolo goal 88′ · Confirmed match-event minimum; not a complete season stat export"],["João Neves",1,0,"Parma equaliser · Confirmed match-event minimum; not a complete season stat export"],["Scott McTominay",1,2,"Udinese goal; assisted Parma equaliser and Pio vs Porto · Confirmed match-event minimum; not a complete season stat export"],["Warren Zaïre-Emery",1,1,"Udinese winner and McTominay equaliser assist · Confirmed match-event minimum; not a complete season stat export"],["Lirim Hasa",0,1,"Assisted Beier vs Bologna · Confirmed match-event minimum; not a complete season stat export"],["Michael Olise",0,1,"Assisted Beier vs Porto · Confirmed match-event minimum; not a complete season stat export"],["Giacomo Raspadori",0,1,"Assisted Moore vs Sassuolo · Confirmed match-event minimum; not a complete season stat export"]],
   '2027–28':[
    ['Pio Esposito',29,12,'FC26 canonical final total · two goals vs PSG in UCL final · 90′ equaliser'],
    ['Maximilian Beier',25,11,'FC26 canonical final total · brace vs Torino'],
@@ -45,8 +46,8 @@
    ['Riccardo Calafiori',0,0,'Debut vs Inter']
   ]
  };
- D.statsSeasonOrder=['2028–29','2027–28'];
- D.statsCurrentSeason='2028–29';
+ D.statsSeasonOrder=['2029–30','2028–29','2027–28'];
+ D.statsCurrentSeason='2029–30';
  D.statsUnavailableSeasons=['2025–26','2026–27'];
  const archiveNames=new Set(Object.values(D.statsBySeason).flat().map(r=>r[0]));
  D.careerStats=[...archiveNames].map(name=>{
@@ -54,6 +55,6 @@
    Object.entries(D.statsBySeason).forEach(([season,rows])=>{const r=rows.find(x=>x[0]===name);if(r){goals+=Number(r[1])||0;assists+=Number(r[2])||0;seasons.push(season);}});
    return [name,goals,assists,seasons.join(', ')];
  }).sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
- D.stats=D.statsBySeason['2028–29'];
- D.statsScope='Permanent Napoli archive · 2027–28 verified · 2028–29 opening match recorded · 2025–26 and 2026–27 remain unavailable until canonical data is recovered';
+ D.stats=D.statsBySeason['2029–30'];
+ D.statsScope='2029–30 active season: confirmed minimum contributions only; 2028–29 and 2027–28 retained as historical archives; earlier seasons unavailable';
 })();
