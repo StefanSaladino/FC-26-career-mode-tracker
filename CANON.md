@@ -12,7 +12,7 @@
 
 ## Latest Napoli match — Udinese 1–2 Napoli, 15 September 2029
 - Serie A MD3. Heavily rotated XI: Peacock; Calafiori, Bastoni (captain), Marín, Geertruida; McTominay, Stach; Moore, Paz; Raspadori, Beier. Bastoni retained instead of Beukema. Halftime 0–0.
-- Kjerrumgaard 62' for Udinese; McTominay 62' equaliser assisted by Zaïre-Emery; Zaïre-Emery 73' winner assisted by Pio Esposito. Neves, Zaïre-Emery and Pio introduced in second half; precise outgoing players not confirmed. McTominay was still on the pitch to score.
+- Kjerrumgaard 62' for Udinese; McTominay 66' equaliser (four minutes later) assisted by Zaïre-Emery; Zaïre-Emery 73' winner assisted by Pio Esposito. Neves, Zaïre-Emery and Pio introduced in second half; precise outgoing players not confirmed. McTominay was still on the pitch to score.
 - Udinese xG **3.3**, Napoli xG **1.1**; shots on target **3–3**. Manager praised Peacock. Napoli were out-chanced and did not play well. Do not attribute all xG differential to keeper saves.
 - Napoli after 3 Serie A matches: **2W 1D 0L; 7 pts; 5 GF 2 GA; +3 GD**.
 - **Calendar confirmed by manager screenshots on 16 September:** Sep 18 Bayern Munich HOME UCL; Sep 23 Inter Milan HOME Serie A; Sep 29 Bologna AWAY Serie A; Oct 2 Porto HOME UCL; Oct 7 Venezia HOME Serie A; Oct 13 Turkey AWAY Italy international friendly; Oct 16 Japan AWAY Italy international friendly; Oct 20 Fiorentina AWAY Serie A; Oct 23 Dinamo Zagreb HOME UCL; Oct 28 Juventus HOME Serie A; Oct 31 Sampdoria AWAY Serie A. These are future fixtures, NOT results.
@@ -106,7 +106,7 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 ### September 2029 — national-team friendlies and development
 - Italy World Cup qualifying is approaching. Staff discussed Project Napotalia: Donnarumma behind a possible Calafiori–Bastoni–Buongiorno–Kayode defence, Tonali and Barella in midfield, Pio and Kean up front, and the future potential of loanee V. Mancini (76 OVR, 94 ceiling). This is **planning, not a confirmed Italy starting XI**.
 - **8 Sep:** Finland 2–3 Italy (friendly), Pio Esposito twice and Ricci; Finnish goals both counterattacks. **11 Sep:** Italy 1–0 Senegal (friendly), Tonali penalty. Next Napoli match: **18 Sep home to Bayern Munich**. No World Cup qualifiers have yet been reported.
-- **15 Sep:** Udinese 1–2 Napoli. Kjerrumgaard 62', McTominay 62' (Zaïre-Emery), Zaïre-Emery 73' (Pio). xG 3.3–1.1 Udinese; shots on target 3–3; Peacock praised. Napoli 7 points from three.
+- **15 Sep:** Udinese 1–2 Napoli. Kjerrumgaard 62', McTominay 66' (Zaïre-Emery), Zaïre-Emery 73' (Pio). xG 3.3–1.1 Udinese; shots on target 3–3; Peacock praised. Napoli 7 points from three.
 - **16 Sep:** September/October calendar confirmed, including Bayern, Porto, Dinamo Zagreb, Juventus and two Italy October friendlies.
 
 ### Newsroom publication — September 2029 international friendlies
