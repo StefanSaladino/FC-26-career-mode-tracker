@@ -1,3 +1,7 @@
+# CURRENT CANON — READ FIRST
+
+**Authoritative current state through Napoli 2–0 Sassuolo (1 Sep 2029), Italy planning, Plizzari loan and the media team's quality warning:** [ACTIVE-CANON-2029-09-01-NAPOLI-ITALY.md](ACTIVE-CANON-2029-09-01-NAPOLI-ITALY.md). Earlier 2029 snapshots are historical and must not override this file.
+
 # Napoli FC26 — 2028–29 Season Room
 
 ## NEW · THE NUMBER TWO HAS A NAME: SANDRO VITALE
