@@ -9,7 +9,7 @@
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
 
 ## Most recent match: Napoli 2–0 Sassuolo — Serie A MD2, 1 Sep 2029
-- Napoli home win; **Pio Esposito 28' (Beier assist)**; **Mikey Moore second goal (Raspadori assist)**. At 88' the score was 2–0; the exact goal minute was **not confirmed**. **Do not assert Moore scored precisely in the 88th minute.**
+- Napoli home win; **Pio Esposito 28' (Beier assist)**; **Mikey Moore 88' (Raspadori assist)**. **Manager explicitly confirmed the 88th-minute goal.**
 - Moore's initial shot was blocked; he followed the rebound to score. Moore and Raspadori both came on as substitutes, but their substitution minutes were not supplied.
 - Beier was denied twice at close range, hit the post 33', and missed another chance 38'. Pio missed a second-half chance; Zaïre-Emery shot wide. At HT Napoli led 1–0; HT xG Napoli 3.4, Sassuolo 0.7.
 - Final Napoli statistics: **16 shots, 7 on target, 4 off, 5 blocked, 5.4 xG**. Sassuolo final xG **unknown**. Meret clean sheet.
@@ -69,7 +69,7 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 
 ## Newsroom and website as of this snapshot
 - Public site: https://stefansaladino.github.io/FC-26-career-mode-tracker/
-- Parma report: `story-parma-opening-draw-2029.js`; Parma analysis: `analysis-parma-md1-2029.js`; Sassuolo report: `story-sassuolo-home-win-2029.js`. **Correction:** the Sassuolo report currently asserts Moore scored in the 88th minute, whereas only 2–0 at 88' was confirmed. Correct this before treating that minute as canon.
+- Parma report: `story-parma-opening-draw-2029.js`; Parma analysis: `analysis-parma-md1-2029.js`; Sassuolo report: `story-sassuolo-home-win-2029.js`. **Verified correction:** the manager confirmed Moore scored in the **88th minute**. All reporting should retain that minute.
 - Four Italy features: `stories-italy-qualifying-2029.js`, expanded to ten paragraphs each and twelve top-level curated threads each, plus replies. These are **fictional media analysis**, not leaked staff discussions.
 - Current home snapshot: `current-2029-30-home-snapshot.js` corrects Sassuolo latest result, Italy/club next fixtures and current Serie A form. Older scripts and canon docs can still contain stale prior snapshots; the latest state overrides them.
 - Editorial warning: **the media team is on thin ice**. Strong stories need substantive analysis, distinctive recurring voices, context-rich threads, accurate pictures and a visually verified site when possible.
