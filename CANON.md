@@ -15,7 +15,7 @@
 - Kjerrumgaard 62' for Udinese; McTominay 62' equaliser assisted by Zaïre-Emery; Zaïre-Emery 73' winner assisted by Pio Esposito. Neves, Zaïre-Emery and Pio introduced in second half; precise outgoing players not confirmed. McTominay was still on the pitch to score.
 - Udinese xG **3.3**, Napoli xG **1.1**; shots on target **3–3**. Manager praised Peacock. Napoli were out-chanced and did not play well. Do not attribute all xG differential to keeper saves.
 - Napoli after 3 Serie A matches: **2W 1D 0L; 7 pts; 5 GF 2 GA; +3 GD**.
-- **Calendar confirmed by manager screenshots on 16 September:** Sep 18 Bayern Munich HOME UCL; Sep 23 HOME Serie A opponent not identified confidently; Sep 29 Bologna AWAY Serie A; Oct 2 Porto HOME UCL; Oct 7 HOME Serie A opponent unclear; Oct 13 Turkey AWAY Italy international friendly; Oct 16 Japan AWAY Italy international friendly; Oct 20 Fiorentina AWAY Serie A; Oct 23 Dinamo Zagreb HOME UCL; Oct 28 Juventus HOME Serie A; Oct 31 Sampdoria AWAY Serie A. These are future fixtures, NOT results.
+- **Calendar confirmed by manager screenshots on 16 September:** Sep 18 Bayern Munich HOME UCL; Sep 23 Inter Milan HOME Serie A; Sep 29 Bologna AWAY Serie A; Oct 2 Porto HOME UCL; Oct 7 Venezia HOME Serie A; Oct 13 Turkey AWAY Italy international friendly; Oct 16 Japan AWAY Italy international friendly; Oct 20 Fiorentina AWAY Serie A; Oct 23 Dinamo Zagreb HOME UCL; Oct 28 Juventus HOME Serie A; Oct 31 Sampdoria AWAY Serie A. These are future fixtures, NOT results.
 - Newsroom published Udinese analysis and Bayern preview in `stories-udinese-bayern-september-2029.js`; homepage state and upcoming schedule updated in `current-2029-30-home-snapshot.js`.
 
 ## Most recent matches: Italy September 2029 friendlies
