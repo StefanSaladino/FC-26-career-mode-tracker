@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **18 September 2029** (after Bayern).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **23 September 2029** (after Inter Milan).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -10,7 +10,13 @@
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
 
-## Latest Napoli match — Napoli 0–2 Bayern Munich, 18 September 2029
+## Latest Napoli match — Napoli 1–0 Inter Milan, 23 September 2029
+- Serie A fourth match. Few first-half chances. Beier scored in the 77th minute, heading in a loose ball after Inter botched a clearance under Napoli pressing pressure.
+- Beier struck the crossbar in the 86th minute after fine passing. Meret made a crucial save at the final whistle to secure victory.
+- Serie A: 3W 1D 0L; 10 points; 7 goals for, 2 against; +5. Bologna away on 29 September next; Porto home 2 October.
+- No further statistics or substitutions confirmed. Three newsroom articles published, including Bellandi's response.
+
+## Previous Napoli match — Napoli 0–2 Bayern Munich, 18 September 2029
 - Champions League opening fixture, home at Stadio Diego Armando Maradona. **Osimhen 65', 79'** scored both goals for Bayern on his return to Naples. Bayern also fielded Saliba (signed from Arsenal), introduced 91-rated Musiala off the bench, and started Urbig in goal.
 - **Urbig officially named player of the match.** Saves included Pio Esposito from a tight angle in the first half, a full-stretch stop against João Neves, and a save from Bastoni's header on the ensuing corner. Osimhen missed target from close range in the first half.
 - **xG Napoli 2.1 – Bayern 1.4; shots on target 4–4.** Napoli 0 goals despite chance advantage. No confirmed detail on the sequences of Osimhen's goals; do not invent defensive blame.
