@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **16 September 2029** (calendar after Udinese).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **18 September 2029** (after Bayern).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -10,7 +10,15 @@
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
 
-## Latest Napoli match — Udinese 1–2 Napoli, 15 September 2029
+## Latest Napoli match — Napoli 0–2 Bayern Munich, 18 September 2029
+- Champions League opening fixture, home at Stadio Diego Armando Maradona. **Osimhen 65', 79'** scored both goals for Bayern on his return to Naples. Bayern also fielded Saliba (signed from Arsenal), introduced 91-rated Musiala off the bench, and started Urbig in goal.
+- **Urbig officially named player of the match.** Saves included Pio Esposito from a tight angle in the first half, a full-stretch stop against João Neves, and a save from Bastoni's header on the ensuing corner. Osimhen missed target from close range in the first half.
+- **xG Napoli 2.1 – Bayern 1.4; shots on target 4–4.** Napoli 0 goals despite chance advantage. No confirmed detail on the sequences of Osimhen's goals; do not invent defensive blame.
+- Calafiori and McTominay came on; Moore was instructed to warm up, **not confirmed to have entered**. Substitution minutes and outgoing players unconfirmed.
+- **Next Napoli fixture: Inter Milan at home, 23 September 2029.** Name is always Inter Milan, never in-game unlicensed substitute.
+- Newsroom: three published stories cover Osimhen homecoming, Urbig POTM and Inter pressure. Strong engagement expected for major events. Manager did not provide public quotes.
+
+## Previous Napoli match — Udinese 1–2 Napoli, 15 September 2029
 - Serie A MD3. Heavily rotated XI: Peacock; Calafiori, Bastoni (captain), Marín, Geertruida; McTominay, Stach; Moore, Paz; Raspadori, Beier. Bastoni retained instead of Beukema. Halftime 0–0.
 - Kjerrumgaard 62' for Udinese; McTominay 66' equaliser (four minutes later) assisted by Zaïre-Emery; Zaïre-Emery 73' winner assisted by Pio Esposito. Neves, Zaïre-Emery and Pio introduced in second half; precise outgoing players not confirmed. McTominay was still on the pitch to score.
 - Udinese xG **3.3**, Napoli xG **1.1**; shots on target **3–3**. Manager praised Peacock. Napoli were out-chanced and did not play well. Do not attribute all xG differential to keeper saves.
