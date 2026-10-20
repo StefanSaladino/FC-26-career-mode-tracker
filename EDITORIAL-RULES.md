@@ -1,5 +1,18 @@
 # Season Room Editorial Rules
 
+## Permanent directive · Full-site season rollover and publication gate
+
+**Season transitions are site-wide migrations, never isolated content edits.** Whenever the manager confirms a new season, update and verify every active section before declaring the rollover complete. This directive also applies to ongoing match-day publishing: a new result must not leave the homepage, latest match, news order or pressure points showing outdated events as current.
+
+1. **Single canon:** Update the one living `CANON.md` in place, preserving the historical ledger. Do not create a competing canon. Never advance the calendar or fabricate matches, scores, player contributions, injuries or transfers.
+2. **Statistics:** Create the new season in `statsBySeason`, set `statsCurrentSeason` and `statsSeasonOrder` to open on the active season, and ensure the stats renderer uses that data. Preserve previous seasons as clearly labelled historical archives. Reset current-season counters rather than carrying last season's totals forward. If full season statistics are unavailable, display only confirmed contributions and explicitly label them incomplete; never represent inferred or partial numbers as official complete totals. Keep career totals separate from single-season totals.
+3. **Results and schedule:** Refresh latest result, upcoming fixtures, current form, league and European competition records, standings, ticker, season labels and any other time-sensitive summary. Do not duplicate full result histories in the compact form section.
+4. **Newsroom:** Make the latest important confirmed story the homepage lead; sort current articles ahead of older coverage, and preserve old reporting in the archive. Refresh `Whispers & pressure points` to reflect present storylines, not completed finals or past-season previews. Use distinct, relevant, existing image assets where available; do not reuse one generic image across unrelated stories.
+5. **Rendering and load order:** Inspect every script that mutates `window.NAPOLI_DATA` and every post-render DOM override. Ensure old scripts cannot overwrite current data or lead-story ordering. Refresh asset cache versions for changed files. Check navigation, mobile layout, overflow, article images and interaction.
+6. **Publication gate:** Verify the repository changes, confirm the rendered live site on desktop and mobile when browser testing is available, and explicitly disclose any checks that could not be completed. Do not claim visual verification if only code or GitHub state was inspected. If an essential check fails, correct it before signing off.
+
+**Mandatory season-rollover checklist:** canon; season labels; stats default and archive; leaderboards and career separation; latest result; form; schedule; league/UCL standings; lead story; news chronology; pressure points; images; script order; cache; responsive rendering. Responsibility for this check is shared by the assistant manager and newsroom editor, not delegated to the manager to discover by screenshots.
+
 ## Permanent directive · Scale comment engagement to the occasion (20 October 2026)
 
 Reader engagement must reflect the stakes and drama of the **public** match or story. Routine matches generally warrant about 8–12 thoughtful top-level comments; important league games, European fixtures and rivalries warrant roughly 15–25; major occasions and extraordinary events (upsets, comebacks, last-minute winners, disputed decisions, title clinchers, finals) may warrant 25–40+ where there are enough genuinely distinct perspectives. These are editorial guidelines, never mandatory filler quotas. Develop organic multi-person reply chains and evolving arguments, not isolated praise or duplicated generic remarks.
