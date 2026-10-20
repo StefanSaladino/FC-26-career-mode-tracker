@@ -1,6 +1,6 @@
-# CURRENT CANON — READ FIRST
+# ONE LIVING CANON — READ FIRST
 
-**Authoritative current state through Napoli 2–0 Sassuolo (1 Sep 2029), Italy planning, Plizzari loan and the media team's quality warning:** [ACTIVE-CANON-2029-09-01-NAPOLI-ITALY.md](ACTIVE-CANON-2029-09-01-NAPOLI-ITALY.md). Earlier 2029 snapshots are historical and must not override this file.
+**[CANON.md](CANON.md)** is the sole authoritative Napoli and Italy career-mode canon. Append every new manager-confirmed event to its chronological ledger and update its current-state section **in place**. Dated historical match documents and old canon snapshots are archives only; never create another active canon.
 
 # Napoli FC26 — 2028–29 Season Room
 
