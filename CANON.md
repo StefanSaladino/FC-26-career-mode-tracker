@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **29 September 2029** (after Bologna).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **2 October 2029** (after Porto).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -10,11 +10,16 @@
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
 
-## Latest Napoli match — Bologna 0–2 Napoli, 29 September 2029
+## Latest Napoli match — Napoli 2–0 Porto, 2 October 2029
+- Champions League home win. **Beier 15′ (Olise assist)**; **Pio Esposito 84′ (McTominay assist)**. Beier played Pio through for a second-half penalty, awarded after a challenge from behind with no card. **Diogo Costa saved Pio's penalty**; Pio later scored. Penalty minute not confirmed.
+- UCL record **1W 0D 1L, 3 points, 2 GF 2 GA** after Bayern 0–2 and Porto 2–0. Earlier disconnected Porto attempt is VOID.
+- Serie A unchanged: **4W 1D 0L, 13 points**. Next **Venezia home, 7 October**. Porto match report and Pio analysis published in `stories-porto-ucl-october-2029.js`.
+
+## Previous Napoli match — Bologna 0–2 Napoli, 29 September 2029
 - Serie A fifth match; heavily rotated XI: Peacock; Jetten, Calafiori, Rafa Marín (captain), Geertruida; Hasa, McTominay; Moore, De Bruyne, Olise; Raspadori. Bologna keeper Gillier made **four saves from inside the penalty area by minute 43**; halftime score not explicitly confirmed, but Napoli goals were both in second half.
 - **Beier 48′ (Hasa assist)**, after replacing **De Bruyne (38)** at halftime for minute management; **Beier 82′ (Pio Esposito assist)**, after **Zaïre-Emery run → Pio receives on edge of box → deft touch pass → Beier finish**. Warren's contribution was not the official assist. Pio and Warren both appeared; precise substitution minutes not confirmed.
 - **Hasa officially Player of the Match with 7.7 overall match rating**. **Peacock three saves, 9.2 goalkeeper rating**, including point-blank rocket reaction save and recovery to gather the loose ball; clean sheet. Different metrics; do not substitute Peacock as official POTM.
-- Serie A: **4W 1D 0L, 13 points, 9 GF 2 GA, +7**, unbeaten in five and four consecutive league victories. Next **Porto home, Champions League, 2 October**, then Venezia home 7 October. No invented xG, attendance, exact substitutions beyond KDB/Beier, or player quotations.
+- Serie A: **4W 1D 0L, 13 points, 9 GF 2 GA, +7**, unbeaten in five and four consecutive league victories. Porto subsequently completed 2–0 on 2 October; Venezia home 7 October next. No invented xG, attendance, exact substitutions beyond KDB/Beier, or player quotations.
 - Newsroom gate: two substantial Bologna articles and curated debate in `stories-bologna-rotation-september-2029.js`; updated homepage and upcoming calendar.
 
 ## Previous Napoli match — Napoli 1–0 Inter Milan, 23 September 2029
@@ -136,6 +141,8 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - **18 Sep:** Napoli 0–2 Bayern Munich (UCL); Osimhen 65′, 79′; Urbig official POTM; Napoli xG 2.1 Bayern 1.4.
 - **23 Sep:** Napoli 1–0 Inter Milan (Serie A); Beier 77′, Meret decisive final-whistle save, Beier hit bar 86′.
 - **29 Sep:** Bologna 0–2 Napoli (Serie A); Beier 48′ (Hasa), 82′ (Pio), Warren pre-assist run on second; Hasa official POTM 7.7; Peacock 3 saves, goalkeeper rating 9.2, remarkable point-blank stop and recovery. Napoli 13 points from five. Porto home 2 Oct next.
+
+- **2 Oct:** Napoli 2–0 Porto (UCL); Beier 15′ (Olise), Pio 84′ (McTominay). Pio penalty saved by Diogo Costa after Beier through ball; no card shown. Earlier disconnected match void.
 
 ### Standing update procedure — mandatory
 1. Record each newly confirmed event here under its actual in-game date, **append chronologically**, and correct any earlier detail in place if the manager clarifies it.
