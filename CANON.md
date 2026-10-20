@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **11 September 2029** (after Italy 1–0 Senegal).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **16 September 2029** (calendar after Udinese).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -10,13 +10,21 @@
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
 
+## Latest Napoli match — Udinese 1–2 Napoli, 15 September 2029
+- Serie A MD3. Heavily rotated XI: Peacock; Calafiori, Bastoni (captain), Marín, Geertruida; McTominay, Stach; Moore, Paz; Raspadori, Beier. Bastoni retained instead of Beukema. Halftime 0–0.
+- Kjerrumgaard 62' for Udinese; McTominay 62' equaliser assisted by Zaïre-Emery; Zaïre-Emery 73' winner assisted by Pio Esposito. Neves, Zaïre-Emery and Pio introduced in second half; precise outgoing players not confirmed. McTominay was still on the pitch to score.
+- Udinese xG **3.3**, Napoli xG **1.1**; shots on target **3–3**. Manager praised Peacock. Napoli were out-chanced and did not play well. Do not attribute all xG differential to keeper saves.
+- Napoli after 3 Serie A matches: **2W 1D 0L; 7 pts; 5 GF 2 GA; +3 GD**.
+- **Calendar confirmed by manager screenshots on 16 September:** Sep 18 Bayern Munich HOME UCL; Sep 23 HOME Serie A opponent not identified confidently; Sep 29 Bologna AWAY Serie A; Oct 2 Porto HOME UCL; Oct 7 HOME Serie A opponent unclear; Oct 13 Turkey AWAY Italy international friendly; Oct 16 Japan AWAY Italy international friendly; Oct 20 Fiorentina AWAY Serie A; Oct 23 Dinamo Zagreb HOME UCL; Oct 28 Juventus HOME Serie A; Oct 31 Sampdoria AWAY Serie A. These are future fixtures, NOT results.
+- Newsroom published Udinese analysis and Bayern preview in `stories-udinese-bayern-september-2029.js`; homepage state and upcoming schedule updated in `current-2029-30-home-snapshot.js`.
+
 ## Most recent matches: Italy September 2029 friendlies
 - **8 Sep 2029, Finland 2–3 Italy (away friendly):** Italy scorers **Pio Esposito twice** and **Ricci once**. Both Finnish goals resulted from **counterattacks** (manager-confirmed); precise minutes, assists, actual XI and substitution details unknown. Avoid claiming specific defensive culprits. Italy starting lineup pictured before Finland: **Donnarumma; Dimarco, Bastoni (captain), Calafiori, Buongiorno, Kayode; Barella, Locatelli, Tonali; Kean, Pio Esposito**, a 5-3-2 defensive layout. The bench included Carnesecchi, Gabbia, Ricci, another Esposito, Mancini, Rovella, Retegui and Meret; this screenshot was pre-match and does not establish who appeared in either match.
 - **11 Sep 2029, Italy 1–0 Senegal (friendly):** **Sandro Tonali scored from a penalty**; Italy kept a clean sheet. Home designation follows the fixture as manager gave Italy first; exact venue, goal minute, other match statistics and lineups unconfirmed.
-- September Italy friendly window: **2 wins, 4 goals scored, 2 conceded**. Across four manager-confirmed friendlies including prior Iraq 3–0 and USA 0–0: **3W 1D 0L, 7 GF 2 GA**. These friendlies are NOT World Cup qualifying matches. Next confirmed club match: **Napoli away to Udinese 15 Sep 2029**. No further Italy fixture established.
+- September Italy friendly window: **2 wins, 4 goals scored, 2 conceded**. Across four manager-confirmed friendlies including prior Iraq 3–0 and USA 0–0: **3W 1D 0L, 7 GF 2 GA**. These friendlies are NOT World Cup qualifying matches. Next confirmed club match: **Napoli home to Bayern Munich 18 Sep 2029**. Italy friendlies vs Turkey and Japan scheduled for October.
 - **Staff-only tactical debrief:** Both goals conceded against Finland came on counters. Sandro recommends improved rest-defence spacing while retaining attacking ambition. This conversation is private and not attributable to the manager in public articles. Media may independently analyze observable counters without claiming access to the staff room.
 
-## Most recent Napoli match: Napoli 2–0 Sassuolo — Serie A MD2, 1 Sep 2029
+## Previous Napoli match: Napoli 2–0 Sassuolo — Serie A MD2, 1 Sep 2029
 - Napoli home win; **Pio Esposito 28' (Beier assist)**; **Mikey Moore 88' (Raspadori assist)**. **Manager explicitly confirmed the 88th-minute goal.**
 - Moore's initial shot was blocked; he followed the rebound to score. Moore and Raspadori both came on as substitutes, but their substitution minutes were not supplied.
 - Beier was denied twice at close range, hit the post 33', and missed another chance 38'. Pio missed a second-half chance; Zaïre-Emery shot wide. At HT Napoli led 1–0; HT xG Napoli 3.4, Sassuolo 0.7.
@@ -26,8 +34,8 @@
 
 ## Opening fixture and league state
 - **26 Aug 2029, Parma 1–1 Napoli**, Serie A MD1. Parma Frigan 24'; Napoli João Neves late equaliser, McTominay assist (90'+, precise stoppage minute unknown). Pio and Neves hit woodwork. Napoli 11 shots, 6 on target, 3.1 xG; Parma 4 shots, 3 on target, 1.3 xG.
-- **2029–30 Serie A after MD2:** Napoli **2 played, 1W 1D 0L, 3 GF, 1 GA, +2 GD, 4 points**. Napoli xG across both games 8.5, goals 3. Do not conflate 2028–29 final record with current-season form.
-- September friendlies completed: **Finland 2–3 Italy on 8 Sep** and **Italy 1–0 Senegal on 11 Sep**. Upcoming confirmed: **Napoli away to Udinese 15 Sep 2029**. Later tentative schedule: home 23 Sep (opponent unknown), away to Bologna 30 Sep. **World Cup qualifying is upcoming; do not mislabel Finland as a qualifier.**
+- **Earlier 2029–30 Serie A after MD2:** Napoli **2 played, 1W 1D 0L, 3 GF, 1 GA, +2 GD, 4 points**. Napoli xG across both games 8.5, goals 3. Do not conflate 2028–29 final record with current-season form.
+- September friendlies completed: **Finland 2–3 Italy on 8 Sep** and **Italy 1–0 Senegal on 11 Sep**. Udinese away completed 15 Sep; next Bayern home 18 Sep, Bologna away 29 Sep. **World Cup qualifying is upcoming; do not mislabel Finland as a qualifier.**
 
 ## Senior squad — 24 available (23 previously, plus Plizzari loan-in)
 **Goalkeepers (3):** Alex Meret (32, 86), C. Peacock (20, 74), **Alessandro Plizzari (71)**.
@@ -97,7 +105,9 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 
 ### September 2029 — national-team friendlies and development
 - Italy World Cup qualifying is approaching. Staff discussed Project Napotalia: Donnarumma behind a possible Calafiori–Bastoni–Buongiorno–Kayode defence, Tonali and Barella in midfield, Pio and Kean up front, and the future potential of loanee V. Mancini (76 OVR, 94 ceiling). This is **planning, not a confirmed Italy starting XI**.
-- **8 Sep:** Finland 2–3 Italy (friendly), Pio Esposito twice and Ricci; Finnish goals both counterattacks. **11 Sep:** Italy 1–0 Senegal (friendly), Tonali penalty. Next Napoli match: **15 Sep away to Udinese**. No World Cup qualifiers have yet been reported.
+- **8 Sep:** Finland 2–3 Italy (friendly), Pio Esposito twice and Ricci; Finnish goals both counterattacks. **11 Sep:** Italy 1–0 Senegal (friendly), Tonali penalty. Next Napoli match: **18 Sep home to Bayern Munich**. No World Cup qualifiers have yet been reported.
+- **15 Sep:** Udinese 1–2 Napoli. Kjerrumgaard 62', McTominay 62' (Zaïre-Emery), Zaïre-Emery 73' (Pio). xG 3.3–1.1 Udinese; shots on target 3–3; Peacock praised. Napoli 7 points from three.
+- **16 Sep:** September/October calendar confirmed, including Bayern, Porto, Dinamo Zagreb, Juventus and two Italy October friendlies.
 
 ### Newsroom publication — September 2029 international friendlies
 - Three substantial, independent in-universe stories published: Finland match analysis and Pio brace; Senegal clean-sheet and Tonali penalty; Bellandi opinion on transition defending and the creativity dilemma. Source `stories-italy-september-friendlies-2029.js`, loaded in `index.html`. Each has eight article-specific top-level curated supporter comments, with natural threaded replies. No manager quotes or confidential staff details included. All match goal minutes and assists unknown, so not invented.
