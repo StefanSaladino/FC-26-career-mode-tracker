@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **2 October 2029** (after Porto).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **7 October 2029** (after Venezia).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -10,7 +10,12 @@
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
 
-## Latest Napoli match — Napoli 2–0 Porto, 2 October 2029
+## Latest Napoli match — Napoli 2–1 Venezia, 7 October 2029
+- Serie A: Olise 27′ (Moore assist), Pio 31′ (Beier assist), Yeboah 56′ for Venezia. Half-time 2–0; full-time 2–1. No other match events or statistics confirmed.
+- League: 5W 1D 0L, 16 points, 11 GF, 3 GA, +8. Six unbeaten, five consecutive wins. Next Italy friendlies Turkey away 13 October and Japan away 16 October; Napoli away Fiorentina 20 October.
+- Published match report and analysis: `stories-venezia-october-2029.js`.
+
+## Previous Napoli match — Napoli 2–0 Porto, 2 October 2029
 - Champions League home win. **Beier 15′ (Olise assist)**; **Pio Esposito 84′ (McTominay assist)**. Beier played Pio through for a second-half penalty, awarded after a challenge from behind with no card. **Diogo Costa saved Pio's penalty**; Pio later scored. Penalty minute not confirmed.
 - UCL record **1W 0D 1L, 3 points, 2 GF 2 GA** after Bayern 0–2 and Porto 2–0. Earlier disconnected Porto attempt is VOID.
 - Serie A unchanged: **4W 1D 0L, 13 points**. Next **Venezia home, 7 October**. Porto match report and Pio analysis published in `stories-porto-ucl-october-2029.js`.
