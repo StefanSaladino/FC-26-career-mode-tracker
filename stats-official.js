@@ -46,6 +46,20 @@
    ['Riccardo Calafiori',0,0,'Debut vs Inter']
   ]
  };
+ // Reconcile confirmed October contributions. These remain verified minimums, not full exports.
+ const october=[
+ ["Maximilian Beier",7,2,"Fiorentina: two assists to Paz; Juventus: hat-trick (26, 41, 55)."],
+ ["Pio Esposito",0,6,"Fiorentina: no recorded contribution; Dinamo: three assists; Juventus: two assists; earlier documented assist totals preserved."],
+ ["Nico Paz",2,0,"Fiorentina brace."],
+ ["Giacomo Raspadori",2,0,"Fiorentina 90+1; Dinamo 87."],
+ ["Scott McTominay",1,1,"Dinamo: goal and corner assist."],
+ ["Mikey Moore",1,0,"Dinamo: goal."],
+ ["Sam Beukema",1,0,"Dinamo: headed goal."],
+ ["Warren Zaïre-Emery",0,1,"Juventus: assisted Beier third; Fiorentina: assisted Raspadori, also counted below."],
+ ];
+ const rows=D.statsBySeason['2029–30'];
+ for(const [name,g,a,note] of october){let row=rows.find(x=>x[0]===name);if(!row){row=[name,0,0,""];rows.push(row);}row[1]+=g;row[2]+=a;row[3]=(row[3]?row[3]+" | ":"")+note;}
+ const w=rows.find(x=>x[0]==="Warren Zaïre-Emery");if(w){w[2]+=1;w[3]+=" Fiorentina: assisted Raspadori.";}
  D.statsSeasonOrder=['2029–30','2028–29','2027–28'];
  D.statsCurrentSeason='2029–30';
  D.statsUnavailableSeasons=['2025–26','2026–27'];
