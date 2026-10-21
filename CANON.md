@@ -1,6 +1,12 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **23 October 2029** (after Dinamo Zagreb).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **28 October 2029** (after Juventus).
+
+
+## Juventus 1–3 Napoli — 28 October 2029 (confirmed)
+- Serie A away: Jonathan David 15′; Maximilian Beier 26′ (Pio Esposito assist), 41′ (Pio assist), 55′ (Warren Zaïre-Emery assist). Half-time Juventus 1–2 Napoli; final 1–3.
+- Napoli xG **3.9**, Juventus xG **1.3**. Manager reports Napoli could have scored more. Beier hat-trick; Pio two assists, **five assists over Dinamo Zagreb and Juventus**.
+- League record after eight: **7W 1D 0L, 22 points, 17 GF, 5 GA, +12**. Next Sampdoria away, 31 October 2029.
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
