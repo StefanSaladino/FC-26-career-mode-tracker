@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **20 October 2029** (after Fiorentina).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **23 October 2029** (after Dinamo Zagreb).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -9,6 +9,12 @@
 - Staff-room discussions are **strictly private**. Do not turn internal coaching conversations, jokes, criticism, confidential negotiations, or plans into journalist quotations or public rumours.
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
+
+## Latest confirmed match — Napoli 4–0 Dinamo Zagreb, 23 October 2029
+- Champions League home: **McTominay 42′ (Pio Esposito assist), Mikey Moore 58′ (Pio assist), Sam Beukema 72′ (McTominay corner assist, header), Raspadori 87′ (Pio assist)**. Halftime 1–0; full-time 4–0.
+- **Napoli xG 4.5, Dinamo Zagreb xG 1.0.** **Peacock made three saves and kept a clean sheet.** Pio registered **three assists**; McTominay **one goal and one assist**. Raspadori scored in consecutive club matches (Fiorentina, Dinamo Zagreb).
+- Tactical selection: heavily rotated 4-2-2-2; **Davies at LB and Calafiori in midfield alongside Stach**, following manager's pre-kickoff switch. Confirmed lineup also included Peacock, Beukema, Marín, Geertruida, Moore, McTominay, Beier and Pio. Do not infer unreported substitutions or exact individual performance statistics.
+- Napoli Champions League after three matches: **2W 0D 1L, 6 points; 6 goals scored, 2 conceded, +4 goal difference**. Next confirmed fixture: **Juventus home, 28 October 2029**.
 
 ## Confirmed Pio Esposito contract extension — after Fiorentina, October 2029
 - **Francesco Pio Esposito, 88 OVR: extension signed and confirmed by manager.** Important squad role, three-year extension, no release clause, **$210,000/week** and **$1.8 million signing bonus**. In-game contract now displays **4 years 8 months remaining**. Club budget following deal: **$316.7 million** as reported by manager.
@@ -170,6 +176,8 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - **13 Oct:** Turkey 0–2 Italy (friendly); Kean 23′ (Barella), 63′ (Ricci); Donnarumma 11 saves, MOTM; xG Turkey 2.7, Italy 2.6.
 - **16 Oct:** Japan 1–3 Italy (friendly); Retegui 27′ (Sebastiano), Sebastiano 69′ (Retegui), Pio 83′ (Sebastiano), Nakamura 88′; Donnarumma six saves.
 - **20 Oct:** Fiorentina 1–3 Napoli (Serie A); Paz 15′ and 20′ (both Beier), Piccoli 36′, Raspadori 90+1′ (Zaïre-Emery).
+
+- **23 Oct:** Napoli 4–0 Dinamo Zagreb (UCL); McTominay 42′ (Pio), Moore 58′ (Pio), Beukema 72′ (McTominay corner), Raspadori 87′ (Pio); xG 4.5–1.0; Peacock three saves and clean sheet.
 
 ### Standing update procedure — mandatory
 1. Record each newly confirmed event here under its actual in-game date, **append chronologically**, and correct any earlier detail in place if the manager clarifies it.
