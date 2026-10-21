@@ -1,6 +1,6 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **7 October 2029** (after Venezia).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **20 October 2029** (after Fiorentina).
 
 **Single source of truth.** This file combines the current state with an append-only chronological event ledger. Older event documents are archival references only, not parallel or competing canons. Never infer unreported events or advance the calendar without the manager.
 
@@ -9,6 +9,19 @@
 - Staff-room discussions are **strictly private**. Do not turn internal coaching conversations, jokes, criticism, confidential negotiations, or plans into journalist quotations or public rumours.
 - Fictional journalists may analyze publicly visible football, but may not attribute knowledge to a player screenshot or to a user's chat report. No fabricated direct quotes from the manager.
 - **Media-team quality warning (manager instruction):** Editorial staff are on thin ice. Publish substantial, differentiated analysis rather than three-paragraph filler. Curate article-specific supporters, rival fans and pundits with real arguments, disagreements and threaded replies. Confirm script load order, live rendering where possible, image quality, and current homepage state before calling work complete.
+
+## Latest Napoli match — Fiorentina 1–3 Napoli, 20 October 2029
+- Serie A away: **Nico Paz 15′ (Beier assist), Nico Paz 20′ (Beier assist), Piccoli 36′ (header) for Fiorentina, Raspadori 90+1′ (Zaïre-Emery assist)**. Halftime 1–2; full-time 1–3.
+- **Davies rested after international duty; Calafiori started in his place.**
+- Napoli league: **7 played, 6W 1D 0L, 19 points, 14 GF, 4 GA, +10**. Seven unbeaten, six consecutive league wins. Next **Dinamo Zagreb home 23 October (UCL)**, then **Juventus home 28 October (Serie A)**, Sampdoria away 31 October.
+- Napoli European record before Zagreb: **1W 0D 1L, 3 points** (Bayern defeat, Porto victory).
+- Published coverage: `stories-fiorentina-october-2029.js`.
+
+## Italy — October 2029 friendlies (confirmed)
+- **13 October: Turkey 0–2 Italy**, away friendly. **Kean 23′ (Barella assist), Kean 63′ (Ricci assist)**. Halftime 0–1. Turkey xG **2.7**, Italy xG **2.6**. **Gianluigi Donnarumma 11 saves, clean sheet, official man of the match**. Significant attacking chances for both sides despite score.
+- **16 October: Japan 1–3 Italy**, away friendly with heavy rotation. **Retegui 27′ (Sebastiano Esposito assist), Sebastiano Esposito 69′ (Retegui assist), Pio Esposito 83′ (Sebastiano Esposito assist; Pio came on as substitute), Nakamura 88′ for Japan**. Halftime Japan 0–1 Italy. **Donnarumma 6 saves**, five before the Japan goal, then one further save. **16 consecutive saves across the Turkey and Japan fixtures before conceding**, 17 saves total across the two matches, one goal conceded. Sebastiano: **1 goal, 2 assists**; Retegui: **1 goal, 1 assist**.
+- Published coverage: `stories-italy-october-friendlies-2029.js`. This is a Napoli-focused newsroom covering the Italy national team too.
+- **Private management context, NOT for public articles:** Buongiorno (ABG) 88 OVR, age 30, agreed **2-year extension, Important role, no release clause, $240k/week, $1.55m signing bonus**. Stach age 30, 82 OVR: proposed sporadic one-year extension fell through after agent asked $150k/week and $1.15m signing bonus; remains Napoli player and should be treated respectfully. Staff plans to scout midfield replacements in winter. Sebastiano Esposito and Donnarumma are potential recruitment interests, not agreed transfers. Manager's plan: strong XI at Fiorentina, rotate heavily versus Zagreb, strongest available XI versus Juventus.
 
 ## Latest Napoli match — Napoli 2–1 Venezia, 7 October 2029
 - Serie A: Olise 27′ (Moore assist), Pio 31′ (Beier assist), Yeboah 56′ for Venezia. Half-time 2–0; full-time 2–1. No other match events or statistics confirmed.
@@ -148,6 +161,11 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - **29 Sep:** Bologna 0–2 Napoli (Serie A); Beier 48′ (Hasa), 82′ (Pio), Warren pre-assist run on second; Hasa official POTM 7.7; Peacock 3 saves, goalkeeper rating 9.2, remarkable point-blank stop and recovery. Napoli 13 points from five. Porto home 2 Oct next.
 
 - **2 Oct:** Napoli 2–0 Porto (UCL); Beier 15′ (Olise), Pio 84′ (McTominay). Pio penalty saved by Diogo Costa after Beier through ball; no card shown. Earlier disconnected match void.
+
+- **7 Oct:** Napoli 2–1 Venezia (Serie A); Olise 27′ (Moore), Pio 31′ (Beier), Yeboah 56′.
+- **13 Oct:** Turkey 0–2 Italy (friendly); Kean 23′ (Barella), 63′ (Ricci); Donnarumma 11 saves, MOTM; xG Turkey 2.7, Italy 2.6.
+- **16 Oct:** Japan 1–3 Italy (friendly); Retegui 27′ (Sebastiano), Sebastiano 69′ (Retegui), Pio 83′ (Sebastiano), Nakamura 88′; Donnarumma six saves.
+- **20 Oct:** Fiorentina 1–3 Napoli (Serie A); Paz 15′ and 20′ (both Beier), Piccoli 36′, Raspadori 90+1′ (Zaïre-Emery).
 
 ### Standing update procedure — mandatory
 1. Record each newly confirmed event here under its actual in-game date, **append chronologically**, and correct any earlier detail in place if the manager clarifies it.
