@@ -48,8 +48,8 @@
  };
  // Reconcile confirmed October contributions. These remain verified minimums, not full exports.
  const october=[
- ["Maximilian Beier",7,2,"Fiorentina: two assists to Paz; Juventus: hat-trick (26, 41, 55)."],
- ["Pio Esposito",0,6,"Fiorentina: no recorded contribution; Dinamo: three assists; Juventus: two assists; earlier documented assist totals preserved."],
+ ["Maximilian Beier",3,2,"Fiorentina: two assists to Paz; Juventus: hat-trick (26, 41, 55)."],
+ ["Pio Esposito",0,5,"Fiorentina: no recorded contribution; Dinamo: three assists; Juventus: two assists; earlier documented assist totals preserved."],
  ["Nico Paz",2,0,"Fiorentina brace."],
  ["Giacomo Raspadori",2,0,"Fiorentina 90+1; Dinamo 87."],
  ["Scott McTominay",1,1,"Dinamo: goal and corner assist."],
