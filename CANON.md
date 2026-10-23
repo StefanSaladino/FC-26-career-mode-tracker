@@ -3,6 +3,10 @@
 **One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **3 November 2029** (after Monza).
 
 
+## Maximilian Beier contract renewal — 3 November 2029 (confirmed)
+- Manager confirms contract signed following Monza 2–1 win. Beier: age 27, 90 OVR, Crucial squad role; three additional years agreed on top of previous 1 year 7 months remaining (approximately 4 years 7 months total remaining).
+- New wage $240,000/week (previous $170,000/week), $2,250,000 signing bonus, $3,600,000 bonus after 10 goals, and $422,600,000 release clause. Do not treat negotiation as pending.
+
 ## Napoli 2–1 Monza — 3 November 2029 (confirmed)
 - Serie A home. Mota scored for Monza in minute 8. Napoli had zero shots at halftime, trailing 0–1. By minute 71 Napoli had three shots on goal.
 - Maximilian Beier equalized at 71 minutes, assisted by Scott McTominay, then scored the winner at 81 minutes, assisted by Warren Zaïre-Emery. Full time Napoli 2–1 Monza. Final xG and shot total not confirmed.
