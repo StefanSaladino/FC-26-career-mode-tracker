@@ -1,7 +1,21 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **November 2029** (after Milan; exact match date not provided).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **24 November 2029** (after Genoa 2–1).
 
+
+## Napoli 2–1 Genoa — Serie A, 24 November 2029 (confirmed)
+- Full rotation in starting XI ahead of PSG away on 27 November. Hasa 5′ (Anton Stach assist); Colombo 41′ after Scott McTominay giveaway; Pio Esposito 72′ (Riccardo Calafiori assist), two minutes after Pio entered at 70′. Final 2–1.
+- League after twelve: 10W 2D 0L, 32 points, 25 GF, 8 GA, +17. Next PSG away in Champions League, 27 November 2029. Pio nine goals in five successive appearances (Raków 2, Milan 2, Mexico 1, Ecuador 3, Genoa 1).
+
+## Italy — November 2029 friendlies (confirmed)
+- **16 November, Mexico 1–1 Italy**: Gutiérrez 13′, Pio Esposito 76′ penalty. Mexico had two penalties: one missed over the bar, another saved by Donnarumma. Causes of penalties unconfirmed.
+- **20 November, Ecuador 0–3 Italy**: Pio Esposito 11′ penalty, 28′ (Sebastiano Esposito assist), 34′ (Niccolò Pisilli assist). Pio hat-trick by 34′, Italy clean sheet. Window 1W 1D 0L, 4 GF, 1 GA.
+
+## Mikey Moore renewal — November 2029 (confirmed)
+- Moore age 22, 85 OVR. Important role; 3-year extension on top of 1 year 7 months remaining, for approximately 4 years 7 months total. Contract signed at $130k/week (previously $100k), $1.35m signing bonus and $4.85m conditional bonus for 20 goals.
+
+## Anton Stach / Inter negotiations — November 2029 (pending)
+- Inter offered $40m. Manager delegated negotiations opening at $55m with a hard minimum of $48m. No agreed transfer or sale confirmed. Stach assisted Hasa against Genoa.
 
 ## Napoli 3–0 AC Milan — Serie A, November 2029 (confirmed; exact date unreported)
 - Pio Esposito 20′ (Maximilian Beier assist), 65′ (Beier assist); both moves began with Nico Paz through ball to Beier, followed by Beier pass to Pio. Second Pio finish was blasted into the top corner from approximately 15 yards.
