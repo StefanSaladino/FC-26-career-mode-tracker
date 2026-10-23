@@ -1,7 +1,17 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **28 October 2029** (after Juventus).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **3 November 2029** (after Monza).
 
+
+## Napoli 2–1 Monza — 3 November 2029 (confirmed)
+- Serie A home. Mota scored for Monza in minute 8. Napoli had zero shots at halftime, trailing 0–1. By minute 71 Napoli had three shots on goal.
+- Maximilian Beier equalized at 71 minutes, assisted by Scott McTominay, then scored the winner at 81 minutes, assisted by Warren Zaïre-Emery. Full time Napoli 2–1 Monza. Final xG and shot total not confirmed.
+- Beier scored all six Napoli league goals across Juventus (3), Sampdoria (1) and Monza (2). Napoli league after ten: 8W 2D 0L, 26 points, 20 GF, 7 GA, +13. Next Raków in UCL, then AC Milan in Serie A. Manager expects to rotate against Raków, but has not confirmed a lineup.
+- Coverage: stories-monza-november-2029.js.
+
+## Sampdoria 1–1 Napoli — 31 October 2029 (confirmed)
+- Henderson scored at 84 minutes; Beier equalized at 90+1 minutes from Pio Esposito assist. Napoli had 1.9 xG to Sampdoria's 0.5 at halftime; Ghidotti made four first-half saves and six total; Moore hit the post. Manager described concession as soft. Final xG unconfirmed.
+- Napoli after nine league matches: 7W 2D 0L, 23 points, 18 GF, 6 GA, +12. Juventus (second place) also drew 1–1 with Parma; exact Juventus points total unconfirmed.
 
 ## Juventus 1–3 Napoli — 28 October 2029 (confirmed)
 - Serie A away: Jonathan David 15′; Maximilian Beier 26′ (Pio Esposito assist), 41′ (Pio assist), 55′ (Warren Zaïre-Emery assist). Half-time Juventus 1–2 Napoli; final 1–3.
