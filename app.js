@@ -11,6 +11,12 @@ if (!D.articles.length && Array.isArray(raw.news)) {
   D.articles = raw.news.map((n,i)=>({id:`legacy-${i}`,category:'News',label:'Season Room',date:'2027–28',headline:n[0],dek:n[2],image:null,body:[n[2]]}));
 }
 
+// Keep article readers and filters in sync with late-loaded match reports.
+Object.defineProperty(D, 'articles', {
+  configurable: true,
+  get(){ return window.NAPOLI_DATA?.articles || []; },
+  set(value){ (window.NAPOLI_DATA ||= {}).articles = value; }
+});
 const $ = id => document.getElementById(id);
 const sections = [...document.querySelectorAll('.page-section')];
 const escapeHTML = (value='') => String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');
