@@ -1,7 +1,13 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **3 November 2029** (after Monza).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **November 2029** (after Raków; exact match date not provided).
 
+
+## Raków 1–2 Napoli — Champions League matchday four, November 2029 (confirmed; exact date unreported)
+- Rotated Napoli XI: Meret; Davies, Bastoni, Buongiorno, Calafiori; Moore, Zaïre-Emery, McTominay, Olise; Raspadori and Pio Esposito. Beier rested from starting XI; no substitutions confirmed.
+- Pio Esposito scored in the 15th and 45+1st minutes, both assisted by Giacomo Raspadori. Pienko scored for Raków in the 85th minute. Full time Raków 1–2 Napoli.
+- UCL after four: 3W 0D 1L, 9 points, 8 GF, 3 GA (Bayern loss 0–2; Porto win 2–0; Dinamo Zagreb win 4–0; Raków win 2–1). League-phase position unconfirmed. Next AC Milan in Serie A; date and time unconfirmed.
+- Newsroom: stories-rakow-champions-league-november-2029.js, three substantial articles with distinct curated supporter discussions. Stach renewal negotiations discussed; final signing not explicitly confirmed.
 
 ## Maximilian Beier contract renewal — 3 November 2029 (confirmed)
 - Manager confirms contract signed following Monza 2–1 win. Beier: age 27, 90 OVR, Crucial squad role; three additional years agreed on top of previous 1 year 7 months remaining (approximately 4 years 7 months total remaining).
