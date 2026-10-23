@@ -9,7 +9,7 @@
     italy:'Marco Bellandi · International Desk',
     features:'Giulia Romano · Features Desk'
   };
-  const names=['Marco Bellini','Giulia Romano','Marco Bellandi'];
+  const names=['Marco Bellini','Giulia Romano','Marco Bellandi','Matteo Bellandi','Elena Conti','Marco Rinaldi'];
   const valid=v=>typeof v==='string'&&names.some(n=>v.trim().startsWith(n))&&!/Luca Ferraro/i.test(v);
   const pick=a=>{
     const text=[a.category,a.label,a.headline,a.dek].filter(Boolean).join(' ').toLowerCase();
