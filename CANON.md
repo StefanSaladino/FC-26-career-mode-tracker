@@ -1,7 +1,13 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **November 2029** (after Raków; exact match date not provided).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **November 2029** (after Milan; exact match date not provided).
 
+
+## Napoli 3–0 AC Milan — Serie A, November 2029 (confirmed; exact date unreported)
+- Pio Esposito 20′ (Maximilian Beier assist), 65′ (Beier assist); both moves began with Nico Paz through ball to Beier, followed by Beier pass to Pio. Second Pio finish was blasted into the top corner from approximately 15 yards.
+- Maximilian Beier 84′ (Scott McTominay assist); Riccardo Calafiori maneuvered around the perimeter during the preceding passing move. Full time Napoli 3–0 Milan; clean sheet. Halftime 1–0.
+- Serie A after eleven: 9W 2D 0L, 29 points, 23 GF, 7 GA, +16. Beier scored seven league goals over Juventus (3), Sampdoria (1), Monza (2), Milan (1). Pio four goals across Raków (2) and Milan (2). Milan assists Beier (2), McTominay (1); Paz is credited with build-up passes, not official assists.
+- Editorial: stories-milan-three-nil-november-2029.js (three longform stories), site-visible-milan-november-2029.js. Next fixture unconfirmed. Do not invent it.
 
 ## Raków 1–2 Napoli — Champions League matchday four, November 2029 (confirmed; exact date unreported)
 - Rotated Napoli XI: Meret; Davies, Bastoni, Buongiorno, Calafiori; Moore, Zaïre-Emery, McTominay, Olise; Raspadori and Pio Esposito. Beier rested from starting XI; no substitutions confirmed.
