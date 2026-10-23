@@ -1,7 +1,14 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **24 November 2029** (after Genoa 2–1).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **27 November 2029** (after PSG 1–2 Napoli).
 
+
+## PSG 1–2 Napoli — Champions League, 27 November 2029 (confirmed)
+- Dembélé 10′ PSG; Mikey Moore 66′ (Maximilian Beier official assist; Michael Olise brilliant initiating run), Pio Esposito 71′ (Mikey Moore assist). Napoli trailed 0–1 at halftime. Moore entered as a substitute (exact minute not confirmed), scored equalizer, assisted winner, and was **official Man of the Match**.
+- Moore later initiated a move to Beier, whose pass set up Olise; Chevalier saved. Chevalier made five saves in the first half. Final xG Napoli 3.0 vs PSG 1.3; shots on target Napoli 9 vs PSG 4.
+- UCL after five matches: 4W 0D 1L, 12 points, 10 GF, 4 GA. Next Como away, 2 December 2029; Benfica away 11 December in UCL.
+- Pio scored **10 goals in SIX consecutive appearances**: Raków 2, Milan 2, Mexico 1, Ecuador 3, Genoa 1, PSG 1. Earlier description 'nine in five' was accurate before PSG; after PSG it is ten in six, NOT ten in five.
+- Editorial: stories-psg-paris-november-2029.js; three detailed features and distinct curated supporter discussions.
 
 ## Napoli 2–1 Genoa — Serie A, 24 November 2029 (confirmed)
 - Full rotation in starting XI ahead of PSG away on 27 November. Hasa 5′ (Anton Stach assist); Colombo 41′ after Scott McTominay giveaway; Pio Esposito 72′ (Riccardo Calafiori assist), two minutes after Pio entered at 70′. Final 2–1.
