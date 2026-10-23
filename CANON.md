@@ -1,7 +1,14 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **8 December 2029** (after Napoli 1–0 Cremonese).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **11 December 2029** (after Benfica 1–1 Napoli).
 
+
+## Benfica 1–1 Napoli — Champions League, 11 December 2029 (confirmed)
+- FT Benfica 1–1 Napoli. Pio Esposito 50′, from an extremely narrow angle just yards ahead of the goal line and to the goalkeeper's left; **Maximilian Beier official assist**.
+- Richard Ríos equalized for Benfica 67′. Exact buildup not supplied; do not invent a defensive error or other match statistics.
+- Napoli UCL record after six: **4W 1D 1L, 13 points, 11 goals for, 5 against, +6 goal difference**. No confirmed league-phase placing.
+- Latest confirmed Napoli result: Benfica 1–1 Napoli. Next fixture: Lazio away, Serie A, 16 December 2029; then Monza home, Coppa Italia, 19 December; Roma home, Serie A, 23 December; Udinese away, Serie A, 29 December.
+- Editorial: three Benfica stories in `stories-benfica-december-2029.js`; covers use existing repository gallery images only.
 
 ## Napoli 1–0 Cremonese — Serie A, 8 December 2029 (confirmed)
 - Beier 11′ (Raspadori official assist), counterattack through ball, powerful finish. HT 1–0, FT 1–0.
