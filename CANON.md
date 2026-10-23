@@ -1,7 +1,20 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **27 November 2029** (after PSG 1–2 Napoli).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **8 December 2029** (after Napoli 1–0 Cremonese).
 
+
+## Napoli 1–0 Cremonese — Serie A, 8 December 2029 (confirmed)
+- Beier 11′ (Raspadori official assist), counterattack through ball, powerful finish. HT 1–0, FT 1–0.
+- Final xG Napoli 3.2, Cremonese 0.9; shots on target 6–2. Napoli created chances but scored once; Peacock clean sheet.
+- Rotated starting XI: Peacock; Calafiori, Beukema, Marin, Geertruida; Moore, McTominay (captain), Stach, Paz; Beier, Raspadori. Bench included Neves, Pio Esposito, Meret, Buongiorno, Davies.
+- Serie A after 14: 11W 3D 0L, 36 points, 27 GF, 9 GA, +18. Next Benfica away UCL, 11 December 2029.
+- Editorial: stories-cremonese-december-2029.js. Image fields intentionally unset pending verified, varied match/player imagery.
+
+## Como 1–1 Napoli — Serie A, 2 December 2029 (confirmed)
+- João Neves struck post 5′, scored 25′ (Nico Paz official assist); Da Cunha equalized 67′. FT 1–1. Manager: one lapse cost two points, not loss of control.
+- Serie A after 13: 10W 3D 0L, 33 points, 26 GF, 9 GA, +17.
+- Marin contract renewed: Sporadic, +2 years on 1y6m remaining, $105k/week down from $110k/week, $1m signing bonus, no release clause.
+- Editorial: stories-como-december-2029.js.
 
 ## PSG 1–2 Napoli — Champions League, 27 November 2029 (confirmed)
 - Dembélé 10′ PSG; Mikey Moore 66′ (Maximilian Beier official assist; Michael Olise brilliant initiating run), Pio Esposito 71′ (Mikey Moore assist). Napoli trailed 0–1 at halftime. Moore entered as a substitute (exact minute not confirmed), scored equalizer, assisted winner, and was **official Man of the Match**.
