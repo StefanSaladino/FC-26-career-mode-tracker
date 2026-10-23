@@ -60,6 +60,20 @@
  const rows=D.statsBySeason['2029–30'];
  for(const [name,g,a,note] of october){let row=rows.find(x=>x[0]===name);if(!row){row=[name,0,0,""];rows.push(row);}row[1]+=g;row[2]+=a;row[3]=(row[3]?row[3]+" | ":"")+note;}
  const w=rows.find(x=>x[0]==="Warren Zaïre-Emery");if(w){w[2]+=1;w[3]+=" Fiorentina: assisted Raspadori.";}
+ // Manager-confirmed results since the October snapshot. These are additive match-event minimums, not a full FC26 statistics export.
+ const confirmed=[
+ ["Maximilian Beier",3,0,"Juventus hat-trick: 26′, 41′, 55′."],
+ ["Maximilian Beier",1,0,"Sampdoria equaliser 90+1′."],
+ ["Maximilian Beier",2,0,"Monza brace 71′, 81′."],
+ ["Pio Esposito",0,1,"Sampdoria: assisted Beier 90+1′."],
+ ["Pio Esposito",2,0,"Raków: brace 15′ and 45+1′."],
+ ["Giacomo Raspadori",0,2,"Raków: assisted both Esposito goals."],
+ ["Scott McTominay",0,1,"Monza: assisted Beier 71′."],
+ ["Warren Zaïre-Emery",0,1,"Monza: assisted Beier 81′."]
+ ];
+ for(const [name,g,a,note] of confirmed){let row=rows.find(x=>x[0]===name);if(!row){row=[name,0,0,""];rows.push(row);}row[1]+=g;row[2]+=a;row[3]=(row[3]?row[3]+" | ":"")+note;}
+ // Historical 2028–29 archive is partial. Remove objectively false 'season not started' labels.
+ for(const row of D.statsBySeason['2028–29']){if(/season not started|Current Napoli player · season not started/i.test(row[3]))row[3]="Historical archive incomplete — not a verified season total"; }
  D.statsSeasonOrder=['2029–30','2028–29','2027–28'];
  D.statsCurrentSeason='2029–30';
  D.statsUnavailableSeasons=['2025–26','2026–27'];
@@ -70,5 +84,5 @@
    return [name,goals,assists,seasons.join(', ')];
  }).sort((a,b)=>(b[1]-a[1])||(b[2]-a[2])||String(a[0]).localeCompare(String(b[0])));
  D.stats=D.statsBySeason['2029–30'];
- D.statsScope='2029–30 active season: confirmed minimum contributions only; 2028–29 and 2027–28 retained as historical archives; earlier seasons unavailable';
+ D.statsScope='Confirmed event minimums, not complete EA FC 26 totals. 2028–29 historical archive is incomplete; Napoli Career totals reflect recorded events only, not complete career production';
 })();
