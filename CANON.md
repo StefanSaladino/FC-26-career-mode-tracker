@@ -1,7 +1,23 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Torino 2–2 Napoli, 9 January 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Monza 0–3 Napoli, 13 January 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
 
+
+## January 2030 — Global Manager of the Year (manager-confirmed)
+- Napoli manager wins the **global** Manager of the Year award, not the Serie A-only award. Exact announcement day is not established.
+- Four actual manager press answers after Monza, quoted in full in `stories-monza-global-manager-award-jan2030.js`; no invented manager answers.
+- Manager sets the goal of sustained dominance and joining the all-time great teams. The complete original wording is preserved in the published press story.
+- Editorial coverage: global award, Monza match report, press conference. Live state: `site-visible-monza-global-award-jan2030.js`.
+
+## 13 January 2030 — Monza 0–3 Napoli, Serie A (confirmed)
+- HT 0–0; manager described control without the final ball.
+- 58′ João Neves goal, Maximilian Beier assist.
+- 73′ Maximilian Beier goal, Pio Esposito assist.
+- 79′ Pio Esposito goal, Kevin De Bruyne assist.
+- FT 0–3, clean sheet. After 19 Serie A matches: **15W 4D 0L, 49 points, 38 GF, 12 GA, +26 GD**. Rival results/current gap unconfirmed.
+- Beier across the last seven confirmed matches: **8 goals, 6 assists**.
+- Manager voluntarily accepted four press questions on accountability, squad competition, defence and historical ambitions. Right to refuse future interviews remains intact.
+- Next Cagliari home Jan 16, Sampdoria home Jan 19, PSV away Jan 22, Roma away Jan 26, Dynamo Kyiv away Jan 30.
 
 ## 9 January 2030 — Torino 2–2 Napoli, Serie A (confirmed)
 - Napoli heavily rotated. HT Torino 0–2 Napoli; FT Torino 2–2 Napoli.
