@@ -48,7 +48,7 @@
       "note": "Retrospective Bastoni feature dated 4 January."
     }
   ],
-  "latest_confirmed_match": "Torino 2–2 Napoli, 9 January 2030",
+  "latest_confirmed_match": "Monza 0–3 Napoli, 13 January 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -61,5 +61,18 @@
     "may_refuse": true,
     "may_postpone": true,
     "may_end": true
+  },
+  "latest_newsroom_package": {
+    "status": "published_to_repository",
+    "date": "January 2030",
+    "topics": [
+      "Global Manager of the Year",
+      "Monza 0–3 Napoli",
+      "Post-match manager press conference"
+    ],
+    "story_file": "stories-monza-global-manager-award-jan2030.js",
+    "site_state": "site-visible-monza-global-award-jan2030.js",
+    "manager_answers": "Four actual responses supplied in chat and quoted verbatim",
+    "visual_qa": "not yet verified"
   }
 }
