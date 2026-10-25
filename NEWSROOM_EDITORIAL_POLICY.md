@@ -20,3 +20,8 @@ Six interviews are backfilled across June, August, October, November, December 2
 
 ## Escalation
 Any month lacking an interview/character feature must be flagged in CANON.md and repaired or explicitly explained at the next editorial review. No silent seven-month gap.
+
+## Public-facing identity firewall — mandatory
+- Luca Ferraro is a **behind-the-scenes media director**. His name must **never** appear in published article headlines, bodies, dek, bylines, captions, interviews, or reader comments/replies.
+- Internal staff memos and in-universe private emails may identify Ferraro. Public journalism must be about the club, matches, players, coaches and supporters.
+- Pre-publication check: case-insensitive search of all public story scripts for `Ferraro`; zero occurrences permitted. Never create reader usernames referencing him.
