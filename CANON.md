@@ -17,6 +17,7 @@
 - Editorial package: `stories-torino-january-2030.js` (three substantial reports, sixty comments and 120 replies). Site state: `site-visible-torino-january-2030.js`.
 
 ## 4 January 2030 — Supercoppa Italiana semifinal (confirmed)
+- Editorial coverage published in `stories-roma-supercoppa-semifinal-jan2030.js`: match report, Beier/Moore focus, and halftime-turnaround analysis. Three stories with 60 comments and 120 replies. This is **not** a final; manager press quotes were not invented.
 - **Napoli 1–2 Roma; Napoli eliminated in the semifinal.** No Supercoppa final for Napoli.
 - 11′ Maximilian Beier scores; Mikey Moore official assist.
 - 43′ Gianluca Mancini equalises for Roma from a corner; finish type and assist unconfirmed.
