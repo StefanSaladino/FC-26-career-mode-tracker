@@ -1,7 +1,21 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Atalanta 1–2 Napoli, late December 2029** (exact calendar date not confirmed). January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 1–2 Roma, 4 January 2030, Supercoppa semifinal**. January 2030 fixture list confirmed from manager's calendar.
 
+
+## 4 January 2030 — Supercoppa Italiana semifinal (confirmed)
+- **Napoli 1–2 Roma; Napoli eliminated in the semifinal.** No Supercoppa final for Napoli.
+- 11′ Maximilian Beier scores; Mikey Moore official assist.
+- 43′ Gianluca Mancini equalises for Roma from a corner; finish type and assist unconfirmed.
+- 49′ Vaz scores for Roma from outside the box. Assist unconfirmed.
+- HT 1–1; FT 1–2. No other match events, xG or substitutions confirmed.
+- Next confirmed fixture: Torino away, Serie A, 9 January 2030.
+
+## Editorial continuity — retrospective repair, 4 January 2030
+- The May 2029 final media-day interviews with Bastoni, Beier and Pio were the last confirmed dedicated interviews before the newsroom's long gap.
+- **Six explicitly fictional, retrospective interviews** backfilled: Bastoni (June), Moore (August), Beier (October), Moore (November), Beier/Pio (December), Bastoni (4 January). These are narrative dialogue, **not manager-confirmed player statements** and not newly confirmed match facts.
+- Luca Ferraro receives an in-universe editorial directive, recorded in `NEWSROOM_EDITORIAL_POLICY.md`. The newsroom must log at least one character-led feature per active in-game month or document a deliberate exception. Follow up on established character arcs.
+- Internal fictional correspondence is archived at `newsroom/internal-correspondence-2030-01-04.md`; **no real-world email was sent**.
 
 ## Atalanta 1–2 Napoli — Serie A, late December 2029 (confirmed)
 - 11′ Gutiérrez scores for Atalanta. Assist not confirmed.
