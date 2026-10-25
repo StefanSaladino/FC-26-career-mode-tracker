@@ -338,5 +338,9 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 ### January 2030 — latest verified matches
 - **13 Jan:** Monza 0–3 Napoli; Neves 58′ (Beier), Beier 73′ (Pio), Pio 79′ (De Bruyne). 15W 4D 0L after 19 league games.
 - **16 Jan:** Napoli 1–1 Cagliari; Beto 20′ after Beukema turnover; Beier 61′ (McTominay). Beier's 16′ rebound ruled out for offside. Napoli 15W 5D 0L, 50 points after 20; seven-point lead over second at that time.
-- **19 Jan:** Napoli 2–0 Sampdoria; McTominay 9′ (Pio), McTominay 64′ (Moore). Clean sheet; 16W 5D 0L, 53 points, 41 GF, 13 GA, +28 after 21 league matches. Current lead over second not confirmed. Next PSV away UCL 22 Jan; Roma away league 26 Jan; Dynamo Kyiv away UCL 30 Jan.
+- **19 Jan:** Napoli 2–0 Sampdoria; McTominay 9′ (Pio), McTominay 64′ (Moore). Clean sheet; 16W 5D 0L, 53 points, 41 GF, 13 GA, +28 after 21 league matches. Current lead over second not confirmed. PSV away UCL 22 Jan played; next Roma away league 26 Jan; Dynamo Kyiv away UCL 30 Jan.
 - **Editorial:** Cagliari and Sampdoria match reports published without invented manager quotes. Manager declined optional Sampdoria press conference.
+
+- **22 Jan:** PSV Eindhoven 0–1 Napoli (UCL league phase); Beier 11′ (Nico Paz). Peacock started and kept a clean sheet. Meret and Kayode injured before match; Meret expected out 6 weeks, Kayode 2 weeks. Exact injury types not confirmed. Next Roma away 26 Jan; Dynamo Kyiv away 30 Jan.
+- **Transfer:** Bayer Leverkusen offered $22M USD for Beukema (81 OVR), who wants to leave. Proposed $32M USD counter discussed; no completed transfer or confirmed submitted counter. Defensive depth a concern given Kayode injury.
+- **Editorial:** PSV match report and Meret/Kayode injury analysis published; no invented manager quotes. All transfer amounts USD.
