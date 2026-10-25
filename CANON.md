@@ -334,3 +334,9 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 2. Update the current state above (record, squad, next fixture, injuries, competition status) within **this same file**; distinguish confirmed, proposed, unknown and private.
 3. If publishing, update website state and public stories from confirmed facts only; private staff material stays private.
 4. Verify the repository update and any affected site integrations. **Never generate CANON-<date>.md or a second active canon.**
+
+### January 2030 — latest verified matches
+- **13 Jan:** Monza 0–3 Napoli; Neves 58′ (Beier), Beier 73′ (Pio), Pio 79′ (De Bruyne). 15W 4D 0L after 19 league games.
+- **16 Jan:** Napoli 1–1 Cagliari; Beto 20′ after Beukema turnover; Beier 61′ (McTominay). Beier's 16′ rebound ruled out for offside. Napoli 15W 5D 0L, 50 points after 20; seven-point lead over second at that time.
+- **19 Jan:** Napoli 2–0 Sampdoria; McTominay 9′ (Pio), McTominay 64′ (Moore). Clean sheet; 16W 5D 0L, 53 points, 41 GF, 13 GA, +28 after 21 league matches. Current lead over second not confirmed. Next PSV away UCL 22 Jan; Roma away league 26 Jan; Dynamo Kyiv away UCL 30 Jan.
+- **Editorial:** Cagliari and Sampdoria match reports published without invented manager quotes. Manager declined optional Sampdoria press conference.
