@@ -1,13 +1,23 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **23 December 2029** (after Napoli 2–0 Roma).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Atalanta 1–2 Napoli, late December 2029** (exact calendar date not confirmed). January 2030 fixture list confirmed from manager's calendar.
 
+
+## Atalanta 1–2 Napoli — Serie A, late December 2029 (confirmed)
+- 11′ Gutiérrez scores for Atalanta. Assist not confirmed.
+- 36′ Maximilian Beier equalises from **Nico Paz's official assist**: Paz through ball, Beier runs through and finishes.
+- 45+1′ **Pio Esposito** scores the winner from **Maximilian Beier's official assist**. Counterattack buildup Paz → Beier → Pio → goal.
+- HT Atalanta 1–2 Napoli; FT Atalanta 1–2 Napoli. No second-half goals. Do not invent xG, possession, shot totals or unconfirmed match events.
+- Serie A after 17: **14W 3D 0L, 45 points, 33 GF, 10 GA, +23 GD**, unbeaten. Atalanta 36 points after 17; Napoli lead Atalanta by **nine points**. The table positions of other clubs after this round are not confirmed.
+- Beier: **five goals and four assists in four latest appearances** (Lazio, Monza, Roma, Atalanta).
+- January 2030 fixtures from manager's calendar: Jan 4 Roma away (Supercoppa); Jan 9 Torino away (Serie A); Jan 13 Monza away (Serie A); Jan 16 Cagliari home (Serie A); Jan 19 Sampdoria home (Serie A); Jan 22 PSV away (UCL); Jan 26 Roma away (Serie A); Jan 30 Dynamo Kyiv away (UCL). Results not yet played or confirmed.
+- Editorial: three Atalanta stories in `stories-atalanta-december-2029.js`; each contains fifteen substantive paragraphs, twenty bespoke comments and forty replies. Latest site state: `site-visible-atalanta-december-2029.js`.
 
 ## Napoli 2–0 Roma — Serie A, 23 December 2029 (confirmed)
 - HT 1–0; FT 2–0. Napoli controlled the match; xG Napoli 2.1, Roma 0.6.
 - 29′ Pio Esposito (Maximilian Beier official assist): Beier through ball; Pio overpowered his defender and finished.
 - 86′ Maximilian Beier (Warren Zaïre-Emery official assist).
-- Serie A after 16: 13W 3D 0L, 42 points, 32 GF, 9 GA, +23 GD. Sixteen league matches unbeaten.
+- Serie A after 16: 13W 3D 0L, 42 points, 31 GF, 9 GA, +22 GD. Sixteen league matches unbeaten.
 - Lazio, Monza and Roma: three consecutive wins and clean sheets; eight goals scored and none conceded.
 - Beier across those three fixtures: four goals and three assists.
 - Next fixture **Atalanta**, second place on 36 points after 16 matches, six behind Napoli. The previous Udinese next-fixture entry was erroneous; date and venue for Atalanta are not confirmed. No further results confirmed.
