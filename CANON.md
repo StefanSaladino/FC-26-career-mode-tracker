@@ -10,7 +10,7 @@
 - Serie A after 16: 13W 3D 0L, 42 points, 32 GF, 9 GA, +23 GD. Sixteen league matches unbeaten.
 - Lazio, Monza and Roma: three consecutive wins and clean sheets; eight goals scored and none conceded.
 - Beier across those three fixtures: four goals and three assists.
-- Next fixture Udinese away, Serie A, 29 December 2029. No further results confirmed.
+- Next fixture **Atalanta**, second place on 36 points after 16 matches, six behind Napoli. The previous Udinese next-fixture entry was erroneous; date and venue for Atalanta are not confirmed. No further results confirmed.
 - Editorial: Roma match report and Beier form analysis in `stories-roma-december-2029.js`.
 
 ## Napoli 3–0 Monza — Coppa Italia, 19 December 2029 (confirmed)
@@ -18,7 +18,7 @@
 - 50′ Beier (Pio Esposito assist); 60′ Mikey Moore top-corner goal (Beier assist); 77′ Beier (Giacomo Raspadori assist).
 - FT 3–0. Monza had zero shots on target. Napoli progress in the Coppa Italia.
 - Beier: two goals, one assist; Moore scored in consecutive fixtures against Lazio and Monza.
-- Next Roma home Serie A 23 Dec; Udinese away Serie A 29 Dec. No further cup opponent confirmed.
+- At the time, Roma home on 23 Dec was next. Following the Roma match, the next opponent is confirmed as Atalanta; the previously listed Udinese fixture was incorrect. No further cup opponent confirmed.
 
 ## Lazio 0–3 Napoli — Serie A, 16 December 2029 (confirmed)
 - HT Lazio 0–2 Napoli; FT Lazio 0–3 Napoli.
