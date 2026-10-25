@@ -1,7 +1,20 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 1–2 Roma, 4 January 2030, Supercoppa semifinal**. January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Torino 2–2 Napoli, 9 January 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
 
+
+## 9 January 2030 — Torino 2–2 Napoli, Serie A (confirmed)
+- Napoli heavily rotated. HT Torino 0–2 Napoli; FT Torino 2–2 Napoli.
+- 23′ **Maximilian Beier** scores, **Mikey Moore official assist**.
+- 35′ **Mikey Moore** scores, **Maximilian Beier official assist**.
+- 48′ **Madjed** scores for Torino. Assist unconfirmed.
+- 63′ **Lee Ho Jae** scores for Torino. Assist unconfirmed.
+- Torino finished with **three shots and two goals**; no xG, possession, shot map or individual defensive errors confirmed.
+- Manager assessed the rotated back four as **horrendous in the second half**. This is a managerial evaluation, not evidence assigning individual blame.
+- Serie A after 18: **14W 4D 0L, 46 points, 35 GF, 12 GA, +23 GD**. Unbeaten in the league. Current lead over rivals unconfirmed pending their results.
+- Beier across six confirmed matches (Lazio, Monza Coppa, Roma league, Atalanta league, Roma Supercoppa, Torino): **7 goals, 5 assists**.
+- Next: Monza away, 13 January 2030.
+- Editorial package: `stories-torino-january-2030.js` (three substantial reports, sixty comments and 120 replies). Site state: `site-visible-torino-january-2030.js`.
 
 ## 4 January 2030 — Supercoppa Italiana semifinal (confirmed)
 - **Napoli 1–2 Roma; Napoli eliminated in the semifinal.** No Supercoppa final for Napoli.
