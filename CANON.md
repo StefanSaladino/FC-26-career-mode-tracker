@@ -1,7 +1,20 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **11 December 2029** (after Benfica 1–1 Napoli).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **19 December 2029** (after Napoli 3–0 Monza).
 
+
+## Napoli 3–0 Monza — Coppa Italia, 19 December 2029 (confirmed)
+- HT 0–0; Napoli dominated; Zaïre-Emery hit the post.
+- 50′ Beier (Pio Esposito assist); 60′ Mikey Moore top-corner goal (Beier assist); 77′ Beier (Giacomo Raspadori assist).
+- FT 3–0. Monza had zero shots on target. Napoli progress in the Coppa Italia.
+- Beier: two goals, one assist; Moore scored in consecutive fixtures against Lazio and Monza.
+- Next Roma home Serie A 23 Dec; Udinese away Serie A 29 Dec. No further cup opponent confirmed.
+
+## Lazio 0–3 Napoli — Serie A, 16 December 2029 (confirmed)
+- HT Lazio 0–2 Napoli; FT Lazio 0–3 Napoli.
+- 43′ Beier unassisted, rebound from Horníček save on Paz shot; 45+2′ Paz (Beier assist).
+- Moore substituted on 51′; scored 56′ (João Neves assist).
+- Serie A after 15: 12W 3D 0L, 39 points, 30 GF, 9 GA, +21 GD.
 
 ## Benfica 1–1 Napoli — Champions League, 11 December 2029 (confirmed)
 - FT Benfica 1–1 Napoli. Pio Esposito 50′, from an extremely narrow angle just yards ahead of the goal line and to the goalkeeper's left; **Maximilian Beier official assist**.
