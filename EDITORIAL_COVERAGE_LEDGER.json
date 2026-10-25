@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "policy": "At least one player interview or character feature per active in-game month, or a documented exception. Manager and assistant press is optional and requires in-chat consent; refusal permitted.",
+  "historical_player_features": [
+    {
+      "month": "2029-05",
+      "status": "covered",
+      "note": "Champions League final media-day interviews: Bastoni, Beier, Pio."
+    },
+    {
+      "month": "2029-06",
+      "status": "covered",
+      "note": "Retrospective Bastoni feature."
+    },
+    {
+      "month": "2029-07",
+      "status": "review_needed",
+      "note": "No confirmed dedicated feature or approved exception in current audit; review rather than fabricate."
+    },
+    {
+      "month": "2029-08",
+      "status": "covered",
+      "note": "Retrospective Moore feature."
+    },
+    {
+      "month": "2029-09",
+      "status": "review_needed",
+      "note": "No confirmed dedicated feature or approved exception in current audit; review rather than fabricate."
+    },
+    {
+      "month": "2029-10",
+      "status": "covered",
+      "note": "Retrospective Beier feature."
+    },
+    {
+      "month": "2029-11",
+      "status": "covered",
+      "note": "Retrospective Moore feature."
+    },
+    {
+      "month": "2029-12",
+      "status": "covered",
+      "note": "Retrospective Beier/Pio feature."
+    },
+    {
+      "month": "2030-01",
+      "status": "covered",
+      "note": "Retrospective Bastoni feature dated 4 January."
+    }
+  ],
+  "latest_confirmed_match": "Torino 2–2 Napoli, 9 January 2030",
+  "manager_press": {
+    "status": "optional",
+    "consent_required": true,
+    "may_refuse": true,
+    "may_postpone": true,
+    "may_end": true
+  },
+  "assistant_press": {
+    "status": "optional",
+    "may_refuse": true,
+    "may_postpone": true,
+    "may_end": true
+  }
+}
