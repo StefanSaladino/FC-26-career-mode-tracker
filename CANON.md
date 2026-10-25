@@ -1,7 +1,17 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **19 December 2029** (after Napoli 3–0 Monza).
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed in-game date: **23 December 2029** (after Napoli 2–0 Roma).
 
+
+## Napoli 2–0 Roma — Serie A, 23 December 2029 (confirmed)
+- HT 1–0; FT 2–0. Napoli controlled the match; xG Napoli 2.1, Roma 0.6.
+- 29′ Pio Esposito (Maximilian Beier official assist): Beier through ball; Pio overpowered his defender and finished.
+- 86′ Maximilian Beier (Warren Zaïre-Emery official assist).
+- Serie A after 16: 13W 3D 0L, 42 points, 32 GF, 9 GA, +23 GD. Sixteen league matches unbeaten.
+- Lazio, Monza and Roma: three consecutive wins and clean sheets; eight goals scored and none conceded.
+- Beier across those three fixtures: four goals and three assists.
+- Next fixture Udinese away, Serie A, 29 December 2029. No further results confirmed.
+- Editorial: Roma match report and Beier form analysis in `stories-roma-december-2029.js`.
 
 ## Napoli 3–0 Monza — Coppa Italia, 19 December 2029 (confirmed)
 - HT 0–0; Napoli dominated; Zaïre-Emery hit the post.
