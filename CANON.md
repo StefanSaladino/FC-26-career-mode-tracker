@@ -1,5 +1,14 @@
 # CANON — Napoli & Italy Career Mode
 
+## 17 February 2030 — Napoli 2–1 Parma, Serie A (confirmed)
+- 8′ Francesco Pio Esposito goal, Nico Paz assist.
+- 44′ Frigan equaliser for Parma; assist not confirmed. HT 1–1.
+- 79′ Francesco Pio Esposito winner, João Neves assist. FT 2–1.
+- Pio second consecutive Serie A brace, four goals across Sassuolo and Parma.
+- Napoli after 25 league games: 18W 7D 0L, 61 points, unbeaten. Bergamo's latest result and current gap unconfirmed.
+- Next Lecce away 24 February. Editorial: stories-parma-feb2030.js and site-visible-parma-feb2030.js.
+
+
 ## 9 February 2030 — Sassuolo 0–4 Napoli, Serie A (confirmed)
 - 12′ Mikey Moore goal disallowed for offside. Manager reports the hand was judged offside; footage not independently reviewed.
 - 32′ Maximilian Beier goal, Mikey Moore assist.
@@ -14,7 +23,7 @@
 - Coverage: stories-sassuolo-feb2030.js and site-visible-sassuolo-feb2030.js.
 
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Sassuolo 0–4 Napoli, 9 February 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 2–1 Parma, 17 February 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
 
 
 ## January 2030 — Global Manager of the Year (manager-confirmed)
