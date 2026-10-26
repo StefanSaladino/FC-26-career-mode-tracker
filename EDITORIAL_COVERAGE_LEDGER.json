@@ -78,14 +78,16 @@
     "topics": [
       "Napoli 0–3 Bologna",
       "First league defeat after 26 unbeaten",
-      "Rotation and upcoming Liverpool tie"
+      "Rotation and upcoming Liverpool tie",
+      "Torino rotation warning and squad management ahead of Liverpool"
     ],
     "story_files": [
-      "stories-bologna-first-defeat-mar2030.js"
+      "stories-bologna-first-defeat-mar2030.js",
+      "stories-rotation-reckoning-mar2030.js"
     ],
     "site_state": "site-visible-bologna-loss-mar2030.js",
     "manager_answers": "No post-Bologna press answers supplied; no quotes invented",
     "visual_qa": "not verified",
-    "editorial_review": "12-paragraph major-event match report, 12 distinct supporter threads with replies; March player feature pending."
+    "editorial_review": "Two distinct substantial articles (12 paragraphs each), 21 article-specific top-level supporter threads with replies. March character feature pending. Local test and visual QA not performed."
   }
 }
