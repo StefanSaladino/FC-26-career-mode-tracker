@@ -1,6 +1,20 @@
 # CANON — Napoli & Italy Career Mode
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Monza 0–3 Napoli, 13 January 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
+## 9 February 2030 — Sassuolo 0–4 Napoli, Serie A (confirmed)
+- 12′ Mikey Moore goal disallowed for offside. Manager reports the hand was judged offside; footage not independently reviewed.
+- 32′ Maximilian Beier goal, Mikey Moore assist.
+- 41′ Mikey Moore goal, unassisted: corner clearance bounces centrally; Moore flicks up and volleys into the top corner.
+- 44′ Francesco Pio Esposito goal, Mikey Moore assist.
+- Half-time 0–3. At 87′ Napoli had seven shots on target and still led 3–0.
+- 90+2′ Pio Esposito goal, Giacomo Raspadori assist. Final score 0–4; clean sheet.
+- Moore: one goal and two assists; Pio: two goals.
+- Serie A after 24: 17W 7D 0L, 48 GF, 16 GA, +32 GD, 58 points.
+- Updated table: Bergamo 53 points from 25 (16W 5D 4L, +19 GD); Juventus 50 from 24; Lombardia FC 49 from 25. Napoli lead Bergamo by five points with a game in hand. Bergamo's latest match score not supplied.
+- Next Parma home 17 February, Lecce away 24 February; Champions League Round of 16 draw pending.
+- Coverage: stories-sassuolo-feb2030.js and site-visible-sassuolo-feb2030.js.
+
+
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Sassuolo 0–4 Napoli, 9 February 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
 
 
 ## January 2030 — Global Manager of the Year (manager-confirmed)
