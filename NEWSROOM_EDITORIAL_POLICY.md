@@ -25,3 +25,10 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Luca Ferraro is a **behind-the-scenes media director**. His name must **never** appear in published article headlines, bodies, dek, bylines, captions, interviews, or reader comments/replies.
 - Internal staff memos and in-universe private emails may identify Ferraro. Public journalism must be about the club, matches, players, coaches and supporters.
 - Pre-publication check: case-insensitive search of all public story scripts for `Ferraro`; zero occurrences permitted. Never create reader usernames referencing him.
+
+## Reply ownership and recurring-character continuity — mandatory
+- The established community cast leads discussions. Do not manufacture unfamiliar handles to fill thread space.
+- When a reader responds to an original comment, the original author should often return to defend, clarify, concede, or develop their position. The original poster remains the anchor of a substantial thread.
+- Build back-and-forth dialogue between identifiable participants before adding third parties. Third-party interruptions must be relevant, not random swaps of speakers.
+- Cross-article continuity matters: readers remember their own earlier claims and the positions of familiar rivals. Some comments naturally receive no replies.
+- No fixed quotas or reply-depth limits; meaningful conversation governs length.
