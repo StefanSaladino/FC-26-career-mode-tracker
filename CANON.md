@@ -1,5 +1,15 @@
 # CANON — Napoli & Italy Career Mode
 
+## 6 March 2030 — Sampdoria 0–2 Napoli, Coppa Italia (manager-confirmed)
+- 18′ Pio Esposito scores from his own rebound after initial shot saved; Scott McTominay official assist.
+- HT Sampdoria 0–1 Napoli.
+- Second half: Pio slips Maximilian Beier through; Beier outpaces the centre-back and finishes. Beier goal, Pio assist. Exact goal minute NOT confirmed.
+- FT Sampdoria 0–2 Napoli; clean sheet. Manager observes the stronger side performed markedly better than the heavily rotated team against Bologna.
+- Next: Cremonese away Serie A 10 March; Liverpool away UCL Round of 16 first leg 13 March; Como home Serie A 16 March; Liverpool home UCL second leg 19 March; Genoa away Serie A 24 March.
+- Coverage: stories-sampdoria-coppa-march2030.js, stories-pio-beier-feature-mar2030.js, site-visible-sampdoria-mar2030.js. March character-led feature completed.
+- No manager post-match press quotations supplied; no direct quotes invented.
+
+
 ## 2 March 2030 — Napoli 0–3 Bologna, Serie A (manager-confirmed)
 - Heavily rotated Napoli team; manager described the performance as terrible and said the rotation was costing points.
 - 5′ Orsolini scores for Bologna. 45+1′ Belahyane scores. HT Napoli 0–2 Bologna.
@@ -36,7 +46,7 @@
 - Coverage: stories-sassuolo-feb2030.js and site-visible-sassuolo-feb2030.js.
 
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 0–3 Bologna, 2 March 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Sampdoria 0–2 Napoli, 6 March 2030, Coppa Italia**. January 2030 fixture list confirmed from manager's calendar.
 
 
 ## January 2030 — Global Manager of the Year (manager-confirmed)
