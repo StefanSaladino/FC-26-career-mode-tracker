@@ -26,7 +26,7 @@
 - No pressure to accept. Do not turn every match into a mandatory press interaction.
 
 ## Community, media and images
-- For major articles, aim for ~18–20 genuinely differentiated comments with relevant replies when warranted; routine pieces may have fewer. Recurring fans/pundits can disagree, joke and evolve. Never repeat generic templates or insert newsroom administrators as commenters.
+- Comment volume and reply depth are determined entirely by editorial relevance, not fixed quotas, caps, or a one-comment/one-reply template. Some top-level comments have no replies; others receive multiple independent replies, sustained multi-person arguments, or nested back-and-forth exchanges. Threads may carry subplots, humour, disagreement, reversals, and callbacks to prior matches and previous articles. Recurring fans/pundits retain evolving viewpoints and can change their minds. Never force replies, outrage or controversy just to fill space. Never repeat generic templates or insert newsroom administrators as commenters.
 - Relevant cover images must actually exist and display correctly. Prefer real appropriate football imagery; Napoli players depicted in club kit should use approved Napoli-kit edits/assets. Verify cropping and loading on mobile/desktop; don't claim visual verification unless performed.
 - After results, update lead story, latest result, goals, upcoming fixtures, league form, verified standings, player stats, ticker, whispers/pressure points and single canon as applicable. Older scripts must not override newer state.
 
