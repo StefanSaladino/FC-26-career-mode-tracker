@@ -10,7 +10,7 @@
 - Next: 6 March Sampdoria away Coppa Italia; 10 March Cremonese away Serie A; 13 March Liverpool away UCL R16 first leg; 16 March Como home Serie A; 19 March Liverpool home UCL R16 second leg; 24 March Genoa away Serie A.
 - Goalkeeper availability: Meret suffered an injury before 22 January with an expected six-week absence; current medical clearance NOT confirmed. Peacock available on last confirmed roster; Balcombe signed as backup. Do not presume Meret fit.
 - Beukema sold to Tottenham for $22m; Plizzari recalled by Venezia. February screenshot roster is in state-squad-feb2030.js; Italy players Barella and Kean are not Napoli players.
-- Editorial: stories-bologna-first-defeat-mar2030.js and site-visible-bologna-loss-mar2030.js published. Manager has not supplied post-Bologna press quotes. No manager quotes fabricated. March player feature still due.
+- Editorial: stories-bologna-first-defeat-mar2030.js, stories-rotation-reckoning-mar2030.js and site-visible-bologna-loss-mar2030.js published. Manager has not supplied post-Bologna press quotes. No manager quotes fabricated. March player feature still due.
 
 
 ## 17 February 2030 — Napoli 2–1 Parma, Serie A (confirmed)
