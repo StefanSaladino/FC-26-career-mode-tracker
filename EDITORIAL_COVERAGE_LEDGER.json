@@ -48,7 +48,7 @@
       "note": "Retrospective Bastoni feature dated 4 January."
     }
   ],
-  "latest_confirmed_match": "Roma 2–2 Napoli, 26 January 2030",
+  "latest_confirmed_match": "Napoli 1–1 Lazio, 3 February 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -64,16 +64,19 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "26 January 2030",
+    "date": "3 February 2030",
     "topics": [
-      "Roma 2–2 Napoli",
-      "Vaz 90+1 equaliser",
-      "Beier goal and assist",
-      "Pio Esposito goal"
+      "Napoli 1–1 Lazio",
+      "Kitano 90+1 equaliser",
+      "Three-point lead over Bergamo",
+      "Kyiv comeback and UCL fifth-place finish"
     ],
-    "story_file": "stories-roma-january26-2030.js",
-    "site_state": "site-visible-roma-jan26-2030.js",
-    "manager_answers": "No press conference requested",
-    "visual_qa": "not yet verified"
+    "story_files": [
+      "stories-lazio-feb2030.js",
+      "stories-kyiv-standings-jan2030.js"
+    ],
+    "site_state": "site-visible-lazio-feb2030.js",
+    "manager_answers": "No quotes supplied",
+    "visual_qa": "not verified"
   }
 }

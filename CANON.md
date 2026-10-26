@@ -346,3 +346,12 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - **Editorial:** PSV match report and Meret/Kayode injury analysis published; no invented manager quotes. All transfer amounts USD.
 
 - **26 Jan:** Roma 2–2 Napoli (Serie A). Vaz 20′, Beier 45′ (Nico Paz), Pio Esposito 54′ (Beier), Vaz 90+1′. Napoli led 2–1 before stoppage-time equaliser. League after 22: 16W 6D 0L, 54pts, 43GF, 15GA, +28. Gap to second unknown. Next Dynamo Kyiv away UCL 30 Jan. Manager opted to publish without press conference.
+
+### Late January and February 2030 — confirmed updates
+- **30 Jan:** Dynamo Kyiv 3–3 Napoli (UCL). Tsitaishvili 33′, Guerrero 43′, Raspadori 45′ (Moore), Voloshyn 62′, Zaïre-Emery 73′ (Olise), Beier 90+2′ (Pio). Jetten beaten on first goal, Marin allowed turn on second, Peacock beaten by long-distance floating header on third. Napoli rallied from 3–1 down. **Napoli finish 5th in UCL league phase**, direct round-of-16 qualification.
+- **Goalkeepers:** Venezia recalled Plizzari. Napoli signed free-agent GK Emery Balcombe (30, 67 OVR), 1 year, $22,000 USD/week, $64,000 USD signing bonus. Meret recovering from six-week injury; Peacock acting starter.
+- **Transfer:** Beukema (81 OVR) SOLD to Tottenham for **$22M USD**, superseding earlier Leverkusen interest. Kayode returned from injury before Lazio.
+- **Serie A after 22:** Napoli 54 points (16W 6D 0L; 43GF 15GA +28), Atalanta/Bergamo 49 points; five-point lead.
+- **3 Feb:** Napoli 1–1 Lazio. Beier 50′ (Pio assist; Moore involved in buildup), Kitano 90+1′. FT. Serie A after 23: **16W 7D 0L, 55 points, 44GF 16GA, +28**, unbeaten. Manager confirms **lead over Bergamo down to 3 points**; Bergamo implied 52 points, detailed record unconfirmed. Four draws in last five league matches; Roma and Lazio both conceded equalisers at 90+1. No manager press quotes supplied.
+- **February fixtures (manager calendar):** Bologna away Coppa Italia 6 Feb, Sassuolo away Serie A 9 Feb, Parma home Serie A 17 Feb, Lecce away Serie A 24 Feb. UCL round-of-16 opponent and fixture date pending playoff outcomes.
+- **Editorial:** Kyiv comeback, January standings and Lazio late equaliser reports written; homepage integration requested.
