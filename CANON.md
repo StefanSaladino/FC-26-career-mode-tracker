@@ -1,3 +1,13 @@
+## 16 March 2030 — Napoli 1–0 Como, Serie A (manager-confirmed)
+- HT 0–0. Alex Meret returns from injury and is exceptional in first half: four saves, 8.6 **halftime** match rating. Final match rating unknown.
+- Napoli control the entire second half and generate **over 2 xG** (manager-supplied characterization); no goal until stoppage time.
+- 90+1′ Alphonso Davies collects pass from Pio Esposito near Napoli's own goal line, runs the length of the pitch, cuts inside and scores. **Davies goal, Pio official assist**.
+- FT whistle immediately after Como restart. Napoli 1–0 Como.
+- Verified standings screenshot after 29 games: Napoli 70 points (21W 7D 1L, 56 GF, 20 GA, +36 GD); Bergamo Calcio 59 (17W 8D 4L, 43 GF, 23 GA, +20); Juventus 59 (17W 8D 4L, 58 GF, 34 GA, +24); Milano FC 56 (17W 5D 7L, 57 GF, 41 GA, +16); Lombardia FC 53 (15W 8D 6L, 64 GF, 41 GA, +23); Fiorentina 47 (13W 8D 8L, 49 GF, 39 GA, +10). **Napoli eleven points clear** of both second and third.
+- Liverpool home 19 March UCL R16 second leg (Napoli 2–0 aggregate lead); Genoa away 24 March Serie A.
+- Meret returned successfully but **Liverpool goalkeeper selection not yet confirmed**; Peacock performed superbly at Anfield.
+- Coverage: stories-como-davies-meret-mar2030.js; site-visible-como-davies-mar2030.js. No manager press answers or final Meret rating invented.
+
 ## 13 March 2030 — Liverpool 0–2 Napoli, UEFA Champions League Round of 16 first leg (manager-confirmed)
 - 11′ Francesco Pio Esposito scores from Maximilian Beier's through ball; Beier official assist.
 - HT Liverpool 0–1 Napoli. Napoli xG 0.6 to Liverpool 0.0; shots 3–0; shots on target 1–0.
