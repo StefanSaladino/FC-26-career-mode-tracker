@@ -1,3 +1,13 @@
+## 19 March 2030 — Napoli 2–0 Liverpool, UCL Round of 16 second leg (manager-confirmed)
+- HT 0–0. 71′ Maximilian Beier scores on the rebound after Francesco Pio Esposito outmuscles a defender and strikes the post; official assist not confirmed.
+- 80′ Francesco Pio Esposito scores, Mikey Moore official assist. FT Napoli 2–0 Liverpool, **4–0 on aggregate**; Napoli advance to Champions League quarterfinals.
+- Second leg: Napoli xG **2.0** vs Liverpool **0.5**; shots **5–1**; on target **2–1**.
+- Combined tie: Napoli xG **3.8** vs Liverpool **0.9**; shots **11–2**; on target **6–2**; goals **4–0**. Napoli scored more goals than Liverpool managed shots on target across 180 minutes.
+- **C. Peacock started both Liverpool legs and kept two clean sheets**. His outstanding Anfield save remains a major contribution. Meret returned against Como but did not start either Liverpool leg.
+- Quarterfinal draw: Bayern Munich; **away April 9**, **home April 17**. Juventus away Serie A April 13 between legs. April 6 home league, April 20 Fiorentina home, April 24 Sampdoria home Coppa, April 28 away league (opponents for April 6/28 not confirmed from screenshot).
+- Next previously confirmed Serie A match Genoa away March 24; outcome not yet supplied. League last verified Napoli 70 points after 29, eleven clear.
+- Editorial coverage: stories-liverpool-return-mar2030.js (major match report, Peacock explicitly fictional dramatized mixed-zone interview, tactical analysis); site-visible-liverpool-return-mar2030.js. Player interview words are invented *in-universe dialogue*, not manager-confirmed quotes; no manager interview or answers supplied. No new player statistics beyond confirmed match figures.
+
 ## 16 March 2030 — Napoli 1–0 Como, Serie A (manager-confirmed)
 - HT 0–0. Alex Meret returns from injury and is exceptional in first half: four saves, 8.6 **halftime** match rating. Final match rating unknown.
 - Napoli control the entire second half and generate **over 2 xG** (manager-supplied characterization); no goal until stoppage time.
@@ -80,7 +90,7 @@
 - Coverage: stories-sassuolo-feb2030.js and site-visible-sassuolo-feb2030.js.
 
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Sampdoria 0–2 Napoli, 6 March 2030, Coppa Italia**. January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 2–0 Liverpool, 19 March 2030, Champions League**. January 2030 fixture list confirmed from manager's calendar.
 
 
 ## January 2030 — Global Manager of the Year (manager-confirmed)
