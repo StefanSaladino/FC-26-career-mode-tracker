@@ -53,7 +53,7 @@
       "note": "Beier–Pio character-led partnership feature after Bologna cup win, 6 February."
     }
   ],
-  "latest_confirmed_match": "Bologna 0–2 Napoli, 6 February 2030",
+  "latest_confirmed_match": "Sassuolo 0–4 Napoli, 9 February 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -69,18 +69,17 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "6 February 2030",
+    "date": "9 February 2030",
     "topics": [
-      "Bologna 0–2 Napoli Coppa Italia",
-      "Beier 6′ (Pio), Pio 72′ (Beier)",
-      "Beier–Pio partnership feature",
-      "Sassuolo away next; Serie A lead remains three points"
+      "Sassuolo 0–4 Napoli",
+      "Moore goal and two assists, Pio brace",
+      "Five points clear of Bergamo with one game in hand"
     ],
     "story_files": [
-      "stories-bologna-coppa-feb2030.js"
+      "stories-sassuolo-feb2030.js"
     ],
-    "site_state": "site-visible-bologna-feb2030.js",
-    "manager_answers": "No quotes supplied",
+    "site_state": "site-visible-sassuolo-feb2030.js",
+    "manager_answers": "No new answers",
     "visual_qa": "not verified"
   }
 }
