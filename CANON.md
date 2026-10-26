@@ -344,3 +344,5 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - **22 Jan:** PSV Eindhoven 0–1 Napoli (UCL league phase); Beier 11′ (Nico Paz). Peacock started and kept a clean sheet. Meret and Kayode injured before match; Meret expected out 6 weeks, Kayode 2 weeks. Exact injury types not confirmed. Next Roma away 26 Jan; Dynamo Kyiv away 30 Jan.
 - **Transfer:** Bayer Leverkusen offered $22M USD for Beukema (81 OVR), who wants to leave. Proposed $32M USD counter discussed; no completed transfer or confirmed submitted counter. Defensive depth a concern given Kayode injury.
 - **Editorial:** PSV match report and Meret/Kayode injury analysis published; no invented manager quotes. All transfer amounts USD.
+
+- **26 Jan:** Roma 2–2 Napoli (Serie A). Vaz 20′, Beier 45′ (Nico Paz), Pio Esposito 54′ (Beier), Vaz 90+1′. Napoli led 2–1 before stoppage-time equaliser. League after 22: 16W 6D 0L, 54pts, 43GF, 15GA, +28. Gap to second unknown. Next Dynamo Kyiv away UCL 30 Jan. Manager opted to publish without press conference.
