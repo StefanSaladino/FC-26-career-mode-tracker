@@ -1,5 +1,18 @@
 # CANON — Napoli & Italy Career Mode
 
+## 2 March 2030 — Napoli 0–3 Bologna, Serie A (manager-confirmed)
+- Heavily rotated Napoli team; manager described the performance as terrible and said the rotation was costing points.
+- 5′ Orsolini scores for Bologna. 45+1′ Belahyane scores. HT Napoli 0–2 Bologna.
+- Manager introduces Olise, Warren Zaïre-Emery and Kayode at halftime with the instruction to get one goal.
+- 52′ Belahyane scores again. FT Napoli 0–3 Bologna. No Napoli goals. First Serie A defeat after 26 unbeaten league matches.
+- Napoli after 27 league matches: 19W 7D 1L, 64 points, 53 GF, 20 GA, +33 GD. Prior to this match, Bergamo and Juventus were level on 54 points after 26; latest rival results and new lead unconfirmed.
+- Previous Serie A match: Napoli 3–0 Venezia. Beier 34′ (Pio assist), Beier 74′ (Moore assist), Pio 79′ (Paz assist). After 26: 19W 7D 0L, 64 points, 53 GF, 17 GA. This match preceded Bologna; precise date not confirmed.
+- Next: 6 March Sampdoria away Coppa Italia; 10 March Cremonese away Serie A; 13 March Liverpool away UCL R16 first leg; 16 March Como home Serie A; 19 March Liverpool home UCL R16 second leg; 24 March Genoa away Serie A.
+- Goalkeeper availability: Meret suffered an injury before 22 January with an expected six-week absence; current medical clearance NOT confirmed. Peacock available on last confirmed roster; Balcombe signed as backup. Do not presume Meret fit.
+- Beukema sold to Tottenham for $22m; Plizzari recalled by Venezia. February screenshot roster is in state-squad-feb2030.js; Italy players Barella and Kean are not Napoli players.
+- Editorial: stories-bologna-first-defeat-mar2030.js and site-visible-bologna-loss-mar2030.js published. Manager has not supplied post-Bologna press quotes. No manager quotes fabricated. March player feature still due.
+
+
 ## 17 February 2030 — Napoli 2–1 Parma, Serie A (confirmed)
 - 8′ Francesco Pio Esposito goal, Nico Paz assist.
 - 44′ Frigan equaliser for Parma; assist not confirmed. HT 1–1.
@@ -23,7 +36,7 @@
 - Coverage: stories-sassuolo-feb2030.js and site-visible-sassuolo-feb2030.js.
 
 
-**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 2–1 Parma, 17 February 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
+**One living master record.** Update THIS file in place after every manager-confirmed event. Never create another dated or competing canon. Last confirmed match: **Napoli 0–3 Bologna, 2 March 2030, Serie A**. January 2030 fixture list confirmed from manager's calendar.
 
 
 ## January 2030 — Global Manager of the Year (manager-confirmed)
