@@ -46,9 +46,14 @@
       "month": "2030-01",
       "status": "covered",
       "note": "Retrospective Bastoni feature dated 4 January."
+    },
+    {
+      "month": "2030-02",
+      "status": "covered",
+      "note": "Beier–Pio character-led partnership feature after Bologna cup win, 6 February."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–1 Lazio, 3 February 2030",
+  "latest_confirmed_match": "Bologna 0–2 Napoli, 6 February 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -64,18 +69,17 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "3 February 2030",
+    "date": "6 February 2030",
     "topics": [
-      "Napoli 1–1 Lazio",
-      "Kitano 90+1 equaliser",
-      "Three-point lead over Bergamo",
-      "Kyiv comeback and UCL fifth-place finish"
+      "Bologna 0–2 Napoli Coppa Italia",
+      "Beier 6′ (Pio), Pio 72′ (Beier)",
+      "Beier–Pio partnership feature",
+      "Sassuolo away next; Serie A lead remains three points"
     ],
     "story_files": [
-      "stories-lazio-feb2030.js",
-      "stories-kyiv-standings-jan2030.js"
+      "stories-bologna-coppa-feb2030.js"
     ],
-    "site_state": "site-visible-lazio-feb2030.js",
+    "site_state": "site-visible-bologna-feb2030.js",
     "manager_answers": "No quotes supplied",
     "visual_qa": "not verified"
   }
