@@ -58,7 +58,7 @@
       "note": "Pio and Beier character-led partnership feature following 6 March Sampdoria cup win."
     }
   ],
-  "latest_confirmed_match": "Liverpool 0–2 Napoli, 13 March 2030",
+  "latest_confirmed_match": "Napoli 1–0 Como, 16 March 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -74,20 +74,19 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "13 March 2030",
+    "date": "16 March 2030",
     "topics": [
-      "Liverpool 0–2 Napoli, Champions League Round of 16 first leg",
-      "Pio Esposito and Michael Olise goals",
-      "Peacock outstanding save and clean sheet",
-      "Liverpool one shot; Napoli xG 1.8–0.4"
+      "Davies 90+1′ full-pitch winner from Pio official assist",
+      "Meret return: four first-half saves and 8.6 halftime rating",
+      "Napoli 70 points, eleven clear after 29 games",
+      "Liverpool goalkeeper decision still unconfirmed"
     ],
     "story_files": [
-      "stories-anfield-masterclass-mar2030.js",
-      "stories-peacock-anfield-mar2030.js"
+      "stories-como-davies-meret-mar2030.js"
     ],
-    "site_state": "site-visible-anfield-result-mar2030.js",
+    "site_state": "site-visible-como-davies-mar2030.js",
     "manager_answers": "None supplied; no direct quotes invented",
     "visual_qa": "not verified",
-    "editorial_review": "Major European match full report and dedicated Peacock feature; no local validator or browser QA performed."
+    "editorial_review": "Exceptional late winner receives substantial match report plus distinct goalkeeper selection analysis; existing asset paths verified, local validator and browser QA not performed."
   }
 }
