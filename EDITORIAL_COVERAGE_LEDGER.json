@@ -51,9 +51,14 @@
       "month": "2030-02",
       "status": "covered",
       "note": "Beier–Pio character-led partnership feature after Bologna cup win, 6 February."
+    },
+    {
+      "month": "2030-03",
+      "status": "pending",
+      "note": "March character-led feature due; Bologna defeat report is match coverage, not a dedicated player feature."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–1 Parma, 17 February 2030",
+  "latest_confirmed_match": "Napoli 0–3 Bologna, 2 March 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -69,18 +74,18 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "17 February 2030",
+    "date": "2 March 2030",
     "topics": [
-      "Napoli 2–1 Parma",
-      "Pio brace, Paz and Neves assists",
-      "Napoli unbeaten on 61 points after 25 matches"
+      "Napoli 0–3 Bologna",
+      "First league defeat after 26 unbeaten",
+      "Rotation and upcoming Liverpool tie"
     ],
     "story_files": [
-      "stories-parma-feb2030.js"
+      "stories-bologna-first-defeat-mar2030.js"
     ],
-    "site_state": "site-visible-parma-feb2030.js",
-    "manager_answers": "None supplied; no quotes invented",
+    "site_state": "site-visible-bologna-loss-mar2030.js",
+    "manager_answers": "No post-Bologna press answers supplied; no quotes invented",
     "visual_qa": "not verified",
-    "editorial_review": "Substantial report with differentiated comments and replies; February character feature already covered."
+    "editorial_review": "12-paragraph major-event match report, 12 distinct supporter threads with replies; March player feature pending."
   }
 }
