@@ -1,3 +1,13 @@
+## 13 March 2030 — Liverpool 0–2 Napoli, UEFA Champions League Round of 16 first leg (manager-confirmed)
+- 11′ Francesco Pio Esposito scores from Maximilian Beier's through ball; Beier official assist.
+- HT Liverpool 0–1 Napoli. Napoli xG 0.6 to Liverpool 0.0; shots 3–0; shots on target 1–0.
+- 64′ Nico Paz cuts inside and shoots; Giorgi Mamardashvili makes a fine save, rebound loose; Michael Olise scores the rebound, officially **unassisted**.
+- FT Liverpool 0–2 Napoli. Final xG **Napoli 1.8, Liverpool 0.4**; shots **Napoli 6, Liverpool 1**; on target **Napoli 4, Liverpool 1**. Statistics were supplied in Napoli-first order by the manager.
+- C. Peacock makes an outstanding save on Liverpool's sole shot on target, preserving the clean sheet; manager specifically requests recognition.
+- Napoli carry 2–0 aggregate lead to second leg in Naples on 19 March; Como at home in Serie A on 16 March.
+- Pre-match Liverpool managerial fan speculation remains unverified supporter chatter, not a formal approach.
+- Coverage: stories-anfield-masterclass-mar2030.js; stories-peacock-anfield-mar2030.js; site-visible-anfield-result-mar2030.js. No invented manager press quotes.
+
 # CANON — Napoli & Italy Career Mode
 
 ## 11 March 2030 — Liverpool supporter speculation (user-provided screenshot)
