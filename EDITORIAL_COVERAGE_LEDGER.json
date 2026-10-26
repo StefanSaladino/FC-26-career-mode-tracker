@@ -53,7 +53,7 @@
       "note": "Beier–Pio character-led partnership feature after Bologna cup win, 6 February."
     }
   ],
-  "latest_confirmed_match": "Sassuolo 0–4 Napoli, 9 February 2030",
+  "latest_confirmed_match": "Napoli 2–1 Parma, 17 February 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -69,17 +69,18 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "9 February 2030",
+    "date": "17 February 2030",
     "topics": [
-      "Sassuolo 0–4 Napoli",
-      "Moore goal and two assists, Pio brace",
-      "Five points clear of Bergamo with one game in hand"
+      "Napoli 2–1 Parma",
+      "Pio brace, Paz and Neves assists",
+      "Napoli unbeaten on 61 points after 25 matches"
     ],
     "story_files": [
-      "stories-sassuolo-feb2030.js"
+      "stories-parma-feb2030.js"
     ],
-    "site_state": "site-visible-sassuolo-feb2030.js",
-    "manager_answers": "No new answers",
-    "visual_qa": "not verified"
+    "site_state": "site-visible-parma-feb2030.js",
+    "manager_answers": "None supplied; no quotes invented",
+    "visual_qa": "not verified",
+    "editorial_review": "Substantial report with differentiated comments and replies; February character feature already covered."
   }
 }
