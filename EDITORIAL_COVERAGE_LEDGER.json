@@ -58,7 +58,7 @@
       "note": "Pio and Beier character-led partnership feature following 6 March Sampdoria cup win."
     }
   ],
-  "latest_confirmed_match": "Sampdoria 0–2 Napoli, 6 March 2030",
+  "latest_confirmed_match": "Cremonese 0–2 Napoli, 10 March 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -74,19 +74,19 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "6 March 2030",
+    "date": "11 March 2030",
     "topics": [
-      "Sampdoria 0–2 Napoli",
-      "Pio goal and assist; Beier goal; McTominay assist",
-      "Pio–Beier partnership and Bologna response"
+      "Cremonese 0–2 Napoli",
+      "Napoli nine points clear after 28 Serie A matches",
+      "Liverpool supporter Lionel Boutin suggests Saladino as manager; unverified speculation"
     ],
     "story_files": [
-      "stories-sampdoria-coppa-march2030.js",
-      "stories-pio-beier-feature-mar2030.js"
+      "stories-cremonese-mar2030.js",
+      "stories-liverpool-saladino-speculation-mar2030.js"
     ],
-    "site_state": "site-visible-sampdoria-mar2030.js",
+    "site_state": "site-visible-anfield-preview-mar2030.js",
     "manager_answers": "None supplied; no quotes invented",
     "visual_qa": "not verified",
-    "editorial_review": "Two reports published with supporter comments and replies; March character feature fulfilled. Local validation and browser QA not run."
+    "editorial_review": "Two substantive articles with reader threads; confirmed standings from screenshot; Liverpool interest explicitly framed as one supporter comment. Local validator and browser QA not run."
   }
 }
