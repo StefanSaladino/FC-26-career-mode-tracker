@@ -58,7 +58,7 @@
       "note": "Pio and Beier character-led partnership feature following 6 March Sampdoria cup win."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–0 Como, 16 March 2030",
+  "latest_confirmed_match": "Napoli 2–0 Liverpool, 19 March 2030 (4–0 aggregate)",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -74,19 +74,19 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "16 March 2030",
+    "date": "19 March 2030",
     "topics": [
-      "Davies 90+1′ full-pitch winner from Pio official assist",
-      "Meret return: four first-half saves and 8.6 halftime rating",
-      "Napoli 70 points, eleven clear after 29 games",
-      "Liverpool goalkeeper decision still unconfirmed"
+      "Liverpool eliminated 4–0 aggregate, 2–0 second leg",
+      "Peacock two clean sheets; Liverpool two shots on target across tie",
+      "Fictional, explicitly labelled Peacock mixed-zone interview",
+      "Bayern quarterfinal April 9 away, April 17 home"
     ],
     "story_files": [
-      "stories-como-davies-meret-mar2030.js"
+      "stories-liverpool-return-mar2030.js"
     ],
-    "site_state": "site-visible-como-davies-mar2030.js",
-    "manager_answers": "None supplied; no direct quotes invented",
+    "site_state": "site-visible-liverpool-return-mar2030.js",
+    "manager_answers": "None supplied; no direct manager quotes invented",
     "visual_qa": "not verified",
-    "editorial_review": "Exceptional late winner receives substantial match report plus distinct goalkeeper selection analysis; existing asset paths verified, local validator and browser QA not performed."
+    "editorial_review": "Major European knockout tie: 13-paragraph match report, 14-paragraph explicitly dramatized player interview and eight-paragraph tactical feature; 18 distinct match-report comment threads. JS syntax and browser rendering not verified; no validator executed."
   }
 }
