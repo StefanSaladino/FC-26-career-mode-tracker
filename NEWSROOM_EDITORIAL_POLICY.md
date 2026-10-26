@@ -32,3 +32,8 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Build back-and-forth dialogue between identifiable participants before adding third parties. Third-party interruptions must be relevant, not random swaps of speakers.
 - Cross-article continuity matters: readers remember their own earlier claims and the positions of familiar rivals. Some comments naturally receive no replies.
 - No fixed quotas or reply-depth limits; meaningful conversation governs length.
+
+## Supporter club allegiance — binding continuity
+- Maintain each recurring handle's supported club and perspective consistently across all articles and replies. Rival fans speak as supporters of their own team, never as Napoli supporters unless a clearly established character change explains it.
+- Avoid ambiguous opponent-branded usernames; make their allegiance explicit in the character profile and prose. Distinguish neutral analysts from opposing fans. Rival supporters may praise Napoli, criticize their own side or argue with Napoli fans without switching allegiance.
+- Before publication, audit pronouns (we/our/us), match reactions and cross-article continuity for opponent-branded accounts.
