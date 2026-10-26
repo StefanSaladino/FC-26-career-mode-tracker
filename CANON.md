@@ -1,5 +1,19 @@
 # CANON — Napoli & Italy Career Mode
 
+## 11 March 2030 — Liverpool supporter speculation (user-provided screenshot)
+- A March 11 in-game fan discussion screenshot shows Lionel Boutin suggesting manager Saladino could take Liverpool to the next level. Other commenters Aboudou Doucoure, Florentin Blanke and Ronnie Holmes praise the manager.
+- This is supporter speculation ONLY; no verified Liverpool approach, negotiations, job opening or official interest. Napoli face Liverpool away on 13 March in the Champions League round of 16.
+- Coverage: stories-liverpool-saladino-speculation-mar2030.js. No manager statement supplied.
+
+## 10 March 2030 — Cremonese 0–2 Napoli, Serie A (manager-confirmed)
+- 38′ Pio Esposito scores, Warren Zaïre-Emery assist. HT Cremonese 0–1 Napoli.
+- 70′ João Neves scores, Michael Olise assist. FT Cremonese 0–2 Napoli.
+- Napoli after 28 league games: 20W 7D 1L, 67 points, 55 GF, 20 GA, +35 GD.
+- Verified table after 28 matches: Napoli 67, Bergamo Calcio 58 (17W 7D 4L, 41GF 21GA +20), Juventus 58 (17W 7D 4L, 57GF 33GA +24), Lombardia FC 53 (15W 8D 5L, 63GF 39GA +24), Milano FC 53 (16W 5D 7L, 55GF 40GA +15), Fiorentina 47 (13W 8D 7L, 48GF 37GA +11). Napoli nine points clear, all have played 28.
+- Next: Liverpool away 13 March UCL R16 first leg, Como home 16 March Serie A, Liverpool home 19 March UCL R16 second leg, Genoa away 24 March Serie A.
+- Coverage: stories-cremonese-mar2030.js, site-visible-anfield-preview-mar2030.js. No manager post-match quotes supplied.
+
+
 ## 6 March 2030 — Sampdoria 0–2 Napoli, Coppa Italia (manager-confirmed)
 - 18′ Pio Esposito scores from his own rebound after initial shot saved; Scott McTominay official assist.
 - HT Sampdoria 0–1 Napoli.
