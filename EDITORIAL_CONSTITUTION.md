@@ -39,3 +39,6 @@
 
 ## Session handoff
 When a new chat begins, read AGENTS.md, this file, CANON.md, NEWSROOM_EDITORIAL_POLICY.md, EDITORIAL_COVERAGE_LEDGER.json and current index.html script load order. Reconstruct latest match, fixtures, open storylines, roles and editorial obligations BEFORE writing or publishing. These instructions survive conversation boundaries; do not ask the user to re-explain them.
+
+## Omit uncertain details in published copy
+When a match or squad detail is not confirmed, do not invent it **and do not draw attention to the uncertainty in public-facing articles**. Simply omit that detail and write naturally around what is established. For example, if the starting goalkeeper is not known, do not write that the goalkeeper was unconfirmed or that clean-sheet credit must wait; discuss the team clean sheet without naming a goalkeeper. Keep missing-data flags in internal notes only where necessary for data integrity. When the manager subsequently confirms a detail, update the article and canon. This rule applies to reports, interviews, previews, captions, headlines and public website copy; it does not authorize invented quotes or statistics.
