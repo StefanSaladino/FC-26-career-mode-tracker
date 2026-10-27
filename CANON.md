@@ -458,3 +458,8 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - Four straight team clean sheets: Peacock vs Liverpool twice; Meret vs Como and Genoa.
 - Confirmed upcoming: Bayern away Apr 9, Juventus away Apr 13, Bayern home Apr 17, Fiorentina home Apr 20, Sampdoria home Apr 24. Other April opponents not confirmed.
 - Published Genoa match report and title-race analysis in stories-genoa-title-mar2030.js, site-visible-genoa-mar2030.js. No manager quotes. Live rendering not verified.
+
+### March 2030 — Italy international friendlies (manager-confirmed)
+- Italy 1–0 Norway, friendly, FT. Nicolò Barella scored at 54′; assist unconfirmed. Norway's Erling Haaland was injured and unavailable.
+- Italy 1–0 Cabo Verde, friendly, FT. Francesco Pio Esposito scored at 38′, assisted by brother Sebastiano Esposito. Italy rotated heavily: only Pio, Federico Dimarco and Gianluigi Donnarumma retained from the regular starting group. No further match events or appearances confirmed.
+- International appearances, goals, assists and clean sheets belong to Italy national-team records only. NEVER add them to Napoli's season totals, Napoli career totals, or Napoli club scoring leaderboards. Both friendlies were clean sheets for Italy, not Napoli.
