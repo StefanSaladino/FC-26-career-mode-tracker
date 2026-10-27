@@ -463,3 +463,10 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - Italy 1–0 Norway, friendly, FT. Nicolò Barella scored at 54′; assist unconfirmed. Norway's Erling Haaland was injured and unavailable.
 - Italy 1–0 Cabo Verde, friendly, FT. Francesco Pio Esposito scored at 38′, assisted by brother Sebastiano Esposito. Italy rotated heavily: only Pio, Federico Dimarco and Gianluigi Donnarumma retained from the regular starting group. No further match events or appearances confirmed.
 - International appearances, goals, assists and clean sheets belong to Italy national-team records only. NEVER add them to Napoli's season totals, Napoli career totals, or Napoli club scoring leaderboards. Both friendlies were clean sheets for Italy, not Napoli.
+
+### Napoli 2–1 AC Milan — Serie A, full time (after March 2030 international break)
+- Milan: Fofana 22′. Napoli: Maximilian Beier 38′ (Mikey Moore assist); Francesco Pio Esposito 61′ (Maximilian Beier assist).
+- Pio entered as a substitute at 55′; player replaced unconfirmed. Other starting XI and substitutions unconfirmed. Do not infer them from an assistant-proposed lineup.
+- Napoli recovered from 0–1 to win 2–1. League record after 31 matches: 76 points, 23W 7D 1L, GF60 GA21, GD+39. Second-place gap pending other clubs' results.
+- Official Squad Hub Napoli season stats incremented by this match only: Beier 35 goals, 21 assists; Pio 28 goals, 20 assists; Moore 7 goals, 11 assists. These are all-competition Napoli club stats, not Italy stats.
+- Italy friendlies against Norway and Cabo Verde do not contribute to these Napoli totals. Bayern Munich is the upcoming Champions League opponent.
