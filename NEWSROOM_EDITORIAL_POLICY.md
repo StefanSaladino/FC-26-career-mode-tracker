@@ -48,3 +48,8 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Prefer verified real match/player imagery or approved Napoli-kit assets. For players portrayed as Napoli footballers, use approved Napoli-kit edits where appropriate. Never misrepresent an unrelated photo as an actual scene from a specific match.
 - Verify that referenced asset paths exist, images load and crop properly at desktop and mobile sizes, and supply meaningful alt text when the presentation supports it. Do not claim browser QA unless performed.
 - If no suitable verified image exists, obtain or prepare an appropriate approved asset before publication rather than silently attaching an irrelevant picture. Do not fabricate match-event photographs.
+
+## Strict national-team versus club statistics separation
+- Italy international friendlies, qualifiers and tournaments have a separate national-team statistical scope. Never include Italy goals, assists, appearances or clean sheets in Napoli season or Napoli club-career totals, even for footballers who play for both teams.
+- Label any all-competition club totals as Napoli club competitions only (Serie A, Coppa Italia, UEFA club competitions, etc.). Track international contributions separately and cite the match canon; never infer cumulative international totals from incomplete records.
+- On every Italy match update, verify that Napoli club statistical rows remain unchanged. On every Napoli match update, verify Italy records remain unchanged.
