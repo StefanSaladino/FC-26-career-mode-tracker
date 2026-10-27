@@ -37,3 +37,7 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Maintain each recurring handle's supported club and perspective consistently across all articles and replies. Rival fans speak as supporters of their own team, never as Napoli supporters unless a clearly established character change explains it.
 - Avoid ambiguous opponent-branded usernames; make their allegiance explicit in the character profile and prose. Distinguish neutral analysts from opposing fans. Rival supporters may praise Napoli, criticize their own side or argue with Napoli fans without switching allegiance.
 - Before publication, audit pronouns (we/our/us), match reactions and cross-article continuity for opponent-branded accounts.
+
+## Recurring supporter: SaladinoOutNow
+- `SaladinoOutNow` is an established fan-favourite satirical Napoli commenter, relentlessly and absurdly critical of the manager even during major victories. Preserve the handle, exaggerated personality, callbacks and playful arguments with regulars; do not portray the account as a neutral reporter or genuine confirmed board opposition.
+- Feature the account organically when relevant, without a quota or repetitive identical joke. The account should return to defend its absurd takes when other supporters reply.
