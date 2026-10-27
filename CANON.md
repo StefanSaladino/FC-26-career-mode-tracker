@@ -470,3 +470,12 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - Napoli recovered from 0–1 to win 2–1. League record after 31 matches: 76 points, 23W 7D 1L, GF60 GA21, GD+39. Second-place gap pending other clubs' results.
 - Official Squad Hub Napoli season stats incremented by this match only: Beier 35 goals, 21 assists; Pio 28 goals, 20 assists; Moore 7 goals, 11 assists. These are all-competition Napoli club stats, not Italy stats.
 - Italy friendlies against Norway and Cabo Verde do not contribute to these Napoli totals. Bayern Munich is the upcoming Champions League opponent.
+
+### 9 April 2030 — Bayern Munich 0–3 Napoli, Champions League quarterfinal first leg (manager-confirmed)
+- 14′ Maximilian Beier scores, Scott McTominay assists. 18′ Scott McTominay scores a header from Michael Olise cross. HT Bayern 0–2 Napoli.
+- 25′ Pio Esposito sends Beier through; Til Hofmann saves the attempt onto the post, ball stays out. In second half Hofmann fingertips a McTominay header from another Olise cross. Hofmann had five saves at 66′.
+- At 66′ Napoli xG 2.4 vs Bayern 0.0. 85′ Nico Paz scores on counterattack assisted by Beier. Paz had come on for Olise; substitution minute not confirmed. Paz and Moore had been fatigued pre-match; McTominay started in Paz's usual role, not a new formation.
+- FT Bayern Munich 0–3 Napoli. Final Napoli-first: xG **2.9–0.5**, shots **9–5**, shots on target **8–2**. Napoli lead 3–0 on aggregate, not yet qualified. Napoli starting goalkeeper not confirmed; do not assign personal clean sheet.
+- Official Napoli all-competition club season stats after Bayern: Beier **36 goals 22 assists**; McTominay **5 goals 8 assists**; Paz **5 goals 6 assists**; Olise **2 goals 5 assists**. Baseline March Squad Hub + confirmed Milan + Bayern only; Italy matches excluded. Appearance counts not updated without official confirmation.
+- Next Juventus away Apr 13 Serie A; Bayern home Apr 17 UCL return leg. Serie A remains 76 points after 31 league matches; European result does not change league standings.
+- Editorial: stories-bayern-first-leg-apr2030.js (match report and McTominay character feature), stats-napoli-bayern-apr2030.js, site-visible-bayern-apr2030.js. Browser image QA and validator not yet performed.
