@@ -41,3 +41,10 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 ## Recurring supporter: SaladinoOutNow
 - `SaladinoOutNow` is an established fan-favourite satirical Napoli commenter, relentlessly and absurdly critical of the manager even during major victories. Preserve the handle, exaggerated personality, callbacks and playful arguments with regulars; do not portray the account as a neutral reporter or genuine confirmed board opposition.
 - Feature the account organically when relevant, without a quota or repetitive identical joke. The account should return to defend its absurd takes when other supporters reply.
+
+## Relevant article imagery — standing direction from the Mister
+- Every published story should use an image directly relevant to its specific subject, match, featured player or tactical angle. Avoid repeatedly recycling generic portraits just because they are available.
+- Ferraro coordinates asset selection and editorial image QA internally; he is never named in public articles, bylines, captions or reader comments.
+- Prefer verified real match/player imagery or approved Napoli-kit assets. For players portrayed as Napoli footballers, use approved Napoli-kit edits where appropriate. Never misrepresent an unrelated photo as an actual scene from a specific match.
+- Verify that referenced asset paths exist, images load and crop properly at desktop and mobile sizes, and supply meaningful alt text when the presentation supports it. Do not claim browser QA unless performed.
+- If no suitable verified image exists, obtain or prepare an appropriate approved asset before publication rather than silently attaching an irrelevant picture. Do not fabricate match-event photographs.
