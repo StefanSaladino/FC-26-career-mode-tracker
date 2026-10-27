@@ -53,3 +53,10 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Italy international friendlies, qualifiers and tournaments have a separate national-team statistical scope. Never include Italy goals, assists, appearances or clean sheets in Napoli season or Napoli club-career totals, even for footballers who play for both teams.
 - Label any all-competition club totals as Napoli club competitions only (Serie A, Coppa Italia, UEFA club competitions, etc.). Track international contributions separately and cite the match canon; never infer cumulative international totals from incomplete records.
 - On every Italy match update, verify that Napoli club statistical rows remain unchanged. On every Napoli match update, verify Italy records remain unchanged.
+
+## Reader discussion quality gate — October 2026 corrective directive
+- Before every newsroom release, audit the visible comment section of **each new or revised article**, not just the headline report. Judge its significance and community response against recent comparable coverage. A major Champions League knockout win cannot receive a handful of generic remarks while earlier comparable coverage has dozens of genuine exchanges.
+- Require recognisable emotion tied to actual events: disbelief, celebration, anxiety, frustration, tactical disagreement, rival reactions, humour and callbacks. Use varied tone, rhythm and distinct points of view. Don't mistake an inflated count for quality.
+- Do not recycle identical comments or full threads across different articles. A match report, player feature, tactical preview and interview must each generate their own conversations.
+- Build substantive exchanges: commenters challenge, answer, defend, concede and return. Maintain recurring handles, their allegiances, and the satirical SaladinoOutNow voice. Vary thread shape organically; avoid quotas, artificial outrage and filler.
+- Before publishing, compare each article's comment count, unique text, reply depth and character continuity to recent benchmark articles. Review manually, document any exception and cache-bust updated scripts so readers see revisions.
