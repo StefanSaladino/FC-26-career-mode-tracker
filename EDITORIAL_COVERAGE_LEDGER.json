@@ -56,9 +56,14 @@
       "month": "2030-03",
       "status": "covered",
       "note": "Pio and Beier character-led partnership feature following 6 March Sampdoria cup win."
+    },
+    {
+      "month": "2030-04",
+      "status": "covered",
+      "note": "McTominay character-led feature after goal and assist against Bayern in Munich."
     }
   ],
-  "latest_confirmed_match": "Genoa 0–2 Napoli, 24 March 2030",
+  "latest_confirmed_match": "Bayern Munich 0–3 Napoli, 9 April 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -73,20 +78,19 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "published_to_repository",
-    "date": "24 March 2030",
+    "status": "published_to_repository_pending_index_integration",
+    "date": "9 April 2030",
     "topics": [
-      "Pio brace 32 and 43 minutes, both assisted by Beier",
-      "Meret clean sheet at Genoa",
-      "Napoli 73 points after 30 matches, eleven clear of Bergamo",
-      "Bayern-Juventus-Bayern April run"
+      "Bayern 0–3 Napoli; xG 0.5–2.9, shots 5–9, on target 2–8",
+      "McTominay goal and assist; Beier goal and assist; Paz 85th minute goal",
+      "Napoli club statistics updated by Bayern match"
     ],
     "story_files": [
-      "stories-genoa-title-mar2030.js"
+      "stories-bayern-first-leg-apr2030.js"
     ],
-    "site_state": "site-visible-genoa-mar2030.js",
-    "manager_answers": "None supplied; no direct manager quotes invented",
+    "site_state": "site-visible-bayern-apr2030.js",
+    "manager_answers": "No press interview; no invented answers",
     "visual_qa": "not verified",
-    "editorial_review": "Routine match report plus title-race analysis; recurring supporter conversations; live browser and validator not verified."
+    "editorial_review": "Two substantive articles written; index.html integration blocked by tool safety checks; validator not run."
   }
 }
