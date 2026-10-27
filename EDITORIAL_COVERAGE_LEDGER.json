@@ -78,19 +78,20 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "published_to_repository_pending_index_integration",
-    "date": "9 April 2030",
+    "status": "integrated_into_index",
+    "date": "13 April 2030 pre-match",
     "topics": [
-      "Bayern 0–3 Napoli; xG 0.5–2.9, shots 5–9, on target 2–8",
-      "McTominay goal and assist; Beier goal and assist; Paz 85th minute goal",
-      "Napoli club statistics updated by Bayern match"
+      "Bayern Munich 0–3 Napoli match report and McTominay feature",
+      "Juventus standings and three-front pressure",
+      "Bastoni, Beier and McTominay fictional interviews"
     ],
     "story_files": [
-      "stories-bayern-first-leg-apr2030.js"
+      "stories-bayern-first-leg-apr2030.js",
+      "stories-juventus-three-fronts-apr2030.js"
     ],
     "site_state": "site-visible-bayern-apr2030.js",
-    "manager_answers": "No press interview; no invented answers",
-    "visual_qa": "not verified",
-    "editorial_review": "Two substantive articles written; index.html integration blocked by tool safety checks; validator not run."
+    "manager_answers": "No fabricated manager answers",
+    "visual_qa": "not browser verified",
+    "editorial_review": "Index script integration confirmed by repository fetch; image subject relevance and live browser QA pending."
   }
 }
