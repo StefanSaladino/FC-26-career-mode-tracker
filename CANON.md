@@ -451,3 +451,10 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 
 ### February 2030 — squad census
 - Manager supplied five squad-hub screenshots after Bologna cup match, confirming **38 visible players**, including **15 with loan icons**. Ages, OVR, positions and loan status recorded in `state-squad-feb2030.js` as the current squad census. Screenshots are authoritative for visible entries only; unpictured players are not automatically confirmed as departed. Confirmed highlights: Neves 25/94; Bastoni 30/92; Olise 28/92; Beier 27/91; Paz 25/90; Davies 29/90; Pio 24/89; Zaïre-Emery 23/89; Moore 22/86; De Bruyne 38/78; McTominay 33/86; Peacock 21/75; Freitas 18/66 (loan); Rossetti 18/76 (loan). No match or transfer inferred from these screenshots.
+
+### 24 March 2030 — Genoa and Serie A table
+- Genoa 0–2 Napoli (FT). Pio Esposito scored 32' and 43'; Beier assisted both. Meret started and kept a clean sheet. Selective rotation confirmed; lineup and substitutions not supplied.
+- Standings after 30: Napoli 73 pts (22W 7D 1L, GF58 GA20 GD+38); Bergamo 62 (18W 8D 4L, GF46 GA24 GD+22); Juventus 60 (17W 9D 4L, GF58 GA34 GD+24); Milano FC 59; Lombardia FC 54; Latium 49. Napoli lead second place by 11 points, Juventus by 13. Eight league matches remain.
+- Four straight team clean sheets: Peacock vs Liverpool twice; Meret vs Como and Genoa.
+- Confirmed upcoming: Bayern away Apr 9, Juventus away Apr 13, Bayern home Apr 17, Fiorentina home Apr 20, Sampdoria home Apr 24. Other April opponents not confirmed.
+- Published Genoa match report and title-race analysis in stories-genoa-title-mar2030.js, site-visible-genoa-mar2030.js. No manager quotes. Live rendering not verified.
