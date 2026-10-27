@@ -58,7 +58,7 @@
       "note": "Pio and Beier character-led partnership feature following 6 March Sampdoria cup win."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–0 Liverpool, 19 March 2030 (4–0 aggregate)",
+  "latest_confirmed_match": "Genoa 0–2 Napoli, 24 March 2030",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -74,19 +74,19 @@
   },
   "latest_newsroom_package": {
     "status": "published_to_repository",
-    "date": "19 March 2030",
+    "date": "24 March 2030",
     "topics": [
-      "Liverpool eliminated 4–0 aggregate, 2–0 second leg",
-      "Peacock two clean sheets; Liverpool two shots on target across tie",
-      "Fictional, explicitly labelled Peacock mixed-zone interview",
-      "Bayern quarterfinal April 9 away, April 17 home"
+      "Pio brace 32 and 43 minutes, both assisted by Beier",
+      "Meret clean sheet at Genoa",
+      "Napoli 73 points after 30 matches, eleven clear of Bergamo",
+      "Bayern-Juventus-Bayern April run"
     ],
     "story_files": [
-      "stories-liverpool-return-mar2030.js"
+      "stories-genoa-title-mar2030.js"
     ],
-    "site_state": "site-visible-liverpool-return-mar2030.js",
+    "site_state": "site-visible-genoa-mar2030.js",
     "manager_answers": "None supplied; no direct manager quotes invented",
     "visual_qa": "not verified",
-    "editorial_review": "Major European knockout tie: 13-paragraph match report, 14-paragraph explicitly dramatized player interview and eight-paragraph tactical feature; 18 distinct match-report comment threads. JS syntax and browser rendering not verified; no validator executed."
+    "editorial_review": "Routine match report plus title-race analysis; recurring supporter conversations; live browser and validator not verified."
   }
 }
