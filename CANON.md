@@ -497,3 +497,10 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - Napoli after 33 Serie A games: **79 points, 24W 7D 2L**, five league matches remaining. Bergamo (Atalanta) won its concurrent fixture, rising from 65 to **68 points**, reducing Napoli's lead from 14 to **11 points**. Bergamo maximum 83 points; **five more Napoli points** mathematically guarantee Scudetto independent of Bergamo results.
 - Next Sampdoria at home 24 April Coppa Italia; Manchester City at home 30 April UCL semifinal leg 1, away 8 May leg 2. Other May fixtures as previously confirmed. No results yet.
 - Newsroom files: `stories-fiorentina-defeat-apr2030.js` (match report and title-race analysis), `site-visible-fiorentina-apr2030.js`; dynamically loaded via `site-visible-juventus-apr2030.js`. Browser rendering and local validator not run.
+
+### Late April 2030 — Coppa, Inter and City
+- 24 April Coppa semifinal second leg: Napoli 0–1 Sampdoria (Conti 12′ header from cross). Napoli advance 2–1 on aggregate to Coppa Italia final.
+- Next Serie A match: Inter 1–1 Napoli. Olise scored 41′ from his own rebound after a spilled long shot (unassisted); Lautaro equalised 50′. Napoli now 80 points after 34 matches (24W 8D 2L). Bergamo 69 after 34; four fixtures left, two more Napoli points guarantee the Scudetto.
+- 30 April UCL semifinal first leg: Napoli 1–1 Manchester City. Pio Esposito 13′ (Beier assist), Haaland 37′. Manager called it a very good game between two top teams. Napoli four matches winless across competitions; return away May 8, aggregate 1–1. Club season totals Pio 33 goals and 21 assists; Beier 36 goals and 25 assists.
+- Next Udinese at home May 5. Victory clinches third straight Serie A title. Coppa final opponent/date not yet confirmed.
+- New City articles: stories-manchester-city-first-leg-apr2030.js. Loaded by site-visible-juventus-apr2030.js; homepage state not yet updated. Browser and validator QA pending.
