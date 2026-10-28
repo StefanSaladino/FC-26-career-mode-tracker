@@ -504,3 +504,8 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - 30 April UCL semifinal first leg: Napoli 1–1 Manchester City. Pio Esposito 13′ (Beier assist), Haaland 37′. Manager called it a very good game between two top teams. Napoli four matches winless across competitions; return away May 8, aggregate 1–1. Club season totals Pio 33 goals and 21 assists; Beier 36 goals and 25 assists.
 - Next Udinese at home May 5. Victory clinches third straight Serie A title. Coppa final opponent/date not yet confirmed.
 - New City articles: stories-manchester-city-first-leg-apr2030.js. Loaded by site-visible-juventus-apr2030.js; homepage state not yet updated. Browser and validator QA pending.
+
+### 5 May 2030 — Napoli 1–0 Udinese: THREEPEAT
+- Anton Stach 45+2′, assisted by Mikey Moore. Final score Napoli 1–0 Udinese. Third consecutive Serie A title mathematically secured (2027–28, 2028–29, 2029–30).
+- Napoli 83 points after 35 games: 25W 8D 2L; three league fixtures left. Bergamo's maximum is 81 points from its previously confirmed 69 after 34 games. Six major trophies now won under Mister.
+- Next Manchester City away May 8 in Champions League semifinal second leg; first leg 1–1. Coppa Italia final still pending.
