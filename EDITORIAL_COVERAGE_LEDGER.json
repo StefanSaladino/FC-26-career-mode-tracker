@@ -68,7 +68,7 @@
       "note": "Stach–Moore title-clinching player feature, 5 May 2030."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–0 Udinese, 5 May 2030 — third consecutive Serie A title",
+  "latest_confirmed_match": "Manchester City 0–1 Napoli, 8 May 2030 — UCL semifinal, Napoli advance 2–1 aggregate; City 0 shots, 0.0 xG",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -83,21 +83,23 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "committed_and_script_loader_connected_not_browser_verified",
-    "date": "5 May 2030",
+    "status": "committed_script_loader_connected_not_browser_verified",
+    "date": "8 May 2030",
     "topics": [
-      "Napoli third consecutive Scudetto",
-      "Stach 45+2′ from Moore assist",
-      "Manchester City semifinal second leg May 8"
+      "Napoli reach Champions League final after City 0–1 Napoli, 68% possession, City zero shots",
+      "Porto defeat Arsenal on penalties to reach final",
+      "Restore visibility of May 5 third consecutive Scudetto articles"
     ],
     "story_files": [
+      "stories-city-zero-shots-may2030.js",
+      "stories-porto-final-preview-may2030.js",
       "stories-threepeat-scudetto-may2030.js",
       "stories-threepeat-dynasty-may2030.js",
       "stories-stach-moore-threepeat-may2030.js"
     ],
-    "site_state": "site-visible-threepeat-may2030.js",
-    "manager_answers": "No fabricated manager answers",
+    "site_state": "site-visible-city-final-may2030.js",
+    "manager_answers": "None invented; Sandro press statements from in-chat dramatization",
     "visual_qa": "not browser verified",
-    "editorial_review": "Three twelve-paragraph articles with threaded comments; loader connected. Validator and browser QA not run."
+    "editorial_review": "Sequenced loaders; repaired missing Pio image references to existing Bastoni image. Validator not run."
   }
 }
