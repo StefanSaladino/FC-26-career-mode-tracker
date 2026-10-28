@@ -387,7 +387,7 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 ## Continuous event ledger (chronological, manager-confirmed)
 
 ### Historical foundations — 2027–28 and 2028–29
-- **2027–28:** Napoli won Serie A under Saladino.
+- **2027–28:** Napoli won Serie A **and Coppa Italia** under Saladino, completing a domestic double (manager-confirmed). Coppa final score is not established.
 - **2028–29:** Napoli retained Serie A, 93 points (28W 9D 1L; 70 scored, 17 conceded). Reached Coppa Italia final, losing to Milan on penalties after 2–2 AET. Won Champions League final **2–0 against Real Madrid**, goals Beier 6' (Pio) and Pio 67' (Beier); Peacock kept clean sheet. Italy reached European Championship final and lost to Germany; Italy had missed three World Cups consecutively.
 
 ### Summer 2029 — confirmed business and competitive events
