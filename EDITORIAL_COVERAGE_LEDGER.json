@@ -61,9 +61,14 @@
       "month": "2030-04",
       "status": "covered",
       "note": "McTominay character-led feature after goal and assist against Bayern in Munich."
+    },
+    {
+      "month": "2030-05",
+      "status": "pending",
+      "note": "Stach–Moore title-clinching character feature planned; not yet published."
     }
   ],
-  "latest_confirmed_match": "Napoli 0–1 Fiorentina, 20 April 2030",
+  "latest_confirmed_match": "Napoli 1–0 Udinese, 5 May 2030 — third consecutive Serie A title",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -79,17 +84,18 @@
   },
   "latest_newsroom_package": {
     "status": "committed_and_script_loader_connected_not_browser_verified",
-    "date": "20 April 2030",
+    "date": "5 May 2030",
     "topics": [
-      "Napoli 0–1 Fiorentina rotation defeat",
-      "Bergamo victory narrows lead to 11 points"
+      "Napoli third consecutive Scudetto",
+      "Stach 45+2′ from Moore assist",
+      "Manchester City semifinal second leg May 8"
     ],
     "story_files": [
-      "stories-fiorentina-defeat-apr2030.js"
+      "stories-threepeat-scudetto-may2030.js"
     ],
-    "site_state": "site-visible-fiorentina-apr2030.js",
+    "site_state": "site-visible-threepeat-may2030.js",
     "manager_answers": "No fabricated manager answers",
     "visual_qa": "not browser verified",
-    "editorial_review": "Two substantive articles with threaded comments; linked through site-visible-juventus-apr2030.js dynamic loader. Validator not run."
+    "editorial_review": "Championship report 12 paragraphs, threaded supporter reactions; validator not run; dynasty and player feature pending."
   }
 }
