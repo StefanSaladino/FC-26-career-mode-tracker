@@ -64,8 +64,8 @@
     },
     {
       "month": "2030-05",
-      "status": "pending",
-      "note": "Stach–Moore title-clinching character feature planned; not yet published."
+      "status": "covered",
+      "note": "Stach–Moore title-clinching player feature, 5 May 2030."
     }
   ],
   "latest_confirmed_match": "Napoli 1–0 Udinese, 5 May 2030 — third consecutive Serie A title",
@@ -91,11 +91,13 @@
       "Manchester City semifinal second leg May 8"
     ],
     "story_files": [
-      "stories-threepeat-scudetto-may2030.js"
+      "stories-threepeat-scudetto-may2030.js",
+      "stories-threepeat-dynasty-may2030.js",
+      "stories-stach-moore-threepeat-may2030.js"
     ],
     "site_state": "site-visible-threepeat-may2030.js",
     "manager_answers": "No fabricated manager answers",
     "visual_qa": "not browser verified",
-    "editorial_review": "Championship report 12 paragraphs, threaded supporter reactions; validator not run; dynasty and player feature pending."
+    "editorial_review": "Three twelve-paragraph articles with threaded comments; loader connected. Validator and browser QA not run."
   }
 }
