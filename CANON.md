@@ -509,3 +509,13 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - Anton Stach 45+2′, assisted by Mikey Moore. Final score Napoli 1–0 Udinese. Third consecutive Serie A title mathematically secured (2027–28, 2028–29, 2029–30).
 - Napoli 83 points after 35 games: 25W 8D 2L; three league fixtures left. Bergamo's maximum is 81 points from its previously confirmed 69 after 34 games. Six major trophies now won under Mister.
 - Next Manchester City away May 8 in Champions League semifinal second leg; first leg 1–1. Coppa Italia final still pending.
+
+## 8 May 2030 — Manchester City 0–1 Napoli, Champions League semifinal second leg (manager-confirmed)
+- 42′ Scott McTominay scores, Maximilian Beier official assist. FT Manchester City 0–1 Napoli; Napoli advance 2–1 aggregate after 1–1 first leg.
+- Possession Napoli **68%**, City **32%**. Manchester City **zero total shots** (not merely zero on target) and **0.0 xG**. Manager described the performance as a defensive masterclass and said Napoli controlled much of possession at 75′.
+- Nico Paz and Mikey Moore were tired; McTominay entered the starting lineup. Do not infer full lineup.
+- Beier club season totals now **36 goals, 26 assists**. Pio Esposito last confirmed **33 goals, 21 assists**.
+- Porto defeated Arsenal on penalties in the other semifinal and will face Napoli in the Champions League final; date and venue not confirmed.
+- Napoli reach third Champions League final in four seasons and have already won 2029–30 Serie A; Coppa Italia final remains pending. Six major trophies confirmed, not seven.
+- Sandro Vitale took the post-match media conference; his in-universe answers are assistant-authored, not manager quotations. His statements included: 'How exactly do you park the bus when you've got the keys to the entire car park?' and respectful remarks about Porto.
+- Coverage: stories-city-zero-shots-may2030.js; stories-porto-final-preview-may2030.js; site-visible-city-final-may2030.js. Earlier Scudetto stories remain part of homepage top stories and news grid. No manager press responses invented.
