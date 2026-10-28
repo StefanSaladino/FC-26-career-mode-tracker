@@ -485,3 +485,8 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - Napoli win against Juventus would mean 79 points from 32, Juventus 63, gap to Juventus 16, six fixtures left. Bergamo result unknown and could affect identity of second place. Juventus max 81 after a loss; Bergamo max 83 from 62 with seven matches remaining, so 84 is sufficient to guarantee title regardless of their results.
 - Manager requested multi-story coverage of pressure and exhaustion across Serie A, Champions League and Coppa Italia. stories-juventus-three-fronts-apr2030.js contains factual preview and two explicitly fictional in-universe player interviews (Bastoni, Beier and McTominay); no manager interview or invented manager answers. Interview words are dramatized, not confirmed testimony.
 - No Juventus kickoff, lineups, goals or match result confirmed yet. Previous Bayern news scripts exist but site index activation is pending; do not claim live publication without index integration.
+
+### 28 October 2026 manager schedule confirmation — in-game April–May 2030
+- **30 April 2030:** Napoli host Manchester City at Stadio Diego Armando Maradona, UEFA Champions League semifinal first leg. Opponent and home venue manager-confirmed.
+- **May 2030 calendar (manager screenshot):** May 5 Udinese home (Serie A); May 8 Manchester City away (UCL semifinal second leg); May 12 Cagliari away (Serie A); May 19 home Serie A fixture (opponent crest not confidently identified); May 26 Torino home (Serie A). These are scheduled fixtures, not results.
+- Earlier confirmed fixtures remain April 20 Fiorentina home (Serie A), April 24 Sampdoria home (Coppa Italia). Do not assume May 19 opponent until confirmed.
