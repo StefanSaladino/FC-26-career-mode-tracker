@@ -488,5 +488,5 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 
 ### 28 October 2026 manager schedule confirmation — in-game April–May 2030
 - **30 April 2030:** Napoli host Manchester City at Stadio Diego Armando Maradona, UEFA Champions League semifinal first leg. Opponent and home venue manager-confirmed.
-- **May 2030 calendar (manager screenshot):** May 5 Udinese home (Serie A); May 8 Manchester City away (UCL semifinal second leg); May 12 Cagliari away (Serie A); May 19 home Serie A fixture (opponent crest not confidently identified); May 26 Torino home (Serie A). These are scheduled fixtures, not results.
-- Earlier confirmed fixtures remain April 20 Fiorentina home (Serie A), April 24 Sampdoria home (Coppa Italia). Do not assume May 19 opponent until confirmed.
+- **May 2030 calendar (manager screenshot):** May 5 Udinese home (Serie A); May 8 Manchester City away (UCL semifinal second leg); May 12 Cagliari away (Serie A); May 19 Bergamo (Atalanta) home (Serie A; manager-confirmed); May 26 Torino home (Serie A). These are scheduled fixtures, not results.
+- Earlier confirmed fixtures remain April 20 Fiorentina home (Serie A), April 24 Sampdoria home (Coppa Italia). May 19 opponent confirmed by manager as Bergamo (Atalanta).
