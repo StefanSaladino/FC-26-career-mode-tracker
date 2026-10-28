@@ -490,3 +490,10 @@ Manager explicitly prefers not to over-rotate Pio/Beier in the second league mat
 - **30 April 2030:** Napoli host Manchester City at Stadio Diego Armando Maradona, UEFA Champions League semifinal first leg. Opponent and home venue manager-confirmed.
 - **May 2030 calendar (manager screenshot):** May 5 Udinese home (Serie A); May 8 Manchester City away (UCL semifinal second leg); May 12 Cagliari away (Serie A); May 19 Bergamo (Atalanta) home (Serie A; manager-confirmed); May 26 Torino home (Serie A). These are scheduled fixtures, not results.
 - Earlier confirmed fixtures remain April 20 Fiorentina home (Serie A), April 24 Sampdoria home (Coppa Italia). May 19 opponent confirmed by manager as Bergamo (Atalanta).
+
+### 20 April 2030 — Napoli 0–1 Fiorentina (Serie A), full time
+- Manager rotated squad deliberately due to league lead and upcoming Sampdoria Coppa Italia and Manchester City UCL semifinal; described reserves as not having earned selection through form. Super subs were available, but no confirmed substitutions or second-half events supplied.
+- Fiorentina's **Douvikas scored 43′**. Napoli trailed 0–1 at halftime; manager confirmed Napoli had created nothing meaningful and Fiorentina deserved the lead. Full time **Napoli 0–1 Fiorentina**. No invented xG, shot statistics or substitution details.
+- Napoli after 33 Serie A games: **79 points, 24W 7D 2L**, five league matches remaining. Bergamo (Atalanta) won its concurrent fixture, rising from 65 to **68 points**, reducing Napoli's lead from 14 to **11 points**. Bergamo maximum 83 points; **five more Napoli points** mathematically guarantee Scudetto independent of Bergamo results.
+- Next Sampdoria at home 24 April Coppa Italia; Manchester City at home 30 April UCL semifinal leg 1, away 8 May leg 2. Other May fixtures as previously confirmed. No results yet.
+- Newsroom files: `stories-fiorentina-defeat-apr2030.js` (match report and title-race analysis), `site-visible-fiorentina-apr2030.js`; dynamically loaded via `site-visible-juventus-apr2030.js`. Browser rendering and local validator not run.
