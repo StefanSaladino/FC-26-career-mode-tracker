@@ -66,9 +66,14 @@
       "month": "2030-05",
       "status": "covered",
       "note": "Stach–Moore title-clinching player feature, 5 May 2030."
+    },
+    {
+      "month": "2030-06",
+      "status": "covered",
+      "note": "Treble final player features on Meret/Peacock and Pio/Zaïre-Emery following Porto 0–1 Napoli on June 1."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–0 Torino, Serie A, 26 May 2030 — Raspadori brace; Porto final 1 June unplayed",
+  "latest_confirmed_match": "Porto 0–1 Napoli, UEFA Champions League final, 1 June 2030 — Pio Esposito 51′ from Warren Zaïre-Emery; treble secured",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -83,32 +88,41 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "committed_and_loader_connected_pending_public_browser_qa",
-    "date": "31 May 2030",
+    "status": "committed_loader_integrated_source_audit_passed_pending_browser_visual_qa",
+    "date": "2 June 2030 · In-universe",
     "topics": [
-      "Manager Porto final press conference: direct confirmed manager answers",
-      "Giacomo Raspadori individual fictional in-universe player interview",
-      "Maximilian Beier individual fictional in-universe player interview",
-      "Francesco Pio Esposito individual fictional in-universe player interview",
-      "Alex Meret and C. Peacock joint fictional in-universe player interview",
-      "Alessandro Bastoni individual fictional in-universe player interview",
-      "Toronto 2030 fictional sporting backdrop, manager remarks and Sandro media-day answers"
+      "Champions League final: Porto 0–1 Napoli, Pio Esposito 51′ from Warren Zaïre-Emery, Meret clean sheet",
+      "First treble of current Napoli career-mode era: Serie A, Coppa Italia, UEFA Champions League",
+      "Opinion: comparative historical analysis of Mourinho's Inter 2010, Sacchi's Milan, Herrera's Grande Inter, Juventus's nine-title run, Grande Torino and Maradona-era Napoli",
+      "Meret vs Peacock goalkeeper roles and the final choice",
+      "Pio Esposito and Warren Zaïre-Emery: decisive connection",
+      "City vs Porto: tactical adaptability",
+      "Fictional celebration scenes Naples and Madrid",
+      "Italy World Cup group preparation Tunisia June 9, Japan June 15, Paraguay June 20"
     ],
     "story_files": [
-      "stories-porto-presser-manager-may2030.js",
-      "stories-porto-interviews-raspadori-beier-may2030.js",
-      "stories-porto-interviews-pio-keepers-bastoni-may2030.js",
-      "stories-porto-toronto-sandro-may2030.js"
+      "stories-porto-final-treble-jun2030.js",
+      "stories-italian-giants-napoli-dynasty-opinion-jun2030.js",
+      "stories-porto-meret-pio-features-jun2030.js",
+      "stories-porto-tactics-celebrations-worldcup-jun2030.js"
     ],
-    "site_state": "site-visible-porto-final-media-day-may2030.js",
-    "manager_answers": "Genuine in-chat Porto final and Toronto press answers reproduced directly; no lineup or goalkeeper announced",
-    "player_interviews": "Fictional in-universe dramatizations; labelled per article",
-    "assistant_press": "Sandro Vitale fictional in-universe answers, kept separate from manager quotes",
+    "comment_files": [
+      "comments-porto-final-treble-jun2030.js",
+      "comments-italian-giants-dynasty-jun2030.js",
+      "comments-treble-keepers-pio-jun2030.js",
+      "comments-treble-tactics-city-italy-jun2030.js"
+    ],
+    "site_state": "site-visible-napoli-treble-jun2030.js",
+    "stats_file": "stats-napoli-porto-treble-jun2030.js",
+    "manager_answers": "No post-final press. Manager explicitly opted to celebrate and postpone reporters. Pre-final quotes reused exactly and correctly attributed.",
+    "interviews": "June character features are editorial essays. Celebration scenes explicitly marked as fictional dramatization, not manager-confirmed testimony.",
+    "source_validation": "7 new articles; 139 article body paragraphs; 496 curated comments/replies; zero source-level comment duplicates/self-replies; all cover asset paths present in GitHub tree; JS parse passed; script order and cache key confirmed; source-level homepage simulated with correct result and World Cup next dates; Pio 34 club goals, Warren 7 club assists reconciled.",
     "visual_qa": "not browser verified",
-    "validation": "JavaScript parse checks completed; article and image-path checks and deployment validation pending",
     "comments_audit": {
-      "scope": "Seven new media-day stories: topic-specific replies, varied established users and visitor perspectives",
-      "status": "authored; pending final integrity audit and browser verification"
+      "scope": "All seven stories including the major final and Italian dynasties debate",
+      "top_level": 150,
+      "all_comments_and_replies": 496,
+      "status": "manually inspected, parsed, and authored with unique topical discussion; not browser verified"
     }
   }
 }
