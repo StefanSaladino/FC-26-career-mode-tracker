@@ -94,5 +94,69 @@ C("TacticalNonno","Fourteen wins, four draws, no losses. Excellent record. Still
 C("SouthStandAnalyst","Thirty-five scored, twelve conceded, plus twenty-three. The season profile is strong; the warning is about game management, not panic.",C("CalcioArchivist","That distinction matters. One draw should inform the analysis, not rewrite eighteen rounds.")),
 C("NapoliTherapy","The zero in the loss column is comforting until you remember draws also cost points.",C("TacticalNonno","And this one cost two from a winning position.")),
 C("TorinoGranata","Unbeaten did not mean untouchable. We proved that for forty-five minutes.",C("CurvaB","You proved it for enough minutes. Please go celebrate elsewhere.")),
-C("SaladinoOutNow","An unbeaten team that has drawn four times is actually four defeats away from perfection.",C("CalcioArchivist","That is not how any of those words work."))]
+C("SaladinoOutNow","An unbeaten team that has drawn four times is actually four defeats away from perfection.",C("CalcioArchivist","That is not how any of those words work."))],
+"osimhen-return-bayern-napoli-2029":[
+C("CurvaB","Victor scoring twice at the Maradona feels like being mugged by somebody who still knows where you keep the spare key.",C("BayernObserver","He missed the first-half chance and then punished Napoli twice after the break. That is the cruelty of elite strikers.")),
+C("PioPartenope","2.1 xG, four shots on target, zero goals. I do not want to hear that we created nothing.",C("UrbigWall","You created enough to make our keeper player of the match. Urbig is the reason the score stayed clean.")),
+C("NevesNation","João forcing Urbig into that full-stretch save was the moment I thought the match was turning.",C("TacticalNonno","And Bastoni's header followed from the corner. Napoli had a real spell; Bayern survived it and then scored.")),
+C("MooreMinutes","Mikey was told to warm up. He was not secretly responsible for the last half-hour from the bench.",C("NapoliTherapy","Thank you. I am angry enough without inventing substitutions.")),
+C("MeretWall","Without the exact goal sequences, blaming one defender or the keeper is just fan fiction.",C("OldSchoolNapoli","Review the two goals properly tomorrow. Tonight the only confirmed pain is Osimhen 65 and 79.")),
+C("SaladinoOutNow","Urbig winning player of the match proves the manager failed to instruct Bayern's goalkeeper to stop saving things.",C("CurvaB","At last, the tactical breakthrough we were missing."))],
+"urbig-player-of-match-napoli-bayern-2029":[
+C("NumbersNapoli","The useful part of 2.1 xG to 1.4 is that it kills the 'Napoli were destroyed' story. It does not magically award us points.",C("TacticalNonno","Exactly. Chance quality explains the match; finishing and goalkeeping decided it.")),
+C("UrbigWall","Pio from a tight angle, Neves forcing the stretch, Bastoni from the corner. Those were different saves, not one copy-pasted stat.",C("PioPartenope","And that is why I can praise Urbig without pretending every finish was terrible.")),
+C("PeacockUnion","Please do not turn 'their keeper was excellent' into 'our keeper was at fault' without seeing the goals properly.",C("MeretWall","Goalkeeping analysis has to be about the shot, not the final score.")),
+C("CurvaCalculator","Expected goals are probabilities, not a receipt you exchange for two goals at customer service.",C("NapoliTherapy","I would still like to speak to the customer service manager.")),
+C("BayernObserver","Osimhen gets the theatre because of the return. Urbig gets the match award because Napoli kept making him work.",C("CurvaB","Painfully fair.")),
+C("SaladinoOutNow","If xG cannot overturn the final score after review, I am beginning to question the usefulness of mathematics.",C("NumbersNapoli","Mathematics has filed a restraining order."))],
+"napoli-inter-pressure-after-bayern-2029":[
+C("EuropeanNights","Seven league points from three means this is not a crisis. Losing 2–0 at home to Bayern means Inter still feels enormous.",C("CurvaB","That is exactly the mood: not panic, but absolutely no appetite for another flat night.")),
+C("Interista79","If Napoli leave the same spaces Bayern found, Inter will attack them. We are not coming to admire the European champions.",C("TacticalNonno","Fair. The response has to be structural, not emotional.")),
+C("PioPartenope","I want Pio getting chances where he can attack the goal, not collecting the ball with the angle already dead.",C("OliseMagic","And I want the wide players making defenders turn before the box gets crowded.")),
+C("NevesNation","The midfield created enough against Bayern to make Urbig work. Now it has to control the moments after possession is lost.",C("WarrenWatch","That is the part Inter will test hardest.")),
+C("OldSchoolNapoli","A champion does not need to pretend the Bayern loss was fine. A champion needs to answer it.",C("CurvaB","Preferably with three points and one evening where my heart behaves normally.")),
+C("SaladinoOutNow","Inter should be awarded the match now because Napoli lost five days earlier. Momentum law. Very advanced.",C("NapoliTherapy","Please never become a referee."))],
+"napoli-inter-beier-meret-september-2029":[
+C("CurvaB","BEIER 77. MERET AT THE WHISTLE. I have aged approximately nine years.",C("NapoliTherapy","The crossbar at 86 was the universe offering us a calmer ending and then taking it back.")),
+C("BeierBeliever","That header starts with Inter being forced into a bad clearance. Maxi still has to read the drop before everybody else.",C("TacticalNonno","Exactly. Pressure creates the mistake; anticipation turns the mistake into a goal.")),
+C("MeretWall","After spending all week talking about Urbig, our keeper gets the last word tonight.",C("PeacockUnion","And not in a cheap comparison. Meret had one decisive action and made it.")),
+C("Interista79","We were still one action from stealing a draw at the end. That save hurts.",C("CurvaB","Respectfully, I hope it continues hurting until Bologna.")),
+C("NumbersNapoli","Ten points from four league matches after beating Inter is a serious start even if the football has not been clean every week.",C("OldSchoolNapoli","Good teams collect points while they are still solving problems.")),
+C("SaladinoOutNow","Winning 1–0 is unacceptable because it leaves no margin for me to relax before the final whistle.",C("NapoliTherapy","For once this account speaks for all of us."))],
+"bellandi-napoli-inter-answer-september-2029":[
+C("BellandiReader","I hate admitting it, but this is the right column: the Bayern questions were fair and the Inter response deserves credit.",C("CurvaB","Yes. Criticism is not treason, but moving the goalposts after every win would be.")),
+C("BeierBeliever","Calling the 77th-minute clearance 'just a gift' ignores why Inter were hurried and why Maxi was already attacking the second ball.",C("TacticalNonno","Pressure does not guarantee an error. It increases the chance of one and positions you to punish it.")),
+C("MeretWall","Bellandi is also right that the late save matters because the game never became comfortable.",C("NapoliTherapy","Progress, not perfection. I still reserve the right to complain loudly.")),
+C("Interista79","From our side, the frustrating bit is that Napoli nearly made it 2–0 with the move off the bar before we got the final chance.",C("NumbersNapoli","Two different routes to danger in nine minutes. That is a useful response to the Bayern finishing debate.")),
+C("OldSchoolNapoli","The best answer to a columnist is not a press conference. It is three points.",C("BellandiReader","And to his credit, he wrote that sentence himself.")),
+C("SaladinoOutNow","Bellandi refusing to apologize completely shows dangerous levels of independent thought.",C("CurvaB","We will monitor the situation."))],
+"beier-meret-two-ends-inter-napoli-2029":[
+C("TacticalNonno","This is the first analysis of the Inter game that actually separates the two attacking mechanisms: forced clearance for the goal, combination play for the shot off the bar.",C("BeierBeliever","Which matters because Maxi was dangerous in both situations, not just on the header.")),
+C("NevesNation","Pressing is not 'run at defender until something happens.' The second-ball positions are what turn pressure into an attack.",C("SouthStandAnalyst","And we should be honest that we cannot reconstruct every trigger without the full sequence.")),
+C("MeretWall","At 1–0, one late save carries the weight of the entire evening. Meret had no room for a warm-up action.",C("PeacockUnion","That is goalkeeping on a contender: quiet stretches, then one moment that changes two points into three.")),
+C("Interista79","The 86th-minute bar is the part nobody on our side wants to remember. Two down there and the last save never matters.",C("NapoliTherapy","Instead we got the full cardiac package.")),
+C("CurvaCalculator","Ten points from four gives Napoli room to fix the first-half rhythm without inventing a crisis.",C("OldSchoolNapoli","And Bologna away is exactly where you find out whether the lesson sticks.")),
+C("CurvaB","Ugly goal, beautiful move, terrifying save. One-nil somehow contained an entire season's worth of emotions.",C("VesuvioSempre","Napoli football: compact scoreline, maximum suffering."))],
+"liverpool-eliminated-mar19-2030":[
+C("CurvaB","FOUR-NIL ON AGGREGATE. Liverpool managed two shots on target in 180 minutes. I am going to say that until somebody confiscates my phone.",C("LiverpoolAway","Please confiscate it immediately.")),
+C("PioNation","Pio hits the post, Maxi buries the rebound, then Moore feeds Pio nine minutes later. That is a striker partnership and a teenager all writing the ending together.",C("BeierBeliever","And the first-leg goal was Maxi to Pio. They spent both legs creating for each other.")),
+C("PeacockUnion","Two Liverpool shots on target across the tie, two Peacock saves, two clean sheets.",C("MeretWatch","He earned every bit of the praise. The Bayern selection can be a separate conversation.")),
+C("NumbersNapoli","3.8 xG to 0.9, eleven shots to two, six on target to two. The aggregate score is not hiding a lucky tie.",C("TacticalNonno","The startling number is still Liverpool's two total attempts. Napoli kept them from even reaching the shooting phase.")),
+C("LiverpoolAway","At Anfield I thought the second leg would at least force chaos. Instead we were still chasing our first real route into the tie.",C("CurvaB","That is the part I will remember: no panic, no invitation back in.")),
+C("SaladinoOutNow","Only 4–0 across two legs? A serious manager would have scored once for every Liverpool shot.",C("NapoliTherapy","You are the reason joy requires moderation tools."))],
+"peacock-liverpool-interview-mar19-2030":[
+C("PeacockUnion","'You cannot switch off' is exactly the goalkeeper part people miss. One shot can arrive after seventy minutes of nothing.",C("KeeperCoach","That Anfield save is the perfect example: almost no work, then immediate full concentration.")),
+C("MeretWatch","I like that the interview does not turn this into Peacock versus Meret.",C("PeacockUnion","Same. Two clean sheets against Liverpool can stand on their own without using them as a weapon against another keeper.")),
+C("OldSchoolNapoli","The line about the clean sheets belonging to everybody in front of him is the right tone for this team.",C("BastoniWall","Liverpool barely reached the point of shooting because the whole structure did its job.")),
+C("EuropeanNights","At 0–0 at halftime in the second leg, the mental challenge must have been strange: comfortable aggregate, absolutely no permission to relax.",C("NapoliTherapy","I was relaxed enough for all of us and then immediately regretted it.")),
+C("NumbersNapoli","Two games, two shots on target faced, two saves. Tiny sample, huge stakes.",C("KeeperCoach","Goalkeeping is sometimes volume; sometimes it is consequence.")),
+C("PressBoxCritic","Good that the article keeps the interview explicitly fictional instead of pretending these are verified quotes.",C("NapoliArchivist","That label matters. The match facts are canon; the dialogue is dramatization."))],
+"liverpool-two-shots-analysis-mar19-2030":[
+C("TacticalNonno","Two shots in 180 minutes is not just a goalkeeper statistic. It means Liverpool repeatedly failed to turn possession into a final action.",C("SouthStandAnalyst","And it happened at Anfield and in Naples, even when they were chasing a two-goal deficit.")),
+C("NumbersNapoli","Six shots to one in the first leg, five to one in the second. The symmetry is almost more striking than the 4–0 aggregate.",C("LiverpoolAway","From our side, yes. There is no single bad half to hide behind.")),
+C("CurvaB","I love the tactical analysis, but at some point we are allowed to simply laugh at 'Liverpool: two shots'.",C("OldSchoolNapoli","You have until tomorrow morning. Then Bayern exists.")),
+C("PeacockUnion","Low shot volume does not make Peacock irrelevant. It makes the Anfield save more valuable because there was no rhythm to keep him warm.",C("KeeperCoach","Exactly. Readiness without repetition is a different skill.")),
+C("BayernFanMunich","Do not assume Bayern will offer the same sterile possession. The fullback spaces will be tested differently.",C("TacticalNonno","Agreed on the warning. Different opponent, different problem; no reason to erase what Napoli just did.")),
+C("PioNation","Beier at 71, Pio at 80, Moore with the assist. Napoli waited instead of forcing the tie and still found the goals.",C("EuropeanNights","That patience is the part I want carried into Munich."))]
+
 }};})();
