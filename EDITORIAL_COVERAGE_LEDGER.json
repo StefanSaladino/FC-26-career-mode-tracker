@@ -68,7 +68,7 @@
       "note": "Stach–Moore title-clinching player feature, 5 May 2030."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–1 Torino AET, Coppa Italia final May 2030 — Napoli win 4–3 on penalties",
+  "latest_confirmed_match": "Napoli 2–0 Torino, Serie A, 26 May 2030 — Raspadori brace; Porto final 1 June unplayed",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -83,23 +83,32 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "committed_script_loader_connected_not_browser_verified",
-    "date": "May 2030",
+    "status": "committed_and_loader_connected_pending_public_browser_qa",
+    "date": "31 May 2030",
     "topics": [
-      "Coppa Italia victory over Torino on penalties",
-      "Meret save and four successful Napoli penalties",
-      "Domestic double, Bergamo and Torino rotation before Porto"
+      "Manager Porto final press conference: direct confirmed manager answers",
+      "Giacomo Raspadori individual fictional in-universe player interview",
+      "Maximilian Beier individual fictional in-universe player interview",
+      "Francesco Pio Esposito individual fictional in-universe player interview",
+      "Alex Meret and C. Peacock joint fictional in-universe player interview",
+      "Alessandro Bastoni individual fictional in-universe player interview",
+      "Toronto 2030 fictional sporting backdrop, manager remarks and Sandro media-day answers"
     ],
     "story_files": [
-      "stories-coppa-torino-victory-may2030.js"
+      "stories-porto-presser-manager-may2030.js",
+      "stories-porto-interviews-raspadori-beier-may2030.js",
+      "stories-porto-interviews-pio-keepers-bastoni-may2030.js",
+      "stories-porto-toronto-sandro-may2030.js"
     ],
-    "site_state": "site-visible-coppa-torino-may2030.js",
-    "manager_answers": "None; Sandro press quotes only",
+    "site_state": "site-visible-porto-final-media-day-may2030.js",
+    "manager_answers": "Genuine in-chat Porto final and Toronto press answers reproduced directly; no lineup or goalkeeper announced",
+    "player_interviews": "Fictional in-universe dramatizations; labelled per article",
+    "assistant_press": "Sandro Vitale fictional in-universe answers, kept separate from manager quotes",
     "visual_qa": "not browser verified",
-    "validation": "Node validator not run; asset names checked against repository directory",
+    "validation": "JavaScript parse checks completed; article and image-path checks and deployment validation pending",
     "comments_audit": {
-      "scope": "Two new Coppa articles; distinct topical nested replies and established fan voices",
-      "status": "manually authored, not browser verified"
+      "scope": "Seven new media-day stories: topic-specific replies, varied established users and visitor perspectives",
+      "status": "authored; pending final integrity audit and browser verification"
     }
   }
 }
