@@ -41,9 +41,19 @@ const language=s=>{
 const pair=x=>Array.isArray(x)&&x.length>=2&&typeof x[0]==='string'&&typeof x[1]==='string';
 const textKey=s=>String(s||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase();
 function parseReply(item){
- const r=pair(item)?{u:item[0],t:item[1],lang:item[3]||language(item[1])}:item&&typeof item==='object'&&!Array.isArray(item)?{u:item.user||item.handle||item.u,t:item.text||item.body||item.t,lang:item.lang||language(item.text||item.t)}:null;
+ let r;
+ if(pair(item)){
+  const children=[];
+  for(const field of item.slice(2)){
+   if(pair(field))children.push(field);
+   else if(Array.isArray(field))children.push(...field.filter(x=>pair(x)||(x&&typeof x==='object'&&!Array.isArray(x))));
+   else if(field&&typeof field==='object')children.push(field);
+  }
+  r={u:item[0],t:item[1],lang:language(item[1]),replies:children.map(parseReply).filter(Boolean)};
+ }else if(item&&typeof item==='object'&&!Array.isArray(item)){
+  r={u:item.user||item.handle||item.author||item.u,t:item.text||item.body||item.t,lang:item.lang||language(item.text||item.t),replies:(Array.isArray(item.replies)?item.replies:[]).map(parseReply).filter(Boolean)};
+ }
  if(!r||typeof r.u!=='string'||typeof r.t!=='string'||!r.t.trim())return null;
- r.replies=Array.isArray(item?.replies)?item.replies.map(parseReply).filter(Boolean):[];
  return r;
 }
 function parseComment(item){
