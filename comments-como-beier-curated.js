@@ -99,9 +99,9 @@
           "text": "Ten points from four. You've now asked for his dismissal after a win in Como and a Champions League win this week."
         },
         {
-          "user": "SaladinoOutNow",
+          "user": "CurvaB",
           "lang": "en",
-          "text": "I am consistent. You should thank me."
+          "text": "Consistent is one word for it. You wanted him gone before the 88th-minute winner too."
         },
         {
           "user": "CurvaB",
@@ -457,9 +457,9 @@
           "text": "Do you write the last sentence before reading the article?"
         },
         {
-          "user": "SaladinoOutNow",
+          "user": "TacticalNonno",
           "lang": "en",
-          "text": "Efficiency is a tactical philosophy."
+          "text": "One decisive combination can rescue a match, but it cannot be the entire attacking plan. That is the real question."
         }
       ]
     },
