@@ -1,3 +1,13 @@
+## 9 June 2030 — FIFA World Cup group: Italy 3–3 Tunisia (confirmed by manager)
+- FT Italy 3–3 Tunisia, half-time Italy 0–2 Tunisia. Italy collect one point from the opening group match.
+- Tunisia: Hannibal scores in minutes **7, 14, 86** (hat-trick).
+- Italy: Francesco Pio Esposito **48' header, Alessandro Bastoni cross assist** (1–2); Moise Kean **61', Pio Esposito assist** (2–2); Pio Esposito **78', Moise Kean assist** (3–2). Hannibal's 86' goal ends it 3–3.
+- World Cup debut match contributions: Pio **2 goals, 1 assist**, Kean **1 goal, 1 assist**, Bastoni **1 assist**. All international totals, never Napoli club stats.
+- The manager describes Italy's performance as sloppy, a comeback from 0–2 and lost lead. Fans critical of 'Napotalia' are especially vocal. Do not invent quotes from the manager, unconfirmed lineup, xG or a defensive culprit.
+- Italy missed the previous three World Cups in this save, making this return significant. Manager recently completed a Napoli treble.
+- Upcoming Italy World Cup group games: Japan **15 June 2030**, Paraguay **20 June 2030**; results not yet played. Do not invent other standings.
+- Editorial chronology: publish a pre-kickoff World Cup preview as of 8–9 June with no Tunisia spoilers, then post-match Tunisia coverage. Earlier future-tense entries are historical snapshots.
+
 ## 1 June 2030 — UEFA Champions League final: Porto 0–1 Napoli — TREBLE COMPLETED (manager-confirmed)
 
 - **Full time: Porto 0–1 Napoli at the Santiago Bernabéu, Madrid, on 1 June 2030.** Halftime 0–0.
