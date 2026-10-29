@@ -70,7 +70,7 @@ function parseComment(item){
 const normalizeEditorialText=s=>String(s||'').toLocaleLowerCase().replace(/[’‘]/g,"'").replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 function auditThread(rows){
  const seen=new Set();
- let duplicates=0,selfReplies=0;
+ let duplicates=0,selfReplies=0,genericFiltered=0;
  const walk=(nodes,parentUser,articleId)=>{
   const result=[];
   for(const node of nodes){
@@ -90,7 +90,7 @@ function auditThread(rows){
  };
  const cleaned=walk(rows,null,'');
  window.NAPOLI_COMMENT_AUDIT=window.NAPOLI_COMMENT_AUDIT||{};
- return {cleaned,duplicates,selfReplies};
+ return {cleaned,duplicates,selfReplies,genericFiltered};
 }
 function curated(a){
  const id=String(a.id||'');
@@ -112,7 +112,7 @@ function curated(a){
   for(const r of item.replies){const rk=textKey(r.u)+'|'+textKey(r.t);if(!replySeen.has(rk)){existing.replies.push(r);replySeen.add(rk)}}
  }
  const audited=auditThread(result);
- window.NAPOLI_COMMENT_AUDIT[id]={duplicates:audited.duplicates,selfReplies:audited.selfReplies,total:audited.cleaned.length};
+ window.NAPOLI_COMMENT_AUDIT[id]={duplicates:audited.duplicates,selfReplies:audited.selfReplies,genericFiltered:audited.genericFiltered,hardOverride:Array.isArray(hard),total:audited.cleaned.length};
  return audited.cleaned;
 }
 const reply=(r)=>'<article class="fan-comment fan-reply"><div class="comment-avatar fan-avatar">'+safe(r.u).slice(0,1).toUpperCase()+'</div><div class="comment-body"><div class="comment-user fan-comment-meta"><strong>@'+safe(r.u)+'</strong></div><p lang="'+safe(r.lang)+'">'+safe(r.t)+'</p>'+(r.replies?.length?'<div class="comment-replies nested-replies">'+r.replies.map(reply).join('')+'</div>':'')+'</div></article>';
@@ -122,5 +122,5 @@ let busy=false;function sync(){if(busy)return;const r=document.getElementById('r
 const reader=document.getElementById('readerContent');if(reader){new MutationObserver(()=>queueMicrotask(sync)).observe(reader,{childList:true,subtree:true});sync()}
 document.addEventListener('seasonroom:article-opened',()=>requestAnimationFrame(sync));
 document.addEventListener('click',e=>{const b=e.target.closest?.('[data-reply-toggle]');if(b){const t=document.getElementById(b.dataset.replyToggle);if(t){const opening=t.hasAttribute('hidden');if(opening)t.removeAttribute('hidden');else t.setAttribute('hidden','');b.textContent=opening?'Hide replies':'View replies';}return}if(e.target.closest?.('[data-article]'))requestAnimationFrame(sync)});
-window.NAPOLI_COMMENT_ENGINE_VERSION='8.4.0-nested-organic';
+window.NAPOLI_COMMENT_ENGINE_VERSION='8.5.0-full-audit-overrides';
 })();
