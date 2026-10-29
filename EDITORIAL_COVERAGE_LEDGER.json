@@ -88,7 +88,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "committed_connected_index_and_site_loader_updated; source_checks_pending",
+    "status": "published_and_deployed; final_source_checks_and_editorial_quality_gate_passed",
     "date": "21 June 2030 · In-universe",
     "topics": [
       "Japan 3–3 Italy on 15 June: Kubo 5′, Kean 26′ (Pio), Pio 33′ (Kean), Shogai 45′, Kean 52′ (Barella), Calafiori own goal 66′",
@@ -118,12 +118,12 @@
     "manager_quotes": "Only direct halftime words supplied in chat quoted, no invented post-match manager interview",
     "player_interviews": "No authentic or fabricated player interviews; player reactions in roleplay are dramatized and excluded from authentic press testimony",
     "international_scope": "Group only: Pio 3 goals, 4 assists; Kean 5 goals, 2 assists; Bastoni 1 assist; Barella 1 assist. Napoli club stats unchanged.",
-    "source_validation": "Five articles, 81 longform body paragraphs, 70 top-level reader threads and 221 total comments/replies, distinct article imagery and canonical Japan replay/Paraguay result; script validation and DOM test pending",
+    "source_validation": "Five longform articles, 81 paragraphs, 70 top-level threads, 221 distinct comments/replies. All six new JS files parse; combined new-Italy source + DOM simulation passes, latest homepage lead Paraguay, Italy first on 5pts, complete Japan replay only, correct international-only totals, no duplicate or self-replies, unchanged Napoli club stats. GitHub Editorial quality gate success and GitHub Pages deployment success at commit 006976269de0cfdecfe5836929462d40ea67ed9a. Local Node command not executed due runtime network restriction; no rendered-browser visual QA performed.",
     "comments_audit": {
       "scope": "Two Japan articles and three Paraguay articles",
       "top_level": 70,
       "all_comments_and_replies": 221,
-      "status": "authored, pending programmatic source check"
+      "status": "Verified by source-level nested comment checks: zero duplicate text and zero self-replies."
     },
     "visual_qa": "Not browser visually inspected"
   }
