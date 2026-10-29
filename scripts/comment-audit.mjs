@@ -176,13 +176,24 @@ const effectiveCommentIds=new Set([
  'inter-2028-win',
  'inter-2028-depth-opinion'
 ].filter(Boolean));
+const fourthWall=/\b(?:in[- ]universe|canon facts?|dramatized|fictional voices?|user[- ]supplied|manager-confirmed|newsroom rules?)\b/i;
+const assertThreadVoice=(rows,id)=>{
+ const walk=nodes=>{
+  for(const node of nodes){
+   assert(!fourthWall.test(node.t),id+' contains fourth-wall supporter language: '+node.t);
+   walk(node.replies||[]);
+  }
+ };
+ walk(rows);
+};
 for(const id of effectiveCommentIds){
- thread(id);
+ const rendered=thread(id);
  const audit=ctx.window.NAPOLI_COMMENT_AUDIT?.[id];
  assert(audit,id+' did not produce a comment audit record.');
  assert.equal(audit.duplicates,0,id+' still contains duplicate comment/reply wording.');
  assert.equal(audit.selfReplies,0,id+' still contains a supporter replying to themself.');
  assert.equal(audit.genericFiltered,0,id+' still contains generic or low-substance replies that the renderer would filter.');
+ assertThreadVoice(rendered,id);
 }
 const noSpoilers=thread('sassuolo-response');
 assert(noSpoilers.every(x=>!/winner|dragged us level|finished the job|last ten minutes/i.test(x.t)),
