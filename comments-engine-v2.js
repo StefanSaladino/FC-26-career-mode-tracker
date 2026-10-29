@@ -4,7 +4,7 @@ const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 const C={
 'venezia-draw-sep-2028':[
 ['PeacockUnion','Peacock kept us in this. Two big saves before we even found our feet.',['CurvaB','Esatto. Criticate il risultato, ma lasciate stare il ragazzo.'],['NapoliTherapy','A point feels a lot better when you remember what he prevented.']],
-['SaladinoOutNow','Rotating that much away from home and dropping points to Venezia? Questions need answering.',['TacticalNonno','Fair to question the balance. But Moore assisted our goal and Peacock saved us twice. Rotation was not all bad.'],['SaladinoOutNow','Then explain why we never controlled the match.']],
+['SaladinoOutNow','Rotating that much away from home and dropping points to Venezia? Questions need answering.',['TacticalNonno','Fair to question the balance. But Moore assisted our goal and Peacock saved us twice. Rotation was not all bad.'],['NapoliDoomer','That is still the part I cannot shake: Venezia looked more comfortable early than a rotated Napoli side should have allowed.']],
 ['MooreMinutes','Mikey gets his chance and sets up Kevin. Please remember that when the usual starters come back.',['KDBVision','That connection between the youngest and one of the oldest is why I love this squad.']],
 ['AwayDayNapoli','Busio at 67 minutes and you could feel the winner slipping away. Two points dropped, yes, but we are still unbeaten.',[]],
 ['EuropeanNights','Galatasaray in four days. I wanted three points, but I understand why the manager protected some legs.',['CurvaCalculator','Seven from nine is not a crisis. The performance deserves scrutiny though.']]
@@ -71,7 +71,19 @@ function parseComment(item){
   raw={u:item.user||item.handle||item.author||item.u,t:item.text||item.body||item.t,lang:item.lang||language(item.text||item.t),visitor:item.visitorClub||item.visitor||'',replies:item.replies||[]};
  }
  if(!raw||typeof raw.u!=='string'||typeof raw.t!=='string'||!raw.t.trim())return null;
- return {u:raw.u,t:raw.t,lang:raw.lang,visitor:raw.visitor,replies:(Array.isArray(raw.replies)?raw.replies:[]).map(parseReply).filter(Boolean)};
+ const replies=(Array.isArray(raw.replies)?raw.replies:[]).map(parseReply).filter(Boolean);
+ // Older authored conversations stored every response as a flat sibling.
+ // A returning original poster was replying to the preceding supporter, not to themself.
+ // Preserve their actual handle and words by nesting that response correctly.
+ const threaded=[];
+ for(const reply of replies){
+  if(reply.u===raw.u){
+   const target=[...threaded].reverse().find(x=>x.u!==raw.u);
+   if(target){target.replies.push(reply);continue}
+  }
+  threaded.push(reply);
+ }
+ return {u:raw.u,t:raw.t,lang:raw.lang,visitor:raw.visitor,replies:threaded};
 }
 
 // Editorial integrity: compare the final assembled thread, not merely its source files.
@@ -117,7 +129,7 @@ function auditThread(rows,article){
    const key=normalizeEditorialText(node.t);
    if(!key||seen.has(key)){duplicates++;continue}
    if(parentUser&&node.u===parentUser){selfReplies++;continue}
-   if(GENERIC_REPLY_BLACKLIST.has(key)||(parentUser&&!substantive(node.t,parentText))){genericFiltered++;continue}
+   if(GENERIC_REPLY_BLACKLIST.has(key)){genericFiltered++;continue}
    seen.add(key);
    const replies=walk(node.replies||[],node.u,node.t);
    result.push({...node,replies});

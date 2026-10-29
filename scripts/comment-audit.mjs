@@ -157,11 +157,46 @@ const expected=[
  ['beier-mctominay-late-goal-como-analysis-sep-2028',14,17],
  ['napoli-como-late-winner-fan-pressure-sep-2028',10,11]
 ];
+const threadFailures=[];
 for(const [id,minComments,minReplies] of expected){
  const rows=thread(id);
- assert(rows.length>=minComments,id+' lost authored comments: '+rows.length);
- assert(rows.reduce((n,x)=>n+x.replies.length,0)>=minReplies,id+' lost authored replies.');
- assert(rows.every(x=>x.u&&x.t&&x.replies.every(r=>r.u&&r.t)),id+' has malformed author/content.');
+ const replyCount=rows.reduce((n,x)=>n+x.replies.length,0);
+ if(rows.length<minComments)threadFailures.push(id+' lost authored comments: '+rows.length+'/'+minComments);
+ if(replyCount<minReplies)threadFailures.push(id+' lost authored replies: '+replyCount+'/'+minReplies);
+ if(!rows.every(x=>x.u&&x.t&&x.replies.every(r=>r.u&&r.t)))threadFailures.push(id+' has malformed author/content.');
+}
+assert.equal(threadFailures.length,0,'Comment integrity failures:\\n'+threadFailures.join('\\n'));
+// Every effective supporter thread must already be editorially clean at source.
+// The renderer's filters are a last-resort safety net, not a substitute for authored copy.
+const effectiveCommentIds=new Set([
+ ...Object.keys(archive),
+ ...Object.keys(legacy),
+ ...Object.keys(ctx.window.NAPOLI_COMMENT_OVERRIDE||{}),
+ ...expected.map(x=>x[0]),
+ ...ctx.window.NAPOLI_DATA.articles.map(a=>a.id),
+ 'venezia-draw-sep-2028',
+ 'venezia-rotation-debate-sep-2028',
+ 'inter-2028-win',
+ 'inter-2028-depth-opinion'
+].filter(Boolean));
+const fourthWall=/\b(?:in[- ]universe|canon facts?|dramatized|fictional voices?|user[- ]supplied|manager-confirmed|newsroom rules?)\b/i;
+const assertThreadVoice=(rows,id)=>{
+ const walk=nodes=>{
+  for(const node of nodes){
+   assert(!fourthWall.test(node.t),id+' contains fourth-wall supporter language: '+node.t);
+   walk(node.replies||[]);
+  }
+ };
+ walk(rows);
+};
+for(const id of effectiveCommentIds){
+ const rendered=thread(id);
+ const audit=ctx.window.NAPOLI_COMMENT_AUDIT?.[id];
+ assert(audit,id+' did not produce a comment audit record.');
+ assert.equal(audit.duplicates,0,id+' still contains duplicate comment/reply wording.');
+ assert.equal(audit.selfReplies,0,id+' still contains a supporter replying to themself.');
+ assert.equal(audit.genericFiltered,0,id+' still contains generic or low-substance replies that the renderer would filter.');
+ assertThreadVoice(rendered,id);
 }
 const noSpoilers=thread('sassuolo-response');
 assert(noSpoilers.every(x=>!/winner|dragged us level|finished the job|last ten minutes/i.test(x.t)),

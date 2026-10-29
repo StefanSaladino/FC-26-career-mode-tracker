@@ -12,9 +12,9 @@
           "text": "Scoring that early is just showing off. Why didn't he do it in minute 16?"
         },
         {
-          "user": "PioNation",
+          "user": "CurvaB",
           "lang": "en",
-          "text": "You are physically incapable of enjoying Pio, and I respect the commitment."
+          "text": "Say it louder. He scored the winner and somehow tomorrow will still become a referendum on Pio."
         }
       ]
     },
@@ -41,9 +41,9 @@
           "text": "Your museum is suspiciously empty whenever anyone else defends."
         },
         {
-          "user": "BastoniAgenda",
+          "user": "CurvaB",
           "lang": "en",
-          "text": "It's called curatorial focus."
+          "text": "A private museum for Bastoni blocks might be the most predictable thing this account has ever done."
         }
       ]
     },
@@ -58,9 +58,9 @@
           "text": "Counterpoint: one is sufficient when they get zero."
         },
         {
-          "user": "TacticalNonno",
-          "lang": "en",
-          "text": "Finché dura. Questo è il punto."
+          "user": "NapoliDoomer",
+          "lang": "it",
+          "text": "Finché dura, sì. Ma contro una squadra più forte quel secondo gol potrebbe essere necessario."
         }
       ]
     },
@@ -75,9 +75,9 @@
           "text": "13 points from five and you're sending dismissal paperwork."
         },
         {
-          "user": "SaladinoOutNow",
+          "user": "NapoliTherapy",
           "lang": "en",
-          "text": "I believe in proactive governance."
+          "text": "You drafted dismissal papers after a 1–0 win. That is not governance; that is a hobby."
         }
       ]
     },
@@ -419,9 +419,9 @@
           "text": "Normalised winning? You make it sound illegal."
         },
         {
-          "user": "SaladinoOutNow",
+          "user": "CurvaCalculator",
           "lang": "en",
-          "text": "Under my proposed statutes, it is suspicious."
+          "text": "Your proposed statutes have no section explaining why 13 points from five matches is a crisis."
         }
       ]
     },
@@ -472,9 +472,9 @@
           "text": "I am blocking you until Leverkusen."
         },
         {
-          "user": "PioHaterForNoReason",
+          "user": "PioNation",
           "lang": "en",
-          "text": "I will be here when you unblock me."
+          "text": "I have blocked you twice and you keep returning every time Pio scores. At least the commitment is real."
         }
       ]
     },
@@ -550,9 +550,9 @@
           "text": "Your spreadsheet has no ambition."
         },
         {
-          "user": "CurvaCalculator",
+          "user": "TacticalNonno",
           "lang": "en",
-          "text": "It has formulas."
+          "text": "Your spreadsheet has formulas; none of them turn four wins and a draw into an emergency."
         }
       ]
     },
