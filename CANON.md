@@ -1,3 +1,13 @@
+## Late May 2030 — Bergamo, Torino, Raspadori surge and Serie A Player of the Year (manager-confirmed)
+- Napoli beat **Bergamo 1–0** and then **Torino 2–0** in their final two Serie A matches before the Champions League final.
+- **Giacomo Raspadori scored all three Napoli goals across the two matches**: the only goal against Bergamo and both goals against Torino. No goal minutes or assists were supplied; do not invent them.
+- Raspadori's verified Napoli club-season goal total increases from 4 to **7** based on these two confirmed league matches. His previously recorded 6 assists remain unchanged. The Coppa Italia final Napoli scorer/assist remain unconfirmed and are not assigned.
+- Serie A Player of the Year was awarded to **Yoane Wissa**.
+- Manager-supplied league leader screenshots: Wissa **24 goals, 11 assists, 7.61 average rating**; Maximilian Beier **23 goals, league-leading 17 assists, league-leading 7.79 average rating**.
+- The newsroom may debate the award criteria and whether Beier had the stronger statistical case, but must not claim hidden voting criteria as fact.
+- Next and final Napoli club fixture: **Porto, Champions League final, 1 June 2030**.
+- Coverage: `stories-final-league-awards-may2030.js`, `stats-final-league-may2030.js`, `site-visible-final-league-awards-may2030.js`.
+
 ## May 2030 — Coppa Italia final, Napoli 1–1 Torino AET; Napoli win 4–3 on penalties (manager-confirmed)
 - Napoli win Coppa Italia and complete the domestic double alongside third consecutive Serie A Scudetto. Champions League final vs Porto is **1 June 2030**, still unplayed; treble not yet achieved.
 - Final xG Napoli 6.2, Torino 1.7; shots 13–6; shots on target 7–5; Napoli hit woodwork three times. Final after extra time 1–1. Do not invent unconfirmed goal minutes or scorers.
