@@ -1,3 +1,15 @@
+## Porto Champions League final — pre-match manager press conference (manager-confirmed)
+- Manager on the historical stakes: “We have a chance to make history. We understand it’s a big deal. But I’m not going to pretend that one final defines the entirety of what we built. Nor will I pretend that winning this match is enough to be considered one of the all time great dynasties.”
+- Asked what would qualify the team as an all-time great dynasty: “That’s for pundits, analysts, and football historians to decide. We’re just trying to give them enough to work with to make our case.”
+- On selection and Raspadori’s late form: “Every man in that room is capable of being in our starting XI. But I’m not giving away our rotation before the match!”
+- On pressure and Porto: “Pressure sits on whoever wants to feel it. We’ve been here before. We know what it takes to win. But let’s not pretend that Porto is here by accident. They’ve slain giants and proven time and time again that the moment isn’t too big. We have a lot of respect for them. But as I’ve always said. Respect, not fear.”
+- On imposing Napoli’s game: “By treating them like any other team. City, Bayern, Liverpool. We didn’t wait to see what they wanted to do. We imposed our will. I have no interest in trying a different approach. Stick to our game plan and we can beat anyone.”
+- On responding if Napoli go behind: “Because we’ve been there before. We’ve been down and come back in the past. We know what it takes. Why panic now”
+- On the goalkeeper decision: “Admittedly, exceedingly so. We have 2 phenomenal keepers. Each with their own massive moments this season. One man getting the nod over the other isn’t a slight on the other. That’s for sure.”
+- Final dressing-room message before Porto: “No panic. No fear. Respect the opponent. Play OUR game.”
+- No starting XI or goalkeeper selection was revealed.
+- Next fixture: Porto, Champions League final, 1 June 2030.
+
 ## Late May 2030 — Bergamo, Torino, Raspadori surge and Serie A Player of the Year (manager-confirmed)
 - Napoli beat **Bergamo 1–0** and then **Torino 2–0** in their final two Serie A matches before the Champions League final.
 - **Giacomo Raspadori scored all three Napoli goals across the two matches**: the only goal against Bergamo and both goals against Torino. No goal minutes or assists were supplied; do not invent them.
