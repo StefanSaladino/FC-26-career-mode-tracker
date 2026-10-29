@@ -1,0 +1,29 @@
+name: Comment editorial audit
+
+on:
+  push:
+    paths:
+      - 'comments*.js'
+      - 'scripts/comment-audit.mjs'
+      - 'index.html'
+      - 'post-*.js'
+  pull_request:
+    paths:
+      - 'comments*.js'
+      - 'scripts/comment-audit.mjs'
+      - 'index.html'
+      - 'post-*.js'
+  workflow_dispatch:
+
+jobs:
+  comment-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run comment editorial audit
+        run: node scripts/comment-audit.mjs
