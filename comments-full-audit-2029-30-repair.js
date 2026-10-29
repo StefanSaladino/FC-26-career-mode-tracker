@@ -1,8 +1,8 @@
 (()=>{const C=(u,t,...r)=>[u,t,...r];window.NAPOLI_COMMENT_OVERRIDE={...(window.NAPOLI_COMMENT_OVERRIDE||{}),...{
 "juventus-beier-hattrick-oct2029":[
 C("CurvaB","Down after fifteen minutes in Turin and then Beier scores three. That is a statement, not just a comeback.",C("JuventinoAway","It felt like the first goal woke Napoli up instead of rattling them.")),
-C("BeierHive","Pio supplying two of the goals is what makes the hat-trick even better. The forwards are feeding each other instead of competing for the headline.",C("PioNation","Exactly. Two assists for Pio, three finishes for Maxi, one miserable Juventus defence.")),
-C("TacticalNonno","The 3.9 xG matters because the score was not a smash-and-grab. Napoli kept creating after the equaliser.",C("SouthStandAnalyst","That is the difference between surviving a bad start and actually taking the match over.")),
+C("BeierHive","Pio supplying two of the goals is what makes the hat-trick even better. The forwards are feeding each other instead of competing for the headline.",C("PioNation","Two assists while Maxi scores three. I am saving this match for the next person who calls Pio selfish.")),
+C("TacticalNonno","The 3.9 xG matters because the score was not a smash-and-grab. Napoli kept creating after the equaliser.",C("SouthStandAnalyst","Juventus scored first, but Napoli kept creating instead of retreating. The 3.9 xG is why this felt like a takeover, not an escape.")),
 C("NapoliTherapy","I spent eleven minutes preparing an angry halftime speech and then Beier rendered it obsolete.",C("CurvaB","Keep it saved. This team will give you another opportunity.")),
 C("SaladinoOutNow","Conceding first was an unacceptable delay in the hat-trick schedule.",C("BeierHive","He finished it by the 55th minute. How much faster do you need?" ))],
 "pio-milan-brace-2029":[
@@ -14,25 +14,25 @@ C("SaladinoOutNow","Pio scoring twice has selfishly denied us a striker crisis."
 "milan-passing-triangle-2029":[
 C("TacticalNonno","Paz to Beier to Pio twice is the sort of repeated pattern opponents have to solve, not dismiss as coincidence.",C("SouthStandAnalyst","Especially because the same three roles appeared twice at different moments.")),
 C("PazEnjoyer","This is why I keep defending Paz when people only read goals and assists. He breaks the line before the assist exists.",C("BeierHive","Then Maxi makes the right final pass. Everyone in the chain deserves credit.")),
-C("PioNation","And the chain still needs somebody to finish it. Pio did that twice.",C("TacticalNonno","No argument. Structure creates the chance; quality converts it.")),
+C("PioNation","And the chain still needs somebody to finish it. Pio did that twice.",C("TacticalNonno","Paz can break the line and Maxi can make the pass, but Pio still has to attack the space at the right second. The move needs all three.")),
 C("MilanistaNord","Watching the same combination beat us again was the infuriating part. Once is a mistake. Twice is a problem.",C("CurvaB","Thank you for the tactical review from the crime scene.")),
 C("SaladinoOutNow","Repeating the same successful move twice shows a disturbing lack of creative variety.",C("PazEnjoyer","I hope they repeat it twenty more times."))],
 "napoli-unbeaten-milan-2029":[
 C("CurvaB","Nine wins, two draws, twenty-nine points. Eleven unbeaten and Milan just got sent home 3–0.",C("NapoliTherapy","Please stop saying unbeaten out loud. I am superstitious and fragile.")),
-C("TacticalNonno","The clean sheet is the part I like most after the recent run of comebacks and concessions.",C("MeretUnion","Same. A title defence becomes much easier when every match does not require three goals.")),
+C("TacticalNonno","The clean sheet is the part I like most after the recent run of comebacks and concessions.",C("MeretUnion","After the recent comebacks, a clean sheet against Milan feels almost as valuable as the three goals. You cannot spend a title race surviving shootouts.")),
 C("PioNation","The dependence-on-Beier debate lasted about a week before Pio scored four in two matches.",C("BeierHive","And Maxi responded by assisting him twice. That is not dependence. That is partnership.")),
 C("PartenopeiForever","This team has already shown it can win wild and win controlled. That range matters over thirty-eight matches.",C("SouthStandAnalyst","The challenge is keeping both versions available.")),
 C("SaladinoOutNow","Eleven unbeaten merely means the inevitable defeat has been irresponsibly postponed.",C("CurvaB","You are a public-health hazard."))],
 "june-2029-bastoni-champions-reflection":[
 C("PartenopeiForever","The line about medals not defending themselves is exactly what I want from the captain after winning Europe.",C("OldSchoolNapoli","Celebrate the summit, then remind everyone how hard the climb was.")),
-C("TacticalNonno","I like that the interview frames pressure as changing rather than disappearing. Champions get a different burden.",C("SouthStandAnalyst","And that is more believable than pretending winning makes the next season easy.")),
+C("TacticalNonno","I like that the interview frames pressure as changing rather than disappearing. Champions get a different burden.",C("SouthStandAnalyst","The burden changes from chasing history to defending it. Every opponent gets to measure itself against the champions now.")),
 C("CurvaB","I am still not emotionally over Madrid, so Bastoni talking about the next training session feels personally offensive.",C("NapoliTherapy","Professionals recover faster than supporters. Deeply unfair.")),
 C("CalcioArchivist","Good that the piece is clearly labelled as in-universe fiction. Keep the canon facts separate from dramatized dialogue.",C("PartenopeiForever","Agreed. The emotion can be fictionalised without inventing match history.")),
 C("SaladinoOutNow","The captain admitting medals do not defend themselves confirms the trophies have inadequate defensive work rate.",C("CurvaB","Please leave Bastoni alone."))],
 "august-2029-moore-playing-time":[
 C("MooreMinutes","This is the Mikey I wanted to hear: impatient without acting entitled.",C("OldSchoolNapoli","Young players should want the shirt. The important part is understanding that wanting it is not the same as owning it.")),
 C("TacticalNonno","His point about decisions quickly is the interesting one. Limited minutes magnify every touch.",C("SouthStandAnalyst","Especially in a squad where one quiet cameo can mean another player starts next week.")),
-C("CurvaB","I love that he basically says 'I did not come here to watch.' Good. Make the manager uncomfortable.",C("MooreMinutes","Exactly. Respectful competition is healthy.")),
+C("CurvaB","I love that he basically says 'I did not come here to watch.' Good. Make the manager uncomfortable.",C("MooreMinutes","He is not asking for a gift. He is telling the manager he intends to make leaving him out uncomfortable. That is the right kind of impatience.")),
 C("PartenopeiForever","The senior players helping him matters too. This squad cannot become a queue of isolated stars.",C("AzzurriFuture","Development is faster when a young player is learning inside a winning team.")),
 C("SaladinoOutNow","A teenager asking for minutes proves the dressing room has been overrun by ambition.",C("MooreMinutes","God forbid a footballer wants to play football."))],
 "october-2029-beier-juventus-reflection":[
@@ -42,13 +42,13 @@ C("CurvaB","Three goals in Turin and he is still talking about the team. I am ru
 C("CalcioArchivist","The interview gets the key record right: Juventus scored first, Pio supplied two, Beier completed the hat-trick.",C("BeierHive","That sequence is already burned into my brain.")),
 C("SaladinoOutNow","Beier refusing to prioritise personal glory shows a worrying lack of Ballon d'Or campaigning.",C("CurvaB","You would criticise him for celebrating too much if he did."))],
 "november-2029-moore-paris-interview":[
-C("MooreMinutes","Goal and assist in Paris after coming into a match Napoli were losing. That is how you force the selection conversation.",C("CurvaB","Exactly. Not by demanding minutes in August—by changing a Champions League match in November.")),
+C("MooreMinutes","Goal and assist in Paris after coming into a match Napoli were losing. That is how you force the selection conversation.",C("CurvaB","Paris is the answer to the minutes debate. A goal and an assist while Napoli were chasing the game gives the manager something concrete to think about.")),
 C("TacticalNonno","His answer about entering without thinking about the score is interesting. Substitutes have to solve the game immediately.",C("SouthStandAnalyst","And he did: first as a finisher, then as a creator for Pio.")),
 C("PioNation","I appreciate that Mikey gives Beier credit for finding him and still owns his own finish.",C("BeierHive","That front line keeps producing combinations no matter who starts.")),
 C("PartenopeiForever","A young player making his mark away at PSG feels like the kind of night people remember years later.",C("MooreMinutes","I already know I will be unbearable about this one.")),
 C("SaladinoOutNow","One goal and one assist in Paris is suspiciously efficient. Was he conserving effort?",C("MooreMinutes","Ban this account."))],
 "december-2029-beier-pio-partnership":[
-C("BeierHive","The best part of this partnership is that neither one seems obsessed with who gets the finish.",C("PioNation","Exactly. Pio runs because Maxi may release it early; Maxi creates because he trusts Pio to arrive.")),
+C("BeierHive","The best part of this partnership is that neither one seems obsessed with who gets the finish.",C("PioNation","Their timing works because each expects the other to make the aggressive choice. Pio starts the run before Maxi has fully opened his body.")),
 C("TacticalNonno","That mutual timing is what turns two talented forwards into a system problem for opponents.",C("SouthStandAnalyst","The defender cannot simply mark the 'scorer' because the roles keep switching.")),
 C("CurvaB","Five goals and four assists in four for Beier and he still says the winner he created mattered more. Fine, I will cry.",C("NapoliTherapy","Please keep fluids nearby.")),
 C("CalcioArchivist","I like the joint format, but keep the label clear: this is dramatized in-universe dialogue grounded in confirmed matches.",C("PartenopeiForever","Exactly. The fictional voices should serve the canon, never rewrite it.")),
@@ -57,16 +57,16 @@ C("SaladinoOutNow","Forwards refusing to fight over headlines is destroying trad
 C("OldSchoolNapoli","This is why Bastoni wears the armband. No hiding behind the early lead, no throwing a teammate under the bus.",C("CurvaB","Own the result, then go back to work. I needed to hear that.")),
 C("TacticalNonno","He identifies the actual turning points without inventing blame: corner before halftime, long-range goal just after it.",C("CalcioArchivist","That is exactly how the newsroom should discuss a match when the record does not establish individual fault.")),
 C("NapoliTherapy","I am glad he says disappointment is not lost belief because I personally have lost belief in my blood pressure.",C("OldSchoolNapoli","Supporters are allowed to be less composed than captains.")),
-C("PartenopeiForever","The response before Torino matters now. Cup exits become dangerous when they bleed into the league.",C("TacticalNonno","Yes. Emotional recovery is part of squad management.")),
+C("PartenopeiForever","The response before Torino matters now. Cup exits become dangerous when they bleed into the league.",C("TacticalNonno","Torino matters because a cup exit can linger. The next league match will tell us whether the group processed it or carried it with them.")),
 C("SaladinoOutNow","The captain refusing to name a scapegoat has ruined my entire post-match agenda.",C("CurvaB","Excellent. Stay ruined."))],
 "roma-supercoppa-semifinal-loss-2030":[
 C("CurvaB","Beier after eleven minutes had me dreaming about the final. Mancini at 43 and Vaz at 49 ripped it away in six minutes of match time.",C("NapoliTherapy","Halftime somehow made the two punches feel even worse.")),
-C("TacticalNonno","The corner before the break is the first turning point. The strike after the restart is the second. That is enough analysis without inventing a culprit.",C("SouthStandAnalyst","Exactly. We know what happened; we do not know every individual assignment.")),
+C("TacticalNonno","The corner before the break is the first turning point. The strike after the restart is the second. That is enough analysis without inventing a culprit.",C("SouthStandAnalyst","We can say Roma scored from the corner before halftime and again just after the restart. Anything more specific about blame would be invented.")),
 C("MooreMinutes","Moore created the opener in a semifinal. Do not let the loss erase that contribution.",C("BeierHive","And Maxi finished it. Their connection was one of the few things that worked cleanly.")),
 C("RomaSud","You had the lead. We took the match back. That is knockout football.",C("CurvaB","I hate the sentence because it is true.")),
 C("SaladinoOutNow","Scoring first has once again proven tactically reckless.",C("NapoliTherapy","Please explain how you propose winning without scoring."))],
 "roma-supercoppa-moore-beier-2030":[
-C("MooreMinutes","This is the evidence for Mikey's minutes: assist in a semifinal, immediately decisive.",C("TacticalNonno","Yes, but the strongest argument is cumulative. Paris, now this. One moment becomes a trend.")),
+C("MooreMinutes","This is the evidence for Mikey's minutes: assist in a semifinal, immediately decisive.",C("TacticalNonno","Paris made the case. Creating Beier's semifinal opener strengthens it. Moore is building a pattern of changing important matches.")),
 C("BeierHive","Maxi keeps finding ways to score regardless of who is supplying him.",C("PioNation","And that should make Pio excited, not threatened. More creators mean more chances for everyone.")),
 C("CurvaB","The cruel part is that the opener was exactly the kind of goal that should start a great night.",C("NapoliTherapy","Then Roma spent fourteen match minutes turning it into a bad memory.")),
 C("SouthStandAnalyst","Player-focus pieces after defeats are useful because good individual performances can coexist with a bad team result.",C("MooreMinutes","Thank you. Praise Mikey without pretending Napoli advanced.")),
@@ -81,7 +81,7 @@ C("SaladinoOutNow","Allowing halftime to occur between two opposition goals was 
 C("CurvaB","Two-nil at halftime with Beier and Moore trading a goal and assist. I thought the response to Roma was perfect. Then the second half happened.",C("NapoliTherapy","I would like to formally apologise for saying 'comfortable' at halftime.")),
 C("MooreMinutes","Mikey did everything asked of him: creates one, scores one. The draw should not erase that.",C("BeierHive","Same for Maxi. Their first-half partnership deserved three points.")),
 C("TacticalNonno","Torino scoring twice from only three shots is the brutal efficiency statistic. Napoli did not allow volume, but the chances that became goals still counted.",C("SouthStandAnalyst","And without shot-location data, that is as far as we should take the diagnosis.")),
-C("TorinoGranata","You lot thought it ended at halftime. We did not.",C("CurvaB","Fair. I hate it, but fair.")),
+C("TorinoGranata","You lot thought it ended at halftime. We did not.",C("CurvaB","You were two down and still played like the match was alive. I hate admitting it, but Torino earned the comeback.")),
 C("SaladinoOutNow","A two-goal lead is clearly too dangerous. Next time stop at one.",C("NapoliTherapy","I cannot believe this is somehow relevant to what happened."))],
 "torino-beier-moore-jan2030":[
 C("MooreMinutes","Moore assists Beier at 23, Beier assists Moore at 35. That symmetry is ridiculous.",C("BeierHive","One goal and one assist each before halftime. You could not script a cleaner partnership story.")),
@@ -90,7 +90,7 @@ C("CurvaB","The attack did enough to win this match. I am not blaming those two 
 C("PioNation","And this is healthy for Pio too. Napoli need combinations beyond the usual Beier–Pio axis.",C("MooreMinutes","A deeper attack makes everybody more dangerous.")),
 C("SaladinoOutNow","Beier and Moore each having a goal and assist is suspiciously cooperative.",C("BeierHive","You already used this conspiracy for Pio. Find new material."))],
 "torino-unbeaten-warning-jan2030":[
-C("TacticalNonno","Fourteen wins, four draws, no losses. Excellent record. Still not a reason to shrug at dropping a 2–0 lead.",C("CurvaB","Exactly. I can be proud of 46 points and furious about Torino at the same time.")),
+C("TacticalNonno","Fourteen wins, four draws, no losses. Excellent record. Still not a reason to shrug at dropping a 2–0 lead.",C("CurvaB","Fourteen wins and no defeats is elite. Letting a two-goal lead disappear is still something a champion should examine.")),
 C("SouthStandAnalyst","Thirty-five scored, twelve conceded, plus twenty-three. The season profile is strong; the warning is about game management, not panic.",C("CalcioArchivist","That distinction matters. One draw should inform the analysis, not rewrite eighteen rounds.")),
 C("NapoliTherapy","The zero in the loss column is comforting until you remember draws also cost points.",C("TacticalNonno","And this one cost two from a winning position.")),
 C("TorinoGranata","Unbeaten did not mean untouchable. We proved that for forty-five minutes.",C("CurvaB","You proved it for enough minutes. Please go celebrate elsewhere.")),
@@ -103,7 +103,7 @@ C("MooreMinutes","Mikey was told to warm up. He was not secretly responsible for
 C("MeretWall","Without the exact goal sequences, blaming one defender or the keeper is just fan fiction.",C("OldSchoolNapoli","Review the two goals properly tomorrow. Tonight the only confirmed pain is Osimhen 65 and 79.")),
 C("SaladinoOutNow","Urbig winning player of the match proves the manager failed to instruct Bayern's goalkeeper to stop saving things.",C("CurvaB","At last, the tactical breakthrough we were missing."))],
 "urbig-player-of-match-napoli-bayern-2029":[
-C("NumbersNapoli","The useful part of 2.1 xG to 1.4 is that it kills the 'Napoli were destroyed' story. It does not magically award us points.",C("TacticalNonno","Exactly. Chance quality explains the match; finishing and goalkeeping decided it.")),
+C("NumbersNapoli","The useful part of 2.1 xG to 1.4 is that it kills the 'Napoli were destroyed' story. It does not magically award us points.",C("TacticalNonno","Napoli created enough to make Urbig work, but Bayern finished their best moments and their keeper won the individual duels. That is the difference in the score.")),
 C("UrbigWall","Pio from a tight angle, Neves forcing the stretch, Bastoni from the corner. Those were different saves, not one copy-pasted stat.",C("PioPartenope","And that is why I can praise Urbig without pretending every finish was terrible.")),
 C("PeacockUnion","Please do not turn 'their keeper was excellent' into 'our keeper was at fault' without seeing the goals properly.",C("MeretWall","Goalkeeping analysis has to be about the shot, not the final score.")),
 C("CurvaCalculator","Expected goals are probabilities, not a receipt you exchange for two goals at customer service.",C("NapoliTherapy","I would still like to speak to the customer service manager.")),
@@ -111,14 +111,14 @@ C("BayernObserver","Osimhen gets the theatre because of the return. Urbig gets t
 C("SaladinoOutNow","If xG cannot overturn the final score after review, I am beginning to question the usefulness of mathematics.",C("NumbersNapoli","Mathematics has filed a restraining order."))],
 "napoli-inter-pressure-after-bayern-2029":[
 C("EuropeanNights","Seven league points from three means this is not a crisis. Losing 2–0 at home to Bayern means Inter still feels enormous.",C("CurvaB","That is exactly the mood: not panic, but absolutely no appetite for another flat night.")),
-C("Interista79","If Napoli leave the same spaces Bayern found, Inter will attack them. We are not coming to admire the European champions.",C("TacticalNonno","Fair. The response has to be structural, not emotional.")),
+C("Interista79","If Napoli leave the same spaces Bayern found, Inter will attack them. We are not coming to admire the European champions.",C("TacticalNonno","Inter will not care that Bayern made Napoli angry. The response has to be better spacing, cleaner rest defence and fewer transitions conceded.")),
 C("PioPartenope","I want Pio getting chances where he can attack the goal, not collecting the ball with the angle already dead.",C("OliseMagic","And I want the wide players making defenders turn before the box gets crowded.")),
 C("NevesNation","The midfield created enough against Bayern to make Urbig work. Now it has to control the moments after possession is lost.",C("WarrenWatch","That is the part Inter will test hardest.")),
 C("OldSchoolNapoli","A champion does not need to pretend the Bayern loss was fine. A champion needs to answer it.",C("CurvaB","Preferably with three points and one evening where my heart behaves normally.")),
 C("SaladinoOutNow","Inter should be awarded the match now because Napoli lost five days earlier. Momentum law. Very advanced.",C("NapoliTherapy","Please never become a referee."))],
 "napoli-inter-beier-meret-september-2029":[
 C("CurvaB","BEIER 77. MERET AT THE WHISTLE. I have aged approximately nine years.",C("NapoliTherapy","The crossbar at 86 was the universe offering us a calmer ending and then taking it back.")),
-C("BeierBeliever","That header starts with Inter being forced into a bad clearance. Maxi still has to read the drop before everybody else.",C("TacticalNonno","Exactly. Pressure creates the mistake; anticipation turns the mistake into a goal.")),
+C("BeierBeliever","That header starts with Inter being forced into a bad clearance. Maxi still has to read the drop before everybody else.",C("TacticalNonno","The press only creates the loose clearance. Beier still reads where it will land before the defenders do, and that is the striker's part of the goal.")),
 C("MeretWall","After spending all week talking about Urbig, our keeper gets the last word tonight.",C("PeacockUnion","And not in a cheap comparison. Meret had one decisive action and made it.")),
 C("Interista79","We were still one action from stealing a draw at the end. That save hurts.",C("CurvaB","Respectfully, I hope it continues hurting until Bologna.")),
 C("NumbersNapoli","Ten points from four league matches after beating Inter is a serious start even if the football has not been clean every week.",C("OldSchoolNapoli","Good teams collect points while they are still solving problems.")),
@@ -146,7 +146,7 @@ C("LiverpoolAway","At Anfield I thought the second leg would at least force chao
 C("SaladinoOutNow","Only 4–0 across two legs? A serious manager would have scored once for every Liverpool shot.",C("NapoliTherapy","You are the reason joy requires moderation tools."))],
 "peacock-liverpool-interview-mar19-2030":[
 C("PeacockUnion","'You cannot switch off' is exactly the goalkeeper part people miss. One shot can arrive after seventy minutes of nothing.",C("KeeperCoach","That Anfield save is the perfect example: almost no work, then immediate full concentration.")),
-C("MeretWatch","I like that the interview does not turn this into Peacock versus Meret.",C("PeacockUnion","Same. Two clean sheets against Liverpool can stand on their own without using them as a weapon against another keeper.")),
+C("MeretWatch","I like that the interview does not turn this into Peacock versus Meret.",C("PeacockUnion","Peacock's Liverpool tie deserves praise on its own terms. Turning every good performance into a Meret comparison cheapens both keepers.")),
 C("OldSchoolNapoli","The line about the clean sheets belonging to everybody in front of him is the right tone for this team.",C("BastoniWall","Liverpool barely reached the point of shooting because the whole structure did its job.")),
 C("EuropeanNights","At 0–0 at halftime in the second leg, the mental challenge must have been strange: comfortable aggregate, absolutely no permission to relax.",C("NapoliTherapy","I was relaxed enough for all of us and then immediately regretted it.")),
 C("NumbersNapoli","Two games, two shots on target faced, two saves. Tiny sample, huge stakes.",C("KeeperCoach","Goalkeeping is sometimes volume; sometimes it is consequence.")),
