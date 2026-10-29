@@ -157,12 +157,15 @@ const expected=[
  ['beier-mctominay-late-goal-como-analysis-sep-2028',14,17],
  ['napoli-como-late-winner-fan-pressure-sep-2028',10,11]
 ];
+const threadFailures=[];
 for(const [id,minComments,minReplies] of expected){
  const rows=thread(id);
- assert(rows.length>=minComments,id+' lost authored comments: '+rows.length);
- assert(rows.reduce((n,x)=>n+x.replies.length,0)>=minReplies,id+' lost authored replies.');
- assert(rows.every(x=>x.u&&x.t&&x.replies.every(r=>r.u&&r.t)),id+' has malformed author/content.');
+ const replyCount=rows.reduce((n,x)=>n+x.replies.length,0);
+ if(rows.length<minComments)threadFailures.push(id+' lost authored comments: '+rows.length+'/'+minComments);
+ if(replyCount<minReplies)threadFailures.push(id+' lost authored replies: '+replyCount+'/'+minReplies);
+ if(!rows.every(x=>x.u&&x.t&&x.replies.every(r=>r.u&&r.t)))threadFailures.push(id+' has malformed author/content.');
 }
+assert.equal(threadFailures.length,0,'Comment integrity failures:\\n'+threadFailures.join('\\n'));
 // Every effective supporter thread must already be editorially clean at source.
 // The renderer's filters are a last-resort safety net, not a substitute for authored copy.
 const effectiveCommentIds=new Set([
