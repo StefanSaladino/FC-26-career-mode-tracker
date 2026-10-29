@@ -27,7 +27,7 @@ C("SaladinoOutNow","Eight points above Juventus is concerning. They are clearly 
 C("BellandiReceipts","Bellandi found criticism after a 3–0. I respect the commitment to the bit.",C("TacticalNonno","There is always something to improve. The problem is pretending improvement and satisfaction cannot coexist.")),
 C("CurvaB","If your first reaction to three goals and 0.0 xG conceded is annoyance, football may not be for you.",C("NapoliTherapy","Some of us are trying very hard to enjoy one peaceful Sunday.")),
 C("PioNation","He can critique the finishing all he wants. Pio still walked away with two.",C("BeierHive","And Beier still affected the match from the bench. The attack did its job.")),
-C("CalcioArchivist","Criticism is fine when it stays attached to confirmed events. No invented defensive errors, no mystery assists.",C("SouthStandAnalyst","That should be printed over the newsroom door.")),
+C("CalcioArchivist","Criticism is fine when it stays attached to confirmed events. No invented defensive errors, no mystery assists.",C("SouthStandAnalyst","That is the standard: argue about what actually happened. A 3–0 win gives us enough football to debate without inventing mistakes.")),
 C("SaladinoOutNow","Finally, a journalist brave enough to understand that winning 3–0 is merely a different form of failure.",C("CurvaB","Of course you found your soulmate."))],
 "fiorentina-nil-nil-gap-one-24":[
 C("CurvaB","Still first, but that 0–0 feels awful because Roma are now breathing on our necks.",C("NapoliTherapy","One point ahead has never felt so small.")),
