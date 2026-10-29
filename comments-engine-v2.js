@@ -63,6 +63,35 @@ function parseComment(item){
  if(!raw||typeof raw.u!=='string'||typeof raw.t!=='string'||!raw.t.trim())return null;
  return {u:raw.u,t:raw.t,lang:raw.lang,visitor:raw.visitor,replies:(Array.isArray(raw.replies)?raw.replies:[]).map(parseReply).filter(Boolean)};
 }
+
+// Editorial integrity: compare the final assembled thread, not merely its source files.
+// Keep only the first occurrence of a reply's exact wording per article, and never
+// present a commenter's own words as a separate person's reply.
+const normalizeEditorialText=s=>String(s||'').toLocaleLowerCase().replace(/[’‘]/g,"'").replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+function auditThread(rows){
+ const seen=new Set();
+ let duplicates=0,selfReplies=0;
+ const walk=(nodes,parentUser,articleId)=>{
+  const result=[];
+  for(const node of nodes){
+   const key=normalizeEditorialText(node.t);
+   if(!key||seen.has(key)){duplicates++;continue}
+   seen.add(key);
+   const replies=walk(node.replies||[],node.u,articleId);
+   if(parentUser&&node.u===parentUser){
+    // A self-follow-up is legitimate only when clearly framed as a continuation.
+    // Otherwise leave it visible for editorial review, not silently attributed
+    // to a different supporter.
+    selfReplies++;
+   }
+   result.push({...node,replies});
+  }
+  return result;
+ };
+ const cleaned=walk(rows,null,'');
+ window.NAPOLI_COMMENT_AUDIT=window.NAPOLI_COMMENT_AUDIT||{};
+ return {cleaned,duplicates,selfReplies};
+}
 function curated(a){
  const id=String(a.id||'');
  const entries=[
