@@ -163,6 +163,27 @@ for(const [id,minComments,minReplies] of expected){
  assert(rows.reduce((n,x)=>n+x.replies.length,0)>=minReplies,id+' lost authored replies.');
  assert(rows.every(x=>x.u&&x.t&&x.replies.every(r=>r.u&&r.t)),id+' has malformed author/content.');
 }
+// Every effective supporter thread must already be editorially clean at source.
+// The renderer's filters are a last-resort safety net, not a substitute for authored copy.
+const effectiveCommentIds=new Set([
+ ...Object.keys(archive),
+ ...Object.keys(legacy),
+ ...Object.keys(ctx.window.NAPOLI_COMMENT_OVERRIDE||{}),
+ ...expected.map(x=>x[0]),
+ ...ctx.window.NAPOLI_DATA.articles.map(a=>a.id),
+ 'venezia-draw-sep-2028',
+ 'venezia-rotation-debate-sep-2028',
+ 'inter-2028-win',
+ 'inter-2028-depth-opinion'
+].filter(Boolean));
+for(const id of effectiveCommentIds){
+ thread(id);
+ const audit=ctx.window.NAPOLI_COMMENT_AUDIT?.[id];
+ assert(audit,id+' did not produce a comment audit record.');
+ assert.equal(audit.duplicates,0,id+' still contains duplicate comment/reply wording.');
+ assert.equal(audit.selfReplies,0,id+' still contains a supporter replying to themself.');
+ assert.equal(audit.genericFiltered,0,id+' still contains generic or low-substance replies that the renderer would filter.');
+}
 const noSpoilers=thread('sassuolo-response');
 assert(noSpoilers.every(x=>!/winner|dragged us level|finished the job|last ten minutes/i.test(x.t)),
   'Future match spoilers leaked into the Sassuolo preview.');
