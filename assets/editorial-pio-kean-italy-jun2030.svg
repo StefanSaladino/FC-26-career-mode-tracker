@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="PIO + KEAN — THREE GOALS. TWO FORWARDS. ONE POINT.">
+<rect width="1200" height="675" fill="#112f3a"/>
+<path d="M810 30L1210 30 1210 648 795 648Z" fill="#df9f58" opacity=".11"/>
+<g stroke="#df9f58" fill="none" stroke-width="3" opacity=".28"><path d="M840 80H1160V595H840Z"/><path d="M840 335H1160"/><circle cx="1000" cy="335" r="79"/><path d="M916 80V166H1084V80M916 595V509H1084V595"/></g>
+<rect x="68" y="74" width="12" height="74" rx="2" fill="#2e8969"/>
+<rect x="86" y="74" width="12" height="74" rx="2" fill="#f7f3e9"/>
+<rect x="104" y="74" width="12" height="74" rx="2" fill="#b74645"/>
+<text x="144" y="104" fill="#f7f3e9" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="3">NAPOLI SEASON ROOM  /  AZZURRI</text>
+<text x="70" y="245" fill="#df9f58" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="5">WORLD CUP 2030  /  PLAYER FOCUS</text>
+<text x="64" y="355" fill="#f7f3e9" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="900" letter-spacing="-2" textLength="780" lengthAdjust="spacingAndGlyphs">PIO + KEAN</text>
+<text x="70" y="425" fill="#f7f3e9" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" letter-spacing="1.2">THREE GOALS. TWO FORWARDS. ONE POINT.</text>
+<rect x="70" y="503" width="620" height="2" fill="#df9f58" opacity=".55"/>
+<text x="70" y="554" fill="#f7f3e9" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing=".8">THE COMEBACK THAT COULDN'T BE COMPLETED</text>
+<text x="70" y="628" fill="#df9f58" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2">FICTIONAL FC 26 CAREER-MODE UNIVERSE</text>
+</svg>
