@@ -1,0 +1,47 @@
+(()=>{const C=(u,t,...r)=>[u,t,...r];window.NAPOLI_COMMENT_OVERRIDE={...(window.NAPOLI_COMMENT_OVERRIDE||{}),...{
+"napoli-threepeat-udinese-may2030":[
+C("CurvaB","THREE IN A ROW. I keep typing it because my brain refuses to accept that this is our life now.",C("OldSchoolNapoli","Do not let it become normal. I waited decades to see Napoli live like this.")),
+C("OldSchoolNapoli","My father did not live to see the third one. I wore his scarf for the final whistle and cried into it.",C("PartenopeiForever","That scarf was in the room for him tonight. Keep it close.")),
+C("VesuvioSempre","The entire street exploded at Stach 45+2. Then somebody on the opposite balcony started yelling 'MOORE ASSIST!' and everyone joined in.",C("MooreMinutes","Good. The pass belongs in the memory with the finish.")),
+C("TacticalNonno","The title was not won by one glamorous match. It was built through all the ugly points, rotations and defensive work that kept Napoli ahead.",C("CurvaB","Nonno, I respect the analysis, but I am currently standing on a chair singing."),C("TacticalNonno","Then analyse the chair's structural integrity tomorrow.")),
+C("BergamoWatcher","Congratulations. We kept waiting for the collapse and it never arrived when we needed it.",C("VesuvioSempre","You pushed us hard enough that every dropped point felt like disaster. Respect.")),
+C("PioNation","Pio and Beier drove this season, but I love that Stach and Moore got the clinching moment.",C("BeierBeliever","Exactly. A championship squad should have more heroes than fit on one poster.")),
+C("MeretWall","Can the defenders and keepers get one night of love too? Titles are also all those one-goal leads that stayed one-goal leads.",C("PeacockUnion","The saves nobody remembers individually become points everyone remembers collectively.")),
+C("SaladinoOutNow","Three consecutive Scudetti only prove the manager has failed to win four consecutive Scudetti.",C("CurvaB","THE FOURTH SEASON HAS NOT HAPPENED YET."),C("SaladinoOutNow","Convenient excuse."))],
+"napoli-threepeat-dynasty-may2030":[
+C("OldSchoolNapoli","First Scudetto: disbelief. Second: validation. Third: now I have to use the word dynasty without laughing.",C("NeutralObserver","The Champions League in the middle is what elevates the era beyond domestic dominance.")),
+C("TacticalNonno","Dynasties are not just repeated trophies. They survive different lineups, different match states and different heroes.",C("PioNation","Stach clinching this title is the perfect example. The headline forwards did not have to score every decisive goal.")),
+C("PartenopeiForever","I still remember the 2029 Madrid final like it happened ten minutes ago. Now we are discussing a third straight league title.",C("BeierBeliever","Beier early, Pio later, European champions. That night changed the scale of everything.")),
+C("BergamoWatcher","As a rival, the annoying part is Napoli can lose a match, look vulnerable for a week, and still recover before the race opens.",C("CurvaB","Trust me, our supporters treat every wobble like the apocalypse anyway.")),
+C("AzzurriFuture","I love the Italian core, but this era works because the club identity is bigger than nationality. Look at who has delivered from everywhere.",C("ScotsInNaples","A Scottish midfielder can become a cult hero in Naples if he runs through a wall. That is football.")),
+C("MeretWall","History articles always become goal montages. Please archive the clean sheets, recovery runs and boring saves too.",C("TacticalNonno","Agreed. Dominance looks spectacular in memory because the maintenance work disappears.")),
+C("VesuvioSempre","My son asked whether Napoli always win the league. I had to explain that his childhood is not historically normal.",C("OldSchoolNapoli","Let him enjoy the illusion a little longer.")),
+C("SaladinoOutNow","Six major trophies are a transparent attempt to distract from the seventh not yet being won.",C("CurvaB","There are still finals to play, you lunatic."),C("SaladinoOutNow","So you admit there is unfinished business."))],
+"napoli-stach-moore-title-moment-may2030":[
+C("CurvaB","STACH 45+2. MOORE ASSIST. Put the minute on the wall.",C("VesuvioSempre","My cousin already ordered a shirt with 45+2 on the back.")),
+C("MooreMinutes","Everyone will remember the scorer, but Mikey saw the opening and made the pass under title-clinching pressure.",C("AzzurriFuture","That is the kind of contribution that changes how a young player is viewed inside a squad.")),
+C("TacticalNonno","A stoppage-time goal before halftime is psychologically vicious. Udinese walk into the dressing room with the entire plan suddenly behind.",C("OldSchoolNapoli","And Napoli walk in with the stadium still shaking.")),
+C("PartenopeiForever","My nephew asked why I cried at a Stach goal. I told him sometimes the player matters less than everything the goal contains.",C("OldSchoolNapoli","One day he will tell somebody he was beside you for it.")),
+C("PioNation","I love that the clincher did not need to come from Pio. He carried so much of the season; the squad carried the final step.",C("BeierBeliever","Same for Maxi. They looked happier celebrating Stach than scoring themselves.")),
+C("VesuvioSempre","Two apartment buildings are currently competing: one chanting STACH, the other chanting MOORE.",C("CurvaB","Combine them or I am calling the ultras mediator.")),
+C("CalcioArchivist","Archive the full sequence, not just the shot. Future highlight edits always amputate the assist.",C("MooreMinutes","If the club does that I am filing an official complaint.")),
+C("SaladinoOutNow","A midfielder scoring the title goal proves the forwards have abandoned their responsibilities.",C("PioNation","They won the league by three matches remaining. Please experience joy once."))],
+"napoli-city-zero-shots-semifinal-may2030":[
+C("CurvaB","ZERO. SHOTS. MANCHESTER CITY HAD ZERO TOTAL SHOTS IN A CHAMPIONS LEAGUE SEMIFINAL.",C("TacticalNonno","And Napoli had 68% possession away from home. That combination is what makes the performance absurd.")),
+C("CityBlue","I am a City supporter and the worst part was never even getting the false hope of a shot flying wide. Nothing.",C("OldSchoolNapoli","After the first leg I expected ninety minutes of suffering. I did not expect Napoli to suffocate the match like this.")),
+C("ScotsInNaples","SCOTTISH FUCKING PASSION. MCTOMINAY. FORTY-TWO MINUTES. GOOD NIGHT.",C("CurvaB","The entire city has suddenly developed a terrible Scottish accent."),C("ScotsInNaples","It was terrible before tonight.")),
+C("BeierBeliever","Maxi assisted Pio in the first leg and McTominay in the second. Directly involved in both goals of the tie.",C("PioNation","That partnership story keeps expanding even when Pio is not the scorer.")),
+C("PeacockUnion","Imagine being the keeper in a Champions League semifinal and the opponent never takes a shot.",C("MeretWall","That is the dream: stay awake, organise, touch the ball with your feet and collect the clean sheet.")),
+C("TacticalNonno","Calling this 'parking the bus' is nonsense. You cannot park the bus while holding 68% of the ball.",C("NeutralObserver","The defending happened through possession, spacing and denying City the ability to establish attacks.")),
+C("PartenopeiForever","2028 heartbreak. 2029 champions. 2030 another final. Three finals in four seasons.",C("OldSchoolNapoli","Never let repetition make that sentence sound ordinary.")),
+C("SaladinoOutNow","Preventing City from taking a shot is anti-football. Opponents should be provided at least one courtesy attempt.",C("CurvaB","WE ARE IN THE FINAL."),C("SaladinoOutNow","Sportsmanship matters."))],
+"napoli-porto-cinderella-final-may2030":[
+C("PortoDragao","Stop calling us a fairy tale like we wandered into the final by accident. We eliminated Arsenal on penalties.",C("OldSchoolNapoli","Fair. Underdog is about expectation, not entitlement. You earned the match.")),
+C("CurvaB","After what we did to City, part of me feels invincible. That is exactly the part of me I do not trust.",C("TacticalNonno","Good instinct. Finals punish anyone who assumes the semifinal performance transfers automatically.")),
+C("PioNation","Pio scored in last year's final against Madrid. I keep thinking about what another European final could mean for him.",C("BeierBeliever","And Maxi assisted him that night. Their history in these matches is already enormous.")),
+C("VesuvioSempre","The city is planning celebrations for a trophy that has not been played for yet. Extremely Naples.",C("OldSchoolNapoli","Supporters are allowed to dream. The dressing room cannot.")),
+C("NeutralObserver","Napoli bring sustained dominance; Porto bring a knockout run that survived Arsenal and penalties. That is a much better story than 'giant versus lucky outsider.'",C("PortoDragao","Thank you. We are coming to compete, not pose for Napoli's coronation photo.")),
+C("ScotsInNaples","McTominay got us through Manchester. I want the final to have another unlikely hero.",C("PioNation","That is how this season has felt: different nights, different names.")),
+C("PartenopeiForever","Three European finals in four years and I still feel sick thinking about kickoff.",C("CurvaB","Good. If you stop being nervous, check your pulse.")),
+C("SaladinoOutNow","The manager failed to prevent Porto from eliminating Arsenal and therefore created a difficult final opponent.",C("CurvaB","HE DOES NOT MANAGE ARSENAL."),C("PortoDragao","I am somehow offended on behalf of everyone involved."))]
+}};})();
