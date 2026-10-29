@@ -68,7 +68,7 @@
       "note": "Stach–Moore title-clinching player feature, 5 May 2030."
     }
   ],
-  "latest_confirmed_match": "Manchester City 0–1 Napoli, 8 May 2030 — UCL semifinal, Napoli advance 2–1 aggregate; City 0 shots, 0.0 xG",
+  "latest_confirmed_match": "Napoli 1–1 Torino AET, Coppa Italia final May 2030 — Napoli win 4–3 on penalties",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -84,36 +84,22 @@
   },
   "latest_newsroom_package": {
     "status": "committed_script_loader_connected_not_browser_verified",
-    "date": "8 May 2030",
+    "date": "May 2030",
     "topics": [
-      "Napoli reach Champions League final after City 0–1 Napoli, 68% possession, City zero shots",
-      "Porto defeat Arsenal on penalties to reach final",
-      "Restore visibility of May 5 third consecutive Scudetto articles"
+      "Coppa Italia victory over Torino on penalties",
+      "Meret save and four successful Napoli penalties",
+      "Domestic double, Bergamo and Torino rotation before Porto"
     ],
     "story_files": [
-      "stories-city-zero-shots-may2030.js",
-      "stories-porto-final-preview-may2030.js",
-      "stories-threepeat-scudetto-may2030.js",
-      "stories-threepeat-dynasty-may2030.js",
-      "stories-stach-moore-threepeat-may2030.js"
+      "stories-coppa-torino-victory-may2030.js"
     ],
-    "site_state": "site-visible-city-final-may2030.js",
-    "manager_answers": "None invented; Sandro press statements from in-chat dramatization",
+    "site_state": "site-visible-coppa-torino-may2030.js",
+    "manager_answers": "None; Sandro press quotes only",
     "visual_qa": "not browser verified",
-    "editorial_review": "Sequenced loaders; repaired missing Pio image references to existing Bastoni image. Validator not run.",
+    "validation": "Node validator not run; asset names checked against repository directory",
     "comments_audit": {
-      "date": "8 May 2030",
-      "scope": "May Scudetto report, dynasty analysis, Stach–Moore feature, City second-leg report, Porto final preview; compared with Juventus, Bayern, Fiorentina and City first leg",
-      "posts_including_replies": {
-        "Scudetto": 42,
-        "Dynasty": 37,
-        "Stach-Moore": 32,
-        "City": 46,
-        "Porto": 32
-      },
-      "script": "comments-may2030-celebrations-audit.js",
-      "loader": "site-visible-juventus-apr2030.js sequential load, cache-busted via index.html",
-      "validation": "No local Node validator or browser visual verification run"
+      "scope": "Two new Coppa articles; distinct topical nested replies and established fan voices",
+      "status": "manually authored, not browser verified"
     }
   }
 }
