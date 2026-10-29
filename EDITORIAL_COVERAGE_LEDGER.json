@@ -73,7 +73,7 @@
       "note": "Treble final player features on Meret/Peacock and Pio/Zaïre-Emery following Porto 0–1 Napoli on June 1."
     }
   ],
-  "latest_confirmed_match": "Porto 0–1 Napoli, UEFA Champions League final, 1 June 2030 — Pio Esposito 51′ from Warren Zaïre-Emery; treble secured",
+  "latest_confirmed_match": "Italy 3–3 Tunisia, World Cup group, 9 June 2030 — Hannibal hat-trick (7′, 14′, 86′), Pio Esposito (48′, 78′), Kean (61′); Japan and Paraguay draw their opener, all four teams on 1 point",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,41 +88,42 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "committed_loader_integrated_source_audit_passed_pending_browser_visual_qa",
-    "date": "2 June 2030 · In-universe",
+    "status": "committed_and_connected_source_integrity_verified_deployment_pending_check",
+    "date": "10 June 2030 · In-universe",
     "topics": [
-      "Champions League final: Porto 0–1 Napoli, Pio Esposito 51′ from Warren Zaïre-Emery, Meret clean sheet",
-      "First treble of current Napoli career-mode era: Serie A, Coppa Italia, UEFA Champions League",
-      "Opinion: comparative historical analysis of Mourinho's Inter 2010, Sacchi's Milan, Herrera's Grande Inter, Juventus's nine-title run, Grande Torino and Maradona-era Napoli",
-      "Meret vs Peacock goalkeeper roles and the final choice",
-      "Pio Esposito and Warren Zaïre-Emery: decisive connection",
-      "City vs Porto: tactical adaptability",
-      "Fictional celebration scenes Naples and Madrid",
-      "Italy World Cup group preparation Tunisia June 9, Japan June 15, Paraguay June 20"
+      "Pre-tournament, spoiler-free Italy 2030 World Cup preview dated 8 June",
+      "Italy 3–3 Tunisia opening match: Hannibal 7′ 14′ 86′, Pio 48′ 78′, Kean 61′",
+      "Napotalia tactical opinion: attack chemistry versus defensive shortcomings",
+      "Pio–Kean attacking partnership and Hannibal's Tunisian hat-trick",
+      "Japan and Paraguay draw opening match; four teams played one and have one point each"
     ],
     "story_files": [
-      "stories-porto-final-treble-jun2030.js",
-      "stories-italian-giants-napoli-dynasty-opinion-jun2030.js",
-      "stories-porto-meret-pio-features-jun2030.js",
-      "stories-porto-tactics-celebrations-worldcup-jun2030.js"
+      "stories-italy-worldcup-2030-preview.js",
+      "stories-italy-tunisia-3-3-worldcup-2030.js",
+      "stories-italy-tunisia-napotalia-pio-kean-2030.js"
     ],
     "comment_files": [
-      "comments-porto-final-treble-jun2030.js",
-      "comments-italian-giants-dynasty-jun2030.js",
-      "comments-treble-keepers-pio-jun2030.js",
-      "comments-treble-tactics-city-italy-jun2030.js"
+      "comments-italy-tunisia-worldcup-2030.js",
+      "comments-italy-napotalia-players-jun2030.js"
     ],
-    "site_state": "site-visible-napoli-treble-jun2030.js",
-    "stats_file": "stats-napoli-porto-treble-jun2030.js",
-    "manager_answers": "No post-final press. Manager explicitly opted to celebrate and postpone reporters. Pre-final quotes reused exactly and correctly attributed.",
-    "interviews": "June character features are editorial essays. Celebration scenes explicitly marked as fictional dramatization, not manager-confirmed testimony.",
-    "source_validation": "7 new articles; 139 article body paragraphs; 496 curated comments/replies; zero source-level comment duplicates/self-replies; all cover asset paths present in GitHub tree; JS parse passed; script order and cache key confirmed; source-level homepage simulated with correct result and World Cup next dates; Pio 34 club goals, Warren 7 club assists reconciled.",
-    "visual_qa": "not browser verified",
+    "state_file": "state-italy-worldcup-tunisia-jun2030.js",
+    "site_state": "site-visible-italy-tunisia-worldcup-jun2030.js",
+    "images": [
+      "assets/editorial-italy-world-cup-2030-preview.svg",
+      "assets/editorial-italy-tunisia-3-3-jun2030.svg",
+      "assets/editorial-napotalia-debate-jun2030.svg",
+      "assets/editorial-pio-kean-italy-jun2030.svg"
+    ],
+    "manager_quotes": "None created, reused, or invented about Tunisia. Manager shared score, goals and performance assessment only.",
+    "player_interviews": "No fabricated direct player interviews. Player story is narrative analysis.",
+    "international_scope": "Pio 2 World Cup goals + 1 assist; Kean 1 World Cup goal + 1 assist; Bastoni 1 World Cup assist; Napoli club statistics unchanged.",
+    "source_validation": "4 substantial articles, 83 body paragraphs, 266 original comments/replies; zero duplicate comments or self-replies within/between new articles; 4 existing local SVG cover paths; JS parses and homepage-state simulator passes; preview remains spoiler-free; site script loaded after all story and comment files; Japan–Paraguay exact score and date not asserted.",
+    "visual_qa": "Not browser visually inspected",
     "comments_audit": {
-      "scope": "All seven stories including the major final and Italian dynasties debate",
-      "top_level": 150,
-      "all_comments_and_replies": 496,
-      "status": "manually inspected, parsed, and authored with unique topical discussion; not browser verified"
+      "scope": "Preview plus report, Napotalia opinion and Pio–Kean–Hannibal feature",
+      "top_level": 82,
+      "all_comments_and_replies": 266,
+      "status": "authored and programmatically checked"
     }
   }
 }
