@@ -10,7 +10,7 @@ d.worldCup2030.groupMatches=[
  {team:'Italy',player:'Francesco Pio Esposito',minute:78,assist:'Moise Kean'},
  {team:'Tunisia',player:'Hannibal',minute:86}
  ]},
- {date:'2030-06-09',home:'Japan',away:'Paraguay',result:'draw',score:'unconfirmed',verified:true}
+ {date:null,round:1,home:'Japan',away:'Paraguay',result:'draw',score:'unconfirmed',verified:true}
 ];
 d.worldCup2030.groupStandings=[
  {team:'Italy',played:1,won:0,drawn:1,lost:0,points:1,goalDifference:0,goalsFor:3,goalsAgainst:3},
