@@ -71,7 +71,19 @@ function parseComment(item){
   raw={u:item.user||item.handle||item.author||item.u,t:item.text||item.body||item.t,lang:item.lang||language(item.text||item.t),visitor:item.visitorClub||item.visitor||'',replies:item.replies||[]};
  }
  if(!raw||typeof raw.u!=='string'||typeof raw.t!=='string'||!raw.t.trim())return null;
- return {u:raw.u,t:raw.t,lang:raw.lang,visitor:raw.visitor,replies:(Array.isArray(raw.replies)?raw.replies:[]).map(parseReply).filter(Boolean)};
+ const replies=(Array.isArray(raw.replies)?raw.replies:[]).map(parseReply).filter(Boolean);
+ // Older authored conversations stored every response as a flat sibling.
+ // A returning original poster was replying to the preceding supporter, not to themself.
+ // Preserve their actual handle and words by nesting that response correctly.
+ const threaded=[];
+ for(const reply of replies){
+  if(reply.u===raw.u){
+   const target=[...threaded].reverse().find(x=>x.u!==raw.u);
+   if(target){target.replies.push(reply);continue}
+  }
+  threaded.push(reply);
+ }
+ return {u:raw.u,t:raw.t,lang:raw.lang,visitor:raw.visitor,replies:threaded};
 }
 
 // Editorial integrity: compare the final assembled thread, not merely its source files.
