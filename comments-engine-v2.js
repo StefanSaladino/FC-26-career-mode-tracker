@@ -70,7 +70,20 @@ function parseComment(item){
 const normalizeEditorialText=s=>String(s||'').toLocaleLowerCase().replace(/[’‘]/g,"'").replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 const GENERIC_REPLY_BLACKLIST=new Set([
 "agreed and that is the detail people miss","absolutely what a performance","the follow up is what makes the storyline interesting","different voices make this feel like a real club","we should remember this answer after the next big result","and the confirmed match facts stay intact","agreed don t let the newsroom drop this thread","the newsroom should keep these coming occasionally","fair but let s keep the actual match sequence straight","roma took their chances when the match turned","i agree on the result not necessarily the interpretation","the manager s silence cannot be turned into a fake quote","the opening goal still deserves credit","that s a reasonable distinction","we need evidence before naming individuals","and the league record remains a separate matter","agreed the table is getting tense","there is still time to respond","we need to see the next match","good point no need to invent details","that is what makes this title race compelling","i was thinking exactly the same thing","and the title race just keeps getting tighter","that is why those late goals mattered","good point we still need to improve","forza napoli one match at a time","i still can t believe the turnaround","we have to stay focused on the next one","the numbers really tell the story","completely agree but there is still work to do","that is exactly what i was thinking","the next match will tell us even more","what a week to be napoli","we have to keep our feet on the ground","and the table looks better tonight","agreed we still have work to do","this will be a big test","one game at a time","the fixture list is brutal","forza napoli","absolutely focus first","the pressure will be intense","one match at a time","roma are still dangerous","accountability does not take holidays for trophies","you are typing this while wearing a napoli scarf we can see you"
-]);
+,
+"that is the disagreement though we saw enough to compete but not enough to win",
+"the data helps but it cannot replace watching how each chance developed",
+"and that s exactly why the manager has questions to answer",
+"the midfield balance is where i would start",
+"i can live with a defeat i struggle with repeating the same mistakes",
+"the next fixture will give us a much better indication",
+"we can criticise the football and still back the shirt",
+"from the bayern side urbig s contribution was essential",
+"the important part is what happened before the final touch",
+"i see the argument but the closing minutes still made me nervous",
+"agreed but the next match will tell us whether this is sustainable",
+"there is room to praise the result without calling it perfection",
+"that is why i keep coming back to the pressing structure"]);
 function auditThread(rows,article){
  const seen=new Set();
  let duplicates=0,selfReplies=0,genericFiltered=0;
@@ -136,5 +149,5 @@ let busy=false;function sync(){if(busy)return;const r=document.getElementById('r
 const reader=document.getElementById('readerContent');if(reader){new MutationObserver(()=>queueMicrotask(sync)).observe(reader,{childList:true,subtree:true});sync()}
 document.addEventListener('seasonroom:article-opened',()=>requestAnimationFrame(sync));
 document.addEventListener('click',e=>{const b=e.target.closest?.('[data-reply-toggle]');if(b){const t=document.getElementById(b.dataset.replyToggle);if(t){const opening=t.hasAttribute('hidden');if(opening)t.removeAttribute('hidden');else t.setAttribute('hidden','');b.textContent=opening?'Hide replies':'View replies';}return}if(e.target.closest?.('[data-article]'))requestAnimationFrame(sync)});
-window.NAPOLI_COMMENT_ENGINE_VERSION='8.5.0-editorial-gate';
+window.NAPOLI_COMMENT_ENGINE_VERSION='8.5.1-editorial-gate';
 })();
