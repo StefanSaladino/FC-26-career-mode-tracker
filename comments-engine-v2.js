@@ -111,7 +111,9 @@ function curated(a){
   const replySeen=new Set(existing.replies.map(r=>textKey(r.u)+'|'+textKey(r.t)));
   for(const r of item.replies){const rk=textKey(r.u)+'|'+textKey(r.t);if(!replySeen.has(rk)){existing.replies.push(r);replySeen.add(rk)}}
  }
- return result;
+ const audited=auditThread(result);
+ window.NAPOLI_COMMENT_AUDIT[id]={duplicates:audited.duplicates,selfReplies:audited.selfReplies,total:audited.cleaned.length};
+ return audited.cleaned;
 }
 const reply=(r)=>'<article class="fan-comment fan-reply"><div class="comment-avatar fan-avatar">'+safe(r.u).slice(0,1).toUpperCase()+'</div><div class="comment-body"><div class="comment-user fan-comment-meta"><strong>@'+safe(r.u)+'</strong></div><p lang="'+safe(r.lang)+'">'+safe(r.t)+'</p>'+(r.replies?.length?'<div class="comment-replies nested-replies">'+r.replies.map(reply).join('')+'</div>':'')+'</div></article>';
 function countReplies(replies){return replies.reduce((n,r)=>n+1+countReplies(r.replies||[]),0)}
