@@ -1,3 +1,12 @@
+## May 2030 — Coppa Italia final, Napoli 1–1 Torino AET; Napoli win 4–3 on penalties (manager-confirmed)
+- Napoli win Coppa Italia and complete the domestic double alongside third consecutive Serie A Scudetto. Champions League final vs Porto is **1 June 2030**, still unplayed; treble not yet achieved.
+- Final xG Napoli 6.2, Torino 1.7; shots 13–6; shots on target 7–5; Napoli hit woodwork three times. Final after extra time 1–1. Do not invent unconfirmed goal minutes or scorers.
+- Shootout in order: Torino Casadei goal / Napoli Pio Esposito goal; Torino Adams saved by Alex Meret / Napoli João Neves goal; Torino Folorunsho goal / Napoli Maximilian Beier goal; Torino Ilić goal / Napoli Warren Zaïre-Emery goal; Torino Small wide. Napoli fifth kick not taken. Final penalties Napoli 4–3 Torino. This supersedes earlier disputed shootout account.
+- Sandro Vitale gave an optional post-final press conference in chat; manager did not give press answers. Quotes in Coppa coverage attributed to Sandro only.
+- Upcoming Napoli: Bergamo (Atalanta), then Torino, then Porto. Manager plans strongest XI against Bergamo and heavy rotation against Torino ahead of Porto; goalkeeper choice unresolved.
+- Italy World Cup 2030 group draw: Tunisia 9 June, Japan 15 June, Paraguay 20 June. Manager expects Italy to finish first. Italy statistics remain separate from Napoli club statistics.
+- Coverage: stories-coppa-torino-victory-may2030.js; site-visible-coppa-torino-may2030.js. Two articles with distinct curated discussions. Browser visual QA and local Node validator not yet performed.
+
 ## 19 March 2030 — Napoli 2–0 Liverpool, UCL Round of 16 second leg (manager-confirmed)
 - HT 0–0. 71′ Maximilian Beier scores on the rebound after Francesco Pio Esposito outmuscles a defender and strikes the post; official assist not confirmed.
 - 80′ Francesco Pio Esposito scores, Mikey Moore official assist. FT Napoli 2–0 Liverpool, **4–0 on aggregate**; Napoli advance to Champions League quarterfinals.
