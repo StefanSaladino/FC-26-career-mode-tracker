@@ -71,28 +71,37 @@ const normalizeEditorialText=s=>String(s||'').toLocaleLowerCase().replace(/[’�
 const GENERIC_REPLY_BLACKLIST=new Set([
 "agreed and that is the detail people miss","absolutely what a performance","the follow up is what makes the storyline interesting","different voices make this feel like a real club","we should remember this answer after the next big result","and the confirmed match facts stay intact","agreed don t let the newsroom drop this thread","the newsroom should keep these coming occasionally","fair but let s keep the actual match sequence straight","roma took their chances when the match turned","i agree on the result not necessarily the interpretation","the manager s silence cannot be turned into a fake quote","the opening goal still deserves credit","that s a reasonable distinction","we need evidence before naming individuals","and the league record remains a separate matter","agreed the table is getting tense","there is still time to respond","we need to see the next match","good point no need to invent details","that is what makes this title race compelling","i was thinking exactly the same thing","and the title race just keeps getting tighter","that is why those late goals mattered","good point we still need to improve","forza napoli one match at a time","i still can t believe the turnaround","we have to stay focused on the next one","the numbers really tell the story","completely agree but there is still work to do","that is exactly what i was thinking","the next match will tell us even more","what a week to be napoli","we have to keep our feet on the ground","and the table looks better tonight","agreed we still have work to do","this will be a big test","one game at a time","the fixture list is brutal","forza napoli","absolutely focus first","the pressure will be intense","one match at a time","roma are still dangerous","accountability does not take holidays for trophies","you are typing this while wearing a napoli scarf we can see you"
 ]);
-function auditThread(rows){
+function auditThread(rows,article){
  const seen=new Set();
  let duplicates=0,selfReplies=0,genericFiltered=0;
- const walk=(nodes,parentUser,articleId)=>{
+ const stop=new Set(["the","and","that","this","with","from","have","has","had","was","were","are","but","for","not","you","your","our","their","they","them","his","her","its","into","out","about","after","before","still","just","what","when","where","why","how","can","could","would","should","will","one","two","too","very","more","most","much"]);
+ const tokens=s=>new Set(normalizeEditorialText(s).split(" ").filter(w=>w.length>=4&&!stop.has(w)));
+ const articleText=[article?.headline,article?.dek,...(Array.isArray(article?.body)?article.body:[])].filter(Boolean).join(" ");
+ const articleTokens=tokens(articleText);
+ const ack=/^(exactly|agreed|agree|fair point|fair|good point|correct|absolutely|true|yes|right|indeed|precisely)\b/i;
+ const substantive=(text,parentText)=>{
+   const words=normalizeEditorialText(text).split(" ").filter(Boolean);
+   if(!ack.test(String(text||""))) return true;
+   if(words.length>=13) return true;
+   const own=tokens(text), parent=tokens(parentText||"");
+   for(const w of own) if(parent.has(w)||articleTokens.has(w)) return true;
+   if(/\b\d+(?:[–-]\d+)?\b/.test(String(text||""))) return true;
+   return false;
+ };
+ const walk=(nodes,parentUser,parentText)=>{
   const result=[];
   for(const node of nodes){
    const key=normalizeEditorialText(node.t);
    if(!key||seen.has(key)){duplicates++;continue}
-   if(GENERIC_REPLY_BLACKLIST.has(key)){genericFiltered++;continue}
+   if(parentUser&&node.u===parentUser){selfReplies++;continue}
+   if(GENERIC_REPLY_BLACKLIST.has(key)||(parentUser&&!substantive(node.t,parentText))){genericFiltered++;continue}
    seen.add(key);
-   const replies=walk(node.replies||[],node.u,articleId);
-   if(parentUser&&node.u===parentUser){
-    // A self-follow-up is legitimate only when clearly framed as a continuation.
-    // Otherwise leave it visible for editorial review, not silently attributed
-    // to a different supporter.
-    selfReplies++;
-   }
+   const replies=walk(node.replies||[],node.u,node.t);
    result.push({...node,replies});
   }
   return result;
  };
- const cleaned=walk(rows,null,'');
+ const cleaned=walk(rows,null,"");
  window.NAPOLI_COMMENT_AUDIT=window.NAPOLI_COMMENT_AUDIT||{};
  return {cleaned,duplicates,selfReplies,genericFiltered};
 }
@@ -116,7 +125,7 @@ function curated(a){
   const replySeen=new Set(existing.replies.map(r=>textKey(r.u)+'|'+textKey(r.t)));
   for(const r of item.replies){const rk=textKey(r.u)+'|'+textKey(r.t);if(!replySeen.has(rk)){existing.replies.push(r);replySeen.add(rk)}}
  }
- const audited=auditThread(result);
+ const audited=auditThread(result,a);
  window.NAPOLI_COMMENT_AUDIT[id]={duplicates:audited.duplicates,selfReplies:audited.selfReplies,genericFiltered:audited.genericFiltered,hardOverride:Array.isArray(hard),total:audited.cleaned.length};
  return audited.cleaned;
 }
@@ -127,5 +136,5 @@ let busy=false;function sync(){if(busy)return;const r=document.getElementById('r
 const reader=document.getElementById('readerContent');if(reader){new MutationObserver(()=>queueMicrotask(sync)).observe(reader,{childList:true,subtree:true});sync()}
 document.addEventListener('seasonroom:article-opened',()=>requestAnimationFrame(sync));
 document.addEventListener('click',e=>{const b=e.target.closest?.('[data-reply-toggle]');if(b){const t=document.getElementById(b.dataset.replyToggle);if(t){const opening=t.hasAttribute('hidden');if(opening)t.removeAttribute('hidden');else t.setAttribute('hidden','');b.textContent=opening?'Hide replies':'View replies';}return}if(e.target.closest?.('[data-article]'))requestAnimationFrame(sync)});
-window.NAPOLI_COMMENT_ENGINE_VERSION='8.5.0-full-audit-overrides';
+window.NAPOLI_COMMENT_ENGINE_VERSION='8.5.0-editorial-gate';
 })();
