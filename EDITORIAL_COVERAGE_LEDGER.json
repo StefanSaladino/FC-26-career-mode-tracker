@@ -100,6 +100,20 @@
     "site_state": "site-visible-city-final-may2030.js",
     "manager_answers": "None invented; Sandro press statements from in-chat dramatization",
     "visual_qa": "not browser verified",
-    "editorial_review": "Sequenced loaders; repaired missing Pio image references to existing Bastoni image. Validator not run."
+    "editorial_review": "Sequenced loaders; repaired missing Pio image references to existing Bastoni image. Validator not run.",
+    "comments_audit": {
+      "date": "8 May 2030",
+      "scope": "May Scudetto report, dynasty analysis, Stach–Moore feature, City second-leg report, Porto final preview; compared with Juventus, Bayern, Fiorentina and City first leg",
+      "posts_including_replies": {
+        "Scudetto": 42,
+        "Dynasty": 37,
+        "Stach-Moore": 32,
+        "City": 46,
+        "Porto": 32
+      },
+      "script": "comments-may2030-celebrations-audit.js",
+      "loader": "site-visible-juventus-apr2030.js sequential load, cache-busted via index.html",
+      "validation": "No local Node validator or browser visual verification run"
+    }
   }
 }
