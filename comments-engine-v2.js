@@ -68,6 +68,9 @@ function parseComment(item){
 // Keep only the first occurrence of a reply's exact wording per article, and never
 // present a commenter's own words as a separate person's reply.
 const normalizeEditorialText=s=>String(s||'').toLocaleLowerCase().replace(/[’‘]/g,"'").replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+const GENERIC_REPLY_BLACKLIST=new Set([
+"agreed and that is the detail people miss","absolutely what a performance","the follow up is what makes the storyline interesting","different voices make this feel like a real club","we should remember this answer after the next big result","and the confirmed match facts stay intact","agreed don t let the newsroom drop this thread","the newsroom should keep these coming occasionally","fair but let s keep the actual match sequence straight","roma took their chances when the match turned","i agree on the result not necessarily the interpretation","the manager s silence cannot be turned into a fake quote","the opening goal still deserves credit","that s a reasonable distinction","we need evidence before naming individuals","and the league record remains a separate matter","agreed the table is getting tense","there is still time to respond","we need to see the next match","good point no need to invent details","that is what makes this title race compelling","i was thinking exactly the same thing","and the title race just keeps getting tighter","that is why those late goals mattered","good point we still need to improve","forza napoli one match at a time","i still can t believe the turnaround","we have to stay focused on the next one","the numbers really tell the story","completely agree but there is still work to do","that is exactly what i was thinking","the next match will tell us even more","what a week to be napoli","we have to keep our feet on the ground","and the table looks better tonight","agreed we still have work to do","this will be a big test","one game at a time","the fixture list is brutal","forza napoli","absolutely focus first","the pressure will be intense","one match at a time","roma are still dangerous","accountability does not take holidays for trophies","you are typing this while wearing a napoli scarf we can see you"
+]);
 function auditThread(rows){
  const seen=new Set();
  let duplicates=0,selfReplies=0,genericFiltered=0;
@@ -76,6 +79,7 @@ function auditThread(rows){
   for(const node of nodes){
    const key=normalizeEditorialText(node.t);
    if(!key||seen.has(key)){duplicates++;continue}
+   if(GENERIC_REPLY_BLACKLIST.has(key)){genericFiltered++;continue}
    seen.add(key);
    const replies=walk(node.replies||[],node.u,articleId);
    if(parentUser&&node.u===parentUser){
@@ -94,7 +98,8 @@ function auditThread(rows){
 }
 function curated(a){
  const id=String(a.id||'');
- const entries=[
+ const hard=(window.NAPOLI_COMMENT_OVERRIDE||{})[id];
+ const entries=Array.isArray(hard)?hard:[
   ...(C[id]||(window.NAPOLI_CURATED_ARCHIVE||{})[id]||[]),
   ...(Array.isArray(a.comments)?a.comments:[]),
   ...(Array.isArray(a.seededComments)?a.seededComments:[]),
