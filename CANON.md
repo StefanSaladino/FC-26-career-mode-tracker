@@ -5,7 +5,8 @@
 - World Cup debut match contributions: Pio **2 goals, 1 assist**, Kean **1 goal, 1 assist**, Bastoni **1 assist**. All international totals, never Napoli club stats.
 - The manager describes Italy's performance as sloppy, a comeback from 0–2 and lost lead. Fans critical of 'Napotalia' are especially vocal. Do not invent quotes from the manager, unconfirmed lineup, xG or a defensive culprit.
 - Italy missed the previous three World Cups in this save, making this return significant. Manager recently completed a Napoli treble.
-- Upcoming Italy World Cup group games: Japan **15 June 2030**, Paraguay **20 June 2030**; results not yet played. Do not invent other standings.
+- **Other group opener:** Japan and Paraguay **drew** (exact score not supplied). Therefore all four teams — Italy, Tunisia, Japan, Paraguay — have **1 point after one match**. All four also have zero goal difference as each match ended level; Japan/Paraguay goals for/against unknown. Do not invent their match score, tiebreak ranking or additional standings data.
+- Upcoming Italy World Cup group games: Japan **15 June 2030**, Paraguay **20 June 2030**; neither Italy fixture has been played. Other group matches remain unconfirmed.
 - Editorial chronology: publish a pre-kickoff World Cup preview as of 8–9 June with no Tunisia spoilers, then post-match Tunisia coverage. Earlier future-tense entries are historical snapshots.
 
 ## 1 June 2030 — UEFA Champions League final: Porto 0–1 Napoli — TREBLE COMPLETED (manager-confirmed)
