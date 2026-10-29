@@ -117,7 +117,7 @@ function auditThread(rows,article){
    const key=normalizeEditorialText(node.t);
    if(!key||seen.has(key)){duplicates++;continue}
    if(parentUser&&node.u===parentUser){selfReplies++;continue}
-   if(GENERIC_REPLY_BLACKLIST.has(key)||(parentUser&&!substantive(node.t,parentText))){genericFiltered++;continue}
+   if(GENERIC_REPLY_BLACKLIST.has(key)){genericFiltered++;continue}
    seen.add(key);
    const replies=walk(node.replies||[],node.u,node.t);
    result.push({...node,replies});
