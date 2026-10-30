@@ -73,7 +73,7 @@
       "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini. England quarterfinal Retegui and Donnarumma feature package and confirmed France semifinal preview added."
     }
   ],
-  "latest_confirmed_match": "Italy 2–2 England AET · World Cup 2030 Quarterfinal: Locatelli 50′ (Pio assist), Gordon 77′, Bellingham 104′ rebound, Retegui 120+1′ toe-poke equaliser; Italy win 4–3 on penalties, Saka hits post, Donnarumma saves Rice. Italy reach semifinals; next opponent not confirmed. Manager reports England 5.2 xG, Italy 1.4; shots 15–7, on-target 12–5 England. Confirmed next: Italy v France, World Cup semifinal; kickoff date, time and venue not supplied.",
+  "latest_confirmed_match": "Italy 2–2 England AET · World Cup 2030 Quarterfinal: Locatelli 50′ (Pio assist), Gordon 77′, Bellingham 104′ rebound, Retegui 120+1′ toe-poke equaliser; Italy win 4–3 on penalties, Saka hits post, Donnarumma saves Rice. Italy reach semifinals; France confirmed as next opponent. Manager reports England 5.2 xG, Italy 1.4; shots 15–7, on-target 12–5 England. Confirmed next: Italy v France, World Cup semifinal; kickoff date, time and venue not supplied.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,7 +88,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "England six-story edition committed; added France semifinal preview and comments, updated national fixture and homepage on main. Latest Pages deploy requires verification.",
+    "status": "Seven-story England/France World Cup edition committed and homepage updated to Italy–England result and France semifinal. Successful Pages deployment verified for the published package; final cleanup deployment may be newer.",
     "phase": "World Cup semifinal after England quarterfinal: France confirmed as next opponent",
     "match": "Italy 2–2 England after 120 minutes, Italy win 4–3 on penalties",
     "story_files": [
@@ -154,11 +154,12 @@
       "total_new_comments_and_replies": 240,
       "standalone_threads": 6,
       "comment_scripts": 3,
-      "notes": "Existing 216 comments/replies across six England stories preserved without replacement; added 13 France-preview threads with 24 comments/replies. Final checks pending release verification."
+      "notes": "Existing 216 comments/replies across six England stories preserved without replacement; added 13 France-preview threads with 24 comments/replies. Final checks pending release verification.",
+      "verification": "Checked all seven new articles: 106 top-level threads, 240 total unique remarks including replies, no duplicate texts, no immediate self-replies, no malformed nodes. All seven story IDs match their comment scripts."
     },
-    "assets_qa": "Seven original England/France subject-specific SVG covers referenced by live stories. GitHub file existence to be verified; browser visual and mobile crop checks not performed.",
+    "assets_qa": "All seven subject-specific SVG paths fetched and confirmed present, well-formed SVG delimiters; browser visual/mobile crop review not performed.",
     "release_version": "20301030-england-france-semifinal-v2",
-    "status_checks": "GitHub Actions, deployment, images and full script ordering to be checked; no browser QA assumed.",
+    "status_checks": "GitHub Editorial quality gate successful; Supporter Comments Audit and Comment editorial audit successful for the England/France scripts; Pages deployment completed successfully on latest pre-cleanup package. Verified all new loader paths, IDs, France next fixture, distinct cover references and comment population. No rendered-browser QA.",
     "next_fixture": {
       "competition": "2030 FIFA World Cup",
       "round": "Semifinal",
@@ -169,7 +170,8 @@
       "venue": null,
       "confirmed_by": "Manager in conversation",
       "result": null
-    }
+    },
+    "cleanup": "Removed an unused, unreferenced intermediate England/France draft that duplicated three already-published article IDs; the canonical seven-story loadout is unchanged."
   },
   "previous_newsroom_package": {
     "status": "Kean standalone historic record feature committed to main, with deployment and CI check remaining to verify.",
