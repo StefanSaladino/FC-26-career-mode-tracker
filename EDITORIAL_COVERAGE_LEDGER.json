@@ -70,10 +70,10 @@
     {
       "month": "2030-06",
       "status": "covered",
-      "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini."
+      "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini. England quarterfinal Retegui and Donnarumma feature package and confirmed France semifinal preview added."
     }
   ],
-  "latest_confirmed_match": "Italy 2–2 England AET · World Cup 2030 Quarterfinal: Locatelli 50′ (Pio assist), Gordon 77′, Bellingham 104′ rebound, Retegui 120+1′ toe-poke equaliser; Italy win 4–3 on penalties, Saka hits post, Donnarumma saves Rice. Italy reach semifinals; next opponent not confirmed. Manager reports England 5.2 xG, Italy 1.4; shots 15–7, on-target 12–5 England.",
+  "latest_confirmed_match": "Italy 2–2 England AET · World Cup 2030 Quarterfinal: Locatelli 50′ (Pio assist), Gordon 77′, Bellingham 104′ rebound, Retegui 120+1′ toe-poke equaliser; Italy win 4–3 on penalties, Saka hits post, Donnarumma saves Rice. Italy reach semifinals; next opponent not confirmed. Manager reports England 5.2 xG, Italy 1.4; shots 15–7, on-target 12–5 England. Confirmed next: Italy v France, World Cup semifinal; kickoff date, time and venue not supplied.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,14 +88,15 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Six Italy–England World Cup quarterfinal stories committed on main and wired to homepage; check GitHub Actions and rendered Pages deployment independently.",
-    "phase": "2030 World Cup quarterfinal · Italy advance to semifinal",
+    "status": "England six-story edition committed; added France semifinal preview and comments, updated national fixture and homepage on main. Latest Pages deploy requires verification.",
+    "phase": "World Cup semifinal after England quarterfinal: France confirmed as next opponent",
     "match": "Italy 2–2 England after 120 minutes, Italy win 4–3 on penalties",
     "story_files": [
       "stories-italy-england-quarterfinal-core-2030.js",
       "stories-italy-england-retegui-feature-2030.js",
       "stories-italy-england-penalties-feature-2030.js",
-      "stories-italy-england-semifinal-legacy-2030.js"
+      "stories-italy-england-semifinal-legacy-2030.js",
+      "stories-italy-france-semifinal-preview-2030.js"
     ],
     "stories": [
       "italy-england-two-two-pens-retegui-donnarumma-semifinal-2030",
@@ -103,7 +104,8 @@
       "italy-england-five-point-two-xg-defensive-warning-semifinal-2030",
       "italy-england-retegui-toe-120th-minute-miracle-feature-2030",
       "italy-england-pio-locatelli-four-perfect-penalties-feature-2030",
-      "italy-england-semifinal-after-24-years-opinion-2030"
+      "italy-england-semifinal-after-24-years-opinion-2030",
+      "italy-france-world-cup-semifinal-defence-preview-2030"
     ],
     "bylines": [
       "Giulia Romano · World Cup correspondent",
@@ -111,11 +113,13 @@
       "Marco Bellini · Tactical columnist",
       "Sofia Mancini · Player features correspondent",
       "Andrea Conti · Tournament correspondent",
-      "Lorenzo Ricci · Senior football columnist"
+      "Lorenzo Ricci · Senior football columnist",
+      "Andrea Conti · Tournament correspondent (France semifinal preview)"
     ],
     "comment_files": [
       "comments-italy-england-match-gigio-tactics-2030.js",
-      "comments-italy-england-retegui-penalties-semifinal-2030.js"
+      "comments-italy-england-retegui-penalties-semifinal-2030.js",
+      "comments-italy-france-semifinal-preview-2030.js"
     ],
     "original_cover_files": [
       "assets/editorial-italy-england-120-miracle-2030.svg",
@@ -123,11 +127,12 @@
       "assets/editorial-italy-england-xg-warning-2030.svg",
       "assets/editorial-italy-england-retegui-toe-2030.svg",
       "assets/editorial-italy-england-penalties-pio-locatelli-2030.svg",
-      "assets/editorial-italy-england-resurrection-semifinal-2030.svg"
+      "assets/editorial-italy-england-resurrection-semifinal-2030.svg",
+      "assets/editorial-italy-france-semifinal-preview-2030.svg"
     ],
     "international_state": "state-italy-england-semifinal-worldcup-2030.js",
     "homepage_override": "site-visible-italy-england-semifinal-2030.js",
-    "current_stats": "Italy World Cup 6 played (2 wins, 4 draws, 0 defeats), 13 scored, 11 conceded. Kean 7G/2A; Pio 3G/6A; Locatelli 1G, Retegui 1G. Do not add shootout kicks, or any Italy numbers to Napoli club stats.",
+    "current_stats": "Italy World Cup 6 matches (2 wins, 4 draws after play, no losses), 13 for, 11 against. Kean 7G/2A; Pio 3G/6A; Locatelli 1G, Retegui 1G. International only; shootout conversions not counted.",
     "shootout": "Italy Retegui, Locatelli, Pio, Dimarco successful; England Saka post, Gordon, Bellingham, Delap successful, Rice saved by Donnarumma. Italy 4–3 England.",
     "match_stats": {
       "italy": {
@@ -142,18 +147,29 @@
       }
     },
     "manager_position": "Outplayed despite qualification; celebrate now, reinforce defence for semifinal. Manager statements were in private conversation, not answers to a staged newsroom interview.",
-    "no_fabrications": "No unconfirmed England semifinal opponent, kickoff, exact times of two stoppage-time saves, extra match goals, scorelines, quotes or goalkeeper clean-sheet credit added.",
+    "no_fabrications": "France is confirmed as semifinal opponent; no date, kickoff, venue, French lineup, French results or semifinal outcome supplied. No invented manager press answers, no extra goals, and no Napoli club statistics mixed in.",
     "audience_audit": {
-      "new_stories": 6,
-      "top_level_threads": 93,
-      "total_new_comments_and_replies": 216,
+      "new_stories": 7,
+      "top_level_threads": 106,
+      "total_new_comments_and_replies": 240,
       "standalone_threads": 6,
-      "comment_scripts": 2,
-      "notes": "Full cross-script uniqueness, syntax and site loader checks to be validated separately."
+      "comment_scripts": 3,
+      "notes": "Existing 216 comments/replies across six England stories preserved without replacement; added 13 France-preview threads with 24 comments/replies. Final checks pending release verification."
     },
-    "assets_qa": "Six original subject-specific SVGs created. File presence verified by GitHub commits. Browser rendering, cropping and responsive visual QA have NOT been completed.",
-    "release_version": "20301030-england-semifinal-v1",
-    "status_checks": "GitHub Action outcome and deployed site to be verified separately. No browser QA claimed."
+    "assets_qa": "Seven original England/France subject-specific SVG covers referenced by live stories. GitHub file existence to be verified; browser visual and mobile crop checks not performed.",
+    "release_version": "20301030-england-france-semifinal-v2",
+    "status_checks": "GitHub Actions, deployment, images and full script ordering to be checked; no browser QA assumed.",
+    "next_fixture": {
+      "competition": "2030 FIFA World Cup",
+      "round": "Semifinal",
+      "home": "Italy",
+      "away": "France",
+      "date": null,
+      "kickoff": null,
+      "venue": null,
+      "confirmed_by": "Manager in conversation",
+      "result": null
+    }
   },
   "previous_newsroom_package": {
     "status": "Kean standalone historic record feature committed to main, with deployment and CI check remaining to verify.",
