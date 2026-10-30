@@ -73,7 +73,7 @@
       "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini. England quarterfinal Retegui and Donnarumma feature package and confirmed France semifinal preview added."
     }
   ],
-  "latest_confirmed_match": "Italy 2–2 England AET · World Cup 2030 Quarterfinal: Locatelli 50′ (Pio assist), Gordon 77′, Bellingham 104′ rebound, Retegui 120+1′ toe-poke equaliser; Italy win 4–3 on penalties, Saka hits post, Donnarumma saves Rice. Italy reach semifinals; France confirmed as next opponent. Manager reports England 5.2 xG, Italy 1.4; shots 15–7, on-target 12–5 England. Confirmed next: Italy v France, World Cup semifinal; kickoff date, time and venue not supplied.",
+  "latest_confirmed_match": "Italy 1–2 France AET · 2030 FIFA World Cup semifinal. Pio Esposito 25′ (Moise Kean assist), Mbappé 67′; Donnarumma miracle save 89′; Etikite 120+2′ France winner and full-time whistle. At 90 minutes 1–1. Manager observed one additional minute displayed, with scorer recorded at 120+2; added time is a minimum. France vs Belgium in final; Italy vs Denmark in third place, both fixtures yet to be played.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,6 +88,74 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "France World Cup semifinal aftermath and Denmark third-place preview authored and committed; check live deployment separately",
+    "phase": "Italy eliminated 1–2 AET by France; Denmark third-place playoff next; France vs Belgium final",
+    "match": "Italy 1–2 France after extra time · World Cup 2030 semifinal; Etikite winning goal 120+2",
+    "latest_result": "Italy 1–2 France AET",
+    "story_files": [
+      "stories-italy-france-semifinal-aftermath-2030.js"
+    ],
+    "stories": [
+      "italy-france-semifinal-1202-etikite-worldcup-exit-2030",
+      "italy-donnarumma-worldcup-france-last-line-feature-2030",
+      "italy-france-stoppage-time-1202-officiating-debate-2030",
+      "italy-denmark-third-place-worldcup-2030-preview"
+    ],
+    "bylines": [
+      "Giulia Romano · World Cup correspondent",
+      "Elena De Luca · Longform features",
+      "Marco Bellini · Tactical columnist",
+      "Andrea Conti · Tournament correspondent"
+    ],
+    "comment_files": [
+      "comments-italy-france-semifinal-aftermath-2030.js"
+    ],
+    "original_cover_files": [
+      "assets/editorial-italy-france-1202-heartbreak-2030.svg",
+      "assets/editorial-italy-gigio-last-line-france-2030.svg",
+      "assets/editorial-italy-france-added-time-question-2030.svg",
+      "assets/editorial-italy-denmark-bronze-2030.svg"
+    ],
+    "international_state": "state-italy-france-semifinal-worldcup-2030.js",
+    "homepage_override": "site-visible-italy-france-denmark-third-2030.js",
+    "current_stats": "Italy World Cup 7 matches (2 wins, 4 draws after play, 1 loss), 14 for, 13 against. Kean 7G/3A; Pio 4G/6A. International only; Napoli club figures unchanged.",
+    "official_result": "France win 2–1 after extra time; no shootout.",
+    "added_time_note": "One minute reportedly displayed; Etikite 120+2 winner. The board is a minimum; do not state that officiating was unlawful. No referee timekeeping explanation supplied.",
+    "audience_audit": {
+      "new_stories": 4,
+      "top_level_threads": 51,
+      "total_new_comments_and_replies": 131,
+      "nested_replies": 80,
+      "unique_comment_texts": 131,
+      "comment_scripts": 1,
+      "notes": "Unique drafted public comments in four separate angle-specific collections, with back-and-forth exchanges, relevant recurring voices, rival reactions and no immediate self-replies. Existing England and France preview threads preserved."
+    },
+    "assets_qa": "Four new subject-specific 1200×675 SVG graphics added with accessible labels. File existence checked by Git tree; rendered desktop/mobile layout not browser-verified.",
+    "release_version": "20301030-italy-france-denmark-v1",
+    "status_checks": "Technical GitHub Actions verification pending commit; no browser rendering check. Do not claim passed until verified.",
+    "next_fixture": {
+      "competition": "2030 FIFA World Cup",
+      "round": "Third-place playoff",
+      "home": "Italy",
+      "away": "Denmark",
+      "date": null,
+      "kickoff": null,
+      "venue": null,
+      "confirmed_by": "Manager in conversation",
+      "result": null
+    },
+    "other_fixture": {
+      "competition": "2030 FIFA World Cup",
+      "round": "Final",
+      "home": "France",
+      "away": "Belgium",
+      "date": null,
+      "kickoff": null,
+      "result": null
+    },
+    "no_fabrications": "No unconfirmed French lineup, shots, Etikite assist, Denmark match or final result. Manager private comments not attributed to public interviews. Club statistics untouched."
+  },
+  "previous_newsroom_package": {
     "status": "Seven-story England/France World Cup edition committed and homepage updated to Italy–England result and France semifinal. Successful Pages deployment verified for the published package; final cleanup deployment may be newer.",
     "phase": "World Cup semifinal after England quarterfinal: France confirmed as next opponent",
     "match": "Italy 2–2 England after 120 minutes, Italy win 4–3 on penalties",
@@ -174,33 +242,20 @@
     "cleanup": "Removed an unused, unreferenced intermediate England/France draft that duplicated three already-published article IDs; the canonical seven-story loadout is unchanged.",
     "editorial_rectification": "England/France public coverage and comments corrected to remove private manager debrief leaks, source-language artefacts and stale France-opponent uncertainty. Media-director bylines corrected in five identified 2029 story scripts. September Hasa feature evidenced; July 2029 editorial coverage exception recorded. Match outcomes, statistics, story IDs, image references and supporter conversations preserved. Browser/mobile rendering not independently verified."
   },
-  "previous_newsroom_package": {
-    "status": "Kean standalone historic record feature committed to main, with deployment and CI check remaining to verify.",
-    "date": "World Cup 2030 · After Italy 2–1 Türkiye (precise match day not provided)",
-    "feature": "Italian record: seven World Cup goals in five matches by Moise Kean; surpasses Paolo Rossi six (1982) and Salvatore Schillaci six (1990). England quarterfinal remains next.",
-    "story_files": [
-      "stories-italy-kean-seven-world-cup-record-2030.js"
-    ],
-    "comment_files": [
-      "comments-italy-kean-seven-world-cup-record-2030.js"
-    ],
-    "state_file": "state-italy-turkiye-england-worldcup-2030.js",
-    "site_state": "site-visible-kean-italy-worldcup-record-2030.js",
-    "image_files": [
-      "assets/editorial-kean-italy-seven-goals-record-2030.svg"
-    ],
-    "byline": "Sofia Mancini · Player features correspondent (Sandro Vitale is NOT a newsroom journalist; Luca Ferraro works behind scenes only)",
-    "article_depth": "One independently reported 20-paragraph historical milestone feature (approximately 1,064 words), context: Rossi, Schillaci, England and the tournament scoring trail. Not a manager press statement or player interview.",
-    "comments_audit": {
-      "scope": "Kean historic record feature only",
-      "top_level": 21,
-      "all_comments_and_replies": 69,
-      "status": "Pre-release source review: 69 unique remarks, two standalone comments, multiple branching and nested discussions, no duplicate text or immediate self replies. FIFA-backed Rossi six 1982, Schillaci six 1990, Fontaine 13 1958."
-    },
-    "stats_scope": "Italy World Cup only: Kean 7G/2A, Pio 3G/5A; Napoli club totals untouched. Kean is not a Napoli player.",
-    "fixture_status": "England World Cup quarterfinal confirmed; no date, score, lineup or venue supplied.",
-    "release_notes": "New scripts appended after prior Türkiye update; Kean feature is the home hero. Existing Italy 2–1 Türkiye result, England next fixture and other 5 Türkiye/England features retained. HTML and loader cache-busted to 20301030-kean-seven-record-v1.",
-    "validation": "GitHub editorial gate and deployment status to be independently verified. Rendered browser QA not performed; source assets exist as original SVG editorial artwork, not match photographs.",
-    "public_quotes": "No invented Kean, manager, or assistant quotes. Private user recognition of the record not presented as a press interview."
-  }
+  "release_history": [
+    {
+      "release_version": "20301030-england-france-semifinal-v3",
+      "phase": "World Cup semifinal after England quarterfinal: France confirmed as next opponent",
+      "story_ids": [
+        "italy-england-two-two-pens-retegui-donnarumma-semifinal-2030",
+        "italy-england-donnarumma-three-saves-rice-penalty-keeper-2030",
+        "italy-england-five-point-two-xg-defensive-warning-semifinal-2030",
+        "italy-england-retegui-toe-120th-minute-miracle-feature-2030",
+        "italy-england-pio-locatelli-four-perfect-penalties-feature-2030",
+        "italy-england-semifinal-after-24-years-opinion-2030",
+        "italy-france-world-cup-semifinal-defence-preview-2030"
+      ],
+      "archived_at": "Following Italy–France World Cup semifinal result"
+    }
+  ]
 }
