@@ -46,9 +46,9 @@ w.knockoutMatches.push(match);
 w.lastConfirmedRound='Quarterfinal';
 w.knockoutQualification={...(w.knockoutQualification||{}),
  qualified:true,firstPlace:true,reachedQuarterfinals:true,quarterfinalOpponent:'England',quarterfinalWinner:'Italy',
- reachedSemifinals:true,semifinalOpponent:null,semifinalFixtureDate:null,semifinalFixtureTime:null,
- nextRound:'Semifinal',opponent:null,fixtureDate:null,fixtureTime:null};
-w.nextItalyFixtures=[];
+ reachedSemifinals:true,semifinalOpponent:'France',semifinalFixtureDate:null,semifinalFixtureTime:null,
+ nextRound:'Semifinal',opponent:'France',fixtureDate:null,fixtureTime:null};
+w.nextItalyFixtures=[{competition:'FIFA World Cup',round:'Semifinal',home:'Italy',away:'France',date:null,kickoff:null,status:'scheduled',verified:true}];
 w.italyWorldCupMatchesCompleted=6;
 w.italyWorldCupMatchesConcededFirst=5;
 w.italyWorldCupRecord={played:6,won:2,drawn:4,lost:0,goalsFor:13,goalsAgainst:11,goalDifference:2,
@@ -76,5 +76,5 @@ if(Array.isArray(d.results)&&!d.results.some(r=>r[0]==='Italy'&&r[1]==='England'
  d.results.push(['Italy','England','World Cup',2,2,'W (pens)',"Locatelli 50' (Pio); Retegui 120+1'","Gordon 77'; Bellingham 104' · 2–2 AET · Italy 4–3 pens · Donnarumma saves Rice"]);
 }
 d.latestInternationalResult=['Italy','2–2','England','World Cup Quarterfinal · 2–2 AET · Italy win 4–3 on penalties · Semifinalists'];
-// Keep Napoli club appearances and goal / assist totals completely unchanged. Semifinal opponent and kickoff remain unconfirmed.
+// Keep Napoli club appearances and goal / assist totals completely unchanged. France is confirmed as semifinal opponent; match date, time and venue remain unconfirmed.
 })();
