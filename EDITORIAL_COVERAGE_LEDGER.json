@@ -73,7 +73,7 @@
       "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage."
     }
   ],
-  "latest_confirmed_match": "Italy 1–1 Romania AET, June 2030 World Cup Round of 32 · Rațiu 34′, Tonali 42′ (Barella) · Italy advance on penalties; Rovella decisive; Turkey next in Round of 16. Complete Romania penalty sequence not confirmed.",
+  "latest_confirmed_match": "Italy 2–1 Türkiye · FIFA World Cup 2030 Round of 16 (exact match date not supplied): Güler 12′; Kean 38′ (Pio assist), 52′ (Barella assist); Donnarumma full-stretch save 90′; Locatelli clears late header off the line before full-time whistle. Italy reach quarterfinal against England.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,37 +88,43 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "committed; automated quality gate and deployment verification pending",
-    "date": "June 2030 · In-universe; precise Romania match day not supplied",
+    "status": "Published on main. Editorial quality gate, Supporter Comments Audit and Comment editorial audit PASS at source release commit 461b3042323e8a559928e7c9c5a9c120d1d3a9b5. Pages deployment SUCCESS at that commit. Subsequent canon/ledger-only commits do not change new website code.",
+    "date": "World Cup 2030 · Round of 16 (precise match day not supplied)",
     "topics": [
-      "Italy 1–1 Romania AET: Rațiu 34′, Tonali 42′ (Nicolò Barella assist); Italy advance on penalties, Nicolò Rovella decisive",
-      "Five Italy penalties: Locatelli goal, Pio post, Dimarco goal, Sebastiano Esposito goal, Rovella goal. Romania verified only: Cîrjan saved by Donnarumma, Stoian goal, Rădulescu misses target; no aggregate tally invented",
-      "Italy have conceded first in all four World Cup games; round-of-sixteen opponent confirmed TURKEY, date/time/venue unknown",
-      "Group-only Kean 5G2A, Pio 3G4A remain separate from new knockout Tonali 1G/Barella 1A and all Napoli club statistics"
+      "Italy 2–1 Türkiye; Güler 12′; Kean 38′ from Pio and 52′ from Barella; 1–1 halftime, 2–1 full time",
+      "Donnarumma full-stretch save at minute 90; subsequent Türkiye corner headed toward goal corner, cleared off line by Locatelli immediately before final whistle (no invented header scorer or added minute)",
+      "Kean seven World Cup goals; Pio three goals and five assists; Barella three tournament assists. Club statistics unchanged. Kean is NOT a Napoli player.",
+      "Five matches, five opening deficits. Italy World Cup record W2 D3 L0, 11 GF, 9 GA (Romania AET draw advances on penalties)",
+      "England drawn in World Cup quarterfinal; opponent formation, fixture date and venue unconfirmed",
+      "Manager privately views Euro final loss in extra time and World Cup QF as progress, but is not satisfied; no fabricated interview or press quote",
+      "Napoli board confirmed new $444m budget but club transfers deliberately deferred until World Cup ends; board mail not covered in public World Cup articles"
     ],
     "story_files": [
-      "stories-italy-romania-turkey-worldcup-2030.js"
+      "stories-italy-turkiye-england-worldcup-2030.js"
     ],
     "comment_files": [
-      "comments-italy-romania-turkey-worldcup-2030.js"
+      "comments-italy-turkiye-match-keepers-2030.js",
+      "comments-italy-turkiye-features-england-2030.js"
     ],
-    "state_file": "state-italy-romania-turkey-worldcup-2030.js",
-    "site_state": "site-visible-italy-romania-turkey-2030.js",
+    "state_file": "state-italy-turkiye-england-worldcup-2030.js",
+    "site_state": "site-visible-italy-turkiye-england-2030.js",
     "images": [
-      "assets/editorial-italy-romania-rovella-last16-2030.svg",
-      "assets/editorial-italy-romania-esposito-gigio-2030.svg",
-      "assets/editorial-italy-romania-four-deficits-2030.svg",
-      "assets/editorial-italy-turkey-round16-2030.svg"
+      "assets/editorial-italy-turkiye-last-eight-2030.svg",
+      "assets/editorial-italy-turkiye-locatelli-donnarumma-2030.svg",
+      "assets/editorial-italy-turkiye-kean-pio-barella-2030.svg",
+      "assets/editorial-italy-turkiye-five-concessions-2030.svg",
+      "assets/editorial-italy-england-quarterfinal-2030.svg"
     ],
-    "manager_quotes": "Only the manager's pre-Romania words actually supplied in chat. No invented post-match press statements.",
-    "player_interviews": "No fabricated interviews; brothers and Donnarumma are featured analytically, not via unconfirmed direct quotes.",
+    "manager_quotes": "No new public manager quotes or press answers invented; user-supplied private ambition discussed as background, not falsely attributed to a press conference.",
+    "player_interviews": "Two character-led feature stories analysing Kean/Pio/Barella and Donnarumma/Locatelli without fabricated player interview quotations.",
+    "international_scope": "Group Kean 5G2A/Pio 3G4A; knockout Kean 2G/Pio 1A/Barella 2A/Tonali 1G; World Cup through Türkiye Kean 7G2A, Pio 3G5A, Barella 3A; all national-team only.",
+    "source_validation": "Five longform articles: 81 substantive body paragraphs; all five new article IDs distinct; all five matching original cover SVGs committed; loader appends new stories, two comment files, state and latest site takeover in order, and index.html cache-busted. Editorial technical quality gate SUCCESS at 461b3042; GH comment editorial and supporter audits SUCCESS at same source release commit.",
     "comments_audit": {
-      "scope": "Four Romania/Turkey articles",
-      "top_level": 49,
-      "all_comments_and_replies": 147,
-      "status": "49 distinct threads, 147 remarks, no repeated remark texts or same-author immediate replies by source audit."
+      "scope": "All five new Türkiye/England longform articles",
+      "top_level": 76,
+      "all_comments_and_replies": 229,
+      "status": "Source traversal across both new comment files: 229 unique remark texts, no immediate self-replies, 5 distinct article IDs; 17/14/15/15/15 top-level threads with 56/40/45/43/45 total comments respectively. GH supporter/comment editorial checks success."
     },
-    "source_validation": "63 substantial report/feature/analysis/preview body paragraphs. Pending GitHub editorial quality gate and Pages deployment confirmation; live browser visual QA not performed.",
-    "visual_qa": "Not browser visually inspected"
+    "visual_qa": "SVG files exist; rendered-browser visual and responsive QA not performed. GitHub Pages deployment success does not establish visual QA."
   }
 }
