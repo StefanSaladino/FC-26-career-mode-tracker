@@ -70,10 +70,10 @@
     {
       "month": "2030-06",
       "status": "covered",
-      "note": "Napoli treble final Pio/Zaïre-Emery and Meret/Peacock features, Italy–Tunisia Pio/Kean/Hannibal; 15 June Japan character coverage and 20 June Paraguay Kean–Pio player feature."
+      "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage."
     }
   ],
-  "latest_confirmed_match": "Italy 2–1 Paraguay, 20 June 2030 · Kean 66′ and 70′ (both Pio assists), Aguayo 43′ pen. · Japan lost to Tunisia; ITALY WIN WORLD CUP GROUP WITH FIVE POINTS",
+  "latest_confirmed_match": "Italy 1–1 Romania AET, June 2030 World Cup Round of 32 · Rațiu 34′, Tonali 42′ (Barella) · Italy advance on penalties; Rovella decisive; Turkey next in Round of 16. Complete Romania penalty sequence not confirmed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,43 +88,37 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "published_and_deployed; final_source_checks_and_editorial_quality_gate_passed",
-    "date": "21 June 2030 · In-universe",
+    "status": "committed; automated quality gate and deployment verification pending",
+    "date": "June 2030 · In-universe; precise Romania match day not supplied",
     "topics": [
-      "Japan 3–3 Italy on 15 June: Kubo 5′, Kean 26′ (Pio), Pio 33′ (Kean), Shogai 45′, Kean 52′ (Barella), Calafiori own goal 66′",
-      "Italy 2–1 Paraguay on 20 June: Aguayo 43′ penalty; Kean 66′ and 70′ from Pio; manager reports no Paraguayan touches for final 20 minutes",
-      "Halftime speech quotes directly supplied by manager: Who believes ... raise your fucking hand, four stars and future generations, But not today. Not fucking today.",
-      "Tunisia beat Japan on final matchday; Italy finish top five points, Paraguay and Tunisia four, Japan two; Paraguay/Tunisia tiebreak order unconfirmed",
-      "Napotalia post-Japan analysis, cross-club Kean–Pio partnership and national/club statistics separation",
-      "Glitched original Japan attempt entirely void; completed replay alone recorded"
+      "Italy 1–1 Romania AET: Rațiu 34′, Tonali 42′ (Nicolò Barella assist); Italy advance on penalties, Nicolò Rovella decisive",
+      "Five Italy penalties: Locatelli goal, Pio post, Dimarco goal, Sebastiano Esposito goal, Rovella goal. Romania verified only: Cîrjan saved by Donnarumma, Stoian goal, Rădulescu misses target; no aggregate tally invented",
+      "Italy have conceded first in all four World Cup games; round-of-sixteen opponent confirmed TURKEY, date/time/venue unknown",
+      "Group-only Kean 5G2A, Pio 3G4A remain separate from new knockout Tonali 1G/Barella 1A and all Napoli club statistics"
     ],
     "story_files": [
-      "stories-italy-japan-worldcup-jun2030.js",
-      "stories-italy-paraguay-worldcup-jun2030.js"
+      "stories-italy-romania-turkey-worldcup-2030.js"
     ],
     "comment_files": [
-      "comments-italy-japan-worldcup-jun2030.js",
-      "comments-italy-paraguay-worldcup-jun2030.js"
+      "comments-italy-romania-turkey-worldcup-2030.js"
     ],
-    "state_file": "state-italy-worldcup-japan-paraguay-jun2030.js",
-    "site_state": "site-visible-italy-paraguay-group-winners-jun2030.js",
+    "state_file": "state-italy-romania-turkey-worldcup-2030.js",
+    "site_state": "site-visible-italy-romania-turkey-2030.js",
     "images": [
-      "assets/editorial-japan-italy-six-goal-draw-jun2030.svg",
-      "assets/editorial-italy-defence-under-fire-jun2030.svg",
-      "assets/editorial-italy-paraguay-worldcup-top-jun2030.svg",
-      "assets/editorial-italy-four-stars-address-jun2030.svg",
-      "assets/editorial-italy-pio-kean-partnership-jun2030.svg"
+      "assets/editorial-italy-romania-rovella-last16-2030.svg",
+      "assets/editorial-italy-romania-esposito-gigio-2030.svg",
+      "assets/editorial-italy-romania-four-deficits-2030.svg",
+      "assets/editorial-italy-turkey-round16-2030.svg"
     ],
-    "manager_quotes": "Only direct halftime words supplied in chat quoted, no invented post-match manager interview",
-    "player_interviews": "No authentic or fabricated player interviews; player reactions in roleplay are dramatized and excluded from authentic press testimony",
-    "international_scope": "Group only: Pio 3 goals, 4 assists; Kean 5 goals, 2 assists; Bastoni 1 assist; Barella 1 assist. Napoli club stats unchanged.",
-    "source_validation": "Five longform articles, 81 paragraphs, 70 top-level threads, 221 distinct comments/replies. All six new JS files parse; combined new-Italy source + DOM simulation passes, latest homepage lead Paraguay, Italy first on 5pts, complete Japan replay only, correct international-only totals, no duplicate or self-replies, unchanged Napoli club stats. GitHub Editorial quality gate success and GitHub Pages deployment success at commit 006976269de0cfdecfe5836929462d40ea67ed9a. Local Node command not executed due runtime network restriction; no rendered-browser visual QA performed.",
+    "manager_quotes": "Only the manager's pre-Romania words actually supplied in chat. No invented post-match press statements.",
+    "player_interviews": "No fabricated interviews; brothers and Donnarumma are featured analytically, not via unconfirmed direct quotes.",
     "comments_audit": {
-      "scope": "Two Japan articles and three Paraguay articles",
-      "top_level": 70,
-      "all_comments_and_replies": 221,
-      "status": "Verified by source-level nested comment checks: zero duplicate text and zero self-replies."
+      "scope": "Four Romania/Turkey articles",
+      "top_level": 49,
+      "all_comments_and_replies": 147,
+      "status": "49 distinct threads, 147 remarks, no repeated remark texts or same-author immediate replies by source audit."
     },
+    "source_validation": "63 substantial report/feature/analysis/preview body paragraphs. Pending GitHub editorial quality gate and Pages deployment confirmation; live browser visual QA not performed.",
     "visual_qa": "Not browser visually inspected"
   }
 }
