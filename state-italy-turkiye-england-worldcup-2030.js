@@ -42,6 +42,13 @@ w.italyTournamentContributions={
  'Sandro Tonali':{goals:1,assists:0},
  'Alessandro Bastoni':{goals:0,assists:1}
 };
+// Italian men's single-World-Cup goals record; not the all-time multi-tournament Italian goals record.
+w.italySingleTournamentGoalsRecord={
+ player:'Moise Kean',goals:7,worldCup:2030,through:'Round of 16 vs Türkiye',
+ priorJointRecord:[{player:'Paolo Rossi',year:1982,goals:6},{player:'Salvatore Schillaci',year:1990,goals:6}],
+ globalSingleTournamentRecord:{player:'Just Fontaine',country:'France',year:1958,goals:13},
+ englandQuarterfinalStillPending:true
+};
 if(Array.isArray(d.results)&&!d.results.some(r=>r[0]==='Italy'&&(r[1]==='Türkiye'||r[1]==='Turkey')&&r[2]==='World Cup'&&Number(r[3])===2&&Number(r[4])===1)){
  d.results.push(['Italy','Türkiye','World Cup',2,1,'W',"Kean 38' (Pio), 52' (Barella)","Güler 12' · Donnarumma full-stretch save 90' · Locatelli late goal-line clearance"]);
 }
