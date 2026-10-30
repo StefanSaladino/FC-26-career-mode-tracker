@@ -64,10 +64,10 @@ if(ticker)ticker.innerHTML=[...news,...news].map(s=>'<span>'+esc(s)+'</span>').j
 d.whispers=[
  ['A NATION RESCUED','Italy 2–2 England after extra time; Retegui equalised at 120+1 before the Azzurri won 4–3 in the shootout.'],
  ['GIGIO SAVES THE NIGHT','Donnarumma produced two major saves in regulation stoppage time, another in the 116th and denied Rice in the shootout.'],
- ['THE COST OF SURVIVAL','England generated 5.2 expected goals to Italy\'s 1.4, leading shots 15–7 and on-target attempts 12–5. The manager acknowledged Italy were outplayed.'],
+ ['THE COST OF SURVIVAL','England generated 5.2 expected goals to Italy\'s 1.4, leading shots 15–7 and on-target attempts 12–5. England dominated the chance quality.'],
  ['FOUR PERFECT PENALTIES','Retegui, Locatelli, Pio Esposito and Dimarco scored. Saka hit the post; Rice was saved. Rovella was not required for Italy\'s fifth.'],
  ['A NEW SCORING RECORD','Kean retains the Italian single-World-Cup record with seven goals. Pio has three goals and six assists for Italy at this World Cup.'],
- ['FRANCE AWAIT','Italy vs France is the confirmed World Cup semifinal; date, venue and kickoff have not been announced in the match record.'],
+ ['FRANCE AWAIT','Italy face France in the World Cup semifinal, with a place in the final at stake.'],
  ['THE DEFENSIVE TASK','Celebrate the comeback now; address the 5.2 xG conceded and the threat of second balls before the semifinal.']
 ];
 const w=$('whisperList');if(w)w.innerHTML=d.whispers.map(x=>'<div class="whisper"><span>'+esc(x[0])+'</span><p>'+esc(x[1])+'</p></div>').join('');

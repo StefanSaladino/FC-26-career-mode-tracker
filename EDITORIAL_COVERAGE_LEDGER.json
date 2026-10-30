@@ -14,8 +14,8 @@
     },
     {
       "month": "2029-07",
-      "status": "review_needed",
-      "note": "No confirmed dedicated feature or approved exception in current audit; review rather than fabricate."
+      "status": "exception_documented",
+      "note": "July 2029 off-season/transfer transition: no dedicated player interview or character-led feature verified in inspected archive. Documented retrospective editorial exception; no fictional interview or manager approval invented."
     },
     {
       "month": "2029-08",
@@ -24,8 +24,8 @@
     },
     {
       "month": "2029-09",
-      "status": "review_needed",
-      "note": "No confirmed dedicated feature or approved exception in current audit; review rather than fabricate."
+      "status": "covered",
+      "note": "29 September 2029: Giulia Romano's character-led Lirim Hasa feature, 'NOT JUST BEIER: WHY HASA'S BOLOGNA AWARD MATTERS TO NAPOLI'S SEASON', in stories-bologna-rotation-september-2029.js, following his Player of the Match performance."
     },
     {
       "month": "2029-10",
@@ -158,7 +158,7 @@
       "verification": "Checked all seven new articles: 106 top-level threads, 240 total unique remarks including replies, no duplicate texts, no immediate self-replies, no malformed nodes. All seven story IDs match their comment scripts."
     },
     "assets_qa": "All seven subject-specific SVG paths fetched and confirmed present, well-formed SVG delimiters; browser visual/mobile crop review not performed.",
-    "release_version": "20301030-england-france-semifinal-v2",
+    "release_version": "20301030-england-france-semifinal-v3",
     "status_checks": "GitHub Editorial quality gate successful; Supporter Comments Audit and Comment editorial audit successful for the England/France scripts; Pages deployment completed successfully on latest pre-cleanup package. Verified all new loader paths, IDs, France next fixture, distinct cover references and comment population. No rendered-browser QA.",
     "next_fixture": {
       "competition": "2030 FIFA World Cup",
@@ -171,7 +171,8 @@
       "confirmed_by": "Manager in conversation",
       "result": null
     },
-    "cleanup": "Removed an unused, unreferenced intermediate England/France draft that duplicated three already-published article IDs; the canonical seven-story loadout is unchanged."
+    "cleanup": "Removed an unused, unreferenced intermediate England/France draft that duplicated three already-published article IDs; the canonical seven-story loadout is unchanged.",
+    "editorial_rectification": "England/France public coverage and comments corrected to remove private manager debrief leaks, source-language artefacts and stale France-opponent uncertainty. Media-director bylines corrected in five identified 2029 story scripts. September Hasa feature evidenced; July 2029 editorial coverage exception recorded. Match outcomes, statistics, story IDs, image references and supporter conversations preserved. Browser/mobile rendering not independently verified."
   },
   "previous_newsroom_package": {
     "status": "Kean standalone historic record feature committed to main, with deployment and CI check remaining to verify.",

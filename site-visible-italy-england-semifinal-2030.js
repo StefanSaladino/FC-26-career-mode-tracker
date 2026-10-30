@@ -53,7 +53,7 @@ if(ticker)ticker.innerHTML=[...headlines,...headlines].map(x=>'<span>'+esc(x)+'<
 d.whispers=[
  ['THE 121ST-MINUTE LIFELINE','Retegui poked in the loose ball after a blocked shot. Trafford reacted to the initial strike and could not recover. Italy levelled at 120+1.'],
  ['GIGIO MADE IT POSSIBLE','Donnarumma made two major second-half stoppage-time saves, another miracle in minute 116, then denied Rice down the middle to win the shootout.'],
- ['THE UNCOMFORTABLE NUMBERS','England 5.2 xG, 15 shots, 12 on target; Italy 1.4 xG, seven shots, five on target. The manager acknowledges Italy were outplayed.'],
+ ['THE UNCOMFORTABLE NUMBERS','England 5.2 xG, 15 shots, 12 on target; Italy 1.4 xG, seven shots, five on target. England outplayed Italy in the creation of chances.'],
  ['FOUR FROM FOUR','Retegui, Locatelli, Pio Esposito and Dimarco converted. Saka hit the post; England then scored three before Rice was saved. Rovella did not take a fifth.'],
  ['PIO AND MOISE','Pio assisted Locatelli and now has three goals and six assists in this World Cup. Kean remains the Italian single-tournament record scorer with seven goals.'],
  ['A GENERATION RETURNS','Italy reach their first World Cup semifinal since 2006, following the missed tournaments of 2018, 2022 and 2026.'],
