@@ -88,7 +88,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published on main. Editorial quality gate, Supporter Comments Audit and Comment editorial audit PASS at source release commit 461b3042323e8a559928e7c9c5a9c120d1d3a9b5. Pages deployment SUCCESS at that commit. Subsequent canon/ledger-only commits do not change new website code.",
+    "status": "Published to main. Final article polish and cache version v3 committed. GitHub Editorial quality gate and supporter/comment audits verified successful on updated content prior to final cache revision; GitHub Pages redeploy follows the latest commits. Older successful Pages deploy contains the core Türkiye release.",
     "date": "World Cup 2030 · Round of 16 (precise match day not supplied)",
     "topics": [
       "Italy 2–1 Türkiye; Güler 12′; Kean 38′ from Pio and 52′ from Barella; 1–1 halftime, 2–1 full time",
@@ -118,12 +118,12 @@
     "manager_quotes": "No new public manager quotes or press answers invented; user-supplied private ambition discussed as background, not falsely attributed to a press conference.",
     "player_interviews": "Two character-led feature stories analysing Kean/Pio/Barella and Donnarumma/Locatelli without fabricated player interview quotations.",
     "international_scope": "Group Kean 5G2A/Pio 3G4A; knockout Kean 2G/Pio 1A/Barella 2A/Tonali 1G; World Cup through Türkiye Kean 7G2A, Pio 3G5A, Barella 3A; all national-team only.",
-    "source_validation": "Five longform articles: 81 substantive body paragraphs; all five new article IDs distinct; all five matching original cover SVGs committed; loader appends new stories, two comment files, state and latest site takeover in order, and index.html cache-busted. Editorial technical quality gate SUCCESS at 461b3042; GH comment editorial and supporter audits SUCCESS at same source release commit.",
+    "source_validation": "Five substantive stories, 81 body paragraphs and five separate committed SVG editorial covers. Post-editorial source review removed meta game framing from public journalism. Comment threads 86 top-level / 273 total, unique text and self-reply check passed. Story + two comment scripts + national-only state + site takeover loaded sequentially after Romania; index and loader cache version v3. No browser visual QA. GitHub editorial and comment quality gates were successful for prior source edits; latest cache-only deploy status independently checked after the release.",
     "comments_audit": {
-      "scope": "All five new Türkiye/England longform articles",
-      "top_level": 76,
-      "all_comments_and_replies": 229,
-      "status": "Source traversal across both new comment files: 229 unique remark texts, no immediate self-replies, 5 distinct article IDs; 17/14/15/15/15 top-level threads with 56/40/45/43/45 total comments respectively. GH supporter/comment editorial checks success."
+      "scope": "All five Türkiye/England longform articles",
+      "top_level": 86,
+      "all_comments_and_replies": 273,
+      "status": "Combined source audit across both revised comment scripts: 273 distinct remark texts, no immediate self-replies; varying thread lengths and reply depth up to 4, standalone comments and branching fan disagreements. Previous updated supporter/comment GitHub audits PASS at 3c7d69aeb6f0fdbad62793d95437509080345c41."
     },
     "visual_qa": "SVG files exist; rendered-browser visual and responsive QA not performed. GitHub Pages deployment success does not establish visual QA."
   }
