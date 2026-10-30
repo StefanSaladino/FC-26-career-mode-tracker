@@ -110,7 +110,14 @@ function checkLocal(article) {
     }
     const ratio = dimensions.width / dimensions.height;
     if (ratio < 1.55 || ratio > 2.05) {
-      throw new Error(`${article.id}: JPEG aspect ratio is risky for article cards (${ratio.toFixed(2)}): ${rel}`);
+      // A portrait source can be intentional: the site uses object-fit: cover with
+      // a per-article focal point to crop it for the landscape card. Verify source
+      // resolution above, warn about composition, and reserve hard failures for
+      // actual missing, malformed, too-small or non-croppable images.
+      if (article.objectFit !== 'cover' || !positionPattern.test(String(article.objectPosition || ''))) {
+        throw new Error(`${article.id}: source ratio ${ratio.toFixed(2)} cannot be safely cropped: ${rel}`);
+      }
+      console.warn(`CROP REVIEW: ${article.id} uses a ${ratio.toFixed(2)} JPEG cropped with object-fit: cover and object-position ${article.objectPosition} (${rel}); visual review still advised`);
     }
   }
 }
