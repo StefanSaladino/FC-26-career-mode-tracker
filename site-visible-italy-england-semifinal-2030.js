@@ -34,8 +34,8 @@ if(newsGrid)newsGrid.innerHTML=d.articles.map((a,i)=>card(a,i===0?'lead-grid':'s
 const filters=$('articleFilters');
 if(filters){const cats=['All',...new Set(d.articles.map(a=>a.category))];filters.innerHTML=cats.map((cat,i)=>'<button type="button" class="filter-pill '+(i===0?'active':'')+'" data-category="'+esc(cat)+'">'+esc(cat)+'</button>').join('')}
 for(const id of ['nextTwo','upcomingStrip']){const e=$(id);if(!e)continue;e.innerHTML=id==='nextTwo'
- ?'<div class="next-row"><strong>WORLD CUP SEMIFINAL</strong><span>ITALY vs FRANCE · date and kickoff not yet announced</span></div>'
- :'<div class="fixture"><span>WORLD CUP · SEMIFINAL</span><strong>ITALY vs FRANCE</strong><small>Next fixture · opponent and time to be confirmed</small></div>'}
+ ?'<div class="next-row"><strong>WORLD CUP SEMIFINAL</strong><span>ITALY vs FRANCE · date and kickoff to be confirmed</span></div>'
+ :'<div class="fixture"><span>WORLD CUP · SEMIFINAL</span><strong>ITALY vs FRANCE</strong><small>Next fixture · date and kickoff to be confirmed</small></div>'}
 const form=$('formLine');
 if(form)form.innerHTML='<div><strong>WORLD CUP SEMIFINALISTS</strong><span>Italy 2–2 England AET · Italy win shootout 4–3</span></div><div><strong>6 MATCHES · 2W 4D 0L</strong><span>13 for · 11 against · first goals conceded in 5 of 6 matches</span></div>';
 const headlines=[
