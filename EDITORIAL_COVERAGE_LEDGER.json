@@ -70,7 +70,7 @@
     {
       "month": "2030-06",
       "status": "covered",
-      "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage."
+      "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini."
     }
   ],
   "latest_confirmed_match": "Italy 2–1 Türkiye · FIFA World Cup 2030 Round of 16 (exact match date not supplied): Güler 12′; Kean 38′ (Pio assist), 52′ (Barella assist); Donnarumma full-stretch save 90′; Locatelli clears late header off the line before full-time whistle. Italy reach quarterfinal against England.",
@@ -88,43 +88,32 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published to main. Final article polish and cache version v3 committed. GitHub Editorial quality gate and supporter/comment audits verified successful on updated content prior to final cache revision; GitHub Pages redeploy follows the latest commits. Older successful Pages deploy contains the core Türkiye release.",
-    "date": "World Cup 2030 · Round of 16 (precise match day not supplied)",
-    "topics": [
-      "Italy 2–1 Türkiye; Güler 12′; Kean 38′ from Pio and 52′ from Barella; 1–1 halftime, 2–1 full time",
-      "Donnarumma full-stretch save at minute 90; subsequent Türkiye corner headed toward goal corner, cleared off line by Locatelli immediately before final whistle (no invented header scorer or added minute)",
-      "Kean seven World Cup goals; Pio three goals and five assists; Barella three tournament assists. Club statistics unchanged. Kean is NOT a Napoli player.",
-      "Five matches, five opening deficits. Italy World Cup record W2 D3 L0, 11 GF, 9 GA (Romania AET draw advances on penalties)",
-      "England drawn in World Cup quarterfinal; opponent formation, fixture date and venue unconfirmed",
-      "Manager privately views Euro final loss in extra time and World Cup QF as progress, but is not satisfied; no fabricated interview or press quote",
-      "Napoli board confirmed new $444m budget but club transfers deliberately deferred until World Cup ends; board mail not covered in public World Cup articles"
-    ],
+    "status": "Kean standalone historic record feature committed to main, with deployment and CI check remaining to verify.",
+    "date": "World Cup 2030 · After Italy 2–1 Türkiye (precise match day not provided)",
+    "feature": "Italian record: seven World Cup goals in five matches by Moise Kean; surpasses Paolo Rossi six (1982) and Salvatore Schillaci six (1990). England quarterfinal remains next.",
     "story_files": [
-      "stories-italy-turkiye-england-worldcup-2030.js"
+      "stories-italy-kean-seven-world-cup-record-2030.js"
     ],
     "comment_files": [
-      "comments-italy-turkiye-match-keepers-2030.js",
-      "comments-italy-turkiye-features-england-2030.js"
+      "comments-italy-kean-seven-world-cup-record-2030.js"
     ],
     "state_file": "state-italy-turkiye-england-worldcup-2030.js",
-    "site_state": "site-visible-italy-turkiye-england-2030.js",
-    "images": [
-      "assets/editorial-italy-turkiye-last-eight-2030.svg",
-      "assets/editorial-italy-turkiye-locatelli-donnarumma-2030.svg",
-      "assets/editorial-italy-turkiye-kean-pio-barella-2030.svg",
-      "assets/editorial-italy-turkiye-five-concessions-2030.svg",
-      "assets/editorial-italy-england-quarterfinal-2030.svg"
+    "site_state": "site-visible-kean-italy-worldcup-record-2030.js",
+    "image_files": [
+      "assets/editorial-kean-italy-seven-goals-record-2030.svg"
     ],
-    "manager_quotes": "No new public manager quotes or press answers invented; user-supplied private ambition discussed as background, not falsely attributed to a press conference.",
-    "player_interviews": "Two character-led feature stories analysing Kean/Pio/Barella and Donnarumma/Locatelli without fabricated player interview quotations.",
-    "international_scope": "Group Kean 5G2A/Pio 3G4A; knockout Kean 2G/Pio 1A/Barella 2A/Tonali 1G; World Cup through Türkiye Kean 7G2A, Pio 3G5A, Barella 3A; all national-team only.",
-    "source_validation": "Five substantive stories, 81 body paragraphs and five separate committed SVG editorial covers. Post-editorial source review removed meta game framing from public journalism. Comment threads 86 top-level / 273 total, unique text and self-reply check passed. Story + two comment scripts + national-only state + site takeover loaded sequentially after Romania; index and loader cache version v3. No browser visual QA. GitHub editorial and comment quality gates were successful for prior source edits; latest cache-only deploy status independently checked after the release.",
+    "byline": "Sofia Mancini · Player features correspondent (Sandro Vitale is NOT a newsroom journalist; Luca Ferraro works behind scenes only)",
+    "article_depth": "One independently reported 20-paragraph historical milestone feature (approximately 1,064 words), context: Rossi, Schillaci, England and the tournament scoring trail. Not a manager press statement or player interview.",
     "comments_audit": {
-      "scope": "All five Türkiye/England longform articles",
-      "top_level": 86,
-      "all_comments_and_replies": 273,
-      "status": "Combined source audit across both revised comment scripts: 273 distinct remark texts, no immediate self-replies; varying thread lengths and reply depth up to 4, standalone comments and branching fan disagreements. Previous updated supporter/comment GitHub audits PASS at 3c7d69aeb6f0fdbad62793d95437509080345c41."
+      "scope": "Kean historic record feature only",
+      "top_level": 21,
+      "all_comments_and_replies": 69,
+      "status": "Pre-release source review: 69 unique remarks, two standalone comments, multiple branching and nested discussions, no duplicate text or immediate self replies. FIFA-backed Rossi six 1982, Schillaci six 1990, Fontaine 13 1958."
     },
-    "visual_qa": "SVG files exist; rendered-browser visual and responsive QA not performed. GitHub Pages deployment success does not establish visual QA."
+    "stats_scope": "Italy World Cup only: Kean 7G/2A, Pio 3G/5A; Napoli club totals untouched. Kean is not a Napoli player.",
+    "fixture_status": "England World Cup quarterfinal confirmed; no date, score, lineup or venue supplied.",
+    "release_notes": "New scripts appended after prior Türkiye update; Kean feature is the home hero. Existing Italy 2–1 Türkiye result, England next fixture and other 5 Türkiye/England features retained. HTML and loader cache-busted to 20301030-kean-seven-record-v1.",
+    "validation": "GitHub editorial gate and deployment status to be independently verified. Rendered browser QA not performed; source assets exist as original SVG editorial artwork, not match photographs.",
+    "public_quotes": "No invented Kean, manager, or assistant quotes. Private user recognition of the record not presented as a press interview."
   }
 }
