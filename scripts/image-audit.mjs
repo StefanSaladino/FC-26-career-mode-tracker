@@ -140,9 +140,18 @@ for (const article of data.articles) {
   console.log(`✓ ${article.id} -> ${article.image}`);
 }
 
-const fallback = cleanLocalSrc(context.window.NAPOLI_IMAGE_FALLBACK);
-if (!fallback || !fs.existsSync(path.join(root, fallback))) {
-  throw new Error(`Fallback image missing: ${fallback || '(unset)'}`);
+// A deliberately disabled fallback is valid: site-overrides.js explicitly sets
+// NAPOLI_IMAGE_FALLBACK to null, and image-fixes.js removes failed image elements.
+// Every current article image was independently validated above. If a fallback is
+// later configured, enforce that it is a real local file.
+const configuredFallback = context.window.NAPOLI_IMAGE_FALLBACK;
+if (configuredFallback !== null && configuredFallback !== undefined && configuredFallback !== '') {
+  const fallback = cleanLocalSrc(configuredFallback);
+  if (!fallback || !fs.existsSync(path.join(root, fallback))) {
+    throw new Error(`Fallback image missing: ${fallback || '(unset)'}`);
+  }
+} else {
+  console.info('No global fallback configured; individual article images were checked.');
 }
 
 console.log(`\nImage audit passed for ${data.articles.length} articles.`);
