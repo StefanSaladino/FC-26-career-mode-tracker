@@ -73,7 +73,7 @@
       "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini. England quarterfinal Retegui and Donnarumma feature package and confirmed France semifinal preview added."
     }
   ],
-  "latest_confirmed_match": "Italy 1–2 France AET · 2030 FIFA World Cup semifinal. Pio Esposito 25′ (Moise Kean assist), Mbappé 67′; Donnarumma miracle save 89′; Etikite 120+2′ France winner and full-time whistle. At 90 minutes 1–1. Manager observed one additional minute displayed, with scorer recorded at 120+2; added time is a minimum. France vs Belgium in final; Italy vs Denmark in third place, both fixtures yet to be played.",
+  "latest_confirmed_match": "Italy 1–0 Denmark · 2030 World Cup third-place playoff; Gianluigi Donnarumma Denmark penalty save 22′; Francesco Pio Esposito goal 54′, assist not supplied. Italy finish third. France 2–0 Belgium in 2030 final, France world champions and Belgium runners-up. World Cup completed; no further Italy fixtures confirmed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,6 +88,60 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Six-piece World Cup closing edition committed; deployment and GitHub checks subject to confirmation",
+    "phase": "2030 World Cup concluded: France champions, Belgium runners-up, Italy bronze after 1–0 Denmark",
+    "match": "Italy 1–0 Denmark · FIFA World Cup third-place playoff",
+    "world_cup_final": "France 2–0 Belgium",
+    "story_files": [
+      "stories-worldcup-2030-bronze-verdict-opinions.js"
+    ],
+    "stories": [
+      "italy-denmark-one-nil-bronze-pio-gigio-worldcup-2030",
+      "italy-bronze-rebirth-not-fifth-star-2030-opinion",
+      "italy-donnarumma-worldcup-eleven-lammens-2030-opinion",
+      "italy-kean-pio-2030-worldcup-forward-future-opinion",
+      "italy-defence-2030-worldcup-inquest-opinion",
+      "worldcup-2030-final-france-belgium-team-eleven-italy-analysis"
+    ],
+    "bylines": [
+      "Giulia Romano · World Cup correspondent",
+      "Lorenzo Ricci · Senior football columnist",
+      "Matteo Bellandi · Linea Calcio",
+      "Sofia Mancini · Player features correspondent",
+      "Marco Bellini · Tactical columnist",
+      "Andrea Conti · Tournament correspondent"
+    ],
+    "comment_files": [
+      "comments-worldcup-2030-bronze-verdict-opinions.js"
+    ],
+    "original_cover_files": [
+      "assets/editorial-italy-bronze-denmark-2030.svg",
+      "assets/editorial-italy-bronze-verdict-2030.svg",
+      "assets/editorial-italy-gigio-team-eleven-2030.svg",
+      "assets/editorial-italy-kean-pio-2030-verdict.svg",
+      "assets/editorial-italy-defence-inquest-2030.svg",
+      "assets/editorial-worldcup-2030-team-eleven.svg"
+    ],
+    "international_state": "state-worldcup-2030-final-bronze-awards.js",
+    "homepage_override": "site-visible-worldcup-2030-bronze-wrap.js",
+    "current_stats": "Italy World Cup 8 matches (3W 4D 1L), 15 scored and 13 conceded. Kean 7G/3A; Pio Esposito 5G/6A. International only; no Napoli club stat changes.",
+    "trophy": "France win 2–0 vs Belgium; Italy third, Denmark fourth.",
+    "award": "Official World Cup 2030 XI: Mbappé, Kean; Gogorza, Barella, Lavia, Doué; Calafiori, Bastoni, Debast, Kayode; Lammens. Five Italians: Kean, Barella, Calafiori, Bastoni, Kayode. Donnarumma and Pio not selected.",
+    "audience_audit": {
+      "new_stories": 6,
+      "top_level_threads": 69,
+      "total_new_comments_and_replies": 166,
+      "nested_replies_beyond_first": 23,
+      "unique_comment_texts": 166,
+      "notes": "All six have separate topic-specific conversations, recurring established commenters, rivals and genuine exchanges. No synthetic manager responses. Existing article comments preserved."
+    },
+    "assets_qa": "Six original 1200×675 SVG covers with subjects and matching accessible labels, created as files; no browser-rendered visual or mobile crop check performed.",
+    "release_version": "20301030-worldcup2030-bronze-wrap-v1",
+    "status_checks": "Editorial checks, image audit, comment audit and Pages deployment need post-commit verification; do not claim any have passed until checked.",
+    "next_fixture": null,
+    "no_fabrications": "No Denmark penalty taker, Pio goal assist, France–Belgium goal scorers, exact tournament-final dates/venues or unprovided awards. Manager press optional and not completed."
+  },
+  "previous_newsroom_package": {
     "status": "France World Cup semifinal aftermath and Denmark third-place preview authored and committed; check live deployment separately",
     "phase": "Italy eliminated 1–2 AET by France; Denmark third-place playoff next; France vs Belgium final",
     "match": "Italy 1–2 France after extra time · World Cup 2030 semifinal; Etikite winning goal 120+2",
@@ -155,93 +209,6 @@
     },
     "no_fabrications": "No unconfirmed French lineup, shots, Etikite assist, Denmark match or final result. Manager private comments not attributed to public interviews. Club statistics untouched."
   },
-  "previous_newsroom_package": {
-    "status": "Seven-story England/France World Cup edition committed and homepage updated to Italy–England result and France semifinal. Successful Pages deployment verified for the published package; final cleanup deployment may be newer.",
-    "phase": "World Cup semifinal after England quarterfinal: France confirmed as next opponent",
-    "match": "Italy 2–2 England after 120 minutes, Italy win 4–3 on penalties",
-    "story_files": [
-      "stories-italy-england-quarterfinal-core-2030.js",
-      "stories-italy-england-retegui-feature-2030.js",
-      "stories-italy-england-penalties-feature-2030.js",
-      "stories-italy-england-semifinal-legacy-2030.js",
-      "stories-italy-france-semifinal-preview-2030.js"
-    ],
-    "stories": [
-      "italy-england-two-two-pens-retegui-donnarumma-semifinal-2030",
-      "italy-england-donnarumma-three-saves-rice-penalty-keeper-2030",
-      "italy-england-five-point-two-xg-defensive-warning-semifinal-2030",
-      "italy-england-retegui-toe-120th-minute-miracle-feature-2030",
-      "italy-england-pio-locatelli-four-perfect-penalties-feature-2030",
-      "italy-england-semifinal-after-24-years-opinion-2030",
-      "italy-france-world-cup-semifinal-defence-preview-2030"
-    ],
-    "bylines": [
-      "Giulia Romano · World Cup correspondent",
-      "Elena De Luca · Longform features",
-      "Marco Bellini · Tactical columnist",
-      "Sofia Mancini · Player features correspondent",
-      "Andrea Conti · Tournament correspondent",
-      "Lorenzo Ricci · Senior football columnist",
-      "Andrea Conti · Tournament correspondent (France semifinal preview)"
-    ],
-    "comment_files": [
-      "comments-italy-england-match-gigio-tactics-2030.js",
-      "comments-italy-england-retegui-penalties-semifinal-2030.js",
-      "comments-italy-france-semifinal-preview-2030.js"
-    ],
-    "original_cover_files": [
-      "assets/editorial-italy-england-120-miracle-2030.svg",
-      "assets/editorial-italy-england-gigio-fourth-save-2030.svg",
-      "assets/editorial-italy-england-xg-warning-2030.svg",
-      "assets/editorial-italy-england-retegui-toe-2030.svg",
-      "assets/editorial-italy-england-penalties-pio-locatelli-2030.svg",
-      "assets/editorial-italy-england-resurrection-semifinal-2030.svg",
-      "assets/editorial-italy-france-semifinal-preview-2030.svg"
-    ],
-    "international_state": "state-italy-england-semifinal-worldcup-2030.js",
-    "homepage_override": "site-visible-italy-england-semifinal-2030.js",
-    "current_stats": "Italy World Cup 6 matches (2 wins, 4 draws after play, no losses), 13 for, 11 against. Kean 7G/2A; Pio 3G/6A; Locatelli 1G, Retegui 1G. International only; shootout conversions not counted.",
-    "shootout": "Italy Retegui, Locatelli, Pio, Dimarco successful; England Saka post, Gordon, Bellingham, Delap successful, Rice saved by Donnarumma. Italy 4–3 England.",
-    "match_stats": {
-      "italy": {
-        "xG": 1.4,
-        "shots": 7,
-        "shots_on_target": 5
-      },
-      "england": {
-        "xG": 5.2,
-        "shots": 15,
-        "shots_on_target": 12
-      }
-    },
-    "manager_position": "Outplayed despite qualification; celebrate now, reinforce defence for semifinal. Manager statements were in private conversation, not answers to a staged newsroom interview.",
-    "no_fabrications": "France is confirmed as semifinal opponent; no date, kickoff, venue, French lineup, French results or semifinal outcome supplied. No invented manager press answers, no extra goals, and no Napoli club statistics mixed in.",
-    "audience_audit": {
-      "new_stories": 7,
-      "top_level_threads": 106,
-      "total_new_comments_and_replies": 240,
-      "standalone_threads": 6,
-      "comment_scripts": 3,
-      "notes": "Existing 216 comments/replies across six England stories preserved without replacement; added 13 France-preview threads with 24 comments/replies. Final checks pending release verification.",
-      "verification": "Checked all seven new articles: 106 top-level threads, 240 total unique remarks including replies, no duplicate texts, no immediate self-replies, no malformed nodes. All seven story IDs match their comment scripts."
-    },
-    "assets_qa": "All seven subject-specific SVG paths fetched and confirmed present, well-formed SVG delimiters; browser visual/mobile crop review not performed.",
-    "release_version": "20301030-england-france-semifinal-v3",
-    "status_checks": "GitHub Editorial quality gate successful; Supporter Comments Audit and Comment editorial audit successful for the England/France scripts; Pages deployment completed successfully on latest pre-cleanup package. Verified all new loader paths, IDs, France next fixture, distinct cover references and comment population. No rendered-browser QA.",
-    "next_fixture": {
-      "competition": "2030 FIFA World Cup",
-      "round": "Semifinal",
-      "home": "Italy",
-      "away": "France",
-      "date": null,
-      "kickoff": null,
-      "venue": null,
-      "confirmed_by": "Manager in conversation",
-      "result": null
-    },
-    "cleanup": "Removed an unused, unreferenced intermediate England/France draft that duplicated three already-published article IDs; the canonical seven-story loadout is unchanged.",
-    "editorial_rectification": "England/France public coverage and comments corrected to remove private manager debrief leaks, source-language artefacts and stale France-opponent uncertainty. Media-director bylines corrected in five identified 2029 story scripts. September Hasa feature evidenced; July 2029 editorial coverage exception recorded. Match outcomes, statistics, story IDs, image references and supporter conversations preserved. Browser/mobile rendering not independently verified."
-  },
   "release_history": [
     {
       "release_version": "20301030-england-france-semifinal-v3",
@@ -256,6 +223,79 @@
         "italy-france-world-cup-semifinal-defence-preview-2030"
       ],
       "archived_at": "Following Italy–France World Cup semifinal result"
+    },
+    {
+      "release_version": "20301030-italy-france-denmark-v1",
+      "phase": "Italy eliminated 1–2 AET by France; Denmark third-place playoff next; France vs Belgium final",
+      "story_ids": [
+        "italy-france-semifinal-1202-etikite-worldcup-exit-2030",
+        "italy-donnarumma-worldcup-france-last-line-feature-2030",
+        "italy-france-stoppage-time-1202-officiating-debate-2030",
+        "italy-denmark-third-place-worldcup-2030-preview"
+      ],
+      "archived_at": "World Cup 2030 concluded after Italy–Denmark bronze and France–Belgium final"
     }
-  ]
+  ],
+  "world_cup_2030_final_summary": {
+    "title": "2030 World Cup — concluded",
+    "champion": "France",
+    "final": "France 2–0 Belgium",
+    "runner_up": "Belgium",
+    "third_place": "Italy",
+    "fourth_place": "Denmark",
+    "third_place_match": "Italy 1–0 Denmark (Pio Esposito 54′, Donnarumma saved penalty 22′)",
+    "italy_record": {
+      "played": 8,
+      "wins": 3,
+      "draws": 4,
+      "losses": 1,
+      "goals_for": 15,
+      "goals_against": 13,
+      "goal_difference": 2
+    },
+    "italy_players": {
+      "Francesco Pio Esposito": {
+        "goals": 5,
+        "assists": 6
+      },
+      "Moise Kean": {
+        "goals": 7,
+        "assists": 3
+      }
+    },
+    "team_of_tournament": {
+      "formation": "4-4-2",
+      "forwards": [
+        "Mbappé",
+        "Kean"
+      ],
+      "midfield": [
+        "Gogorza",
+        "Barella",
+        "Lavia",
+        "Doué"
+      ],
+      "defence": [
+        "Calafiori",
+        "Bastoni",
+        "Debast",
+        "Kayode"
+      ],
+      "goalkeeper": "Lammens",
+      "italian_players": [
+        "Kean",
+        "Barella",
+        "Calafiori",
+        "Bastoni",
+        "Kayode"
+      ]
+    },
+    "flags": [
+      "Penalty taker against Denmark unknown",
+      "Pio Denmark goal assist unknown",
+      "France–Belgium scorers unknown",
+      "Italy national-team statistics must never change Napoli club totals",
+      "World Cup is over; no next tournament fixture should be shown"
+    ]
+  }
 }
