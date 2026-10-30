@@ -7,6 +7,7 @@ const ids=[
  'italy-england-donnarumma-three-saves-rice-penalty-keeper-2030',
  'italy-england-five-point-two-xg-defensive-warning-semifinal-2030',
  'italy-england-retegui-toe-120th-minute-miracle-feature-2030',
+ 'italy-france-world-cup-semifinal-defence-preview-2030',
  'italy-england-pio-locatelli-four-perfect-penalties-feature-2030',
  'italy-england-semifinal-after-24-years-opinion-2030',
  'italy-kean-seven-goals-single-world-cup-record-2030',
@@ -19,7 +20,7 @@ const featured=new Set(ids);d.articles=[...priority,...all.filter(a=>!featured.h
 const lead=priority[0];const strap='WORLD CUP 2030 · ITALY WIN 4–3 ON PENS · SEMIFINALISTS';
 d.hero={...(d.hero||{}),articleId:lead.id,strap};
 d.latestResult=['Italy','2–2','England','World Cup 2030 · Quarterfinal · 2–2 AET · Italy win 4–3 on penalties'];
-d.upcoming=[{competition:'World Cup',round:'Semifinal',home:'Italy',away:'Opponent TBC',date:null,kickoff:null}];
+d.upcoming=[{competition:'World Cup',round:'Semifinal',home:'Italy',away:'France',date:null,kickoff:null}];
 const result=$('latestResult');
 if(result)result.innerHTML='<div class="latest-score"><span>ITA</span><strong>2–2</strong><span>ENG</span></div><p>ITALY WIN 4–3 ON PENALTIES · LOCATELLI 50\' (PIO) · GORDON 77\' · BELLINGHAM 104\' · RETEGUI 120+1\' · DONNARUMMA SAVES RICE</p>';
 const hero=$('heroStory');if(hero)hero.innerHTML='<div class="hero-media"><img src="'+esc(lead.image)+'" alt="'+esc(lead.headline)+'" loading="eager"></div><div class="hero-copy" role="button" tabindex="0" data-article="'+esc(lead.id)+'"><div class="hero-strap">'+esc(strap)+'</div><div class="story-meta"><span>'+esc(lead.category)+'</span><span>'+esc(lead.date)+'</span></div><h2>'+esc(lead.headline)+'</h2><p>'+esc(lead.dek)+'</p><span class="hero-read">Read the full report →</span></div>';
@@ -33,8 +34,8 @@ if(newsGrid)newsGrid.innerHTML=d.articles.map((a,i)=>card(a,i===0?'lead-grid':'s
 const filters=$('articleFilters');
 if(filters){const cats=['All',...new Set(d.articles.map(a=>a.category))];filters.innerHTML=cats.map((cat,i)=>'<button type="button" class="filter-pill '+(i===0?'active':'')+'" data-category="'+esc(cat)+'">'+esc(cat)+'</button>').join('')}
 for(const id of ['nextTwo','upcomingStrip']){const e=$(id);if(!e)continue;e.innerHTML=id==='nextTwo'
- ?'<div class="next-row"><strong>WORLD CUP SEMIFINAL</strong><span>ITALY vs OPPONENT TBC · date and kickoff not yet announced</span></div>'
- :'<div class="fixture"><span>WORLD CUP · SEMIFINAL</span><strong>ITALY vs OPPONENT TBC</strong><small>Next fixture · opponent and time to be confirmed</small></div>'}
+ ?'<div class="next-row"><strong>WORLD CUP SEMIFINAL</strong><span>ITALY vs FRANCE · date and kickoff not yet announced</span></div>'
+ :'<div class="fixture"><span>WORLD CUP · SEMIFINAL</span><strong>ITALY vs FRANCE</strong><small>Next fixture · opponent and time to be confirmed</small></div>'}
 const form=$('formLine');
 if(form)form.innerHTML='<div><strong>WORLD CUP SEMIFINALISTS</strong><span>Italy 2–2 England AET · Italy win shootout 4–3</span></div><div><strong>6 MATCHES · 2W 4D 0L</strong><span>13 for · 11 against · first goals conceded in 5 of 6 matches</span></div>';
 const headlines=[
@@ -45,7 +46,7 @@ const headlines=[
  'LOCATELLI 50\' (PIO) · GORDON 77\' · BELLINGHAM 104\' · RETEGUI 120+1\'',
  'SAKA HITS POST · RETEGUI, LOCATELLI, PIO, DIMARCO ALL SCORE',
  'PIO ESPOSITO 3 WORLD CUP GOALS AND 6 ASSISTS · KEAN 7 GOALS',
- 'ITALY REACH FIRST WORLD CUP SEMIFINAL SINCE 2006 · OPPONENT TBC'
+ 'ITALY REACH FIRST WORLD CUP SEMIFINAL SINCE 2006 · FRANCE'
 ];
 d.ticker=headlines;const ticker=$('tickerTrack');
 if(ticker)ticker.innerHTML=[...headlines,...headlines].map(x=>'<span>'+esc(x)+'</span>').join('');
@@ -56,7 +57,7 @@ d.whispers=[
  ['FOUR FROM FOUR','Retegui, Locatelli, Pio Esposito and Dimarco converted. Saka hit the post; England then scored three before Rice was saved. Rovella did not take a fifth.'],
  ['PIO AND MOISE','Pio assisted Locatelli and now has three goals and six assists in this World Cup. Kean remains the Italian single-tournament record scorer with seven goals.'],
  ['A GENERATION RETURNS','Italy reach their first World Cup semifinal since 2006, following the missed tournaments of 2018, 2022 and 2026.'],
- ['NEXT TEST','The World Cup semifinal opponent and kickoff have not yet been confirmed. Defensive tightening is the priority after the celebration.']
+ ['NEXT TEST','France are the confirmed semifinal opponents. The kickoff has not yet been confirmed. Defensive tightening is the priority after the celebration.']
 ];
 const w=$('whisperList');if(w)w.innerHTML=d.whispers.map(x=>'<div class="whisper"><span>'+esc(x[0])+'</span><p>'+esc(x[1])+'</p></div>').join('');
 const matches=$('matchesList');
