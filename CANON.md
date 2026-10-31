@@ -1,3 +1,55 @@
+## SUMMER 2030 — NAPOLI SENIOR SQUAD RATINGS & LOANS (MANAGER-CONFIRMED)
+
+- **SOURCE AND SCOPE:** Five consecutive in-game Squad Hub screenshots sent by the manager after the summer 2030 academy snapshot. **38 pictured players: 25 without loan icons, 13 with loan icons.** Ratings, positions and ages are screenshot-verified as currently displayed. These supersede the February 2030 rating census for the *current* roster only. Older entries remain historical. Unpictured players are not automatically sold, released or retired.
+- **KEY UPDATES:** **João Neves 95 OVR** (25); **Bastoni 92** (31, captain); **Olise 92** (28); **Davies 91** (29); **Beier 91** (27); **Warren Zaïre-Emery 90** (24); **Nico Paz 90** (25); **Pio Esposito 90** (25); **Calafiori 88** (28); **Buongiorno 88** (31); **Kayode 88** (26); **Moore 86** (22); **Meret 86** (33). The Napoli senior ratings here are separate from any Italy national-team stats.
+- **GOALKEEPERS:** Meret **86** at 33; E. Balcombe **67** at 30; **F. Lawton 76 at 20 (on loan)**; **C. Peacock 75 at 21 (non-loaned)**; **O. Burnett 76 at 20 (non-loaned)**. **Important correction:** Burnett is 76, equal to Lawton, rather than 75; Burnett no longer displays a loan icon in the current capture. The manager previously confirmed Donnarumma **91 OVR** for Italy and mentioned a $444m transfer budget; **a Donnarumma transfer is NOT confirmed**. Goalkeeper scouting/selection remains an open decision.
+- **MIDFIELD SUCCESSION:** Kevin De Bruyne **77** (39); McTominay **85** (33); Stach **82** (31); Hasa **79** (26); **Resende 71** (19, no loan icon); **V. Mancini 77** (21, on loan); **E. Rossetti 78** (18, on loan). Rossetti currently leads Mancini by one overall point and is three years younger by these screenshot ages. Neither is a confirmed Napoli starter, transfer, or Italy selection.
+- **MANAGER TRANSFER CONTEXT (UNRESOLVED):** Arsenal offered $320.4m for Beier; manager expressed a **$500m-or-no-discussion** position. No accepted counteroffer, departure, or money received has been confirmed. Zaïre-Emery and Olise are explicitly not for sale. Scout reports on potential goalkeeper targets remain pending; do not fabricate them.
+- **CURRENT FULL PICTURE — 38:**
+
+| Player | Pos | Age | OVR | Loan icon |
+|---|---|---:|---:|---|
+| Alex Meret | GK | 33 | 86 | No |
+| Emery Balcombe | GK | 30 | 67 | No |
+| F. Lawton | GK | 20 | 76 | Yes |
+| C. Peacock | GK | 21 | 75 | No |
+| O. Burnett | GK | 20 | 76 | No |
+| Lucas Jetten | LB | 23 | 76 | No |
+| Alphonso Davies | LB | 29 | 91 | No |
+| Riccardo Calafiori | LB | 28 | 88 | No |
+| Y. Tran | LB | 19 | 72 | Yes |
+| S. Vitale | LB | 18 | 73 | Yes |
+| Alessandro Bastoni | CB | 31 | 92 | No |
+| Lutsharel Geertruida | CB | 30 | 83 | No |
+| Alessandro Buongiorno | CB | 31 | 88 | No |
+| Rafa Marín | CB | 28 | 81 | No |
+| M. Valentini | CB | 21 | 71 | Yes |
+| G. Ricci | CB | 20 | 70 | Yes |
+| A. Reyna | CB | 22 | 71 | Yes |
+| Michael Kayode | RB | 26 | 88 | No |
+| T. Sánchez | CDM | 21 | 68 | Yes |
+| Lirim Hasa | CM | 26 | 79 | No |
+| Kevin De Bruyne | CM | 39 | 77 | No |
+| Scott McTominay | CM | 33 | 85 | No |
+| Anton Stach | CM | 31 | 82 | No |
+| Warren Zaïre-Emery | CM | 24 | 90 | No |
+| João Neves | CM | 25 | 95 | No |
+| Nico Paz | CAM | 25 | 90 | No |
+| L. Resende | CAM | 19 | 71 | No |
+| Michael Olise | RM | 28 | 92 | No |
+| C. Brun | RM | 20 | 74 | Yes |
+| V. Mancini | RM | 21 | 77 | Yes |
+| E. Rossetti | RM | 18 | 78 | Yes |
+| Mikey Moore | LW | 22 | 86 | No |
+| A. Vergara | RW | 27 | 75 | Yes |
+| M. Hooper | RW | 19 | 74 | Yes |
+| Giacomo Raspadori | ST | 30 | 81 | No |
+| Maximilian Beier | ST | 27 | 91 | No |
+| Pio Esposito | ST | 25 | 90 | No |
+| F. Freitas | ST | 18 | 67 | Yes |
+
+- **IMPLEMENTATION:** `state-napoli-squad-summer2030.js` is loaded *after* the last academy script, updates the current roster data, age/rating lookups and 13-player loan roster, replaces stale February squad panels in the live website, preserves the 16-person academy UI, and refreshes any existing formation overall badges **without** changing starting XI selections, tactical roles or published match results. No nationality is displayed on the website.
+
 ## SUMMER 2030 — NAPOLI YOUTH ACADEMY CURRENT ROSTER (MANAGER-CONFIRMED)
 
 - **SOURCE:** Two in-game Youth Squad screenshots supplied by the manager after the 2030 World Cup; all 16 visible academy players transcribed with position, age, current OVR, displayed potential RANGE and **Dynamic** development plan. This is the latest academy snapshot, superseding historic academy lists in current displays only. All listed ratings belong to academy players, **not** senior squad or loaned players. Missing older academy names are **not** evidence of a sale, release, retirement or promotion; keep their previously verified history.
