@@ -1,3 +1,10 @@
+## SUMMER 2030 — RESENDE LOAN TO TORINO (MANAGER-CONFIRMED)
+
+- **TRANSFER STATUS:** Napoli midfielder/attacking midfielder **L. Resende** has been **loaned to Torino**. This is a manager-confirmed completed loan, occurring **after** the five-image senior Squad Hub census. The previously confirmed **19 years old, 71 OVR, CAM** rating remains current until a newer screenshot or manager update supersedes it.
+- **UPDATED HEADCOUNT:** The baseline summer 2030 screenshot contained **38 Napoli-owned players: 25 non-loaned / 13 loaned**. With Resende now on loan, the current recorded split is **24 available / 14 on loan**, without any new acquisition, sale or release inferred. The prior screenshot classification remains valid *at the time of capture*, and its historical rating baseline is not erased.
+- **DESTINATION:** Torino. Loan duration, wage split, recall terms, option/obligation to buy and future minutes are **not supplied**, so do not invent them. The manager has not confirmed any other roster changes. No separate manufactured press quotes, manager interview or loan-related match statistics.
+- **WEBSITE:** `state-napoli-resende-torino-loan2030.js` loads **after** the summer 2030 squad and academy scripts. It moves Resende from the public midfield group to the loan section, retains his 71 overall, records Torino in the loan listing, and updates totals to 24/14. No nationalities are shown.
+
 ## SUMMER 2030 — NAPOLI SENIOR SQUAD RATINGS & LOANS (MANAGER-CONFIRMED)
 
 - **SOURCE AND SCOPE:** Five consecutive in-game Squad Hub screenshots sent by the manager after the summer 2030 academy snapshot. **38 pictured players: 25 without loan icons, 13 with loan icons.** Ratings, positions and ages are screenshot-verified as currently displayed. These supersede the February 2030 rating census for the *current* roster only. Older entries remain historical. Unpictured players are not automatically sold, released or retired.
