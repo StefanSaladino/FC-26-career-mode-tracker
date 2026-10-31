@@ -1,3 +1,31 @@
+## SUMMER 2030 — NAPOLI YOUTH ACADEMY CURRENT ROSTER (MANAGER-CONFIRMED)
+
+- **SOURCE:** Two in-game Youth Squad screenshots supplied by the manager after the 2030 World Cup; all 16 visible academy players transcribed with position, age, current OVR, displayed potential RANGE and **Dynamic** development plan. This is the latest academy snapshot, superseding historic academy lists in current displays only. All listed ratings belong to academy players, **not** senior squad or loaned players. Missing older academy names are **not** evidence of a sale, release, retirement or promotion; keep their previously verified history.
+- **NAMES AND IDENTITY:** The manager specifically corrected right winger to **M. Dieme** (NOT Diomo). The manager also confirmed **C. Baldé is from Senegal**, not an Italy player-development candidate. **The manager expressly instructed that nationality must not be displayed anywhere in the site's academy roster UI**; retain the existing position/age/OVR/potential/development-plan presentation and do not add a nationality column or labels. No other academy nationality confirmed; do not assume eligibility from names.
+- **CURRENT CONFIRMED ACADEMY, 16:**
+
+| Player | Position | Age | OVR | Potential estimate | Development |
+|---|---|---:|---:|---|---|
+| V. Gatti | GK | 16 | 57 | 75–94 | Dynamic |
+| S. Longo | GK | 16 | 59 | 74–94 | Dynamic |
+| L. Riva | GK | 14 | 48 | 66–90 | Dynamic |
+| A. Benedetti | CDM | 17 | 60 | 75–81 | Dynamic |
+| J. Rowland | CDM | 16 | 57 | 79–85 | Dynamic |
+| M. Costa | LM | 15 | 57 | 75–81 | Dynamic |
+| F. Ferrari | CM | 17 | 61 | 71–75 | Dynamic |
+| D. Ali | CM | 14 | 53 | 70–94 | Dynamic |
+| C. Baldé | CAM | 16 | 62 | 78–94 | Dynamic |
+| M. Piras | CAM | 14 | 54 | 76–84 | Dynamic |
+| D. Nicolino | RM | 15 | 55 | 79–85 | Dynamic |
+| D. Segna | RM | 15 | 56 | 76–94 | Dynamic |
+| C. Bernardi | LW | 16 | 62 | 72–88 | Dynamic |
+| N. Conti | RW | 15 | 55 | 72–80 | Dynamic |
+| M. Dieme | RW | 17 | 64 | 70–94 | Dynamic |
+| T. Cissé | RW | 14 | 57 | 67–89 | Dynamic |
+
+- **ANALYSIS / NO PREMATURE DECISIONS:** M. Dieme is the highest currently rated of this group (64 OVR at 17; range 70–94). C. Baldé (CAM, 16, 62 OVR, 78–94) is a promising **Napoli** creator but is Senegalese, so do not portray him as the answer to Italy's missing No. 10. D. Ali (14, 53, 70–94), V. Gatti (16, 57, 75–94), S. Longo (16, 59, 74–94) and other youngsters have wide speculative ranges. These are upper-bound estimates, **not** confirmed potential ratings or predictions of future overall. No promotions, releases, new loans, transfers or position changes are implied.
+- **WEBSITE UPDATE:** `state-napoli-academy-summer2030.js` replaces the stale current `youth` and `academyPlayers` UI data and DOM presentations with these 16; preserves loaned/senior records and earlier academy history, keeps familiar site table headings (including Note) with **no nationality on the site**. Loaded last by the main sequential site script.
+
 ## WORLD CUP 2030 COMPLETE — ITALY WIN BRONZE; FRANCE WORLD CHAMPIONS (MANAGER-CONFIRMED)
 
 - **THIRD-PLACE PLAYOFF — FINAL:** **Italy 1–0 Denmark**, FIFA World Cup 2030 third-place match. **22′ Gianluigi Donnarumma saved a Denmark penalty**; identity of shooter and penalty circumstances unknown. **54′ Francesco Pio Esposito scored the match's only goal**, Italy winning **bronze / third place**. Assist not supplied and must not be invented. A clean sheet for Italy with Donnarumma identified as the keeper. No other goal, minute, save or lineup details supplied.
