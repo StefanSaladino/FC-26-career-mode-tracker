@@ -24,7 +24,7 @@ try{
  browser=await chromium.launch({args:['--no-sandbox']});
  const old=await browser.newPage({viewport:{width:1360,height:900},serviceWorkers:'block'});
  const legacyErrors=[];
- old.on('pageerror',e=>legacyErrors.push(e.message));
+ old.on('pageerror',e=>legacyErrors.push(e.stack||e.message));
  await old.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
  await old.goto('http://127.0.0.1:'+port+'/legacy-index.html',{waitUntil:'domcontentloaded',timeout:120000});
  await old.waitForFunction(()=>{
@@ -76,10 +76,21 @@ try{
  await fresh.waitForFunction(()=>window.NAPOLI_SNAPSHOT?.archiveLoaded===true,null,{timeout:30000});
  const found=await fresh.locator('#newsGrid [data-article]').count();
  if(found!==result.count.articles)throw Error('Missing archived articles '+found+'/'+result.count.articles);
+ const lastArticle=await fresh.locator('#newsGrid [data-article]').last().getAttribute('data-article');
  await fresh.locator('#newsGrid [data-article]').last().click();
- await fresh.locator('#readerHeadline').waitFor();
+ await fresh.waitForFunction(id=>document.getElementById('readerContent')?.dataset.articleId===id,lastArticle,{timeout:12000});
+ const archiveTitle=await fresh.locator('#readerHeadline').innerText();
+ if(!archiveTitle)throw Error('Archived article failed to open');
+ await fresh.locator('#articleModal [data-close-article]').last().click({force:true});
+ await fresh.locator('.section-nav [data-target="stats"]').click();
+ await fresh.locator('.stats-filters [data-stats-view="2030–31"]').click();
+ if(!(await fresh.locator('#statsTable').innerText()).includes('Maximilian Beier'))throw Error('Season statistics lost');
+ await fresh.locator('.section-nav [data-target="matches"]').click();
+ await fresh.locator('#teamFilter').selectOption('Italy');
+ const italyCards=await fresh.locator('#matchesList .match-card').count();
+ if(!italyCards)throw Error('Italy match filter returned no results');
  if(errors.length)throw Error('Production errors: '+errors.join('; '));
- console.log('Production test passed',JSON.stringify({lead:rendered,articles:found,jsRequests:requests}));
+ console.log('Production test passed',JSON.stringify({lead:rendered,articles:found,archived:lastArticle,italyMatches:italyCards,jsRequests:requests}));
  await fresh.close();await old.close();
 }finally{
  await browser?.close();

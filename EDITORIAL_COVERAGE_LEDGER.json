@@ -257,7 +257,7 @@
     "match_facts_unchanged": true
   },
   "compiled_publication": {
-    "status": "Build pipeline committed; generated snapshot pending confirmation",
+    "status": "Compiled successfully; GitHub Pages deployment completed",
     "workflow": "build-static-snapshot.yml",
     "source": "legacy-index.html",
     "generated": [
@@ -273,6 +273,20 @@
       "image-fixes.js"
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
-    "football_canon_unchanged": true
+    "football_canon_unchanged": true,
+    "current_published_commit": "51a5c09768e2dfc666056ff998c08a3c7ed989a0",
+    "validation": {
+      "articles": 618,
+      "results": 114,
+      "seasons": 4,
+      "public_js_files": 5,
+      "historical_scripts_loaded": 0,
+      "archive_bytes_approx": 3187712,
+      "lazy_loaded_archive": true,
+      "first_paint_current_story": true,
+      "article_open_and_comments_test_passed": true,
+      "archive_listing_test_passed": true,
+      "github_pages_deployment": "success"
+    }
   }
 }

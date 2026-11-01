@@ -4,17 +4,11 @@ on:
   push:
     branches: [main]
     paths:
+      - '*.js'
+      - '!snapshot-data.js'
       - 'legacy-index.html'
-      - 'snapshot-runtime.js'
       - 'scripts/build-static-snapshot.mjs'
       - '.github/workflows/build-static-snapshot.yml'
-      - 'stories-*.js'
-      - 'site-visible-*.js'
-      - 'state-*.js'
-      - 'post-*.js'
-      - 'comments*.js'
-      - 'data.js'
-      - 'app.js'
 permissions:
   contents: write
 concurrency:

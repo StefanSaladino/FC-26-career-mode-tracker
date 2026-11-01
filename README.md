@@ -1,3 +1,7 @@
+## Current publication architecture (November 2026)
+
+The public `index.html` is **generated**. It loads `snapshot-data.js`, `snapshot-runtime.js`, the comments engine, language controller and image handler—**not** hundreds of historical scripts. `news-archive.json` (618 articles and existing discussions) loads on demand. Source of truth remains `CANON.md`, with legacy match/source scripts and `legacy-index.html` kept for reproducible publishing. To publish an update: edit the proper source JS, append any new script to the source loader in `site-visible-juventus-apr2030.js`, update `legacy-index.html` only when a static script reference changes, then confirm the **Build compact public season room** workflow and the resulting Pages deployment. Do not edit the generated index directly.
+
 # ONE LIVING CANON — READ FIRST
 
 **[CANON.md](CANON.md)** is the sole authoritative Napoli and Italy career-mode canon. Append every new manager-confirmed event to its chronological ledger and update its current-state section **in place**. Dated historical match documents and old canon snapshots are archives only; never create another active canon.
