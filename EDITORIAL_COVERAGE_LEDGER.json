@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source package committed, waiting for compiled public snapshot and GitHub Pages deployment",
+    "status": "Published — editorial gate, compiled snapshot tests and Pages deployment succeeded",
     "phase": "17 September 2030 Napoli 3–0 Liverpool: Pio brace; Liverpool held scoreless for third straight meeting",
     "match": "Napoli 3–0 Liverpool · UEFA Champions League · 17 September 2030",
     "stories": [
@@ -128,11 +128,19 @@
     "managerPress": "No interview conducted, no fabricated manager or player quotes; narrative written in eyewitness sports journalism voice",
     "releaseVersion": "20301101-liverpool-ucl-ft-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "pagesDeployment": "success",
+      "archivedArticles": 627,
+      "results": 118,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "publicJsFiles": 5,
+      "firstPaintLiverpoolLead": "verified in compiled index.html",
+      "articleOpenArchiveComments": "snapshot builder browser checks passed",
       "manualMobileVisualQA": "not independently performed"
-    }
+    },
+    "compiledCommit": "a4d878d488ca044967bc5a20937a09a4b82856d0"
   },
   "previous_newsroom_package": {
     "status": "Published — compiled snapshot and GitHub Pages deployment succeeded",
@@ -308,18 +316,15 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "9dd616db5e420d7f861e627f19ff5cf9cd34e4cc",
+    "current_published_commit": "a4d878d488ca044967bc5a20937a09a4b82856d0",
     "validation": {
-      "articles": 624,
-      "results": 117,
+      "articles": 627,
+      "results": 118,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
-      "archive_bytes_approx": 3187712,
-      "lazy_loaded_archive": true,
       "first_paint_current_story": true,
-      "article_open_and_comments_test_passed": true,
-      "archive_listing_test_passed": true,
+      "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     }
   }
