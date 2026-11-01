@@ -1,3 +1,9 @@
+## 2030–31 — HOME PAGE FIRST-PAINT LEAD FIX (NO MATCH FACTS ALTERED)
+
+- **MANAGER-REPORTED BUG:** Homepage showed many older lead stories in sequence before the current Como lead, because index.html started with an obsolete 2028–29 headline and older match scripts repeatedly wrote heroStory during sequential hydration.
+- **FIX:** index.html now paints the current Como 0–4 Beier lead immediately. newsroom-boot.js takes a protected visual snapshot while historical scripts update the live lead in the background. After the final new-season script loads, the loader reveals the completed lead and removes the snapshot. Ticker/status are similarly held at current static text; intermediate top-stories/news modules are hidden. With JavaScript disabled, the first-paint current lead remains visible.
+- **ONGOING RULE:** Every new lead publication must update index.html static hero and ticker/status as well as the live state overlay. Keep one CANON.md; 2030–31 statistics and match results are unaffected.
+
 ## 2030–31 — RETROSPECTIVE NEWSROOM VOICE REPAIR (NO MATCH FACTS CHANGED)
 
 - **MANAGER DIRECTIVE:** The published site is a football news outlet: reporters write as eyewitness sports journalists, not as compliance reviewers of manager-supplied match notes. Uncertain details are omitted quietly; no source/verification caveats in public copy. Fan comments should be emotional, specific and character-led, not data-audit banter. This rule was already explicit in the editorial constitution and is now reiterated in newsroom policy and the release checklist.

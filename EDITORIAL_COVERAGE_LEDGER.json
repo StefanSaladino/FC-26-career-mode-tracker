@@ -247,5 +247,13 @@
     "images": "Como lead uses Beier-in-Napoli portrait; Milan lead uses Pio-in-Napoli portrait; remaining stories use existing relevant archive images",
     "visual_browser_QA": "not performed",
     "editorial_check": "Full body/comment manual review; source and missing-data caveats stripped"
+  },
+  "latest_frontend_first_paint_fix": {
+    "status": "Staged; verification pending",
+    "issue": "Historical lead stories flash before current",
+    "solution": "Current Como static hero + protected preview through sequential legacy overlay loading; current ticker/status preview and secondary-home loading hold",
+    "current_lead_id": "napoli-como-zero-four-beier-four-goals-sep1-2030",
+    "cache_version": "20301101-boot-v1",
+    "match_facts_unchanged": true
   }
 }

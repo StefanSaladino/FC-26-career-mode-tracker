@@ -1,0 +1,14 @@
+/* Publish the current lead immediately; paint old state only behind its snapshot. */
+.lead-frame{position:relative;min-width:0;width:100%}
+.lead-frame>.hero-story{width:100%}
+#leadFrame.is-booting>#heroStory{position:absolute;inset:0;visibility:hidden;pointer-events:none}
+#leadFrame.is-booting>#heroStoryBoot{position:relative;z-index:2;visibility:visible}
+body.seasonroom-hydrating #tickerTrack{display:none}
+body.seasonroom-hydrating #tickerTrackBoot{display:flex}
+body.seasonroom-hydrating .header-status .seasonroom-live-status{display:none}
+body.seasonroom-hydrating #topStories,
+body.seasonroom-hydrating #latestNews,
+body.seasonroom-hydrating #latestResult,
+body.seasonroom-hydrating #nextTwo,
+body.seasonroom-hydrating #formLine,
+body.seasonroom-hydrating #whisperList{visibility:hidden}
