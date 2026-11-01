@@ -2,7 +2,7 @@
 (()=>{'use strict';
 const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={}),$=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-const season='2030–31',date='2030-09-15';
+const season='2030–31',date='2030-09-13';
 const goals=[
  {minute:9,team:'Napoli',scorer:'Maximilian Beier',assist:'Giacomo Raspadori'},
  {minute:61,team:'Fiorentina',scorer:'Piccoli',assist:null},
@@ -12,8 +12,8 @@ const goals=[
 ];
 const match={date,team:'Napoli',opponent:'Fiorentina',venue:'Home',competition:'Serie A',status:'completed',score:'4–1',events:goals,notes:'Napoli 1–0 at 9′; Piccoli equaliser 61′; Moore and Pio combine for three late Napoli goals. Goalkeeper, formations, bookings and other actions not established.'};
 D.season203031={...(D.season203031||{}),
- updated:'15 September 2030 · Napoli 4–1 Fiorentina',competitiveGamesConfirmed:4,competitiveWins:3,competitiveDraws:1,competitiveGoalsFor:11,competitiveGoalsAgainst:3,
- statsVerifiedThrough:'Napoli 4–1 Fiorentina · Serie A · 15 September 2030',
+ updated:'13 September 2030 · Napoli 4–1 Fiorentina',competitiveGamesConfirmed:4,competitiveWins:3,competitiveDraws:1,competitiveGoalsFor:11,competitiveGoalsAgainst:3,
+ statsVerifiedThrough:'Napoli 4–1 Fiorentina · Serie A · 13 September 2030',
  serieA:{played:3,wins:2,draws:1,losses:0,points:7,goalsFor:9,goalsAgainst:2,goalDifference:7},
  nextClubOpponent:'Liverpool',nextClubCompetition:'UEFA Champions League'};
 D.seasonState={...(D.seasonState||{}),league:{played:3,w:2,d:1,l:0,points:7,goalsFor:9,goalsAgainst:2,goalDifference:7,remaining:35,status:'2030–31: Milan 1–1; Como 4–0; Fiorentina 4–1. Next confirmed match: Liverpool · UEFA Champions League'}};
@@ -23,16 +23,16 @@ if(found)Object.assign(found,match);else schedule.push(match);
 D.nextEuropeanFixture={team:'Napoli',opponent:'Liverpool',competition:'UEFA Champions League',status:'scheduled',date:null,venue:null,order:'next',source:'Manager named Liverpool as next after Fiorentina FT'};
 D.upcoming=[['Liverpool','UEFA Champions League','NEXT MATCH · Date and venue TBC'],...schedule.filter(x=>x.status==='scheduled').sort((a,b)=>String(a.date).localeCompare(String(b.date))).map(x=>[x.opponent,x.team==='Italy'?'Italy · '+x.competition:x.competition,x.date.slice(8,10)+' '+(x.date.slice(5,7)==='08'?'Aug':'Sep')+' 2030 · '+x.venue])];
 D.results=Array.isArray(D.results)?D.results:[];
-if(!D.results.some(x=>x[0]==='Napoli'&&x[1]==='Fiorentina'&&x[2]==='Serie A'&&String(x[6]).includes('15 Sep 2030')))
- D.results.push(['Napoli','Fiorentina','Serie A',4,1,'W','15 Sep 2030 · Home','Beier 9′ (Raspadori), Piccoli 61′ (Fiorentina), Moore 66′ (Pio), Pio 77′ & 88′ (both Moore)']);
-D.latestResult=['Napoli','4–1','Fiorentina','Serie A · 15 September 2030 · Beier 9′, Moore 66′, Pio 77′ & 88′; Piccoli 61′'];
+if(!D.results.some(x=>x[0]==='Napoli'&&x[1]==='Fiorentina'&&x[2]==='Serie A'&&String(x[6]).includes('13 Sep 2030')))
+ D.results.push(['Napoli','Fiorentina','Serie A',4,1,'W','13 Sep 2030 · Home','Beier 9′ (Raspadori), Piccoli 61′ (Fiorentina), Moore 66′ (Pio), Pio 77′ & 88′ (both Moore)']);
+D.latestResult=['Napoli','4–1','Fiorentina','Serie A · 13 September 2030 · Beier 9′, Moore 66′, Pio 77′ & 88′; Piccoli 61′'];
 const rows=D.statsBySeason?.[season];
 if(rows){
  for(const [name,g,a,detail] of [
-  ['Maximilian Beier',1,0,'Fiorentina 15 September: goal 9′ from Raspadori'],
-  ['Giacomo Raspadori',0,1,'Fiorentina 15 September: assist for Beier 9′'],
-  ['Mikey Moore',1,2,'Fiorentina 15 September: goal 66′ from Pio; assists for Pio 77′ and 88′'],
-  ['Pio Esposito',2,1,'Fiorentina 15 September: assists Moore 66′; goals 77′ and 88′ from Moore']
+  ['Maximilian Beier',1,0,'Fiorentina 13 September: goal 9′ from Raspadori'],
+  ['Giacomo Raspadori',0,1,'Fiorentina 13 September: assist for Beier 9′'],
+  ['Mikey Moore',1,2,'Fiorentina 13 September: goal 66′ from Pio; assists for Pio 77′ and 88′'],
+  ['Pio Esposito',2,1,'Fiorentina 13 September: assists Moore 66′; goals 77′ and 88′ from Moore']
  ]){
   let row=rows.find(x=>x[0]===name);if(!row){row=[name,0,0,''];rows.push(row)}
   row[1]=(Number(row[1])||0)+g;row[2]=(Number(row[2])||0)+a;
@@ -49,25 +49,25 @@ if(rows){
  const career=[...sums].map(([name,v])=>[name,v.g,v.a,[...v.years].sort().join(', ')]).sort((a,b)=>b[1]-a[1]||b[2]-a[2]);
  if(Array.isArray(D.careerStats))D.careerStats.splice(0,D.careerStats.length,...career);else D.careerStats=career;
 }
-D.statsScope='Napoli 2030–31 competitive club totals through Fiorentina 4–1 on 15 September: Beier 6 goals; Pio Esposito 4 goals and 2 assists; Mikey Moore 1 goal and 2 assists; Raspadori 1 assist; Olise, Paz and Zaïre-Emery 1 assist each. Excludes Italy international fixtures and Atlético preseason friendly. Goalkeeper who played against Fiorentina unknown.';
+D.statsScope='Napoli 2030–31 competitive club totals through Fiorentina 4–1 on 13 September: Beier 6 goals; Pio Esposito 4 goals and 2 assists; Mikey Moore 1 goal and 2 assists; Raspadori 1 assist; Olise, Paz and Zaïre-Emery 1 assist each. Excludes Italy international fixtures and Atlético preseason friendly. Goalkeeper who played against Fiorentina unknown.';
 const stats=$('stats'),controls=stats?.querySelector('.stats-filters');
 if(controls){
  const tab=controls.querySelector('[data-stats-view="'+season+'"]'),desc=stats.querySelector('.section-head p'),notice=$('statsVerificationNotice');
  const update=()=>{
   const view=controls.querySelector('.filter-pill.active')?.dataset.statsView||season;
-  if(desc)desc.textContent=view===season?'2030–31 Napoli competitive goals and assists through Fiorentina (15 September): Beier 6G; Pio 4G 2A; Moore 1G 2A; Olise, Paz, Warren and Raspadori 1A each.':'Napoli recorded club statistics for '+(view==='career'?'all available seasons':view)+'.';
+  if(desc)desc.textContent=view===season?'2030–31 Napoli competitive goals and assists through Fiorentina (13 September): Beier 6G; Pio 4G 2A; Moore 1G 2A; Olise, Paz, Warren and Raspadori 1A each.':'Napoli recorded club statistics for '+(view==='career'?'all available seasons':view)+'.';
   if(notice)notice.textContent=view===season?'Fiorentina 4–1: Beier 9′ (Raspadori), Moore 66′ (Pio), Pio 77′ and 88′ (Moore twice). Italy national-team contributions excluded. Goalkeeper statistics retained only for confirmed appearances.':'Earlier season records retained; Italy goals and assists excluded from Napoli club totals.';
  };
  controls.addEventListener('click',update);
  if(tab)tab.click();update();
 }
 const latest=$('latestResult');
-if(latest)latest.innerHTML='<div class="latest-score"><span>NAP</span><strong>4–1</strong><span>FIO</span></div><p>SERIE A · 15 SEP 2030 · BEIER 9′ · MOORE 66′ · PIO 77′, 88′ · PICCOLI 61′</p>';
+if(latest)latest.innerHTML='<div class="latest-score"><span>NAP</span><strong>4–1</strong><span>FIO</span></div><p>SERIE A · 13 SEP 2030 · BEIER 9′ · MOORE 66′ · PIO 77′, 88′ · PICCOLI 61′</p>';
 const matches=$('matchesList');
 if(matches){
  const id='napoli-fiorentina-four-one-sep15-2030';matches.querySelector('[data-match-id="'+id+'"]')?.remove();
  const card=document.createElement('div');card.className='match-card';card.dataset.matchId=id;
- card.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>SERIE A · 15 SEPTEMBER 2030 · HOME · FT</span><strong>Napoli <b>4–1</b> Fiorentina</strong><p>Beier 9′ (Raspadori); Piccoli 61′; Moore 66′ (Pio); Pio 77′ &amp; 88′ (Moore twice)</p></div>';
+ card.innerHTML='<div class="result-badge W">W</div><div class="match-main"><span>SERIE A · 13 SEPTEMBER 2030 · HOME · FT</span><strong>Napoli <b>4–1</b> Fiorentina</strong><p>Beier 9′ (Raspadori); Piccoli 61′; Moore 66′ (Pio); Pio 77′ &amp; 88′ (Moore twice)</p></div>';
  matches.prepend(card);
 }
 const next=$('nextTwo');if(next)next.innerHTML=D.upcoming.slice(0,2).map(x=>'<div class="next-row"><strong>'+esc(x[0])+'</strong><span>'+esc(x[1]+' · '+x[2])+'</span></div>').join('');

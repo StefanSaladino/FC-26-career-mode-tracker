@@ -39,9 +39,9 @@ D.schedule203031=[
  {date:'2030-09-01',team:'Napoli',opponent:'Como',venue:'Away',competition:'Serie A',status:'scheduled'},
  {date:'2030-09-06',team:'Italy',opponent:'Ukraine',venue:'Away',competition:'International',status:'scheduled'},
  {date:'2030-09-10',team:'Italy',opponent:'Hungary',venue:'Home',competition:'International',status:'scheduled'},
- {date:'2030-09-15',team:'Napoli',opponent:'Fiorentina',venue:'Home',competition:'Serie A',status:'scheduled'},
+ {date:'2030-09-13',team:'Napoli',opponent:'Fiorentina',venue:'Home',competition:'Serie A',status:'scheduled'},
  {date:'2030-09-21',team:'Napoli',opponent:'Bologna',venue:'Away',competition:'Serie A',status:'scheduled'},
- {date:'2030-09-29',team:'Napoli',opponent:'Opponent to confirm',venue:'Home',competition:'Serie A',status:'scheduled',verification:'Opponent crest not securely readable in screenshot'}
+ {date:'2030-09-28',team:'Napoli',opponent:'Inter',venue:'Home',competition:'Serie A',status:'scheduled',verification:'Manager identifies Inter next from updated September calendar'}
 ];
 D.upcoming=D.schedule203031.filter(x=>x.status==='scheduled').map(x=>[x.opponent,x.team==='Italy'?'Italy · International':x.competition,x.date.slice(8,10)+' '+(x.date.slice(5,7)==='08'?'Aug':'Sep')+' 2030 · '+x.venue]);
 D.results=D.results||[];

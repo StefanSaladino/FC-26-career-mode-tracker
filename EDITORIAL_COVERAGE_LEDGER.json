@@ -325,5 +325,59 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     }
+  },
+  "latest_calendar_update": {
+    "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
+    "dateInGame": "21 September 2030, after Bologna FT",
+    "nextFixture": "Inter home, Serie A, 28 September 2030",
+    "fixtureChanges": "Previously provisional 29 September home unidentified opponent corrected to Inter home September 28; Fiorentina 4-1 calendar date corrected to September 13 from former September 15",
+    "confirmedNewUpcoming": [
+      [
+        "2030-09-28",
+        "Inter",
+        "Napoli home, Serie A"
+      ],
+      [
+        "2030-10-01",
+        "Borussia Dortmund",
+        "Napoli away, UEFA Champions League"
+      ],
+      [
+        "2030-10-05",
+        "Opponent unknown",
+        "Napoli away, Serie A"
+      ],
+      [
+        "2030-10-11",
+        "Denmark",
+        "Italy away, International"
+      ],
+      [
+        "2030-10-15",
+        "Norway",
+        "Italy home, International"
+      ],
+      [
+        "2030-10-18",
+        "Hellas Verona",
+        "Napoli home, Serie A"
+      ],
+      [
+        "2030-10-22",
+        "Celtic",
+        "Napoli home, UEFA Champions League"
+      ],
+      [
+        "2030-10-26",
+        "Lecce",
+        "Napoli away, Serie A"
+      ],
+      [
+        "2030-10-30",
+        "Roma",
+        "Napoli home, Serie A"
+      ]
+    ],
+    "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   }
 }
