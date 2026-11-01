@@ -1,7 +1,8 @@
-## 2030–31 — BOLOGNA VS NAPOLI: PIO FROM BEIER AT 37′ (LIVE, NOT FINAL)
+## 2030–31 — BOLOGNA VS NAPOLI: PIO BRACE AT 37′ AND 79′ (LIVE, NOT FINAL)
 
-- **21 SEPTEMBER 2030 — BOLOGNA VS NAPOLI, SERIE A:** Bologna home/Napoli away, previously confirmed as the next fixture after Liverpool. **37′: Francesco Pio Esposito goal, Maximilian Beier assist**, putting Napoli ahead **0–1** in the match. No prior goals in this match reported. Match is **in progress**, NOT final; no victory, final score or completed match stats yet.
-- **LIVE PROVISIONAL 2030–31 CLUB CONTRIBUTIONS:** Following the completed Liverpool match Pio had **6G3A**, Beier **7G1A** across competitive Napoli games. With this 37′ event their **live provisional** club totals are **Pio 7G3A** and **Beier 7G2A**. Do not prematurely add a completed Serie A result or publish a Bologna match report. Separate Italy goal totals remain unchanged.
+- **21 SEPTEMBER 2030 — BOLOGNA VS NAPOLI, SERIE A:** Bologna home/Napoli away. **LIVE at 79′: Bologna 0–2 Napoli.** **37′ Francesco Pio Esposito goal, Maximilian Beier assist** (0–1). **79′ Francesco Pio Esposito header, Hasa assist** (0–2): Hasa crosses and Pio finishes with his head. No Bologna goals reported through 79′. Do not invent other events, identities, lineup or details.
+- **LIVE CONTRIBUTIONS THIS MATCH:** **Pio Esposito 2 goals (37′, 79′); Maximilian Beier 1 assist (37′); Hasa 1 assist (79′).** Match is **ongoing**, not full time. Do not award an official win or team clean sheet or publish a postmatch story.
+- **LIVE PROVISIONAL 2030–31 CLUB CONTRIBUTIONS:** Through the completed Liverpool match Pio had **6G3A**, Beier **7G1A**. With the two Bologna goals Pio is at **8 goals and 3 assists**, Beier **7 goals and 2 assists**, and Hasa has **1 confirmed assist** in the ongoing match (prior Hasa season contributions not otherwise established). Do not add a completed Serie A result before the final whistle; Italy totals remain separate.
 
 ## 2030–31 — UEFA CHAMPIONS LEAGUE: NAPOLI 3–0 LIVERPOOL, 17 SEPTEMBER 2030 (FULL TIME, MANAGER-CONFIRMED)
 
