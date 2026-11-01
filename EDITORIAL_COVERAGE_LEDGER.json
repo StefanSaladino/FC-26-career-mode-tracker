@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Sources committed; awaiting editorial gate, compiled snapshot and Pages deployment",
+    "status": "Published — editorial gate, compiled snapshot, browser tests and GitHub Pages deployment succeeded",
     "phase": "Bologna 0–2 Napoli: Pio brace and O. Burnett's first professional clean sheet",
     "match": "Bologna 0–2 Napoli · Serie A MD4 · 21 September 2030",
     "stories": [
@@ -124,11 +124,21 @@
     "managerPress": "No manager quote, player interview, named tactical instruction, dressing room source or unreported event invented",
     "releaseVersion": "20301101-bologna-pio-burnett-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "pagesDeployment": "pending",
-      "mobileManualVisualQA": "not independently performed"
-    }
+      "editorialQualityGate": "success",
+      "imageAssetAudit": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "compiledArticles": 629,
+      "results": 119,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "publicRuntimeScripts": 5,
+      "firstPaintBolognaLead": "verified in compiled index.html",
+      "articleArchiveAndComments": "browser test passed",
+      "manualDesktopMobileVisualQA": "not independently performed"
+    },
+    "compiledCommit": "2634257fcb7c98944f8362ffeb9c271dff2f56fa"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled snapshot tests and Pages deployment succeeded",
@@ -304,10 +314,10 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "a4d878d488ca044967bc5a20937a09a4b82856d0",
+    "current_published_commit": "2634257fcb7c98944f8362ffeb9c271dff2f56fa",
     "validation": {
-      "articles": 627,
-      "results": 118,
+      "articles": 629,
+      "results": 119,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
