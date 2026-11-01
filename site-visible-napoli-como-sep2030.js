@@ -14,7 +14,9 @@ D.seasonState={...(D.seasonState||{}),league:{played:2,w:1,d:1,l:0,points:4,goal
 D.schedule203031=Array.isArray(D.schedule203031)?D.schedule203031:[];
 const scheduled=D.schedule203031.find(x=>x.date===date&&x.team==='Napoli'&&x.opponent==='Como');
 if(scheduled)Object.assign(scheduled,match);else D.schedule203031.push(match);
-D.upcoming=D.schedule203031.filter(x=>x.status==='scheduled').map(x=>[x.opponent,x.team==='Italy'?'Italy · International':x.competition,x.date.slice(8,10)+' '+(x.date.slice(5,7)==='08'?'Aug':'Sep')+' 2030 · '+x.venue]);
+const ukraineQual=D.schedule203031.find(x=>x.date==='2030-09-06'&&x.team==='Italy'&&x.opponent==='Ukraine');
+if(ukraineQual){ukraineQual.competition='EURO qualifying';ukraineQual.competitionVerified=true;}
+D.upcoming=D.schedule203031.filter(x=>x.status==='scheduled').map(x=>[x.opponent,x.team==='Italy'?(x.competition==='EURO qualifying'?'Italy · EURO qualifying':'Italy · International'):x.competition,x.date.slice(8,10)+' '+(x.date.slice(5,7)==='08'?'Aug':'Sep')+' 2030 · '+x.venue]);
 D.results=D.results||[];
 if(!D.results.some(x=>x[0]==='Napoli'&&x[1]==='Como'&&x[2]==='Serie A'&&x[6]?.includes('1 Sep 2030')))
  D.results.push(['Napoli','Como','Serie A',4,0,'W','1 Sep 2030 · Away','Beier 10\', 32\' (Pio assist), 48\' (Zaïre-Emery assist), 71\'; 85\' hit post · FT 4–0']);
@@ -75,7 +77,7 @@ const lines=[
  '2030–31 CLUB STATS · BEIER 5 GOALS · PIO 2 GOALS + 1 CONFIRMED ASSIST',
  'SERIE A · NAPOLI 2 PLAYED · 1 WIN · 1 DRAW · 4 POINTS',
  'ARSENAL $485M BEIER BID REJECTED · FOUR GOALS AT COMO',
- 'ITALY NEXT · UKRAINE AWAY 6 SEPT · HUNGARY HOME 10 SEPT',
+ 'EURO QUALIFIER · ITALY AWAY AT UKRAINE · 6 SEPT · HUNGARY 10 SEPT',
  'NAPOLI NEXT · FIORENTINA HOME 15 SEPTEMBER',
  '2030 UEFA SUPER CUP · NAPOLI 2–1 TOTTENHAM · CHAMPIONS'
 ];
@@ -85,7 +87,7 @@ D.whispers=[
  ['THE CREATIVE PAIR','Pio assisted the 32nd-minute finish and Warren Zaïre-Emery provided the 48th-minute chance. Pio assisted goal two, not goal one.'],
  ['THE LEAGUE RETURN','Napoli now have four Serie A points from two games, with five goals for and one against.'],
  ['THE $485M DECISION','Napoli rejected Arsenal\'s $485m bid for Beier. The striker has five confirmed competitive goals in 2030–31.'],
- ['NEXT ON THE CALENDAR','Italy play Ukraine away on 6 September and Hungary at home on 10 September; Napoli host Fiorentina on the 15th.']
+ ['NEXT ON THE CALENDAR','Italy travel to Ukraine for a EURO qualifier on 6 September; Hungary at home on 10 September is next on the international schedule (competition not confirmed). Napoli host Fiorentina on the 15th.']
 ];
 const whisper=$('whisperList');if(whisper)whisper.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+esc(x[0])+'</span><p>'+esc(x[1])+'</p></div>').join('');
 const form=$('formLine');if(form)form.innerHTML='<div><strong>BEIER · FOUR IN ONE GAME</strong><span>Como 0–4 Napoli · 1 September · 10\', 32\', 48\', 71\'</span></div><div><strong>SERIE A · FOUR POINTS</strong><span>Two games · one win · one draw · 5 scored · 1 conceded</span></div>';

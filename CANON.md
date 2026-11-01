@@ -1,3 +1,9 @@
+## ITALY — EURO QUALIFIERS: UKRAINE AWAY, 6 SEPTEMBER 2030 (MANAGER-CONFIRMED)
+
+- **UPCOMING INTERNATIONAL FIXTURE CLASSIFICATION:** The manager explicitly confirms **Ukraine vs Italy on 6 September 2030 is a European Championship qualifying match** (referred to as 'euro cup qualifiers'). **Italy are away**; match **not started** and no score, lineups, formations, goals, assists, bookings or group standings are confirmed. Treat as **Italy national-team competitive fixture**, not a Napoli club match. Keep the 2030 World Cup bronze and all Napoli 2030–31 club scoring unchanged.
+- **NEXT AFTER UKRAINE:** Italy host **Hungary on 10 September 2030**. The exact competition category of the Hungary match **has not been explicitly confirmed**; do not infer it from the Ukraine match alone.
+- **NEWSROOM/SITE:** Current schedule and upcoming international strip identify Ukraine specifically as a EURO qualifier rather than an unspecified international. No premature match report, result or fictional press quotes. Single canonical timeline continues in this CANON.md.
+
 ## 2030–31 — SERIE A MATCHDAY 2: COMO 0–4 NAPOLI; BEIER FOUR GOALS (MANAGER-CONFIRMED)
 
 - **FULL TIME:** **Como 0–4 Napoli**, away, **1 September 2030**, Serie A MD2. **Maximilian Beier all four Napoli goals: 10′, 32′, 48′, 71′**. **10′:** rebounded finish after a blocked **Mikey Moore** shot, official assist **not yet confirmed**. **32′:** **Pio Esposito** supplied the pass and Beier finished **left-footed into the high far corner, off the post and in**. **48′:** **Warren Zaïre-Emery** played Beier in; the first attempt was stopped, Beier converted his **own rebound**. **71′:** fourth Beier goal, buildup/assist unconfirmed. At **85′ Beier hit the post** but did not score. **Manager substituted many unspecified starters while leaving Beier on**; no names or minutes of substitutions supplied. Match ended 4–0.
