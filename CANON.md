@@ -1,3 +1,12 @@
+## 2030–31 — NAPOLI VS LIVERPOOL UEFA CHAMPIONS LEAGUE: 3–0 AT HALF-TIME (IN PROGRESS)
+
+- **MATCH LIVE — HALF-TIME, NOT FINAL:** Napoli lead Liverpool **3–0 at half-time**, next UEFA Champions League match after Fiorentina. Exact match date, venue and UCL phase unconfirmed; **do not mark full-time or award a win/clean sheet**.
+- **11′ NAPOLI 1–0:** **Francesco Pio Esposito** scores, **João Neves assist**. Neves passes to Pio, who shoots from inside the box; Liverpool goalkeeper **Giorgi Mamardashvili** gets a hand to the effort, but it loops up over his head and into goal.
+- **33′ NAPOLI 2–0:** **Pio Esposito** scores again, **Maximilian Beier assist**. Beier plays Pio, who finishes.
+- **43′ NAPOLI 3–0:** **Maximilian Beier** scores, **Pio Esposito assist**. Pio plays a through ball that sends Beier in alone; Beier finishes the one-on-one.
+- **FIRST-HALF CONTRIBUTIONS:** Pio Esposito **2 goals, 1 assist**; Beier **1 goal, 1 assist**; João Neves **1 assist**. These are live contributions only, not yet a completed-match result. Liverpool scorers none at half-time. Do not infer goalkeeper performances, Liverpool chances, substitutions, attendance, venue or second-half events.
+- **CONTEXT AND CURRENT TOTALS (PROVISIONAL):** Prior completed-club totals after Fiorentina were Pio **4G2A**, Beier **6G**, Moore **1G2A**. If the first-half events stand, live contributions bring Pio to **6G3A**, Beier to **7G1A**, and Neves to **1A**, across Napoli's 2030–31 competitive club matches. **Do not update published completed-match results or website newsroom while the match is still underway.** The manager has not authorised publication of a Liverpool full-time story.
+
 ## 2030–31 — SERIE A MATCHDAY 3: NAPOLI 4–1 FIORENTINA, PIO DOUBLE AND MOORE THREE CONTRIBUTIONS (MANAGER-CONFIRMED)
 
 - **FULL TIME:** **Napoli 4–1 Fiorentina**, **15 September 2030**, home, **Serie A MD3**. Five confirmed goals in order: **9′ Maximilian Beier** for Napoli, **Giacomo Raspadori assist** (1–0); **61′ Piccoli** for Fiorentina (1–1), assist unknown; **66′ Mikey Moore** for Napoli, **Francesco Pio Esposito assist** (2–1); **77′ Pio Esposito** for Napoli, **Mikey Moore assist** (3–1); **88′ Pio Esposito** for Napoli, **Mikey Moore assist** (4–1). **Manager confirmed full time at 4–1**. No lineups, goalkeeper, other actions, xG, cards, substitutions or injuries confirmed. The interim 1–1 at 61′ is part of the same completed match, not a separate result.
