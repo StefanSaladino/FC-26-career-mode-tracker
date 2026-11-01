@@ -83,7 +83,7 @@
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Italy 2–1 Hungary · 10 September 2030 · EURO qualifying. Pio Esposito and Moise Kean score (minutes/assists unconfirmed). Previous qualifier Ukraine 0–0 Italy · 6 September. Qualifier window: 1W 1D, 4 points earned. Next Napoli Fiorentina home Sep 15; Napoli Serie A stays 2 played, 4 points.",
+  "latest_confirmed_match": "Napoli 4–1 Fiorentina · 15 September 2030 · Serie A MD3. Beier 9′ (Raspadori); Piccoli 61′ Fiorentina; Moore 66′ (Pio); Pio 77′ and 88′ (both Moore). Next Liverpool UEFA Champions League (date and venue unconfirmed).",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +98,38 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source complete and merged pending editorial gate, compiled snapshot and Pages deployment",
+    "phase": "Napoli 4–1 Fiorentina, Pio double and Moore hat-trick of goal contributions; Liverpool UCL next",
+    "match": "Napoli 4–1 Fiorentina · 15 September 2030 · Serie A matchday 3",
+    "stories": [
+      "napoli-fiorentina-four-one-pio-moore-sep15-2030",
+      "napoli-moore-pio-one-two-fiorentina-sep2030",
+      "napoli-liverpool-champions-league-return-sep2030-preview"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Napoli player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-napoli-fiorentina-liverpool-sep2030.js",
+      "site-visible-napoli-fiorentina-liverpool-sep2030.js"
+    ],
+    "knownFacts": "Beier 9′ Raspadori; Piccoli 61′; Moore 66′ Pio; Pio 77′ and 88′ Moore. FT 4–1. Serie A 3 played, 7 pts, 9 for 2 against. Napoli competitive 2030–31 Beier 6G, Pio 4G2A, Moore 1G2A; no Italy stats included.",
+    "unknowns": "Starting goalkeeper, selection, shape, xG, Fiorentina goal assist, Liverpool date/venue/stage, other match actions, league rank not supplied",
+    "historicalContext": "Napoli eliminated Liverpool 4–0 aggregate in 2030 UCL round of 16, 2–0 both legs, Liverpool two shots on target across the tie; Peacock's two clean sheets belonged to 2030, no new appearances inferred.",
+    "nextFixture": "Liverpool · UEFA Champions League · next per manager, date and venue unconfirmed. Bologna away Sep 21 retained in earlier calendar but not presented as next.",
+    "coverage": "Three original reports/features with story-specific comments and replies. September player feature already satisfied by Kean; Moore–Pio article is independent additional player analysis.",
+    "managerPress": "No manager quotes or interview manufactured; no new player dialogue.",
+    "releaseVersion": "20301101-fiorentina-liverpool-v1",
+    "technical": {
+      "editorialGate": "pending",
+      "compiledSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "manualVisualQA": "not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published: snapshot compilation and GitHub Pages deployment successful",
     "phase": "Italy EURO qualifying Sep 2030: Ukraine 0–0 and Hungary 2–1; Kean personality feature",
     "match": "Italy 2–1 Hungary · 10 September 2030 · EURO qualifying",
@@ -137,33 +169,6 @@
       "productionBrowserChecks": "compiled builder passing",
       "mobileManualVisualQA": "not independently inspected"
     }
-  },
-  "previous_newsroom_package": {
-    "status": "Clarified and published; checks pending",
-    "phase": "Como 0–4 Napoli: Beier four-goal away match; Arsenal 485m rejection retrospective",
-    "match": "Como 0–4 Napoli · Serie A MD2 · 1 September 2030",
-    "stories": [
-      "napoli-como-zero-four-beier-four-goals-sep1-2030",
-      "napoli-beier-485m-rejection-four-goal-como-analysis-sep2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Match correspondent",
-      "Matteo Bellandi · Football analysis"
-    ],
-    "story_files": [
-      "stories-napoli-como-sep2030.js"
-    ],
-    "homepage_override": "site-visible-napoli-como-sep2030.js",
-    "current_stats": "Beier 5 competitive goals (4 Como), Pio 2 goals + 1 confirmed assist (32′ Como), Warren 1A (48′ Como), Olise 1A, Paz 1A. Serie A 2 played, 4 pts, GF5 GA1; keeper Como appearance unverified.",
-    "pending": "Clarification closed: Pio assisted Beier goal TWO (32′), not goal one. 10′ and 71′ assists remain unconfirmed.",
-    "comments": {
-      "articles": 2,
-      "topLevel": 22,
-      "nestedReplies": 26
-    },
-    "release_version": "20301101-como-assists-resolved-v2",
-    "nextFixture": "Italy Ukraine away Sep 6, Hungary home Sep 10; Napoli Fiorentina home Sep 15",
-    "noFabrications": "No invented assists for first or fourth Como goal; no fabricated managerial press, bench names, keeper appearance or saves."
   },
   "release_history": [
     {
