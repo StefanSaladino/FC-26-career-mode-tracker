@@ -78,7 +78,7 @@
       "note": "2030–31 opening edition: detailed career transition feature about Alex Meret and new goalkeeper Epolo after Napoli Super Cup, plus substantial Super Cup match report and title-defence season preview. No manager press answer fabricated."
     }
   ],
-  "latest_confirmed_match": "Como 0–4 Napoli · Serie A · 1 September 2030. Beier 10′, 32′, 48′, 71′ (four goals); Pio confirmed assist 32′, Warren Zaïre-Emery assist 48′. Moore blocked shot led to first rebound, but assist uncertain; Beier hit post 85′. Serie A Napoli 2 played 1W1D, 4pts GF5 GA1. Next Napoli Fiorentina home Sep15; Italy Ukraine Sep6 and Hungary Sep10.",
+  "latest_confirmed_match": "Como 0–4 Napoli · 1 September 2030 · Beier goals 10′, 32′, 48′, 71′. Pio assist SECOND goal 32′ (manager correction), Warren Zaïre-Emery assist THIRD 48′. First and fourth official assists unconfirmed. Beier hit post 85′. Napoli Serie A 2 played, 4 points; next Fiorentina Sep15. Italy Ukraine Sep6, Hungary Sep10.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -93,7 +93,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Committed; GitHub verification pending",
+    "status": "Clarified and published; checks pending",
     "phase": "Como 0–4 Napoli: Beier four-goal away match; Arsenal 485m rejection retrospective",
     "match": "Como 0–4 Napoli · Serie A MD2 · 1 September 2030",
     "stories": [
@@ -109,13 +109,13 @@
     ],
     "homepage_override": "site-visible-napoli-como-sep2030.js",
     "current_stats": "Beier 5 competitive goals (4 Como), Pio 2 goals + 1 confirmed assist (32′ Como), Warren 1A (48′ Como), Olise 1A, Paz 1A. Serie A 2 played, 4 pts, GF5 GA1; keeper Como appearance unverified.",
-    "pending": "FT user queried Pio assist on 10′ opener, originally described as rebound after Moore blocked shot. Credit remains unconfirmed pending user correction. Fourth goal assist unknown.",
+    "pending": "Clarification closed: Pio assisted Beier goal TWO (32′), not goal one. 10′ and 71′ assists remain unconfirmed.",
     "comments": {
       "articles": 2,
       "topLevel": 22,
       "nestedReplies": 26
     },
-    "release_version": "20301101-como-four-beier-v1",
+    "release_version": "20301101-como-assists-resolved-v2",
     "nextFixture": "Italy Ukraine away Sep 6, Hungary home Sep 10; Napoli Fiorentina home Sep 15",
     "noFabrications": "No invented assists for first or fourth Como goal; no fabricated managerial press, bench names, keeper appearance or saves."
   },

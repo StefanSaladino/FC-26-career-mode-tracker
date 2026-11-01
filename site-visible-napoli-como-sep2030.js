@@ -9,7 +9,7 @@ const goals=[
  {minute:71,scorer:'Maximilian Beier',assist:null,detail:'Fourth goal; finish and assist details unreported'}
 ];
 const match={date,team:'Napoli',opponent:'Como',venue:'Away',competition:'Serie A',status:'completed',score:'4–0',events:goals,notes:'Beier 85\' hit the post; manager substituted several unspecified starters but kept Beier on. Team clean sheet; goalkeeper who played not confirmed.'};
-D.season203031={...(D.season203031||{}),updated:'1 September 2030 · Como away final 4–0',competitiveGamesConfirmed:3,competitiveWins:2,competitiveDraws:1,competitiveGoalsFor:7,competitiveGoalsAgainst:2,statsVerifiedThrough:'Como 0–4 Napoli · Serie A · 1 September 2030',serieA:{played:2,wins:1,draws:1,losses:0,points:4,goalsFor:5,goalsAgainst:1,goalDifference:4},nextClubOpponent:'Fiorentina',pendingGoalOneAssist:'Pio Esposito mentioned by manager in question but 10\' opener originally described as Moore shot blocked → Beier rebound; await explicit confirmation of official assist'};
+D.season203031={...(D.season203031||{}),updated:'1 September 2030 · Como away final 4–0',competitiveGamesConfirmed:3,competitiveWins:2,competitiveDraws:1,competitiveGoalsFor:7,competitiveGoalsAgainst:2,statsVerifiedThrough:'Como 0–4 Napoli · Serie A · 1 September 2030',serieA:{played:2,wins:1,draws:1,losses:0,points:4,goalsFor:5,goalsAgainst:1,goalDifference:4},nextClubOpponent:'Fiorentina',assistClarification:'Manager confirms Pio supplied the second-goal assist at minute 32, not first goal at minute 10'};
 D.seasonState={...(D.seasonState||{}),league:{played:2,w:1,d:1,l:0,points:4,goalsFor:5,goalsAgainst:1,remaining:36,status:'2030–31: Napoli 1–1 Milan; Como 0–4 Napoli. Next Fiorentina home 15 September'}};
 D.schedule203031=Array.isArray(D.schedule203031)?D.schedule203031:[];
 const scheduled=D.schedule203031.find(x=>x.date===date&&x.team==='Napoli'&&x.opponent==='Como');
@@ -21,7 +21,7 @@ if(!D.results.some(x=>x[0]==='Napoli'&&x[1]==='Como'&&x[2]==='Serie A'&&x[6]?.in
 D.latestResult=['COMO','0–4','NAPOLI','1 September 2030 · Beier 10\', 32\', 48\', 71\' · Four-goal match'];
 const rows=D.statsBySeason?.[season];
 if(rows){
- for(const [name,g,a,note] of [['Maximilian Beier',4,0,'Como away · goals 10\', 32\', 48\', 71\'; 85\' hit post'],['Pio Esposito',0,1,'Como away · confirmed assist to Beier at 32\'; 10\' assist unresolved'],['Warren Zaïre-Emery',0,1,'Como away · confirmed pass/assist to Beier at 48\'']]){
+ for(const [name,g,a,note] of [['Maximilian Beier',4,0,'Como away · goals 10\', 32\', 48\', 71\'; 85\' hit post'],['Pio Esposito',0,1,'Como away · confirmed assist to Beier at 32\'; Pio assist applies to second goal only'],['Warren Zaïre-Emery',0,1,'Como away · confirmed pass/assist to Beier at 48\'']]){
    let r=rows.find(row=>row[0]===name);if(!r){r=[name,0,0,''];rows.push(r)}
    r[1]=(Number(r[1])||0)+g;r[2]=(Number(r[2])||0)+a;
    r[3]=(r[3]&&!r[3].startsWith('0 confirmed')?r[3]+' | ':'')+note+' · Manager-confirmed Napoli competitive event';
@@ -36,7 +36,7 @@ if(rows){
  const career=[...sums].map(([name,v])=>[name,v.g,v.a,[...v.years].sort().join(', ')]).sort((a,b)=>b[1]-a[1]||b[2]-a[2]);
  if(Array.isArray(D.careerStats))D.careerStats.splice(0,D.careerStats.length,...career);else D.careerStats=career;
 }
-D.statsScope='Napoli 2030–31 competitive club totals through Como 0–4 Napoli (1 September): Beier 5G; Pio 2G, 1 confirmed assist; Olise, Nico Paz, Warren Zaïre-Emery each 1A. The Como 10\' Pio-assist question is pending verification. Epolo has 6 known saves at Milan; Como clean sheet is Napoli team only, GK unknown. Atlético friendly and Italy totals excluded.';
+D.statsScope='Napoli 2030–31 competitive club totals through Como 0–4 Napoli (1 September): Beier 5G; Pio 2G, 1 confirmed assist; Olise, Nico Paz, Warren Zaïre-Emery each 1A. Manager clarified Pio assisted the second goal at 32\', not the first at 10\'. First and fourth assists unconfirmed. Epolo has 6 known saves at Milan; Como clean sheet is Napoli team only, GK unknown. Atlético friendly and Italy totals excluded.';
 const stats=$('stats'),controls=stats?.querySelector('.stats-filters');
 if(controls){
  const tab=controls.querySelector('[data-stats-view="'+season+'"]'),desc=stats.querySelector('.section-head p');
@@ -44,7 +44,7 @@ if(controls){
  const notice=$('statsVerificationNotice');
  const update=()=>{
   const view=controls.querySelector('.filter-pill.active')?.dataset.statsView||season;
-  if(desc)desc.textContent=view===season?'2030–31 verified Napoli competitive stats through Como (1 September). Beier 5 goals; Pio 2 goals, 1 assist; Olise, Paz and Warren 1 assist each. Goal-one assist remains under clarification.':view==='career'?'Napoli Career: recorded goals and assists across available club archives; historical totals may be incomplete.':'Archived Napoli club totals for '+view+'. Past seasons have not been reset.';
+  if(desc)desc.textContent=view===season?'2030–31 verified Napoli competitive stats through Como (1 September). Beier 5 goals; Pio 2 goals, 1 assist; Olise, Paz and Warren 1 assist each. Pio assisted the second goal at 32\', not the first.':view==='career'?'Napoli Career: recorded goals and assists across available club archives; historical totals may be incomplete.':'Archived Napoli club totals for '+view+'. Past seasons have not been reset.';
   if(notice)notice.textContent=view===season?'Como 0–4 Napoli: Beier 10\', 32\', 48\', 71\'; Pio confirmed assist at 32\', Warren at 48\'. First/last goal assists unconfirmed. Team clean sheet; GK not confirmed.':'Viewing '+(view==='career'?'Napoli Career records':'the archived '+view+' season')+'.';
   if(keeper)keeper.hidden=view!==season;
  };
@@ -82,7 +82,7 @@ const lines=[
 D.ticker=lines;const ticker=$('tickerTrack');if(ticker)ticker.innerHTML=[...lines,...lines].map(x=>'<span>'+esc(x)+'</span>').join('');
 D.whispers=[
  ['FOUR FOR BEIER','Napoli beat Como 4–0. Beier scored at 10, 32, 48 and 71 minutes, then hit the post at 85.'],
- ['THE CREATIVE PAIR','Pio assisted the 32nd-minute finish and Warren Zaïre-Emery provided the 48th-minute chance. The first assist is under clarification.'],
+ ['THE CREATIVE PAIR','Pio assisted the 32nd-minute finish and Warren Zaïre-Emery provided the 48th-minute chance. Pio assisted goal two, not goal one.'],
  ['THE LEAGUE RETURN','Napoli now have four Serie A points from two games, with five goals for and one against.'],
  ['THE $485M DECISION','Napoli rejected Arsenal\'s $485m bid for Beier. The striker has five confirmed competitive goals in 2030–31.'],
  ['NEXT ON THE CALENDAR','Italy play Ukraine away on 6 September and Hungary at home on 10 September; Napoli host Fiorentina on the 15th.']
