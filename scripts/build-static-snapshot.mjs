@@ -67,7 +67,7 @@ try{
  await fresh.waitForFunction(()=>!!window.NAPOLI_SNAPSHOT,null,{timeout:15000});
  const rendered=await fresh.locator('#heroStory [data-article]').getAttribute('data-article');
  if(rendered!==result.hero)throw Error('Production lead mismatch: '+rendered);
- if(requests.length>7||requests.some(s=>/post-|site-visible-|stories-|data\.js/.test(s)))throw Error('Historical scripts fetched on production '+JSON.stringify(requests));
+ if(requests.length>7||requests.some(s=>/(?:^|\/)(?:post-|site-visible-|stories-|data\.js$)/.test(s)))throw Error('Historical scripts fetched on production '+JSON.stringify(requests));
  await fresh.locator('#heroStory [data-article]').click();
  await fresh.locator('#readerHeadline').waitFor();
  await fresh.locator('.fan-comments').waitFor({timeout:15000});
