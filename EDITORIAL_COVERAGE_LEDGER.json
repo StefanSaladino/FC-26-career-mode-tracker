@@ -78,7 +78,7 @@
       "note": "2030–31 opening edition: detailed career transition feature about Alex Meret and new goalkeeper Epolo after Napoli Super Cup, plus substantial Super Cup match report and title-defence season preview. No manager press answer fabricated."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–1 Tottenham · UEFA Super Cup · 14 August 2030. Gonzalo 12′, Beier 31′ (Olise), Pio Esposito 74′ penalty. Napoli win Super Cup. Atlético Madrid preseason 3–0 on 3 August, scorers unknown. Next competitive Napoli match Milan home, 25 August 2030.",
+  "latest_confirmed_match": "Napoli 1–1 AC Milan · Serie A MD1 · 25 August 2030. Michaud 42′ Milan; Pio Esposito 53′ Napoli (Nico Paz assist). Epolo six saves, one conceded. Serie A 1 played, 0W1D0L, 1 point. Next Como away Sep 1.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -93,6 +93,32 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Committed; awaiting post-commit CI and deployment verification",
+    "phase": "2030–31 Serie A MD1 draw with Milan: Epolo's six saves, Pio from Paz",
+    "match": "Napoli 1–1 AC Milan · 25 August 2030",
+    "stories": [
+      "napoli-milan-one-one-aug25-2030-pio-paz-epolo",
+      "napoli-epolo-six-saves-milan-first-appearance-aug2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Match correspondent",
+      "Elena De Luca · Player development"
+    ],
+    "story_files": [
+      "stories-napoli-milan-aug2030.js"
+    ],
+    "homepage_override": "site-visible-napoli-milan-aug2030.js",
+    "verifiedStats": "Pio 2G, Beier 1G, Olise 1A, Paz 1A; Epolo one confirmed appearance, 6 saves, 1 conceded. Napoli league 1D 1 point. 2029–30 archived.",
+    "nextFixture": "Como away, 1 September 2030",
+    "release_version": "20301031-milan-opener-v1",
+    "comments": {
+      "stories": 2,
+      "topLevel": 20,
+      "replies": 23
+    },
+    "editorialPolicy": "No manager quotes invented, match chronology and goalkeeper count manager-confirmed; deeper saves and lineup withheld."
+  },
+  "previous_newsroom_package": {
     "status": "Committed 2030–31 kickoff edition; checks and deployment to be verified",
     "phase": "2030–31 starts with Napoli UEFA Super Cup win and 25 August Milan opener",
     "match": "Napoli 2–1 Tottenham · UEFA Super Cup · 14 August 2030",
@@ -119,60 +145,6 @@
       "replies": 33
     },
     "no_fabrications": "No unprovided Super Cup events or ratings, international competition type, Sept29 opponent, transfer prices or manager quotes."
-  },
-  "previous_newsroom_package": {
-    "status": "Six-piece World Cup closing edition committed; deployment and GitHub checks subject to confirmation",
-    "phase": "2030 World Cup concluded: France champions, Belgium runners-up, Italy bronze after 1–0 Denmark",
-    "match": "Italy 1–0 Denmark · FIFA World Cup third-place playoff",
-    "world_cup_final": "France 2–0 Belgium",
-    "story_files": [
-      "stories-worldcup-2030-bronze-verdict-opinions.js"
-    ],
-    "stories": [
-      "italy-denmark-one-nil-bronze-pio-gigio-worldcup-2030",
-      "italy-bronze-rebirth-not-fifth-star-2030-opinion",
-      "italy-donnarumma-worldcup-eleven-lammens-2030-opinion",
-      "italy-kean-pio-2030-worldcup-forward-future-opinion",
-      "italy-defence-2030-worldcup-inquest-opinion",
-      "worldcup-2030-final-france-belgium-team-eleven-italy-analysis"
-    ],
-    "bylines": [
-      "Giulia Romano · World Cup correspondent",
-      "Lorenzo Ricci · Senior football columnist",
-      "Matteo Bellandi · Linea Calcio",
-      "Sofia Mancini · Player features correspondent",
-      "Marco Bellini · Tactical columnist",
-      "Andrea Conti · Tournament correspondent"
-    ],
-    "comment_files": [
-      "comments-worldcup-2030-bronze-verdict-opinions.js"
-    ],
-    "original_cover_files": [
-      "assets/editorial-italy-bronze-denmark-2030.svg",
-      "assets/editorial-italy-bronze-verdict-2030.svg",
-      "assets/editorial-italy-gigio-team-eleven-2030.svg",
-      "assets/editorial-italy-kean-pio-2030-verdict.svg",
-      "assets/editorial-italy-defence-inquest-2030.svg",
-      "assets/editorial-worldcup-2030-team-eleven.svg"
-    ],
-    "international_state": "state-worldcup-2030-final-bronze-awards.js",
-    "homepage_override": "site-visible-worldcup-2030-bronze-wrap.js",
-    "current_stats": "Italy World Cup 8 matches (3W 4D 1L), 15 scored and 13 conceded. Kean 7G/3A; Pio Esposito 5G/6A. International only; no Napoli club stat changes.",
-    "trophy": "France win 2–0 vs Belgium; Italy third, Denmark fourth.",
-    "award": "Official World Cup 2030 XI: Mbappé, Kean; Gogorza, Barella, Lavia, Doué; Calafiori, Bastoni, Debast, Kayode; Lammens. Five Italians: Kean, Barella, Calafiori, Bastoni, Kayode. Donnarumma and Pio not selected.",
-    "audience_audit": {
-      "new_stories": 6,
-      "top_level_threads": 69,
-      "total_new_comments_and_replies": 166,
-      "nested_replies_beyond_first": 23,
-      "unique_comment_texts": 166,
-      "notes": "All six have separate topic-specific conversations, recurring established commenters, rivals and genuine exchanges. No synthetic manager responses. Existing article comments preserved."
-    },
-    "assets_qa": "Six original 1200×675 SVG covers with subjects and matching accessible labels, created as files; no browser-rendered visual or mobile crop check performed.",
-    "release_version": "20301030-worldcup2030-bronze-wrap-v1",
-    "status_checks": "Editorial checks, image audit, comment audit and Pages deployment need post-commit verification; do not claim any have passed until checked.",
-    "next_fixture": null,
-    "no_fabrications": "No Denmark penalty taker, Pio goal assist, France–Belgium goal scorers, exact tournament-final dates/venues or unprovided awards. Manager press optional and not completed."
   },
   "release_history": [
     {
