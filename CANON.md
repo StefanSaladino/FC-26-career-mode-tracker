@@ -1,3 +1,8 @@
+## 2030–31 — PRECOMPILED SEASON ROOM ARCHITECTURE (NO FOOTBALL FACTS CHANGED)
+
+- **REFACTOR IN PROGRESS:** Site historical source scripts (hundreds of overlays from previous seasons) are preserved for authoring and reproducible build, but moved out of the published page. A GitHub Actions compilation opens legacy-index.html in a build-only browser and writes a one-time snapshot of the final page, small current-season dataset and deferred archive. On successful build, visitors load index.html with snapshot-data.js, snapshot-runtime.js, and a small set of reader/comment/translation scripts; news-archive.json is lazy-loaded. Original articles, comments, squads, stats and individual results are retained in source and compiled archive. The single CANON.md remains authoritative.
+- **PUBLICATION INTEGRITY:** The builder verifies current lead and minimum historical article/result counts and tests article opening, comments and archive retrieval before publishing. Current in-game football state remains Como 0–4 Napoli, upcoming Italy vs Ukraine EURO qualifier; no game result is created or changed by the refactor.
+
 ## 2030–31 — HOME PAGE FIRST-PAINT LEAD FIX (NO MATCH FACTS ALTERED)
 
 - **MANAGER-REPORTED BUG:** Homepage showed many older lead stories in sequence before the current Como lead, because index.html started with an obsolete 2028–29 headline and older match scripts repeatedly wrote heroStory during sequential hydration.

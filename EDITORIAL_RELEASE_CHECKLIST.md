@@ -23,3 +23,5 @@ Complete as applicable for each match/event. The review is proportionate: major 
 
 - [ ] **First-paint lead parity:** The static hero in index.html must match the current final live lead article ID, headline, teaser and image. newsroom-boot.js preserves that snapshot through historical overlays; the loader calls SEASONROOM_BOOT.finish() only after the final current-state script. Never leave an old lead in the initial HTML.
 - [ ] **No archive slideshow:** Verify on desktop and mobile that no prior lead/headline appears while history hydrates, and that final state and archived article links work. Check first paint, hydration, failure states and layout stability.
+
+- [ ] **Snapshot publication:** The live index.html must load the compact snapshot runtime only, with no historical source scripts. Confirm recent lead, archived article count, comments, stats filters, Italy/Napoli separation, and the new compiled commit. Update legacy-index.html rather than generated index.html for future script loader changes.

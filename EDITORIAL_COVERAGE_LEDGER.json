@@ -255,5 +255,24 @@
     "current_lead_id": "napoli-como-zero-four-beier-four-goals-sep1-2030",
     "cache_version": "20301101-boot-v1",
     "match_facts_unchanged": true
+  },
+  "compiled_publication": {
+    "status": "Build pipeline committed; generated snapshot pending confirmation",
+    "workflow": "build-static-snapshot.yml",
+    "source": "legacy-index.html",
+    "generated": [
+      "index.html",
+      "snapshot-data.js",
+      "news-archive.json",
+      "snapshot-build-report.json"
+    ],
+    "runtime": [
+      "snapshot-runtime.js",
+      "comments-engine-v2.js",
+      "language-controller.js",
+      "image-fixes.js"
+    ],
+    "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
+    "football_canon_unchanged": true
   }
 }
