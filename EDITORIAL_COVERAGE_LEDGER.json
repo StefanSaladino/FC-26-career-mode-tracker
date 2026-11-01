@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source complete and merged pending editorial gate, compiled snapshot and Pages deployment",
+    "status": "Published — compiled snapshot and GitHub Pages deployment succeeded",
     "phase": "Napoli 4–1 Fiorentina, Pio double and Moore hat-trick of goal contributions; Liverpool UCL next",
     "match": "Napoli 4–1 Fiorentina · 15 September 2030 · Serie A matchday 3",
     "stories": [
@@ -123,10 +123,23 @@
     "managerPress": "No manager quotes or interview manufactured; no new player dialogue.",
     "releaseVersion": "20301101-fiorentina-liverpool-v1",
     "technical": {
-      "editorialGate": "pending",
-      "compiledSnapshot": "pending",
-      "pagesDeployment": "pending",
-      "manualVisualQA": "not performed"
+      "editorialGate": "success",
+      "compiledSnapshot": "success",
+      "pagesDeployment": "success",
+      "compiledArticles": 624,
+      "results": 117,
+      "seasonArchives": 4,
+      "legacyScriptErrors": 0,
+      "publicRuntimeScripts": 5,
+      "firstPaintFiorentinaLead": "verified in compiled index",
+      "articleArchiveAndComments": "snapshot browser test passed",
+      "mobileManualVisualQA": "not performed"
+    },
+    "compiledCommit": "9dd616db5e420d7f861e627f19ff5cf9cd34e4cc",
+    "comments": {
+      "topLevel": 38,
+      "totalWithReplies": 103,
+      "source": "original story-specific reader debate"
     }
   },
   "previous_newsroom_package": {
@@ -282,7 +295,7 @@
     "match_facts_unchanged": true
   },
   "compiled_publication": {
-    "status": "Compiled successfully; GitHub Pages deployment completed",
+    "status": "Compiled and deployed successfully",
     "workflow": "build-static-snapshot.yml",
     "source": "legacy-index.html",
     "generated": [
@@ -299,10 +312,10 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "eff7a782aa4360d17dfc9b7724986f6d851b6132",
+    "current_published_commit": "9dd616db5e420d7f861e627f19ff5cf9cd34e4cc",
     "validation": {
-      "articles": 621,
-      "results": 116,
+      "articles": 624,
+      "results": 117,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
