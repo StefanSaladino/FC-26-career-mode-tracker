@@ -1,9 +1,7 @@
 {
-  "revision": "71aecac28356",
+  "revision": "a84d03a9ccfa",
   "articles": 618,
   "results": 114,
   "seasons": 4,
-  "legacyErrors": [
-    "ReferenceError: valid is not defined\n    at http://127.0.0.1:35315/newsroom-byline-audit.js?v=20291223-a:26:5\n    at http://127.0.0.1:35315/newsroom-byline-audit.js?v=20291223-a:34:3"
-  ]
+  "legacyErrors": []
 }
