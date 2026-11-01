@@ -83,7 +83,7 @@
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Bologna 0–2 Napoli · Serie A matchday 4 · 21 September 2030 · Pio 37′ (Beier) and 79′ header (Hasa cross) · Burnett first professional clean sheet.",
+  "latest_confirmed_match": "Borussia Dortmund 1–1 Napoli · UEFA Champions League · 1 October 2030 · Pio 64′ equaliser from Beier. Previous Napoli 1–0 Inter Sep 28 · Pio 58′ from Beier; Epolo 4 saves and clean sheet.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +98,42 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source edition committed; editorial and compiled publication verification pending",
+    "phase": "Toronto FC pursue Napoli manager Stefan Saladino; Napoli 1–0 Inter (Epolo 4 saves); Dortmund 1–1 Napoli (Pio 64′)",
+    "match": "Borussia Dortmund 1–1 Napoli · UEFA Champions League · 1 October 2030; Napoli 1–0 Inter · Serie A · 28 September 2030",
+    "stories": [
+      "toronto-fc-saladino-homecoming-interest-oct2030",
+      "napoli-inter-one-zero-epolo-pio-sep28-2030",
+      "dortmund-napoli-one-one-pio-rescue-oct2030"
+    ],
+    "bylines": [
+      "Anthony Ricci · Toronto football desk",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-toronto-inter-dortmund-oct2030.js",
+      "site-visible-toronto-inter-dortmund-oct2030.js"
+    ],
+    "managerInterest": "Toronto FC actively trying to lure Stefan Saladino home. No manager decision, contract terms, formal offer, board statement, departure, talks, or source of report beyond manager's in-world fact provided. Published prose avoids attributing the story to a private user conversation.",
+    "knownFacts": "Napoli 1–0 Inter home Sep 28, Pio 58′ (Beier); Mikey Moore initiated goal move; Epolo 4 saves + clean sheet. Borussia Dortmund 1–1 Napoli away Oct 1, Pio equaliser 64′ (Beier); Dortmund scorer and time unknown. Napoli 8 competitive games 6W2D GF18 GA4. Pio 10G3A, Beier 7G4A all competitive Napoli club competitions, Serie A 13 points from 5, Champions League four points from two.",
+    "unknowns": "Dortmund goalscorer and time, full lineups/shot totals, Inter other player contributions, formal nature or terms of Toronto approach, manager response, next Oct 5 Serie A opponent, standings rank",
+    "nextFixture": "5 October 2030 away Serie A, opponent unidentified in calendar; Italy Denmark Oct 11, Norway Oct 15; Celtic home UCL Oct 22.",
+    "coverage": "Three distinct substantial reports: Toronto/manager-future lead, Inter match report, Dortmund European match report. 39 meaningful story paragraphs, original familiar-and-Toronto supporter threads with sustained, distinct discussions. No invented manager quotes or insider negotiations.",
+    "comments": {
+      "topLevel": 40,
+      "totalIncludingReplies": 139
+    },
+    "managerPress": "Not conducted. Opportunity to answer a voluntary Toronto FC question remains open in chat; no answer invented.",
+    "releaseVersion": "20301101-toronto-inter-dortmund-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "mobileManualVisualQA": "not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled snapshot, browser tests and GitHub Pages deployment succeeded",
     "phase": "Bologna 0–2 Napoli: Pio brace and O. Burnett's first professional clean sheet",
     "match": "Bologna 0–2 Napoli · Serie A MD4 · 21 September 2030",
@@ -139,51 +175,6 @@
       "manualDesktopMobileVisualQA": "not independently performed"
     },
     "compiledCommit": "2634257fcb7c98944f8362ffeb9c271dff2f56fa"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled snapshot tests and Pages deployment succeeded",
-    "phase": "17 September 2030 Napoli 3–0 Liverpool: Pio brace; Liverpool held scoreless for third straight meeting",
-    "match": "Napoli 3–0 Liverpool · UEFA Champions League · 17 September 2030",
-    "stories": [
-      "pio-liverpool-three-nil-ucl-sep17-2030",
-      "liverpool-seven-without-reply-napoli-sep2030",
-      "neves-through-ball-pio-beier-liverpool-sep2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Napoli player desk"
-    ],
-    "source": [
-      "stories-napoli-liverpool-sep17-2030.js",
-      "site-visible-napoli-liverpool-sep17-2030.js"
-    ],
-    "coverage": "Three substantial and distinct feature packages: match action, Liverpool history and the midfield-to-forward chain. Original recurring-character replies in supporter threads. September 2030 feature quota already satisfied; this adds a further Neves spotlight.",
-    "comments": {
-      "topLevel": 38,
-      "totalIncludingReplies": 111
-    },
-    "paragraphs": 39,
-    "knownFacts": "Pio 11′ from João Neves (shot touched by Mamardashvili before looping over), Pio 33′ from Beier, Beier 43′ from Pio through pass. HT 3–0 FT 3–0. First-half Napoli three shots/three goals, Liverpool two shots/one on target. Team clean sheet. Pio 6G3A, Beier 7G1A competitive club season totals.",
-    "historicalContext": "Napoli 2–0 Liverpool at Anfield 13 March and 2–0 Liverpool in Naples 19 March 2030: 7–0 in 3 Napoli wins with no Liverpool goals, Pio four goals in those three.",
-    "unknowns": "Current venue, Napoli goalkeeper, full-time shot totals, Liverpool individual player details other than Mamardashvili, UCL competition stage, league standings, substitutions and unreported in-game events",
-    "nextFixture": "Bologna away · Serie A · 21 September 2030 (previously scheduled, now after completed Sep 17 Liverpool fixture)",
-    "managerPress": "No interview conducted, no fabricated manager or player quotes; narrative written in eyewitness sports journalism voice",
-    "releaseVersion": "20301101-liverpool-ucl-ft-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "pagesDeployment": "success",
-      "archivedArticles": 627,
-      "results": 118,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "publicJsFiles": 5,
-      "firstPaintLiverpoolLead": "verified in compiled index.html",
-      "articleOpenArchiveComments": "snapshot builder browser checks passed",
-      "manualMobileVisualQA": "not independently performed"
-    },
-    "compiledCommit": "a4d878d488ca044967bc5a20937a09a4b82856d0"
   },
   "release_history": [
     {
