@@ -233,5 +233,19 @@
       "Italy national-team statistics must never change Napoli club totals",
       "World Cup is over; no next tournament fixture should be shown"
     ]
+  },
+  "editorial_voice_repair_2030": {
+    "status": "Rewritten; commit checks pending",
+    "scope": [
+      "stories-napoli-como-sep2030.js",
+      "stories-napoli-milan-aug2030.js",
+      "stories-napoli-season-opening-203031.js"
+    ],
+    "scope_count": 7,
+    "directive": "True in-universe reporting with confident prose around confirmed facts; omit uncertainties without displaying provenance; fan comments should sound like fans",
+    "no_match_facts_changed": true,
+    "images": "Como lead uses Beier-in-Napoli portrait; Milan lead uses Pio-in-Napoli portrait; remaining stories use existing relevant archive images",
+    "visual_browser_QA": "not performed",
+    "editorial_check": "Full body/comment manual review; source and missing-data caveats stripped"
   }
 }

@@ -16,3 +16,7 @@ Complete as applicable for each match/event. The review is proportionate: major 
 - [ ] Confirm script load order and commits; verify live rendering if tools allow. Never report unperformed QA as done.
 
 **Warnings**: APPROVE (record context), REVISE (edit), or DEFER (request clarification). No mechanical censorship.
+
+- [ ] **Reporter-eye pass:** Read all body paragraphs, headlines, decks and captions as if they were published in a real football paper. Remove "manager supplied/confirmed", missing-data disclosures, "verified contribution", source provenance and site/database accounting. Unknown details simply do not appear.
+- [ ] **Supporter-eye pass:** Read all revised comments and replies. No fabricated official confirmations, data-integrity arguments, or fans sounding like compliance officers. Keep authentic emotion, humour, rival club allegiances, distinct opinions and sustained exchanges.
+- [ ] **Relevant image:** Confirm file exists and suits the story. An archive illustration must never masquerade as match photography.

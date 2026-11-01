@@ -60,3 +60,13 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Do not recycle identical comments or full threads across different articles. A match report, player feature, tactical preview and interview must each generate their own conversations.
 - Build substantive exchanges: commenters challenge, answer, defend, concede and return. Maintain recurring handles, their allegiances, and the satirical SaladinoOutNow voice. Vary thread shape organically; avoid quotas, artificial outrage and filler.
 - Before publishing, compare each article's comment count, unique text, reply depth and character continuity to recent benchmark articles. Review manually, document any exception and cache-bust updated scripts so readers see revisions.
+
+## Reporter-eye test — mandatory editorial voice pass
+
+**The canonical match log is internal research; the published story must read like an in-universe football reporter watching the match.** The reader must never see explanations such as "the manager supplied/confirmed the description", "no xG was supplied", "the confirmed record", "only verified contributions", "the manager clarified", or "we must not invent an assist". These expressions belong in private CANON.md and internal editorial review, not in public articles, captions or supporter comments. When a detail is uncertain, **omit it naturally**.
+
+Write from the football: the scoreline, the chronology of goals, the stakes, the beauty or frustration of a particular moment, the players' developing reputations, tactical interpretation grounded in known facts, and the consequences. No invented goals, assists, lineups, cards, crowd chants, manager quotations or specific unseen play. Express confidence where facts warrant it, and silently omit what is not established.
+
+**Read every proposed headline, deck, full article, caption and all comments/replies as a reader before release.** Remove all internal bookkeeping and source-origin commentary. Supporters are football fans, not the newsroom compliance team: they react to players, form, rivalry, tactical decisions, prices and goals. Keep established personalities (including SaladinoOutNow) and distinctive genuine arguments; do not pad conversations to meet quotas. Use football-relevant portraits or illustrations where available, and label archival images naturally without implying they depict events they do not.
+
+Editorial voice review is human judgment, not mechanical forbidden-word censorship. The editor must actually inspect each article in its entirety and fix leaks, not simply run a checklist or replace one token.
