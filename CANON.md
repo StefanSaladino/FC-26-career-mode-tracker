@@ -1,3 +1,8 @@
+## 2030–31 — BOLOGNA VS NAPOLI: PIO FROM BEIER AT 37′ (LIVE, NOT FINAL)
+
+- **21 SEPTEMBER 2030 — BOLOGNA VS NAPOLI, SERIE A:** Bologna home/Napoli away, previously confirmed as the next fixture after Liverpool. **37′: Francesco Pio Esposito goal, Maximilian Beier assist**, putting Napoli ahead **0–1** in the match. No prior goals in this match reported. Match is **in progress**, NOT final; no victory, final score or completed match stats yet.
+- **LIVE PROVISIONAL 2030–31 CLUB CONTRIBUTIONS:** Following the completed Liverpool match Pio had **6G3A**, Beier **7G1A** across competitive Napoli games. With this 37′ event their **live provisional** club totals are **Pio 7G3A** and **Beier 7G2A**. Do not prematurely add a completed Serie A result or publish a Bologna match report. Separate Italy goal totals remain unchanged.
+
 ## 2030–31 — UEFA CHAMPIONS LEAGUE: NAPOLI 3–0 LIVERPOOL, 17 SEPTEMBER 2030 (FULL TIME, MANAGER-CONFIRMED)
 
 - **MATCH RESULT — CONFIRMED:** **Napoli 3–0 Liverpool**, **17 September 2030**, UEFA Champions League. Napoli led **3–0 at half-time** and that remained the final score. Three goals before half-time, none in the second half. Napoli win and collect a **TEAM clean sheet**. **Venue, kickoff time, specific competition phase, lineup and Napoli starting goalkeeper are not confirmed; do not invent a goalkeeper clean sheet or venue**. Match date corrects the initially unknown date.
