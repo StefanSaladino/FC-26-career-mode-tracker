@@ -1,5 +1,6 @@
 ## 2030–31 — NAPOLI VS LIVERPOOL UEFA CHAMPIONS LEAGUE: 3–0 AT HALF-TIME (IN PROGRESS)
 
+- **FIRST-HALF SHOT STATISTICS (MANAGER-REPORTED):** Napoli **3 shots, 3 goals** (100% goals per shot), Liverpool **2 shots, 1 on target, 0 goals** at half-time. Napoli have scored with all three attempts; do not invent possession, xG, goalkeeper saves or the nature of Liverpool's off-target chance. This is a half-time snapshot, not full-time match totals.
 - **MATCH LIVE — HALF-TIME, NOT FINAL:** Napoli lead Liverpool **3–0 at half-time**, next UEFA Champions League match after Fiorentina. Exact match date, venue and UCL phase unconfirmed; **do not mark full-time or award a win/clean sheet**.
 - **11′ NAPOLI 1–0:** **Francesco Pio Esposito** scores, **João Neves assist**. Neves passes to Pio, who shoots from inside the box; Liverpool goalkeeper **Giorgi Mamardashvili** gets a hand to the effort, but it loops up over his head and into goal.
 - **33′ NAPOLI 2–0:** **Pio Esposito** scores again, **Maximilian Beier assist**. Beier plays Pio, who finishes.
