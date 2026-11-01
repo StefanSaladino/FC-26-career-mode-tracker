@@ -98,6 +98,36 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Published: editorial quality gate, browser snapshot and GitHub Pages deployment succeeded",
+    "phase": "Manager publicly confirms staying at Napoli for the time being and thanks Toronto FC",
+    "stories": [
+      "saladino-stays-napoli-toronto-answer-oct2030"
+    ],
+    "bylines": [
+      "Anthony Ricci · Toronto football desk"
+    ],
+    "source": [
+      "stories-toronto-inter-dortmund-oct2030.js",
+      "site-visible-toronto-inter-dortmund-oct2030.js"
+    ],
+    "managerPress": "Direct manager public statement preserved verbatim in CANON.md and published in the article, with no extra quotations invented.",
+    "decision": "Staying at Napoli for now; Toronto FC respected; ambition to finish Napoli dynasty.",
+    "nextFixture": "5 October away Serie A opponent unconfirmed",
+    "technical": {
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "browserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 633,
+      "results": 121,
+      "seasons": 4,
+      "errors": 0,
+      "firstPaintLead": "saladino-stays-napoli-toronto-answer-oct2030",
+      "manualVisualQA": "not independently performed"
+    },
+    "compiledCommit": "abe5211840b0a2cf89a01d8af247c3d60ff3cfc9"
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial quality gate, compiled snapshot/browser tests and Pages deployment succeeded",
     "phase": "Toronto FC pursue Napoli manager Stefan Saladino; Napoli 1–0 Inter (Epolo 4 saves); Dortmund 1–1 Napoli (Pio 64′)",
     "match": "Borussia Dortmund 1–1 Napoli · UEFA Champions League · 1 October 2030; Napoli 1–0 Inter · Serie A · 28 September 2030",
@@ -142,49 +172,6 @@
       "desktopMobileVisualQA": "not independently performed"
     },
     "compiledCommit": "d7ceb442e1b8f40b63713295f70b13a9e74d68d0"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled snapshot, browser tests and GitHub Pages deployment succeeded",
-    "phase": "Bologna 0–2 Napoli: Pio brace and O. Burnett's first professional clean sheet",
-    "match": "Bologna 0–2 Napoli · Serie A MD4 · 21 September 2030",
-    "stories": [
-      "napoli-bologna-away-pio-brace-sep21-2030",
-      "burnett-first-professional-clean-sheet-bologna-sep2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Napoli player desk"
-    ],
-    "source": [
-      "stories-napoli-bologna-sep21-2030.js",
-      "site-visible-napoli-bologna-sep21-2030.js"
-    ],
-    "knownFacts": "Pio 37′ (Beier) and 79′ headed (Lirim Hasa cross); Bologna 0–2 Napoli FT; Burnett goalkeeper and his first professional clean sheet, not debut. Napoli Serie A 4 played, 3 wins, 1 draw, 10 points, 11 GF 2 GA; Pio club 8G3A, Beier 7G2A.",
-    "unknowns": "Bologna goal attempts and on-target attempts, Burnett save totals, Napoli line-up apart from Burnett, opponent substitutions, league table rank, September 29 opponent",
-    "nextFixture": "Napoli home Serie A 29 September 2030 · opponent unconfirmed",
-    "coverage": "Two distinct detailed articles, 25 paragraphs total; significant original reader discussion with recurring characters and evolving threads; image selected to distinguish Pio portrait and original non-photo Burnett milestone art; September monthly player feature already fulfilled and further served by Burnett article.",
-    "comments": {
-      "topLevel": 27,
-      "totalIncludingReplies": 89
-    },
-    "managerPress": "No manager quote, player interview, named tactical instruction, dressing room source or unreported event invented",
-    "releaseVersion": "20301101-bologna-pio-burnett-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "imageAssetAudit": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "compiledArticles": 629,
-      "results": 119,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "publicRuntimeScripts": 5,
-      "firstPaintBolognaLead": "verified in compiled index.html",
-      "articleArchiveAndComments": "browser test passed",
-      "manualDesktopMobileVisualQA": "not independently performed"
-    },
-    "compiledCommit": "2634257fcb7c98944f8362ffeb9c271dff2f56fa"
   },
   "release_history": [
     {
