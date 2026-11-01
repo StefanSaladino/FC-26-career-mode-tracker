@@ -76,9 +76,14 @@
       "month": "2030-08",
       "status": "covered",
       "note": "2030–31 opening edition: detailed career transition feature about Alex Meret and new goalkeeper Epolo after Napoli Super Cup, plus substantial Super Cup match report and title-defence season preview. No manager press answer fabricated."
+    },
+    {
+      "month": "2030-09",
+      "status": "covered",
+      "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Como 0–4 Napoli · 1 September 2030 · Beier goals 10′, 32′, 48′, 71′. Pio assist SECOND goal 32′ (manager correction), Warren Zaïre-Emery assist THIRD 48′. First and fourth official assists unconfirmed. Beier hit post 85′. Napoli Serie A 2 played, 4 points; next Fiorentina Sep15. Italy Ukraine Sep6, Hungary Sep10.",
+  "latest_confirmed_match": "Italy 2–1 Hungary · 10 September 2030 · EURO qualifying. Pio Esposito and Moise Kean score (minutes/assists unconfirmed). Previous qualifier Ukraine 0–0 Italy · 6 September. Qualifier window: 1W 1D, 4 points earned. Next Napoli Fiorentina home Sep 15; Napoli Serie A stays 2 played, 4 points.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -93,6 +98,35 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Three articles authored and integrated in source; compiled build and deployment to verify",
+    "phase": "Italy EURO qualifying Sep 2030: Ukraine 0–0 and Hungary 2–1; Kean personality feature",
+    "match": "Italy 2–1 Hungary · 10 September 2030 · EURO qualifying",
+    "stories": [
+      "italy-hungary-two-one-pio-kean-euro-qualifiers-sep2030",
+      "ukraine-italy-zero-zero-euro-qualifier-sep2030",
+      "moise-kean-worldcup-record-to-euro-qualifiers-interview-sep2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Italy player features"
+    ],
+    "story_files": [
+      "stories-italy-euro-qualifiers-sep2030.js"
+    ],
+    "homepage_override": "site-visible-italy-euro-qualifiers-sep2030.js",
+    "comments": {
+      "articles": 3,
+      "topLevel": 33,
+      "kind": "Original, story-specific conversations with nested replies"
+    },
+    "scope": "Italy EURO qualifying data separate from Napoli season/career goals and 2030 World Cup tournament totals",
+    "knownUnknowns": "Goal minutes, assist providers, Hungary scorer, goalkeeper/lineups, group table and subsequent Italy fixtures not confirmed",
+    "nextFixture": "Napoli Fiorentina home Sep 15, Bologna away Sep 21",
+    "release_version": "20301101-italy-euro-qualifying-v1",
+    "managerPress": "No manager interview attempted or quotes invented"
+  },
+  "previous_newsroom_package": {
     "status": "Clarified and published; checks pending",
     "phase": "Como 0–4 Napoli: Beier four-goal away match; Arsenal 485m rejection retrospective",
     "match": "Como 0–4 Napoli · Serie A MD2 · 1 September 2030",
@@ -118,32 +152,6 @@
     "release_version": "20301101-como-assists-resolved-v2",
     "nextFixture": "Italy Ukraine away Sep 6, Hungary home Sep 10; Napoli Fiorentina home Sep 15",
     "noFabrications": "No invented assists for first or fourth Como goal; no fabricated managerial press, bench names, keeper appearance or saves."
-  },
-  "previous_newsroom_package": {
-    "status": "Committed; awaiting post-commit CI and deployment verification",
-    "phase": "2030–31 Serie A MD1 draw with Milan: Epolo's six saves, Pio from Paz",
-    "match": "Napoli 1–1 AC Milan · 25 August 2030",
-    "stories": [
-      "napoli-milan-one-one-aug25-2030-pio-paz-epolo",
-      "napoli-epolo-six-saves-milan-first-appearance-aug2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Match correspondent",
-      "Elena De Luca · Player development"
-    ],
-    "story_files": [
-      "stories-napoli-milan-aug2030.js"
-    ],
-    "homepage_override": "site-visible-napoli-milan-aug2030.js",
-    "verifiedStats": "Pio 2G, Beier 1G, Olise 1A, Paz 1A; Epolo one confirmed appearance, 6 saves, 1 conceded. Napoli league 1D 1 point. 2029–30 archived.",
-    "nextFixture": "Como away, 1 September 2030",
-    "release_version": "20301031-milan-opener-v1",
-    "comments": {
-      "stories": 2,
-      "topLevel": 20,
-      "replies": 23
-    },
-    "editorialPolicy": "No manager quotes invented, match chronology and goalkeeper count manager-confirmed; deeper saves and lineup withheld."
   },
   "release_history": [
     {
