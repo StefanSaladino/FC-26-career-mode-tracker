@@ -58,7 +58,7 @@ function filterMatches(){
  const team=get('teamFilter')?.value||'',comp=get('compFilter')?.value||'';
  const rows=(D.results||[]).filter(r=>(!team||r[0]===team)&&(!comp||r[2]===comp));
  if(get('matchesList'))get('matchesList').innerHTML=rows.slice().reverse().map(r=>{
-  const away=(r[0]==='Napoli'||r[0]==='Italy')&&/2028 · Away/.test(String(r[6]));
+  const away=(r[0]==='Napoli'||r[0]==='Italy')&&/\bAway\b/i.test(String(r[6]));
   const left=away?r[1]:r[0],right=away?r[0]:r[1],score=away?r[4]+'–'+r[3]:r[3]+'–'+r[4];
   return '<div class="match-card"><div class="result-badge '+esc(r[5])+'">'+esc(r[5])+'</div><div class="match-main"><span>'+esc(r[2])+'</span><strong>'+esc(left)+' <b>'+esc(score)+'</b> '+esc(right)+'</strong><p>'+esc(r[6])+' · '+esc(r[7])+'</p></div></div>';
  }).join('');

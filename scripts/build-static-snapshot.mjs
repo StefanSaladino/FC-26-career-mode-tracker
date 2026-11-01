@@ -7,6 +7,10 @@ import { chromium } from 'playwright';
 
 const root=process.cwd();
 const revision=(process.env.GITHUB_SHA||'local').slice(0,12);
+const authorHTML=await fs.readFile(path.join(root,'legacy-index.html'),'utf8');
+const heroSource=authorHTML.slice(authorHTML.indexOf('id="heroStory"'));
+const expectedLead=heroSource.match(/data-article="([^"]+)"/)?.[1];
+if(!expectedLead)throw Error('Authoring home page has no static lead article ID');
 const mime={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg','.webp':'image/webp','.png':'image/png','.mp4':'video/mp4'};
 const server=http.createServer(async(req,res)=>{
  try{
@@ -27,10 +31,10 @@ try{
  old.on('pageerror',e=>legacyErrors.push(e.stack||e.message));
  await old.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
  await old.goto('http://127.0.0.1:'+port+'/legacy-index.html',{waitUntil:'domcontentloaded',timeout:120000});
- await old.waitForFunction(()=>{
+ await old.waitForFunction(id=>{
   const frame=document.getElementById('leadFrame');
-  return frame&&!frame.classList.contains('is-booting')&&document.querySelector('#heroStory [data-article="napoli-como-zero-four-beier-four-goals-sep1-2030"]')&&window.NAPOLI_DATA?.articles?.some(x=>x.id==='napoli-como-zero-four-beier-four-goals-sep1-2030');
- },null,{timeout:180000});
+  return frame&&!frame.classList.contains('is-booting')&&document.querySelector('#heroStory [data-article="'+id+'"]')&&window.NAPOLI_DATA?.articles?.some(x=>x.id===id);
+ },expectedLead,{timeout:180000});
  await old.waitForTimeout(250);
  const result=await old.evaluate(()=>{
   const data=JSON.parse(JSON.stringify(window.NAPOLI_DATA));
@@ -50,7 +54,7 @@ try{
   return {hero,current,archive,html:'<!doctype html>\n'+document.documentElement.outerHTML,count:{articles:data.articles.length,results:data.results.length,seasons:Object.keys(data.statsBySeason||{}).length}};
  });
  if(legacyErrors.length)throw Error('Legacy script execution failures: '+legacyErrors.join('; '));
- if(result.hero!=='napoli-como-zero-four-beier-four-goals-sep1-2030')throw Error('Wrong lead: '+result.hero);
+ if(result.hero!==expectedLead)throw Error('Wrong lead: '+result.hero+' expected '+expectedLead);
  if(result.count.articles<40||result.count.results<10)throw Error('Incomplete archive: '+JSON.stringify(result.count));
  await fs.writeFile('snapshot-data.js','window.NAPOLI_DATA='+JSON.stringify(result.current)+';\nwindow.NAPOLI_SNAPSHOT={archiveUrl:"news-archive.json?v='+revision+'",totalArticles:'+result.count.articles+',version:"'+revision+'"};\n');
  await fs.writeFile('news-archive.json',JSON.stringify(result.archive));
