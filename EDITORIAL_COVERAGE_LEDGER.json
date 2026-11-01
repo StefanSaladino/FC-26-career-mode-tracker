@@ -83,7 +83,7 @@
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–0 Liverpool · UEFA Champions League · 17 September 2030 · FT. Pio 11′ (Neves), Pio 33′ (Beier), Beier 43′ (Pio). Clean sheet. HT 3 Napoli shots/3 goals, Liverpool 2 shots/1 on target.",
+  "latest_confirmed_match": "Bologna 0–2 Napoli · Serie A matchday 4 · 21 September 2030 · Pio 37′ (Beier) and 79′ header (Hasa cross) · Burnett first professional clean sheet.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +98,39 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Sources committed; awaiting editorial gate, compiled snapshot and Pages deployment",
+    "phase": "Bologna 0–2 Napoli: Pio brace and O. Burnett's first professional clean sheet",
+    "match": "Bologna 0–2 Napoli · Serie A MD4 · 21 September 2030",
+    "stories": [
+      "napoli-bologna-away-pio-brace-sep21-2030",
+      "burnett-first-professional-clean-sheet-bologna-sep2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Napoli player desk"
+    ],
+    "source": [
+      "stories-napoli-bologna-sep21-2030.js",
+      "site-visible-napoli-bologna-sep21-2030.js"
+    ],
+    "knownFacts": "Pio 37′ (Beier) and 79′ headed (Lirim Hasa cross); Bologna 0–2 Napoli FT; Burnett goalkeeper and his first professional clean sheet, not debut. Napoli Serie A 4 played, 3 wins, 1 draw, 10 points, 11 GF 2 GA; Pio club 8G3A, Beier 7G2A.",
+    "unknowns": "Bologna goal attempts and on-target attempts, Burnett save totals, Napoli line-up apart from Burnett, opponent substitutions, league table rank, September 29 opponent",
+    "nextFixture": "Napoli home Serie A 29 September 2030 · opponent unconfirmed",
+    "coverage": "Two distinct detailed articles, 25 paragraphs total; significant original reader discussion with recurring characters and evolving threads; image selected to distinguish Pio portrait and original non-photo Burnett milestone art; September monthly player feature already fulfilled and further served by Burnett article.",
+    "comments": {
+      "topLevel": 27,
+      "totalIncludingReplies": 89
+    },
+    "managerPress": "No manager quote, player interview, named tactical instruction, dressing room source or unreported event invented",
+    "releaseVersion": "20301101-bologna-pio-burnett-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "mobileManualVisualQA": "not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled snapshot tests and Pages deployment succeeded",
     "phase": "17 September 2030 Napoli 3–0 Liverpool: Pio brace; Liverpool held scoreless for third straight meeting",
     "match": "Napoli 3–0 Liverpool · UEFA Champions League · 17 September 2030",
@@ -141,51 +174,6 @@
       "manualMobileVisualQA": "not independently performed"
     },
     "compiledCommit": "a4d878d488ca044967bc5a20937a09a4b82856d0"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — compiled snapshot and GitHub Pages deployment succeeded",
-    "phase": "Napoli 4–1 Fiorentina, Pio double and Moore hat-trick of goal contributions; Liverpool UCL next",
-    "match": "Napoli 4–1 Fiorentina · 15 September 2030 · Serie A matchday 3",
-    "stories": [
-      "napoli-fiorentina-four-one-pio-moore-sep15-2030",
-      "napoli-moore-pio-one-two-fiorentina-sep2030",
-      "napoli-liverpool-champions-league-return-sep2030-preview"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Napoli player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-napoli-fiorentina-liverpool-sep2030.js",
-      "site-visible-napoli-fiorentina-liverpool-sep2030.js"
-    ],
-    "knownFacts": "Beier 9′ Raspadori; Piccoli 61′; Moore 66′ Pio; Pio 77′ and 88′ Moore. FT 4–1. Serie A 3 played, 7 pts, 9 for 2 against. Napoli competitive 2030–31 Beier 6G, Pio 4G2A, Moore 1G2A; no Italy stats included.",
-    "unknowns": "Starting goalkeeper, selection, shape, xG, Fiorentina goal assist, Liverpool date/venue/stage, other match actions, league rank not supplied",
-    "historicalContext": "Napoli eliminated Liverpool 4–0 aggregate in 2030 UCL round of 16, 2–0 both legs, Liverpool two shots on target across the tie; Peacock's two clean sheets belonged to 2030, no new appearances inferred.",
-    "nextFixture": "Liverpool · UEFA Champions League · next per manager, date and venue unconfirmed. Bologna away Sep 21 retained in earlier calendar but not presented as next.",
-    "coverage": "Three original reports/features with story-specific comments and replies. September player feature already satisfied by Kean; Moore–Pio article is independent additional player analysis.",
-    "managerPress": "No manager quotes or interview manufactured; no new player dialogue.",
-    "releaseVersion": "20301101-fiorentina-liverpool-v1",
-    "technical": {
-      "editorialGate": "success",
-      "compiledSnapshot": "success",
-      "pagesDeployment": "success",
-      "compiledArticles": 624,
-      "results": 117,
-      "seasonArchives": 4,
-      "legacyScriptErrors": 0,
-      "publicRuntimeScripts": 5,
-      "firstPaintFiorentinaLead": "verified in compiled index",
-      "articleArchiveAndComments": "snapshot browser test passed",
-      "mobileManualVisualQA": "not performed"
-    },
-    "compiledCommit": "9dd616db5e420d7f861e627f19ff5cf9cd34e4cc",
-    "comments": {
-      "topLevel": 38,
-      "totalWithReplies": 103,
-      "source": "original story-specific reader debate"
-    }
   },
   "release_history": [
     {
