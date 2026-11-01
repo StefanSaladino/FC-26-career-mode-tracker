@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source edition committed; editorial and compiled publication verification pending",
+    "status": "Published — editorial quality gate, compiled snapshot/browser tests and Pages deployment succeeded",
     "phase": "Toronto FC pursue Napoli manager Stefan Saladino; Napoli 1–0 Inter (Epolo 4 saves); Dortmund 1–1 Napoli (Pio 64′)",
     "match": "Borussia Dortmund 1–1 Napoli · UEFA Champions League · 1 October 2030; Napoli 1–0 Inter · Serie A · 28 September 2030",
     "stories": [
@@ -127,11 +127,21 @@
     "managerPress": "Not conducted. Opportunity to answer a voluntary Toronto FC question remains open in chat; no answer invented.",
     "releaseVersion": "20301101-toronto-inter-dortmund-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "pagesDeployment": "pending",
-      "mobileManualVisualQA": "not independently performed"
-    }
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 632,
+      "results": 121,
+      "seasons": 4,
+      "legacyErrors": 0,
+      "publicRuntimeScripts": 5,
+      "firstPaintTorontoLead": "verified in generated index.html",
+      "playerTotals": "Pio 10G3A, Beier 7G4A in compiled season stats",
+      "lastResults": "Napoli 1-0 Inter, Dortmund 1-1 Napoli verified in compiled results",
+      "desktopMobileVisualQA": "not independently performed"
+    },
+    "compiledCommit": "d7ceb442e1b8f40b63713295f70b13a9e74d68d0"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled snapshot, browser tests and GitHub Pages deployment succeeded",
@@ -305,10 +315,10 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "2634257fcb7c98944f8362ffeb9c271dff2f56fa",
+    "current_published_commit": "d7ceb442e1b8f40b63713295f70b13a9e74d68d0",
     "validation": {
-      "articles": 629,
-      "results": 119,
+      "articles": 632,
+      "results": 121,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
