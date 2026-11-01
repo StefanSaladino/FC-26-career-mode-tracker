@@ -63,6 +63,7 @@ try{
  fresh.on('pageerror',e=>errors.push(e.message));
  await fresh.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
  await fresh.goto('http://127.0.0.1:'+port+'/',{waitUntil:'domcontentloaded',timeout:60000});
+ console.log('Compact diagnostics:',JSON.stringify(await fresh.evaluate(()=>({scripts:[...document.querySelectorAll('script[src]')].map(s=>s.getAttribute('src')),dataPresent:typeof window.NAPOLI_DATA,snapshot:typeof window.NAPOLI_SNAPSHOT,heading:document.querySelector('#heroStory h2')?.textContent,bodyEnd:document.body.outerHTML.slice(-400)}))), 'requests', JSON.stringify(requests), 'errors', JSON.stringify(errors));
  await fresh.waitForFunction(()=>!!window.NAPOLI_SNAPSHOT,null,{timeout:15000});
  const rendered=await fresh.locator('#heroStory [data-article]').getAttribute('data-article');
  if(rendered!==result.hero)throw Error('Production lead mismatch: '+rendered);
