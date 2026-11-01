@@ -11,7 +11,7 @@ const mime={'.html':'text/html; charset=utf-8','.js':'application/javascript; ch
 const server=http.createServer(async(req,res)=>{
  try{
   const url=new URL(req.url,'http://localhost'),dest=path.resolve(root,'.'+decodeURIComponent(url.pathname));
-  if(!dest.startsWith(root+path.sep))throw Error('Forbidden path');
+  if(dest!==root&&!dest.startsWith(root+path.sep))throw Error('Forbidden path');
   const stat=await fs.stat(dest),file=stat.isDirectory()?path.join(dest,'index.html'):dest;
   res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});
   res.end(await fs.readFile(file));
