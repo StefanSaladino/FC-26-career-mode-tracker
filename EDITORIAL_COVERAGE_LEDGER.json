@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Three articles authored and integrated in source; compiled build and deployment to verify",
+    "status": "Published: snapshot compilation and GitHub Pages deployment successful",
     "phase": "Italy EURO qualifying Sep 2030: Ukraine 0–0 and Hungary 2–1; Kean personality feature",
     "match": "Italy 2–1 Hungary · 10 September 2030 · EURO qualifying",
     "stories": [
@@ -124,7 +124,19 @@
     "knownUnknowns": "Goal minutes, assist providers, Hungary scorer, goalkeeper/lineups, group table and subsequent Italy fixtures not confirmed",
     "nextFixture": "Napoli Fiorentina home Sep 15, Bologna away Sep 21",
     "release_version": "20301101-italy-euro-qualifying-v1",
-    "managerPress": "No manager interview attempted or quotes invented"
+    "managerPress": "No manager interview attempted or quotes invented",
+    "compiled_commit": "eff7a782aa4360d17dfc9b7724986f6d851b6132",
+    "validation": {
+      "articles": 621,
+      "results": 116,
+      "seasons": 4,
+      "legacyErrors": [],
+      "editorialGate": "success",
+      "snapshotBuild": "success",
+      "pagesDeployment": "success",
+      "productionBrowserChecks": "compiled builder passing",
+      "mobileManualVisualQA": "not independently inspected"
+    }
   },
   "previous_newsroom_package": {
     "status": "Clarified and published; checks pending",
@@ -282,10 +294,10 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "51a5c09768e2dfc666056ff998c08a3c7ed989a0",
+    "current_published_commit": "eff7a782aa4360d17dfc9b7724986f6d851b6132",
     "validation": {
-      "articles": 618,
-      "results": 114,
+      "articles": 621,
+      "results": 116,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
