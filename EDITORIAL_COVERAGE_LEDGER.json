@@ -71,9 +71,14 @@
       "month": "2030-06",
       "status": "covered",
       "note": "Napoli treble final and World Cup June group features; Romania shootout Donnarumma/Pio/Sebastiano character feature and Italy–Turkey Round-of-16 coverage. Dedicated Moise Kean record feature after Türkiye (7 World Cup goals, above Rossi/Schillaci single-tournament six) by Sofia Mancini. England quarterfinal Retegui and Donnarumma feature package and confirmed France semifinal preview added."
+    },
+    {
+      "month": "2030-08",
+      "status": "covered",
+      "note": "2030–31 opening edition: detailed career transition feature about Alex Meret and new goalkeeper Epolo after Napoli Super Cup, plus substantial Super Cup match report and title-defence season preview. No manager press answer fabricated."
     }
   ],
-  "latest_confirmed_match": "Italy 1–0 Denmark · 2030 World Cup third-place playoff; Gianluigi Donnarumma Denmark penalty save 22′; Francesco Pio Esposito goal 54′, assist not supplied. Italy finish third. France 2–0 Belgium in 2030 final, France world champions and Belgium runners-up. World Cup completed; no further Italy fixtures confirmed.",
+  "latest_confirmed_match": "Napoli 2–1 Tottenham · UEFA Super Cup · 14 August 2030. Gonzalo 12′, Beier 31′ (Olise), Pio Esposito 74′ penalty. Napoli win Super Cup. Atlético Madrid preseason 3–0 on 3 August, scorers unknown. Next competitive Napoli match Milan home, 25 August 2030.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -88,6 +93,34 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Committed 2030–31 kickoff edition; checks and deployment to be verified",
+    "phase": "2030–31 starts with Napoli UEFA Super Cup win and 25 August Milan opener",
+    "match": "Napoli 2–1 Tottenham · UEFA Super Cup · 14 August 2030",
+    "stories": [
+      "napoli-spurs-uefa-super-cup-comeback-aug2030",
+      "napoli-meret-epolo-goalkeeper-succession-aug2030",
+      "napoli-2030-31-season-opening-calendar-aug2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Napoli Football Review",
+      "Elena De Luca · Squad and transfers",
+      "Marco Bellini · Tactical desk"
+    ],
+    "story_files": [
+      "stories-napoli-season-opening-203031.js"
+    ],
+    "homepage_override": "site-visible-season-203031-kickoff.js",
+    "season_stats": "New 2030–31 competitive: Beier 1G, Pio 1G, Olise 1A. Atlético friendly excluded; past seasons preserved.",
+    "calendar": "Milan Aug25; Como Sep1; Ukraine Sep6; Hungary Sep10; Fiorentina Sep15; Bologna Sep21; Sep29 home opponent unconfirmed.",
+    "release_version": "20301031-season203031-kickoff-v1",
+    "commentary": {
+      "stories": 3,
+      "top_level_threads": 31,
+      "replies": 33
+    },
+    "no_fabrications": "No unprovided Super Cup events or ratings, international competition type, Sept29 opponent, transfer prices or manager quotes."
+  },
+  "previous_newsroom_package": {
     "status": "Six-piece World Cup closing edition committed; deployment and GitHub checks subject to confirmation",
     "phase": "2030 World Cup concluded: France champions, Belgium runners-up, Italy bronze after 1–0 Denmark",
     "match": "Italy 1–0 Denmark · FIFA World Cup third-place playoff",
@@ -140,74 +173,6 @@
     "status_checks": "Editorial checks, image audit, comment audit and Pages deployment need post-commit verification; do not claim any have passed until checked.",
     "next_fixture": null,
     "no_fabrications": "No Denmark penalty taker, Pio goal assist, France–Belgium goal scorers, exact tournament-final dates/venues or unprovided awards. Manager press optional and not completed."
-  },
-  "previous_newsroom_package": {
-    "status": "France World Cup semifinal aftermath and Denmark third-place preview authored and committed; check live deployment separately",
-    "phase": "Italy eliminated 1–2 AET by France; Denmark third-place playoff next; France vs Belgium final",
-    "match": "Italy 1–2 France after extra time · World Cup 2030 semifinal; Etikite winning goal 120+2",
-    "latest_result": "Italy 1–2 France AET",
-    "story_files": [
-      "stories-italy-france-semifinal-aftermath-2030.js"
-    ],
-    "stories": [
-      "italy-france-semifinal-1202-etikite-worldcup-exit-2030",
-      "italy-donnarumma-worldcup-france-last-line-feature-2030",
-      "italy-france-stoppage-time-1202-officiating-debate-2030",
-      "italy-denmark-third-place-worldcup-2030-preview"
-    ],
-    "bylines": [
-      "Giulia Romano · World Cup correspondent",
-      "Elena De Luca · Longform features",
-      "Marco Bellini · Tactical columnist",
-      "Andrea Conti · Tournament correspondent"
-    ],
-    "comment_files": [
-      "comments-italy-france-semifinal-aftermath-2030.js"
-    ],
-    "original_cover_files": [
-      "assets/editorial-italy-france-1202-heartbreak-2030.svg",
-      "assets/editorial-italy-gigio-last-line-france-2030.svg",
-      "assets/editorial-italy-france-added-time-question-2030.svg",
-      "assets/editorial-italy-denmark-bronze-2030.svg"
-    ],
-    "international_state": "state-italy-france-semifinal-worldcup-2030.js",
-    "homepage_override": "site-visible-italy-france-denmark-third-2030.js",
-    "current_stats": "Italy World Cup 7 matches (2 wins, 4 draws after play, 1 loss), 14 for, 13 against. Kean 7G/3A; Pio 4G/6A. International only; Napoli club figures unchanged.",
-    "official_result": "France win 2–1 after extra time; no shootout.",
-    "added_time_note": "One minute reportedly displayed; Etikite 120+2 winner. The board is a minimum; do not state that officiating was unlawful. No referee timekeeping explanation supplied.",
-    "audience_audit": {
-      "new_stories": 4,
-      "top_level_threads": 51,
-      "total_new_comments_and_replies": 131,
-      "nested_replies": 80,
-      "unique_comment_texts": 131,
-      "comment_scripts": 1,
-      "notes": "Unique drafted public comments in four separate angle-specific collections, with back-and-forth exchanges, relevant recurring voices, rival reactions and no immediate self-replies. Existing England and France preview threads preserved."
-    },
-    "assets_qa": "Four new subject-specific 1200×675 SVG graphics added with accessible labels. File existence checked by Git tree; rendered desktop/mobile layout not browser-verified.",
-    "release_version": "20301030-italy-france-denmark-v1",
-    "status_checks": "Technical GitHub Actions verification pending commit; no browser rendering check. Do not claim passed until verified.",
-    "next_fixture": {
-      "competition": "2030 FIFA World Cup",
-      "round": "Third-place playoff",
-      "home": "Italy",
-      "away": "Denmark",
-      "date": null,
-      "kickoff": null,
-      "venue": null,
-      "confirmed_by": "Manager in conversation",
-      "result": null
-    },
-    "other_fixture": {
-      "competition": "2030 FIFA World Cup",
-      "round": "Final",
-      "home": "France",
-      "away": "Belgium",
-      "date": null,
-      "kickoff": null,
-      "result": null
-    },
-    "no_fabrications": "No unconfirmed French lineup, shots, Etikite assist, Denmark match or final result. Manager private comments not attributed to public interviews. Club statistics untouched."
   },
   "release_history": [
     {

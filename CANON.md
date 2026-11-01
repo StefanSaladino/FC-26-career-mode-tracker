@@ -1,3 +1,25 @@
+## 2030–31 CAMPAIGN KICKOFF — AUGUST/SEPTEMBER 2030 CALENDAR, SUPER CUP STORY, SEASON STATISTICS (MANAGER-CONFIRMED)
+
+- **MANAGER ORDER:** Start a fresh **2030–31** Napoli statistical season and current-season website presentation; preserve every earlier season as history, including the 2029–30 treble and international 2030 World Cup figures. Publish substantial UEFA Super Cup and early-season newsroom coverage **now**, with the transfer succession story, before the new league campaign.
+- **3 AUG 2030 — FRIENDLY, COMPLETED:** Calendar screenshot shows **Napoli 3–0 Atlético Madrid**, labelled **Friendly**. No goal scorers, assists, kickoff time, home/away venue or individual performances supplied. Record result but **exclude from 2030–31 competitive club scoring totals**.
+- **14 AUG 2030 — UEFA SUPER CUP, COMPLETED:** **Napoli 2–1 Tottenham Hotspur**. **12′ Gonzalo (Spurs)**, **31′ Maximilian Beier (Michael Olise official assist)**, **74′ Francesco Pio Esposito (penalty, no assist confirmed)**. Manager confirmed FT; Napoli Super Cup winners. UEFA Super Cup goals/assists count toward Napoli **2030–31 competitive totals**, NOT the 2029–30 treble season. This is **one confirmed Napoli competitive fixture, two confirmed club goals, one official assist** at the season's recorded checkpoint; no complete appearance stats, goalkeeper selection, assist on a penalty, final match xG or other match events confirmed.
+- **2030–31 STAT BASELINE:** **Maximilian Beier 1 goal, 0 assists; Pio Esposito 1 goal, 0 assists; Michael Olise 0 goals, 1 assist.** Current non-loaned senior members without additional confirmed competitive goal contributions display 0 goals/0 assists **only as documented contributions**, not verified appearances or proof of playing the Super Cup. The new season stats tab is 2030–31; previous tabs 2029–30, 2028–29, 2027–28 and Napoli Career remain. No Italy national-team totals added to Napoli club stats.
+- **UPCOMING FIXTURES FROM TWO MANAGER CALENDAR SCREENSHOTS:**
+
+| Date | Team | Opponent | Venue | Competition | Status |
+|---|---|---|---|---|---|
+| 25 Aug 2030 | Napoli | **AC Milan** | **Home** | Serie A | Scheduled; opponent expressly confirmed by manager |
+| 1 Sep 2030 | Napoli | Como | Away | Serie A | Scheduled |
+| 6 Sep 2030 | Italy | **Ukraine** | Away | International | Scheduled; manager clarified opponent; competition subtype unspecified |
+| 10 Sep 2030 | Italy | **Hungary** | Home | International | Scheduled; manager clarified opponent; competition subtype unspecified |
+| 15 Sep 2030 | Napoli | Fiorentina | Home | Serie A | Scheduled |
+| 21 Sep 2030 | Napoli | Bologna | Away | Serie A | Scheduled |
+| 29 Sep 2030 | Napoli | **Opponent unconfirmed** | Home | Serie A | Scheduled; crest in screenshot not securely identified; do NOT invent name |
+
+- **SERIE A RECORD:** Not started (0 played, 0W 0D 0L, 0 pts). UEFA Super Cup is a separate competition; Atlético friendly is another separate competition. No inferred later match outcomes.
+- **TRANSFER CONTINUITY:** Arsenal **$485m Beier bid rejected**; Meret sale to Bournemouth **$44.9m** and Epolo signing (GK, 25, 85 OVR, potential 89; purchase fee unknown); Resende on loan at Torino. Archived Meret club performances and trophies preserved. Epolo was signed after the Super Cup; **starting goalkeeper for Super Cup is not confirmed**, nor is the Milan XI.
+- **WEBSITE:** New lead match report and separate goalkeeper-transition feature and league preview published in `stories-napoli-season-opening-203031.js`. `site-visible-season-203031-kickoff.js` adds **2030–31 stats tab** with verified Super Cup goals/assist, updates current site season metadata, archived selector, news front page, 25 August–29 September fixtures, and latest result; retains historic season totals. 29 September remains deliberately unlabelled pending identification. Existing archive and academy remain unchanged.
+
 ## SUMMER 2030 — POST-SUPER CUP: MERET SALE AND EPOLO SIGNING (MANAGER-CONFIRMED)
 
 - **ALEX MERET TRANSFER COMPLETE:** Manager confirms Napoli sold **Alex Meret** for **$44.9 million** following the earlier **Bournemouth** offer for the then **33-year-old, 86 OVR goalkeeper**. The previous offer was $45 million; **the completed fee is $44.9 million, not $45m**. Bournemouth is the destination indicated by the preceding offer; no separate new club was supplied when the completed sale was announced. Keep Meret's 2029–30 treble contributions, club historical totals and earlier trophy narratives intact; do not include him in the current Napoli active roster.
