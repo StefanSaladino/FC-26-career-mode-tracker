@@ -83,3 +83,30 @@ const next=$('nextTwo');if(next)next.innerHTML=D.upcoming.filter(x=>x[1]==='Seri
 const strip=$('upcomingStrip');if(strip)strip.innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+esc(x[1])+'</span><strong>'+esc(x[0])+'</strong><small>'+esc(x[2])+'</small></div>').join('');
 const status=document.querySelector('.header-status span:last-child');if(status)status.textContent='TORONTO FC WANT SALADINO · DORTMUND 1–1 NAPOLI';
 })();
+
+/* Public manager Toronto response display */
+(()=>{'use strict';
+const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={}),$=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const lead=D.articles?.find(x=>x.id==='saladino-stays-napoli-toronto-answer-oct2030');
+if(!lead){console.error('Saladino statement article missing');return}
+const old=D.articles.find(x=>x.id==='toronto-fc-saladino-homecoming-interest-oct2030');
+if(old&&!old.body[0]?.startsWith('UPDATE —')){
+ old.body.unshift('UPDATE — Saladino has since addressed the Toronto FC approach publicly. He thanks the club but says he is staying at Napoli for the time being, citing his responsibility to the dynasty project. The complete statement is covered in the latest article.');
+ old.dek='UPDATE: Saladino has since confirmed he is staying at Napoli for the time being. This is the earlier report on Toronto FC interest.';
+}
+D.articles=[lead,...D.articles.filter(x=>x.id!==lead.id)];
+D.managerFuture={...(D.managerFuture||{}),asOf:'Early October 2030',status:'Staying at Napoli for the time being; Toronto FC thanked',decision:'Manager publicly chooses to remain at Napoli',permanentDepartureDenied:false};
+D.hero={...(D.hero||{}),articleId:lead.id,strap:'MANAGER STATEMENT · SALADINO STAYS AT NAPOLI'};
+const hero=$('heroStory');
+if(hero)hero.innerHTML='<div class="hero-media"><img src="'+esc(lead.image)+'" alt="Stefan Saladino, Napoli manager, archive portrait" loading="eager"></div><div class="hero-copy" data-article="'+esc(lead.id)+'" tabindex="0" role="button"><div class="hero-strap">MANAGER STATEMENT · SALADINO STAYS AT NAPOLI</div><div class="story-meta"><span>'+esc(lead.category)+'</span><span>'+esc(lead.date)+'</span></div><h2>'+esc(lead.headline)+'</h2><p>'+esc(lead.dek)+'</p><span class="hero-read">Read the full manager statement →</span></div>';
+const top=$('topStories');if(top)top.innerHTML=D.articles.slice(1,5).map((a,i)=>'<button type="button" class="top-story" data-article="'+esc(a.id)+'"><span>'+String(i+1).padStart(2,'0')+'</span><div><small>'+esc(a.category)+'</small><strong>'+esc(a.headline)+'</strong></div></button>').join('');
+const card=(a,v)=>'<article class="article-card '+esc(v)+'" data-article="'+esc(a.id)+'" tabindex="0" role="button"><div class="article-card-media">'+(a.image?'<img src="'+esc(a.image)+'" alt="'+esc(a.headline)+'" loading="lazy">':'<div class="article-no-image"><span>'+esc(a.category)+'</span></div>')+'</div><div class="article-card-copy"><div class="story-meta"><span>'+esc(a.category)+'</span><span>'+esc(a.date)+'</span></div><h3>'+esc(a.headline)+'</h3><p>'+esc(a.dek)+'</p><span class="read-link">Read story →</span></div></article>';
+const news=$('latestNews');if(news)news.innerHTML=D.articles.slice(1,7).map((a,i)=>card(a,i===0?'wide':'compact')).join('');
+const grid=$('newsGrid');if(grid)grid.innerHTML=D.articles.map((a,i)=>card(a,i===0?'lead-grid':'standard')).join('');
+const filters=$('articleFilters');if(filters)filters.innerHTML=['All',...new Set(D.articles.map(a=>a.category))].map((cat,i)=>'<button type="button" class="filter-pill '+(i===0?'active':'')+'" data-category="'+esc(cat)+'">'+esc(cat)+'</button>').join('');
+D.ticker=['SALADINO STAYS AT NAPOLI · TORONTO FC THANKED','MANAGER: NAPOLI IS MY RESPONSIBILITY AND MY OTHER HOME','NAPOLI DYNASTY WORK NOT FINISHED · TORONTO FC HOME RETURN DECLINED FOR NOW','NAPOLI UNBEATEN IN EIGHT COMPETITIVE MATCHES','DORTMUND 1–1 NAPOLI · INTER 0–1 AT NAPOLI','SERIE A · 13 POINTS FROM FIVE'];
+const ticker=$('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(x=>'<span>'+esc(x)+'</span>').join('');
+D.whispers=[['SALADINO STAYS','The Napoli manager says he is remaining in Naples for the time being despite the appeal of coaching hometown Toronto FC.'],['TWO HOMES','Saladino calls Napoli his responsibility and other home.'],['TORONTO THANKED','The manager thanks Toronto FC for their interest, describing the club as promising.'],['NAPOLI STILL UNBEATEN','Six wins and two draws through eight competitive club matches.'],['NEXT TRIP','Napoli are away in Serie A on 5 October, opponent not identified on the calendar.']];
+const whispers=$('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+esc(x[0])+'</span><p>'+esc(x[1])+'</p></div>').join('');
+const status=document.querySelector('.header-status span:last-child');if(status)status.textContent='SALADINO STAYS · NAPOLI DYNASTY CONTINUES';
+})();
