@@ -78,7 +78,7 @@
       "note": "2030–31 opening edition: detailed career transition feature about Alex Meret and new goalkeeper Epolo after Napoli Super Cup, plus substantial Super Cup match report and title-defence season preview. No manager press answer fabricated."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–1 AC Milan · Serie A MD1 · 25 August 2030. Michaud 42′ Milan; Pio Esposito 53′ Napoli (Nico Paz assist). Epolo six saves, one conceded. Serie A 1 played, 0W1D0L, 1 point. Next Como away Sep 1.",
+  "latest_confirmed_match": "Como 0–4 Napoli · Serie A · 1 September 2030. Beier 10′, 32′, 48′, 71′ (four goals); Pio confirmed assist 32′, Warren Zaïre-Emery assist 48′. Moore blocked shot led to first rebound, but assist uncertain; Beier hit post 85′. Serie A Napoli 2 played 1W1D, 4pts GF5 GA1. Next Napoli Fiorentina home Sep15; Italy Ukraine Sep6 and Hungary Sep10.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -93,6 +93,33 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Committed; GitHub verification pending",
+    "phase": "Como 0–4 Napoli: Beier four-goal away match; Arsenal 485m rejection retrospective",
+    "match": "Como 0–4 Napoli · Serie A MD2 · 1 September 2030",
+    "stories": [
+      "napoli-como-zero-four-beier-four-goals-sep1-2030",
+      "napoli-beier-485m-rejection-four-goal-como-analysis-sep2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Match correspondent",
+      "Matteo Bellandi · Football analysis"
+    ],
+    "story_files": [
+      "stories-napoli-como-sep2030.js"
+    ],
+    "homepage_override": "site-visible-napoli-como-sep2030.js",
+    "current_stats": "Beier 5 competitive goals (4 Como), Pio 2 goals + 1 confirmed assist (32′ Como), Warren 1A (48′ Como), Olise 1A, Paz 1A. Serie A 2 played, 4 pts, GF5 GA1; keeper Como appearance unverified.",
+    "pending": "FT user queried Pio assist on 10′ opener, originally described as rebound after Moore blocked shot. Credit remains unconfirmed pending user correction. Fourth goal assist unknown.",
+    "comments": {
+      "articles": 2,
+      "topLevel": 22,
+      "nestedReplies": 26
+    },
+    "release_version": "20301101-como-four-beier-v1",
+    "nextFixture": "Italy Ukraine away Sep 6, Hungary home Sep 10; Napoli Fiorentina home Sep 15",
+    "noFabrications": "No invented assists for first or fourth Como goal; no fabricated managerial press, bench names, keeper appearance or saves."
+  },
+  "previous_newsroom_package": {
     "status": "Committed; awaiting post-commit CI and deployment verification",
     "phase": "2030–31 Serie A MD1 draw with Milan: Epolo's six saves, Pio from Paz",
     "match": "Napoli 1–1 AC Milan · 25 August 2030",
@@ -117,34 +144,6 @@
       "replies": 23
     },
     "editorialPolicy": "No manager quotes invented, match chronology and goalkeeper count manager-confirmed; deeper saves and lineup withheld."
-  },
-  "previous_newsroom_package": {
-    "status": "Committed 2030–31 kickoff edition; checks and deployment to be verified",
-    "phase": "2030–31 starts with Napoli UEFA Super Cup win and 25 August Milan opener",
-    "match": "Napoli 2–1 Tottenham · UEFA Super Cup · 14 August 2030",
-    "stories": [
-      "napoli-spurs-uefa-super-cup-comeback-aug2030",
-      "napoli-meret-epolo-goalkeeper-succession-aug2030",
-      "napoli-2030-31-season-opening-calendar-aug2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Napoli Football Review",
-      "Elena De Luca · Squad and transfers",
-      "Marco Bellini · Tactical desk"
-    ],
-    "story_files": [
-      "stories-napoli-season-opening-203031.js"
-    ],
-    "homepage_override": "site-visible-season-203031-kickoff.js",
-    "season_stats": "New 2030–31 competitive: Beier 1G, Pio 1G, Olise 1A. Atlético friendly excluded; past seasons preserved.",
-    "calendar": "Milan Aug25; Como Sep1; Ukraine Sep6; Hungary Sep10; Fiorentina Sep15; Bologna Sep21; Sep29 home opponent unconfirmed.",
-    "release_version": "20301031-season203031-kickoff-v1",
-    "commentary": {
-      "stories": 3,
-      "top_level_threads": 31,
-      "replies": 33
-    },
-    "no_fabrications": "No unprovided Super Cup events or ratings, international competition type, Sept29 opponent, transfer prices or manager quotes."
   },
   "release_history": [
     {
