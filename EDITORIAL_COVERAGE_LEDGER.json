@@ -83,7 +83,7 @@
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Napoli 4–1 Fiorentina · 15 September 2030 · Serie A MD3. Beier 9′ (Raspadori); Piccoli 61′ Fiorentina; Moore 66′ (Pio); Pio 77′ and 88′ (both Moore). Next Liverpool UEFA Champions League (date and venue unconfirmed).",
+  "latest_confirmed_match": "Napoli 3–0 Liverpool · UEFA Champions League · 17 September 2030 · FT. Pio 11′ (Neves), Pio 33′ (Beier), Beier 43′ (Pio). Clean sheet. HT 3 Napoli shots/3 goals, Liverpool 2 shots/1 on target.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +98,43 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source package committed, waiting for compiled public snapshot and GitHub Pages deployment",
+    "phase": "17 September 2030 Napoli 3–0 Liverpool: Pio brace; Liverpool held scoreless for third straight meeting",
+    "match": "Napoli 3–0 Liverpool · UEFA Champions League · 17 September 2030",
+    "stories": [
+      "pio-liverpool-three-nil-ucl-sep17-2030",
+      "liverpool-seven-without-reply-napoli-sep2030",
+      "neves-through-ball-pio-beier-liverpool-sep2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Napoli player desk"
+    ],
+    "source": [
+      "stories-napoli-liverpool-sep17-2030.js",
+      "site-visible-napoli-liverpool-sep17-2030.js"
+    ],
+    "coverage": "Three substantial and distinct feature packages: match action, Liverpool history and the midfield-to-forward chain. Original recurring-character replies in supporter threads. September 2030 feature quota already satisfied; this adds a further Neves spotlight.",
+    "comments": {
+      "topLevel": 38,
+      "totalIncludingReplies": 111
+    },
+    "paragraphs": 39,
+    "knownFacts": "Pio 11′ from João Neves (shot touched by Mamardashvili before looping over), Pio 33′ from Beier, Beier 43′ from Pio through pass. HT 3–0 FT 3–0. First-half Napoli three shots/three goals, Liverpool two shots/one on target. Team clean sheet. Pio 6G3A, Beier 7G1A competitive club season totals.",
+    "historicalContext": "Napoli 2–0 Liverpool at Anfield 13 March and 2–0 Liverpool in Naples 19 March 2030: 7–0 in 3 Napoli wins with no Liverpool goals, Pio four goals in those three.",
+    "unknowns": "Current venue, Napoli goalkeeper, full-time shot totals, Liverpool individual player details other than Mamardashvili, UCL competition stage, league standings, substitutions and unreported in-game events",
+    "nextFixture": "Bologna away · Serie A · 21 September 2030 (previously scheduled, now after completed Sep 17 Liverpool fixture)",
+    "managerPress": "No interview conducted, no fabricated manager or player quotes; narrative written in eyewitness sports journalism voice",
+    "releaseVersion": "20301101-liverpool-ucl-ft-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "manualMobileVisualQA": "not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — compiled snapshot and GitHub Pages deployment succeeded",
     "phase": "Napoli 4–1 Fiorentina, Pio double and Moore hat-trick of goal contributions; Liverpool UCL next",
     "match": "Napoli 4–1 Fiorentina · 15 September 2030 · Serie A matchday 3",
@@ -140,47 +177,6 @@
       "topLevel": 38,
       "totalWithReplies": 103,
       "source": "original story-specific reader debate"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published: snapshot compilation and GitHub Pages deployment successful",
-    "phase": "Italy EURO qualifying Sep 2030: Ukraine 0–0 and Hungary 2–1; Kean personality feature",
-    "match": "Italy 2–1 Hungary · 10 September 2030 · EURO qualifying",
-    "stories": [
-      "italy-hungary-two-one-pio-kean-euro-qualifiers-sep2030",
-      "ukraine-italy-zero-zero-euro-qualifier-sep2030",
-      "moise-kean-worldcup-record-to-euro-qualifiers-interview-sep2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Italy player features"
-    ],
-    "story_files": [
-      "stories-italy-euro-qualifiers-sep2030.js"
-    ],
-    "homepage_override": "site-visible-italy-euro-qualifiers-sep2030.js",
-    "comments": {
-      "articles": 3,
-      "topLevel": 33,
-      "kind": "Original, story-specific conversations with nested replies"
-    },
-    "scope": "Italy EURO qualifying data separate from Napoli season/career goals and 2030 World Cup tournament totals",
-    "knownUnknowns": "Goal minutes, assist providers, Hungary scorer, goalkeeper/lineups, group table and subsequent Italy fixtures not confirmed",
-    "nextFixture": "Napoli Fiorentina home Sep 15, Bologna away Sep 21",
-    "release_version": "20301101-italy-euro-qualifying-v1",
-    "managerPress": "No manager interview attempted or quotes invented",
-    "compiled_commit": "eff7a782aa4360d17dfc9b7724986f6d851b6132",
-    "validation": {
-      "articles": 621,
-      "results": 116,
-      "seasons": 4,
-      "legacyErrors": [],
-      "editorialGate": "success",
-      "snapshotBuild": "success",
-      "pagesDeployment": "success",
-      "productionBrowserChecks": "compiled builder passing",
-      "mobileManualVisualQA": "not independently inspected"
     }
   },
   "release_history": [
