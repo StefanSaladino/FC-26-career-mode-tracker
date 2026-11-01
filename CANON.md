@@ -1,3 +1,9 @@
+## 2030–31 — NAPOLI VS INTER, 28 SEPTEMBER 2030 (LIVE AT 58′, NOT FULL TIME)
+
+- **LIVE MATCH:** Napoli home against Inter on **28 September 2030**, Serie A matchday 5. At **58′**, **Francesco Pio Esposito scores** from a **Maximilian Beier official assist**. **Mikey Moore plays Beier, Beier passes to Pio, Pio scores.** Moore is a confirmed build-up participant, **NOT an official assister** on this goal.
+- **IMPORTANT:** User has reported this goal only, not an overall current score or any earlier events. Do **not** assume this is the match's first goal or present a 1–0 score without further confirmation. Match is **ongoing**; no full-time result, points, final shots, substitutions, or other goals can be claimed yet.
+- **PROVISIONAL CLUB SEASON TOTALS DURING THIS LIVE MATCH:** Through Bologna, confirmed completed-match totals were **Pio 8 goals, 3 assists**, **Beier 7 goals, 2 assists**, **Moore 1 goal, 2 assists**. The **58′ Inter goal** provisionally brings Pio to **9 goals, 3 assists** and Beier to **7 goals, 3 assists** across 2030–31 Napoli club competitive matches. Moore gets no assist for the move. Do not write this unfinished match into published finished-result stats or release a post-match story without manager authorisation.
+
 ## 2030–31 — UPDATED SEPTEMBER/OCTOBER SCHEDULE FROM MANAGER'S TWO CALENDAR SCREENSHOTS (AFTER BOLOGNA, 21 SEPTEMBER 2030)
 
 - **IMMEDIATE NEXT MATCH: NAPOLI VS INTER, 28 SEPTEMBER 2030, HOME, SERIE A.** This replaces the earlier provisional 29 September home fixture with unidentified opponent. Manager expressly states **"Inter is next."** No score, kickoff, table position or winner yet.
