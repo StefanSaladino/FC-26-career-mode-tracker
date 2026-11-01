@@ -49,6 +49,7 @@ try{
   document.getElementById('heroStory')?.removeAttribute('aria-hidden');
   return {hero,current,archive,html:'<!doctype html>\n'+document.documentElement.outerHTML,count:{articles:data.articles.length,results:data.results.length,seasons:Object.keys(data.statsBySeason||{}).length}};
  });
+ if(legacyErrors.length)throw Error('Legacy script execution failures: '+legacyErrors.join('; '));
  if(result.hero!=='napoli-como-zero-four-beier-four-goals-sep1-2030')throw Error('Wrong lead: '+result.hero);
  if(result.count.articles<40||result.count.results<10)throw Error('Incomplete archive: '+JSON.stringify(result.count));
  await fs.writeFile('snapshot-data.js','window.NAPOLI_DATA='+JSON.stringify(result.current)+';\nwindow.NAPOLI_SNAPSHOT={archiveUrl:"news-archive.json?v='+revision+'",totalArticles:'+result.count.articles+',version:"'+revision+'"};\n');

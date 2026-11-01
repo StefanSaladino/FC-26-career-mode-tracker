@@ -9,7 +9,8 @@
     italy:'Marco Bellandi · International Desk',
     features:'Giulia Romano · Features Desk'
   };
-  // Preserve every existing credited author, including historical media personalities.\n  // Only repair missing/blank credits and Luca Ferraro's managerial misattribution.\n  const valid=v=>typeof v==='string'&&v.trim().length>0&&!/Luca Ferraro/i.test(v);
+  // Preserve credited authors. Correct only missing credits and invalid public bylines.
+  const valid=v=>typeof v==='string'&&v.trim().length>0&&!/Luca Ferraro/i.test(v);
   const pick=a=>{
     const text=[a.category,a.label,a.headline,a.dek].filter(Boolean).join(' ').toLowerCase();
     if(/italy|italia|azzurri|national|qualif|friendly|world cup|euro 20/.test(text))return desk.italy;
