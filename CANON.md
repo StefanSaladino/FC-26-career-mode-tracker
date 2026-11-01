@@ -1,3 +1,14 @@
+## 2030–31 — SALADINO ADDRESSES TORONTO FC INTEREST: STAYING AT NAPOLI (PUBLIC MANAGER STATEMENT)
+
+- **MANAGER'S DIRECT PUBLIC RESPONSE:** After Anthony Ricci asked whether the Toronto FC homecoming genuinely appealed or whether he saw his future in Naples, manager Stefan Saladino explicitly addressed the speculation. He appreciates Toronto FC, calls the opportunity extraordinary and the club promising, but confirms he is **staying at Napoli for the time being** because he is **not finished with his dynasty project**. Do not imply he signed terms, resigned, has permanently rejected any future homecoming, or gave any further interview. This supersedes the prior statement that no answer had been given.
+- **EXACT MANAGER WORDS, PRESERVE VERBATIM FOR PRESS COVERAGE:**
+
+> Toronto FC offers an incredible opportunity. A promising young club, an emerging league. And of course, the opportunity to coach the team from my hometown.
+>
+> But I’m not done in Napoli yet. I can’t announce my ambitions of a dynasty and then abscond from my role. Napoli is my responsibility and my other home. I thank Toronto fc for their interest and wish them nothing but the best. But for the time being, I’m remaining where I am.
+
+- **EDITORIAL PRINCIPLE:** He acknowledges Toronto as his hometown and Napoli as his *other home*. He explicitly thanks Toronto FC and wishes them well. Use this answer verbatim in any public coverage, not a paraphrase presented as a direct quote. No date beyond early October 2030 established. Napoli/Italy results, player and competition statistics are unchanged. Earlier speculation remains historically valid but must link to his later public decision.
+
 ## 2030–31 — TORONTO FC PURSUIT OF NAPOLI/ITALY MANAGER, EARLY OCTOBER 2030; PRESS EDITION AUTHORIZED
 
 - **NEW MANAGER-REPORTED NEWS:** Toronto FC are **trying to lure manager Stefan Saladino back home** in Toronto. This is club interest/pursuit only. The manager **did not say** he accepted, rejected, initiated, negotiated or received a formal offer, gave a quote to a journalist, resigned, or made any decision. Do not invent bid size, salary, contract, talks, agents, Toronto FC incumbent manager, managerial vacancy, Napoli board response or travel.
