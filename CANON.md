@@ -1,12 +1,14 @@
-## 2030–31 — CHAMPIONS LEAGUE: NAPOLI VS CELTIC — 22 OCTOBER 2030 (LIVE 36′)
+## 2030–31 — CHAMPIONS LEAGUE: NAPOLI 3–1 CELTIC — 22 OCTOBER 2030, MANAGER-CONFIRMED FULL TIME
 
-- **LIVE SCORE:** Napoli **2–1 Celtic** at **36′**, home UEFA Champions League fixture on 22 October 2030. Still in progress; no final score or post-match statements reported.
-- **5′ — NAPOLI 1–0 CELTIC:** **Francesco Pio Esposito** scores, officially **assisted by Maximilian Beier**.
-- **24′ — NAPOLI 2–0 CELTIC:** **Francesco Pio Esposito** scores again, officially **assisted by Maximilian Beier**. Two Pio goals and two Beier assists in the opening 24 minutes.
-- **36′ — NAPOLI 2–1 CELTIC:** **Kenny** scores for Celtic. Only the surname and minute are manager-confirmed. No first name, assist, build-up or other play details established.
-- **PIO'S 2030–31 UEFA CHAMPIONS LEAGUE SO FAR, INCLUDING LIVE CELTIC BRACE:** Liverpool **2 goals, 1 assist** (11′ and 33′ goals, 43′ assist to Beier), Dortmund **1 goal** (64′, Beier assist), Celtic **2 goals** (5′ and 24′, both Beier assists). **5 UCL goals and 1 UCL assist** in three fixtures including this unfinished match. Beier has officially assisted **four of Pio's five UCL goals**: Liverpool 33′, Dortmund 64′, Celtic 5′ and Celtic 24′.
-- **PROVISIONAL NAPOLI CLUB SEASON CONTRIBUTIONS IN LIVE PLAY:** Pio **13 goals and 3 assists** (11G3A before Celtic, now two goals). Beier **8 goals and 8 assists** (8G6A before Celtic, now two assists). Do not count Celtic as a completed competitive game or change completed-match league and club records until final whistle. Italy international figures remain separate.
-- **EDITORIAL:** Manager jokes Pio seems to hate everyone on the other side of the pitch; this is banter, **not a manager press quote or article-ready speech**. Only log ongoing events until authorised coverage. No invented tactics, goal descriptions, substitutions or additional on-pitch details.
+- **FULL TIME:** Napoli **3–1 Celtic**, home UEFA Champions League on **22 October 2030**. Napoli lead 2–0 at 24′, Celtic pull one back at 36′ and Napoli secure the win with an 77′ goal. Match result and scorer/assist sequence are manager-confirmed; no goalkeeper, formation, additional shots, bookings, assists to Celtic, substitutes or other play details established.
+- **5′ — NAPOLI 1–0 CELTIC:** **Francesco Pio Esposito**, official assist **Maximilian Beier**.
+- **24′ — NAPOLI 2–0 CELTIC:** **Francesco Pio Esposito**, official assist **Maximilian Beier**. Pio brace in 24 minutes.
+- **36′ — NAPOLI 2–1 CELTIC:** **Kenny** scores for Celtic; ONLY surname and goal minute confirmed. Do not invent first name, play details or assist.
+- **77′ — NAPOLI 3–1 CELTIC:** **Mikey Moore** scores, official assist **Maximilian Beier**. Beier assisted ALL THREE Napoli goals (Pio 5′, Pio 24′, Moore 77′).
+- **UEFA CHAMPIONS LEAGUE 2030–31:** Through 3 completed games Napoli **2W1D0L, 7 points earned, 7 goals for, 2 goals against, GD+5**. Liverpool 3–0 home (17 Sept), Dortmund 1–1 away (1 Oct), Celtic 3–1 home (22 Oct). No group position established. Pio **5 UCL goals and 1 UCL assist** (Liverpool 2G1A, Dortmund 1G, Celtic 2G). Beier officially assisted FOUR of Pio's FIVE UCL goals, plus Moore against Celtic.
+- **NAPOLI CLUB 2030–31 THROUGH CELTIC:** Competitive fixtures **11 played, 9 wins, 2 draws, 0 defeats; 25 goals for, 6 conceded**. Pio Esposito **13 goals, 3 assists**; Maximilian Beier **8 goals, 9 assists**; Mikey Moore **2 goals, 2 assists**; Raspadori **1 goal, 1 assist**; Geertruida **1 goal**; Stach **1 assist**; Olise **2 assists**; Hasa, João Neves, Nico Paz and Zaïre-Emery each **1 assist**. Italia national team goals/assists remain separate. Serie A remains **7P6W1D0L 19 points GF16 GA3**.
+- **NEXT:** Napoli at Lecce **26 October**, Roma home **30 October**; Celtic match is completed. No invented subsequent fixtures.
+- **NEWSROOM AUTHORISATION:** Manager expressly says **"FT. 3-1 win. Let’s run the stories."** Permission for full UEFA Champions League Celtic post-match coverage, including meaningful separate match and player analysis features. No new manager quotes or invented match details. Public copy written from reporter perspective, no source/data caveats or meta descriptions. Continue sole `CANON.md`.
 
 ## 2030–31 — E. ROSSETTI DEVELOPMENT UPDATE: 79 OVR AT AGE 18
 
