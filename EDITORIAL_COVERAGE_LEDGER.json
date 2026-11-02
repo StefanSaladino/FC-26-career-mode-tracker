@@ -83,7 +83,7 @@
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Borussia Dortmund 1–1 Napoli · UEFA Champions League · 1 October 2030 · Pio 64′ equaliser from Beier. Previous Napoli 1–0 Inter Sep 28 · Pio 58′ from Beier; Epolo 4 saves and clean sheet.",
+  "latest_confirmed_match": "Atalanta 1–2 Napoli · Serie A MD6 · 5 October 2030 · Beier 8′ (Olise), Pio 34′ (Beier), Lopez 72′ for Atalanta.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +98,39 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Story source edition committed; quality gate and compiled public verification pending",
+    "phase": "Atalanta 1–2 Napoli, Beier goal and assist, Pio 11th club goal, Atalanta's 72nd-minute reply",
+    "match": "Atalanta (Bergamo) 1–2 Napoli · Serie A · 5 October 2030",
+    "stories": [
+      "atalanta-napoli-two-one-bergamo-oct5-2030",
+      "beier-pio-bergamo-shared-language-oct2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk"
+    ],
+    "source": [
+      "stories-atalanta-napoli-oct5-2030.js",
+      "site-visible-atalanta-napoli-oct5-2030.js"
+    ],
+    "knownFacts": "Beier 8′ Olise through-ball official assist, Pio 34′ Beier official assist, Lopez 72′ Atalanta goal, final 1–2; Serie A 6P5W1D16 points 14GF3GA; Napoli competitive 9P7W2D20GF5GA; Pio 11G3A Beier 8G5A Olise 2 assists.",
+    "unknowns": "Atalanta Lopez first name or assist, match lineup, keeper, possession, shots, xG, league rank.",
+    "nextFixture": "Italy Denmark away Oct 11, Norway home Oct 15; Napoli Verona home Oct 18 and Celtic home Oct 22.",
+    "coverage": "Full contextual reporter-written match story, separate Beier/Esposito dynamic analysis; substantial existing supporter character discussion. No manufactured quotes, statistics or unreported match incidents.",
+    "comments": {
+      "topLevel": 24,
+      "totalIncludingReplies": 76
+    },
+    "managerPress": "No manager press held for Atalanta; previous real Toronto FC manager statement remains in published archive.",
+    "releaseVersion": "20301101-atalanta-beier-pio-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "snapshotBrowser": "pending",
+      "pagesDeployment": "pending",
+      "manualVisualCropQA": "not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published: editorial quality gate, browser snapshot and GitHub Pages deployment succeeded",
     "phase": "Manager publicly confirms staying at Napoli for the time being and thanks Toronto FC",
     "stories": [
@@ -126,52 +159,6 @@
       "manualVisualQA": "not independently performed"
     },
     "compiledCommit": "abe5211840b0a2cf89a01d8af247c3d60ff3cfc9"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial quality gate, compiled snapshot/browser tests and Pages deployment succeeded",
-    "phase": "Toronto FC pursue Napoli manager Stefan Saladino; Napoli 1–0 Inter (Epolo 4 saves); Dortmund 1–1 Napoli (Pio 64′)",
-    "match": "Borussia Dortmund 1–1 Napoli · UEFA Champions League · 1 October 2030; Napoli 1–0 Inter · Serie A · 28 September 2030",
-    "stories": [
-      "toronto-fc-saladino-homecoming-interest-oct2030",
-      "napoli-inter-one-zero-epolo-pio-sep28-2030",
-      "dortmund-napoli-one-one-pio-rescue-oct2030"
-    ],
-    "bylines": [
-      "Anthony Ricci · Toronto football desk",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-toronto-inter-dortmund-oct2030.js",
-      "site-visible-toronto-inter-dortmund-oct2030.js"
-    ],
-    "managerInterest": "Toronto FC actively trying to lure Stefan Saladino home. No manager decision, contract terms, formal offer, board statement, departure, talks, or source of report beyond manager's in-world fact provided. Published prose avoids attributing the story to a private user conversation.",
-    "knownFacts": "Napoli 1–0 Inter home Sep 28, Pio 58′ (Beier); Mikey Moore initiated goal move; Epolo 4 saves + clean sheet. Borussia Dortmund 1–1 Napoli away Oct 1, Pio equaliser 64′ (Beier); Dortmund scorer and time unknown. Napoli 8 competitive games 6W2D GF18 GA4. Pio 10G3A, Beier 7G4A all competitive Napoli club competitions, Serie A 13 points from 5, Champions League four points from two.",
-    "unknowns": "Dortmund goalscorer and time, full lineups/shot totals, Inter other player contributions, formal nature or terms of Toronto approach, manager response, next Oct 5 Serie A opponent, standings rank",
-    "nextFixture": "5 October 2030 away Serie A, opponent unidentified in calendar; Italy Denmark Oct 11, Norway Oct 15; Celtic home UCL Oct 22.",
-    "coverage": "Three distinct substantial reports: Toronto/manager-future lead, Inter match report, Dortmund European match report. 39 meaningful story paragraphs, original familiar-and-Toronto supporter threads with sustained, distinct discussions. No invented manager quotes or insider negotiations.",
-    "comments": {
-      "topLevel": 40,
-      "totalIncludingReplies": 139
-    },
-    "managerPress": "Not conducted. Opportunity to answer a voluntary Toronto FC question remains open in chat; no answer invented.",
-    "releaseVersion": "20301101-toronto-inter-dortmund-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 632,
-      "results": 121,
-      "seasons": 4,
-      "legacyErrors": 0,
-      "publicRuntimeScripts": 5,
-      "firstPaintTorontoLead": "verified in generated index.html",
-      "playerTotals": "Pio 10G3A, Beier 7G4A in compiled season stats",
-      "lastResults": "Napoli 1-0 Inter, Dortmund 1-1 Napoli verified in compiled results",
-      "desktopMobileVisualQA": "not independently performed"
-    },
-    "compiledCommit": "d7ceb442e1b8f40b63713295f70b13a9e74d68d0"
   },
   "release_history": [
     {
