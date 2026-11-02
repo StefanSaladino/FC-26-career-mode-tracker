@@ -1,3 +1,10 @@
+## 2030–31 — E. ROSSETTI DEVELOPMENT UPDATE: 79 OVR AT AGE 18
+
+- **MANAGER-CONFIRMED NEW RATING:** Napoli-owned **E. Rossetti**, a **right midfielder (RM)**, is now **79 OVR aged 18** during October 2030. His previous confirmed summer 2030 squad snapshot listed **78 OVR at age 18**, so this is a **one-point overall improvement** since that report. Historical development: January 2029 prospect rating 61 OVR at 17 (estimated potential 89–94 then), March 2030 snapshot 76 OVR at 18; these are older snapshots, not current ratings or guaranteed future ability.
+- **ROSTER/LOAN STATUS:** Rossetti was **on loan** in the last confirmed summer 2030 squad screenshot; the destination had not been identified. No recall, loan termination, transfer, first-team appearance, national-team selection, or contract change has been reported with the 79 OVR update. Do not imply he is currently available for Napoli selection before confirming his loan status.
+- **DEVELOPMENT/ITALY PROSPECT:** Manager considers Rossetti capable of contributing to **both Napoli and Italy sooner than initially expected**, but this is an outlook, not a confirmed squad selection or playing-time promise. Previous summer snapshot identified **V. Mancini RM age 21 at 77 OVR, on loan**, and current established Napoli RM **Michael Olise 92 OVR** in that same screenshot; their past ratings should not be presented as newly verified contemporaneous measurements.
+- **EDITORIAL:** Important youth development for the sole continuous CANON.md. No article, manager press quote, or selection announcement has been authorised by this update.
+
 ## 2030–31 — SERIE A MD7: NAPOLI 2–0 HELLAS VERONA, 18 OCTOBER 2030 — MANAGER-CONFIRMED FULL TIME
 
 - **FULL TIME:** Napoli **2–0 Hellas Verona**, **18 October 2030**, home Serie A MD7. Manager specifically describes this as a **big performance by a rotated Napoli squad**; no starting eleven, personnel beyond scorers/assisters, shots, ball possession, goalkeeper or opponent incidents supplied. Napoli earn a team clean sheet; no individual goalkeeper clean sheet can be attributed without knowing who played.
