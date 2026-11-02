@@ -103,7 +103,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Editorial source committed; awaiting GitHub Actions compiled snapshot, browser gate and Pages confirmation",
+    "status": "Published — editorial gate, article image audit, compact snapshot browser tests and GitHub Pages deployment all succeeded",
     "phase": "Napoli 3–1 comeback at Lecce away, 26 October 2030; rotated XI, Stach 1G2A, Moore and Raspadori finish",
     "match": "Lecce 1–3 Napoli · Serie A · 26 October 2030",
     "stories": [
@@ -131,13 +131,21 @@
     "press": "Manager has not entered press. No fabricated manager Q&A or direct quotations.",
     "releaseVersion": "20301102-lecce-rotated-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "articleImageAudit": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "articleImageAudit": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 643,
+      "results": 127,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "lecce-napoli-one-three-rotated-comeback-oct26-2030",
+      "clubStats": "Pio 13G3A, Beier 8G9A, Moore 3G2A, Stach 1G3A, Raspadori 2G1A",
+      "serieA": "8P7W1D0L22pts GF19GA4",
       "manualImageVisualQA": "not independently performed"
-    }
+    },
+    "compiledCommit": "6afa403fbc62913db7e6e9fc37759695e50f7d14"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial quality gate, article image audit, compact snapshot/browser tests and GitHub Pages deployment succeeded",
