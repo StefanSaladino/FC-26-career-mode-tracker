@@ -1,3 +1,10 @@
+## ITALY AT DENMARK — 11 OCTOBER 2030 — LIVE, 53′
+- 18′ Pafundi scores for Italy, assisted by Pio Esposito. First Italy goal for Pafundi (not necessarily debut).
+- 45′ Harder equalises for Denmark.
+- 53′ Pio Esposito scores for Italy, assisted by Pafundi.
+- Current score: Denmark 1–2 Italy, NOT full time. Each Italian goalscorer has one goal and one assist in this live match. No other events given.
+- Keep national-team figures separate from Napoli 2030–31 club records. Do not publish a postmatch story before final whistle and authorization.
+
 ## 2030–31 — SERIE A MATCHDAY 6: ATALANTA 1–2 NAPOLI — 5 OCTOBER 2030, FULL TIME
 
 - **FINAL:** Atalanta (Bergamo) 1–2 Napoli, Serie A, 5 October 2030. Napoli away. Three reported goals only: **8′ Maximilian Beier (Michael Olise through-ball assist)**, **34′ Francesco Pio Esposito (Maximilian Beier assist)**, and **72′ Lopez (Atalanta)**. The first name of Lopez, the Atalanta assist, and further on-field detail are unknown.
