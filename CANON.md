@@ -1,11 +1,12 @@
-## 2030–31 — ITALY VS NORWAY, 15 OCTOBER 2030 (LIVE 74′, ITALY 2–0 NORWAY)
+## 2030–31 — ITALY INTERNATIONAL: ITALY 2–0 NORWAY, 15 OCTOBER 2030 — MANAGER-CONFIRMED FULL TIME
 
-- **MATCH UNDERWAY:** Italy host Norway on **15 October 2030** in the international fixture identified on the manager's calendar. **Italy 2–0 Norway at 74′**, following the manager's first reported breakthrough. No full-time score, additional play, formation, result or competition subtype has been supplied.
-- **71′ ITALY GOAL:** **Moise Kean** scores, officially **assisted by Manuel Locatelli**. Manager reports that Italy had made **five shots on goal before finally breaking through**. Treat this as the manager's characterization of attacking pressure, not an independently verified official shots-on-target match statistic; do not assume who took earlier shots.
-- **74′ ITALY GOAL:** **Mateo Retegui** scores **three minutes after Kean**, officially assisted by **Francesco Pio Esposito**. Italy 2–0 Norway. No other play details supplied.
-- **ITALY CONTRIBUTIONS IN THIS MATCH (PROVISIONAL):** Moise Kean **1 goal**, Manuel Locatelli **1 assist**, Mateo Retegui **1 goal**, Francesco Pio Esposito **1 assist**. No further confirmed goals or assists. These are Italy national-team contributions and remain separate from Napoli club stats. Across Denmark and Norway in this window, Pio has **1 goal and 3 assists** (Denmark 1G2A, Norway 1A), but the Norway match is still underway.
-- **MOST RECENT COMPLETED ITALY MATCH:** Denmark 1–3 Italy on 11 October, Pafundi 18′ (Pio assist), Harder 45′, Pio 53′ (Pafundi assist), Tonali 87′ (Pio assist). That match remains final and unchanged.
-- **EDITORIAL:** This Norway fixture is in progress. No full-time report or newsroom publication is authorised for Norway or Denmark yet. Maintain the single continuous CANON.md.
+- **FULL TIME:** **Italy 2–0 Norway**, 15 October 2030, Italy home. After five shots on goal for Italy as described by the manager, Kean finally found the breakthrough at 71′; Italy scored again at 74′ and kept a clean sheet. No other goals or match incidents reported. Exact international competition subtype, shot count definition, opponent scoring chances, goalkeeper and formation remain unspecified; do not invent them.
+- **71′ — ITALY 1–0 NORWAY:** **Moise Kean** scores, officially **assisted by Manuel Locatelli**. This is the first confirmed goal, after the manager described five prior shots on goal.
+- **74′ — ITALY 2–0 NORWAY:** **Mateo Retegui** scores, officially **assisted by Francesco Pio Esposito**. Three minutes after Kean's breakthrough.
+- **ITALY MATCH CONTRIBUTIONS:** Kean **1 goal**, Retegui **1 goal**, Locatelli **1 assist**, Pio Esposito **1 assist**. Italy record a team clean sheet; no goalkeeper credited without evidence.
+- **TWO-MATCH INTERNATIONAL WINDOW, 11–15 OCTOBER 2030:** Denmark **1–3 Italy** 11 October; Italy **2–0 Norway** 15 October: **2 wins, 5 goals for, 1 against**. Pio Esposito records **1 goal and 3 assists** combined (Denmark 1G2A, Norway 1A); Simone Pafundi, confirmed **24 years old**, records his **first Italy goal** against Denmark and one assist in that fixture. All international contributions are strictly separate from Napoli club records.
+- **NEXT CLUB FIXTURE:** Napoli at home vs Hellas Verona on **18 October 2030**, then Celtic at home in UEFA Champions League on **22 October**.
+- **PUBLICATION STATE:** Manager confirmed final whistle and praised the performance. **No Denmark or Norway newsroom stories authorised yet**; do not publish until the manager requests stories. Continue using only this `CANON.md` as the master timeline.
 
 ## 2030–31 — ITALY INTERNATIONAL: DENMARK 1–3 ITALY, 11 OCTOBER 2030 — MANAGER-CONFIRMED FULL TIME
 
