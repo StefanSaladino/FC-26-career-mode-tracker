@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Story source edition committed; quality gate and compiled public verification pending",
+    "status": "Published — editorial gate, snapshot/browser tests, GitHub Pages deployment succeeded",
     "phase": "Atalanta 1–2 Napoli, Beier goal and assist, Pio 11th club goal, Atalanta's 72nd-minute reply",
     "match": "Atalanta (Bergamo) 1–2 Napoli · Serie A · 5 October 2030",
     "stories": [
@@ -124,11 +124,19 @@
     "managerPress": "No manager press held for Atalanta; previous real Toronto FC manager statement remains in published archive.",
     "releaseVersion": "20301101-atalanta-beier-pio-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "snapshotBrowser": "pending",
-      "pagesDeployment": "pending",
-      "manualVisualCropQA": "not independently performed"
-    }
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "compiledArticles": 635,
+      "results": 122,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintAtalantaLead": "verified in compiled index.html",
+      "clubStats": "Pio 11G3A; Beier 8G5A; Olise 2A",
+      "manualDesktopMobileVisualQA": "not independently performed"
+    },
+    "compiledCommit": "92ef9338fb4ba1e10edb734c45abda1b0c676cbc"
   },
   "previous_newsroom_package": {
     "status": "Published: editorial quality gate, browser snapshot and GitHub Pages deployment succeeded",
@@ -289,10 +297,10 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "d7ceb442e1b8f40b63713295f70b13a9e74d68d0",
+    "current_published_commit": "92ef9338fb4ba1e10edb734c45abda1b0c676cbc",
     "validation": {
-      "articles": 632,
-      "results": 121,
+      "articles": 635,
+      "results": 122,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
