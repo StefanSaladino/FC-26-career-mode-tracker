@@ -103,7 +103,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Editorial sources prepared; compact snapshot validation and Pages deployment pending",
+    "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "Napoli 2–0 Roma 30 Oct 2030: Pio's 87′ breakthrough, Beier's 90+1′ counter, Moore three-match streak, Neves injury question",
     "match": "Napoli 2–0 Roma · Serie A · 30 October 2030",
     "stories": [
@@ -139,13 +139,23 @@
     "press": "No manager press conference or new manager quote issued. Private plans about Moore and Neves do not become public reporting.",
     "releaseVersion": "20301102-roma-late-pio-beier-moore-neves-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "articleImageAudit": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
-      "manualImageVisualQA": "gallery sources individually visually inspected; rendered crop QA not independently performed"
-    }
+      "editorialQualityGate": "success",
+      "approvedGalleryAssetVerification": "three approved local gallery sources verified by repository inspection and browser build; source images individually visually inspected",
+      "separateImageAuditWorkflow": "not invoked for this edition (no new asset files)",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 646,
+      "results": 128,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-roma-two-nil-pio-beier-late-oct30-2030",
+      "playerStats": "Pio 14G4A, Beier 9G9A, Moore 3G3A",
+      "serieA": "9P 8W1D0L 25pts GF21GA4",
+      "manualImageVisualQA": "approved source images individually inspected; rendered mobile/desktop crop not independently performed",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41542499513"
+    },
+    "compiledCommit": "048aa3a199942d7979c06156718deb9d7adfb986"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, article image audit, compact snapshot browser tests and GitHub Pages deployment all succeeded",
