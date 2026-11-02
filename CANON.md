@@ -1,10 +1,11 @@
-## 2030–31 — CHAMPIONS LEAGUE: NAPOLI VS CELTIC — 22 OCTOBER 2030 (LIVE 5′)
+## 2030–31 — CHAMPIONS LEAGUE: NAPOLI VS CELTIC — 22 OCTOBER 2030 (LIVE 24′)
 
-- **LIVE SCORE:** Napoli **1–0 Celtic**, home UEFA Champions League match of **22 October 2030**, after the first manager-reported goal at **5′**. No full-time result or other action confirmed.
-- **5′ — NAPOLI 1–0 CELTIC:** **Francesco Pio Esposito** scores, officially **assisted by Maximilian Beier**. Manager remarks that Pio is in extraordinary Champions League form; opinion, not an additional match event.
-- **UEFA CHAMPIONS LEAGUE PIO CONTRIBUTIONS TO DATE, INCLUDING LIVE CELTIC GOAL:** Liverpool 17 Sept **2G1A** (Pio scores at 11′ and 33′, assists Beier at 43′); Borussia Dortmund 1 Oct **1G** (64′ equaliser from Beier); Celtic live 22 Oct **1G** (5′ from Beier). Aggregate **4 Champions League goals and 1 Champions League assist** across three fixtures including the live one, with no extra unknown contributions inferred. Beier has assisted **three of Pio's four UCL goals** (Liverpool 33′, Dortmund 64′, Celtic 5′).
-- **PROVISIONAL NAPOLI CLUB FIGURES IF GOAL STANDS:** Pio increases from **11G3A to 12G3A** across competitive Napoli club fixtures; Beier increases from **8G6A to 8G7A**. These include live play and do **not** establish a final match result or change completed-match tables. Italy national-team totals remain entirely separate.
-- **PUBLICATION:** Update the sole continuous canon only while the match is live. No Celtic final, extra goal or newsroom postmatch coverage yet authorised.
+- **LIVE SCORE:** Napoli **2–0 Celtic** at **24′**, home UEFA Champions League fixture on 22 October 2030. Still in progress; no final score, additional events, or post-match statements reported.
+- **5′ — NAPOLI 1–0 CELTIC:** **Francesco Pio Esposito** scores, officially **assisted by Maximilian Beier**.
+- **24′ — NAPOLI 2–0 CELTIC:** **Francesco Pio Esposito** scores again, officially **assisted by Maximilian Beier**. Two Pio goals and two Beier assists in the opening 24 minutes.
+- **PIO'S 2030–31 UEFA CHAMPIONS LEAGUE SO FAR, INCLUDING LIVE CELTIC BRACE:** Liverpool **2 goals, 1 assist** (11′ and 33′ goals, 43′ assist to Beier), Dortmund **1 goal** (64′, Beier assist), Celtic **2 goals** (5′ and 24′, both Beier assists). **5 UCL goals and 1 UCL assist** in three fixtures including this unfinished match. Beier has officially assisted **four of Pio's five UCL goals**: Liverpool 33′, Dortmund 64′, Celtic 5′ and Celtic 24′.
+- **PROVISIONAL NAPOLI CLUB SEASON CONTRIBUTIONS IN LIVE PLAY:** Pio **13 goals and 3 assists** (11G3A before Celtic, now two goals). Beier **8 goals and 8 assists** (8G6A before Celtic, now two assists). Do not count Celtic as a completed competitive game or change completed-match league and club records until final whistle. Italy international figures remain separate.
+- **EDITORIAL:** Manager jokes Pio seems to hate everyone on the other side of the pitch; this is banter, **not a manager press quote or article-ready speech**. Only log ongoing events until authorised coverage. No invented tactics, goal descriptions, substitutions or additional on-pitch details.
 
 ## 2030–31 — E. ROSSETTI DEVELOPMENT UPDATE: 79 OVR AT AGE 18
 
