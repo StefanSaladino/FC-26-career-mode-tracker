@@ -1,8 +1,9 @@
-## 2030–31 — CHAMPIONS LEAGUE: NAPOLI VS CELTIC — 22 OCTOBER 2030 (LIVE 24′)
+## 2030–31 — CHAMPIONS LEAGUE: NAPOLI VS CELTIC — 22 OCTOBER 2030 (LIVE 36′)
 
-- **LIVE SCORE:** Napoli **2–0 Celtic** at **24′**, home UEFA Champions League fixture on 22 October 2030. Still in progress; no final score, additional events, or post-match statements reported.
+- **LIVE SCORE:** Napoli **2–1 Celtic** at **36′**, home UEFA Champions League fixture on 22 October 2030. Still in progress; no final score or post-match statements reported.
 - **5′ — NAPOLI 1–0 CELTIC:** **Francesco Pio Esposito** scores, officially **assisted by Maximilian Beier**.
 - **24′ — NAPOLI 2–0 CELTIC:** **Francesco Pio Esposito** scores again, officially **assisted by Maximilian Beier**. Two Pio goals and two Beier assists in the opening 24 minutes.
+- **36′ — NAPOLI 2–1 CELTIC:** **Kenny** scores for Celtic. Only the surname and minute are manager-confirmed. No first name, assist, build-up or other play details established.
 - **PIO'S 2030–31 UEFA CHAMPIONS LEAGUE SO FAR, INCLUDING LIVE CELTIC BRACE:** Liverpool **2 goals, 1 assist** (11′ and 33′ goals, 43′ assist to Beier), Dortmund **1 goal** (64′, Beier assist), Celtic **2 goals** (5′ and 24′, both Beier assists). **5 UCL goals and 1 UCL assist** in three fixtures including this unfinished match. Beier has officially assisted **four of Pio's five UCL goals**: Liverpool 33′, Dortmund 64′, Celtic 5′ and Celtic 24′.
 - **PROVISIONAL NAPOLI CLUB SEASON CONTRIBUTIONS IN LIVE PLAY:** Pio **13 goals and 3 assists** (11G3A before Celtic, now two goals). Beier **8 goals and 8 assists** (8G6A before Celtic, now two assists). Do not count Celtic as a completed competitive game or change completed-match league and club records until final whistle. Italy international figures remain separate.
 - **EDITORIAL:** Manager jokes Pio seems to hate everyone on the other side of the pitch; this is banter, **not a manager press quote or article-ready speech**. Only log ongoing events until authorised coverage. No invented tactics, goal descriptions, substitutions or additional on-pitch details.
