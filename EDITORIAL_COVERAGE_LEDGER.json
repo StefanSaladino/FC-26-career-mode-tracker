@@ -83,7 +83,7 @@
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
     }
   ],
-  "latest_confirmed_match": "Atalanta 1–2 Napoli · Serie A MD6 · 5 October 2030 · Beier 8′ (Olise), Pio 34′ (Beier), Lopez 72′ for Atalanta.",
+  "latest_confirmed_match": "Napoli 2–0 Hellas Verona · Serie A MD7 · 18 October 2030 · Geertruida 22′ (Stach), Raspadori 45′ (Beier), rotated squad and team clean sheet. Italy Euro qualifiers: Denmark 1–3 Italy 11 Oct, Italy 2–0 Norway 15 Oct.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +98,51 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source edition committed; editorial quality gate, compact snapshot/browser tests and Pages deployment pending",
+    "phase": "October 2030 EURO qualifiers Denmark 1–3 Italy, Italy 2–0 Norway; Napoli 2–0 Verona rotated squad",
+    "matches": [
+      "Denmark 1–3 Italy · EURO qualifying · 11 October 2030",
+      "Italy 2–0 Norway · EURO qualifying · 15 October 2030",
+      "Napoli 2–0 Hellas Verona · Serie A · 18 October 2030"
+    ],
+    "stories": [
+      "napoli-verona-rotated-squad-two-zero-oct18-2030",
+      "italy-norway-kean-retegui-two-zero-oct15-2030",
+      "denmark-italy-three-one-pafundi-pio-tonali-oct11-2030",
+      "simone-pafundi-first-italy-goal-new-partnership-oct2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Lorenzo Ferri · Azzurri correspondent",
+      "Matteo Bellandi · Linea Calcio",
+      "Elena De Luca · Italy player desk"
+    ],
+    "source": [
+      "stories-italy-verona-part1-oct2030.js",
+      "stories-italy-verona-part2-oct2030.js",
+      "site-visible-italy-verona-oct2030.js"
+    ],
+    "confirmedFacts": "Verona: Geertruida 22′ (Stach), Raspadori 45′ (Beier), team clean sheet, rotated squad; Napoli Serie A 7P6W1D19pts GF16 GA3, club 10P8W2D GF22 GA5, Beier 8G6A, Raspadori 1G1A, Geertruida 1G, Stach 1A. Denmark: Pafundi 18′ (Pio) first Italy goal aged 24; Harder 45′; Pio 53′ (Pafundi); Tonali 87′ (Pio). Norway: Kean 71′ (Locatelli); Retegui 74′ (Pio); Italy 2-0 clean sheet. Four Euro qualifiers 3W1D 10pts, GF7 GA2, GD+5. October Italy Pio 1G3A, Pafundi 1G1A. Italy and Napoli stats never combined.",
+    "unknowns": "Verona starting lineup and goalkeeper, additional action, Denmark's Harder first name and assist, Norway shot details and goalkeeper, EURO qualifying group standings and qualification stage.",
+    "coverage": "Four separate contemporary football pieces, Verona match report focused on rotation, Denmark/Norway separate EURO qualifying reports, October Pafundi character-led feature. Distinct community threads; no invented interviews or match actions.",
+    "playerFeature": "October Pafundi feature: first Italy goal at age 24, interplay with Pio; no dialogue invented.",
+    "comments": {
+      "topLevel": 46,
+      "totalIncludingReplies": 145
+    },
+    "paragraphs": 49,
+    "nextFixture": "Napoli Celtic at home in Champions League, 22 October 2030; Lecce away 26 October; Roma home 30 October.",
+    "press": "No new manager interview or fictional manager quote issued.",
+    "releaseVersion": "20301101-euro-qualifiers-verona-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "manualImageVisualQA": "not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, snapshot/browser tests, GitHub Pages deployment succeeded",
     "phase": "Atalanta 1–2 Napoli, Beier goal and assist, Pio 11th club goal, Atalanta's 72nd-minute reply",
     "match": "Atalanta (Bergamo) 1–2 Napoli · Serie A · 5 October 2030",
@@ -137,36 +182,6 @@
       "manualDesktopMobileVisualQA": "not independently performed"
     },
     "compiledCommit": "92ef9338fb4ba1e10edb734c45abda1b0c676cbc"
-  },
-  "previous_newsroom_package": {
-    "status": "Published: editorial quality gate, browser snapshot and GitHub Pages deployment succeeded",
-    "phase": "Manager publicly confirms staying at Napoli for the time being and thanks Toronto FC",
-    "stories": [
-      "saladino-stays-napoli-toronto-answer-oct2030"
-    ],
-    "bylines": [
-      "Anthony Ricci · Toronto football desk"
-    ],
-    "source": [
-      "stories-toronto-inter-dortmund-oct2030.js",
-      "site-visible-toronto-inter-dortmund-oct2030.js"
-    ],
-    "managerPress": "Direct manager public statement preserved verbatim in CANON.md and published in the article, with no extra quotations invented.",
-    "decision": "Staying at Napoli for now; Toronto FC respected; ambition to finish Napoli dynasty.",
-    "nextFixture": "5 October away Serie A opponent unconfirmed",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "browserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 633,
-      "results": 121,
-      "seasons": 4,
-      "errors": 0,
-      "firstPaintLead": "saladino-stays-napoli-toronto-answer-oct2030",
-      "manualVisualQA": "not independently performed"
-    },
-    "compiledCommit": "abe5211840b0a2cf89a01d8af247c3d60ff3cfc9"
   },
   "release_history": [
     {
