@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-labelledby="title desc">
+<title id="title">Lecce 1–3 Napoli, Serie A, 26 October 2030</title><desc id="desc">Original editorial scoreboard illustration: Lozano 25, Moore 36, Stach 41, Raspadori 59. Stach one goal and two assists.</desc>
+<rect width="1200" height="720" fill="#0b1e31"/><rect width="16" height="720" fill="#72c9ef"/>
+<path d="M70 67H1130" stroke="#557e99" stroke-width="2"/>
+<text x="75" y="115" fill="#91d8f9" font-family="Arial,sans-serif" font-size="26" letter-spacing="4" font-weight="700">SERIE A  /  26 OCTOBER 2030</text>
+<text x="75" y="210" fill="#f8fbfd" font-family="Arial,sans-serif" font-size="49" font-weight="800">LECCE</text><text x="1124" y="210" text-anchor="end" fill="#f8fbfd" font-family="Arial,sans-serif" font-size="49" font-weight="800">NAPOLI</text>
+<rect x="73" y="247" width="1053" height="177" fill="#17364d"/>
+<text x="365" y="383" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="158" font-weight="800">1</text>
+<text x="600" y="383" text-anchor="middle" fill="#86bbd5" font-family="Arial,sans-serif" font-size="98">—</text>
+<text x="835" y="383" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="158" font-weight="800">3</text>
+<text x="76" y="493" fill="#c8d4de" font-family="Arial,sans-serif" font-size="29">LOZANO 25′</text>
+<text x="1123" y="493" text-anchor="end" fill="#e4f4fb" font-family="Arial,sans-serif" font-size="29" font-weight="700">MOORE 36′ · STACH 41′ · RASPADORI 59′</text>
+<path d="M74 531H1125" stroke="#547c94"/>
+<text x="75" y="588" fill="#85d4fa" font-family="Arial,sans-serif" font-size="34" font-weight="800">ANTON STACH</text>
+<text x="1124" y="588" text-anchor="end" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="800">1 GOAL  /  2 ASSISTS</text>
+<text x="76" y="677" fill="#9eaebe" font-family="Arial,sans-serif" font-size="21" letter-spacing="3">NAPOLI SEASON ROOM  /  EDITORIAL GRAPHIC</text><text x="1125" y="677" text-anchor="end" fill="#72c9ef" font-family="Arial,sans-serif" font-size="27" font-weight="800">N</text>
+</svg>

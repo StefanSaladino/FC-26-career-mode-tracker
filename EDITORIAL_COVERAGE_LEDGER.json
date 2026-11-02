@@ -81,9 +81,14 @@
       "month": "2030-09",
       "status": "covered",
       "note": "11 September 2030: Elena De Luca's fictional in-universe Moise Kean interview after his World Cup seven-goal record and the 2–1 Hungary EURO qualifying win; dramatized player dialogue, no fabricated manager press."
+    },
+    {
+      "month": "2030-10",
+      "status": "covered",
+      "note": "Simone Pafundi October Italy character feature after debut Azzurri goal versus Denmark; plus Anton Stach & Mikey Moore player-depth feature after 26 October Lecce comeback. No fabricated manager interview."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–1 Celtic · Champions League · 22 October 2030 · Pio 5′ (Beier), Pio 24′ (Beier), Celtic Kenny 36′, Moore 77′ (Beier). Full time. Three Beier assists.",
+  "latest_confirmed_match": "Lecce 1–3 Napoli · Serie A · 26 October 2030 · Lozano 25′ (after Jetten unforced giveaway), Moore 36′ (Stach), Stach 41′ (rebound on Moore shot; no official assist established), Raspadori 59′ (Stach). FT rotated Napoli comeback, Stach 1G2A.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -98,6 +103,43 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Editorial source committed; awaiting GitHub Actions compiled snapshot, browser gate and Pages confirmation",
+    "phase": "Napoli 3–1 comeback at Lecce away, 26 October 2030; rotated XI, Stach 1G2A, Moore and Raspadori finish",
+    "match": "Lecce 1–3 Napoli · Serie A · 26 October 2030",
+    "stories": [
+      "lecce-napoli-one-three-rotated-comeback-oct26-2030",
+      "stach-moore-raspadori-lecce-squad-depth-oct2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-lecce-napoli-oct26-2030.js",
+      "stories-stach-moore-lecce-oct2030.js",
+      "site-visible-lecce-napoli-oct26-2030.js"
+    ],
+    "knownFacts": "Lecce Lozano 25′ after Jetten giveaway; Napoli Moore 36′ assisted Stach, Stach 41′ rebound on Moore shot with official assist unknown, Raspadori 59′ assisted Stach. 3–1 FT. Stach 1G2A. Serie A 8P7W1D0L22pts GF19GA4. Club 12P10W2D GF28GA7. Moore 3G2A, Raspadori 2G1A, Stach 1G3A; Pio 13G3A, Beier 8G9A. Italy unchanged.",
+    "unknowns": "Official Moore assist on 41′ rebound, Lecce official assist, goalkeeper and complete lineups, formations, match shot totals, standings rank.",
+    "coverage": "Distinct original reporter-eye match report and player-depth feature, two original match-specific editorial SVGs, curated recurring supporter debate and nested replies. No new invented manager quote or match events.",
+    "comments": {
+      "topLevel": 23,
+      "totalIncludingReplies": 100
+    },
+    "paragraphs": 25,
+    "nextFixture": "Napoli vs Roma, 30 October 2030, home Serie A; Venezia 2 Nov, Betis 5 Nov, Torino 9 Nov.",
+    "press": "Manager has not entered press. No fabricated manager Q&A or direct quotations.",
+    "releaseVersion": "20301102-lecce-rotated-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "articleImageAudit": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "manualImageVisualQA": "not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial quality gate, article image audit, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "Napoli 3–1 Celtic UCL: Pio brace, Celtic Kenny reply, Moore seals it, Beier all three assists",
     "match": "Napoli 3–1 Celtic · UEFA Champions League · 22 October 2030",
@@ -142,58 +184,6 @@
     },
     "compiledCommit": "0390714e4aa8e864282758b34f433bab860b5570"
   },
-  "previous_newsroom_package": {
-    "status": "Published — quality gate, image audit, snapshot/browser and Pages passed",
-    "phase": "October 2030 EURO qualifiers Denmark 1–3 Italy, Italy 2–0 Norway; Napoli 2–0 Verona rotated squad",
-    "matches": [
-      "Denmark 1–3 Italy · EURO qualifying · 11 October 2030",
-      "Italy 2–0 Norway · EURO qualifying · 15 October 2030",
-      "Napoli 2–0 Hellas Verona · Serie A · 18 October 2030"
-    ],
-    "stories": [
-      "napoli-verona-rotated-squad-two-zero-oct18-2030",
-      "italy-norway-kean-retegui-two-zero-oct15-2030",
-      "denmark-italy-three-one-pafundi-pio-tonali-oct11-2030",
-      "simone-pafundi-first-italy-goal-new-partnership-oct2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Lorenzo Ferri · Azzurri correspondent",
-      "Matteo Bellandi · Linea Calcio",
-      "Elena De Luca · Italy player desk"
-    ],
-    "source": [
-      "stories-italy-verona-part1-oct2030.js",
-      "stories-italy-verona-part2-oct2030.js",
-      "site-visible-italy-verona-oct2030.js"
-    ],
-    "confirmedFacts": "Verona: Geertruida 22′ (Stach), Raspadori 45′ (Beier), team clean sheet, rotated squad; Napoli Serie A 7P6W1D19pts GF16 GA3, club 10P8W2D GF22 GA5, Beier 8G6A, Raspadori 1G1A, Geertruida 1G, Stach 1A. Denmark: Pafundi 18′ (Pio) first Italy goal aged 24; Harder 45′; Pio 53′ (Pafundi); Tonali 87′ (Pio). Norway: Kean 71′ (Locatelli); Retegui 74′ (Pio); Italy 2-0 clean sheet. Four Euro qualifiers 3W1D 10pts, GF7 GA2, GD+5. October Italy Pio 1G3A, Pafundi 1G1A. Italy and Napoli stats never combined.",
-    "unknowns": "Verona starting lineup and goalkeeper, additional action, Denmark's Harder first name and assist, Norway shot details and goalkeeper, EURO qualifying group standings and qualification stage.",
-    "coverage": "Four separate contemporary football pieces, Verona match report focused on rotation, Denmark/Norway separate EURO qualifying reports, October Pafundi character-led feature. Distinct community threads; no invented interviews or match actions.",
-    "playerFeature": "October Pafundi feature: first Italy goal at age 24, interplay with Pio; no dialogue invented.",
-    "comments": {
-      "topLevel": 46,
-      "totalIncludingReplies": 145
-    },
-    "paragraphs": 49,
-    "nextFixture": "Napoli Celtic at home in Champions League, 22 October 2030; Lecce away 26 October; Roma home 30 October.",
-    "press": "No new manager interview or fictional manager quote issued.",
-    "releaseVersion": "20301101-euro-qualifiers-verona-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "articleImageAudit": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 639,
-      "results": 125,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaint": "napoli-verona-rotated-squad-two-zero-oct18-2030",
-      "manualVisualQA": "not independently performed"
-    },
-    "compiledCommit": "3a1429f7d2aa1a47474b78ef4be2260d9520ae26"
-  },
   "release_history": [
     {
       "release_version": "20301030-england-france-semifinal-v3",
@@ -219,6 +209,15 @@
         "italy-denmark-third-place-worldcup-2030-preview"
       ],
       "archived_at": "World Cup 2030 concluded after Italy–Denmark bronze and France–Belgium final"
+    },
+    {
+      "release_version": "20301102-celtic-beier-pio-moore-v1",
+      "phase": "Napoli 3–1 Celtic UCL: Pio brace, Celtic Kenny reply, Moore seals it, Beier all three assists",
+      "story_ids": [
+        "napoli-celtic-three-one-beier-pio-moore-oct22-2030",
+        "beier-three-assists-pio-moore-celtic-oct2030"
+      ],
+      "archived_at": "Following publication of Lecce 1–3 Napoli, October 2030"
     }
   ],
   "world_cup_2030_final_summary": {
