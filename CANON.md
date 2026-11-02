@@ -1,8 +1,9 @@
-## 2030–31 — ITALY VS NORWAY, 15 OCTOBER 2030 (LIVE 71′, ITALY 1–0 NORWAY)
+## 2030–31 — ITALY VS NORWAY, 15 OCTOBER 2030 (LIVE 74′, ITALY 2–0 NORWAY)
 
-- **MATCH UNDERWAY:** Italy host Norway on **15 October 2030** in the international fixture identified on the manager's calendar. **Italy 1–0 Norway at 71′**, following the manager's first reported breakthrough. No full-time score, additional play, formation, result or competition subtype has been supplied.
+- **MATCH UNDERWAY:** Italy host Norway on **15 October 2030** in the international fixture identified on the manager's calendar. **Italy 2–0 Norway at 74′**, following the manager's first reported breakthrough. No full-time score, additional play, formation, result or competition subtype has been supplied.
 - **71′ ITALY GOAL:** **Moise Kean** scores, officially **assisted by Manuel Locatelli**. Manager reports that Italy had made **five shots on goal before finally breaking through**. Treat this as the manager's characterization of attacking pressure, not an independently verified official shots-on-target match statistic; do not assume who took earlier shots.
-- **ITALY CONTRIBUTIONS IN THIS MATCH (PROVISIONAL):** Moise Kean **1 goal**, Manuel Locatelli **1 assist**. No further confirmed goals or assists. International contributions stay entirely separate from Napoli club stats.
+- **74′ ITALY GOAL:** **Mateo Retegui** scores **three minutes after Kean**, officially assisted by **Francesco Pio Esposito**. Italy 2–0 Norway. No other play details supplied.
+- **ITALY CONTRIBUTIONS IN THIS MATCH (PROVISIONAL):** Moise Kean **1 goal**, Manuel Locatelli **1 assist**, Mateo Retegui **1 goal**, Francesco Pio Esposito **1 assist**. No further confirmed goals or assists. These are Italy national-team contributions and remain separate from Napoli club stats. Across Denmark and Norway in this window, Pio has **1 goal and 3 assists** (Denmark 1G2A, Norway 1A), but the Norway match is still underway.
 - **MOST RECENT COMPLETED ITALY MATCH:** Denmark 1–3 Italy on 11 October, Pafundi 18′ (Pio assist), Harder 45′, Pio 53′ (Pafundi assist), Tonali 87′ (Pio assist). That match remains final and unchanged.
 - **EDITORIAL:** This Norway fixture is in progress. No full-time report or newsroom publication is authorised for Norway or Denmark yet. Maintain the single continuous CANON.md.
 
