@@ -1,3 +1,11 @@
+## 2030–31 — ITALY VS NORWAY, 15 OCTOBER 2030 (LIVE 71′, ITALY 1–0 NORWAY)
+
+- **MATCH UNDERWAY:** Italy host Norway on **15 October 2030** in the international fixture identified on the manager's calendar. **Italy 1–0 Norway at 71′**, following the manager's first reported breakthrough. No full-time score, additional play, formation, result or competition subtype has been supplied.
+- **71′ ITALY GOAL:** **Moise Kean** scores, officially **assisted by Manuel Locatelli**. Manager reports that Italy had made **five shots on goal before finally breaking through**. Treat this as the manager's characterization of attacking pressure, not an independently verified official shots-on-target match statistic; do not assume who took earlier shots.
+- **ITALY CONTRIBUTIONS IN THIS MATCH (PROVISIONAL):** Moise Kean **1 goal**, Manuel Locatelli **1 assist**. No further confirmed goals or assists. International contributions stay entirely separate from Napoli club stats.
+- **MOST RECENT COMPLETED ITALY MATCH:** Denmark 1–3 Italy on 11 October, Pafundi 18′ (Pio assist), Harder 45′, Pio 53′ (Pafundi assist), Tonali 87′ (Pio assist). That match remains final and unchanged.
+- **EDITORIAL:** This Norway fixture is in progress. No full-time report or newsroom publication is authorised for Norway or Denmark yet. Maintain the single continuous CANON.md.
+
 ## 2030–31 — ITALY INTERNATIONAL: DENMARK 1–3 ITALY, 11 OCTOBER 2030 — MANAGER-CONFIRMED FULL TIME
 
 - **FULL TIME:** **Denmark 1–3 Italy**, 11 October 2030, Italy away. The manager confirmed full time after reporting all four goals. International match; exact competition subtype not yet confirmed, so do not invent a qualifying table or points.
