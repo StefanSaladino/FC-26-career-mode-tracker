@@ -1,3 +1,10 @@
+## 2030–31 — SERIE A: LECCE v NAPOLI, 26 OCTOBER 2030 — LIVE, 25′
+
+- **LIVE SCORE AT 25′:** **Lecce 1–0 Napoli**, 26 October 2030, Serie A, Napoli away. This is an in-progress score, NOT full time. No other confirmed goals or incidents yet.
+- **25′ — LECCE 1–0 NAPOLI:** **Lozano** scores for Lecce after an **unforced giveaway by Napoli's Jetten**. The manager explicitly describes this as a big mistake by Jetten leading to the goal. Do not invent a first name for Lozano, exact passing sequence, assist, goalkeeper, location, shot type, card, or any other action.
+- **COACHING / PRIVACY:** The assistant manager assesses the giveaway as avoidable and advises simplifying Jetten's next possessions and giving him safe passing outlets rather than immediately substituting solely on this incident. This is private touchline analysis, not a press statement or match fact.
+- **STATISTICAL AND EDITORIAL STATUS:** No final score, standings changes, club season totals, post-match stories, manager press statements, or public publication authorised. Prior completed club result remains Napoli 3–1 Celtic, 22 October, until this Lecce fixture is confirmed final.
+
 ## 2030–31 — CHAMPIONS LEAGUE: NAPOLI 3–1 CELTIC — 22 OCTOBER 2030, MANAGER-CONFIRMED FULL TIME
 
 - **FULL TIME:** Napoli **3–1 Celtic**, home UEFA Champions League on **22 October 2030**. Napoli lead 2–0 at 24′, Celtic pull one back at 36′ and Napoli secure the win with an 77′ goal. Match result and scorer/assist sequence are manager-confirmed; no goalkeeper, formation, additional shots, bookings, assists to Celtic, substitutes or other play details established.
