@@ -1,5 +1,6 @@
 ## ITALY AT DENMARK — 11 OCTOBER 2030 — LIVE, 53′
 - 18′ Pafundi scores for Italy, assisted by Pio Esposito. First Italy goal for Pafundi (not necessarily debut).
+- **AGE CONFIRMED BY MANAGER:** Simone Pafundi is **24 years old** during this October 2030 Italy fixture. This is a rising national-team creative player, not a teenage debutant. Manager believes Pafundi could be important for Italy long-term, especially alongside Pio Esposito; this is the manager's opinion, not a guaranteed projection.
 - 45′ Harder equalises for Denmark.
 - 53′ Pio Esposito scores for Italy, assisted by Pafundi.
 - Current score: Denmark 1–2 Italy, NOT full time. Each Italian goalscorer has one goal and one assist in this live match. No other events given.
