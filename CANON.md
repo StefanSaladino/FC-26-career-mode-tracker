@@ -1,9 +1,10 @@
-## 2030–31 — SERIE A: LECCE v NAPOLI, 26 OCTOBER 2030 — LIVE, 25′
+## 2030–31 — SERIE A: LECCE v NAPOLI, 26 OCTOBER 2030 — LIVE, 36′
 
-- **LIVE SCORE AT 25′:** **Lecce 1–0 Napoli**, 26 October 2030, Serie A, Napoli away. This is an in-progress score, NOT full time. No other confirmed goals or incidents yet.
+- **LIVE SCORE AT 36′:** **Lecce 1–1 Napoli**, 26 October 2030, Serie A, Napoli away. This is an in-progress score, NOT full time. Lecce led after 25′ before Moore's equaliser.
 - **25′ — LECCE 1–0 NAPOLI:** **Lozano** scores for Lecce after an **unforced giveaway by Napoli's Jetten**. The manager explicitly describes this as a big mistake by Jetten leading to the goal. Do not invent a first name for Lozano, exact passing sequence, assist, goalkeeper, location, shot type, card, or any other action.
+- **36′ — LECCE 1–1 NAPOLI:** **Mikey Moore** equalises for Napoli, **Anton Stach credited with the assist**. No goal technique, build-up or shot circumstances established. Moore previously scored at 77′ against Celtic on 22 October, so he has scored in consecutive confirmed Napoli competitive matches.
 - **COACHING / PRIVACY:** The assistant manager assesses the giveaway as avoidable and advises simplifying Jetten's next possessions and giving him safe passing outlets rather than immediately substituting solely on this incident. This is private touchline analysis, not a press statement or match fact.
-- **STATISTICAL AND EDITORIAL STATUS:** No final score, standings changes, club season totals, post-match stories, manager press statements, or public publication authorised. Prior completed club result remains Napoli 3–1 Celtic, 22 October, until this Lecce fixture is confirmed final.
+- **STATISTICAL AND EDITORIAL STATUS:** No final score, standings changes, published club season totals, post-match stories, manager press statements, or public publication authorised. Moore's live goal and Stach's live assist are recorded for reconciliation at full time. Prior completed club result remains Napoli 3–1 Celtic, 22 October, until this Lecce fixture is confirmed final.
 
 ## 2030–31 — CHAMPIONS LEAGUE: NAPOLI 3–1 CELTIC — 22 OCTOBER 2030, MANAGER-CONFIRMED FULL TIME
 
