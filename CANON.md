@@ -1,3 +1,10 @@
+## 2030–31 — ATALANTA (BERGAMO) VS NAPOLI, 5 OCTOBER 2030 (MATCH UNDERWAY)
+
+- **MANAGER'S LIVE UPDATE:** The next match is underway **against Atalanta / Bergamo**, resolving the previously unidentified away Serie A fixture on **5 October 2030**. Calendar established Napoli away on this date; the manager now identifies the opponent as Atalanta (also referred to as Bergamo in-game). Treat as **Atalanta home, Napoli away, Serie A**, in progress. Do not invent current minute, scoreline, goals, assists, lineup, venue name, or result before reported.
+- **PRE-MATCH CLUB RECORD REMAINS:** Napoli have completed **8 competitive matches** in 2030–31 (6 wins, 2 draws, 0 losses; 18 goals scored, 4 conceded); Pio Esposito **10G3A** and Maximilian Beier **7G4A** in completed club matches. **Serie A through five completed matches: 4W1D0L, 13 points, GF12 GA2.** Match in Bergamo is live and excluded until final whistle.
+- **NEXT AFTER THIS FIXTURE:** Italy away to Denmark on October 11, at home to Norway October 15; Napoli home to Hellas Verona October 18, Celtic UCL October 22, away to Lecce October 26 and home to Roma October 30, according to the earlier calendar.
+- **EDITORIAL STATE:** Last publicly released story is Saladino's statement reaffirming his intention to remain at Napoli; no Atalanta outcome or post-match news package authorised yet. Maintain one continuous `CANON.md`.
+
 ## 2030–31 — SALADINO ADDRESSES TORONTO FC INTEREST: STAYING AT NAPOLI (PUBLIC MANAGER STATEMENT)
 
 - **MANAGER'S DIRECT PUBLIC RESPONSE:** After Anthony Ricci asked whether the Toronto FC homecoming genuinely appealed or whether he saw his future in Naples, manager Stefan Saladino explicitly addressed the speculation. He appreciates Toronto FC, calls the opportunity extraordinary and the club promising, but confirms he is **staying at Napoli for the time being** because he is **not finished with his dynasty project**. Do not imply he signed terms, resigned, has permanently rejected any future homecoming, or gave any further interview. This supersedes the prior statement that no answer had been given.
