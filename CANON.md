@@ -1,3 +1,11 @@
+## 2030–31 — CHAMPIONS LEAGUE: NAPOLI VS CELTIC — 22 OCTOBER 2030 (LIVE 5′)
+
+- **LIVE SCORE:** Napoli **1–0 Celtic**, home UEFA Champions League match of **22 October 2030**, after the first manager-reported goal at **5′**. No full-time result or other action confirmed.
+- **5′ — NAPOLI 1–0 CELTIC:** **Francesco Pio Esposito** scores, officially **assisted by Maximilian Beier**. Manager remarks that Pio is in extraordinary Champions League form; opinion, not an additional match event.
+- **UEFA CHAMPIONS LEAGUE PIO CONTRIBUTIONS TO DATE, INCLUDING LIVE CELTIC GOAL:** Liverpool 17 Sept **2G1A** (Pio scores at 11′ and 33′, assists Beier at 43′); Borussia Dortmund 1 Oct **1G** (64′ equaliser from Beier); Celtic live 22 Oct **1G** (5′ from Beier). Aggregate **4 Champions League goals and 1 Champions League assist** across three fixtures including the live one, with no extra unknown contributions inferred. Beier has assisted **three of Pio's four UCL goals** (Liverpool 33′, Dortmund 64′, Celtic 5′).
+- **PROVISIONAL NAPOLI CLUB FIGURES IF GOAL STANDS:** Pio increases from **11G3A to 12G3A** across competitive Napoli club fixtures; Beier increases from **8G6A to 8G7A**. These include live play and do **not** establish a final match result or change completed-match tables. Italy national-team totals remain entirely separate.
+- **PUBLICATION:** Update the sole continuous canon only while the match is live. No Celtic final, extra goal or newsroom postmatch coverage yet authorised.
+
 ## 2030–31 — E. ROSSETTI DEVELOPMENT UPDATE: 79 OVR AT AGE 18
 
 - **MANAGER-CONFIRMED NEW RATING:** Napoli-owned **E. Rossetti**, a **right midfielder (RM)**, is now **79 OVR aged 18** during October 2030. His previous confirmed summer 2030 squad snapshot listed **78 OVR at age 18**, so this is a **one-point overall improvement** since that report. Historical development: January 2029 prospect rating 61 OVR at 17 (estimated potential 89–94 then), March 2030 snapshot 76 OVR at 18; these are older snapshots, not current ratings or guaranteed future ability.
