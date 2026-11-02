@@ -1,9 +1,10 @@
-## ITALY AT DENMARK — 11 OCTOBER 2030 — LIVE, 53′
+## ITALY AT DENMARK — 11 OCTOBER 2030 — LIVE, 87′
 - 18′ Pafundi scores for Italy, assisted by Pio Esposito. First Italy goal for Pafundi (not necessarily debut).
 - **AGE CONFIRMED BY MANAGER:** Simone Pafundi is **24 years old** during this October 2030 Italy fixture. This is a rising national-team creative player, not a teenage debutant. Manager believes Pafundi could be important for Italy long-term, especially alongside Pio Esposito; this is the manager's opinion, not a guaranteed projection.
 - 45′ Harder equalises for Denmark.
 - 53′ Pio Esposito scores for Italy, assisted by Pafundi.
-- Current score: Denmark 1–2 Italy, NOT full time. Each Italian goalscorer has one goal and one assist in this live match. No other events given.
+- 87′ Tonali scores for Italy, assisted by Pio Esposito. Italy lead 3–1.
+- **CURRENT LIVE SCORE: Denmark 1–3 Italy at 87′, NOT full time.** Italy's known contributions in this match: **Pio Esposito 1 goal and 2 assists** (Pafundi 18′, Tonali 87′); **Simone Pafundi 1 goal and 1 assist** (Pio 53′); **Tonali 1 goal** (87′). Do not infer a final score or further play.
 - Keep national-team figures separate from Napoli 2030–31 club records. Do not publish a postmatch story before final whistle and authorization.
 
 ## 2030–31 — SERIE A MATCHDAY 6: ATALANTA 1–2 NAPOLI — 5 OCTOBER 2030, FULL TIME
