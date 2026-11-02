@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source edition committed; editorial gate, compiled snapshot/browser testing and Pages deployment pending",
+    "status": "Published — editorial quality gate, article image audit, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "Napoli 3–1 Celtic UCL: Pio brace, Celtic Kenny reply, Moore seals it, Beier all three assists",
     "match": "Napoli 3–1 Celtic · UEFA Champions League · 22 October 2030",
     "stories": [
@@ -126,13 +126,21 @@
     "press": "No new manager press held or written. Manager approved stories, not a quote.",
     "releaseVersion": "20301102-celtic-beier-pio-moore-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "articleImageAudit": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
-      "manualImageVisualQA": "not separately inspected"
-    }
+      "editorialQualityGate": "success",
+      "articleImageAudit": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 641,
+      "results": 126,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-celtic-three-one-beier-pio-moore-oct22-2030",
+      "clubStats": "Pio 13G3A, Beier 8G9A, Moore 2G2A",
+      "ucl": "3P2W1D,7pts,7GF2GA",
+      "manualImageVisualQA": "not independently performed"
+    },
+    "compiledCommit": "0390714e4aa8e864282758b34f433bab860b5570"
   },
   "previous_newsroom_package": {
     "status": "Published — quality gate, image audit, snapshot/browser and Pages passed",
