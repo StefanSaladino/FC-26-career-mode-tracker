@@ -98,7 +98,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source edition committed; editorial quality gate, compact snapshot/browser tests and Pages deployment pending",
+    "status": "Published — quality gate, image audit, snapshot/browser and Pages passed",
     "phase": "October 2030 EURO qualifiers Denmark 1–3 Italy, Italy 2–0 Norway; Napoli 2–0 Verona rotated squad",
     "matches": [
       "Denmark 1–3 Italy · EURO qualifying · 11 October 2030",
@@ -135,12 +135,19 @@
     "press": "No new manager interview or fictional manager quote issued.",
     "releaseVersion": "20301101-euro-qualifiers-verona-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
-      "manualImageVisualQA": "not independently performed"
-    }
+      "editorialQualityGate": "success",
+      "articleImageAudit": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 639,
+      "results": 125,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaint": "napoli-verona-rotated-squad-two-zero-oct18-2030",
+      "manualVisualQA": "not independently performed"
+    },
+    "compiledCommit": "3a1429f7d2aa1a47474b78ef4be2260d9520ae26"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, snapshot/browser tests, GitHub Pages deployment succeeded",
