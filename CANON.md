@@ -1,3 +1,23 @@
+## 2030–31 — MANAGER-SUPPLIED NOVEMBER & DECEMBER 2030 CALENDARS (SCHEDULED, NOT RESULTS)
+
+- **AUTHORITY / SCOPE:** Two FC 26 calendar screenshots supplied by Mister, showing **November and December 2030**. All entries below are **scheduled** future fixtures on those in-game calendars, NOT scores or played outcomes. Locations, opponents, dates and competition labels are taken from the screenshots; date may later shift in-game. These screenshots supersede any inferred November/December schedule. November's **19 November international is an Italy fixture** despite appearing within SSC Napoli's career calendar. Cup round and specific international competition are not established by the screenshots.
+- **NOV 2 — VENEZIA v NAPOLI:** **Away**, **Serie A** (Venezia's orange/green V crest).
+- **NOV 5 — NAPOLI v REAL BETIS:** **Home**, **UEFA Champions League (UCL)**.
+- **NOV 9 — NAPOLI v TORINO:** **Home**, **Serie A**.
+- **NOV 19 — ITALY v DENMARK:** **Home**, **international match (INTL)**. Do not assign a particular qualifying competition, team selection or result without confirmation.
+- **NOV 23 — CAGLIARI v NAPOLI:** **Away**, **Serie A**.
+- **NOV 26 — MANCHESTER CITY v NAPOLI:** **Away**, **UEFA Champions League (UCL)**.
+- **DEC 1 — NAPOLI v JUVENTUS:** **Home**, **Serie A**.
+- **DEC 7 — PISA v NAPOLI:** **Away**, **Serie A**.
+- **DEC 11 — RB LEIPZIG v NAPOLI:** **Away**, **UEFA Champions League (UCL)**.
+- **DEC 14 — NAPOLI v SAMPDORIA:** **Home**, **Serie A**.
+- **DEC 18 — NAPOLI v PESCARA:** **Home**, **domestic cup** (calendar says CUP, opponent crest Pescara; cup stage not shown).
+- **DEC 21 — PARMA v NAPOLI:** **Away**, **Serie A**.
+- **DEC 28 — NAPOLI v UDINESE:** **Home**, **Serie A**.
+- **IMMEDIATE PRE-NOVEMBER FIXTURE:** **Napoli v Roma, October 30, 2030, home Serie A**, remains the next known game after the completed Lecce 3–1 on October 26.
+- **PRIVATE STAFF-ROOM WORKLOAD NOTES (NOT PRESS QUOTES):** Napoli have **Venezia Nov 2 / Real Betis Nov 5 / Torino Nov 9** in eight calendar days; Italy play **Denmark Nov 19** before **Cagliari Nov 23 / Manchester City Nov 26 / Juventus Dec 1**; and **Pisa Dec 7 / RB Leipzig Dec 11 / Sampdoria Dec 14 / Pescara Dec 18 / Parma Dec 21**. Sandro recommends preplanned rotation around Torino/Cagliari and the domestic cup, subject to squad health and the manager's in-game selection; no starting lineups, injuries or results presumed.
+- **CANON/EDITORIAL STATUS:** These are planning facts added to the **single continuous CANON.md**. A calendar confirmation alone is **not an instruction to publish new newsroom articles or deploy site changes**. Current public site may still reflect the last explicitly commissioned Celtic edition until publication is authorised.
+
 ## 2030–31 — SERIE A MD8: LECCE 1–3 NAPOLI, 26 OCTOBER 2030 — MANAGER-CONFIRMED FULL TIME
 
 - **FULL TIME:** **Lecce 1–3 Napoli**, away Serie A matchday 8 on **26 October 2030**. The manager expressly confirms a **great performance from a rotated Napoli squad**. Lecce led in the 25th minute after a Napoli error, but Napoli scored three unanswered goals at 36′, 41′ and 59′. **Napoli win despite conceding first**. No full XI, substitutions, shot totals, positional details or goalkeeper involvement confirmed. This is final, not live.
