@@ -85,10 +85,10 @@
     {
       "month": "2030-10",
       "status": "covered",
-      "note": "Simone Pafundi October Italy character feature after debut Azzurri goal versus Denmark; plus Anton Stach & Mikey Moore player-depth feature after 26 October Lecce comeback. No fabricated manager interview."
+      "note": "Simone Pafundi October Italy character feature after debut Azzurri goal versus Denmark; plus Anton Stach & Mikey Moore player-depth feature after 26 October Lecce comeback. No fabricated manager interview. Plus Moore character-led player analysis after decisive 87′ assist against Roma, 30 Oct."
     }
   ],
-  "latest_confirmed_match": "Lecce 1–3 Napoli · Serie A · 26 October 2030 · Lozano 25′ (after Jetten unforced giveaway), Moore 36′ (Stach), Stach 41′ (rebound on Moore shot; no official assist established), Raspadori 59′ (Stach). FT rotated Napoli comeback, Stach 1G2A.",
+  "latest_confirmed_match": "Napoli 2–0 Roma · Serie A · 30 October 2030 · 0–0 HT, Neves first-half injury/withdrawal, Pio 87′ (Moore assist; Beier build-up), Beier 90+1′ (Pio assist; Roma pressing, Napoli counter). Full time, Napoli clean sheet.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -103,6 +103,51 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Editorial sources prepared; compact snapshot validation and Pages deployment pending",
+    "phase": "Napoli 2–0 Roma 30 Oct 2030: Pio's 87′ breakthrough, Beier's 90+1′ counter, Moore three-match streak, Neves injury question",
+    "match": "Napoli 2–0 Roma · Serie A · 30 October 2030",
+    "stories": [
+      "napoli-roma-two-nil-pio-beier-late-oct30-2030",
+      "moore-three-straight-napoli-pio-roma-oct2030",
+      "joao-neves-roma-injury-napoli-midfield-question-oct2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-napoli-roma-oct30-2030.js",
+      "stories-moore-three-straight-roma-oct2030.js",
+      "stories-neves-midfield-roma-oct2030.js",
+      "site-visible-napoli-roma-oct30-2030.js"
+    ],
+    "knownFacts": "Napoli 2–0 Roma 30 Oct at Maradona, 0–0 HT, heavy pressure with no final product past 80′; João Neves injured in first half and withdrawn, no severity/timetable; Pio Esposito first-time goal 87′ official Moore assist (Beier build-up); Beier goal 90+1′ counter as Roma pressed, official Pio assist; team clean sheet. Serie A 9P8W1D0L25pts GF21 GA4 GD+17; club 13P11W2D0L GF30GA7; Pio 14G4A, Beier 9G9A, Moore 3G3A; Italy unchanged.",
+    "unknowns": "Neves exact substitution time, replacement, injury diagnosis and return; keeper identity and saves, cards, shot count, Serie A ranking, opponent attacking detail and other unprovided match events.",
+    "coverage": "Three separate substantial eyewitness-journalist pieces: 14-paragraph late winner report, 12-paragraph Moore character-led feature, 10-paragraph injury/squad analysis. Distinct established reporters and original curated supporter arguments with multi-turn replies. All use verified existing gallery assets, no SVG score covers.",
+    "gallery": [
+      "assets/story-manager-pio-esposito.webp",
+      "assets/story-manager-sandro-players.webp",
+      "assets/joao-neves-napoli.webp"
+    ],
+    "comments": {
+      "topLevel": 31,
+      "totalIncludingReplies": 121
+    },
+    "paragraphs": 36,
+    "nextFixture": "Venezia away · 2 Nov 2030 Serie A; Real Betis home · 5 Nov 2030 UEFA Champions League; Torino home · 9 Nov 2030 Serie A.",
+    "press": "No manager press conference or new manager quote issued. Private plans about Moore and Neves do not become public reporting.",
+    "releaseVersion": "20301102-roma-late-pio-beier-moore-neves-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "articleImageAudit": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "manualImageVisualQA": "gallery sources individually visually inspected; rendered crop QA not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, article image audit, compact snapshot browser tests and GitHub Pages deployment all succeeded",
     "phase": "Napoli 3–1 comeback at Lecce away, 26 October 2030; rotated XI, Stach 1G2A, Moore and Raspadori finish",
     "match": "Lecce 1–3 Napoli · Serie A · 26 October 2030",
@@ -174,51 +219,6 @@
       "manualRenderedCropQA": "not independently performed; individual approved source images visually inspected"
     }
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial quality gate, article image audit, compact snapshot/browser tests and GitHub Pages deployment succeeded",
-    "phase": "Napoli 3–1 Celtic UCL: Pio brace, Celtic Kenny reply, Moore seals it, Beier all three assists",
-    "match": "Napoli 3–1 Celtic · UEFA Champions League · 22 October 2030",
-    "stories": [
-      "napoli-celtic-three-one-beier-pio-moore-oct22-2030",
-      "beier-three-assists-pio-moore-celtic-oct2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk"
-    ],
-    "source": [
-      "stories-napoli-celtic-oct22-2030.js",
-      "stories-beier-three-assists-celtic-oct2030.js",
-      "site-visible-napoli-celtic-oct22-2030.js"
-    ],
-    "knownFacts": "Pio 5′ Beier assist, Pio 24′ Beier assist, Celtic Kenny 36′ (only surname), Moore 77′ Beier assist; FT 3–1. Napoli UCL 3P2W1D7pts GF7GA2, club competitive 11P9W2D GF25GA6; Serie A remains 7P6W1D 19pts; Pio club 13G3A, UCL 5G1A, Beier club 8G9A and 3 assists in this match, Moore club 2G2A. Italy stats separate.",
-    "unknowns": "Kenny first name/assist, goalkeeper, match shot totals, formation, substitute identities and team sheet, UCL league ranking.",
-    "coverage": "Substantial football reporter match report and distinct Beier three-assist player analysis, original relevant match graphic and approved Napoli Beier portrait. Full reader discussion, no invented manager speech or match action. Prior Verona/EURO edition retained in archive.",
-    "comments": {
-      "topLevel": 25,
-      "totalIncludingReplies": 94
-    },
-    "paragraphs": 26,
-    "nextFixture": "Napoli at Lecce · Serie A · 26 October 2030; home vs Roma · Serie A · 30 October 2030",
-    "press": "No new manager press held or written. Manager approved stories, not a quote.",
-    "releaseVersion": "20301102-celtic-beier-pio-moore-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "articleImageAudit": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 641,
-      "results": 126,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-celtic-three-one-beier-pio-moore-oct22-2030",
-      "clubStats": "Pio 13G3A, Beier 8G9A, Moore 2G2A",
-      "ucl": "3P2W1D,7pts,7GF2GA",
-      "manualImageVisualQA": "not independently performed"
-    },
-    "compiledCommit": "0390714e4aa8e864282758b34f433bab860b5570"
-  },
   "release_history": [
     {
       "release_version": "20301030-england-france-semifinal-v3",
@@ -253,6 +253,15 @@
         "beier-three-assists-pio-moore-celtic-oct2030"
       ],
       "archived_at": "Following publication of Lecce 1–3 Napoli, October 2030"
+    },
+    {
+      "release_version": "20301102-lecce-rotated-v1",
+      "phase": "Napoli 3–1 comeback at Lecce away, 26 October 2030; rotated XI, Stach 1G2A, Moore and Raspadori finish",
+      "story_ids": [
+        "lecce-napoli-one-three-rotated-comeback-oct26-2030",
+        "stach-moore-raspadori-lecce-squad-depth-oct2030"
+      ],
+      "archived_at": "Superseded by Napoli 2–0 Roma 30 October edition; original articles remain in full archive"
     }
   ],
   "world_cup_2030_final_summary": {
