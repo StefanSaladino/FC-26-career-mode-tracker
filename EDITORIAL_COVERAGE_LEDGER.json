@@ -145,7 +145,31 @@
       "serieA": "8P7W1D0L22pts GF19GA4",
       "manualImageVisualQA": "not independently performed"
     },
-    "compiledCommit": "6afa403fbc62913db7e6e9fc37759695e50f7d14"
+    "compiledCommit": "6afa403fbc62913db7e6e9fc37759695e50f7d14",
+    "imageCorrection": {
+      "status": "Approved gallery sources committed; rebuild and Pages confirmation pending",
+      "userInstruction": "Use the existing approved Napoli gallery for Napoli stories; do not make up SVG editorial covers",
+      "repairs": [
+        [
+          "Lecce match report",
+          "assets/story-goal-celebration.webp"
+        ],
+        [
+          "Lecce player-depth feature",
+          "assets/story-napoli-key-players-huddle.webp"
+        ],
+        [
+          "Celtic match report",
+          "assets/story-european-team-celebration.webp"
+        ],
+        [
+          "Verona match report",
+          "assets/story-staff-squad-celebration.webp"
+        ]
+      ],
+      "visualReview": "Selected four assets individually inspected from approved repo gallery. Browser crop QA not yet independently done.",
+      "contentEffect": "Image-only corrections; preserve article IDs, body, comments and football canon."
+    }
   },
   "previous_newsroom_package": {
     "status": "Published — editorial quality gate, article image audit, compact snapshot/browser tests and GitHub Pages deployment succeeded",

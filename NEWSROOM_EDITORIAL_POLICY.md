@@ -43,7 +43,7 @@ Any month lacking an interview/character feature must be flagged in CANON.md and
 - Feature the account organically when relevant, without a quota or repetitive identical joke. The account should return to defend its absurd takes when other supporters reply.
 
 ## Relevant article imagery — standing direction from the Mister
-- Every published story should use an image directly relevant to its specific subject, match, featured player or tactical angle. Avoid repeatedly recycling generic portraits just because they are available.
+- **For Napoli stories, the manager requires approved gallery imagery** (existing approved Napoli and player assets documented in `assets/IMAGE-ASSET-GUIDE.txt`); do not commission or synthesize new SVG scorecard covers. Choose imagery suited to the actual subject, match, player or squad theme; a squad illustration is not proof that a named player or match event is depicted. Avoid recycling the same picture for adjacent stories or applying a favourite portrait regardless of context. For any not-yet-approved new asset, seek the manager's approval before use.
 - Ferraro coordinates asset selection and editorial image QA internally; he is never named in public articles, bylines, captions or reader comments.
 - Prefer verified real match/player imagery or approved Napoli-kit assets. For players portrayed as Napoli footballers, use approved Napoli-kit edits where appropriate. Never misrepresent an unrelated photo as an actual scene from a specific match.
 - Verify that referenced asset paths exist, images load and crop properly at desktop and mobile sizes, and supply meaningful alt text when the presentation supports it. Do not claim browser QA unless performed.
