@@ -1,3 +1,12 @@
+## 2030–31 — BETIS 4–1 NEWSROOM RELEASE — AUTHORIZED
+
+- Manager explicitly authorizes **“We can run the Betis stories”** following confirmed full time Napoli 4–1 Real Betis (5 November 2030).
+- Four distinct substantial reporter-written pieces: Giulia Romano match recap; Elena De Luca Beier hat-trick feature; Luca Bellini Moore/Pio partnership analysis; Marco Bellini McTominay pass and midfield tactics. 48 original paragraphs; 33 top-level supporter threads and 130 comments including replies.
+- Confirmed events: Betis Marcos Leonardo rebound 9′; Beier 15′ from Pio, 55′ from Moore, 75′ from McTominay long through-ball from behind halfway; Moore 70′ from Pio. Half-time 1–1, full-time 4–1. Beier three goals, Pio two assists, Moore goal and assist, McTominay one assist.
+- Approved existing Napoli gallery assets only: story-european-team-celebration.webp, story-sandro-beier-guidance.webp, story-napoli-key-players-huddle.webp, story-mctominay-celebration.webp. These are archival illustrations, not match photographs; all four source images inspected.
+- Napoli UCL 4P3W1D0L, 10 points, GF11 GA3; club season 15P12W2D1L GF34 GA9; Serie A unchanged 25 points, 10P8W1D1L. Pio 14G6A, Beier 12G9A, Moore 4G4A, McTominay 0G1A. Italy goals and assists separate. Next Torino home on 9 November.
+- No new manager quotes, private negotiations, unsupplied goalkeeper or shot numbers. No fabricated 4-game consecutive Moore contribution streak: four of five including scoreless Venezia. Sources committed; compilation and deployment must be verified before declaring publication success.
+
 ## 2030–31 — UEFA CHAMPIONS LEAGUE MD4: NAPOLI 4–1 REAL BETIS, 5 NOVEMBER 2030 — FULL TIME
 
 - **FULL TIME — MANAGER CONFIRMED:** **Napoli 4–1 Real Betis**, home UEFA Champions League on **5 November 2030**, after **1–1 at half time**. Marcos Leonardo gave Betis the lead at 9′; Napoli responded through Beier 15′, Beier 55′, Moore 70′, and Beier 75′. The manager describes it as a **much better performance** after Napoli's first defeat at Venezia. **Beier's hat-trick** is confirmed. No extra goals, cards, named Napoli goalkeeper, unreported shots or substitutes invented.
@@ -13,7 +22,7 @@
 - **NEXT CONFIRMED FIXTURES:** Napoli **home against Torino on 9 November 2030, Serie A**; Italy host Denmark on 19 November (Rossetti available substitute); Napoli away at Cagliari on 23 November and Manchester City in UCL on 26 November. No subsequent results yet.
 - **CONTEXT:** The response follows Napoli's first defeat at Venezia, 1–0. Neves remains out with a broken toe and an expected three-month absence; Epolo has an 11-day absence and Burnett/Peacock are planned to share goalkeeper minutes, but **the Betis starter has NOT been identified by the manager**. No conjectural substitutions, shots, tactical shape or goalkeeper actions.
 - **PRIVATE STAFF POST-MATCH ASSESSMENT:** Sandro praises Beier's hat-trick, Pio's two assists, Moore's goal and assist, and McTominay's long through-ball contribution. The manager describes the overall performance as much better than Venezia. Neither coach has given an authorised public press statement. Do not fabricate unreported on-field events.
-- **EDITORIAL AUTHORITY:** Full time and season statistics are now recorded in the sole canon. The manager has **not instructed “run the stories” or otherwise authorised a Betis newsroom release** with this FT update. The public compiled November Venezia edition remains the latest published edition. Do not add public articles or publish revised website match results without explicit authorisation.
+- **EDITORIAL AUTHORITY — UPDATED:** The manager subsequently explicitly ordered Betis stories, as recorded in the newer newsroom entry above. Prior FT canon predates this authorization.
 
 ## 2030–31 — NOVEMBER NEWSROOM EDITION: VENEZIA, NEVES, KEEPERS, DAVIES, ROSSETTI — AUTHORIZED 2 NOV 2026
 

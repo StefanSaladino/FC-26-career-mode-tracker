@@ -93,7 +93,7 @@
       "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated."
     }
   ],
-  "latest_confirmed_match": "Venezia 1–0 Napoli · Serie A · 2 November 2030 · Fila 75′ only goal · Napoli first 2030–31 competitive defeat",
+  "latest_confirmed_match": "Napoli 4–1 Real Betis · Champions League · 5 November 2030 · Beier hat-trick 15′ (Pio), 55′ (Moore), 75′ (McTominay); Moore 70′ (Pio); Betis Marcos Leonardo 9′ rebound",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -108,6 +108,60 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source edition committed; checks and deployment pending",
+    "phase": "Napoli 4–1 Real Betis, 5 November 2030: Beier hat-trick; Moore goal and assist; Pio two assists; McTominay long-ball assist",
+    "match": "Napoli 4–1 Real Betis · UEFA Champions League · 5 November 2030",
+    "stories": [
+      "napoli-betis-four-one-beier-hattrick-ucl-nov5-2030",
+      "beier-three-goals-three-passes-betis-feature-nov2030",
+      "pio-moore-betis-two-creators-nov2030",
+      "mctominay-halfway-assist-midfield-betis-nov2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Luca Bellini · Il Calcio Sera",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-betis-match-nov5-2030.js",
+      "stories-betis-beier-feature-nov2030.js",
+      "stories-betis-pio-moore-feature-nov2030.js",
+      "stories-betis-mctominay-tactical-nov2030.js",
+      "site-visible-napoli-betis-nov5-2030.js"
+    ],
+    "knownFacts": "Napoli FT 4–1; Betis Leonardo rebound 9′, Beier 15′ Pio, Beier 55′ Moore through ball, Moore 70′ Pio, Beier 75′ McTominay from behind halfway. UCL four games 3W1D0L 10pts GF11 GA3; club 15P12W2D1L GF34GA9; Serie A unchanged 25 pts; Beier 12G9A, Pio 14G6A, Moore 4G4A, McTominay 0G1A.",
+    "unknowns": "Betis official assist/rebound shot-taker, Napoli keeper and lineup, saves, cards, shots, table ranking. No international stat changes.",
+    "coverage": "Four original reporter-eye articles: 48 paragraphs, 33 substantive original commenter threads and 130 comments including replies. No fabricated press answers. Four existing Napoli gallery sources.",
+    "gallery": [
+      "assets/story-european-team-celebration.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-mctominay-celebration.webp"
+    ],
+    "comments": {
+      "topLevel": 33,
+      "totalIncludingReplies": 130
+    },
+    "paragraphs": 48,
+    "nextFixture": "Napoli v Torino, home Serie A, 9 November 2030; Italy v Denmark home international 19 November, Rossetti available substitute.",
+    "press": "No fake player/manager quotes; private staff financial negotiation details are not published.",
+    "releaseVersion": "20301102-betis-beier-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryImages": "four approved local image assets individually visually inspected",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "articles": null,
+      "results": null,
+      "seasons": null,
+      "legacyScriptErrors": null,
+      "firstPaintLead": "napoli-betis-four-one-beier-hattrick-ucl-nov5-2030",
+      "manualImageVisualQA": "separate mobile and desktop rendered crop inspection not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "First 2030–31 defeat at Venezia; Neves diagnosed broken toe, three months out; Epolo expected 11 days out; Davies renewal; Rossetti Italy Denmark bench",
     "match": "Venezia 1–0 Napoli · Serie A · 2 November 2030",
@@ -165,62 +219,19 @@
     },
     "compiledCommit": "14fe1a79d8c5a9631fd15bc545e39d3f79f7bfb3"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
-    "phase": "Napoli 2–0 Roma 30 Oct 2030: Pio's 87′ breakthrough, Beier's 90+1′ counter, Moore three-match streak, Neves injury question",
-    "match": "Napoli 2–0 Roma · Serie A · 30 October 2030",
-    "stories": [
-      "napoli-roma-two-nil-pio-beier-late-oct30-2030",
-      "moore-three-straight-napoli-pio-roma-oct2030",
-      "joao-neves-roma-injury-napoli-midfield-question-oct2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-napoli-roma-oct30-2030.js",
-      "stories-moore-three-straight-roma-oct2030.js",
-      "stories-neves-midfield-roma-oct2030.js",
-      "site-visible-napoli-roma-oct30-2030.js"
-    ],
-    "knownFacts": "Napoli 2–0 Roma 30 Oct at Maradona, 0–0 HT, heavy pressure with no final product past 80′; João Neves injured in first half and withdrawn, no severity/timetable; Pio Esposito first-time goal 87′ official Moore assist (Beier build-up); Beier goal 90+1′ counter as Roma pressed, official Pio assist; team clean sheet. Serie A 9P8W1D0L25pts GF21 GA4 GD+17; club 13P11W2D0L GF30GA7; Pio 14G4A, Beier 9G9A, Moore 3G3A; Italy unchanged.",
-    "unknowns": "Neves exact substitution time, replacement, injury diagnosis and return; keeper identity and saves, cards, shot count, Serie A ranking, opponent attacking detail and other unprovided match events.",
-    "coverage": "Three separate substantial eyewitness-journalist pieces: 14-paragraph late winner report, 12-paragraph Moore character-led feature, 10-paragraph injury/squad analysis. Distinct established reporters and original curated supporter arguments with multi-turn replies. All use verified existing gallery assets, no SVG score covers.",
-    "gallery": [
-      "assets/story-manager-pio-esposito.webp",
-      "assets/story-manager-sandro-players.webp",
-      "assets/joao-neves-napoli.webp"
-    ],
-    "comments": {
-      "topLevel": 31,
-      "totalIncludingReplies": 121
-    },
-    "paragraphs": 36,
-    "nextFixture": "Venezia away · 2 Nov 2030 Serie A; Real Betis home · 5 Nov 2030 UEFA Champions League; Torino home · 9 Nov 2030 Serie A.",
-    "press": "No manager press conference or new manager quote issued. Private plans about Moore and Neves do not become public reporting.",
-    "releaseVersion": "20301102-roma-late-pio-beier-moore-neves-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "approvedGalleryAssetVerification": "three approved local gallery sources verified by repository inspection and browser build; source images individually visually inspected",
-      "separateImageAuditWorkflow": "not invoked for this edition (no new asset files)",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 646,
-      "results": 128,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-roma-two-nil-pio-beier-late-oct30-2030",
-      "playerStats": "Pio 14G4A, Beier 9G9A, Moore 3G3A",
-      "serieA": "9P 8W1D0L 25pts GF21GA4",
-      "manualImageVisualQA": "approved source images individually inspected; rendered mobile/desktop crop not independently performed",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41542499513"
-    },
-    "compiledCommit": "048aa3a199942d7979c06156718deb9d7adfb986"
-  },
   "release_history": [
+    {
+      "release_version": "20301102-venezia-news-v1",
+      "phase": "First 2030–31 defeat at Venezia; Neves diagnosed broken toe, three months out; Epolo expected 11 days out; Davies renewal; Rossetti Italy Denmark bench",
+      "story_ids": [
+        "venezia-napoli-fila-first-defeat-nov2-2030",
+        "neves-broken-toe-three-months-napoli-nov2030",
+        "epolo-eleven-day-absence-burnett-peacock-betis-nov2030",
+        "alphonso-davies-napoli-extension-agreement-nov2030",
+        "rossetti-italy-selection-denmark-bench-nov2030"
+      ],
+      "archived_at": "Following Napoli 4–1 Real Betis, 5 November 2030"
+    },
     {
       "release_version": "20301102-roma-late-pio-beier-moore-neves-v1",
       "phase": "Napoli 2–0 Roma 30 Oct 2030: Pio's 87′ breakthrough, Beier's 90+1′ counter, Moore three-match streak, Neves injury question",
