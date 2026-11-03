@@ -108,7 +108,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Staged — editorial gate, compact snapshot/browser tests and Pages deployment not yet confirmed",
+    "status": "Published — editorial gate, compact snapshot/browser tests, compiled commit and GitHub Pages deployment succeeded",
     "phase": "Italy 2–0 Denmark, 19 November 2030: Pio Esposito two assists, Kean 6′, Calafiori 43′ own rebound, Rossetti senior debut and 7.3 rating",
     "match": "Italy 2–0 Denmark · international · 19 November 2030",
     "stories": [
@@ -142,13 +142,22 @@
     "press": "One clearly labelled dramatized player Q&A; no manager public answers or press quotations invented. Only verified Italy events on field; Napoli stat scope preserved.",
     "releaseVersion": "20301119-italy-denmark-rossetti-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "source paths confirmed in repository; no manual visual crop inspection",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending"
+      "editorialQualityGate": "success — 184 scripts, 0 technical errors; 21 nonblocking pre-existing warnings (9 identity/context, 10 legacy image references, 2 alternate article ID formats); none in the new Denmark story file",
+      "approvedGalleryAssetVerification": "Three existing approved gallery asset paths confirmed; archival illustrations captioned honestly. No rendered desktop/mobile image-crop QA performed.",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success — first-paint lead, new article opening and comments, full archive, 2030–31 stats and Italy match filtering",
+      "pagesDeployment": "success",
+      "articles": 661,
+      "results": 132,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "italy-denmark-two-zero-kean-calafiori-pio-nov19-2030",
+      "international": "Italy 2–0 Denmark · Rossetti debut at half-time, rating 7.3, 2 shots saved by Jorgensen; Pio two official assists",
+      "clubScope": "Napoli club 2030–31 Pio 15G7A, Beier 13G9A, Moore 5G4A; Serie A 28 points from 11 and UCL 10 points from four unchanged",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41575163689",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41574755790"
     },
-    "compiledCommit": null
+    "compiledCommit": "8ab84a637b5e"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
