@@ -90,10 +90,10 @@
     {
       "month": "2030-11",
       "status": "covered",
-      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals."
+      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals. November 19: Rossetti made his first senior Italy appearance at half-time vs Denmark, took two shots on target saved by Jorgensen and earned a 7.3; dedicated dramatized in-universe player Q&A commissioned."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–1 Torino · Serie A · 9 November 2030 · HT 1–1 · Pio 29′ (Zaïre-Emery), Sazonov 45′ (Torino), Moore 70′ (Pio), Beier 81′ (McTominay). Kayode available, Epolo recovered.",
+  "latest_confirmed_match": "Italy 2–0 Denmark · home international · 19 November 2030 · Kean 6′ (Pio), Calafiori 43′ own rebound (Pio); Rossetti senior Italy debut at halftime, 7.3, two shots saved by Jorgensen",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -108,6 +108,49 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Staged — editorial gate, compact snapshot/browser tests and Pages deployment not yet confirmed",
+    "phase": "Italy 2–0 Denmark, 19 November 2030: Pio Esposito two assists, Kean 6′, Calafiori 43′ own rebound, Rossetti senior debut and 7.3 rating",
+    "match": "Italy 2–0 Denmark · international · 19 November 2030",
+    "stories": [
+      "italy-denmark-two-zero-kean-calafiori-pio-nov19-2030",
+      "rossetti-italy-debut-jorgensen-two-saves-interview-nov2030",
+      "pio-two-assists-kean-calafiori-italy-denmark-feature-nov2030"
+    ],
+    "bylines": [
+      "Lorenzo Ferri · Azzurri correspondent",
+      "Elena De Luca · Player desk",
+      "Luca Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-italy-denmark-rossetti-nov19-2030.js",
+      "site-visible-italy-denmark-nov19-2030.js"
+    ],
+    "knownFacts": "Italy home 2–0 Denmark, 19 Nov FT, HT 2–0. Kean 6′ from Pio; Calafiori 43′ from own rebound with Pio official assist. Rossetti enters at half-time for senior Italy debut; age 18 OVR79, 7.3, two good shots on goal saved by Jorgensen. Italy team clean sheet; Napoli club state unchanged.",
+    "unknowns": "November international subtype unspecified; do not call it a EURO qualifier. No Jorgensen total saves beyond two on Rossetti, no Italian keeper identified, no full lineup, other match events, Rossetti outgoing substitute, exact shot minutes, future call-up or club recall.",
+    "coverage": "Three distinct articles: 12-paragraph independent full-time match report, 14-paragraph fictional in-universe Rossetti interview, and 12-paragraph Pio/Kean/Calafiori tactical analysis. 30 original top-level supporter threads, 92 comments including nested replies. No user manager answer invented.",
+    "gallery": [
+      "assets/story-coaches-key-players-walkout.webp",
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/pio-napoli.webp"
+    ],
+    "comments": {
+      "topLevel": 30,
+      "totalIncludingReplies": 92
+    },
+    "paragraphs": 38,
+    "nextFixture": "Napoli at Cagliari 23 Nov 2030 Serie A; Manchester City away UCL 26 Nov; Juventus home Serie A Dec 1.",
+    "press": "One clearly labelled dramatized player Q&A; no manager public answers or press quotations invented. Only verified Italy events on field; Napoli stat scope preserved.",
+    "releaseVersion": "20301119-italy-denmark-rossetti-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "source paths confirmed in repository; no manual visual crop inspection",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "Napoli 3–1 Torino 9 Nov 2030, Moore restores lead, Pio goal and assist, Beier scores from McTominay; Kayode injury not serious and Epolo recovered",
     "match": "Napoli 3–1 Torino · Serie A · 9 November 2030",
@@ -162,64 +205,17 @@
     },
     "compiledCommit": "be733bd2b4c2b8206a79ec2d317c21d2046465e1"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact browser snapshot build and GitHub Pages deployment succeeded",
-    "phase": "Napoli 4–1 Real Betis, 5 November 2030: Beier hat-trick; Moore goal and assist; Pio two assists; McTominay long-ball assist",
-    "match": "Napoli 4–1 Real Betis · UEFA Champions League · 5 November 2030",
-    "stories": [
-      "napoli-betis-four-one-beier-hattrick-ucl-nov5-2030",
-      "beier-three-goals-three-passes-betis-feature-nov2030",
-      "pio-moore-betis-two-creators-nov2030",
-      "mctominay-halfway-assist-midfield-betis-nov2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Luca Bellini · Il Calcio Sera",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-betis-match-nov5-2030.js",
-      "stories-betis-beier-feature-nov2030.js",
-      "stories-betis-pio-moore-feature-nov2030.js",
-      "stories-betis-mctominay-tactical-nov2030.js",
-      "site-visible-napoli-betis-nov5-2030.js"
-    ],
-    "knownFacts": "Napoli FT 4–1; Betis Leonardo rebound 9′, Beier 15′ Pio, Beier 55′ Moore through ball, Moore 70′ Pio, Beier 75′ McTominay from behind halfway. UCL four games 3W1D0L 10pts GF11 GA3; club 15P12W2D1L GF34GA9; Serie A unchanged 25 pts; Beier 12G9A, Pio 14G6A, Moore 4G4A, McTominay 0G1A.",
-    "unknowns": "Betis official assist/rebound shot-taker, Napoli keeper and lineup, saves, cards, shots, table ranking. No international stat changes.",
-    "coverage": "Four original reporter-eye articles: 48 paragraphs, 33 substantive original commenter threads and 130 comments including replies. No fabricated press answers. Four existing Napoli gallery sources.",
-    "gallery": [
-      "assets/story-european-team-celebration.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-mctominay-celebration.webp"
-    ],
-    "comments": {
-      "topLevel": 33,
-      "totalIncludingReplies": 130
-    },
-    "paragraphs": 48,
-    "nextFixture": "Napoli v Torino, home Serie A, 9 November 2030; Italy v Denmark home international 19 November, Rossetti available substitute.",
-    "press": "No fake player/manager quotes; private staff financial negotiation details are not published.",
-    "releaseVersion": "20301102-betis-beier-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "approvedGalleryImages": "four approved Napoli gallery assets verified, original files visually inspected, embedded source images load in generated snapshot",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 655,
-      "results": 130,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-betis-four-one-beier-hattrick-ucl-nov5-2030",
-      "manualImageVisualQA": "Four approved image source files inspected; no separately verified rendered desktop/mobile image crop review",
-      "playerStats": "Pio 14G6A, Beier 12G9A, Moore 4G4A, McTominay 0G1A",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41571198564"
-    },
-    "compiledCommit": "19a574dcdac68369be37c8cb12bc16c9de372cb1"
-  },
   "release_history": [
+    {
+      "release_version": "20301109-torino-availability-v1",
+      "phase": "Napoli 3–1 Torino 9 Nov 2030, Moore restores lead, Pio goal and assist, Beier scores from McTominay; Kayode injury not serious and Epolo recovered",
+      "story_ids": [
+        "napoli-torino-three-one-moore-pio-beier-nov9-2030",
+        "pio-moore-torino-seventy-minute-breakthrough-nov2030",
+        "torino-kayode-cleared-epolo-back-peacock-header-nov2030"
+      ],
+      "archived_at": "Following Italy 2–0 Denmark international, 19 November 2030"
+    },
     {
       "release_version": "20301102-betis-beier-v1",
       "phase": "Napoli 4–1 Real Betis, 5 November 2030: Beier hat-trick; Moore goal and assist; Pio two assists; McTominay long-ball assist",
