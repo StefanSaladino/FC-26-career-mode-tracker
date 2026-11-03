@@ -108,7 +108,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source authored; editorial, browser and Pages verification pending",
+    "status": "Published — editorial gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "Napoli 3–1 Torino 9 Nov 2030, Moore restores lead, Pio goal and assist, Beier scores from McTominay; Kayode injury not serious and Epolo recovered",
     "match": "Napoli 3–1 Torino · Serie A · 9 November 2030",
     "stories": [
@@ -144,21 +144,23 @@
     "press": "Manager authorised stories but did not give any public press quotes; no fabricated interview. Peacock saveability attributed as opinion only. Epolo healed, Kayode cleared; no invented diagnoses.",
     "releaseVersion": "20301109-torino-availability-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "three approved existing Napoli gallery source images visually inspected; final snapshot loading and crop QA pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
-      "articles": null,
-      "results": null,
-      "seasons": null,
-      "legacyScriptErrors": null,
+      "editorialQualityGate": "success",
+      "approvedGalleryAssetVerification": "three existing approved Napoli gallery sources visually inspected; approved image paths confirmed in source and compiled snapshot",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 658,
+      "results": 131,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
       "firstPaintLead": "napoli-torino-three-one-moore-pio-beier-nov9-2030",
       "serieA": "11P9W1D1L 28pts GF24GA6",
       "club": "16P13W2D1L GF37GA10",
-      "playerStats": "Pio 15G7A, Beier 13G9A, Moore 5G4A, McT 0G2A, Zaïre-Emery 0G2A",
-      "manualImageVisualQA": "Approved source images inspected, independent rendered desktop/mobile crop QA not performed"
-    }
+      "playerStats": "Pio 15G7A, Beier 13G9A, Moore 5G4A, McTominay 0G2A, Zaïre-Emery 0G2A",
+      "manualImageVisualQA": "source images visually inspected; rendered desktop/mobile crops not independently manually verified",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41573019816"
+    },
+    "compiledCommit": "be733bd2b4c2b8206a79ec2d317c21d2046465e1"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser snapshot build and GitHub Pages deployment succeeded",
