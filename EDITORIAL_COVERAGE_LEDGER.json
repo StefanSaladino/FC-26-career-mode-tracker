@@ -108,7 +108,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source authored — editorial and public build/deployment checks pending",
+    "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "First 2030–31 defeat at Venezia; Neves diagnosed broken toe, three months out; Epolo expected 11 days out; Davies renewal; Rossetti Italy Denmark bench",
     "match": "Venezia 1–0 Napoli · Serie A · 2 November 2030",
     "stories": [
@@ -148,20 +148,22 @@
     "press": "Private Davies financial figures deliberately not published. No new fabricated coach quotes. No claims of confirmed Rossetti cap, exact Neves/Epolo return games or new match details.",
     "releaseVersion": "20301102-venezia-news-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "five repository sources visually inspected; compiled loading pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
-      "articles": null,
-      "results": null,
-      "seasons": null,
-      "legacyScriptErrors": null,
+      "editorialQualityGate": "success",
+      "approvedGalleryAssetVerification": "five existing gallery assets individually visually inspected; sources exist; compiled site uses the chosen images",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 651,
+      "results": 129,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
       "firstPaintLead": "venezia-napoli-fila-first-defeat-nov2-2030",
       "serieA": "10P8W1D1L 25pts GF21GA5",
       "club": "14P11W2D1L GF30GA8",
-      "manualImageVisualQA": "five source assets individually inspected; rendered mobile/desktop crop not independently performed"
-    }
+      "manualImageVisualQA": "five source assets individually inspected; rendered mobile/desktop crop not independently performed",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41569062905"
+    },
+    "compiledCommit": "14fe1a79d8c5a9631fd15bc545e39d3f79f7bfb3"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
