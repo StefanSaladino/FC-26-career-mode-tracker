@@ -108,7 +108,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source edition committed; checks and deployment pending",
+    "status": "Published — editorial gate, compact browser snapshot build and GitHub Pages deployment succeeded",
     "phase": "Napoli 4–1 Real Betis, 5 November 2030: Beier hat-trick; Moore goal and assist; Pio two assists; McTominay long-ball assist",
     "match": "Napoli 4–1 Real Betis · UEFA Champions League · 5 November 2030",
     "stories": [
@@ -148,18 +148,21 @@
     "press": "No fake player/manager quotes; private staff financial negotiation details are not published.",
     "releaseVersion": "20301102-betis-beier-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryImages": "four approved local image assets individually visually inspected",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
-      "articles": null,
-      "results": null,
-      "seasons": null,
-      "legacyScriptErrors": null,
+      "editorialQualityGate": "success",
+      "approvedGalleryImages": "four approved Napoli gallery assets verified, original files visually inspected, embedded source images load in generated snapshot",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
+      "articles": 655,
+      "results": 130,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
       "firstPaintLead": "napoli-betis-four-one-beier-hattrick-ucl-nov5-2030",
-      "manualImageVisualQA": "separate mobile and desktop rendered crop inspection not performed"
-    }
+      "manualImageVisualQA": "Four approved image source files inspected; no separately verified rendered desktop/mobile image crop review",
+      "playerStats": "Pio 14G6A, Beier 12G9A, Moore 4G4A, McTominay 0G1A",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41571198564"
+    },
+    "compiledCommit": "19a574dcdac68369be37c8cb12bc16c9de372cb1"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
