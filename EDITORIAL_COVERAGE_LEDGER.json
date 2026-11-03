@@ -86,9 +86,14 @@
       "month": "2030-10",
       "status": "covered",
       "note": "Simone Pafundi October Italy character feature after debut Azzurri goal versus Denmark; plus Anton Stach & Mikey Moore player-depth feature after 26 October Lecce comeback. No fabricated manager interview. Plus Moore character-led player analysis after decisive 87′ assist against Roma, 30 Oct."
+    },
+    {
+      "month": "2030-11",
+      "status": "covered",
+      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–0 Roma · Serie A · 30 October 2030 · 0–0 HT, Neves first-half injury/withdrawal, Pio 87′ (Moore assist; Beier build-up), Beier 90+1′ (Pio assist; Roma pressing, Napoli counter). Full time, Napoli clean sheet.",
+  "latest_confirmed_match": "Venezia 1–0 Napoli · Serie A · 2 November 2030 · Fila 75′ only goal · Napoli first 2030–31 competitive defeat",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -103,6 +108,62 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source authored — editorial and public build/deployment checks pending",
+    "phase": "First 2030–31 defeat at Venezia; Neves diagnosed broken toe, three months out; Epolo expected 11 days out; Davies renewal; Rossetti Italy Denmark bench",
+    "match": "Venezia 1–0 Napoli · Serie A · 2 November 2030",
+    "stories": [
+      "venezia-napoli-fila-first-defeat-nov2-2030",
+      "neves-broken-toe-three-months-napoli-nov2030",
+      "epolo-eleven-day-absence-burnett-peacock-betis-nov2030",
+      "alphonso-davies-napoli-extension-agreement-nov2030",
+      "rossetti-italy-selection-denmark-bench-nov2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk",
+      "Luca Bellini · Club correspondent",
+      "Marco D'Amato · Azzurri correspondent"
+    ],
+    "source": [
+      "stories-venezia-neves-epolo-davies-rossetti-nov2030.js",
+      "site-visible-venezia-november-2030.js"
+    ],
+    "knownFacts": "Fila 75′ scores the sole goal for Venezia, Napoli lose 1–0. Serie A 10P8W1D1L 25pts GF21 GA5; club 14P11W2D1L GF30GA8. Neves broken toe 3-month projected absence; Epolo expected 11 days absent, Burnett and Peacock share minutes; Davies (30, 91 OVR) one-year extension agreed (private wage/bonus details not published); Rossetti 18, 79 OVR on loan, selected for Italy as available substitute Nov 19 vs Denmark (no cap).",
+    "unknowns": "Fila first name and official assist, shots, xG, goalkeeper and lineups for Venezia, actual Neves exact return, exact Epolo injury/return start and Betis goalkeeper, Rossetti debut/Denmark result, current Serie A table ranking.",
+    "coverage": "Five independent journalist features (58 paragraphs); 37 hand-authored supporter root threads and 136 comments including replies; distinctive voices; no fabricated manager statements.",
+    "gallery": [
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/joao-neves-napoli.webp",
+      "assets/story-sandro-bastoni-defensive-talk.webp",
+      "assets/davies-napoli.jpg",
+      "assets/story-coaches-key-players-walkout.webp"
+    ],
+    "comments": {
+      "topLevel": 37,
+      "totalIncludingReplies": 136
+    },
+    "paragraphs": 58,
+    "nextFixture": "Napoli v Real Betis, 5 Nov 2030 Champions League home; Napoli v Torino 9 Nov home Serie A; Italy v Denmark 19 Nov with Rossetti available substitute.",
+    "press": "Private Davies financial figures deliberately not published. No new fabricated coach quotes. No claims of confirmed Rossetti cap, exact Neves/Epolo return games or new match details.",
+    "releaseVersion": "20301102-venezia-news-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "five repository sources visually inspected; compiled loading pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "articles": null,
+      "results": null,
+      "seasons": null,
+      "legacyScriptErrors": null,
+      "firstPaintLead": "venezia-napoli-fila-first-defeat-nov2-2030",
+      "serieA": "10P8W1D1L 25pts GF21GA5",
+      "club": "14P11W2D1L GF30GA8",
+      "manualImageVisualQA": "five source assets individually inspected; rendered mobile/desktop crop not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
     "phase": "Napoli 2–0 Roma 30 Oct 2030: Pio's 87′ breakthrough, Beier's 90+1′ counter, Moore three-match streak, Neves injury question",
     "match": "Napoli 2–0 Roma · Serie A · 30 October 2030",
@@ -157,79 +218,17 @@
     },
     "compiledCommit": "048aa3a199942d7979c06156718deb9d7adfb986"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, article image audit, compact snapshot browser tests and GitHub Pages deployment all succeeded",
-    "phase": "Napoli 3–1 comeback at Lecce away, 26 October 2030; rotated XI, Stach 1G2A, Moore and Raspadori finish",
-    "match": "Lecce 1–3 Napoli · Serie A · 26 October 2030",
-    "stories": [
-      "lecce-napoli-one-three-rotated-comeback-oct26-2030",
-      "stach-moore-raspadori-lecce-squad-depth-oct2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-lecce-napoli-oct26-2030.js",
-      "stories-stach-moore-lecce-oct2030.js",
-      "site-visible-lecce-napoli-oct26-2030.js"
-    ],
-    "knownFacts": "Lecce Lozano 25′ after Jetten giveaway; Napoli Moore 36′ assisted Stach, Stach 41′ rebound on Moore shot with official assist unknown, Raspadori 59′ assisted Stach. 3–1 FT. Stach 1G2A. Serie A 8P7W1D0L22pts GF19GA4. Club 12P10W2D GF28GA7. Moore 3G2A, Raspadori 2G1A, Stach 1G3A; Pio 13G3A, Beier 8G9A. Italy unchanged.",
-    "unknowns": "Official Moore assist on 41′ rebound, Lecce official assist, goalkeeper and complete lineups, formations, match shot totals, standings rank.",
-    "coverage": "Distinct original reporter-eye match report and player-depth feature, two original match-specific editorial SVGs, curated recurring supporter debate and nested replies. No new invented manager quote or match events.",
-    "comments": {
-      "topLevel": 23,
-      "totalIncludingReplies": 100
-    },
-    "paragraphs": 25,
-    "nextFixture": "Napoli vs Roma, 30 October 2030, home Serie A; Venezia 2 Nov, Betis 5 Nov, Torino 9 Nov.",
-    "press": "Manager has not entered press. No fabricated manager Q&A or direct quotations.",
-    "releaseVersion": "20301102-lecce-rotated-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "articleImageAudit": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 643,
-      "results": 127,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "lecce-napoli-one-three-rotated-comeback-oct26-2030",
-      "clubStats": "Pio 13G3A, Beier 8G9A, Moore 3G2A, Stach 1G3A, Raspadori 2G1A",
-      "serieA": "8P7W1D0L22pts GF19GA4",
-      "manualImageVisualQA": "not independently performed"
-    },
-    "compiledCommit": "6afa403fbc62913db7e6e9fc37759695e50f7d14",
-    "imageCorrection": {
-      "status": "Published — approved gallery covers verified in generated current stories and first-paint hero; editorial gate, compact snapshot/browser build and Pages deployment succeeded",
-      "userInstruction": "Use the existing approved Napoli gallery for Napoli stories; do not make up SVG editorial covers",
-      "repairs": [
-        [
-          "Lecce match report",
-          "assets/story-goal-celebration.webp"
-        ],
-        [
-          "Lecce player-depth feature",
-          "assets/story-napoli-key-players-huddle.webp"
-        ],
-        [
-          "Celtic match report",
-          "assets/story-european-team-celebration.webp"
-        ],
-        [
-          "Verona match report",
-          "assets/story-staff-squad-celebration.webp"
-        ]
-      ],
-      "visualReview": "Selected four assets individually inspected from approved repo gallery. Browser crop QA not yet independently done.",
-      "contentEffect": "Image-only corrections; preserve article IDs, body, comments and football canon.",
-      "compiledCommit": "450aebd6a3a68f9785bde6a3188fc247fb04cc03",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41540921142",
-      "manualRenderedCropQA": "not independently performed; individual approved source images visually inspected"
-    }
-  },
   "release_history": [
+    {
+      "release_version": "20301102-roma-late-pio-beier-moore-neves-v1",
+      "phase": "Napoli 2–0 Roma 30 Oct 2030: Pio's 87′ breakthrough, Beier's 90+1′ counter, Moore three-match streak, Neves injury question",
+      "story_ids": [
+        "napoli-roma-two-nil-pio-beier-late-oct30-2030",
+        "moore-three-straight-napoli-pio-roma-oct2030",
+        "joao-neves-roma-injury-napoli-midfield-question-oct2030"
+      ],
+      "archived_at": "After Venezia 1–0 Napoli, 2 November 2030"
+    },
     {
       "release_version": "20301030-england-france-semifinal-v3",
       "phase": "World Cup semifinal after England quarterfinal: France confirmed as next opponent",
