@@ -49,3 +49,5 @@ const next=$('nextTwo');if(next)next.innerHTML=D.upcoming.filter(x=>x[1]==='Seri
 const strip=$('upcomingStrip');if(strip)strip.innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+esc(x[1])+'</span><strong>'+esc(x[0])+'</strong><small>'+esc(x[2])+'</small></div>').join('');
 const status=document.querySelector('.header-status span:last-child');if(status)status.textContent='VENEZIA 1–0 NAPOLI · FIRST DEFEAT · REAL BETIS NEXT';
 })();
+
+/* Preserve apostrophes in November headline and article previews; recompile against current branch after newsroom ledger update. */
