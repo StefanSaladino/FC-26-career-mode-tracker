@@ -90,10 +90,10 @@
     {
       "month": "2030-11",
       "status": "covered",
-      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated."
+      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals."
     }
   ],
-  "latest_confirmed_match": "Napoli 4–1 Real Betis · Champions League · 5 November 2030 · Beier hat-trick 15′ (Pio), 55′ (Moore), 75′ (McTominay); Moore 70′ (Pio); Betis Marcos Leonardo 9′ rebound",
+  "latest_confirmed_match": "Napoli 3–1 Torino · Serie A · 9 November 2030 · HT 1–1 · Pio 29′ (Zaïre-Emery), Sazonov 45′ (Torino), Moore 70′ (Pio), Beier 81′ (McTominay). Kayode available, Epolo recovered.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -108,6 +108,59 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source authored; editorial, browser and Pages verification pending",
+    "phase": "Napoli 3–1 Torino 9 Nov 2030, Moore restores lead, Pio goal and assist, Beier scores from McTominay; Kayode injury not serious and Epolo recovered",
+    "match": "Napoli 3–1 Torino · Serie A · 9 November 2030",
+    "stories": [
+      "napoli-torino-three-one-moore-pio-beier-nov9-2030",
+      "pio-moore-torino-seventy-minute-breakthrough-nov2030",
+      "torino-kayode-cleared-epolo-back-peacock-header-nov2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-napoli-torino-nov9-2030.js",
+      "stories-torino-pio-moore-nov2030.js",
+      "stories-torino-kayode-epolo-nov2030.js",
+      "site-visible-napoli-torino-nov9-2030.js"
+    ],
+    "knownFacts": "Napoli 3–1 Torino. Kayode injured 28′ but later cleared and available; Pio 29′ (Zaïre-Emery assist), Sazonov 45′ Torino weak header with Peacock in goal, Moore 70′ (Pio assist), Beier 81′ (McTominay assist). Epolo recovered. Serie A 11P9W1D1L 28pts GF24 GA6; all club 16P13W2D1L GF37 GA10; UCL unchanged 10 pts; Pio 15G7A, Moore 5G4A, Beier 13G9A, Zaïre-Emery 0G2A, McTominay 0G2A.",
+    "unknowns": "Kayode specific injury diagnosis or substitution, Torino scorer's first name/assist, Torino header saveability subjective, other match events, standings position; no confirmed Italy fixture result or Rossetti debut.",
+    "coverage": "Three distinct reporter-eye stories: 13-paragraph match report, 12-paragraph Pio/Moore character feature, 11-paragraph Kayode/Epolo/Peacock squad analysis. 25 authored top-level supporter threads, 105 posts including replies. No invented manager statements or player quotes.",
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-esposito-manager-coaching.webp",
+      "assets/michael-kayode-napoli.webp"
+    ],
+    "comments": {
+      "topLevel": 25,
+      "totalIncludingReplies": 105
+    },
+    "paragraphs": 36,
+    "nextFixture": "Napoli away at Cagliari 23 Nov 2030 Serie A, after Italy v Denmark home 19 Nov (Rossetti available substitute). Manchester City away UCL 26 Nov.",
+    "press": "Manager authorised stories but did not give any public press quotes; no fabricated interview. Peacock saveability attributed as opinion only. Epolo healed, Kayode cleared; no invented diagnoses.",
+    "releaseVersion": "20301109-torino-availability-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "three approved existing Napoli gallery source images visually inspected; final snapshot loading and crop QA pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "articles": null,
+      "results": null,
+      "seasons": null,
+      "legacyScriptErrors": null,
+      "firstPaintLead": "napoli-torino-three-one-moore-pio-beier-nov9-2030",
+      "serieA": "11P9W1D1L 28pts GF24GA6",
+      "club": "16P13W2D1L GF37GA10",
+      "playerStats": "Pio 15G7A, Beier 13G9A, Moore 5G4A, McT 0G2A, Zaïre-Emery 0G2A",
+      "manualImageVisualQA": "Approved source images inspected, independent rendered desktop/mobile crop QA not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser snapshot build and GitHub Pages deployment succeeded",
     "phase": "Napoli 4–1 Real Betis, 5 November 2030: Beier hat-trick; Moore goal and assist; Pio two assists; McTominay long-ball assist",
     "match": "Napoli 4–1 Real Betis · UEFA Champions League · 5 November 2030",
@@ -164,65 +217,18 @@
     },
     "compiledCommit": "19a574dcdac68369be37c8cb12bc16c9de372cb1"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial quality gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
-    "phase": "First 2030–31 defeat at Venezia; Neves diagnosed broken toe, three months out; Epolo expected 11 days out; Davies renewal; Rossetti Italy Denmark bench",
-    "match": "Venezia 1–0 Napoli · Serie A · 2 November 2030",
-    "stories": [
-      "venezia-napoli-fila-first-defeat-nov2-2030",
-      "neves-broken-toe-three-months-napoli-nov2030",
-      "epolo-eleven-day-absence-burnett-peacock-betis-nov2030",
-      "alphonso-davies-napoli-extension-agreement-nov2030",
-      "rossetti-italy-selection-denmark-bench-nov2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk",
-      "Luca Bellini · Club correspondent",
-      "Marco D'Amato · Azzurri correspondent"
-    ],
-    "source": [
-      "stories-venezia-neves-epolo-davies-rossetti-nov2030.js",
-      "site-visible-venezia-november-2030.js"
-    ],
-    "knownFacts": "Fila 75′ scores the sole goal for Venezia, Napoli lose 1–0. Serie A 10P8W1D1L 25pts GF21 GA5; club 14P11W2D1L GF30GA8. Neves broken toe 3-month projected absence; Epolo expected 11 days absent, Burnett and Peacock share minutes; Davies (30, 91 OVR) one-year extension agreed (private wage/bonus details not published); Rossetti 18, 79 OVR on loan, selected for Italy as available substitute Nov 19 vs Denmark (no cap).",
-    "unknowns": "Fila first name and official assist, shots, xG, goalkeeper and lineups for Venezia, actual Neves exact return, exact Epolo injury/return start and Betis goalkeeper, Rossetti debut/Denmark result, current Serie A table ranking.",
-    "coverage": "Five independent journalist features (58 paragraphs); 37 hand-authored supporter root threads and 136 comments including replies; distinctive voices; no fabricated manager statements.",
-    "gallery": [
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/joao-neves-napoli.webp",
-      "assets/story-sandro-bastoni-defensive-talk.webp",
-      "assets/davies-napoli.jpg",
-      "assets/story-coaches-key-players-walkout.webp"
-    ],
-    "comments": {
-      "topLevel": 37,
-      "totalIncludingReplies": 136
-    },
-    "paragraphs": 58,
-    "nextFixture": "Napoli v Real Betis, 5 Nov 2030 Champions League home; Napoli v Torino 9 Nov home Serie A; Italy v Denmark 19 Nov with Rossetti available substitute.",
-    "press": "Private Davies financial figures deliberately not published. No new fabricated coach quotes. No claims of confirmed Rossetti cap, exact Neves/Epolo return games or new match details.",
-    "releaseVersion": "20301102-venezia-news-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "approvedGalleryAssetVerification": "five existing gallery assets individually visually inspected; sources exist; compiled site uses the chosen images",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 651,
-      "results": 129,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "venezia-napoli-fila-first-defeat-nov2-2030",
-      "serieA": "10P8W1D1L 25pts GF21GA5",
-      "club": "14P11W2D1L GF30GA8",
-      "manualImageVisualQA": "five source assets individually inspected; rendered mobile/desktop crop not independently performed",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41569062905"
-    },
-    "compiledCommit": "14fe1a79d8c5a9631fd15bc545e39d3f79f7bfb3"
-  },
   "release_history": [
+    {
+      "release_version": "20301102-betis-beier-v1",
+      "phase": "Napoli 4–1 Real Betis, 5 November 2030: Beier hat-trick; Moore goal and assist; Pio two assists; McTominay long-ball assist",
+      "story_ids": [
+        "napoli-betis-four-one-beier-hattrick-ucl-nov5-2030",
+        "beier-three-goals-three-passes-betis-feature-nov2030",
+        "pio-moore-betis-two-creators-nov2030",
+        "mctominay-halfway-assist-midfield-betis-nov2030"
+      ],
+      "archived_at": "Following Napoli 3–1 Torino, Serie A on 9 November 2030"
+    },
     {
       "release_version": "20301102-venezia-news-v1",
       "phase": "First 2030–31 defeat at Venezia; Neves diagnosed broken toe, three months out; Epolo expected 11 days out; Davies renewal; Rossetti Italy Denmark bench",
