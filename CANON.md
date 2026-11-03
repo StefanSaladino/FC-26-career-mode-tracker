@@ -1,3 +1,13 @@
+## 2030–31 — ITALY v DENMARK, 19 NOVEMBER 2030 — HALF-TIME, ROSSETTI HALF-TIME ENTRY ORDERED
+
+- **HALF-TIME — MATCH LIVE:** **Italy 2–0 Denmark** at the half in the home international fixture on **19 November 2030**. The game is ongoing. The manager reports no other confirmed match events beyond the following. Competition (friendly, qualifier, etc.) remains **unspecified** beyond international; do not invent it or a final result.
+- **6′ — ITALY 1–0 DENMARK:** **Moise Kean** scores, **official assist Francesco Pio Esposito**.
+- **43′ — ITALY 2–0 DENMARK:** **Riccardo Calafiori** scores by putting away **his own rebound**. The manager explicitly credits **Pio Esposito with his second official assist of the match**. Avoid falsely crediting an assist on Calafiori's rebound to anyone else; the record is Pio's confirmed assist.
+- **HALF-TIME MANAGER INSTRUCTION — ROSSETTI:** The manager directly tells **E. Rossetti**, Napoli-owned **18-year-old 79 OVR right midfielder currently on loan**, **“Rossetti. You’re going in at the half.”** This establishes an **intended half-time substitution / imminent first senior Italy appearance**, but the second half has NOT begun in the reported event. **No entry onto the pitch, senior cap/debut, substitution minute or player removed has yet been confirmed.** The intention is not itself an appearance.
+- **INTERIM ITALY CONTRIBUTIONS:** Pio Esposito **two assists** at half-time, Kean one goal and Calafiori one goal. All are **Italy national-team events**, and must **not be added to Napoli club totals** (currently through Torino, Pio 15G7A).
+- **PRIVATE ASSISTANT REACTION:** Sandro praises the two-assist Pio half and treats Rossetti's projected debut as a potentially significant career milestone, while urging calm and simple play for the youngster. Any imagined halftime coaching dialogue is staff-room roleplay, not verified player quote or independently witnessed event.
+- **PUBLICATION:** No match-end result, Italy article, fixture advancement or publication authorised. Continue match live until manager confirms subsequent play/full time.
+
 ## 2030–31 — SERIE A MD11: NAPOLI 3–1 TORINO, 9 NOVEMBER 2030 — FULL TIME
 
 - **MANAGER-CONFIRMED FULL TIME:** **Napoli 3–1 Torino**, home in Serie A on **9 November 2030**; **half time 1–1**. Four confirmed goals: Pio Esposito 29′ (Zaïre-Emery assist), Sazonov 45′ (Torino weak header), Mikey Moore 70′ (Pio assist) and Maximilian Beier 81′ (Scott McTominay assist). No other goals, cards, shots, xG, lineups or substitutions verified.
