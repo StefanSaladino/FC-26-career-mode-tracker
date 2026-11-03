@@ -1,7 +1,7 @@
 /* 2–3 November 2030: Venezia 1–0 Napoli; Fila 75′. Updated confirmed injury and national selection, contract news and approved-gallery newsroom. */
 (()=>{'use strict';
 const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={}),$=id=>document.getElementById(id);
-const esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+const esc=v=>String(v??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
 const season='2030–31',match={date:'2030-11-02',team:'Napoli',opponent:'Venezia',venue:'Away',competition:'Serie A',status:'completed',score:'0–1',teamCleanSheet:false,events:[{minute:75,team:'Venezia',scorer:'Fila',assist:null}],notes:'Venezia 1–0 Napoli, full time. Fila 75′. Napoli first defeat of 2030–31; no Venezia assist, goalkeeper or additional match events established.'};
 const sched=D.schedule203031=Array.isArray(D.schedule203031)?D.schedule203031:[];
 const prev=sched.find(x=>x.team==='Napoli'&&x.opponent==='Venezia'&&x.date==='2030-11-02');
