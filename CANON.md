@@ -1,10 +1,12 @@
-## 2030–31 — PISA 0–3 NAPOLI · 7 DECEMBER 2030 · LIVE
+## 2030–31 — PISA 0–3 NAPOLI · 7 DECEMBER 2030 · HALFTIME
 
 - 12′: Anton Stach through ball to Warren Zaïre-Emery; Warren finishes first time into the top corner. Pisa 0–1 Napoli.
 - Minute unspecified: Raspadori passes to Moore, Moore passes to Pio Esposito, Pio threads Zaïre-Emery through for a second goal. Pisa 0–2 Napoli. Pio provided the final assist pass; Raspadori and Moore featured in build-up.
 - Minute unspecified: Pisa fail to clear a Napoli corner; Alphonso Davies collects the loose ball and scores. Pisa 0–3 Napoli. No officially credited assist known on Davies's goal.
-- Live match, not full time. Zaïre-Emery two goals, Davies one; Pio goal-assisting pass, Stach goal-assisting pass. Do not accrue final team points or claim a clean sheet. Pio and Stach live assists provisional pending official game credit.
+- **HALFTIME CONFIRMED by manager: Pisa 0–3 Napoli.** Match is not full time. Zaïre-Emery two goals, Davies one; Pio goal-assisting pass, Stach goal-assisting pass. Do not accrue final team points or claim a clean sheet. Pio and Stach live assists provisional pending official game credit.
 - Next confirmed fixture RB Leipzig away, 11 December, Champions League. Neves unavailable at least three more weeks per recent staff update. Public newsroom not yet authorized.
+
+- **Private halftime staff recommendation:** Preserve match control and monitor stamina, possibly rotating key players ahead of RB Leipzig away on 11 December. No actual second-half substitutions, tactics or further incidents yet confirmed.
 
 ## 2030–31 — STAFF MEDICAL UPDATE: JOÃO NEVES, DECEMBER 2030
 
