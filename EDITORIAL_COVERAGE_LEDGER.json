@@ -108,7 +108,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Staged — editorial quality gate, compiled browser tests and Pages deployment pending",
+    "status": "Published — editorial gate, static snapshot, production browser tests and GitHub Pages deployment succeeded",
     "phase": "Cagliari 1–3 Napoli, 23 Nov 2030: Beier three assists, Pio/Geertruida/McTominay goals, selective rotation",
     "match": "Cagliari 1–3 Napoli · Serie A MD12 · 23 November 2030",
     "stories": [
@@ -142,13 +142,22 @@
     "press": "No manager quotes invented, no compulsory interview. Prior November Rossetti interview covers monthly feature requirement.",
     "releaseVersion": "20301123-cagliari-beier-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "All paths originate in approved gallery and exist in repo. Rendered desktop/mobile crops not verified.",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending"
+      "editorialQualityGate": "success — 186 source scripts checked, zero objective technical errors, 21 context-review legacy warnings (9 surname-context, 10 historic missing-image references, 2 alternate article formats); none in newly authored Cagliari scripts",
+      "approvedGalleryAssetVerification": "All three cover assets exist in approved gallery and were visually inspected; archival artwork accurately captioned. Rendered desktop/mobile cropping not separately inspected.",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success — matching first-paint Cagliari lead, new story navigation and comments, full archive, Italy filters, season stats and compact runtime without legacy scripts running for visitors",
+      "pagesDeployment": "success",
+      "articles": 664,
+      "results": 133,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "cagliari-napoli-three-one-beier-three-assists-nov23-2030",
+      "clubScope": "Napoli club 2030–31: Pio 16G7A, Beier 13G12A, Geertruida 2G, McTominay 1G2A; Serie A 31 points after 12, UCL unchanged",
+      "nationalScope": "Italy 2–0 Denmark 19 Nov preserved; Rossetti 45-minute debut rating 7.3 preserved; no club/international mixing",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41763835771",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41764258527"
     },
-    "compiledCommit": null
+    "compiledCommit": "25e702adc98e"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot/browser tests, compiled commit and GitHub Pages deployment succeeded",
