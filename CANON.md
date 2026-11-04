@@ -1,3 +1,12 @@
+## 2030–31 — SERIE A MD13: NAPOLI v JUVENTUS, 1 DECEMBER 2030 — HALFTIME (LIVE)
+
+- **MANAGER-CONFIRMED LIVE HALFTIME UPDATE:** Napoli hosting Juventus in Serie A on **1 December 2030**. **Halftime score has NOT been specified by the manager**, so do not infer 0–0, any goals, scorers, assists, cards, lineups, or actual final outcome. Only chance-generation metrics are presently known.
+- **HALFTIME CHANCE STATS:** Napoli have **forced SIX saves** from Juventus's goalkeeper in the first half. Expected goals **Napoli 3.6 xG — Juventus 1.0 xG**, confirmed as first-half metrics. Do not turn 3.6 xG into actual goals or infer precise shot count/shot positions from six goalkeeper saves. Keeper name not provided.
+- **STAFF ASSESSMENT (PRIVATE):** Napoli have generated strong chances and tested the goalkeeper repeatedly; Juventus's 1.0 xG represents meaningful threat. Sandro recommends preserving what is creating chances, making calmer final decisions, and retaining protection against Juventus counters rather than recklessly increasing pressing; monitor the return of any physically compromised players after the Manchester City food-poisoning episode, without inventing their recovery status.
+- **COMPETITION/SEASON STATUS:** Match **LIVE at halftime**, no Serie A points, completed appearances, goals/assists or updated standings accrued yet. Before kickoff Napoli's most recent confirmed Serie A record remains 12P10W1D1L, **31 points**, 27 scored and 7 conceded; UCL still 5P4W1D0L, 13 points.
+- **PUBLICATION:** No Juventus stories authorized. Preserve private halftime staff discussion and metrics in the sole CANON.md; do not publish a halftime story or change the public compiled site unless the manager explicitly authorizes publication.
+- **NEXT:** Await the manager's confirmed halftime score, second-half incidents and full-time result.
+
 ## 2030–31 — UCL MD5: MANCHESTER CITY 0–1 NAPOLI, 26 NOVEMBER 2030 — FULL TIME
 
 - **MANAGER-CONFIRMED RESULT:** **Manchester City 0–1 Napoli**, away in the UEFA Champions League on **26 November 2030**. **Half-time 0–0**. The manager describes the victory as having come **“under dubious circumstances”**, referring in immediate context to the squad's food-poisoning disruption; do **not** infer referee controversy, cheating, City's performance, or any other unspecified incident.
