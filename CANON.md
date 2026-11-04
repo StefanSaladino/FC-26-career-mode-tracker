@@ -1,3 +1,10 @@
+## 2030–31 — STAFF MEDICAL UPDATE: JOÃO NEVES, DECEMBER 2030
+
+- Manager confirms João Neves remains unavailable for **at least another three weeks** as of the December schedule discussion (current calendar points to 7 December 2030). No guaranteed return date is known; do not mark fit automatically after three weeks.
+- Plan without Neves for Pisa (7 Dec), Leipzig (11 Dec), Sampdoria (14 Dec), Pescara (18 Dec), Parma (21 Dec). His availability for Udinese on 28 December remains uncertain pending another update.
+- Staff guidance only: manage Zaïre-Emery's minutes and rotate appropriate midfield responsibilities among McTominay and Stach; Nico Paz remains a creative option. No tactical selection is yet confirmed.
+- Staff-room medical information only; no separate public medical announcement or newsroom article authorised.
+
 ## 2030–31 — SERIE A MD13: NAPOLI 2–1 JUVENTUS, 1 DECEMBER 2030 — FULL TIME
 
 - **MANAGER-CONFIRMED FULL TIME:** Napoli **2–1 Juventus** at home in Serie A on **1 December 2030**. At 58′ Beier **breaks the deadlock** for 1–0, so half-time was goalless; Hasa scores the second at 78′, and **Kenan Yildiz scores for Juventus at 90+2′**. The game finishes 2–1. Do not fabricate additional incidents, exact lineups, goalie identity or assists other than those established below.
