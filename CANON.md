@@ -11,7 +11,7 @@
 - **Club all competitions:** 17P 14W 2D 1L, GF40 GA11. UCL remains 4P3W1D0L, 10 points, GF11 GA3.
 - **Next:** Manchester City away November 26 (Champions League), Juventus home December 1 (Serie A).
 - **Staff assessment:** Selective rotation secured all three points and production from three separate scorers. Beier's creative output was decisive. Araujo's late goal prevented a clean sheet. No specific player can be blamed without further details.
-- **Publication:** This report is a private match-log update. Manager has not yet requested Cagliari stories; the public edition remains Italy–Denmark. Do not publish Cagliari coverage without authorization.
+- **PUBLICATION AUTHORIZED:** Following the result and staff discussion, manager explicitly requested **“We can run the stories as well”**, then repeated **“Continue with the stories please.”** Authorized Cagliari newsroom package: independent match report, Beier's second three-assist game feature (earlier Celtic), and a rotation/Manchester City squad analysis. No real or invented manager press answers, no invented tactical details, and no player interview necessary because November player features already exist. Publication status will be confirmed after the compiled build and GitHub Pages deployment succeed.
 
 ## 2030–31 — ITALY 2–0 DENMARK, 19 NOVEMBER 2030 — FULL TIME; ROSSETTI SENIOR DEBUT
 
