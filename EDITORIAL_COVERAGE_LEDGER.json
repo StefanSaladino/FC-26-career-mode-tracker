@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Pisa 2–3 Napoli · Serie A · 7 December 2030 · HT 0–3; Zaïre-Emery brace (12′ first-time top-corner from Stach through ball, second after Raspadori–Moore–Pio passing move, second goal minute unknown), Davies scores after failed Pisa corner clearance (minute unknown); Pisa Durosinmi 62′, Vural 81′. Peacock first start in a while, two conceded, no attributed individual errors. Napoli 37 league points after fourteen; all club 20 played 17W2D1L GF46 GA14.",
+  "latest_confirmed_match": "RB Leipzig 2–2 Napoli · Champions League MD6 · 11 December 2030; Ouedraogo 45′, Bakayoko 72′ after Epolo misplaced throw; Zaïre-Emery 81′ from McTominay, Beier stoppage-time equaliser from Pio. Napoli second in UCL after six with 14 pts; Manchester City and Liverpool outside playoff qualification positions.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,57 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Sources committed; compact build and Pages deployment verification pending",
+    "phase": "RB Leipzig 2–2 Napoli 11 December 2030: two-goal comeback, Epolo throwing mistake, Zaïre-Emery and Beier late goals; UCL second with 14 points, City/Liverpool outside playoff positions",
+    "match": "RB Leipzig 2–2 Napoli · Champions League league phase MD6 · 11 December 2030",
+    "stories": [
+      "leipzig-two-two-beier-stoppage-zaire-rescue-dec2030",
+      "epolo-throw-bakayoko-leipzig-selection-scrutiny-dec2030",
+      "beier-pio-zaire-late-rescue-leipzig-partnerships-dec2030",
+      "bellandi-napoli-second-city-liverpool-below-cutline-dec2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-leipzig-napoli-2-2-dec11-2030-report.js",
+      "stories-epolo-leipzig-giveaway-2030-analysis.js",
+      "stories-beier-pio-zaire-leipzig-comeback-dec2030.js",
+      "stories-bellandi-city-liverpool-napoli-ucl-standings-dec2030.js",
+      "site-visible-leipzig-2-2-dec11-2030.js"
+    ],
+    "gallery": [
+      "assets/beier-napoli.jpg",
+      "assets/story-coaches-team-tactics.webp",
+      "assets/story-manager-pio-esposito.webp",
+      "assets/story-champions-league-stakes.webp"
+    ],
+    "knownFacts": "Leipzig Ouedraogo 45′, Bakayoko 72′ after Epolo throw giveaway; Napoli Zaïre-Emery 81′ from McTominay, Beier equalises in stoppage time after Pio passes through; Leipzig GK Svilar formerly Roma. Napoli UCL 6P4W2D0L 14pts GF14 GA5 +9 and second in standings; Manchester City and Liverpool outside playoff qualifying places after six, not eliminated. Napoli club 21P17W3D1L GF48 GA16. Serie A unchanged 14P12W1D1L 37pts.",
+    "unknowns": "Do not invent exact stoppage-time minute, the nature of Ouedraogo goal or Bakayoko finish, the rest of Leipzig XI, shots/xG, team above Napoli, City/Liverpool points or positions, or precise official in-game assist designations for Pio and McT. No private staff voices or manager quotes in stories.",
+    "coverage": "Four original story angles (50 paragraphs) with 37 bespoke threads and 121 original comments including replies. No fictional player interview necessary (December Hasa Q&A already covered).",
+    "comments": {
+      "topLevel": 37,
+      "totalIncludingReplies": 121
+    },
+    "paragraphs": 50,
+    "nextFixture": "Sampdoria home 14 Dec Serie A, Pescara home 18 Dec cup, Parma away 21 Dec, Udinese home 28 Dec",
+    "press": "No manager press answers fabricated. Independent journalists observe the match; goalkeeper mistake known on-field and no private coaching or speculative hidden arguments are attributed to them.",
+    "releaseVersion": "20301211-leipzig-two-two-rescue-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "firstPaintLead": "leipzig-two-two-beier-stoppage-zaire-rescue-dec2030",
+      "clubScope": "UCL 6P4W2D0L 14 points second; club 21P17W3D1L GF48 GA16; Serie A 14P12W1D1L 37pts",
+      "italyScope": "unchanged and separate"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, compiled snapshot and GitHub Pages deployment succeeded",
     "phase": "Pisa 2–3 Napoli, 7 December 2030: Zaïre-Emery first season brace, Davies third, Pisa rally from 0–3 to 2–3 and Peacock's return",
     "match": "Pisa 2–3 Napoli · Serie A MD14 · 7 December 2030",
@@ -168,67 +219,17 @@
     },
     "compiledCommit": "28c1a75e18fb068170c15c011d3b0489dc1d633b"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
-    "phase": "Napoli 2–1 Juventus, 1 December 2030: Beier opener + official Hasa assist, Hasa follow-up goal, Yildiz late reply; xG 4.6–2.6",
-    "match": "Napoli 2–1 Juventus · Serie A MD13 · 1 December 2030",
-    "stories": [
-      "napoli-juventus-two-one-beier-hasa-yildiz-dec1-2030",
-      "lirim-hasa-juventus-goal-fictional-interview-dec2030",
-      "napoli-juventus-xg-saves-finishing-defense-dec2030",
-      "bellandi-juventus-2-1-winning-is-not-immunity-dec2030"
-    ],
-    "bylines": [
-      "Marco D'Amato · Match correspondent",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-napoli-juventus-dec1-2030-report.js",
-      "stories-lirim-hasa-juventus-fictional-interview-dec2030.js",
-      "stories-napoli-juventus-xg-tactical-dec2030.js",
-      "stories-bellandi-juventus-critique-dec2030.js",
-      "site-visible-napoli-juventus-dec1-2030.js"
-    ],
-    "knownFacts": "Napoli home 2–1 Juventus Serie A 1 Dec 2030. Half time 0–0 despite Napoli 3.6 xG / Juventus 1.0 and six saves by Juve keeper. 58′ Beier from official Zaïre-Emery assist; 78′ Lirim Hasa scores own blocked-shot rebound from OFFICIALLY CREDITED Beier assist; 90+2′ Yildiz reduces deficit. FT xG 4.6–2.6; shots 13–10; shots on target 9–5, Napoli first. League 13P11W1D1L 34pts GF29 GA8; all club 19P16W2D1L GF43 GA12. Beier 14G13A, Hasa 1G1A, Zaïre-Emery 0G3A, Pio 17G7A. UCL 13 points unchanged.",
-    "unknowns": "Do not invent goal shot types other than Hasa follow-up, names of keepers, speculative shot minutes and positions, lineups, substitutions, specific tactical shape, Juventus goal assist, table ranking/rival points, changes to illnesses or manager press statements.",
-    "coverage": "Four distinct original articles: 15-paragraph match report, 20-paragraph December Hasa fictional in-universe Q&A/feature, 14-paragraph 4.6–2.6 xG tactical analysis, 11-paragraph Matteo Bellandi independent pundit column. 40 original top-level threads and 152 nonduplicate comments including nested replies.",
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-coaches-team-tactics.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "comments": {
-      "topLevel": 40,
-      "totalIncludingReplies": 152
-    },
-    "paragraphs": 60,
-    "nextFixture": "Pisa away 7 Dec 2030 Serie A; RB Leipzig away 11 Dec UCL",
-    "press": "The December Hasa interview is EXPLICITLY fictional/dramatized in label and narrative; not actual player testimony. No manager press answers invented. Bellandi's independent column references only public earlier media criticisms. No private staff injury or medical details leaked.",
-    "releaseVersion": "20301201-juventus-beier-hasa-v1",
-    "technical": {
-      "editorialQualityGate": "success — 195 source scripts checked, zero objective technical errors; 21 pre-existing nonblocking warnings (nine contextual names, ten historical image references, two alternate ID format cases), none in four new Juventus stories",
-      "approvedGalleryAssetVerification": "All four approved Napoli-gallery cover assets confirmed and inspected visually in source; captions identify fictional archival artwork. No separate manually inspected rendered desktop/mobile image crops.",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — new match lead, article opening/comments, full archive 671, player stats, year filters and Italy matches, with five-script compact visitor runtime",
-      "pagesDeployment": "success",
-      "articles": 671,
-      "results": 135,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-juventus-two-one-beier-hasa-yildiz-dec1-2030",
-      "clubScope": "Serie A 13P11W1D1L, 34 points, GF29 GA8. Club 19P16W2D1L GF43 GA12. Beier 14G13A including OFFICIAL Hasa assist; Lirim Hasa 1G1A, Zaïre-Emery 0G3A, Pio 17G7A.",
-      "matchMeasures": "Full time xG Napoli 4.6–2.6 Juventus; shots 13–10; shots on target 9–5. First half Napoli 3.6 xG–1.0 Juve, Juventus keeper six saves; Hasa own blocked-shot follow-up.",
-      "italyScope": "Previous Italy 2–0 Denmark and Rossetti 45-minute senior debut remain unchanged",
-      "interview": "December player feature requirement met by clearly labelled fictional Lirim Hasa in-universe dramatization; no invented manager statements",
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41771536098",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41771926424"
-    },
-    "compiledCommit": "23dd4a364b79"
-  },
   "release_history": [
+    {
+      "release_version": "20301207-pisa-warren-escape-v1",
+      "phase": "Prior Pisa newsroom edition, succeeded",
+      "story_ids": [
+        "pisa-napoli-three-two-zaire-davies-collapse-dec7-2030",
+        "zaire-emery-two-goals-pisa-midfield-dec2030",
+        "pisa-3-2-peacock-defensive-collapse-leipzig-dec2030"
+      ],
+      "archived_at": "Superseded by RB Leipzig 2–2 Napoli UCL edition 11 Dec 2030"
+    },
     {
       "release_version": "20301126-city-pio-olise-v1",
       "phase": "Manchester City 0–1 Napoli, 26 Nov 2030: Pio 58′ header from Olise cross, 13 points from 5 UCL games",
@@ -466,7 +467,10 @@
       "seasons": 4
     },
     "last_compiled_revision": "c2d6584300af",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926587303"
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926587303",
+    "pendingSourceRevision": "20301211-leipzig-two-two-rescue-v1",
+    "pendingLead": "leipzig-two-two-beier-stoppage-zaire-rescue-dec2030",
+    "most_recent_source_fixture": "RB Leipzig 2–2 Napoli · UCL · 11 December 2030"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
