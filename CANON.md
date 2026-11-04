@@ -1,15 +1,18 @@
-## 2030–31 — PISA 1–3 NAPOLI · 7 DECEMBER 2030 · LIVE, 62′
+## 2030–31 — SERIE A MD14: PISA 2–3 NAPOLI, 7 DECEMBER 2030 — FULL TIME
 
-- 12′: Anton Stach through ball to Warren Zaïre-Emery; Warren finishes first time into the top corner. Pisa 0–1 Napoli.
-- Minute unspecified: Raspadori passes to Moore, Moore passes to Pio Esposito, Pio threads Zaïre-Emery through for a second goal. Pisa 0–2 Napoli. Pio provided the final assist pass; Raspadori and Moore featured in build-up.
-- Minute unspecified: Pisa fail to clear a Napoli corner; Alphonso Davies collects the loose ball and scores. Pisa 0–3 Napoli. No officially credited assist known on Davies's goal.
-- **HALFTIME CONFIRMED by manager: Pisa 0–3 Napoli.** Match is not full time. **62′: Durosinmi scores for Pisa, reducing Napoli's lead to 1–3.** Goal assist and manner of finish have not been supplied. Zaïre-Emery two goals, Davies one; Pio goal-assisting pass, Stach goal-assisting pass. Do not accrue final team points or claim a clean sheet. Pio and Stach live assists provisional pending official game credit.
-- Next confirmed fixture RB Leipzig away, 11 December, Champions League. Neves unavailable at least three more weeks per recent staff update. Public newsroom not yet authorized.
-
-- **Private halftime staff recommendation:** Preserve match control and monitor stamina, possibly rotating key players ahead of RB Leipzig away on 11 December. No actual second-half substitutions, tactics or further incidents yet confirmed.
-
-
-- **Live 62′ staff assessment:** Despite conceding and losing the chance of a clean sheet, Napoli retain a two-goal lead. Stay compact without retreating excessively; secure the result before prioritizing rotation ahead of RB Leipzig. No confirmed substitutions or further scoring.
+- **MANAGER-CONFIRMED RESULT:** **Pisa 2–3 Napoli**, away, Serie A, **7 December 2030**. **Half-time Pisa 0–3 Napoli.** Napoli win despite conceding twice in the second half. Final score confirmed; no further goals, team xG, shots, possession, cards or substitutions confirmed.
+- **12′ — PISA 0–1 NAPOLI:** **Warren Zaïre-Emery** scores first time into the top corner from **Anton Stach's through ball** (final goal-creating pass).
+- **MINUTE NOT YET PROVIDED — PISA 0–2 NAPOLI:** **Raspadori → Mikey Moore → Pio Esposito → Zaïre-Emery** passing move. **Pio threads Zaïre-Emery through for Warren's second goal**, completing a brace. Raspadori and Moore are involved earlier in buildup, not credited an assist for this goal.
+- **MINUTE NOT YET PROVIDED — PISA 0–3 NAPOLI:** Pisa botch the clearance from a **Napoli corner**; **Alphonso Davies** collects the ball and scores. Goal-assisting pass not reported; don't fabricate an assist.
+- **62′ — PISA 1–3 NAPOLI:** **Durosinmi** scores for Pisa. No goal mechanics or official assist provided.
+- **81′ — PISA 2–3 NAPOLI:** **Vural** scores Pisa's second. No goal mechanics or official assist provided. Napoli survive the late pressure and win **3–2**.
+- **GOALKEEPER / STAFF CONTEXT:** **Peacock makes his first start in a while**. Manager says it “does not go well,” with two second-half goals conceded. Do not identify individual errors or blame specific actions without further footage or the manager's description. No clean sheet. This is a private staff assessment, not a fictional player statement or reporter-sourced incident.
+- **NAPOLI PLAYER CONTRIBUTIONS, PENDING EXPLICIT OFFICIAL-ASSIST CONFIRMATION:** Zaïre-Emery **+2 goals**, taking his Napoli club tally from **0G3A to 2G3A**. **Anton Stach** gave the last pass on goal one, **Pio Esposito** the last pass on goal two; these are reported goal-creating passes but precise in-game official assist credit was not separately confirmed. Provisional natural-assist totals: **Stach 1G4A** (prior 1G3A), **Pio Esposito 17G8A** (prior 17G7A). **Davies +1 goal**; previous club-season Davies total not yet checked, so do not invent an overall Davies goal count. All other recorded Napoli stats from Juventus unchanged absent a new event.
+- **SERIE A AFTER PISA:** **14 played, 12 wins, one draw, one loss, 37 points**, **32 GF, 10 GA, +22 GD**. Previous league record 13P11W1D1L, 34pts, GF29 GA8.
+- **ALL COMPETITIVE NAPOLI CLUB MATCHES:** **20 played, 17 wins, two draws, one loss, 46 GF and 14 GA**. UCL remains 5P4W1D0L, 13pts, 12GF and 3GA.
+- **STAFF ASSESSMENT (PRIVATE):** Excellent first half and Warren's two goals plus Davies's opportunistic finish; concern is a failure to hold 3–0 second-half lead comfortably. Review team defensive transitions, game management and Peacock's individual performance without attributing unsupported goalkeeping errors. Manager observes that “three points are three points.” No additional player medical or lineup assumptions. João Neves remains unavailable for at least another three weeks as previously confirmed.
+- **NEXT FIXTURES:** **RB Leipzig away 11 December 2030** in Champions League, **Sampdoria home 14 December** Serie A, **Pescara home 18 December** cup, **Parma away 21 December** Serie A, **Udinese home 28 December** Serie A.
+- **EDITORIAL BOUNDARY:** Final result recorded in the **single CANON.md**. Manager has not yet instructed newsroom publication of Pisa reports; most recent *public* edition remains Napoli 2–1 Juventus until authorized and deployed. Do not update generated public results, league data or player stats prematurely.
 
 ## 2030–31 — STAFF MEDICAL UPDATE: JOÃO NEVES, DECEMBER 2030
 
