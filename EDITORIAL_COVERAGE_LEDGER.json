@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Staged — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment pending",
+    "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
     "phase": "Napoli 2–1 Juventus, 1 December 2030: Beier opener + official Hasa assist, Hasa follow-up goal, Yildiz late reply; xG 4.6–2.6",
     "match": "Napoli 2–1 Juventus · Serie A MD13 · 1 December 2030",
     "stories": [
@@ -153,13 +153,24 @@
     "press": "The December Hasa interview is EXPLICITLY fictional/dramatized in label and narrative; not actual player testimony. No manager press answers invented. Bellandi's independent column references only public earlier media criticisms. No private staff injury or medical details leaked.",
     "releaseVersion": "20301201-juventus-beier-hasa-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "Four approved Napoli gallery assets verified to exist and source images visually inspected; rendered mobile/desktop crop verification not performed",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending"
+      "editorialQualityGate": "success — 195 source scripts checked, zero objective technical errors; 21 pre-existing nonblocking warnings (nine contextual names, ten historical image references, two alternate ID format cases), none in four new Juventus stories",
+      "approvedGalleryAssetVerification": "All four approved Napoli-gallery cover assets confirmed and inspected visually in source; captions identify fictional archival artwork. No separate manually inspected rendered desktop/mobile image crops.",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success — new match lead, article opening/comments, full archive 671, player stats, year filters and Italy matches, with five-script compact visitor runtime",
+      "pagesDeployment": "success",
+      "articles": 671,
+      "results": 135,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-juventus-two-one-beier-hasa-yildiz-dec1-2030",
+      "clubScope": "Serie A 13P11W1D1L, 34 points, GF29 GA8. Club 19P16W2D1L GF43 GA12. Beier 14G13A including OFFICIAL Hasa assist; Lirim Hasa 1G1A, Zaïre-Emery 0G3A, Pio 17G7A.",
+      "matchMeasures": "Full time xG Napoli 4.6–2.6 Juventus; shots 13–10; shots on target 9–5. First half Napoli 3.6 xG–1.0 Juve, Juventus keeper six saves; Hasa own blocked-shot follow-up.",
+      "italyScope": "Previous Italy 2–0 Denmark and Rossetti 45-minute senior debut remain unchanged",
+      "interview": "December player feature requirement met by clearly labelled fictional Lirim Hasa in-universe dramatization; no invented manager statements",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41771536098",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41771926424"
     },
-    "compiledCommit": null
+    "compiledCommit": "23dd4a364b79"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
