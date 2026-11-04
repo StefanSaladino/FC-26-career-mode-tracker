@@ -91,9 +91,14 @@
       "month": "2030-11",
       "status": "covered",
       "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals. November 19: Rossetti made his first senior Italy appearance at half-time vs Denmark, took two shots on target saved by Jorgensen and earned a 7.3; dedicated dramatized in-universe player Q&A commissioned. November 23: Elena De Luca character-led Beier analysis of two three-assist matches (Celtic and Cagliari), with 13G12A after Cagliari; no attributed player/manager interview. November 26: Elena De Luca follows Olise's assist to Pio's winning header against Manchester City with a distinct player-focused feature; no player or manager on-record quote invented."
+    },
+    {
+      "month": "2030-12",
+      "status": "covered",
+      "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations."
     }
   ],
-  "latest_confirmed_match": "Manchester City 0–1 Napoli · Champions League · 26 November 2030 · Pio Esposito 58′ header from Michael Olise cross; 0–0 HT; Napoli team clean sheet",
+  "latest_confirmed_match": "Napoli 2–1 Juventus · Serie A · 1 December 2030 · Beier 58′ (Zaïre-Emery), Hasa 78′ from own blocked shot (Beier OFFICIAL assist), Yildiz 90+2′; final xG 4.6–2.6, 13–10 shots, 9–5 SOT",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -108,6 +113,55 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Staged — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment pending",
+    "phase": "Napoli 2–1 Juventus, 1 December 2030: Beier opener + official Hasa assist, Hasa follow-up goal, Yildiz late reply; xG 4.6–2.6",
+    "match": "Napoli 2–1 Juventus · Serie A MD13 · 1 December 2030",
+    "stories": [
+      "napoli-juventus-two-one-beier-hasa-yildiz-dec1-2030",
+      "lirim-hasa-juventus-goal-fictional-interview-dec2030",
+      "napoli-juventus-xg-saves-finishing-defense-dec2030",
+      "bellandi-juventus-2-1-winning-is-not-immunity-dec2030"
+    ],
+    "bylines": [
+      "Marco D'Amato · Match correspondent",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-napoli-juventus-dec1-2030-report.js",
+      "stories-lirim-hasa-juventus-fictional-interview-dec2030.js",
+      "stories-napoli-juventus-xg-tactical-dec2030.js",
+      "stories-bellandi-juventus-critique-dec2030.js",
+      "site-visible-napoli-juventus-dec1-2030.js"
+    ],
+    "knownFacts": "Napoli home 2–1 Juventus Serie A 1 Dec 2030. Half time 0–0 despite Napoli 3.6 xG / Juventus 1.0 and six saves by Juve keeper. 58′ Beier from official Zaïre-Emery assist; 78′ Lirim Hasa scores own blocked-shot rebound from OFFICIALLY CREDITED Beier assist; 90+2′ Yildiz reduces deficit. FT xG 4.6–2.6; shots 13–10; shots on target 9–5, Napoli first. League 13P11W1D1L 34pts GF29 GA8; all club 19P16W2D1L GF43 GA12. Beier 14G13A, Hasa 1G1A, Zaïre-Emery 0G3A, Pio 17G7A. UCL 13 points unchanged.",
+    "unknowns": "Do not invent goal shot types other than Hasa follow-up, names of keepers, speculative shot minutes and positions, lineups, substitutions, specific tactical shape, Juventus goal assist, table ranking/rival points, changes to illnesses or manager press statements.",
+    "coverage": "Four distinct original articles: 15-paragraph match report, 20-paragraph December Hasa fictional in-universe Q&A/feature, 14-paragraph 4.6–2.6 xG tactical analysis, 11-paragraph Matteo Bellandi independent pundit column. 40 original top-level threads and 152 nonduplicate comments including nested replies.",
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-coaches-team-tactics.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "comments": {
+      "topLevel": 40,
+      "totalIncludingReplies": 152
+    },
+    "paragraphs": 60,
+    "nextFixture": "Pisa away 7 Dec 2030 Serie A; RB Leipzig away 11 Dec UCL",
+    "press": "The December Hasa interview is EXPLICITLY fictional/dramatized in label and narrative; not actual player testimony. No manager press answers invented. Bellandi's independent column references only public earlier media criticisms. No private staff injury or medical details leaked.",
+    "releaseVersion": "20301201-juventus-beier-hasa-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "Four approved Napoli gallery assets verified to exist and source images visually inspected; rendered mobile/desktop crop verification not performed",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
     "phase": "Manchester City 0–1 Napoli, 26 Nov 2030: Pio 58′ header from Olise cross, 13 points from 5 UCL games",
     "match": "Manchester City 0–1 Napoli · Champions League · 26 November 2030",
@@ -163,59 +217,17 @@
     },
     "compiledCommit": "f0119347d302"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, static snapshot, production browser tests and GitHub Pages deployment succeeded",
-    "phase": "Cagliari 1–3 Napoli, 23 Nov 2030: Beier three assists, Pio/Geertruida/McTominay goals, selective rotation",
-    "match": "Cagliari 1–3 Napoli · Serie A MD12 · 23 November 2030",
-    "stories": [
-      "cagliari-napoli-three-one-beier-three-assists-nov23-2030",
-      "beier-twelve-assists-celtic-cagliari-creative-forward-nov2030",
-      "cagliari-rotation-mctominay-geertruida-city-nov2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-napoli-cagliari-nov23-2030.js",
-      "site-visible-napoli-cagliari-nov23-2030.js"
-    ],
-    "knownFacts": "Cagliari 1–3 Napoli away 23 Nov, selective rotation. Pio 21′, Geertruida 32′, McTominay 63′, all Beier assists. Araujo 90′ replies for Cagliari. Beier 13G12A, Pio 16G7A, Geertruida 2 confirmed club goals, McTominay 1G2A. Serie A 12P10W1D1L 31 points GF27 GA7; all-club 17P14W2D1L GF40 GA11.",
-    "unknowns": "Do not invent changed starters, precise substitutions, shot descriptions, Cagliari Araujo first name/assist, keeper blame, xG, ranking or league gap. Do not imply a manager press appearance or a real-world player interview.",
-    "coverage": "Three independent articles: 12-paragraph away result report, 12-paragraph Beier creator feature with Celtic continuity, 12-paragraph squad and City analysis; 30 first-level unique threads and 108 bespoke comments with multi-person replies.",
-    "gallery": [
-      "assets/story-staff-squad-celebration.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-coaches-squad-tactics-session.webp"
-    ],
-    "comments": {
-      "topLevel": 30,
-      "totalIncludingReplies": 108
-    },
-    "paragraphs": 36,
-    "nextFixture": "Manchester City away 26 Nov 2030 UCL; Juventus home 1 Dec Serie A",
-    "press": "No manager quotes invented, no compulsory interview. Prior November Rossetti interview covers monthly feature requirement.",
-    "releaseVersion": "20301123-cagliari-beier-v1",
-    "technical": {
-      "editorialQualityGate": "success — 186 source scripts checked, zero objective technical errors, 21 context-review legacy warnings (9 surname-context, 10 historic missing-image references, 2 alternate article formats); none in newly authored Cagliari scripts",
-      "approvedGalleryAssetVerification": "All three cover assets exist in approved gallery and were visually inspected; archival artwork accurately captioned. Rendered desktop/mobile cropping not separately inspected.",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — matching first-paint Cagliari lead, new story navigation and comments, full archive, Italy filters, season stats and compact runtime without legacy scripts running for visitors",
-      "pagesDeployment": "success",
-      "articles": 664,
-      "results": 133,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "cagliari-napoli-three-one-beier-three-assists-nov23-2030",
-      "clubScope": "Napoli club 2030–31: Pio 16G7A, Beier 13G12A, Geertruida 2G, McTominay 1G2A; Serie A 31 points after 12, UCL unchanged",
-      "nationalScope": "Italy 2–0 Denmark 19 Nov preserved; Rossetti 45-minute debut rating 7.3 preserved; no club/international mixing",
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41763835771",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41764258527"
-    },
-    "compiledCommit": "25e702adc98e"
-  },
   "release_history": [
+    {
+      "release_version": "20301126-city-pio-olise-v1",
+      "phase": "Manchester City 0–1 Napoli, 26 Nov 2030: Pio 58′ header from Olise cross, 13 points from 5 UCL games",
+      "story_ids": [
+        "manchester-city-napoli-zero-one-pio-olise-nov26-2030",
+        "olise-esposito-headed-winner-manchester-city-nov2030",
+        "napoli-thirteen-ucl-points-city-clean-sheet-juventus-nov2030"
+      ],
+      "archived_at": "1 December 2030 after Napoli's home Juventus victory"
+    },
     {
       "release_version": "20301123-cagliari-beier-v1",
       "phase": "Cagliari 1–3 Napoli, 23 Nov 2030: Beier three assists, Pio/Geertruida/McTominay goals, selective rotation",
