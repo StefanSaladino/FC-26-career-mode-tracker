@@ -108,7 +108,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Staged — editorial gate, compact browser tests, compiled commit and Pages deployment pending",
+    "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
     "phase": "Manchester City 0–1 Napoli, 26 Nov 2030: Pio 58′ header from Olise cross, 13 points from 5 UCL games",
     "match": "Manchester City 0–1 Napoli · Champions League · 26 November 2030",
     "stories": [
@@ -145,13 +145,23 @@
     "press": "No fabricated manager statements or player interview. Internal illness specifics excluded from public journalism; no misleading account of unknown match events.",
     "releaseVersion": "20301126-city-pio-olise-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "Three approved asset paths found and source images visually inspected; no rendered desktop/mobile crops verified",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending"
+      "editorialQualityGate": "success — 190 source scripts, zero objective technical errors; 21 nonblocking legacy warnings (9 identity context, 10 historical image references, 2 alternate ID formats); no new City warnings",
+      "approvedGalleryAssetVerification": "All three cover images exist in approved gallery and were visually inspected. Accurate archival art captioned. Manual rendered mobile/desktop image-crop inspection not performed.",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success — matching City first-paint lead, new story navigation and comments, archive links, year-based club stats, Italy filters and five-file compact runtime; no legacy browser-side replay",
+      "pagesDeployment": "success",
+      "articles": 667,
+      "results": 134,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "manchester-city-napoli-zero-one-pio-olise-nov26-2030",
+      "clubScope": "18 club matches, Pio 17G7A, Olise 0G3A, Beier 13G12A; UCL 5P4W1D0L 13 points GF12 GA3, Serie A 31 points unchanged",
+      "italyScope": "Italy v Denmark senior match and Rossetti 45-minute debut retained; no mixing of international and club contributions",
+      "publicPrivacy": "Staff-only medical context excluded from public stories and match state",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41766701362",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41767168496"
     },
-    "compiledCommit": null
+    "compiledCommit": "f0119347d302"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, static snapshot, production browser tests and GitHub Pages deployment succeeded",
