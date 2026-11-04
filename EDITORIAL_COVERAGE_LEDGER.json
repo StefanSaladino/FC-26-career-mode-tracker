@@ -90,10 +90,10 @@
     {
       "month": "2030-11",
       "status": "covered",
-      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals. November 19: Rossetti made his first senior Italy appearance at half-time vs Denmark, took two shots on target saved by Jorgensen and earned a 7.3; dedicated dramatized in-universe player Q&A commissioned. November 23: Elena De Luca character-led Beier analysis of two three-assist matches (Celtic and Cagliari), with 13G12A after Cagliari; no attributed player/manager interview."
+      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals. November 19: Rossetti made his first senior Italy appearance at half-time vs Denmark, took two shots on target saved by Jorgensen and earned a 7.3; dedicated dramatized in-universe player Q&A commissioned. November 23: Elena De Luca character-led Beier analysis of two three-assist matches (Celtic and Cagliari), with 13G12A after Cagliari; no attributed player/manager interview. November 26: Elena De Luca follows Olise's assist to Pio's winning header against Manchester City with a distinct player-focused feature; no player or manager on-record quote invented."
     }
   ],
-  "latest_confirmed_match": "Cagliari 1–3 Napoli · Serie A · 23 November 2030 · Pio 21′ (Beier), Geertruida 32′ (Beier), McTominay 63′ (Beier), Araujo 90′",
+  "latest_confirmed_match": "Manchester City 0–1 Napoli · Champions League · 26 November 2030 · Pio Esposito 58′ header from Michael Olise cross; 0–0 HT; Napoli team clean sheet",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -108,6 +108,52 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Staged — editorial gate, compact browser tests, compiled commit and Pages deployment pending",
+    "phase": "Manchester City 0–1 Napoli, 26 Nov 2030: Pio 58′ header from Olise cross, 13 points from 5 UCL games",
+    "match": "Manchester City 0–1 Napoli · Champions League · 26 November 2030",
+    "stories": [
+      "manchester-city-napoli-zero-one-pio-olise-nov26-2030",
+      "olise-esposito-headed-winner-manchester-city-nov2030",
+      "napoli-thirteen-ucl-points-city-clean-sheet-juventus-nov2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-manchester-city-napoli-report-nov26-2030.js",
+      "stories-olise-pio-city-player-focus-nov2030.js",
+      "stories-city-thirteen-points-juventus-analysis-nov2030.js",
+      "site-visible-napoli-man-city-nov26-2030.js"
+    ],
+    "knownFacts": "City home 0–1 Napoli away. 0–0 HT, Pio heads Olise's cross in 58′, Napoli team clean sheet. Napoli UCL 5P4W1D0L, 13 pts GF12 GA3; club 18P15W2D1L GF41 GA11; Pio 17G7A, Olise 0G3A; Serie A 31 pts from 12 unchanged.",
+    "confidentialStaffContext": "Manager reports team food poisoning, Raspadori unavailable, unnamed players lowered stamina. This is held in private staff/canon context and was deliberately NOT reported in public articles or supporter comments because no separate public disclosure authorized.",
+    "unknowns": "Do not invent detailed City chances, goalkeeper, substitutions, tactical shape, cards, referee controversy, player medical particulars, league/UCL table positions, goals/assists or manager quotes.",
+    "coverage": "Three distinct original articles: 12-paragraph observer-written City match report, 12-paragraph Olise/Pio player feature, 12-paragraph UCL 13 points/next Juventus analysis. 32 top-level original supporter discussions, 114 total comments including replies, all unique texts.",
+    "gallery": [
+      "assets/story-european-team-celebration.webp",
+      "assets/story-manager-pio-esposito.webp",
+      "assets/story-champions-league-stakes.webp"
+    ],
+    "comments": {
+      "topLevel": 32,
+      "totalIncludingReplies": 114
+    },
+    "paragraphs": 36,
+    "nextFixture": "Juventus home 1 Dec 2030 Serie A; Pisa away 7 Dec; Leipzig away UCL 11 Dec",
+    "press": "No fabricated manager statements or player interview. Internal illness specifics excluded from public journalism; no misleading account of unknown match events.",
+    "releaseVersion": "20301126-city-pio-olise-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "Three approved asset paths found and source images visually inspected; no rendered desktop/mobile crops verified",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, static snapshot, production browser tests and GitHub Pages deployment succeeded",
     "phase": "Cagliari 1–3 Napoli, 23 Nov 2030: Beier three assists, Pio/Geertruida/McTominay goals, selective rotation",
     "match": "Cagliari 1–3 Napoli · Serie A MD12 · 23 November 2030",
@@ -159,59 +205,17 @@
     },
     "compiledCommit": "25e702adc98e"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact snapshot/browser tests, compiled commit and GitHub Pages deployment succeeded",
-    "phase": "Italy 2–0 Denmark, 19 November 2030: Pio Esposito two assists, Kean 6′, Calafiori 43′ own rebound, Rossetti senior debut and 7.3 rating",
-    "match": "Italy 2–0 Denmark · international · 19 November 2030",
-    "stories": [
-      "italy-denmark-two-zero-kean-calafiori-pio-nov19-2030",
-      "rossetti-italy-debut-jorgensen-two-saves-interview-nov2030",
-      "pio-two-assists-kean-calafiori-italy-denmark-feature-nov2030"
-    ],
-    "bylines": [
-      "Lorenzo Ferri · Azzurri correspondent",
-      "Elena De Luca · Player desk",
-      "Luca Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-italy-denmark-rossetti-nov19-2030.js",
-      "site-visible-italy-denmark-nov19-2030.js"
-    ],
-    "knownFacts": "Italy home 2–0 Denmark, 19 Nov FT, HT 2–0. Kean 6′ from Pio; Calafiori 43′ from own rebound with Pio official assist. Rossetti enters at half-time for senior Italy debut; age 18 OVR79, 7.3, two good shots on goal saved by Jorgensen. Italy team clean sheet; Napoli club state unchanged.",
-    "unknowns": "November international subtype unspecified; do not call it a EURO qualifier. No Jorgensen total saves beyond two on Rossetti, no Italian keeper identified, no full lineup, other match events, Rossetti outgoing substitute, exact shot minutes, future call-up or club recall.",
-    "coverage": "Three distinct articles: 12-paragraph independent full-time match report, 14-paragraph fictional in-universe Rossetti interview, and 12-paragraph Pio/Kean/Calafiori tactical analysis. 30 original top-level supporter threads, 92 comments including nested replies. No user manager answer invented.",
-    "gallery": [
-      "assets/story-coaches-key-players-walkout.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/pio-napoli.webp"
-    ],
-    "comments": {
-      "topLevel": 30,
-      "totalIncludingReplies": 92
-    },
-    "paragraphs": 38,
-    "nextFixture": "Napoli at Cagliari 23 Nov 2030 Serie A; Manchester City away UCL 26 Nov; Juventus home Serie A Dec 1.",
-    "press": "One clearly labelled dramatized player Q&A; no manager public answers or press quotations invented. Only verified Italy events on field; Napoli stat scope preserved.",
-    "releaseVersion": "20301119-italy-denmark-rossetti-v1",
-    "technical": {
-      "editorialQualityGate": "success — 184 scripts, 0 technical errors; 21 nonblocking pre-existing warnings (9 identity/context, 10 legacy image references, 2 alternate article ID formats); none in the new Denmark story file",
-      "approvedGalleryAssetVerification": "Three existing approved gallery asset paths confirmed; archival illustrations captioned honestly. No rendered desktop/mobile image-crop QA performed.",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — first-paint lead, new article opening and comments, full archive, 2030–31 stats and Italy match filtering",
-      "pagesDeployment": "success",
-      "articles": 661,
-      "results": 132,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "italy-denmark-two-zero-kean-calafiori-pio-nov19-2030",
-      "international": "Italy 2–0 Denmark · Rossetti debut at half-time, rating 7.3, 2 shots saved by Jorgensen; Pio two official assists",
-      "clubScope": "Napoli club 2030–31 Pio 15G7A, Beier 13G9A, Moore 5G4A; Serie A 28 points from 11 and UCL 10 points from four unchanged",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41575163689",
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41574755790"
-    },
-    "compiledCommit": "8ab84a637b5e"
-  },
   "release_history": [
+    {
+      "release_version": "20301123-cagliari-beier-v1",
+      "phase": "Cagliari 1–3 Napoli, 23 Nov 2030: Beier three assists, Pio/Geertruida/McTominay goals, selective rotation",
+      "story_ids": [
+        "cagliari-napoli-three-one-beier-three-assists-nov23-2030",
+        "beier-twelve-assists-celtic-cagliari-creative-forward-nov2030",
+        "cagliari-rotation-mctominay-geertruida-city-nov2030"
+      ],
+      "archived_at": "Following City away UCL victory, 26 November 2030"
+    },
     {
       "release_version": "20301119-italy-denmark-rossetti-v1",
       "phase": "Italy 2–0 Denmark, 19 November 2030: Pio Esposito two assists, Kean 6′, Calafiori 43′ own rebound, Rossetti senior debut and 7.3 rating",
