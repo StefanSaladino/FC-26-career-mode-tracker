@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Staged — compilation, editorial gate, browser tests and final Pages deployment pending",
+    "status": "Published — editorial gate, compact browser tests, compiled snapshot and GitHub Pages deployment succeeded",
     "phase": "Pisa 2–3 Napoli, 7 December 2030: Zaïre-Emery first season brace, Davies third, Pisa rally from 0–3 to 2–3 and Peacock's return",
     "match": "Pisa 2–3 Napoli · Serie A MD14 · 7 December 2030",
     "stories": [
@@ -149,13 +149,24 @@
     "press": "No fabricated manager quote or private medical disclosure. Peacock first start and two conceded treated as observable match context, no unsupported individual keeper errors.",
     "releaseVersion": "20301207-pisa-warren-escape-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "approvedGalleryAssetVerification": "All three published covers are from approved Napoli gallery and visually inspected in source. Accurate fictional archival captions; separate rendered image crop check pending or not performed.",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending"
+      "editorialQualityGate": "success — 199 source scripts, zero technical errors, 21 pre-existing nonblocking legacy warnings (nine identity contexts, ten historic image references, two alternate ID formats); zero new Pisa warnings",
+      "approvedGalleryAssetVerification": "Three approved Napoli gallery cover images verified to exist and visually inspected as source art; archival illustration captions accurate. Independent manual rendered desktop/mobile crops not separately checked.",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success — Pisa lead first-paint parity, new story links and comments, 674 full-archive articles, archived story navigation, year-based Napoli stats, 27 Italy match records, five-script compact runtime without historical JS replay",
+      "pagesDeployment": "success",
+      "articles": 674,
+      "results": 136,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "pisa-napoli-three-two-zaire-davies-collapse-dec7-2030",
+      "clubScope": "Serie A 14P12W1D1L 37 points GF32 GA10; club 20P17W2D1L GF46 GA14; Zaïre-Emery 2G3A, Davies 1G0A, Pio 17G8A and Stach 1G4A for goal-creating final passes (formal in-game assist credit separately unknown), Beier 14G13A",
+      "italyScope": "Italy 2030 archive retained separately from Napoli club stats; 27 Italy matches observed in browser test",
+      "goalTiming": "Zaïre-Emery second goal and Davies goal minutes unknown; no invented times or goalkeeper errors",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926510523",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926587303",
+      "browserPassed": true
     },
-    "compiledCommit": null
+    "compiledCommit": "28c1a75e18fb068170c15c011d3b0489dc1d633b"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
@@ -437,7 +448,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "92ef9338fb4ba1e10edb734c45abda1b0c676cbc",
+    "current_published_commit": "28c1a75e18fb068170c15c011d3b0489dc1d633b",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -447,7 +458,15 @@
       "first_paint_current_story": true,
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
-    }
+    },
+    "most_recent_published_fixture": "Pisa 2–3 Napoli · Serie A · 7 December 2030",
+    "last_verified_artifact_count": {
+      "articles": 674,
+      "results": 136,
+      "seasons": 4
+    },
+    "last_compiled_revision": "c2d6584300af",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926587303"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
