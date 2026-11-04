@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published prior edition; official-assist correction sources committed, corrected public build pending verification",
+    "status": "Published — official-assist correction verified in compiled edition and successful GitHub Pages deployment",
     "phase": "RB Leipzig 2–2 Napoli 11 December 2030: two-goal comeback, Epolo throwing mistake, Zaïre-Emery and Beier late goals; UCL second with 14 points, City/Liverpool outside playoff positions",
     "match": "RB Leipzig 2–2 Napoli · Champions League league phase MD6 · 11 December 2030",
     "stories": [
@@ -155,7 +155,7 @@
     "technical": {
       "editorialQualityGate": "success",
       "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — new lead, stories, comments, archive and stats",
+      "snapshotBrowserTests": "success",
       "pagesDeployment": "success",
       "firstPaintLead": "leipzig-two-two-beier-stoppage-zaire-rescue-dec2030",
       "clubScope": "UCL 6P4W2D0L 14 points second; club 21P17W3D1L GF48 GA16; Serie A 14P12W1D1L 37pts",
@@ -164,14 +164,14 @@
       "results": 137,
       "seasons": 4,
       "legacyScriptErrors": 0,
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41930924179",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41931009798",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41934697714",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41934780092",
       "browserPassed": true,
-      "compiledCommit": "9a84cffd0394ddb8235cfd7e1613cf51361dc471",
+      "compiledCommit": "4cb4a3538be357eb5dc26918020f76518195aa83",
       "metadata": "Leipzig description corrected",
-      "publicationCorrection": "Official-assist clarification committed as source and canon correction; republishing and Pages verification pending."
+      "publicationCorrection": "Manager-confirmed OFFICIAL Leipzig assists for McTominay and Pio published and deployed"
     },
-    "compiledCommit": "9a84cffd0394ddb8235cfd7e1613cf51361dc471",
+    "compiledCommit": "4cb4a3538be357eb5dc26918020f76518195aa83",
     "assistCorrection": {
       "status": "manager-confirmed official",
       "match": "RB Leipzig 2–2 Napoli · 11 December 2030",
@@ -482,7 +482,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "9a84cffd0394ddb8235cfd7e1613cf51361dc471",
+    "current_published_commit": "4cb4a3538be357eb5dc26918020f76518195aa83",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -499,12 +499,12 @@
       "results": 137,
       "seasons": 4
     },
-    "last_compiled_revision": "9718caddb26e",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41931009798",
-    "pendingSourceRevision": "20301211-leipzig-assists-official-v2",
+    "last_compiled_revision": "3f1bfab60866",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41934780092",
+    "pendingSourceRevision": null,
     "pendingLead": null,
     "most_recent_source_fixture": "RB Leipzig 2–2 Napoli · UCL · 11 December 2030",
-    "pendingCorrection": "Manager confirmed official assists for McTominay and Pio at Leipzig, source pending recompilation"
+    "pendingCorrection": null
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
