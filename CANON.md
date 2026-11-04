@@ -1,10 +1,25 @@
+## 2030–31 — SERIE A MD12: CAGLIARI 1–3 NAPOLI, 23 NOVEMBER 2030 — FULL TIME
+
+- **Confirmed:** Cagliari 1–3 Napoli, away, Serie A, 23 November 2030; selective rotation. Lineup and precise substitutions are unspecified.
+- **21′:** Pio Esposito scores, assist Maximilian Beier. 0–1.
+- **32′:** Lutsharel Geertruida scores, assist Maximilian Beier. 0–2.
+- **63′:** Scott McTominay scores, assist Maximilian Beier. 0–3.
+- **90′:** Araujo scores for Cagliari. 1–3 final. No further goal mechanics known.
+- **Beier:** Three assists in one game. Match 0G3A; Napoli season 13G12A.
+- **Napoli club totals:** Pio Esposito 16G7A; Geertruida 2 confirmed goals; McTominay 1G2A; Moore 5G4A; Zaïre-Emery 0G2A; Stach 1G3A; Raspadori 2G1A.
+- **League:** 12P 10W 1D 1L, 31 pts, GF27 GA7 GD+20.
+- **Club all competitions:** 17P 14W 2D 1L, GF40 GA11. UCL remains 4P3W1D0L, 10 points, GF11 GA3.
+- **Next:** Manchester City away November 26 (Champions League), Juventus home December 1 (Serie A).
+- **Staff assessment:** Selective rotation secured all three points and production from three separate scorers. Beier's creative output was decisive. Araujo's late goal prevented a clean sheet. No specific player can be blamed without further details.
+- **Publication:** This report is a private match-log update. Manager has not yet requested Cagliari stories; the public edition remains Italy–Denmark. Do not publish Cagliari coverage without authorization.
+
 ## 2030–31 — ITALY 2–0 DENMARK, 19 NOVEMBER 2030 — FULL TIME; ROSSETTI SENIOR DEBUT
 
 - **MANAGER-CONFIRMED FINAL:** **Italy 2–0 Denmark**, home international, **19 November 2030**; halftime also **2–0**. The manager has expressly authorized full newsroom stories after the final. This is a senior international, but the particular competition subtype (EURO qualifier vs friendly, etc.) was **not established**. Do not invent qualifying points, a group-table change or an opponent performance beyond the recorded events.
 - **6′ — ITALY 1–0 DENMARK:** **Moise Kean** scores, official assist **Francesco Pio Esposito**.
 - **43′ — ITALY 2–0 DENMARK:** **Riccardo Calafiori** follows up **his own rebound** to score. The manager confirms **Francesco Pio Esposito's second official assist** on the Calafiori goal. Do not assume what caused the rebound or invent additional goal mechanics.
 - **HALFTIME ROSSETTI INSTRUCTION AND ACTUAL DEBUT:** At 2–0 the manager had told E. Rossetti **“Rossetti. You’re going in at the half.”** In the subsequent full-time update he confirms Rossetti **actually entered and played well**, so Rossetti made his **first senior Italy appearance**, coming on at halftime. The earlier planned-only state is superseded. Player removed, full line-up and subsequent substitution details remain unreported. The manager's touchline instruction is private staff context, not a direct public-manager press quote.
-- **ROSSETTI'S VERIFIED SENIOR DEBUT:** Napoli-owned **E. Rossetti**, **18-year-old RM rated 79 OVR**, remains on loan. Debut **match rating 7.3**. He managed **two good shots on target**, and Denmark goalkeeper **Jorgensen made two good saves** from them. Do not presume Jorgensen had exactly two saves *overall*, or add invented shot minutes, positions, goals, appearances in other fixtures or an automatic Napoli recall.
+- **ROSSETTI'S VERIFIED SENIOR DEBUT:** Napoli-owned **E. Rossetti**, **18-year-old RM rated 79 OVR**, remains on loan. Debut **match rating 7.3 in 45 minutes (second half, not 90)**. He managed **two good shots on target**, and Denmark goalkeeper **Jorgensen made two good saves** from them. Do not presume Jorgensen had exactly two saves *overall*, or add invented shot minutes, positions, goals, appearances in other fixtures or an automatic Napoli recall.
 - **ITALY TEAM PERFORMANCE:** Two goals in the first half; none in the second. Denmark scoreless through full time, an **Italy team clean sheet**. Individual Italian goalkeeper identity and save totals were not supplied, so do not assign the clean sheet to a keeper. Score remained **2–0 at full time**.
 - **MATCH-ONLY ITALY CONTRIBUTIONS:** Pio **0G, 2 official assists**; Kean **1G**, Calafiori **1G**; Rossetti **0G with two verified shots on target**, 7.3 rating. Do not infer an all-time Italy tally from incomplete history. This international result and its contributions **must not affect Napoli club statistics, club career totals, Serie A, Champions League or the 2030–31 club match count**.
 - **NAPOLI STILL AFTER TORINO:** Club season **16P 13W 2D 1L, GF37 GA10**; Serie A **11P 9W 1D 1L, 28pts, GF24 GA6**; UCL **4P 3W 1D 0L, 10pts, GF11 GA3**. Napoli club goals/assists remain **Pio 15G7A, Beier 13G9A, Moore 5G4A, Zaïre-Emery 0G2A, McTominay 0G2A, Stach 1G3A and Raspadori 2G1A**. Neves remains sidelined with the confirmed broken toe and expected three-month absence; Kayode and Epolo are available.
