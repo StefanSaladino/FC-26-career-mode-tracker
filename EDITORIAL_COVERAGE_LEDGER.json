@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "RB Leipzig 2–2 Napoli · Champions League MD6 · 11 December 2030; Ouedraogo 45′, Bakayoko 72′ after Epolo misplaced throw; Zaïre-Emery 81′ from McTominay, Beier stoppage-time equaliser from Pio. Napoli second in UCL after six with 14 pts; Manchester City and Liverpool outside playoff qualification positions.",
+  "latest_confirmed_match": "RB Leipzig 2–2 Napoli · Champions League MD6 · 11 December 2030; Ouedraogo 45′, Bakayoko 72′ after Epolo misplaced throw; Zaïre-Emery 81′ from McTominay, Beier stoppage-time equaliser from Pio. Napoli second in UCL after six with 14 pts; Manchester City and Liverpool outside playoff qualification positions. MANAGER CORRECTION: McTominay-to-Zaïre-Emery and Pio-to-Beier Leipzig assists are both OFFICIALLY CREDITED.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published — checks and Pages deployment succeeded",
+    "status": "Published prior edition; official-assist correction sources committed, corrected public build pending verification",
     "phase": "RB Leipzig 2–2 Napoli 11 December 2030: two-goal comeback, Epolo throwing mistake, Zaïre-Emery and Beier late goals; UCL second with 14 points, City/Liverpool outside playoff positions",
     "match": "RB Leipzig 2–2 Napoli · Champions League league phase MD6 · 11 December 2030",
     "stories": [
@@ -141,8 +141,8 @@
       "assets/story-manager-pio-esposito.webp",
       "assets/story-champions-league-stakes.webp"
     ],
-    "knownFacts": "Leipzig Ouedraogo 45′, Bakayoko 72′ after Epolo throw giveaway; Napoli Zaïre-Emery 81′ from McTominay, Beier equalises in stoppage time after Pio passes through; Leipzig GK Svilar formerly Roma. Napoli UCL 6P4W2D0L 14pts GF14 GA5 +9 and second in standings; Manchester City and Liverpool outside playoff qualifying places after six, not eliminated. Napoli club 21P17W3D1L GF48 GA16. Serie A unchanged 14P12W1D1L 37pts.",
-    "unknowns": "Do not invent exact stoppage-time minute, the nature of Ouedraogo goal or Bakayoko finish, the rest of Leipzig XI, shots/xG, team above Napoli, City/Liverpool points or positions, or precise official in-game assist designations for Pio and McT. No private staff voices or manager quotes in stories.",
+    "knownFacts": "Leipzig Ouedraogo 45′, Bakayoko 72′ after Epolo throw giveaway; Napoli Zaïre-Emery 81′ from McTominay, Beier equalises in stoppage time after Pio passes through; Leipzig GK Svilar formerly Roma. Napoli UCL 6P4W2D0L 14pts GF14 GA5 +9 and second in standings; Manchester City and Liverpool outside playoff qualifying places after six, not eliminated. Napoli club 21P17W3D1L GF48 GA16. Serie A unchanged 14P12W1D1L 37pts. Manager later expressly confirmed OFFICIAL assists for McTominay on Zaïre-Emery 81′ and Pio on Beier in stoppage time; these credited assists are not provisional.",
+    "unknowns": "Do not invent exact stoppage-time minute, the nature of Ouedraogo goal or Bakayoko finish, the rest of Leipzig XI, shots/xG, team above Napoli, City/Liverpool points or positions. No private staff voices or manager quotes in stories.",
     "coverage": "Four original story angles (50 paragraphs) with 37 bespoke threads and 121 original comments including replies. No fictional player interview necessary (December Hasa Q&A already covered).",
     "comments": {
       "topLevel": 37,
@@ -168,9 +168,33 @@
       "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41931009798",
       "browserPassed": true,
       "compiledCommit": "9a84cffd0394ddb8235cfd7e1613cf51361dc471",
-      "metadata": "Leipzig description corrected"
+      "metadata": "Leipzig description corrected",
+      "publicationCorrection": "Official-assist clarification committed as source and canon correction; republishing and Pages verification pending."
     },
-    "compiledCommit": "9a84cffd0394ddb8235cfd7e1613cf51361dc471"
+    "compiledCommit": "9a84cffd0394ddb8235cfd7e1613cf51361dc471",
+    "assistCorrection": {
+      "status": "manager-confirmed official",
+      "match": "RB Leipzig 2–2 Napoli · 11 December 2030",
+      "credits": [
+        {
+          "player": "Scott McTominay",
+          "assisted": "Warren Zaïre-Emery",
+          "minute": "81′",
+          "official": true
+        },
+        {
+          "player": "Pio Esposito",
+          "assisted": "Maximilian Beier",
+          "minute": "stoppage time (exact minute unconfirmed)",
+          "official": true
+        }
+      ],
+      "recordedSeasonTotals": {
+        "Scott McTominay": "1G3A",
+        "Pio Esposito": "17G9A"
+      },
+      "scope": "Leipzig only; prior Pisa final-pass official status still pending"
+    }
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, compiled snapshot and GitHub Pages deployment succeeded",
@@ -477,9 +501,10 @@
     },
     "last_compiled_revision": "9718caddb26e",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41931009798",
-    "pendingSourceRevision": null,
+    "pendingSourceRevision": "20301211-leipzig-assists-official-v2",
     "pendingLead": null,
-    "most_recent_source_fixture": "RB Leipzig 2–2 Napoli · UCL · 11 December 2030"
+    "most_recent_source_fixture": "RB Leipzig 2–2 Napoli · UCL · 11 December 2030",
+    "pendingCorrection": "Manager confirmed official assists for McTominay and Pio at Leipzig, source pending recompilation"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",

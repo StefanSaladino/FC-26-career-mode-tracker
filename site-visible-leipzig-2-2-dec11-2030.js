@@ -4,9 +4,9 @@ const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={}),$=id=>document.getElementByI
 const esc=v=>String(v??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
 const season='2030–31',match={date:'2030-12-11',team:'Napoli',opponent:'RB Leipzig',venue:'Away',competition:'Champions League',status:'completed',score:'2–2',halfTime:'0–1',teamCleanSheet:false,
  events:[{minute:45,team:'RB Leipzig',scorer:'Ouedraogo',assist:null},{minute:72,team:'RB Leipzig',scorer:'Bakayoko',assist:null,detail:'Epolo misplaced throw attempting to distribute possession; Bakayoko scores'},
- {minute:81,team:'Napoli',scorer:'Warren Zaïre-Emery',assist:'Scott McTominay',detail:'McTominay plays Warren through; he beats Svilar'},
- {minute:null,period:'stoppage time',team:'Napoli',scorer:'Maximilian Beier',assist:'Pio Esposito',detail:'Pio passes to Beier; Beier breaks through alone and equalises against Svilar'}],
- notes:'RB Leipzig 2–2 Napoli: Ouedraogo 45′, Bakayoko 72′ after Epolo throwing error, Zaïre-Emery 81′ from McTominay, Beier stoppage-time equaliser from Pio pass; Svilar in goal for Leipzig. Napoli second in Champions League after six, 14 points; City and Liverpool currently outside playoff qualifying places. Beier exact stoppage minute and formal assist credit for McT/Pio not established.'};
+ {minute:81,team:'Napoli',scorer:'Warren Zaïre-Emery',assist:'Scott McTominay',assistOfficial:true,detail:'McTominay plays Warren through; he beats Svilar'},
+ {minute:null,period:'stoppage time',team:'Napoli',scorer:'Maximilian Beier',assist:'Pio Esposito',assistOfficial:true,detail:'Pio passes to Beier; Beier breaks through alone and equalises against Svilar'}],
+ notes:'RB Leipzig 2–2 Napoli: Ouedraogo 45′, Bakayoko 72′ after Epolo throwing error, Zaïre-Emery 81′ from McTominay, Beier stoppage-time equaliser from Pio pass; Svilar in goal for Leipzig. Napoli second in Champions League after six, 14 points; City and Liverpool currently outside playoff qualifying places. Beier exact stoppage minute unknown; McTominay assist for Zaïre-Emery and Pio assist for Beier both officially credited.'};
 const schedule=D.schedule203031=Array.isArray(D.schedule203031)?D.schedule203031:[];
 const existing=schedule.find(x=>x.team==='Napoli'&&x.opponent==='RB Leipzig'&&x.date===match.date);
 if(existing)Object.assign(existing,match);else schedule.push(match);
@@ -25,15 +25,15 @@ nextClubOpponent:'Sampdoria',nextClubCompetition:'Serie A',nextClubDate:'2030-12
 D.seasonState={...(D.seasonState||{}),league:{played:14,w:12,d:1,l:1,points:37,goalsFor:32,goalsAgainst:10,goalDifference:22,remaining:24,status:'Napoli have 37 Serie A points after fourteen; second in the Champions League after six matches with 14 points.'}};
 D.nextClubFixture={date:'2030-12-14',opponent:'Sampdoria',competition:'Serie A',venue:'Home'};
 D.leipzigDec2030={date:'2030-12-11',result:'RB Leipzig 2–2 Napoli',goals:match.events,keeper:'Epolo',uclPosition:2,uclPoints:14,
-belowPlayoffPositions:['Manchester City','Liverpool'],qualificationNotDecided:true};
-D.statsScope='Napoli club after Leipzig 11 Dec: Beier 15G13A, Zaïre-Emery 3G3A, Pio 17G9A and McTominay 1G3A including goal-creating final passes not separately confirmed as officially credited assists; Stach 1G4A after Pisa. Italy excluded.';
+belowPlayoffPositions:['Manchester City','Liverpool'],qualificationNotDecided:true,officialAssists:[{provider:'Scott McTominay',scorer:'Warren Zaïre-Emery',minute:81},{provider:'Pio Esposito',scorer:'Maximilian Beier',period:'stoppage time'}]};
+D.statsScope='Napoli club after Leipzig 11 Dec: Beier 15G13A, Zaïre-Emery 3G3A, Pio 17G9A and McTominay 1G3A including OFFICIAL Leipzig assists: Pio to Beier and McTominay to Zaïre-Emery; Stach 1G4A after Pisa remains provisional. Italy excluded.';
 const rows=D.statsBySeason?.[season];
 if(rows){
 for(const [name,g,a,note] of [
 ['Maximilian Beier',1,0,'Leipzig 11 Dec: stoppage-time equaliser from Pio pass, exact minute not established'],
 ['Warren Zaïre-Emery',1,0,'Leipzig 11 Dec: 81′ goal from McTominay against Svilar; third club goal in two matches'],
-['Pio Esposito',0,1,'Leipzig 11 Dec: goal-creating pass to Beier in stoppage time, separate official in-game assist not confirmed'],
-['Scott McTominay',0,1,'Leipzig 11 Dec: final pass for Zaïre-Emery 81′, separate official in-game assist not confirmed']
+['Pio Esposito',0,1,'Leipzig 11 Dec: OFFICIAL assist to Beier for stoppage-time equaliser'],
+['Scott McTominay',0,1,'Leipzig 11 Dec: OFFICIAL assist to Zaïre-Emery at 81′']
 ]){let row=rows.find(x=>x[0]===name);if(!row){row=[name,0,0,''];rows.push(row)}row[1]=(Number(row[1])||0)+g;row[2]=(Number(row[2])||0)+a;row[3]=(row[3]&&!row[3].startsWith('0 confirmed')?row[3]+' | ':'')+note;}
 rows.sort((a,b)=>Number(b[1])-Number(a[1])||Number(b[2])-Number(a[2])||a[0].localeCompare(b[0]));
 D.stats=rows;D.statsCurrentSeason=season;
@@ -45,7 +45,7 @@ const controls=$('stats')?.querySelector('.stats-filters');
 if(controls){const tab=controls.querySelector('[data-stats-view="'+season+'"]'),desc=$('stats')?.querySelector('.section-head p'),notice=$('statsVerificationNotice');
 const refresh=()=>{const view=controls.querySelector('.filter-pill.active')?.dataset.statsView||season;
 if(desc)desc.textContent=view===season?'Napoli club after Leipzig: Beier 15 goals, Zaïre-Emery 3, Pio and McTominay with goal-creating passes; Italy excluded.':'Napoli club stats for '+(view==='career'?'recorded career':view)+'.';
-if(notice)notice.textContent=view===season?'RB Leipzig 2–2 Napoli · 14 UCL points, second after six. Pio/McT final passes recorded; formal assist credit pending.':'Napoli club records only; Italy excluded.';};
+if(notice)notice.textContent=view===season?'RB Leipzig 2–2 Napoli · 14 UCL points, second after six. Pio and McTominay each have an OFFICIAL credited Leipzig assist.':'Napoli club records only; Italy excluded.';};
 controls.addEventListener('click',refresh);if(tab)tab.click();refresh();}
 const ids=["leipzig-two-two-beier-stoppage-zaire-rescue-dec2030","epolo-throw-bakayoko-leipzig-selection-scrutiny-dec2030","beier-pio-zaire-late-rescue-leipzig-partnerships-dec2030","bellandi-napoli-second-city-liverpool-below-cutline-dec2030"],pool=Array.isArray(D.articles)?D.articles:[],priority=ids.map(id=>pool.find(a=>a.id===id)).filter(Boolean);
 if(priority.length!==ids.length){console.error('Missing Leipzig newsroom articles');return}
