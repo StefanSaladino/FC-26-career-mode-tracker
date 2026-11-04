@@ -90,10 +90,10 @@
     {
       "month": "2030-11",
       "status": "covered",
-      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals. November 19: Rossetti made his first senior Italy appearance at half-time vs Denmark, took two shots on target saved by Jorgensen and earned a 7.3; dedicated dramatized in-universe player Q&A commissioned."
+      "note": "Rossetti's first Italy selection at 18 (bench available vs Denmark) plus keeper Burnett/Peacock development feature, and Davies contract continuity; no debut fabricated. Also 10 Nov: Elena De Luca character-led Pio/Moore feature following the decisive Torino goals. November 19: Rossetti made his first senior Italy appearance at half-time vs Denmark, took two shots on target saved by Jorgensen and earned a 7.3; dedicated dramatized in-universe player Q&A commissioned. November 23: Elena De Luca character-led Beier analysis of two three-assist matches (Celtic and Cagliari), with 13G12A after Cagliari; no attributed player/manager interview."
     }
   ],
-  "latest_confirmed_match": "Italy 2–0 Denmark · home international · 19 November 2030 · Kean 6′ (Pio), Calafiori 43′ own rebound (Pio); Rossetti senior Italy debut at halftime, 7.3, two shots saved by Jorgensen",
+  "latest_confirmed_match": "Cagliari 1–3 Napoli · Serie A · 23 November 2030 · Pio 21′ (Beier), Geertruida 32′ (Beier), McTominay 63′ (Beier), Araujo 90′",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -108,6 +108,49 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Staged — editorial quality gate, compiled browser tests and Pages deployment pending",
+    "phase": "Cagliari 1–3 Napoli, 23 Nov 2030: Beier three assists, Pio/Geertruida/McTominay goals, selective rotation",
+    "match": "Cagliari 1–3 Napoli · Serie A MD12 · 23 November 2030",
+    "stories": [
+      "cagliari-napoli-three-one-beier-three-assists-nov23-2030",
+      "beier-twelve-assists-celtic-cagliari-creative-forward-nov2030",
+      "cagliari-rotation-mctominay-geertruida-city-nov2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-napoli-cagliari-nov23-2030.js",
+      "site-visible-napoli-cagliari-nov23-2030.js"
+    ],
+    "knownFacts": "Cagliari 1–3 Napoli away 23 Nov, selective rotation. Pio 21′, Geertruida 32′, McTominay 63′, all Beier assists. Araujo 90′ replies for Cagliari. Beier 13G12A, Pio 16G7A, Geertruida 2 confirmed club goals, McTominay 1G2A. Serie A 12P10W1D1L 31 points GF27 GA7; all-club 17P14W2D1L GF40 GA11.",
+    "unknowns": "Do not invent changed starters, precise substitutions, shot descriptions, Cagliari Araujo first name/assist, keeper blame, xG, ranking or league gap. Do not imply a manager press appearance or a real-world player interview.",
+    "coverage": "Three independent articles: 12-paragraph away result report, 12-paragraph Beier creator feature with Celtic continuity, 12-paragraph squad and City analysis; 30 first-level unique threads and 108 bespoke comments with multi-person replies.",
+    "gallery": [
+      "assets/story-staff-squad-celebration.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-coaches-squad-tactics-session.webp"
+    ],
+    "comments": {
+      "topLevel": 30,
+      "totalIncludingReplies": 108
+    },
+    "paragraphs": 36,
+    "nextFixture": "Manchester City away 26 Nov 2030 UCL; Juventus home 1 Dec Serie A",
+    "press": "No manager quotes invented, no compulsory interview. Prior November Rossetti interview covers monthly feature requirement.",
+    "releaseVersion": "20301123-cagliari-beier-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "All paths originate in approved gallery and exist in repo. Rendered desktop/mobile crops not verified.",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot/browser tests, compiled commit and GitHub Pages deployment succeeded",
     "phase": "Italy 2–0 Denmark, 19 November 2030: Pio Esposito two assists, Kean 6′, Calafiori 43′ own rebound, Rossetti senior debut and 7.3 rating",
     "match": "Italy 2–0 Denmark · international · 19 November 2030",
@@ -159,62 +202,17 @@
     },
     "compiledCommit": "8ab84a637b5e"
   },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact snapshot/browser tests and GitHub Pages deployment succeeded",
-    "phase": "Napoli 3–1 Torino 9 Nov 2030, Moore restores lead, Pio goal and assist, Beier scores from McTominay; Kayode injury not serious and Epolo recovered",
-    "match": "Napoli 3–1 Torino · Serie A · 9 November 2030",
-    "stories": [
-      "napoli-torino-three-one-moore-pio-beier-nov9-2030",
-      "pio-moore-torino-seventy-minute-breakthrough-nov2030",
-      "torino-kayode-cleared-epolo-back-peacock-header-nov2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-napoli-torino-nov9-2030.js",
-      "stories-torino-pio-moore-nov2030.js",
-      "stories-torino-kayode-epolo-nov2030.js",
-      "site-visible-napoli-torino-nov9-2030.js"
-    ],
-    "knownFacts": "Napoli 3–1 Torino. Kayode injured 28′ but later cleared and available; Pio 29′ (Zaïre-Emery assist), Sazonov 45′ Torino weak header with Peacock in goal, Moore 70′ (Pio assist), Beier 81′ (McTominay assist). Epolo recovered. Serie A 11P9W1D1L 28pts GF24 GA6; all club 16P13W2D1L GF37 GA10; UCL unchanged 10 pts; Pio 15G7A, Moore 5G4A, Beier 13G9A, Zaïre-Emery 0G2A, McTominay 0G2A.",
-    "unknowns": "Kayode specific injury diagnosis or substitution, Torino scorer's first name/assist, Torino header saveability subjective, other match events, standings position; no confirmed Italy fixture result or Rossetti debut.",
-    "coverage": "Three distinct reporter-eye stories: 13-paragraph match report, 12-paragraph Pio/Moore character feature, 11-paragraph Kayode/Epolo/Peacock squad analysis. 25 authored top-level supporter threads, 105 posts including replies. No invented manager statements or player quotes.",
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-esposito-manager-coaching.webp",
-      "assets/michael-kayode-napoli.webp"
-    ],
-    "comments": {
-      "topLevel": 25,
-      "totalIncludingReplies": 105
-    },
-    "paragraphs": 36,
-    "nextFixture": "Napoli away at Cagliari 23 Nov 2030 Serie A, after Italy v Denmark home 19 Nov (Rossetti available substitute). Manchester City away UCL 26 Nov.",
-    "press": "Manager authorised stories but did not give any public press quotes; no fabricated interview. Peacock saveability attributed as opinion only. Epolo healed, Kayode cleared; no invented diagnoses.",
-    "releaseVersion": "20301109-torino-availability-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "approvedGalleryAssetVerification": "three existing approved Napoli gallery sources visually inspected; approved image paths confirmed in source and compiled snapshot",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "articles": 658,
-      "results": 131,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-torino-three-one-moore-pio-beier-nov9-2030",
-      "serieA": "11P9W1D1L 28pts GF24GA6",
-      "club": "16P13W2D1L GF37GA10",
-      "playerStats": "Pio 15G7A, Beier 13G9A, Moore 5G4A, McTominay 0G2A, Zaïre-Emery 0G2A",
-      "manualImageVisualQA": "source images visually inspected; rendered desktop/mobile crops not independently manually verified",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41573019816"
-    },
-    "compiledCommit": "be733bd2b4c2b8206a79ec2d317c21d2046465e1"
-  },
   "release_history": [
+    {
+      "release_version": "20301119-italy-denmark-rossetti-v1",
+      "phase": "Italy 2–0 Denmark, 19 November 2030: Pio Esposito two assists, Kean 6′, Calafiori 43′ own rebound, Rossetti senior debut and 7.3 rating",
+      "story_ids": [
+        "italy-denmark-two-zero-kean-calafiori-pio-nov19-2030",
+        "rossetti-italy-debut-jorgensen-two-saves-interview-nov2030",
+        "pio-two-assists-kean-calafiori-italy-denmark-feature-nov2030"
+      ],
+      "archived_at": "23 November 2030, following Cagliari away league victory"
+    },
     {
       "release_version": "20301109-torino-availability-v1",
       "phase": "Napoli 3–1 Torino 9 Nov 2030, Moore restores lead, Pio goal and assist, Beier scores from McTominay; Kayode injury not serious and Epolo recovered",
