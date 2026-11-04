@@ -1,3 +1,12 @@
+## 2030–31 — UCL: MANCHESTER CITY v NAPOLI, 26 NOVEMBER 2030 — HALFTIME (LIVE)
+
+- **Manager's live report:** Away to Manchester City in the UEFA Champions League on 26 November 2030. **Half-time Manchester City 0–0 Napoli.** This is NOT full time, and neither final score nor any goals, attempts, saves, possession, cards or substitutions have been established.
+- **Squad illness:** A team case of food poisoning. **Giacomo Raspadori is completely unavailable** for this fixture. **Several other Napoli players are playing with significantly reduced stamina**; individual identities and exact stamina levels were not specified. Do not infer a particular lineup or that named players are fit beyond what the manager confirms.
+- **Tactical staff note (private):** At 0–0 with compromised stamina, Sandro recommends a controlled medium block rather than sustained high pressing, early review of fatigued players for possible second-half substitutions around 55–60 minutes or sooner if necessary, and retaining effective attacking connections if personnel permit. This is advice only, not confirmation of the manager's second-half decisions or exact tactics already used.
+- **Statistics/status:** Half-time only; Napoli Serie A remains 31 points after twelve, UCL completed tally remains 4P3W1D0L 10 points, and Napoli competitive club player totals remain through Cagliari (Pio 16G7A, Beier 13G12A). Do not count the live fixture as completed or change goal/assist statistics.
+- **Publication:** No live City newsroom article authorized. Keep team illness and tactical details inside the private football timeline until the manager approves public coverage. Never claim the press has heard private medical or staff details.
+- **Next:** Await the manager's second-half events and final result.
+
 ## 2030–31 — SERIE A MD12: CAGLIARI 1–3 NAPOLI, 23 NOVEMBER 2030 — FULL TIME
 
 - **Confirmed:** Cagliari 1–3 Napoli, away, Serie A, 23 November 2030; selective rotation. Lineup and precise substitutions are unspecified.
