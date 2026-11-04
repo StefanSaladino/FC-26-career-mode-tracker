@@ -62,7 +62,7 @@ D.ticker=['RB LEIPZIG 2–2 NAPOLI · BEIER STOPPAGE-TIME EQUALISER','OUEDRAOGO 
 const ticker=$('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(x=>'<span>'+esc(x)+'</span>').join('');
 D.whispers=[['THE GREAT ESCAPE','Pio sends Beier through for a stoppage-time equaliser as Napoli recover from 2–0 in Leipzig.'],
 ['EPOLO UNDER PRESSURE','The goalkeeper lost possession trying to throw out; Bakayoko punished the mistake on 72 minutes.'],
-['WARREN'S RUN','Three club goals in the last two matches: a brace at Pisa and a European reply at Leipzig.'],
+["WARREN'S RUN",'Three club goals in the last two matches: a brace at Pisa and a European reply at Leipzig.'],
 ['SECOND IN EUROPE','Napoli take 14 points from six UCL matches and remain unbeaten in the competition.'],
 ['ENGLISH GIANTS CHASING','Manchester City and Liverpool are below the playoff qualification line at the six-game checkpoint; neither is eliminated.']];
 const whispers=$('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+esc(x[0])+'</span><p>'+esc(x[1])+'</p></div>').join('');
