@@ -71,4 +71,5 @@ const latest=$('latestResult');if(latest)latest.innerHTML='<div class="latest-sc
 const next=$('nextTwo');if(next)next.innerHTML=D.upcoming.filter(x=>x[1]==='Serie A'||x[1]==='Champions League').slice(0,2).map(x=>'<div class="next-row"><strong>'+esc(x[0])+'</strong><span>'+esc(x[1]+' · '+x[2])+'</span></div>').join('');
 const strip=$('upcomingStrip');if(strip)strip.innerHTML=D.upcoming.map(x=>'<div class="fixture"><span>'+esc(x[1])+'</span><strong>'+esc(x[0])+'</strong><small>'+esc(x[2])+'</small></div>').join('');
 const status=document.querySelector('.header-status span:last-child');if(status)status.textContent='LEIPZIG 2–2 NAPOLI · SECOND IN EUROPE · SAMPDORIA NEXT';
+const meta=document.querySelector('meta[name="description"]');if(meta)meta.setAttribute('content','Napoli draw 2–2 at RB Leipzig with late goals from Zaïre-Emery and Beier, remain second in the Champions League on 14 points after six matches.');
 })();
