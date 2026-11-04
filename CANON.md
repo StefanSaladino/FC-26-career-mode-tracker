@@ -1,3 +1,11 @@
+## 2030–31 — SERIE A MD14: PISA v NAPOLI, 7 DECEMBER 2030 — LIVE, 12′
+
+- **MANAGER-CONFIRMED LIVE EVENT:** Pisa hosting Napoli, **7 December 2030**, Serie A. **12′ — PISA 0–1 NAPOLI**: **Anton Stach** plays a lovely **through ball** to **Warren Zaïre-Emery**, who **strikes first time into the top corner**. Stach is the confirmed goal-creating passer / assist on this scoring move. Do not invent other actions, lineups or a final result.
+- **MIDFIELD CONTEXT:** This is Zaïre-Emery's **first confirmed Napoli club goal of 2030–31** (previously 0G3A through Juventus), and Stach's fourth confirmed club assist if the game credits the supplied through ball normally (previously 1G3A). **Live provisional player contribution only:** Zaïre-Emery 1G3A, Stach 1G4A, subject to any explicit in-game scoring correction.
+- **JOÃO NEVES:** Still unavailable for at least three more weeks per manager's recent medical update. No assumption about who else starts or rotates.
+- **MATCH STATUS:** **In progress at 12′, Pisa 0–1 Napoli**; no final score, additional goals, match statistics, clean sheet or league points yet. The most recent *completed* Napoli Serie A record remains 13P, 34 points. RB Leipzig away follows 11 December (UCL).
+- **PUBLICATION:** Do not publish news stories, apply live match result to finished season stats or change the public homepage without manager authorization after the match.
+ 
 ## 2030–31 — STAFF MEDICAL UPDATE: JOÃO NEVES, DECEMBER 2030
 
 - Manager confirms João Neves remains unavailable for **at least another three weeks** as of the December schedule discussion (current calendar points to 7 December 2030). No guaranteed return date is known; do not mark fit automatically after three weeks.
