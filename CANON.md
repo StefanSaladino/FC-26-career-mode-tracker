@@ -1,11 +1,11 @@
-## 2030–31 — SERIE A MD14: PISA v NAPOLI, 7 DECEMBER 2030 — LIVE, 12′
+## 2030–31 — PISA 0–3 NAPOLI · 7 DECEMBER 2030 · LIVE
 
-- **MANAGER-CONFIRMED LIVE EVENT:** Pisa hosting Napoli, **7 December 2030**, Serie A. **12′ — PISA 0–1 NAPOLI**: **Anton Stach** plays a lovely **through ball** to **Warren Zaïre-Emery**, who **strikes first time into the top corner**. Stach is the confirmed goal-creating passer / assist on this scoring move. Do not invent other actions, lineups or a final result.
-- **MIDFIELD CONTEXT:** This is Zaïre-Emery's **first confirmed Napoli club goal of 2030–31** (previously 0G3A through Juventus), and Stach's fourth confirmed club assist if the game credits the supplied through ball normally (previously 1G3A). **Live provisional player contribution only:** Zaïre-Emery 1G3A, Stach 1G4A, subject to any explicit in-game scoring correction.
-- **JOÃO NEVES:** Still unavailable for at least three more weeks per manager's recent medical update. No assumption about who else starts or rotates.
-- **MATCH STATUS:** **In progress at 12′, Pisa 0–1 Napoli**; no final score, additional goals, match statistics, clean sheet or league points yet. The most recent *completed* Napoli Serie A record remains 13P, 34 points. RB Leipzig away follows 11 December (UCL).
-- **PUBLICATION:** Do not publish news stories, apply live match result to finished season stats or change the public homepage without manager authorization after the match.
- 
+- 12′: Anton Stach through ball to Warren Zaïre-Emery; Warren finishes first time into the top corner. Pisa 0–1 Napoli.
+- Minute unspecified: Raspadori passes to Moore, Moore passes to Pio Esposito, Pio threads Zaïre-Emery through for a second goal. Pisa 0–2 Napoli. Pio provided the final assist pass; Raspadori and Moore featured in build-up.
+- Minute unspecified: Pisa fail to clear a Napoli corner; Alphonso Davies collects the loose ball and scores. Pisa 0–3 Napoli. No officially credited assist known on Davies's goal.
+- Live match, not full time. Zaïre-Emery two goals, Davies one; Pio goal-assisting pass, Stach goal-assisting pass. Do not accrue final team points or claim a clean sheet. Pio and Stach live assists provisional pending official game credit.
+- Next confirmed fixture RB Leipzig away, 11 December, Champions League. Neves unavailable at least three more weeks per recent staff update. Public newsroom not yet authorized.
+
 ## 2030–31 — STAFF MEDICAL UPDATE: JOÃO NEVES, DECEMBER 2030
 
 - Manager confirms João Neves remains unavailable for **at least another three weeks** as of the December schedule discussion (current calendar points to 7 December 2030). No guaranteed return date is known; do not mark fit automatically after three weeks.
