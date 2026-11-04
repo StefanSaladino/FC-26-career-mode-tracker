@@ -9,7 +9,7 @@
 - **ALL NAPOLI CLUB COMPETITIONS:** **18P 15W 2D 1L, GF41 GA11**. Serie A still **12P 10W1D1L, 31 points, GF27 GA7**, unchanged by this Champions League fixture.
 - **NEXT CONFIRMED CLUB FIXTURES:** **Juventus home, 1 December 2030 (Serie A)**; **Pisa away, 7 December 2030 (Serie A)**; **RB Leipzig away, 11 December 2030 (UCL)**.
 - **PRIVATE SANDRO ASSESSMENT:** A difficult trip secured despite squad illness and restricted stamina. Olise-to-Pio won the match. Encourage cautious recovery and workload assessment before Juventus; do not assume that tired players recovered instantly. The match result proves resilience but does not verify dominance or the precise game management. This is assistant-manager advice, not press material.
-- **NEWSROOM AUTHORIZATION:** The manager has **not yet requested publication** of the City report or disclosure of confidential illness details. **Do not publish an article or update the public homepage** automatically on final whistle. The most recent authorized public edition remains Cagliari.
+- **NEWSROOM PUBLICATION AUTHORIZED:** Following full time, the manager explicitly instructs **“Run the stories AM.”** Commission the City match report, an Olise-to-Esposito 58′ winner/player feature and an independent European form/13 points analysis. Keep medical food-poisoning and low-stamina player specifics internal: the manager authorized normal press coverage **but has not separately cleared backstage medical disclosures**. No fabricated manager quotes, no claimed referee incident or fabricated match details. Publication not complete until compiled snapshot and Pages deployment are verified.
 
 ## 2030–31 — SERIE A MD12: CAGLIARI 1–3 NAPOLI, 23 NOVEMBER 2030 — FULL TIME
 
