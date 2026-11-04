@@ -95,10 +95,10 @@
     {
       "month": "2030-12",
       "status": "covered",
-      "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations."
+      "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–1 Juventus · Serie A · 1 December 2030 · Beier 58′ (Zaïre-Emery), Hasa 78′ from own blocked shot (Beier OFFICIAL assist), Yildiz 90+2′; final xG 4.6–2.6, 13–10 shots, 9–5 SOT",
+  "latest_confirmed_match": "Pisa 2–3 Napoli · Serie A · 7 December 2030 · HT 0–3; Zaïre-Emery brace (12′ first-time top-corner from Stach through ball, second after Raspadori–Moore–Pio passing move, second goal minute unknown), Davies scores after failed Pisa corner clearance (minute unknown); Pisa Durosinmi 62′, Vural 81′. Peacock first start in a while, two conceded, no attributed individual errors. Napoli 37 league points after fourteen; all club 20 played 17W2D1L GF46 GA14.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,51 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Staged — compilation, editorial gate, browser tests and final Pages deployment pending",
+    "phase": "Pisa 2–3 Napoli, 7 December 2030: Zaïre-Emery first season brace, Davies third, Pisa rally from 0–3 to 2–3 and Peacock's return",
+    "match": "Pisa 2–3 Napoli · Serie A MD14 · 7 December 2030",
+    "stories": [
+      "pisa-napoli-three-two-zaire-davies-collapse-dec7-2030",
+      "zaire-emery-two-goals-pisa-midfield-dec2030",
+      "pisa-3-2-peacock-defensive-collapse-leipzig-dec2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-pisa-napoli-3-2-dec7-2030-report.js",
+      "stories-zaire-emery-pisa-brace-dec2030.js",
+      "stories-pisa-peacock-defence-leipzig-analysis-dec2030.js",
+      "site-visible-pisa-napoli-dec7-2030.js"
+    ],
+    "knownFacts": "Pisa home 2–3 Napoli away 7 Dec 2030; HT 0–3. Napoli Zaïre-Emery 12′ first-time top-corner finish from Stach through ball, second at unknown minute after Raspadori→Moore→Pio→Zaïre passing move (Pio final pass), Davies at unknown minute after Pisa botch a corner clearance. Pisa Durosinmi 62′, Vural 81′. Peacock's first start in a while ends two conceded. 14P12W1D1L, 37pts GF32 GA10 +22; all club 20P17W2D1L GF46 GA14. Zaïre-Emery 2G3A, Davies 1G0A; provisional goal-creating final passes take Pio to 17G8A and Stach to 1G4A pending separate official game assist designation.",
+    "unknowns": "Do not invent minute of Warren second goal or Davies goal, named goal assist for Davies/Pisa scorers, way of Pisa scoring or blame specific goalkeeper errors, unconfirmed lineup or subs, shots/xG, press quotes or player testimony. Pio and Stach last passes described by manager but separate formal game assist credit remains unknown.",
+    "coverage": "Three original distinct pieces: 13-paragraph observer-written match report, 11-paragraph Warren character-led feature, 12-paragraph Peacock/collective collapse tactical analysis. 31 top-level original threads, 110 bespoke supporter comments including relevant nested replies. Not a fictional manager/player press transcript.",
+    "gallery": [
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-coaches-key-players-walkout.webp",
+      "assets/story-sandro-bastoni-defensive-talk.webp"
+    ],
+    "comments": {
+      "topLevel": 31,
+      "totalIncludingReplies": 110
+    },
+    "paragraphs": 36,
+    "nextFixture": "RB Leipzig away 11 Dec 2030 Champions League; Sampdoria home 14 Dec Serie A; Pescara home 18 Dec cup; Parma away 21 Dec Serie A",
+    "press": "No fabricated manager quote or private medical disclosure. Peacock first start and two conceded treated as observable match context, no unsupported individual keeper errors.",
+    "releaseVersion": "20301207-pisa-warren-escape-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "approvedGalleryAssetVerification": "All three published covers are from approved Napoli gallery and visually inspected in source. Accurate fictional archival captions; separate rendered image crop check pending or not performed.",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
     "phase": "Napoli 2–1 Juventus, 1 December 2030: Beier opener + official Hasa assist, Hasa follow-up goal, Yildiz late reply; xG 4.6–2.6",
     "match": "Napoli 2–1 Juventus · Serie A MD13 · 1 December 2030",
@@ -171,62 +216,6 @@
       "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41771926424"
     },
     "compiledCommit": "23dd4a364b79"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact browser tests, compiled commit and GitHub Pages deployment succeeded",
-    "phase": "Manchester City 0–1 Napoli, 26 Nov 2030: Pio 58′ header from Olise cross, 13 points from 5 UCL games",
-    "match": "Manchester City 0–1 Napoli · Champions League · 26 November 2030",
-    "stories": [
-      "manchester-city-napoli-zero-one-pio-olise-nov26-2030",
-      "olise-esposito-headed-winner-manchester-city-nov2030",
-      "napoli-thirteen-ucl-points-city-clean-sheet-juventus-nov2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-manchester-city-napoli-report-nov26-2030.js",
-      "stories-olise-pio-city-player-focus-nov2030.js",
-      "stories-city-thirteen-points-juventus-analysis-nov2030.js",
-      "site-visible-napoli-man-city-nov26-2030.js"
-    ],
-    "knownFacts": "City home 0–1 Napoli away. 0–0 HT, Pio heads Olise's cross in 58′, Napoli team clean sheet. Napoli UCL 5P4W1D0L, 13 pts GF12 GA3; club 18P15W2D1L GF41 GA11; Pio 17G7A, Olise 0G3A; Serie A 31 pts from 12 unchanged.",
-    "confidentialStaffContext": "Manager reports team food poisoning, Raspadori unavailable, unnamed players lowered stamina. This is held in private staff/canon context and was deliberately NOT reported in public articles or supporter comments because no separate public disclosure authorized.",
-    "unknowns": "Do not invent detailed City chances, goalkeeper, substitutions, tactical shape, cards, referee controversy, player medical particulars, league/UCL table positions, goals/assists or manager quotes.",
-    "coverage": "Three distinct original articles: 12-paragraph observer-written City match report, 12-paragraph Olise/Pio player feature, 12-paragraph UCL 13 points/next Juventus analysis. 32 top-level original supporter discussions, 114 total comments including replies, all unique texts.",
-    "gallery": [
-      "assets/story-european-team-celebration.webp",
-      "assets/story-manager-pio-esposito.webp",
-      "assets/story-champions-league-stakes.webp"
-    ],
-    "comments": {
-      "topLevel": 32,
-      "totalIncludingReplies": 114
-    },
-    "paragraphs": 36,
-    "nextFixture": "Juventus home 1 Dec 2030 Serie A; Pisa away 7 Dec; Leipzig away UCL 11 Dec",
-    "press": "No fabricated manager statements or player interview. Internal illness specifics excluded from public journalism; no misleading account of unknown match events.",
-    "releaseVersion": "20301126-city-pio-olise-v1",
-    "technical": {
-      "editorialQualityGate": "success — 190 source scripts, zero objective technical errors; 21 nonblocking legacy warnings (9 identity context, 10 historical image references, 2 alternate ID formats); no new City warnings",
-      "approvedGalleryAssetVerification": "All three cover images exist in approved gallery and were visually inspected. Accurate archival art captioned. Manual rendered mobile/desktop image-crop inspection not performed.",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — matching City first-paint lead, new story navigation and comments, archive links, year-based club stats, Italy filters and five-file compact runtime; no legacy browser-side replay",
-      "pagesDeployment": "success",
-      "articles": 667,
-      "results": 134,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "manchester-city-napoli-zero-one-pio-olise-nov26-2030",
-      "clubScope": "18 club matches, Pio 17G7A, Olise 0G3A, Beier 13G12A; UCL 5P4W1D0L 13 points GF12 GA3, Serie A 31 points unchanged",
-      "italyScope": "Italy v Denmark senior match and Rossetti 45-minute debut retained; no mixing of international and club contributions",
-      "publicPrivacy": "Staff-only medical context excluded from public stories and match state",
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41766701362",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41767168496"
-    },
-    "compiledCommit": "f0119347d302"
   },
   "release_history": [
     {
