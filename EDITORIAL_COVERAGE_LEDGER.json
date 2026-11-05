@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser tests and GitHub Pages deployment succeeded",
+    "status": "Published — editorial gate, compiled browser checks and GitHub Pages deployment passed",
     "phase": "Napoli 2–0 Sampdoria 14 December 2030: Olise assists Pio 37′ and Beier 43′, 2–0 HT and FT, clean sheet, selective rotation",
     "match": "Napoli 2–0 Sampdoria · Serie A MD15 · 14 December 2030",
     "stories": [
@@ -151,7 +151,7 @@
     "technical": {
       "editorialQualityGate": "success",
       "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — Sampdoria first paint, 681-story archive and reader, results, Napoli stats and Italy separation",
+      "snapshotBrowserTests": "success",
       "pagesDeployment": "success",
       "firstPaintLead": "napoli-sampdoria-2-0-pio-beier-olise-report-dec2030",
       "clubScope": "Serie A 15P13W1D1L 40pts, GF34 GA10; club 22P18W3D1L GF50 GA16",
