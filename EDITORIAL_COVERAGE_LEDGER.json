@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Editorial source staged; verification and Pages release pending",
+    "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
     "phase": "Parma 1–3 Napoli · 21 December 2030: Pio brace, two official Beier assists, Zaïre-Emery from Paz at 64′, xG 2.6 Napoli vs 0.1 Parma",
     "match": "Parma 1–3 Napoli · Serie A MD16 · 21 December 2030",
     "stories": [
@@ -149,15 +149,25 @@
     "releaseVersion": "20301221-parma-pio-double-xg-26-v1",
     "press": "No fabricated manager quote or mixed-zone interview. Player statements only if marked fictional; none in this release.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
       "firstPaintLead": "parma-one-napoli-three-pio-brace-beier-zaire-dec2030",
       "clubScope": "Serie A 16P14W1D1L 43pts GF37 GA11 +26, all 24P20W3D1L GF57 GA18",
-      "italyScope": "unchanged"
+      "italyScope": "unchanged",
+      "articles": 687,
+      "results": 140,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "browserPassed": true,
+      "compiledCommit": "69802b256f59a9f5c5d5a1bc870da446a7f14ab4",
+      "sourceCommit": "08709cbb2b53b8c52dd691206650914ebcc26741",
+      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124070469",
+      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124070470",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124155375"
     },
-    "compiledCommit": null
+    "compiledCommit": "69802b256f59a9f5c5d5a1bc870da446a7f14ab4"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
@@ -446,7 +456,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "381548ddfcc3a72adf9bc5f1fc17ca70a5706797",
+    "current_published_commit": "69802b256f59a9f5c5d5a1bc870da446a7f14ab4",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -457,16 +467,16 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
+    "most_recent_published_fixture": "Parma 1–3 Napoli · Serie A · 21 December 2030",
     "last_verified_artifact_count": {
-      "articles": 684,
-      "results": 139,
+      "articles": 687,
+      "results": 140,
       "seasons": 4
     },
-    "last_compiled_revision": "041bd45718d4",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121283099",
-    "pendingSourceRevision": "20301221-parma-pio-double-xg-26-v1",
-    "pendingLead": "parma-one-napoli-three-pio-brace-beier-zaire-dec2030",
+    "last_compiled_revision": "08709cbb2b53",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124155375",
+    "pendingSourceRevision": null,
+    "pendingLead": null,
     "most_recent_source_fixture": "Parma 1–3 Napoli · Serie A · 21 December 2030",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681"
