@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 4–1 Pescara · domestic cup · 18 December 2030. Olise 69′ long-range top-corner screamer, Geertruida credited assist; 4–1 at 69′ and full time. Three other Napoli goals and Pescara scorer, timestamps, lineup and cup stage unconfirmed. Club all competitions 23P19W3D1L, 54GF 17GA; Serie A still 15P13W1D1L 40pts. Known club player contribution changes Olise 1G5A, Geertruida 2G1A; other goals unattributed. Next Parma away 21 Dec.",
+  "latest_confirmed_match": "Napoli 4–1 Pescara · home domestic cup 18 Dec 2030. Giacomo Raspadori 2 goals (minutes unknown), Pio Esposito 1 goal (minute unknown), Michael Olise 69′ long-range top corner (Geertruida official assist). Pescara scorer unknown. Other assists Olise +1, Nico Paz +1, one unidentified; exact mappings to Raspadori/Pio goals unknown. After cup club 23P19W3D1L 54GF 17GA; Serie A unchanged 15P13W1D1L 40pts GF34 GA10. Club scorers: Rasp 4G1A Pio 19G9A Olise 1G6A Paz 0G2A Geertruida 2G1A. Next Parma away 21 Dec.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Pescara newsroom sources committed; editorial checks, compact browser build and Pages deploy pending",
+    "phase": "Napoli 4–1 Pescara · Raspadori double, Pio goal, Olise 69′ rocket from Geertruida, Olise/Paz assists",
+    "match": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
+    "stories": [
+      "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
+      "raspadori-two-goals-pescara-squad-depth-dec2030",
+      "olise-goal-and-assist-pescara-december-form-2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-pescara-napoli-four-one-cup-dec18-2030-report.js",
+      "stories-raspadori-brace-pescara-dec2030.js",
+      "stories-olise-december-sampdoria-pescara-2030.js",
+      "site-visible-napoli-pescara-dec18-2030.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-coaches-team-tactics.webp"
+    ],
+    "knownFacts": "Napoli 4-1 home cup; Raspadori x2 Pio x1 Olise 69′ outside-box top corner goal x1 assisted by Geertruida; Olise x1 other credited assist Paz x1 credited assist plus one other unidentified assist. Unspecified recipients of Olise/Paz assists, goal order and prior exact times. Club 23P19W3D1L GF54 GA17; league unchanged 15P13W1D1L 40 pts. Player club totals Rasp 4G1A Pio 19G9A Olise 1G6A Paz 0G2A Geertruida 2G1A.",
+    "unknowns": "Pre-69 individual goal times/order, specific assists to Raspadori/Pio goals, third unknown assist identity, Pescara scorer/time, first half score, match XI, cup round, shots/cards/xG, player interviews or actual manager responses. Omit rather than invent.",
+    "comments": {
+      "topLevel": 25,
+      "totalIncludingReplies": 81
+    },
+    "paragraphs": 37,
+    "coverage": "Three distinct original stories, 37 reporter-eye paragraphs, 25 supporter threads, 81 original comments/replies; December Hasa interview already fulfilled.",
+    "nextFixture": "Parma away 21 December 2030 Serie A; Udinese home 28 December 2030 Serie A",
+    "press": "No fabricated manager answers. No public references to lost messages or data provenance.",
+    "releaseVersion": "20301218-pescara-four-one-olise-raspadori-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "firstPaintLead": "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
+      "clubScope": "Club 23P19W3D1L 54GF 17GA, league 40pts unchanged",
+      "italyScope": "unchanged"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — final wording polish, technical checks, compact browser tests and Pages deployment all succeeded",
     "phase": "Napoli 2–0 Sampdoria 14 December 2030: Olise assists Pio 37′ and Beier 43′, 2–0 HT and FT, clean sheet, selective rotation",
     "match": "Napoli 2–0 Sampdoria · Serie A MD15 · 14 December 2030",
@@ -169,90 +216,6 @@
       "quality": "Independent press voice refined in clean-sheet analysis; no new football facts"
     },
     "compiledCommit": "a43edb46216367308669d290febb36c8f0241939"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — official-assist correction verified in compiled edition and successful GitHub Pages deployment",
-    "phase": "RB Leipzig 2–2 Napoli 11 December 2030: two-goal comeback, Epolo throwing mistake, Zaïre-Emery and Beier late goals; UCL second with 14 points, City/Liverpool outside playoff positions",
-    "match": "RB Leipzig 2–2 Napoli · Champions League league phase MD6 · 11 December 2030",
-    "stories": [
-      "leipzig-two-two-beier-stoppage-zaire-rescue-dec2030",
-      "epolo-throw-bakayoko-leipzig-selection-scrutiny-dec2030",
-      "beier-pio-zaire-late-rescue-leipzig-partnerships-dec2030",
-      "bellandi-napoli-second-city-liverpool-below-cutline-dec2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-leipzig-napoli-2-2-dec11-2030-report.js",
-      "stories-epolo-leipzig-giveaway-2030-analysis.js",
-      "stories-beier-pio-zaire-leipzig-comeback-dec2030.js",
-      "stories-bellandi-city-liverpool-napoli-ucl-standings-dec2030.js",
-      "site-visible-leipzig-2-2-dec11-2030.js"
-    ],
-    "gallery": [
-      "assets/beier-napoli.jpg",
-      "assets/story-coaches-team-tactics.webp",
-      "assets/story-manager-pio-esposito.webp",
-      "assets/story-champions-league-stakes.webp"
-    ],
-    "knownFacts": "Leipzig Ouedraogo 45′, Bakayoko 72′ after Epolo throw giveaway; Napoli Zaïre-Emery 81′ from McTominay, Beier equalises in stoppage time after Pio passes through; Leipzig GK Svilar formerly Roma. Napoli UCL 6P4W2D0L 14pts GF14 GA5 +9 and second in standings; Manchester City and Liverpool outside playoff qualifying places after six, not eliminated. Napoli club 21P17W3D1L GF48 GA16. Serie A unchanged 14P12W1D1L 37pts. Manager later expressly confirmed OFFICIAL assists for McTominay on Zaïre-Emery 81′ and Pio on Beier in stoppage time; these credited assists are not provisional.",
-    "unknowns": "Do not invent exact stoppage-time minute, the nature of Ouedraogo goal or Bakayoko finish, the rest of Leipzig XI, shots/xG, team above Napoli, City/Liverpool points or positions. No private staff voices or manager quotes in stories.",
-    "coverage": "Four original story angles (50 paragraphs) with 37 bespoke threads and 121 original comments including replies. No fictional player interview necessary (December Hasa Q&A already covered).",
-    "comments": {
-      "topLevel": 37,
-      "totalIncludingReplies": 121
-    },
-    "paragraphs": 50,
-    "nextFixture": "Sampdoria home 14 Dec Serie A, Pescara home 18 Dec cup, Parma away 21 Dec, Udinese home 28 Dec",
-    "press": "No manager press answers fabricated. Independent journalists observe the match; goalkeeper mistake known on-field and no private coaching or speculative hidden arguments are attributed to them.",
-    "releaseVersion": "20301211-leipzig-two-two-rescue-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "firstPaintLead": "leipzig-two-two-beier-stoppage-zaire-rescue-dec2030",
-      "clubScope": "UCL 6P4W2D0L 14 points second; club 21P17W3D1L GF48 GA16; Serie A 14P12W1D1L 37pts",
-      "italyScope": "unchanged and separate",
-      "articles": 678,
-      "results": 137,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41934697714",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41934780092",
-      "browserPassed": true,
-      "compiledCommit": "4cb4a3538be357eb5dc26918020f76518195aa83",
-      "metadata": "Leipzig description corrected",
-      "publicationCorrection": "Manager-confirmed OFFICIAL Leipzig assists for McTominay and Pio published and deployed"
-    },
-    "compiledCommit": "4cb4a3538be357eb5dc26918020f76518195aa83",
-    "assistCorrection": {
-      "status": "manager-confirmed official",
-      "match": "RB Leipzig 2–2 Napoli · 11 December 2030",
-      "credits": [
-        {
-          "player": "Scott McTominay",
-          "assisted": "Warren Zaïre-Emery",
-          "minute": "81′",
-          "official": true
-        },
-        {
-          "player": "Pio Esposito",
-          "assisted": "Maximilian Beier",
-          "minute": "stoppage time (exact minute unconfirmed)",
-          "official": true
-        }
-      ],
-      "recordedSeasonTotals": {
-        "Scott McTominay": "1G3A",
-        "Pio Esposito": "17G9A"
-      },
-      "scope": "Leipzig only; prior Pisa final-pass official status still pending"
-    }
   },
   "release_history": [
     {
@@ -503,9 +466,9 @@
     },
     "last_compiled_revision": "c8cd0f502461",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42118466420",
-    "pendingSourceRevision": null,
-    "pendingLead": null,
-    "most_recent_source_fixture": "Napoli 2–0 Sampdoria · Serie A · 14 December 2030",
+    "pendingSourceRevision": "20301218-pescara-four-one-olise-raspadori-v1",
+    "pendingLead": "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
+    "most_recent_source_fixture": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681"
   },
@@ -565,7 +528,7 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "Napoli 4–1 Pescara · 18 Dec 2030 domestic cup",
-    "status": "Publication authorised; full scorer/assist reconstruction blocked by retrieval gap; correcting earlier assistant claim.",
+    "status": "Resolved enough for publication: manager reconfirmed Raspadori x2, Pio x1, Olise 69 x1; Olise +1A, Paz +1A, Geertruida +1A, one unidentified assist; earlier minutes/recipient mapping omitted",
     "knownGoal": {
       "minute": 69,
       "scorer": "Michael Olise",
@@ -590,7 +553,7 @@
       "GF": 34,
       "GA": 10
     },
-    "pending": "Manager says the prior three Napoli goals, opponent goal, times and assists WERE provided; assistant cannot retrieve them from current visible context. This is a retrieval problem, not missing user input. Do not publish an incomplete goalscorer breakdown as complete.",
+    "pending": "Only exact earlier goal minutes, assist recipient pairings and the unidentified fourth assist provider remain outside current record; none invented",
     "nextFixture": "Parma away · 21 Dec 2030 Serie A",
     "editorialAuthorization": "Manager explicitly requests Pescara stories, then challenges assertion that other goal details were not supplied. Preserve authorisation; do not fabricate unrecovered events."
   }
