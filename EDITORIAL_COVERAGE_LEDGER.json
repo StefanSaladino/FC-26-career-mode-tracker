@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "RB Leipzig 2–2 Napoli · Champions League MD6 · 11 December 2030; Ouedraogo 45′, Bakayoko 72′ after Epolo misplaced throw; Zaïre-Emery 81′ from McTominay, Beier stoppage-time equaliser from Pio. Napoli second in UCL after six with 14 pts; Manchester City and Liverpool outside playoff qualification positions. MANAGER CORRECTION: McTominay-to-Zaïre-Emery and Pio-to-Beier Leipzig assists are both OFFICIALLY CREDITED.",
+  "latest_confirmed_match": "Napoli 2–0 Sampdoria · Serie A MD15, 14 Dec 2030: Pio 37′ top-corner finish from Michael Olise through ball (credited assist); Beier 43′ header from Olise cross, unmarked centrally (second credited assist). HT 2–0, FT 2–0, clean sheet, selectively rotated lineup not specified. Serie A 15P13W1D1L, 40 points, GF34 GA10 +24; all Napoli club 22P18W3D1L GF50 GA16. Pio 18G9A, Beier 16G13A, Olise 0G5A; Pescara next Dec 18.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Sources committed — verification and compact deployment pending",
+    "phase": "Napoli 2–0 Sampdoria 14 December 2030: Olise assists Pio 37′ and Beier 43′, 2–0 HT and FT, clean sheet, selective rotation",
+    "match": "Napoli 2–0 Sampdoria · Serie A MD15 · 14 December 2030",
+    "stories": [
+      "napoli-sampdoria-2-0-pio-beier-olise-report-dec2030",
+      "olise-two-assists-pio-beier-sampdoria-player-focus-dec2030",
+      "napoli-sampdoria-control-clean-sheet-after-leipzig-dec2030"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-sampdoria-two-nil-olise-dec14-2030-report.js",
+      "stories-olise-two-assists-sampdoria-dec2030.js",
+      "stories-sampdoria-clean-sheet-control-dec2030.js",
+      "site-visible-napoli-sampdoria-dec14-2030.js"
+    ],
+    "knownFacts": "Home 2–0 win, HT 2–0. Pio 37′ powerful top-corner shot from Olise through ball; Beier 43′ unmarked central header from Olise cross. Olise two credited assists. Clean sheet, selective rotation, no other goals. League 15P13W1D1L 40 pts, GF34 GA10 +24. Club 22P18W3D1L GF50 GA16. Pio 18G9A, Beier 16G13A, Olise 0G5A.",
+    "unknowns": "Unknown XI/keeper/substitutions, second-half incidents, shots, xG, cards, managers' quotes, other table teams and cup round; no invented events.",
+    "coverage": "3 original pieces, 38 original paragraphs, 25 top-level supporter conversations, 80 original comments including replies. December player-feature coverage already fulfilled.",
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-coaches-squad-tactics-session.webp"
+    ],
+    "comments": {
+      "topLevel": 25,
+      "totalIncludingReplies": 80
+    },
+    "paragraphs": 38,
+    "nextFixture": "Pescara home 18 Dec cup; Parma away 21 Dec Serie A; Udinese home 28 Dec Serie A",
+    "press": "Independent press voice; no invented manager statements or fictional press Q&A.",
+    "releaseVersion": "20301214-sampdoria-olise-double-v1",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "firstPaintLead": "napoli-sampdoria-2-0-pio-beier-olise-report-dec2030",
+      "clubScope": "Serie A 15P13W1D1L 40pts, GF34 GA10; club 22P18W3D1L GF50 GA16",
+      "italyScope": "unchanged"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — official-assist correction verified in compiled edition and successful GitHub Pages deployment",
     "phase": "RB Leipzig 2–2 Napoli 11 December 2030: two-goal comeback, Epolo throwing mistake, Zaïre-Emery and Beier late goals; UCL second with 14 points, City/Liverpool outside playoff positions",
     "match": "RB Leipzig 2–2 Napoli · Champions League league phase MD6 · 11 December 2030",
@@ -195,62 +242,6 @@
       },
       "scope": "Leipzig only; prior Pisa final-pass official status still pending"
     }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact browser tests, compiled snapshot and GitHub Pages deployment succeeded",
-    "phase": "Pisa 2–3 Napoli, 7 December 2030: Zaïre-Emery first season brace, Davies third, Pisa rally from 0–3 to 2–3 and Peacock's return",
-    "match": "Pisa 2–3 Napoli · Serie A MD14 · 7 December 2030",
-    "stories": [
-      "pisa-napoli-three-two-zaire-davies-collapse-dec7-2030",
-      "zaire-emery-two-goals-pisa-midfield-dec2030",
-      "pisa-3-2-peacock-defensive-collapse-leipzig-dec2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-pisa-napoli-3-2-dec7-2030-report.js",
-      "stories-zaire-emery-pisa-brace-dec2030.js",
-      "stories-pisa-peacock-defence-leipzig-analysis-dec2030.js",
-      "site-visible-pisa-napoli-dec7-2030.js"
-    ],
-    "knownFacts": "Pisa home 2–3 Napoli away 7 Dec 2030; HT 0–3. Napoli Zaïre-Emery 12′ first-time top-corner finish from Stach through ball, second at unknown minute after Raspadori→Moore→Pio→Zaïre passing move (Pio final pass), Davies at unknown minute after Pisa botch a corner clearance. Pisa Durosinmi 62′, Vural 81′. Peacock's first start in a while ends two conceded. 14P12W1D1L, 37pts GF32 GA10 +22; all club 20P17W2D1L GF46 GA14. Zaïre-Emery 2G3A, Davies 1G0A; provisional goal-creating final passes take Pio to 17G8A and Stach to 1G4A pending separate official game assist designation.",
-    "unknowns": "Do not invent minute of Warren second goal or Davies goal, named goal assist for Davies/Pisa scorers, way of Pisa scoring or blame specific goalkeeper errors, unconfirmed lineup or subs, shots/xG, press quotes or player testimony. Pio and Stach last passes described by manager but separate formal game assist credit remains unknown.",
-    "coverage": "Three original distinct pieces: 13-paragraph observer-written match report, 11-paragraph Warren character-led feature, 12-paragraph Peacock/collective collapse tactical analysis. 31 top-level original threads, 110 bespoke supporter comments including relevant nested replies. Not a fictional manager/player press transcript.",
-    "gallery": [
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-coaches-key-players-walkout.webp",
-      "assets/story-sandro-bastoni-defensive-talk.webp"
-    ],
-    "comments": {
-      "topLevel": 31,
-      "totalIncludingReplies": 110
-    },
-    "paragraphs": 36,
-    "nextFixture": "RB Leipzig away 11 Dec 2030 Champions League; Sampdoria home 14 Dec Serie A; Pescara home 18 Dec cup; Parma away 21 Dec Serie A",
-    "press": "No fabricated manager quote or private medical disclosure. Peacock first start and two conceded treated as observable match context, no unsupported individual keeper errors.",
-    "releaseVersion": "20301207-pisa-warren-escape-v1",
-    "technical": {
-      "editorialQualityGate": "success — 199 source scripts, zero technical errors, 21 pre-existing nonblocking legacy warnings (nine identity contexts, ten historic image references, two alternate ID formats); zero new Pisa warnings",
-      "approvedGalleryAssetVerification": "Three approved Napoli gallery cover images verified to exist and visually inspected as source art; archival illustration captions accurate. Independent manual rendered desktop/mobile crops not separately checked.",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — Pisa lead first-paint parity, new story links and comments, 674 full-archive articles, archived story navigation, year-based Napoli stats, 27 Italy match records, five-script compact runtime without historical JS replay",
-      "pagesDeployment": "success",
-      "articles": 674,
-      "results": 136,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "pisa-napoli-three-two-zaire-davies-collapse-dec7-2030",
-      "clubScope": "Serie A 14P12W1D1L 37 points GF32 GA10; club 20P17W2D1L GF46 GA14; Zaïre-Emery 2G3A, Davies 1G0A, Pio 17G8A and Stach 1G4A for goal-creating final passes (formal in-game assist credit separately unknown), Beier 14G13A",
-      "italyScope": "Italy 2030 archive retained separately from Napoli club stats; 27 Italy matches observed in browser test",
-      "goalTiming": "Zaïre-Emery second goal and Davies goal minutes unknown; no invented times or goalkeeper errors",
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926510523",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41926587303",
-      "browserPassed": true
-    },
-    "compiledCommit": "28c1a75e18fb068170c15c011d3b0489dc1d633b"
   },
   "release_history": [
     {
@@ -501,9 +492,9 @@
     },
     "last_compiled_revision": "3f1bfab60866",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/41934780092",
-    "pendingSourceRevision": null,
-    "pendingLead": null,
-    "most_recent_source_fixture": "RB Leipzig 2–2 Napoli · UCL · 11 December 2030",
+    "pendingSourceRevision": "20301214-sampdoria-olise-double-v1",
+    "pendingLead": "napoli-sampdoria-2-0-pio-beier-olise-report-dec2030",
+    "most_recent_source_fixture": "Napoli 2–0 Sampdoria · Serie A · 14 December 2030",
     "pendingCorrection": null
   },
   "latest_calendar_update": {

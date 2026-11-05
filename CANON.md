@@ -1,3 +1,16 @@
+## 2030–31 — SERIE A MD15: NAPOLI 2–0 SAMPDORIA · 14 DECEMBER 2030 · FULL TIME
+
+- **MANAGER-CONFIRMED RESULT:** Napoli beat Sampdoria **2–0** at home on 14 December 2030. **Halftime 2–0**, **full time 2–0**, Napoli clean sheet. Selective rotation used but exact starters and substitutions not given.
+- **37′ — NAPOLI 1–0:** **Michael Olise** through ball to **Pio Esposito**, who **smashes into the top corner**. **Olise credited with assist**.
+- **43′ — NAPOLI 2–0:** **Olise crosses** for **Maximilian Beier**, unmarked in the centre of the penalty area, who **scores with a header**. **Second credited Olise assist**.
+- **SECOND HALF:** No additional goals; 2–0 advantage maintained through full time. Specific chances, goalkeeper identity, substitutions, exact rotation players, cards and shots not established, so do not fabricate.
+- **SERIE A AFTER 15:** **15 played, 13 wins, one draw, one defeat, 40 points, 34 GF, 10 GA, +24 GD**. Club all-competition: **22 played, 18 wins, 3 draws, 1 defeat, 50 GF, 16 GA**. The prior UCL table remains 6P4W2D0L, 14 points, second after six; no new European fixture today.
+- **2030–31 NAPOLI CLUB CONTRIBUTIONS:** **Pio Esposito 18G9A**, **Maximilian Beier 16G13A**, **Michael Olise 0G5A** (+2 credited assists, previously 0G3A). Scott McTominay 1G3A and Zaïre-Emery 3G3A unchanged. Both Leipzig McTominay and Pio assists are official. Pisa separate official-assist uncertainties remain unchanged. Do not count Italy stats in club totals.
+- **PRIVATE ASSISTANT-MANAGER CONTEXT:** Napoli sought a controlled second half after Pisa and Leipzig; the final 2–0 score and clean sheet are confirmed without inventing defensive incidents or specific instructions actually carried out. Neves has not been declared available. Cup versus Pescara next.
+- **NEXT CONFIRMED FIXTURES:** Pescara home **18 Dec 2030** domestic cup (round unknown); Parma away **21 Dec 2030** Serie A; Udinese home **28 Dec 2030** Serie A.
+- **EDITORIAL AUTHORITY:** Manager explicitly says **“You can run the stories too.”** Three original independent Napoli newsroom pieces: Giulia Romano's match report, Elena De Luca's two-assist Olise player analysis and Marco Bellini's clean-sheet/rotation piece. **38 original paragraphs, 25 supporter threads and 80 bespoke comments/replies.** Approved existing gallery covers only. No fabricated manager press quotes, starting XI, second-half events or additional player interviews (December Hasa interview already covered).
+- **RELEASE STATUS:** Sources committed; editorial quality gate, compact browser compilation and Pages deployment must be verified before calling edition live.
+
 ## 2030–31 — UEFA CHAMPIONS LEAGUE MD6: RB LEIPZIG 2–2 NAPOLI, 11 DECEMBER 2030 — FULL TIME
 
 - **MANAGER-CONFIRMED FINAL:** RB Leipzig **2–2 Napoli**, away in the UEFA Champions League league phase on **11 December 2030**. Napoli came from **2–0 down** to equalise in **stoppage time**. The first half ended **RB Leipzig 1–0 Napoli**. No additional goals, xG, shots, bookings, substitutions, start XI, goal mechanics or exact stoppage-time minute provided.
