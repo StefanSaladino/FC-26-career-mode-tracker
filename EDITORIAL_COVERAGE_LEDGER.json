@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Pescara newsroom sources committed; editorial checks, compact browser build and Pages deploy pending",
+    "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
     "phase": "Napoli 4–1 Pescara · Raspadori double, Pio goal, Olise 69′ rocket from Geertruida, Olise/Paz assists",
     "match": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
     "stories": [
@@ -149,15 +149,25 @@
     "press": "No fabricated manager answers. No public references to lost messages or data provenance.",
     "releaseVersion": "20301218-pescara-four-one-olise-raspadori-v1",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success — Pescara first paint and archived reader, match/result + club stats, Italy separation",
+      "pagesDeployment": "success",
       "firstPaintLead": "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
       "clubScope": "Club 23P19W3D1L 54GF 17GA, league 40pts unchanged",
-      "italyScope": "unchanged"
+      "italyScope": "unchanged",
+      "articles": 684,
+      "results": 139,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "browserPassed": true,
+      "compiledCommit": "381548ddfcc3a72adf9bc5f1fc17ca70a5706797",
+      "sourceCommit": "041bd45718d471ab7b0a41480ae00611ff32ef4f",
+      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121206859",
+      "editorialGateRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121206821",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121283099"
     },
-    "compiledCommit": null
+    "compiledCommit": "381548ddfcc3a72adf9bc5f1fc17ca70a5706797"
   },
   "previous_newsroom_package": {
     "status": "Published — final wording polish, technical checks, compact browser tests and Pages deployment all succeeded",
@@ -447,7 +457,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "a43edb46216367308669d290febb36c8f0241939",
+    "current_published_commit": "381548ddfcc3a72adf9bc5f1fc17ca70a5706797",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -458,16 +468,16 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 2–0 Sampdoria · Serie A · 14 December 2030",
+    "most_recent_published_fixture": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
     "last_verified_artifact_count": {
-      "articles": 681,
-      "results": 138,
+      "articles": 684,
+      "results": 139,
       "seasons": 4
     },
-    "last_compiled_revision": "c8cd0f502461",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42118466420",
-    "pendingSourceRevision": "20301218-pescara-four-one-olise-raspadori-v1",
-    "pendingLead": "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
+    "last_compiled_revision": "041bd45718d4",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121283099",
+    "pendingSourceRevision": null,
+    "pendingLead": null,
     "most_recent_source_fixture": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681"
@@ -528,7 +538,7 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "Napoli 4–1 Pescara · 18 Dec 2030 domestic cup",
-    "status": "Resolved enough for publication: manager reconfirmed Raspadori x2, Pio x1, Olise 69 x1; Olise +1A, Paz +1A, Geertruida +1A, one unidentified assist; earlier minutes/recipient mapping omitted",
+    "status": "Pescara stories authorised, published and verified; all named scorers restored from manager clarification.",
     "knownGoal": {
       "minute": 69,
       "scorer": "Michael Olise",
