@@ -565,7 +565,7 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "Napoli 4–1 Pescara · 18 Dec 2030 domestic cup",
-    "status": "Manager-confirmed FT, logged to sole CANON.md; no Pescara newsroom release authorised",
+    "status": "Publication authorised; full scorer/assist reconstruction blocked by retrieval gap; correcting earlier assistant claim.",
     "knownGoal": {
       "minute": 69,
       "scorer": "Michael Olise",
@@ -590,7 +590,8 @@
       "GF": 34,
       "GA": 10
     },
-    "pending": "Remaining goals and assists before 69′ not given",
-    "nextFixture": "Parma away · 21 Dec 2030 Serie A"
+    "pending": "Manager says the prior three Napoli goals, opponent goal, times and assists WERE provided; assistant cannot retrieve them from current visible context. This is a retrieval problem, not missing user input. Do not publish an incomplete goalscorer breakdown as complete.",
+    "nextFixture": "Parma away · 21 Dec 2030 Serie A",
+    "editorialAuthorization": "Manager explicitly requests Pescara stories, then challenges assertion that other goal details were not supplied. Preserve authorisation; do not fabricate unrecovered events."
   }
 }
