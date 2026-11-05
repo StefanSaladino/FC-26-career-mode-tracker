@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–0 Sampdoria · Serie A MD15, 14 Dec 2030: Pio 37′ top-corner finish from Michael Olise through ball (credited assist); Beier 43′ header from Olise cross, unmarked centrally (second credited assist). HT 2–0, FT 2–0, clean sheet, selectively rotated lineup not specified. Serie A 15P13W1D1L, 40 points, GF34 GA10 +24; all Napoli club 22P18W3D1L GF50 GA16. Pio 18G9A, Beier 16G13A, Olise 0G5A; Pescara next Dec 18.",
+  "latest_confirmed_match": "Napoli 4–1 Pescara · domestic cup · 18 December 2030. Olise 69′ long-range top-corner screamer, Geertruida credited assist; 4–1 at 69′ and full time. Three other Napoli goals and Pescara scorer, timestamps, lineup and cup stage unconfirmed. Club all competitions 23P19W3D1L, 54GF 17GA; Serie A still 15P13W1D1L 40pts. Known club player contribution changes Olise 1G5A, Geertruida 2G1A; other goals unattributed. Next Parma away 21 Dec.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -562,5 +562,35 @@
       ]
     ],
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
+  },
+  "latest_canon_only_checkpoint": {
+    "fixture": "Napoli 4–1 Pescara · 18 Dec 2030 domestic cup",
+    "status": "Manager-confirmed FT, logged to sole CANON.md; no Pescara newsroom release authorised",
+    "knownGoal": {
+      "minute": 69,
+      "scorer": "Michael Olise",
+      "assist": "Lutsharel Geertruida",
+      "type": "Long-range top-corner screamer",
+      "scoreAfter": "4–1"
+    },
+    "unattributedNapoliGoals": 3,
+    "unknownOpponentGoalScorer": true,
+    "competition": "domestic cup, cup round unconfirmed",
+    "allClub": {
+      "played": 23,
+      "wins": 19,
+      "draws": 3,
+      "losses": 1,
+      "GF": 54,
+      "GA": 17
+    },
+    "serieA": {
+      "played": 15,
+      "points": 40,
+      "GF": 34,
+      "GA": 10
+    },
+    "pending": "Remaining goals and assists before 69′ not given",
+    "nextFixture": "Parma away · 21 Dec 2030 Serie A"
   }
 }
