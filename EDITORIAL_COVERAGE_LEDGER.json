@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser checks and GitHub Pages deployment passed",
+    "status": "Published — final wording polish, technical checks, compact browser tests and Pages deployment all succeeded",
     "phase": "Napoli 2–0 Sampdoria 14 December 2030: Olise assists Pio 37′ and Beier 43′, 2–0 HT and FT, clean sheet, selective rotation",
     "match": "Napoli 2–0 Sampdoria · Serie A MD15 · 14 December 2030",
     "stories": [
@@ -160,14 +160,15 @@
       "results": 138,
       "seasons": 4,
       "legacyScriptErrors": 0,
-      "compiledCommit": "7076cf8cd20b28c63bd7558bac234ffff4a69d36",
-      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681",
+      "compiledCommit": "a43edb46216367308669d290febb36c8f0241939",
+      "compiledBuildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42118392898",
       "editorialGateRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735676",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117844574",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42118466420",
       "galleryQA": "Existing approved images reused; independent manual rendered desktop/mobile image crop QA not performed.",
-      "browserPassed": true
+      "browserPassed": true,
+      "quality": "Independent press voice refined in clean-sheet analysis; no new football facts"
     },
-    "compiledCommit": "7076cf8cd20b28c63bd7558bac234ffff4a69d36"
+    "compiledCommit": "a43edb46216367308669d290febb36c8f0241939"
   },
   "previous_newsroom_package": {
     "status": "Published — official-assist correction verified in compiled edition and successful GitHub Pages deployment",
@@ -483,7 +484,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "7076cf8cd20b28c63bd7558bac234ffff4a69d36",
+    "current_published_commit": "a43edb46216367308669d290febb36c8f0241939",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -500,8 +501,8 @@
       "results": 138,
       "seasons": 4
     },
-    "last_compiled_revision": "8af7bc619e4f",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117844574",
+    "last_compiled_revision": "c8cd0f502461",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42118466420",
     "pendingSourceRevision": null,
     "pendingLead": null,
     "most_recent_source_fixture": "Napoli 2–0 Sampdoria · Serie A · 14 December 2030",
