@@ -646,5 +646,22 @@
     "firstNapoliAppearanceConfirmed": false,
     "newsPublicationRequested": false,
     "context": "Manager asked to hold Supercoppa stories while squad business is addressed. Juventus are confirmed final opponent."
+  },
+  "latest_olise_contract_negotiation": {
+    "player": "Michael Olise",
+    "age": 29,
+    "overall": 93,
+    "status": "In negotiations — extension years and role agreed; wages/bonuses NOT agreed",
+    "extensionYearsAgreed": 2,
+    "squadRoleAgreed": "Crucial",
+    "requestedWeeklyWage": 660000,
+    "requestedSigningBonus": 6600000,
+    "requestedMilestoneBonus": 6000000,
+    "milestoneTrigger": "Unknown",
+    "lastKnownHistoricalWeeklyWage": 350000,
+    "previousNapoliSigningWageReference": 350000,
+    "advice": "Sandro suggests countering $575k–$600k/week with $4m–$5m signing and a lower milestone if possible. This is NOT an approved or transmitted offer.",
+    "notSigned": true,
+    "newsroomAuthorization": "Hold Supercoppa and Olise story until the manager gives permission."
   }
 }
