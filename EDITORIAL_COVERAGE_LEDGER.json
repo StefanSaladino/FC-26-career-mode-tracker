@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–1 Udinese · Serie A home 28 Dec 2030. 5′ Pio Esposito goal after outmuscling defender, Maximilian Beier credited assist; 66′ Garcia Udinese equaliser. Full-strength side played poorly, fixture pileup could contribute; Epolo key saves preserve draw (no official save count). League 17P14W2D1L, 44 points, GF38 GA12 GD+26; Napoli all competitions 25P20W4D1L, GF58 GA19. Pio 22G9A, Beier 16G16A. After match Geertruida sold to REAL MADRID for $46.5 million, following failed $150k/week plus >$2m bonus extension request, negotiation failure, no compromise. Defender no longer in active Napoli squad, retained historical totals 2G1A. No replacement confirmed. Next Supercup home Jan 3 2031, opponent TBC.",
+  "latest_confirmed_match": "Napoli 4–1 opponent not named · Supercoppa semifinal, January 2031 (schedule previously shows 3 Jan). 17′ Beier goal, Raspadori credited assist; 42′ Lopez opposing equaliser; 45+1′ Stach scores from scramble (assist unspecified); HT 2–1; 56′ Beier from Raspadori credited assist; 90+2′ substitute Pio Esposito assists Beier for hat-trick. FT 4–1; Napoli advance to FINAL vs JUVENTUS, final date and venue unspecified. Club all comps 26P21W4D1L GF62 GA20; league unchanged 17P14W2D1L 44pts GF38 GA12. Beier 19G16A, Raspadori 4G3A, Pio 22G10A, Stach +1G this match. Semifinal opposing club and exact match date unverified. No semifinal story publication authorised.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -548,31 +548,58 @@
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   },
   "latest_canon_only_checkpoint": {
-    "fixture": "Napoli 1–1 Udinese · 28 December 2030 · plus Geertruida sold to Real Madrid",
-    "status": "Udinese and Geertruida Real Madrid departure covered in verified published four-story edition",
+    "fixture": "Napoli 4–1 unidentified opponent · January 2031 Supercoppa semifinal · FT",
+    "status": "Confirmed semifinal win and Juventus final; canon updated, newsroom publication not requested",
     "knownGoals": [
       {
-        "minute": 5,
-        "scorer": "Pio Esposito",
-        "assist": "Maximilian Beier",
-        "score": "1–0",
-        "finish": "Pio outmuscles defender"
+        "minute": 17,
+        "team": "Napoli",
+        "scorer": "Maximilian Beier",
+        "assist": "Giacomo Raspadori",
+        "score": "1–0"
       },
       {
-        "minute": 66,
-        "scorer": "Garcia",
-        "team": "Udinese",
+        "minute": 42,
+        "team": "Opponent",
+        "scorer": "Lopez",
+        "assist": null,
         "score": "1–1"
+      },
+      {
+        "minute": "45+1",
+        "team": "Napoli",
+        "scorer": "Anton Stach",
+        "assist": null,
+        "score": "2–1",
+        "detail": "Loose ball after scramble, assist unconfirmed"
+      },
+      {
+        "minute": 56,
+        "team": "Napoli",
+        "scorer": "Maximilian Beier",
+        "assist": "Giacomo Raspadori",
+        "score": "3–1"
+      },
+      {
+        "minute": "90+2",
+        "team": "Napoli",
+        "scorer": "Maximilian Beier",
+        "assist": "Pio Esposito",
+        "score": "4–1",
+        "detail": "Pio substitute entered before goal"
       }
     ],
-    "managerAssessment": "Poor full-strength Napoli display; heavy fixture load could contribute; Epolo saved Napoli. None of these establish medical problems or save counts.",
+    "halfTime": "2–1",
+    "final": "4–1",
+    "semiOpponent": "Not manager-confirmed",
+    "nextFixture": "Supercoppa FINAL vs Juventus; date and venue unconfirmed",
     "allClub": {
-      "played": 25,
-      "wins": 20,
+      "played": 26,
+      "wins": 21,
       "draws": 4,
       "losses": 1,
-      "GF": 58,
-      "GA": 19
+      "GF": 62,
+      "GA": 20
     },
     "serieA": {
       "played": 17,
@@ -585,17 +612,12 @@
       "GD": 26
     },
     "playerSeason": {
-      "Pio": "22G9A",
-      "Beier": "16G16A"
+      "Beier": "19G16A",
+      "Raspadori": "4G3A",
+      "Pio": "22G10A",
+      "Stach": "One semifinal goal; cumulative number not independently verified"
     },
-    "nextFixture": "Home Supercup 3 January 2031, opponent unconfirmed",
-    "buyer": "Real Madrid (explicitly confirmed)",
-    "fee": 46500000,
-    "contractDemand": {
-      "wagePerWeek": 150000,
-      "bonuses": "More than $2 million",
-      "outcome": "Failed negotiation"
-    }
+    "editorial": "No run stories directive yet. Current site lead stays existing Real Madrid transfer/Hermansen feature."
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",

@@ -1,3 +1,16 @@
+## JANUARY 2031 — SUPERCOPPA SEMIFINAL: NAPOLI 4–1 OPPONENT NOT YET IDENTIFIED · THROUGH TO FINAL VS JUVENTUS
+
+- **MANAGER-CONFIRMED FULL TIME:** **Napoli win 4–1 in the Supercoppa semifinal**, advancing to a **final against Juventus** (manager explicitly confirms Juventus as final opponent). Opposing semifinal club name NOT supplied; **Lopez** is the opposing goalscorer, but do not infer the club from his surname. The screenshot previously showed a home Supercup fixture on **3 January 2031**, but if different semifinal venue/date is later provided, update accordingly. No confirmed final date, venue, kick-off or final score yet.
+- **17′ — NAPOLI 1–0:** **Maximilian Beier** scores; **Giacomo Raspadori officially credited with assist**.
+- **42′ — NAPOLI 1–1:** Opposing player **Lopez** equalises. His first name, team and assist unknown; don't invent.
+- **45+1′ — NAPOLI 2–1:** A scramble with no one establishing possession; **Anton Stach buries the loose ball**. Assist NOT confirmed. **Halftime Napoli 2–1**.
+- **56′ — NAPOLI 3–1:** **Beier** scores his second goal, **Raspadori credited his second assist**.
+- **90+2′ — NAPOLI 4–1:** **Francesco Pio Esposito had entered earlier as a substitute**; he supplies the **assist for Beier's third goal**. Beier HAT TRICK.
+- **PLAYER 2030–31 NAPOLI CLUB TOTALS after semifinal:** **Beier 19 goals, 16 assists** (3 goals from 16G/16A), **Raspadori 4 goals, 3 assists** (2 assists from 4G/1A), **Pio Esposito 22 goals, 10 assists** (1 assist from 22G/9A); **Stach +1 confirmed goal this match**, but without a verified prior total do not invent his cumulative goals. Other previously verified totals unchanged. Italy excluded.
+- **ALL NAPOLI COMPETITIONS after semifinal:** **26 competitive games, 21 wins, 4 draws, 1 loss, 62 goals for, 20 against** (previous 25P20W4D1L GF58 GA19). **SERIE A UNCHANGED:** 17P14W2D1L, 44pts, GF38 GA12 +26. UCL unchanged, no invented European statistics.
+- **SQUAD CONTEXT:** Club had recently sold Geertruida to Real Madrid for $46.5m and signed Victor Hermansen from Fulham (21, 80 OVR, POT 87, LB/RB/LM, sporadic). The manager intended some cup rotation; **Pio is explicitly confirmed as a substitute**. Do not invent the rest of the starting XI, Hermansen's debut or other substitutions.
+- **EDITORIAL STATUS:** At final whistle Mister says **“FT. We now have Juve in the finals.”** This confirms the result and upcoming Juventus final, **not a direction to publish Supercoppa semifinal news articles**. Log in sole canon and editorial checkpoint only; retain the verified current transfer/Udinese lead until publication requested.
+
 ## YEAR-END 2030 — VICTOR HERMANSEN SIGNED FROM FULHAM AS GEERTRUIDA REPLACEMENT
 
 - **MANAGER-CONFIRMED TRANSFER:** Napoli **SIGNED Victor Hermansen FROM FULHAM**, specifically as the replacement following Lutsharel Geertruida's completed **$46.5 million sale to Real Madrid**. This is a COMPLETED incoming signing, not a target, rumour or offer. Hermansen's exact incoming **transfer fee NOT given** and must not be inferred from the Geertruida sale; no net cash/budget arithmetic invented.
