@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 4–1 opponent not named · Supercoppa semifinal, January 2031 (schedule previously shows 3 Jan). 17′ Beier goal, Raspadori credited assist; 42′ Lopez opposing equaliser; 45+1′ Stach scores from scramble (assist unspecified); HT 2–1; 56′ Beier from Raspadori credited assist; 90+2′ substitute Pio Esposito assists Beier for hat-trick. FT 4–1; Napoli advance to FINAL vs JUVENTUS, final date and venue unspecified. Club all comps 26P21W4D1L GF62 GA20; league unchanged 17P14W2D1L 44pts GF38 GA12. Beier 19G16A, Raspadori 4G3A, Pio 22G10A, Stach +1G this match. Semifinal opposing club and exact match date unverified. No semifinal story publication authorised.",
+  "latest_confirmed_match": "Napoli 4–1 unidentified opponent, Jan 2031 Supercoppa semifinal. Beier 17′ (Raspadori), Lopez 42′ opposing equaliser, Stach 45+1′ loose-ball finish, HT Napoli 2–1; Beier 56′ (Raspadori), Beier 90+2′ (substitute Pio). FT 4–1; Napoli to face Juventus in Supercoppa final, final date and venue unconfirmed. Competitive club 26P21W4D1L GF62 GA20; Serie A stays 17P14W2D1L 44pts GF38 GA12. Beier 19G16A, Raspadori 4G3A, Pio 22G10A, Stach 2G4A based on previous 1G4A. Transfer: Geertruida to Real Madrid for $46.5m, Victor Hermansen signed from Fulham, E. Rossetti returned from loan rated 80; Olise contract talks ended for now with no new extension signed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,62 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "January edition source pending publication; technical checks not yet verified",
+    "phase": "Napoli Supercoppa 4–1 semifinal and Juventus final, Olise negotiations ended for now, January sale/new signing/loan return",
+    "match": "Napoli 4–1 Supercoppa semifinal · January 2031; final vs Juventus / January window and contract decisions",
+    "stories": [
+      "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
+      "olise-napoli-extension-talks-ended-690k-jan2031",
+      "beier-raspadori-pio-supercoppa-semi-jan2031",
+      "napoli-january-transfer-window-geertruida-hermansen-rossetti-jan2031",
+      "rossetti-returns-napoli-loan-80-overall-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco D'Amato · CalcioMercato Napoli",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Calcio Napoli",
+      "Lorenzo Ferri · Calcio Giovane"
+    ],
+    "source": [
+      "stories-napoli-supercoppa-semifinal-4-1-beier-hattrick-jan2031.js",
+      "stories-michael-olise-690k-renewal-talks-breakdown-jan2031.js",
+      "stories-beier-raspadori-supercoppa-semifinal-jan2031.js",
+      "stories-napoli-january-transfer-business-review-2031.js",
+      "stories-rossetti-loan-return-80-ovr-jan2031.js",
+      "site-visible-supercoppa-semi-jan2031-olise-rossetti.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-coaches-key-players-walkout.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-coaches-squad-tactics-session.webp",
+      "assets/story-esposito-squad-walkout.webp"
+    ],
+    "knownFacts": "Napoli beat unspecified semifinal opponents 4–1 in January Supercoppa; Beier 17′ and 56′ (both Raspadori official assists), Stach 45+1′ (scramble, assist unknown), Beier 90+2′ (substitute Pio official assist); Lopez opponents equaliser 42′, halftime 2–1. Juventus confirmed final opponent. Napoli all club competitions 26P21W4D1L GF62 GA20; league unchanged 17P14W2D1L 44 points GF38 GA12. Beier 19G16A Raspadori 4G3A Pio 22G10A Stach 2G4A (prior 1G4A). Geertruida sold to Real Madrid $46.5m, failed $150k/week + over $2m bonus renewal; Hermansen joined from Fulham, 21, 80 overall, pot capped 87, LB/RB/LM, sporadic 3yr $100k weekly $500k signing no release clause and no confirmed incoming fee. Rossetti returns from loan now 80 overall (formerly 79), RM previously confirmed, no new Napoli appearance claimed. Olise 29/93, 2yr+Crucial in principle, old $660k/$6.6m initial with $6m milestone, latest $690k weekly $6.2m signing, latest milestone unknown, manager ENDED negotiation for now; still Napoli player with no signed extension.",
+    "unknowns": "Semifinal opponent club, Lopez first name, semi actual specific match date/venue independent of Jan 3 screenshot, Stach assist, unnamed passes, all substitutions other than Pio sub, Supercoppa final date/venue, Olise current contract expiry and milestone trigger/latest milestone number, actual club counteroffer amount and further negotiation/transfer possibility, Rossetti current age and first Napoli match post-loan, Hermansen incoming transfer fee. Do not fabricate.",
+    "coverage": "Five independently written articles from different angles (14+14+13+14+13=68 substantive paragraphs); 38 unique top-level supporter threads and 109 bespoke comments including replies. Previous Geertruida/Hermansen 5-story edition kept in archive; new transfer roundup updates developments without rewriting or duplicating historic coverage.",
+    "comments": {
+      "topLevel": 38,
+      "totalIncludingReplies": 109
+    },
+    "paragraphs": 68,
+    "nextFixture": "Supercoppa FINAL vs Juventus, date and venue unconfirmed; league fixtures and European Barcelona/Dynamo Kyiv later in January 2031",
+    "releaseVersion": "20310103-supercoppa-beier-olise-rossetti-v1",
+    "press": "No fabricated manager press interview, player testimonial or unconfirmed referee/tactical details. Olise deal is paused, not transferred or signed.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "firstPaintLead": "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
+      "clubScope": "After Supercoppa 26P21W4D1L GF62 GA20; Serie A unchanged 17P14W2D1L 44pts",
+      "italyScope": "unchanged",
+      "roster": "Rossetti returned from loan now 80 OVR active Napoli midfielder; Hermansen active LB/RB/LM; departed Geertruida not active; Olise 93 and active with renewal talks ended."
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — expanded five-story year-end transfer/Udinese edition successfully validated, compiled and deployed",
     "phase": "Napoli 1–1 Udinese; Epolo's rescue; Geertruida sold to Real Madrid $46.5m; Victor Hermansen signed from Fulham as successor",
     "match": "Napoli 1–1 Udinese · 28 December 2030; Real Madrid/Geertruida and Fulham/Hermansen transfer business · year-end 2030",
@@ -180,63 +236,6 @@
       "visualQA": "Approved artwork paths exist in repo. No independent manual screenshot or desktop/mobile image-crop review performed."
     },
     "compiledCommit": "2418ba0b28a060f585f22f059175464bd80a22e7"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
-    "phase": "Parma 1–3 Napoli · 21 December 2030: Pio brace, two official Beier assists, Zaïre-Emery from Paz at 64′, xG 2.6 Napoli vs 0.1 Parma",
-    "match": "Parma 1–3 Napoli · Serie A MD16 · 21 December 2030",
-    "stories": [
-      "parma-one-napoli-three-pio-brace-beier-zaire-dec2030",
-      "parma-napoli-xg-26-to-01-dec2030-tactical-analysis",
-      "pio-beier-two-assists-parma-brace-dec2030-player-focus"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk"
-    ],
-    "source": [
-      "stories-parma-napoli-1-3-dec21-2030-report.js",
-      "stories-parma-napoli-xg-26-01-dec2030-analysis.js",
-      "stories-pio-beier-parma-double-dec2030-playerfocus.js",
-      "site-visible-parma-napoli-1-3-dec21-2030.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-coaches-team-tactics.webp",
-      "assets/story-manager-pio-esposito.webp"
-    ],
-    "knownFacts": "Parma 1–3 Napoli, away Serie A 21 Dec 2030. Pio opening rebound header after own shot off bar, Beier official assist; Frigan 31′ equaliser; Zaïre-Emery 64′ from Nico Paz following fantastic buildup; Pio later on flowing counter from Beier second credited assist. Aggregate xG Napoli 2.6 Parma 0.1. Napoli Serie A 16P14W1D1L 43pts GF37 GA11 +26; all club 24P20W3D1L GF57 GA18. Player totals Pio 21G9A Beier 16G15A Warren 4G3A Paz 0G3A.",
-    "unknowns": "Exact minutes of Pio's goals, Parma assist, halftime score, bookings, shots, team formations, individuals' xG and other buildup/counter players unknown; no invented details.",
-    "coverage": "Three independently authored football articles (13+12+11=36 substantive paragraphs) with 23 distinct supporter threads and 58 custom comments/replies. December Hasa interview already fulfilled; no forced interviews.",
-    "comments": {
-      "topLevel": 23,
-      "totalIncludingReplies": 58
-    },
-    "paragraphs": 36,
-    "nextFixture": "Udinese home 28 Dec 2030 · Serie A",
-    "releaseVersion": "20301221-parma-pio-double-xg-26-v1",
-    "press": "No fabricated manager quote or mixed-zone interview. Player statements only if marked fictional; none in this release.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "firstPaintLead": "parma-one-napoli-three-pio-brace-beier-zaire-dec2030",
-      "clubScope": "Serie A 16P14W1D1L 43pts GF37 GA11 +26, all 24P20W3D1L GF57 GA18",
-      "italyScope": "unchanged",
-      "articles": 687,
-      "results": 140,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "browserPassed": true,
-      "compiledCommit": "69802b256f59a9f5c5d5a1bc870da446a7f14ab4",
-      "sourceCommit": "08709cbb2b53b8c52dd691206650914ebcc26741",
-      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124070469",
-      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124070470",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124155375"
-    },
-    "compiledCommit": "69802b256f59a9f5c5d5a1bc870da446a7f14ab4"
   },
   "release_history": [
     {
@@ -487,9 +486,9 @@
     },
     "last_compiled_revision": "8efc0eaf13b9",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300876758",
-    "pendingSourceRevision": null,
-    "pendingLead": null,
-    "most_recent_source_fixture": "Udinese 1–1, Geertruida Real Madrid sale and Hermansen Fulham signing · year-end 2030",
+    "pendingSourceRevision": "20310103-supercoppa-beier-olise-rossetti-v1",
+    "pendingLead": "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
+    "most_recent_source_fixture": "Supercoppa semifinal Napoli 4–1 (opponent unknown), final vs Juventus · Jan 2031",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997"
   },
@@ -549,7 +548,7 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "Napoli 4–1 unidentified opponent · January 2031 Supercoppa semifinal · FT",
-    "status": "Confirmed semifinal win and Juventus final; canon updated, newsroom publication not requested",
+    "status": "Previously canon-only semifinal now included in authorised January edition, pending build/deployment",
     "knownGoals": [
       {
         "minute": 17,
@@ -592,7 +591,7 @@
     "halfTime": "2–1",
     "final": "4–1",
     "semiOpponent": "Not manager-confirmed",
-    "nextFixture": "Supercoppa FINAL vs Juventus; date and venue unconfirmed",
+    "nextFixture": "Supercoppa FINAL vs Juventus; date, venue not confirmed",
     "allClub": {
       "played": 26,
       "wins": 21,
@@ -617,7 +616,7 @@
       "Pio": "22G10A",
       "Stach": "One semifinal goal; cumulative number not independently verified"
     },
-    "editorial": "No run stories directive yet. Current site lead stays existing Real Madrid transfer/Hermansen feature."
+    "editorial": "Manager explicitly ordered Supercoppa and January transfer-window stories; publication authorised"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -636,7 +635,7 @@
   "latest_confirmed_transfer": "Real Madrid acquire Lutsharel Geertruida from Napoli for $46.5m after his $150k/week plus >$2m bonus extension demand causes talks to break down. Napoli SIGN 21-year-old Victor Hermansen from Fulham to replace him: 80 OVR, 87 potential cap; LB/RB/LM. Sporadic role, three-year deal, no release clause, $100k/week wage, $500k signing bonus. Hermansen incoming transfer fee and precise date unconfirmed; do not treat as centre-back or alter historic Geertruida stats (2G1A).",
   "latest_squad_business": {
     "player": "E. Rossetti",
-    "status": "Returned from loan to Napoli",
+    "status": "Returned from loan to Napoli current squad",
     "overall": 80,
     "previousOverall": 79,
     "position": "RM (last verified)",
@@ -644,14 +643,15 @@
     "international": "Italy senior debut against Denmark 19 Nov 2030, 45 minutes, 7.3 rating, two saves from two shots on target",
     "exactLoanReturnDate": null,
     "firstNapoliAppearanceConfirmed": false,
-    "newsPublicationRequested": false,
-    "context": "Manager asked to hold Supercoppa stories while squad business is addressed. Juventus are confirmed final opponent."
+    "newsPublicationRequested": true,
+    "context": "Manager asked to hold Supercoppa stories while squad business is addressed. Juventus are confirmed final opponent.",
+    "newsroomFeatureId": "rossetti-returns-napoli-loan-80-overall-jan2031"
   },
   "latest_olise_contract_negotiation": {
     "player": "Michael Olise",
     "age": 29,
     "overall": 93,
-    "status": "Ongoing; latest agent counter $690k weekly and $6.2m signing; no agreement",
+    "status": "Negotiations ended FOR NOW by Napoli; no signed renewal; Olise remains Napoli player",
     "extensionYearsAgreed": 2,
     "squadRoleAgreed": "Crucial",
     "requestedWeeklyWage": 690000,
@@ -662,11 +662,22 @@
     "previousNapoliSigningWageReference": 350000,
     "advice": "Sandro suggests countering $575k–$600k/week with $4m–$5m signing and a lower milestone if possible. This is NOT an approved or transmitted offer.",
     "notSigned": true,
-    "newsroomAuthorization": "No Supercoppa/Olise stories until manager permits publication.",
+    "newsroomAuthorization": "January Supercoppa and transfer stories explicitly authorised.",
     "initialRequestedWeeklyWage": 660000,
     "initialRequestedSigningBonus": 6600000,
     "previousRequestedMilestoneBonus": 6000000,
     "milestoneBonusStatus": "Previous $6m requested; new counter does not confirm whether it changed",
-    "staffAdvice": "Counter $625k weekly, $5.5m signing, $3m milestone if negotiable; these terms have not been submitted by the manager"
+    "staffAdvice": "Counter $625k weekly, $5.5m signing, $3m milestone if negotiable; these terms have not been submitted by the manager",
+    "negotiationsActive": false,
+    "negotiationsEndedForNow": true,
+    "outcome": "After financial demands of $690k weekly and $6.2m signing, Olise's side would not budge; Napoli ended current round of talks.",
+    "extensionYearsAgreedInTalks": 2,
+    "roleAgreedInTalks": "Crucial",
+    "lastDemandWeeklyWage": 690000,
+    "lastDemandSigningBonus": 6200000,
+    "lastDemandMilestoneBonus": "Not reconfirmed after earlier $6m request",
+    "managerCounterConfirmed": false,
+    "noTransferConfirmed": true,
+    "press": "No manager interview given"
   }
 }
