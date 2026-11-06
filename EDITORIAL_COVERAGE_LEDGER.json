@@ -651,17 +651,22 @@
     "player": "Michael Olise",
     "age": 29,
     "overall": 93,
-    "status": "In negotiations — extension years and role agreed; wages/bonuses NOT agreed",
+    "status": "Ongoing; latest agent counter $690k weekly and $6.2m signing; no agreement",
     "extensionYearsAgreed": 2,
     "squadRoleAgreed": "Crucial",
-    "requestedWeeklyWage": 660000,
-    "requestedSigningBonus": 6600000,
-    "requestedMilestoneBonus": 6000000,
+    "requestedWeeklyWage": 690000,
+    "requestedSigningBonus": 6200000,
+    "requestedMilestoneBonus": null,
     "milestoneTrigger": "Unknown",
     "lastKnownHistoricalWeeklyWage": 350000,
     "previousNapoliSigningWageReference": 350000,
     "advice": "Sandro suggests countering $575k–$600k/week with $4m–$5m signing and a lower milestone if possible. This is NOT an approved or transmitted offer.",
     "notSigned": true,
-    "newsroomAuthorization": "Hold Supercoppa and Olise story until the manager gives permission."
+    "newsroomAuthorization": "No Supercoppa/Olise stories until manager permits publication.",
+    "initialRequestedWeeklyWage": 660000,
+    "initialRequestedSigningBonus": 6600000,
+    "previousRequestedMilestoneBonus": 6000000,
+    "milestoneBonusStatus": "Previous $6m requested; new counter does not confirm whether it changed",
+    "staffAdvice": "Counter $625k weekly, $5.5m signing, $3m milestone if negotiable; these terms have not been submitted by the manager"
   }
 }
