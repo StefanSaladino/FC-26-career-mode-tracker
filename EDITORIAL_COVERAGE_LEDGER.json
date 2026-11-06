@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Parma 1–3 Napoli · Serie A away 21 Dec 2030: Pio scored opener (Beier credited assist) by hitting crossbar then heading rising own rebound, exact minute unknown. Frigan equalised 31′. Zaïre-Emery scored 64′ after team buildup (Nico Paz official assist). Pio scored again on rapid counter (Beier second official assist), exact minute unknown. Full-time xG Napoli 2.6, Parma 0.1. League 16P14W1D1L 43 points GF37 GA11 GD+26; club all 24P20W3D1L GF57 GA18. Pio 21G9A Beier 16G15A Zaïre-Emery 4G3A Paz 0G3A. Next Udinese home 28 Dec.",
+  "latest_confirmed_match": "Napoli 1–1 Udinese · Serie A MD17 home 28 December 2030. Full-strength team played poorly per manager, fixture accumulation might be a contributor; Epolo's saves kept Napoli in game (save total unconfirmed). Pio Esposito 5′ goalscorer after outmuscling defender, Beier officially credited assist. Garcia equalises for Udinese 66′. FT 1–1. Serie A 17P14W2D1L, 44pts GF38 GA12 GD+26; club total 25P20W4D1L GF58 GA19. Pio 22G9A and Beier 16G16A. Upcoming home Supercup 3 Jan 2031 (opponent unspecified); manager plans some cup rotation. No Udinese publication authorised.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -536,34 +536,46 @@
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   },
   "latest_canon_only_checkpoint": {
-    "fixture": "Napoli 4–1 Pescara · 18 Dec 2030 domestic cup",
-    "status": "Pescara stories authorised, published and verified; all named scorers restored from manager clarification.",
-    "knownGoal": {
-      "minute": 69,
-      "scorer": "Michael Olise",
-      "assist": "Lutsharel Geertruida",
-      "type": "Long-range top-corner screamer",
-      "scoreAfter": "4–1"
-    },
-    "unattributedNapoliGoals": 3,
-    "unknownOpponentGoalScorer": true,
-    "competition": "domestic cup, cup round unconfirmed",
+    "fixture": "Napoli 1–1 Udinese · 28 December 2030 Serie A",
+    "status": "Manager-confirmed FT logged to sole canon; newsroom coverage not authorised yet",
+    "knownGoals": [
+      {
+        "minute": 5,
+        "scorer": "Pio Esposito",
+        "assist": "Maximilian Beier",
+        "score": "1–0",
+        "finish": "Pio outmuscles defender"
+      },
+      {
+        "minute": 66,
+        "scorer": "Garcia",
+        "team": "Udinese",
+        "score": "1–1"
+      }
+    ],
+    "managerAssessment": "Poor full-strength Napoli display; heavy fixture load could contribute; Epolo saved Napoli. None of these establish medical problems or save counts.",
     "allClub": {
-      "played": 23,
-      "wins": 19,
-      "draws": 3,
+      "played": 25,
+      "wins": 20,
+      "draws": 4,
       "losses": 1,
-      "GF": 54,
-      "GA": 17
+      "GF": 58,
+      "GA": 19
     },
     "serieA": {
-      "played": 15,
-      "points": 40,
-      "GF": 34,
-      "GA": 10
+      "played": 17,
+      "wins": 14,
+      "draws": 2,
+      "losses": 1,
+      "points": 44,
+      "GF": 38,
+      "GA": 12,
+      "GD": 26
     },
-    "pending": "Only exact earlier goal minutes, assist recipient pairings and the unidentified fourth assist provider remain outside current record; none invented",
-    "nextFixture": "Parma away · 21 Dec 2030 Serie A",
-    "editorialAuthorization": "Manager explicitly requests Pescara stories, then challenges assertion that other goal details were not supplied. Preserve authorisation; do not fabricate unrecovered events."
+    "playerSeason": {
+      "Pio": "22G9A",
+      "Beier": "16G16A"
+    },
+    "nextFixture": "Home Supercup 3 January 2031; cup rotation intended; opponent unknown"
   }
 }
