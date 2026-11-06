@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–1 Udinese · Serie A MD17 home 28 December 2030. Full-strength team played poorly per manager, fixture accumulation might be a contributor; Epolo's saves kept Napoli in game (save total unconfirmed). Pio Esposito 5′ goalscorer after outmuscling defender, Beier officially credited assist. Garcia equalises for Udinese 66′. FT 1–1. Serie A 17P14W2D1L, 44pts GF38 GA12 GD+26; club total 25P20W4D1L GF58 GA19. Pio 22G9A and Beier 16G16A. Upcoming home Supercup 3 Jan 2031 (opponent unspecified); manager plans some cup rotation. No Udinese publication authorised.",
+  "latest_confirmed_match": "Napoli 1–1 Udinese · Serie A home 28 Dec 2030. 5′ Pio Esposito goal after outmuscling defender, Maximilian Beier credited assist; 66′ Garcia Udinese equaliser. Full-strength side played poorly, fixture pileup could contribute; Epolo key saves preserve draw (no official save count). League 17P14W2D1L, 44 points, GF38 GA12 GD+26; Napoli all competitions 25P20W4D1L, GF58 GA19. Pio 22G9A, Beier 16G16A. After match Geertruida sold to REAL MADRID for $46.5 million, following failed $150k/week plus >$2m bonus extension request, negotiation failure, no compromise. Defender no longer in active Napoli squad, retained historical totals 2G1A. No replacement confirmed. Next Supercup home Jan 3 2031, opponent TBC.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,58 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source scripts staged for commit; editorial gate, compiled snapshot browser tests and Pages deploy pending",
+    "phase": "Year-end Napoli 1–1 Udinese and completed Lutsharel Geertruida $46.5m transfer to Real Madrid after renewal wage stalemate",
+    "match": "Napoli 1–1 Udinese · 28 December 2030; Geertruida transfer to Real Madrid · year-end 2030",
+    "stories": [
+      "geertruida-real-madrid-46-5-million-sale-2030",
+      "napoli-udinese-one-one-epolo-garcia-pio-dec2030",
+      "epolo-rescues-napoli-udinese-draw-dec2030",
+      "bellandi-geertruida-sale-january-defence-debate-2030"
+    ],
+    "bylines": [
+      "Marco D'Amato · CalcioMercato Napoli",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-geertruida-real-madrid-sale-dec2030.js",
+      "stories-napoli-udinese-one-one-dec28-2030.js",
+      "stories-epolo-saves-udinese-point-dec2030.js",
+      "stories-bellandi-geertruida-january-squad-depth-dec2030.js",
+      "site-visible-udinese-geertruida-real-madrid-dec2030.js"
+    ],
+    "gallery": [
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-maradona-stadium-night.webp",
+      "assets/story-touchline-pressure.webp",
+      "assets/story-sandro-bastoni-defensive-talk.webp"
+    ],
+    "knownFacts": "Completed Geertruida sale to Real Madrid for $46.5m. Demand $150k/week plus >$2m in bonuses, negotiations broke down after player would not budge. Exact contract length, fee allocation and replacement unknown. Transfer after 28 Dec Udinese and before Jan schedule. Geertruida historical Napoli current-season 2G1A; remove him from active current roster. Napoli drew Udinese 1-1 home: Pio 5′ from Beier official assist after outmuscling defender, Garcia 66′. Manager says full-strength Napoli played poorly, fixture pileup may be contributing, Epolo saved Napoli. No save counts or individual incidents. League after 17 14W2D1L 44pts GF38 GA12 +26; all club 25P20W4D1L GF58 GA19; Pio 22G9A, Beier 16G16A. Next home Supercup 3 Jan (opponent unknown), Barcelona home Jan 22, Dynamo Kyiv away Jan 29.",
+    "unknowns": "Transfer completion exact date, Geertruida future Real Madrid wage, exact bonus request beyond $2m, contract years, proposed Napoli counteroffer, replacement, net transfer budget, sporting/director quotes. Udinese save count, GK individual actions, xG, half-time score, lineup changes, medical reasons for poor performance, specific Udinese goal finish/assist. January Supercup opponent unspecified. Avoid fabricated details.",
+    "coverage": "Four independently written substantive in-universe features: Marco D'Amato transfer lead (13 paras), Giulia Romano Udinese match report (13 paras), Elena De Luca Epolo redemption story (12 paras), Matteo Bellandi critical depth opinion (12 paras); 50 original paragraphs, 33 distinct community threads, 90 comments/replies. December Pio/Beier and Raspadori features already on record; no manager interview fabricated.",
+    "comments": {
+      "topLevel": 33,
+      "totalIncludingReplies": 90
+    },
+    "paragraphs": 50,
+    "nextFixture": "Home Supercup 3 January 2031 · opponent TBD; managerial rotation intention not enacted yet",
+    "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
+    "press": "No invented manager press, quotations or interviews; reports are from independent journalists. Bellandi criticism reflects a columnist's argument, not facts about replacement deals.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "firstPaintLead": "geertruida-real-madrid-46-5-million-sale-2030",
+      "clubScope": "Serie A 17P14W2D1L 44pts GF38 GA12 +26; Napoli 25P20W4D1L GF58 GA19",
+      "italyScope": "separate, unchanged",
+      "currentSquad": "Remove Geertruida from current squad list; retain historical summer 2030 snapshot and player season contributions"
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
     "phase": "Parma 1–3 Napoli · 21 December 2030: Pio brace, two official Beier assists, Zaïre-Emery from Paz at 64′, xG 2.6 Napoli vs 0.1 Parma",
     "match": "Parma 1–3 Napoli · Serie A MD16 · 21 December 2030",
@@ -168,63 +220,6 @@
       "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124155375"
     },
     "compiledCommit": "69802b256f59a9f5c5d5a1bc870da446a7f14ab4"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
-    "phase": "Napoli 4–1 Pescara · Raspadori double, Pio goal, Olise 69′ rocket from Geertruida, Olise/Paz assists",
-    "match": "Napoli 4–1 Pescara · domestic cup · 18 December 2030",
-    "stories": [
-      "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
-      "raspadori-two-goals-pescara-squad-depth-dec2030",
-      "olise-goal-and-assist-pescara-december-form-2030"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-pescara-napoli-four-one-cup-dec18-2030-report.js",
-      "stories-raspadori-brace-pescara-dec2030.js",
-      "stories-olise-december-sampdoria-pescara-2030.js",
-      "site-visible-napoli-pescara-dec18-2030.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-coaches-team-tactics.webp"
-    ],
-    "knownFacts": "Napoli 4-1 home cup; Raspadori x2 Pio x1 Olise 69′ outside-box top corner goal x1 assisted by Geertruida; Olise x1 other credited assist Paz x1 credited assist plus one other unidentified assist. Unspecified recipients of Olise/Paz assists, goal order and prior exact times. Club 23P19W3D1L GF54 GA17; league unchanged 15P13W1D1L 40 pts. Player club totals Rasp 4G1A Pio 19G9A Olise 1G6A Paz 0G2A Geertruida 2G1A.",
-    "unknowns": "Pre-69 individual goal times/order, specific assists to Raspadori/Pio goals, third unknown assist identity, Pescara scorer/time, first half score, match XI, cup round, shots/cards/xG, player interviews or actual manager responses. Omit rather than invent.",
-    "comments": {
-      "topLevel": 25,
-      "totalIncludingReplies": 81
-    },
-    "paragraphs": 37,
-    "coverage": "Three distinct original stories, 37 reporter-eye paragraphs, 25 supporter threads, 81 original comments/replies; December Hasa interview already fulfilled.",
-    "nextFixture": "Parma away 21 December 2030 Serie A; Udinese home 28 December 2030 Serie A",
-    "press": "No fabricated manager answers. No public references to lost messages or data provenance.",
-    "releaseVersion": "20301218-pescara-four-one-olise-raspadori-v1",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success — Pescara first paint and archived reader, match/result + club stats, Italy separation",
-      "pagesDeployment": "success",
-      "firstPaintLead": "napoli-four-one-pescara-raspadori-pio-olise-dec2030",
-      "clubScope": "Club 23P19W3D1L 54GF 17GA, league 40pts unchanged",
-      "italyScope": "unchanged",
-      "articles": 684,
-      "results": 139,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "browserPassed": true,
-      "compiledCommit": "381548ddfcc3a72adf9bc5f1fc17ca70a5706797",
-      "sourceCommit": "041bd45718d471ab7b0a41480ae00611ff32ef4f",
-      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121206859",
-      "editorialGateRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121206821",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42121283099"
-    },
-    "compiledCommit": "381548ddfcc3a72adf9bc5f1fc17ca70a5706797"
   },
   "release_history": [
     {
@@ -475,9 +470,9 @@
     },
     "last_compiled_revision": "08709cbb2b53",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42124155375",
-    "pendingSourceRevision": null,
-    "pendingLead": null,
-    "most_recent_source_fixture": "Parma 1–3 Napoli · Serie A · 21 December 2030",
+    "pendingSourceRevision": "20301229-geertruida-madrid-udinese-v1",
+    "pendingLead": "geertruida-real-madrid-46-5-million-sale-2030",
+    "most_recent_source_fixture": "Napoli 1–1 Udinese · Serie A · 28 Dec 2030 / Geertruida transfer to Real Madrid",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681"
   },
@@ -536,8 +531,8 @@
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   },
   "latest_canon_only_checkpoint": {
-    "fixture": "Napoli 1–1 Udinese · 28 December 2030 Serie A",
-    "status": "Manager-confirmed FT logged to sole canon; newsroom coverage not authorised yet",
+    "fixture": "Napoli 1–1 Udinese · 28 December 2030 · plus Geertruida sold to Real Madrid",
+    "status": "Result and Geertruida transfer confirmed by manager; full authorised editorial package staging",
     "knownGoals": [
       {
         "minute": 5,
@@ -576,6 +571,13 @@
       "Pio": "22G9A",
       "Beier": "16G16A"
     },
-    "nextFixture": "Home Supercup 3 January 2031; cup rotation intended; opponent unknown"
+    "nextFixture": "Home Supercup 3 January 2031, opponent unconfirmed",
+    "buyer": "Real Madrid (explicitly confirmed)",
+    "fee": 46500000,
+    "contractDemand": {
+      "wagePerWeek": 150000,
+      "bonuses": "More than $2 million",
+      "outcome": "Failed negotiation"
+    }
   }
 }
