@@ -113,23 +113,26 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published — editorial quality gate, compact snapshot browser validation and GitHub Pages deployment all successful",
-    "phase": "Year-end Napoli 1–1 Udinese and completed Lutsharel Geertruida $46.5m transfer to Real Madrid after renewal wage stalemate",
-    "match": "Napoli 1–1 Udinese · 28 December 2030; Geertruida transfer to Real Madrid · year-end 2030",
+    "status": "Five-story augmented year-end edition committed for new source publication; editorial/build/browser/Pages verification pending. Prior four-story edition remains published.",
+    "phase": "Napoli 1–1 Udinese; Epolo's rescue; Geertruida sold to Real Madrid $46.5m; Victor Hermansen signed from Fulham as successor",
+    "match": "Napoli 1–1 Udinese · 28 December 2030; Real Madrid/Geertruida and Fulham/Hermansen transfer business · year-end 2030",
     "stories": [
       "geertruida-real-madrid-46-5-million-sale-2030",
+      "victor-hermansen-fulham-napoli-replacement-dec2030",
       "napoli-udinese-one-one-epolo-garcia-pio-dec2030",
       "epolo-rescues-napoli-udinese-draw-dec2030",
       "bellandi-geertruida-sale-january-defence-debate-2030"
     ],
     "bylines": [
       "Marco D'Amato · CalcioMercato Napoli",
+      "Elena De Luca · Player desk",
       "Giulia Romano · Radio Napoli Centrale",
       "Elena De Luca · Player desk",
       "Matteo Bellandi · Linea Calcio"
     ],
     "source": [
       "stories-geertruida-real-madrid-sale-dec2030.js",
+      "stories-victor-hermansen-fulham-to-napoli-dec2030.js",
       "stories-napoli-udinese-one-one-dec28-2030.js",
       "stories-epolo-saves-udinese-point-dec2030.js",
       "stories-bellandi-geertruida-january-squad-depth-dec2030.js",
@@ -137,45 +140,33 @@
     ],
     "gallery": [
       "assets/story-napoli-shirt-identity.webp",
+      "assets/story-coaches-key-players-walkout.webp",
       "assets/story-maradona-stadium-night.webp",
       "assets/story-touchline-pressure.webp",
       "assets/story-sandro-bastoni-defensive-talk.webp"
     ],
-    "knownFacts": "Completed Geertruida sale to Real Madrid for $46.5m. Demand $150k/week plus >$2m in bonuses, negotiations broke down after player would not budge. Exact contract length, fee allocation and replacement unknown. Transfer after 28 Dec Udinese and before Jan schedule. Geertruida historical Napoli current-season 2G1A; remove him from active current roster. Napoli drew Udinese 1-1 home: Pio 5′ from Beier official assist after outmuscling defender, Garcia 66′. Manager says full-strength Napoli played poorly, fixture pileup may be contributing, Epolo saved Napoli. No save counts or individual incidents. League after 17 14W2D1L 44pts GF38 GA12 +26; all club 25P20W4D1L GF58 GA19; Pio 22G9A, Beier 16G16A. Next home Supercup 3 Jan (opponent unknown), Barcelona home Jan 22, Dynamo Kyiv away Jan 29.",
-    "unknowns": "Transfer completion exact date, Geertruida future Real Madrid wage, exact bonus request beyond $2m, contract years, proposed Napoli counteroffer, replacement, net transfer budget, sporting/director quotes. Udinese save count, GK individual actions, xG, half-time score, lineup changes, medical reasons for poor performance, specific Udinese goal finish/assist. January Supercup opponent unspecified. Avoid fabricated details.",
-    "coverage": "Four independently written substantive in-universe features: Marco D'Amato transfer lead (13 paras), Giulia Romano Udinese match report (13 paras), Elena De Luca Epolo redemption story (12 paras), Matteo Bellandi critical depth opinion (12 paras); 50 original paragraphs, 33 distinct community threads, 90 comments/replies. December Pio/Beier and Raspadori features already on record; no manager interview fabricated.",
+    "knownFacts": "Geertruida sold by Napoli to Real Madrid for $46.5m after failed renewal negotiation ($150k weekly and >$2m bonuses). 21-year-old Victor Hermansen officially signed from Fulham as replacement, 80 overall with 87 potential ceiling, LB/RB/LM, sporadic role, three-year deal, no release clause, $100k weekly wage, $500k signing bonus. Geertruida still credited 2G1A from Napoli this season historically; no longer active Napoli roster. Hermansen added to active squad, no new stats/appearances. Udinese 1–1 Napoli home 28 Dec: Pio 5′ after beating defender (Beier official assist); Garcia Udinese 66′. Epolo saved point, full strength Napoli poor, accumulated fixtures possibly a factor. 17P14W2D1L 44 Serie A points GF38 GA12 +26; 25P20W4D1L club all competitions GF58 GA19. Pio 22G9A, Beier 16G16A.",
+    "unknowns": "Hermansen incoming transfer fee and exact signing date, unconfirmed Hermansen centre-back suitability or future appearances, future Real Madrid Geertruida wage, exact bonus ask >$2m, net budget allocation, Geertruida contract length/counteroffer, Napoli manager quotes, specific Epolo saves, Udinese xG, Supercup opponent, January lineup/rotations. Do not fabricate.",
+    "coverage": "Five original independent features: transfer sale and replacement (13 paragraphs), Victor Hermansen signed-player focus (12), Udinese 1–1 report (13), Epolo goalkeeper feature (12), Bellandi's critical January analysis (12). 62 paragraphs, 43 original supporter threads, 118 comments/replies. Original older historic articles preserved. Existing approved gallery artwork only.",
     "comments": {
-      "topLevel": 33,
-      "totalIncludingReplies": 90
+      "topLevel": 43,
+      "totalIncludingReplies": 118
     },
-    "paragraphs": 50,
-    "nextFixture": "Home Supercup 3 January 2031 · opponent TBD; managerial rotation intention not enacted yet",
-    "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
-    "press": "No invented manager press, quotations or interviews; reports are from independent journalists. Bellandi criticism reflects a columnist's argument, not facts about replacement deals.",
+    "paragraphs": 62,
+    "nextFixture": "Home Supercup on 3 Jan 2031; opponent unconfirmed, manager intends selective cup rotation; Barcelona home Champions League 22 Jan and Dynamo Kyiv away 29 Jan.",
+    "releaseVersion": "2030yearend-geertruida-hermansen-udinese-v1",
+    "press": "Independent reporters, no fake manager responses, no fabricated transfer fee or playing role; nuanced CB vs LB/RB/LM analysis.",
     "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
       "firstPaintLead": "geertruida-real-madrid-46-5-million-sale-2030",
-      "clubScope": "Serie A 17P14W2D1L 44pts GF38 GA12 +26; Napoli 25P20W4D1L GF58 GA19",
-      "italyScope": "separate, unchanged",
-      "currentSquad": "Remove Geertruida from current squad list; retain historical summer 2030 snapshot and player season contributions",
-      "articles": 691,
-      "results": 141,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "browserPassed": true,
-      "sourceCommit": "9647697d8a0c11f3ef9a5f2515dba137e1f8ed9f",
-      "compiledCommit": "6b3ad851a56a865c1f6f61a18b1891cdae0264bc",
-      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299597084",
-      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299597175",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299659631",
-      "squadAudit": "Current Napoli defender list excludes Geertruida; historical 2G1A remains in season stats",
-      "fixtureAudit": "Napoli 1-1 Udinese, Pio 5′ (Beier), Garcia 66′, Epolo strong performance and 44 Serie A points",
-      "visualQA": "Existing gallery covers verified by repository file listing; no standalone manual screenshot/crop review performed."
+      "clubScope": "Serie A 17P14W2D1L 44 points; Napoli 25P20W4D1L GF58 GA19",
+      "italyScope": "unchanged",
+      "squad": "Geertruida removed from active squad, Hermansen added LB/RB/LM 80 OVR 87 POT; historical summer snapshot and 2G1A preserved"
     },
-    "compiledCommit": "6b3ad851a56a865c1f6f61a18b1891cdae0264bc"
+    "compiledCommit": null
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
@@ -483,9 +474,9 @@
     },
     "last_compiled_revision": "9647697d8a0c",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299659631",
-    "pendingSourceRevision": null,
-    "pendingLead": null,
-    "most_recent_source_fixture": "Napoli 1–1 Udinese · Serie A · 28 Dec 2030 / Geertruida transfer to Real Madrid",
+    "pendingSourceRevision": "2030yearend-geertruida-hermansen-udinese-v1",
+    "pendingLead": "geertruida-real-madrid-46-5-million-sale-2030",
+    "most_recent_source_fixture": "Udinese 1–1, Geertruida Real Madrid sale and Hermansen Fulham signing · year-end 2030",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681"
   },
@@ -592,5 +583,20 @@
       "bonuses": "More than $2 million",
       "outcome": "Failed negotiation"
     }
-  }
+  },
+  "previous_verified_four_story_edition": {
+    "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
+    "compiledCommit": "6b3ad851a56a865c1f6f61a18b1891cdae0264bc",
+    "status": "Published — editorial quality gate, compact snapshot browser validation and GitHub Pages deployment all successful",
+    "stories": [
+      "geertruida-real-madrid-46-5-million-sale-2030",
+      "napoli-udinese-one-one-epolo-garcia-pio-dec2030",
+      "epolo-rescues-napoli-udinese-draw-dec2030",
+      "bellandi-geertruida-sale-january-defence-debate-2030"
+    ],
+    "articles": 691,
+    "results": 141,
+    "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299659631"
+  },
+  "latest_confirmed_transfer": "Real Madrid acquire Lutsharel Geertruida from Napoli for $46.5m after his $150k/week plus >$2m bonus extension demand causes talks to break down. Napoli SIGN 21-year-old Victor Hermansen from Fulham to replace him: 80 OVR, 87 potential cap; LB/RB/LM. Sporadic role, three-year deal, no release clause, $100k/week wage, $500k signing bonus. Hermansen incoming transfer fee and precise date unconfirmed; do not treat as centre-back or alter historic Geertruida stats (2G1A)."
 }
