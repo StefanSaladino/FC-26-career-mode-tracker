@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "January edition source pending publication; technical checks not yet verified",
+    "status": "Published — editorial gate, compiled browser regression, and GitHub Pages deployment all passed",
     "phase": "Napoli Supercoppa 4–1 semifinal and Juventus final, Olise negotiations ended for now, January sale/new signing/loan return",
     "match": "Napoli 4–1 Supercoppa semifinal · January 2031; final vs Juventus / January window and contract decisions",
     "stories": [
@@ -157,16 +157,29 @@
     "releaseVersion": "20310103-supercoppa-beier-olise-rossetti-v1",
     "press": "No fabricated manager press interview, player testimonial or unconfirmed referee/tactical details. Olise deal is paused, not transferred or signed.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
       "firstPaintLead": "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
       "clubScope": "After Supercoppa 26P21W4D1L GF62 GA20; Serie A unchanged 17P14W2D1L 44pts",
       "italyScope": "unchanged",
-      "roster": "Rossetti returned from loan now 80 OVR active Napoli midfielder; Hermansen active LB/RB/LM; departed Geertruida not active; Olise 93 and active with renewal talks ended."
+      "roster": "Rossetti returned from loan now 80 OVR active Napoli midfielder; Hermansen active LB/RB/LM; departed Geertruida not active; Olise 93 and active with renewal talks ended.",
+      "sourceCommit": "c7d748250325fe1ec1b7eb5224a8b5b1ceb0d91c",
+      "compiledCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff",
+      "articles": 697,
+      "results": 142,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "publishedSite": "https://stefansaladino.github.io/FC-26-career-mode-tracker/",
+      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305080338",
+      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305080349",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305161242",
+      "squadAudit": "Rossetti RM 80 in current squad, Olise 93 active without signed extension, Geertruida absent, Hermansen active, historical totals retained",
+      "statsAudit": "Beier 19G16A, Raspadori 4G3A, Pio 22G10A, Stach 2G4A",
+      "visualQA": "Approved gallery assets used, no standalone rendered mobile/desktop manual QA performed"
     },
-    "compiledCommit": null
+    "compiledCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff"
   },
   "previous_newsroom_package": {
     "status": "Published — expanded five-story year-end transfer/Udinese edition successfully validated, compiled and deployed",
@@ -467,7 +480,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "2418ba0b28a060f585f22f059175464bd80a22e7",
+    "current_published_commit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -478,17 +491,17 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 1–1 Udinese (28 Dec 2030) plus completed Geertruida-Real Madrid and Hermansen-Fulham transfers",
+    "most_recent_published_fixture": "Napoli 4–1 Supercoppa semifinal · January 2031; Juventus final forthcoming · Olise talks stopped / January transfers",
     "last_verified_artifact_count": {
-      "articles": 692,
-      "results": 141,
+      "articles": 697,
+      "results": 142,
       "seasons": 4
     },
-    "last_compiled_revision": "8efc0eaf13b9",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300876758",
-    "pendingSourceRevision": "20310103-supercoppa-beier-olise-rossetti-v1",
-    "pendingLead": "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
-    "most_recent_source_fixture": "Supercoppa semifinal Napoli 4–1 (opponent unknown), final vs Juventus · Jan 2031",
+    "last_compiled_revision": "c7d748250325",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305161242",
+    "pendingSourceRevision": null,
+    "pendingLead": null,
+    "most_recent_source_fixture": "Supercoppa semifinal 4–1; Juventus final / Olise renewal impasse, Rossetti loan return, Geertruida and Hermansen",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997"
   },
@@ -548,7 +561,7 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "Napoli 4–1 unidentified opponent · January 2031 Supercoppa semifinal · FT",
-    "status": "Previously canon-only semifinal now included in authorised January edition, pending build/deployment",
+    "status": "Semifinal now covered in published January newsroom edition",
     "knownGoals": [
       {
         "minute": 17,
@@ -616,7 +629,8 @@
       "Pio": "22G10A",
       "Stach": "One semifinal goal; cumulative number not independently verified"
     },
-    "editorial": "Manager explicitly ordered Supercoppa and January transfer-window stories; publication authorised"
+    "editorial": "User explicitly authorised January Supercoppa and transfer window stories; released successfully",
+    "publishedCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
