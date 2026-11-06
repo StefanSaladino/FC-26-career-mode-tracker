@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Five-story augmented year-end edition committed for new source publication; editorial/build/browser/Pages verification pending. Prior four-story edition remains published.",
+    "status": "Published — expanded five-story year-end transfer/Udinese edition successfully validated, compiled and deployed",
     "phase": "Napoli 1–1 Udinese; Epolo's rescue; Geertruida sold to Real Madrid $46.5m; Victor Hermansen signed from Fulham as successor",
     "match": "Napoli 1–1 Udinese · 28 December 2030; Real Madrid/Geertruida and Fulham/Hermansen transfer business · year-end 2030",
     "stories": [
@@ -157,16 +157,29 @@
     "releaseVersion": "2030yearend-geertruida-hermansen-udinese-v1",
     "press": "Independent reporters, no fake manager responses, no fabricated transfer fee or playing role; nuanced CB vs LB/RB/LM analysis.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
       "firstPaintLead": "geertruida-real-madrid-46-5-million-sale-2030",
       "clubScope": "Serie A 17P14W2D1L 44 points; Napoli 25P20W4D1L GF58 GA19",
       "italyScope": "unchanged",
-      "squad": "Geertruida removed from active squad, Hermansen added LB/RB/LM 80 OVR 87 POT; historical summer snapshot and 2G1A preserved"
+      "squad": "Geertruida removed from active squad, Hermansen added LB/RB/LM 80 OVR 87 POT; historical summer snapshot and 2G1A preserved",
+      "articles": 692,
+      "results": 141,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "browserPassed": true,
+      "sourceCommit": "8efc0eaf13b929487d32ce637e9b9c5b38296d7a",
+      "compiledCommit": "2418ba0b28a060f585f22f059175464bd80a22e7",
+      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796967",
+      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300876758",
+      "squadAudit": "Current defensive list contains Victor Hermansen 80 OVR LB/RB/LM and excludes Lutsharel Geertruida; preserve outgoing defender 2G1A in historical club stats.",
+      "statAudit": "Pio 22G9A and Beier 16G16A after Udinese; Serie A 44 points after 17; all club 25P20W4D1L.",
+      "visualQA": "Approved artwork paths exist in repo. No independent manual screenshot or desktop/mobile image-crop review performed."
     },
-    "compiledCommit": null
+    "compiledCommit": "2418ba0b28a060f585f22f059175464bd80a22e7"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser regression and GitHub Pages deployment succeeded",
@@ -455,7 +468,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "6b3ad851a56a865c1f6f61a18b1891cdae0264bc",
+    "current_published_commit": "2418ba0b28a060f585f22f059175464bd80a22e7",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -466,19 +479,19 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 1–1 Udinese · 28 December 2030 and Geertruida transfer to Real Madrid · year-end 2030",
+    "most_recent_published_fixture": "Napoli 1–1 Udinese (28 Dec 2030) plus completed Geertruida-Real Madrid and Hermansen-Fulham transfers",
     "last_verified_artifact_count": {
-      "articles": 691,
+      "articles": 692,
       "results": 141,
       "seasons": 4
     },
-    "last_compiled_revision": "9647697d8a0c",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299659631",
-    "pendingSourceRevision": "2030yearend-geertruida-hermansen-udinese-v1",
-    "pendingLead": "geertruida-real-madrid-46-5-million-sale-2030",
+    "last_compiled_revision": "8efc0eaf13b9",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300876758",
+    "pendingSourceRevision": null,
+    "pendingLead": null,
     "most_recent_source_fixture": "Udinese 1–1, Geertruida Real Madrid sale and Hermansen Fulham signing · year-end 2030",
     "pendingCorrection": null,
-    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42117735681"
+    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
