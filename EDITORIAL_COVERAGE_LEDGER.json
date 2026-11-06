@@ -633,5 +633,18 @@
     "results": 141,
     "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42299659631"
   },
-  "latest_confirmed_transfer": "Real Madrid acquire Lutsharel Geertruida from Napoli for $46.5m after his $150k/week plus >$2m bonus extension demand causes talks to break down. Napoli SIGN 21-year-old Victor Hermansen from Fulham to replace him: 80 OVR, 87 potential cap; LB/RB/LM. Sporadic role, three-year deal, no release clause, $100k/week wage, $500k signing bonus. Hermansen incoming transfer fee and precise date unconfirmed; do not treat as centre-back or alter historic Geertruida stats (2G1A)."
+  "latest_confirmed_transfer": "Real Madrid acquire Lutsharel Geertruida from Napoli for $46.5m after his $150k/week plus >$2m bonus extension demand causes talks to break down. Napoli SIGN 21-year-old Victor Hermansen from Fulham to replace him: 80 OVR, 87 potential cap; LB/RB/LM. Sporadic role, three-year deal, no release clause, $100k/week wage, $500k signing bonus. Hermansen incoming transfer fee and precise date unconfirmed; do not treat as centre-back or alter historic Geertruida stats (2G1A).",
+  "latest_squad_business": {
+    "player": "E. Rossetti",
+    "status": "Returned from loan to Napoli",
+    "overall": 80,
+    "previousOverall": 79,
+    "position": "RM (last verified)",
+    "age": "18 at prior verified November 2030 update; current age unconfirmed",
+    "international": "Italy senior debut against Denmark 19 Nov 2030, 45 minutes, 7.3 rating, two saves from two shots on target",
+    "exactLoanReturnDate": null,
+    "firstNapoliAppearanceConfirmed": false,
+    "newsPublicationRequested": false,
+    "context": "Manager asked to hold Supercoppa stories while squad business is addressed. Juventus are confirmed final opponent."
+  }
 }
