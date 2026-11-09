@@ -100,7 +100,7 @@
     {
       "month": "2031-01",
       "status": "covered",
-      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes."
+      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes."
     }
   ],
   "latest_confirmed_match": "Napoli 4–1 Lecce · Serie A 12 January 2031. Lozano Lecce 13′; Beier 28′ (Paz), Paz 51′ (Beier), Pio 60′ (Beier; Neves preceding pass), Pio 64′ (Moore; Beier preceding pass). FT 4–1. Napoli Serie A 19P15W3D1L 48pts 43GF14GA +29; rank unknown without new rival results. Napoli all club competitions 29P23W5D1L 71GF23GA. Pio 28G10A Beier 20G20A Paz1G4A Moore5G6A. No Italy changes or confirmed substitutions.",
@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source edition committed; verification pending",
+    "status": "Published — editorial gate, compiled browser tests and Pages deployment passed",
     "phase": "Napoli 4–1 Lecce comeback; Beier reaches 20 goals and 20 assists; Napoli 48 points after 19",
     "match": "Napoli 4–1 Lecce · Serie A · 12 January 2031",
     "stories": [
@@ -155,10 +155,23 @@
     "releaseVersion": "203101-lecce-beier2020-v1",
     "press": "No fabricated manager statement, no new player interview.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "snapshotBuild": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "Approved gallery file paths found, independent crop review not performed"
+      "editorialQualityGate": "success",
+      "snapshotBuild": "success",
+      "pagesDeployment": "success",
+      "visualQA": "Existing gallery paths verified; browser snapshot regression passed, but no independent live-URL/mobile or desktop crop inspection",
+      "editorialRun": "42705492360",
+      "snapshotRun": "42705492183",
+      "snapshotBrowserTests": "success",
+      "sourceCommit": "5c19e40d17c766d678540327a000da42186a9213",
+      "compiledCommit": "5fe4442730a909e2291bafa5075a0751c12de123",
+      "pagesRun": "42705579248",
+      "articles": 708,
+      "results": 145,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-lecce-four-one-comeback-beier-pio-jan2031",
+      "statsAudit": "Napoli league 48 pts /19; Pio 28G10A, Beier 20G20A, Paz 1G4A, Moore 5G6A, Neves 0G1A; Napoli club 29P23W5D1L 71GF23GA; Italy separate.",
+      "warnings": "Automated gate passed; historical nonblocking warnings subject to independent archival review"
     }
   },
   "previous_newsroom_package": {
@@ -219,6 +232,19 @@
     }
   },
   "release_history": [
+    {
+      "release_version": "203101-lecce-beier2020-v1",
+      "phase": "Napoli 4–1 Lecce, recovery from 0–1; Beier 20G20A, Pio 28 club goals; four distinct features",
+      "story_ids": [
+        "napoli-lecce-four-one-comeback-beier-pio-jan2031",
+        "beier-lecce-20-goals-20-assists-jan2031",
+        "nico-paz-neves-lecce-midfield-jan2031",
+        "bellandi-lecce-four-one-early-warning-jan2031"
+      ],
+      "status": "Published and browser/Pages verified",
+      "compiled_commit": "5fe4442730a909e2291bafa5075a0751c12de123",
+      "verified_pages_run": "42705579248"
+    },
     {
       "release_version": "203101-lazio-xg-title-race-v1",
       "phase": "Napoli 1–1 Lazio, xG 2.7–1.3; title-race standings; dramatized Raspadori interview; 3 stories",
@@ -443,7 +469,7 @@
     "match_facts_unchanged": true
   },
   "compiled_publication": {
-    "status": "Compiled, verified and deployed with editorial correction and 24-article supporter discussion expansion",
+    "status": "Compiled and deployed successfully",
     "workflow": "build-static-snapshot.yml",
     "source": "legacy-index.html",
     "generated": [
@@ -460,10 +486,10 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": false,
-    "current_published_commit": "266766a6fd65cb1796d81ccdeeeaa73dfc41e9d1",
+    "current_published_commit": "5fe4442730a909e2291bafa5075a0751c12de123",
     "validation": {
-      "articles": 704,
-      "results": 144,
+      "articles": 708,
+      "results": 145,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
@@ -471,19 +497,19 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 1–1 Lazio Serie A · Raspadori 56 from Zaïre-Emery · xG 2.7–1.3 · Jan 2031",
+    "most_recent_published_fixture": "Napoli 4–1 Lecce · Serie A 12 January 2031; Beier 20G20A, Pio 28 goals",
     "last_verified_artifact_count": {
-      "articles": 704,
-      "results": 144,
+      "articles": 708,
+      "results": 145,
       "seasons": 4
     },
-    "last_compiled_revision": "423a8c8f4093",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42610091187",
+    "last_compiled_revision": "5c19e40d17c7",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705579248",
     "pendingSourceRevision": null,
     "pendingLead": null,
-    "most_recent_source_fixture": "Napoli 1–1 Lazio · January 2031 · Napoli third 45pts/18",
+    "most_recent_source_fixture": "Napoli 4–1 Lecce · 48 points /19 league games",
     "pendingCorrection": null,
-    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42610000822"
+    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",

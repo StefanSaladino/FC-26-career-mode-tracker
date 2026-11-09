@@ -33,5 +33,25 @@ assert(!neves.body.join(' ').includes('Barella'),'Barella error remains in deplo
 const title=archive.articles.find(a=>a.id==='napoli-juventus-supercoppa-final-pio-four-4-1-jan2031');
 if(data.january2031DiscussionExpansion){assert(title.comments.length>=25,'Supercoppa final discussion is too sparse');assert(latest.comments.length>=18,'Lazio draw discussion is too sparse');assert(neves.comments.length>=14,'Neves discussion is too sparse');}
 if(data.december2030DiscussionExpansion){const u=archive.articles.find(a=>a.id==='napoli-udinese-one-one-epolo-garcia-pio-dec2030');assert(u?.comments?.length>=13,'Udinese comments did not publish');}
+// Lecce publication continuity: enforce meaningful original reactions, precise goalscoring scope and privacy.
+const lecceIds=[
+ ['napoli-lecce-four-one-comeback-beier-pio-jan2031',22],
+ ['beier-lecce-20-goals-20-assists-jan2031',18],
+ ['nico-paz-neves-lecce-midfield-jan2031',15],
+ ['bellandi-lecce-four-one-early-warning-jan2031',14]
+];
+const lecceSet=lecceIds.map(([id,minimum])=>{const story=archive.articles.find(x=>x.id===id);assert(story,'Missing Lecce edition story '+id);assert(story.body?.length>=12,'Lecce article too short: '+id);assert(story.comments?.length>=minimum,'Lecce comments have been lost: '+id);
+assert(fs.existsSync(path.join(root,story.image)),'Missing approved Lecce gallery image '+story.image);
+assert(!/manager (supplied|confirmed)|\\$600,000|\\$5\\.9M|\\$17\\.5M|\\$192\\.5M/i.test(story.body.join(' ')),'Lecce newsroom source/private-talk leak: '+id);
+return story});
+const lecceThreads=lecceSet.reduce((n,s)=>n+s.comments.length,0);
+assert(lecceThreads>=69,'Lecce edition fell below its approved original 69 discussions');
+const clubSeason=data.statsBySeason?.['2030–31']||[],clubStat=name=>clubSeason.find(r=>r[0]===name)?.slice(1,3);
+for(const [name,g,a] of [['Pio Esposito',28,10],['Maximilian Beier',20,20],['Nico Paz',1,4],['Mikey Moore',5,6],['João Neves',0,1]])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli club stats after Lecce for '+name);
+assert(data.season203031?.serieA?.points===48&&data.season203031?.serieA?.played===19,'Wrong Napoli league record after Lecce');
+assert(data.season203031?.serieA?.position==null,'Cannot invent live league rank without rival results');
+assert(data.nextClubFixture?.opponent==='Sassuolo','Next Napoli fixture should be Sassuolo');
+assert(data.latestResult?.[1]==='4–1'&&data.latestResult?.[2]==='Lecce','Lecce not latest result');
+
 const lead=html.match(/<article id="heroStory"[\s\S]*?data-article="([^"]+)"/)?.[1];assert(lead===data.hero.articleId&&ids.has(lead),'Static first paint must match compiled data');
 console.log(JSON.stringify({status:'PASS',articles:archive.articles.length,latestLead:lead,topLevelAcrossAllArticles:total,articlesWithoutInlineComments:empty,articlesWithFewerThanTenInlineThreads:underTen,janExpanded:!!data.january2031DiscussionExpansion,decExpanded:!!data.december2030DiscussionExpansion,publicScriptCount:scripts.length}));
