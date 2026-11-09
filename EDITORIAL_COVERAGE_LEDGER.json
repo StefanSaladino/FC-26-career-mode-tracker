@@ -100,10 +100,10 @@
     {
       "month": "2031-01",
       "status": "covered",
-      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue."
+      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews)."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–1 Sassuolo, Serie A 15 Jan 2031, Sassuolo 7th before match. Pio 30′ Neves assist; 19yo Edoardo Rossetti first Napoli goal 48′ from Beier, second 63′ from Neves; Weiper 90+1′ edge-of-box strike off bar and in. FT 3–1. League 20P16W3D1L, 51pts, GF46 GA15 +31; all-club 30P24W5D1L GF74GA24; Pio29G10A, Beier20G21A, Neves0G3A, Rossetti2G0A. Italy unchanged. Full current standings unavailable.",
+  "latest_confirmed_match": "Hellas Verona 1–2 Napoli · Serie A 18 Jan 2031 away (existing calendar). Isaac Verona 27′; Pio Esposito 33′ and 69′ both officially assisted by Maximilian Beier; FT 1–2. Napoli 21P17W3D1L 54pts GF48 GA16 +32; club all competitions 31P25W5D1L GF76 GA25; Pio31G10A, Beier20G23A, rest unchanged, Italy separate.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +118,49 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source draft ready for commit; CI and Pages not yet verified",
+    "phase": "Hellas Verona 1–2 Napoli · Pio 33′ and 69′ both from Beier · three league wins in succession",
+    "match": "Hellas Verona 1–2 Napoli · Serie A · 18 January 2031",
+    "stories": [
+      "verona-one-two-napoli-pio-beier-comeback-jan2031",
+      "pio-beier-two-goals-two-assists-verona-jan2031",
+      "napoli-54-points-early-deficits-barcelona-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-verona-pio-brace-comeback-jan2031.js",
+      "stories-pio-beier-verona-partnership-jan2031.js",
+      "stories-napoli-54-points-verona-barcelona-jan2031.js",
+      "site-visible-verona-pio-double-jan2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "knownFacts": "Hellas Verona 1–2 Napoli · Serie A 18 Jan 2031 away (existing calendar). Isaac Verona 27′; Pio Esposito 33′ and 69′ both officially assisted by Maximilian Beier; FT 1–2. Napoli 21P17W3D1L 54pts GF48 GA16 +32; club all competitions 31P25W5D1L GF76 GA25; Pio31G10A, Beier20G23A, rest unchanged, Italy separate.",
+    "unknowns": "Current Serie A rank after rival results, Isaac first name/assist, goalkeeper, lineups, xG, substitutions. Olise private contract talks not material for journalism.",
+    "coverage": "Three distinct independent longform articles (match, star partnership, title-race pattern) 44 paragraphs, 54 unique top-level bespoke supporter discussions, 137 comments/replies. No invented manager or player quotes, no private contract leak.",
+    "comments": {
+      "topLevel": 54,
+      "totalIncludingReplies": 137
+    },
+    "paragraphs": 44,
+    "nextFixture": "Barcelona home Champions League 22 January 2031 (existing calendar)",
+    "releaseVersion": "203101-verona-pio-beier-double-v1",
+    "press": "No fabricated public manager interview or quotes. No fictional player interview.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Existing gallery art selected, manual desktop/mobile crop verification not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot browser regression and GitHub Pages deployment succeeded",
     "phase": "Napoli 3–1 Sassuolo · Rossetti first two Napoli goals · Neves two assists",
     "match": "Napoli 3–1 Sassuolo · Serie A · 15 January 2031",
@@ -176,63 +219,6 @@
       },
       "visualQA": "Gallery files verified; independent mobile/desktop crop or direct live public-URL browser QA not performed",
       "archiveFetch": "Oversize archived JSON could not be separately parsed through connector; build browser regression passed"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser tests and Pages deployment passed",
-    "phase": "Napoli 4–1 Lecce comeback; Beier reaches 20 goals and 20 assists; Napoli 48 points after 19",
-    "match": "Napoli 4–1 Lecce · Serie A · 12 January 2031",
-    "stories": [
-      "napoli-lecce-four-one-comeback-beier-pio-jan2031",
-      "beier-lecce-20-goals-20-assists-jan2031",
-      "nico-paz-neves-lecce-midfield-jan2031",
-      "bellandi-lecce-four-one-early-warning-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Lorenzo Ferri · Calcio Giovane",
-      "Matteo Bellandi · Linea Calcio TV"
-    ],
-    "source": [
-      "stories-lecce-four-part-newsroom-jan2031.js",
-      "site-visible-lecce-four-one-jan2031.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-manager-paz-celebration.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "knownFacts": "Napoli 4–1 Lecce · Serie A 12 January 2031. Lozano Lecce 13′; Beier 28′ (Paz), Paz 51′ (Beier), Pio 60′ (Beier; Neves preceding pass), Pio 64′ (Moore; Beier preceding pass). FT 4–1. Napoli Serie A 19P15W3D1L 48pts 43GF14GA +29; rank unknown without new rival results. Napoli all club competitions 29P23W5D1L 71GF23GA. Pio 28G10A Beier 20G20A Paz1G4A Moore5G6A. No Italy changes or confirmed substitutions.",
-    "unknowns": "Current rival standings, goalkeeper, lineup, substitutions, xG. Private Olise deal remains confidential; no new contract or completed sale.",
-    "coverage": "Four independent articles: match, Beier character-led 20/20 analysis, Paz/Neves midfield and Bellandi caution. 51 substantive paragraphs, 69 original top-level supporter threads / 173 comments and replies. No manager quotations and no confidential contract leak.",
-    "comments": {
-      "topLevel": 69,
-      "totalIncludingReplies": 173
-    },
-    "paragraphs": 51,
-    "nextFixture": "Sassuolo home 15 January 2031",
-    "releaseVersion": "203101-lecce-beier2020-v1",
-    "press": "No fabricated manager statement, no new player interview.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "snapshotBuild": "success",
-      "pagesDeployment": "success",
-      "visualQA": "Existing gallery paths verified; browser snapshot regression passed, but no independent live-URL/mobile or desktop crop inspection",
-      "editorialRun": "42705492360",
-      "snapshotRun": "42705492183",
-      "snapshotBrowserTests": "success",
-      "sourceCommit": "5c19e40d17c766d678540327a000da42186a9213",
-      "compiledCommit": "5fe4442730a909e2291bafa5075a0751c12de123",
-      "pagesRun": "42705579248",
-      "articles": 708,
-      "results": 145,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-lecce-four-one-comeback-beier-pio-jan2031",
-      "statsAudit": "Napoli league 48 pts /19; Pio 28G10A, Beier 20G20A, Paz 1G4A, Moore 5G6A, Neves 0G1A; Napoli club 29P23W5D1L 71GF23GA; Italy separate.",
-      "warnings": "Automated gate passed; historical nonblocking warnings subject to independent archival review"
     }
   },
   "release_history": [
