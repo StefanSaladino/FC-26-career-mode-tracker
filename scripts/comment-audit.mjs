@@ -14,10 +14,10 @@ assert(!/Stach, Barella|McTominay,.*Barella/.test(articleBody),'Barella falsely 
 const snapText=read('snapshot-data.js').split('\n')[0],prefix='window.NAPOLI_DATA=';
 assert(snapText.startsWith(prefix),'Compiled season data missing');
 const data=JSON.parse(snapText.slice(prefix.length,-1));
-const manifest=/window\.NAPOLI_SNAPSHOT=([^;]+);/.exec(read('snapshot-data.js'))?.[1];
+const manifest=/window\.NAPOLI_SNAPSHOT=\{[^;]*totalArticles:(\d+)/.exec(read('snapshot-data.js'))?.[1];
 const archive=JSON.parse(read('news-archive.json'));
 assert(Array.isArray(archive.articles)&&archive.articles.length>=700,'Historical article archive unexpectedly reduced');
-assert(manifest&&JSON.parse(manifest).totalArticles===archive.articles.length,'Archive total does not match manifest');
+assert(manifest&&Number(manifest)===archive.articles.length,'Archive total does not match manifest');
 const ids=new Set();let total=0,empty=0,underTen=0;
 for(const a of archive.articles){assert(a.id&&!ids.has(a.id),'Missing or duplicate story ID '+a.id);ids.add(a.id);
  const rows=Array.isArray(a.comments)?a.comments:[];if(rows.length===0)empty++;if(rows.length<10)underTen++;
