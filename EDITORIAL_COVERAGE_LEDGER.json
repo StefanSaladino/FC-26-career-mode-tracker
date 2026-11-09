@@ -113,7 +113,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Championship edition source pending editorial, browser compilation and deployment checks",
+    "status": "Published — editorial gate, compiled browser checks and final GitHub Pages deployment all passed",
     "phase": "Napoli 4–1 Juventus Supercoppa Final · Pio scores FOUR, Beier two assists, Moore one · João Neves returns from broken toe",
     "match": "Napoli 4–1 Juventus · SUPERCOPPA FINAL · Champions · January 2031",
     "stories": [
@@ -153,16 +153,30 @@
     "releaseVersion": "203101-supercoppa-winners-pio-four-neves-return-v1",
     "press": "No fabricated statements, substitutions, medical clearances or match facts; no unpublished manager interview.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "snapshotBrowserTests": "pending",
-      "pagesDeployment": "pending",
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "snapshotBrowserTests": "success",
+      "pagesDeployment": "success",
       "firstPaintLead": "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
       "clubScope": "Napoli 27P22W4D1L GF66 GA21, league remains 44pts",
       "italyScope": "unchanged",
-      "roster": "João Neves returned from injury, 95 OVR last known, no comeback appearance claimed; Rossetti and Hermansen already active, Geertruida sold; Olise remains 93 active unsigned."
+      "roster": "João Neves returned from injury, 95 OVR last known, no comeback appearance claimed; Rossetti and Hermansen already active, Geertruida sold; Olise remains 93 active unsigned.",
+      "sourceCommit": "fdec943c99295711892fba3ee08d1fe335fa452d",
+      "compiledCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40",
+      "articles": 701,
+      "results": 143,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "trophyAudit": "Supercoppa 2030–31 added to D.trophies; Napoli 4–1 Juventus final appears in results",
+      "statsAudit": "Pio 26G10A, Beier 19G18A, Moore 5G5A, Raspadori 4G3A, Stach 2G4A; league unchanged 44 points",
+      "nevesAudit": "João Neves 95 OVR previous rating, returned from broken toe, no minutes claimed",
+      "visualQA": "Approved existing gallery artwork used, no separate manual crop/screenshots reviewed",
+      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555679528",
+      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555679544",
+      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555735746",
+      "publishedSite": "https://stefansaladino.github.io/FC-26-career-mode-tracker/"
     },
-    "compiledCommit": null
+    "compiledCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40"
   },
   "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser regression, and GitHub Pages deployment all passed",
@@ -463,7 +477,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": true,
-    "current_published_commit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff",
+    "current_published_commit": "d8d23c0e1f83e6023a540fcd7b90391108459b40",
     "validation": {
       "articles": 635,
       "results": 122,
@@ -474,17 +488,17 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 4–1 Supercoppa semifinal · January 2031; Juventus final forthcoming · Olise talks stopped / January transfers",
+    "most_recent_published_fixture": "Napoli 4–1 Juventus, Supercoppa FINAL WON · Pio four goals, Neves back · January 2031",
     "last_verified_artifact_count": {
-      "articles": 697,
-      "results": 142,
+      "articles": 701,
+      "results": 143,
       "seasons": 4
     },
-    "last_compiled_revision": "c7d748250325",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305161242",
-    "pendingSourceRevision": "203101-supercoppa-winners-pio-four-neves-return-v1",
-    "pendingLead": "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
-    "most_recent_source_fixture": "Napoli 4–1 Juventus Supercoppa Final WON, João Neves returns · January 2031",
+    "last_compiled_revision": "fdec943c9929",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555735746",
+    "pendingSourceRevision": null,
+    "pendingLead": null,
+    "most_recent_source_fixture": "Napoli 4–1 Juventus Supercoppa final, championship published · Neves injury return",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997"
   },
@@ -544,11 +558,12 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "NAPOLI 4–1 JUVENTUS · SUPERCOPPA FINAL · FT · TROPHY WON",
-    "status": "Supercoppa final and João Neves injury return now included in explicitly authorised four-story championship newsroom edition; pending deployment",
+    "status": "Final and Neves comeback now covered in live Supercoppa championship edition",
     "competition": "Supercoppa Final",
     "trophy": "Won",
     "nextFixture": "Lecce (12 Jan 2031, home, previously verified calendar)",
-    "editorial": "User explicitly ordered stories including Neves news. Semifinal/transfer package remains archived."
+    "editorial": "Mister explicitly ordered 'Run the stories AM' including Neves news; successfully published",
+    "publishedCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
