@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "Napoli 4–1 unidentified opponent, Jan 2031 Supercoppa semifinal. Beier 17′ (Raspadori), Lopez 42′ opposing equaliser, Stach 45+1′ loose-ball finish, HT Napoli 2–1; Beier 56′ (Raspadori), Beier 90+2′ (substitute Pio). FT 4–1; Napoli to face Juventus in Supercoppa final, final date and venue unconfirmed. Competitive club 26P21W4D1L GF62 GA20; Serie A stays 17P14W2D1L 44pts GF38 GA12. Beier 19G16A, Raspadori 4G3A, Pio 22G10A, Stach 2G4A based on previous 1G4A. Transfer: Geertruida to Real Madrid for $46.5m, Victor Hermansen signed from Fulham, E. Rossetti returned from loan rated 80; Olise contract talks ended for now with no new extension signed.",
+  "latest_confirmed_match": "NAPOLI 4–1 JUVENTUS, SUPERCOPPA FINAL, FULL TIME, TROPHY WON. 21′ Pio Esposito rebound from saved Mikey Moore shot (no confirmed official assist); 36′ Pio from Maximilian Beier through ball (official assist); HT 2–0; 59′ Pio first-time bottom corner from Mikey Moore pass (official assist); 60′ Juventus Cvetkovic low/weak shot beats excellent Epolo (goal conceded); 88′ Pio from Beier (Beier second official assist). FT 4–1. Pio four goals, Beier two assists, Moore one official assist. Club 2030–31 Pio 26G10A, Beier 19G18A; Moore +1 official assist. Club competitions 27P22W4D1L GF66 GA21, Serie A unchanged 17P14W2D1L 44pts GF38 GA12 GD+26; UCL unchanged. Final date/venue unknown. No instruction to publish final newsroom yet.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -560,58 +560,61 @@
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   },
   "latest_canon_only_checkpoint": {
-    "fixture": "Napoli 4–1 unidentified opponent · January 2031 Supercoppa semifinal · FT",
-    "status": "Semifinal now covered in published January newsroom edition",
+    "fixture": "NAPOLI 4–1 JUVENTUS · SUPERCOPPA FINAL · FT · TROPHY WON",
+    "status": "Supercoppa champions — final result recorded in sole canon, final stories NOT yet authorised for publication",
+    "competition": "Supercoppa Final",
+    "result": "Napoli 4–1 Juventus",
+    "trophy": "Won",
+    "halfTime": "Napoli 2–0 Juventus",
     "knownGoals": [
       {
-        "minute": 17,
+        "minute": 21,
         "team": "Napoli",
-        "scorer": "Maximilian Beier",
-        "assist": "Giacomo Raspadori",
-        "score": "1–0"
-      },
-      {
-        "minute": 42,
-        "team": "Opponent",
-        "scorer": "Lopez",
+        "scorer": "Pio Esposito",
         "assist": null,
-        "score": "1–1"
+        "detail": "Scores rebound after Mikey Moore shot saved by Di Gregorio; Moore not credited official assist"
       },
       {
-        "minute": "45+1",
+        "minute": 36,
         "team": "Napoli",
-        "scorer": "Anton Stach",
+        "scorer": "Pio Esposito",
+        "assist": "Maximilian Beier",
+        "detail": "Through ball, Pio finishes from tight angle"
+      },
+      {
+        "minute": 59,
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Mikey Moore",
+        "detail": "Perfect pass, first-time finish bottom corner"
+      },
+      {
+        "minute": 60,
+        "team": "Juventus",
+        "scorer": "Cvetkovic",
         "assist": null,
-        "score": "2–1",
-        "detail": "Loose ball after scramble, assist unconfirmed"
+        "detail": "Weak shot beats Epolo, otherwise very good game"
       },
       {
-        "minute": 56,
+        "minute": 88,
         "team": "Napoli",
-        "scorer": "Maximilian Beier",
-        "assist": "Giacomo Raspadori",
-        "score": "3–1"
-      },
-      {
-        "minute": "90+2",
-        "team": "Napoli",
-        "scorer": "Maximilian Beier",
-        "assist": "Pio Esposito",
-        "score": "4–1",
-        "detail": "Pio substitute entered before goal"
+        "scorer": "Pio Esposito",
+        "assist": "Maximilian Beier",
+        "detail": "Pio fourth goal, Beier second assist"
       }
     ],
-    "halfTime": "2–1",
-    "final": "4–1",
-    "semiOpponent": "Not manager-confirmed",
-    "nextFixture": "Supercoppa FINAL vs Juventus; date, venue not confirmed",
+    "clubTotals": {
+      "Pio": "26G10A",
+      "Beier": "19G18A",
+      "Moore": "1 verified final assist; cumulative not established"
+    },
     "allClub": {
-      "played": 26,
-      "wins": 21,
+      "played": 27,
+      "wins": 22,
       "draws": 4,
       "losses": 1,
-      "GF": 62,
-      "GA": 20
+      "GF": 66,
+      "GA": 21
     },
     "serieA": {
       "played": 17,
@@ -623,14 +626,8 @@
       "GA": 12,
       "GD": 26
     },
-    "playerSeason": {
-      "Beier": "19G16A",
-      "Raspadori": "4G3A",
-      "Pio": "22G10A",
-      "Stach": "One semifinal goal; cumulative number not independently verified"
-    },
-    "editorial": "User explicitly authorised January Supercoppa and transfer window stories; released successfully",
-    "publishedCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff"
+    "unknowns": "Date and venue of final, own club lineup, Juventus goalscorer first name/assist, first 21′ goal officially credited assist, cumulative Moore tally",
+    "editorial": "Mister has not requested Supercoppa FINAL stories, so public site continues to show last published semifinal/transfer edition."
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -693,5 +690,14 @@
     "managerCounterConfirmed": false,
     "noTransferConfirmed": true,
     "press": "No manager interview given"
+  },
+  "latest_trophy": {
+    "competition": "Supercoppa",
+    "status": "Won",
+    "result": "Napoli 4–1 Juventus",
+    "season": "2030–31",
+    "verifiedBy": "Manager confirms Full Time and Supercoppa achieved",
+    "finalDate": null,
+    "finalVenue": null
   }
 }
