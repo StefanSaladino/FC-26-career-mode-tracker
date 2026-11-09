@@ -96,9 +96,14 @@
       "month": "2030-12",
       "status": "covered",
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
+    },
+    {
+      "month": "2031-01",
+      "status": "covered",
+      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes."
     }
   ],
-  "latest_confirmed_match": "NAPOLI 4–1 JUVENTUS · SUPERCOPPA FINAL · FULL TIME · TROPHY WON. Pio Esposito 21′ rebound from Di Gregorio save on Moore shot (NO confirmed official Moore assist on rebound), 36′ tight-angle from Beier through ball, 59′ first-time bottom-corner from Mikey Moore (official assist), 88′ from Beier (his second assist); Juventus Cvetkovic 60′ soft effort past otherwise excellent Epolo; HT 2–0. Pio FOUR final goals, Beier TWO assists, Moore ONE official assist. Neves BACK from broken toe suffered 30 Oct 2030 vs Roma; last known overall 95, no confirmed comeback minutes/next selection. Napoli 2030–31 competitive 27P22W4D1L GF66 GA21, league remains 17P14W2D1L 44 points GF38 GA12; Pio 26G10A, Beier 19G18A, Moore 5G5A; Supercoppa WON.",
+  "latest_confirmed_match": "NAPOLI 1–1 LAZIO · Serie A January 2031 (exact day and venue unconfirmed). Taylor Lazio 26′, Giacomo Raspadori Napoli 56′ (Warren Zaïre-Emery official assist). xG Napoli 2.7 Lazio 1.3. League Napoli 18P14W3D1L 45pts GF39 GA13 +26, 3rd. Current top Milano FC 48pts /19, Roma 47pts /20. All club Napoli 28P22W5D1L GF67 GA22; Raspadori 5G3A, Zaïre-Emery 4G4A; Pio 26G10A Beier 19G18A Moore 5G5A unchanged. No Italy contributions.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +118,49 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source edition committed; editorial and compiled-site verification pending",
+    "phase": "Napoli 1–1 Lazio · Raspadori level at 56′ · 2.7–1.3 xG · Serie A standings Napoli third 45pts/18",
+    "match": "Napoli 1–1 Lazio · Serie A · January 2031 (exact day unconfirmed)",
+    "stories": [
+      "napoli-lazio-one-one-xg-27-13-raspadori-jan2031",
+      "napoli-three-points-off-milano-game-in-hand-jan2031",
+      "raspadori-lazio-equaliser-fictional-player-interview-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk"
+    ],
+    "source": [
+      "stories-napoli-lazio-1-1-xg-report-jan2031.js",
+      "stories-napoli-serie-a-title-race-standings-jan2031.js",
+      "stories-raspadori-lazio-fictional-interview-jan2031.js",
+      "site-visible-napoli-lazio-title-race-jan2031.js"
+    ],
+    "gallery": [
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-touchline-pressure.webp",
+      "assets/story-napoli-shirt-identity.webp"
+    ],
+    "knownFacts": "Taylor Lazio 26′; Raspadori 56′ from Warren Zaïre-Emery; FT 1–1; xG Napoli 2.7 Lazio 1.3. Napoli 3rd, 45 points/18; Milano FC 48/19, Roma 47/20; screenshot includes top 6. All club 28P22W5D1L 67GF22GA; Serie A 18P14W3D1L 39GF13GA. Raspadori 5G3A, Zaïre-Emery 4G4A; other totals unchanged.",
+    "unknowns": "Exact match date, location, goalkeeper, lineups, other shots, first name of Taylor, Lazio assist, additional unconfirmed contributions. Olise offer and potential replacement decision are staff-only; no transfer confirmed.",
+    "coverage": "Giulia Romano Lazio match report, Marco Bellini top-six Scudetto race analysis, Elena De Luca clearly labelled fictional Raspadori player interview; original distinct fan discussions. No manager press and no private contract terms.",
+    "comments": {
+      "topLevel": 28,
+      "totalIncludingReplies": 84
+    },
+    "paragraphs": 43,
+    "nextFixture": "Lecce — January 12, 2031 home (pre-existing calendar plus latest screenshot next-opponent icon)",
+    "releaseVersion": "203101-lazio-xg-title-race-v1",
+    "press": "No public manager quotations or fabricated answers. Raspadori dialogue is explicitly dramatized fictional in-universe.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Approved gallery files verified by path; manual desktop and mobile crop not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser checks and final GitHub Pages deployment all passed",
     "phase": "Napoli 4–1 Juventus Supercoppa Final · Pio scores FOUR, Beier two assists, Moore one · João Neves returns from broken toe",
     "match": "Napoli 4–1 Juventus · SUPERCOPPA FINAL · Champions · January 2031",
@@ -177,75 +225,6 @@
       "publishedSite": "https://stefansaladino.github.io/FC-26-career-mode-tracker/"
     },
     "compiledCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser regression, and GitHub Pages deployment all passed",
-    "phase": "Napoli Supercoppa 4–1 semifinal and Juventus final, Olise negotiations ended for now, January sale/new signing/loan return",
-    "match": "Napoli 4–1 Supercoppa semifinal · January 2031; final vs Juventus / January window and contract decisions",
-    "stories": [
-      "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
-      "olise-napoli-extension-talks-ended-690k-jan2031",
-      "beier-raspadori-pio-supercoppa-semi-jan2031",
-      "napoli-january-transfer-window-geertruida-hermansen-rossetti-jan2031",
-      "rossetti-returns-napoli-loan-80-overall-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco D'Amato · CalcioMercato Napoli",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Calcio Napoli",
-      "Lorenzo Ferri · Calcio Giovane"
-    ],
-    "source": [
-      "stories-napoli-supercoppa-semifinal-4-1-beier-hattrick-jan2031.js",
-      "stories-michael-olise-690k-renewal-talks-breakdown-jan2031.js",
-      "stories-beier-raspadori-supercoppa-semifinal-jan2031.js",
-      "stories-napoli-january-transfer-business-review-2031.js",
-      "stories-rossetti-loan-return-80-ovr-jan2031.js",
-      "site-visible-supercoppa-semi-jan2031-olise-rossetti.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-coaches-key-players-walkout.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-coaches-squad-tactics-session.webp",
-      "assets/story-esposito-squad-walkout.webp"
-    ],
-    "knownFacts": "Napoli beat unspecified semifinal opponents 4–1 in January Supercoppa; Beier 17′ and 56′ (both Raspadori official assists), Stach 45+1′ (scramble, assist unknown), Beier 90+2′ (substitute Pio official assist); Lopez opponents equaliser 42′, halftime 2–1. Juventus confirmed final opponent. Napoli all club competitions 26P21W4D1L GF62 GA20; league unchanged 17P14W2D1L 44 points GF38 GA12. Beier 19G16A Raspadori 4G3A Pio 22G10A Stach 2G4A (prior 1G4A). Geertruida sold to Real Madrid $46.5m, failed $150k/week + over $2m bonus renewal; Hermansen joined from Fulham, 21, 80 overall, pot capped 87, LB/RB/LM, sporadic 3yr $100k weekly $500k signing no release clause and no confirmed incoming fee. Rossetti returns from loan now 80 overall (formerly 79), RM previously confirmed, no new Napoli appearance claimed. Olise 29/93, 2yr+Crucial in principle, old $660k/$6.6m initial with $6m milestone, latest $690k weekly $6.2m signing, latest milestone unknown, manager ENDED negotiation for now; still Napoli player with no signed extension.",
-    "unknowns": "Semifinal opponent club, Lopez first name, semi actual specific match date/venue independent of Jan 3 screenshot, Stach assist, unnamed passes, all substitutions other than Pio sub, Supercoppa final date/venue, Olise current contract expiry and milestone trigger/latest milestone number, actual club counteroffer amount and further negotiation/transfer possibility, Rossetti current age and first Napoli match post-loan, Hermansen incoming transfer fee. Do not fabricate.",
-    "coverage": "Five independently written articles from different angles (14+14+13+14+13=68 substantive paragraphs); 38 unique top-level supporter threads and 109 bespoke comments including replies. Previous Geertruida/Hermansen 5-story edition kept in archive; new transfer roundup updates developments without rewriting or duplicating historic coverage.",
-    "comments": {
-      "topLevel": 38,
-      "totalIncludingReplies": 109
-    },
-    "paragraphs": 68,
-    "nextFixture": "Supercoppa FINAL vs Juventus, date and venue unconfirmed; league fixtures and European Barcelona/Dynamo Kyiv later in January 2031",
-    "releaseVersion": "20310103-supercoppa-beier-olise-rossetti-v1",
-    "press": "No fabricated manager press interview, player testimonial or unconfirmed referee/tactical details. Olise deal is paused, not transferred or signed.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "firstPaintLead": "napoli-supercoppa-semifinal-beier-hattrick-juventus-final-jan2031",
-      "clubScope": "After Supercoppa 26P21W4D1L GF62 GA20; Serie A unchanged 17P14W2D1L 44pts",
-      "italyScope": "unchanged",
-      "roster": "Rossetti returned from loan now 80 OVR active Napoli midfielder; Hermansen active LB/RB/LM; departed Geertruida not active; Olise 93 and active with renewal talks ended.",
-      "sourceCommit": "c7d748250325fe1ec1b7eb5224a8b5b1ceb0d91c",
-      "compiledCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff",
-      "articles": 697,
-      "results": 142,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "publishedSite": "https://stefansaladino.github.io/FC-26-career-mode-tracker/",
-      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305080338",
-      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305080349",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305161242",
-      "squadAudit": "Rossetti RM 80 in current squad, Olise 93 active without signed extension, Geertruida absent, Hermansen active, historical totals retained",
-      "statsAudit": "Beier 19G16A, Raspadori 4G3A, Pio 22G10A, Stach 2G4A",
-      "visualQA": "Approved gallery assets used, no standalone rendered mobile/desktop manual QA performed"
-    },
-    "compiledCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff"
   },
   "release_history": [
     {
@@ -557,13 +536,9 @@
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   },
   "latest_canon_only_checkpoint": {
-    "fixture": "NAPOLI 4–1 JUVENTUS · SUPERCOPPA FINAL · FT · TROPHY WON",
-    "status": "Final and Neves comeback now covered in live Supercoppa championship edition",
-    "competition": "Supercoppa Final",
-    "trophy": "Won",
-    "nextFixture": "Lecce (12 Jan 2031, home, previously verified calendar)",
-    "editorial": "Mister explicitly ordered 'Run the stories AM' including Neves news; successfully published",
-    "publishedCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40"
+    "dateContext": "January 2031",
+    "status": "Lazio 1–1 and photographed standings added to sole canon; subsequent news package expressly authorised",
+    "source": "Manager match account and screenshot"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -625,7 +600,14 @@
     "lastDemandMilestoneBonus": "Not reconfirmed after earlier $6m request",
     "managerCounterConfirmed": false,
     "noTransferConfirmed": true,
-    "press": "No manager interview given"
+    "press": "No manager interview given",
+    "remainingContract": "1 year 8 months",
+    "latestDemandWeeklyWage": 660000,
+    "latestDemandSigningBonus": 6000000,
+    "latestDemandMilestoneBonus": 15000000,
+    "latestDemandMilestoneTrigger": "15 goals",
+    "latestPosition": "Representatives refuse any reduction; manager considering a possible sale and a new right midfielder, but has not confirmed a sale, listing or transfer.",
+    "confidential": true
   },
   "latest_trophy": {
     "competition": "Supercoppa",
