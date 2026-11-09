@@ -46,12 +46,28 @@ assert(!/manager (supplied|confirmed)|\\$600,000|\\$5\\.9M|\\$17\\.5M|\\$192\\.5
 return story});
 const lecceThreads=lecceSet.reduce((n,s)=>n+s.comments.length,0);
 assert(lecceThreads>=69,'Lecce edition fell below its approved original 69 discussions');
+// January Sassuolo edition: preserve all earlier Lecce discussion while updating the current match checkpoints.
+const sassuoloIds=[
+ ['napoli-sassuolo-three-one-rossetti-brace-jan2031',20],
+ ['edoardo-rossetti-first-napoli-brace-sassuolo-jan2031',22],
+ ['joao-neves-two-assists-pio-rossetti-sassuolo-jan2031',16]
+];
+const sassuoloSet=sassuoloIds.map(([id,minimum])=>{const story=archive.articles.find(x=>x.id===id);
+assert(story,'Missing new Sassuolo article '+id);
+assert(story.body?.length>=15,'Sassuolo article too short: '+id);
+assert(story.comments?.length>=minimum,'Sassuolo authored discussion lost: '+id);
+assert(fs.existsSync(path.join(root,story.image)),'Missing approved Sassuolo gallery image '+story.image);
+assert(!/manager (supplied|confirmed)|\$600,000|\$5\.9M|\$17\.5M|\$192\.5M/i.test(story.body.join(' ')),'Private source data leaked in Sassuolo newsroom '+id);
+return story});
+const sassuoloThreads=sassuoloSet.reduce((n,story)=>n+story.comments.length,0);
+assert(sassuoloThreads>=58,'Sassuolo article discussions must preserve the original 58 bespoke threads');
 const clubSeason=data.statsBySeason?.['2030–31']||[],clubStat=name=>clubSeason.find(r=>r[0]===name)?.slice(1,3);
-for(const [name,g,a] of [['Pio Esposito',28,10],['Maximilian Beier',20,20],['Nico Paz',1,4],['Mikey Moore',5,6],['João Neves',0,1]])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli club stats after Lecce for '+name);
-assert(data.season203031?.serieA?.points===48&&data.season203031?.serieA?.played===19,'Wrong Napoli league record after Lecce');
-assert(data.season203031?.serieA?.position==null,'Cannot invent live league rank without rival results');
-assert(data.nextClubFixture?.opponent==='Sassuolo','Next Napoli fixture should be Sassuolo');
-assert(data.latestResult?.[1]==='4–1'&&data.latestResult?.[2]==='Lecce','Lecce not latest result');
+for(const [name,g,a] of [['Pio Esposito',29,10],['Maximilian Beier',20,21],['Nico Paz',1,4],['Mikey Moore',5,6],['João Neves',0,3],['Edoardo Rossetti',2,0]])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli club stats after Sassuolo for '+name);
+assert(data.season203031?.serieA?.points===51&&data.season203031?.serieA?.played===20,'Wrong Napoli Serie A record after Sassuolo');
+assert(data.season203031?.serieA?.position==null,'Cannot invent live league rank without updated rival results');
+assert(data.nextClubFixture?.opponent==='Hellas Verona','Next Napoli fixture should be Verona');
+assert(data.latestResult?.[1]==='3–1'&&data.latestResult?.[2]==='Sassuolo','Sassuolo is not latest result');
+assert(data.season203031?.competitiveGamesConfirmed===30&&data.season203031?.competitiveGoalsFor===74&&data.season203031?.competitiveGoalsAgainst===24,'Sassuolo club totals not updated');
 
 const lead=html.match(/<article id="heroStory"[\s\S]*?data-article="([^"]+)"/)?.[1];assert(lead===data.hero.articleId&&ids.has(lead),'Static first paint must match compiled data');
 console.log(JSON.stringify({status:'PASS',articles:archive.articles.length,latestLead:lead,topLevelAcrossAllArticles:total,articlesWithoutInlineComments:empty,articlesWithFewerThanTenInlineThreads:underTen,janExpanded:!!data.january2031DiscussionExpansion,decExpanded:!!data.december2030DiscussionExpansion,publicScriptCount:scripts.length}));

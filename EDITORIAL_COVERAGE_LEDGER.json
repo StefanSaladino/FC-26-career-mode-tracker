@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source prepared, final editorial/compiled/deployment verification pending",
+    "status": "Published — editorial gate, compact snapshot browser regression and GitHub Pages deployment succeeded",
     "phase": "Napoli 3–1 Sassuolo · Rossetti first two Napoli goals · Neves two assists",
     "match": "Napoli 3–1 Sassuolo · Serie A · 15 January 2031",
     "stories": [
@@ -154,10 +154,28 @@
     "releaseVersion": "203101-sassuolo-rossetti-brace-v1",
     "press": "No manager interview or invented player quote. Olise terms private.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "Approved gallery paths confirmed; independent manual desktop/mobile crop inspection not performed"
+      "editorialQualityGate": "success",
+      "editorialRun": "42709045407",
+      "compiledSnapshot": "success",
+      "snapshotBuildRun": "42709042800",
+      "snapshotBrowserTests": "success",
+      "sourceCommit": "7f2ea206aad07dbeafb58e4dbf13c944210c72d5",
+      "compiledCommit": "c9247f8d56c043895efefa0870123508488912b0",
+      "pagesDeployment": "success",
+      "pagesRun": "42709153809",
+      "articles": 711,
+      "results": 146,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-sassuolo-three-one-rossetti-brace-jan2031",
+      "clubScope": "Napoli club 30P24W5D1L GF74GA24, Serie A 20P51pts",
+      "playerStats": "Pio29G10A Beier20G21A João Neves0G3A Edoardo Rossetti2G0A; Italy separate",
+      "originalComments": {
+        "topLevel": 58,
+        "totalIncludingReplies": 145
+      },
+      "visualQA": "Gallery files verified; independent mobile/desktop crop or direct live public-URL browser QA not performed",
+      "archiveFetch": "Oversize archived JSON could not be separately parsed through connector; build browser regression passed"
     }
   },
   "previous_newsroom_package": {
@@ -218,6 +236,18 @@
     }
   },
   "release_history": [
+    {
+      "release_version": "203101-sassuolo-rossetti-brace-v1",
+      "phase": "Napoli 3–1 Sassuolo · Rossetti first two Napoli goals · Neves two assists",
+      "story_ids": [
+        "napoli-sassuolo-three-one-rossetti-brace-jan2031",
+        "edoardo-rossetti-first-napoli-brace-sassuolo-jan2031",
+        "joao-neves-two-assists-pio-rossetti-sassuolo-jan2031"
+      ],
+      "status": "Published; compact build and Pages verified",
+      "compiled_commit": "c9247f8d56c043895efefa0870123508488912b0",
+      "verified_pages_run": "42709153809"
+    },
     {
       "release_version": "203101-lecce-beier2020-v1",
       "phase": "Napoli 4–1 Lecce, recovery from 0–1; Beier 20G20A, Pio 28 club goals; four distinct features",
