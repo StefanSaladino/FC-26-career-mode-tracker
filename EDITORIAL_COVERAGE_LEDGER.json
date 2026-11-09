@@ -103,7 +103,7 @@
       "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes."
     }
   ],
-  "latest_confirmed_match": "NAPOLI 1–1 LAZIO · Serie A January 2031 (exact day and venue unconfirmed). Taylor Lazio 26′, Giacomo Raspadori Napoli 56′ (Warren Zaïre-Emery official assist). xG Napoli 2.7 Lazio 1.3. League Napoli 18P14W3D1L 45pts GF39 GA13 +26, 3rd. Current top Milano FC 48pts /19, Roma 47pts /20. All club Napoli 28P22W5D1L GF67 GA22; Raspadori 5G3A, Zaïre-Emery 4G4A; Pio 26G10A Beier 19G18A Moore 5G5A unchanged. No Italy contributions.",
+  "latest_confirmed_match": "Napoli 4–1 Lecce · Serie A 12 January 2031. Lozano Lecce 13′; Beier 28′ (Paz), Paz 51′ (Beier), Pio 60′ (Beier; Neves preceding pass), Pio 64′ (Moore; Beier preceding pass). FT 4–1. Napoli Serie A 19P15W3D1L 48pts 43GF14GA +29; rank unknown without new rival results. Napoli all club competitions 29P23W5D1L 71GF23GA. Pio 28G10A Beier 20G20A Paz1G4A Moore5G6A. No Italy changes or confirmed substitutions.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +118,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source edition committed; verification pending",
+    "phase": "Napoli 4–1 Lecce comeback; Beier reaches 20 goals and 20 assists; Napoli 48 points after 19",
+    "match": "Napoli 4–1 Lecce · Serie A · 12 January 2031",
+    "stories": [
+      "napoli-lecce-four-one-comeback-beier-pio-jan2031",
+      "beier-lecce-20-goals-20-assists-jan2031",
+      "nico-paz-neves-lecce-midfield-jan2031",
+      "bellandi-lecce-four-one-early-warning-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Lorenzo Ferri · Calcio Giovane",
+      "Matteo Bellandi · Linea Calcio TV"
+    ],
+    "source": [
+      "stories-lecce-four-part-newsroom-jan2031.js",
+      "site-visible-lecce-four-one-jan2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-manager-paz-celebration.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "knownFacts": "Napoli 4–1 Lecce · Serie A 12 January 2031. Lozano Lecce 13′; Beier 28′ (Paz), Paz 51′ (Beier), Pio 60′ (Beier; Neves preceding pass), Pio 64′ (Moore; Beier preceding pass). FT 4–1. Napoli Serie A 19P15W3D1L 48pts 43GF14GA +29; rank unknown without new rival results. Napoli all club competitions 29P23W5D1L 71GF23GA. Pio 28G10A Beier 20G20A Paz1G4A Moore5G6A. No Italy changes or confirmed substitutions.",
+    "unknowns": "Current rival standings, goalkeeper, lineup, substitutions, xG. Private Olise deal remains confidential; no new contract or completed sale.",
+    "coverage": "Four independent articles: match, Beier character-led 20/20 analysis, Paz/Neves midfield and Bellandi caution. 51 substantive paragraphs, 69 original top-level supporter threads / 173 comments and replies. No manager quotations and no confidential contract leak.",
+    "comments": {
+      "topLevel": 69,
+      "totalIncludingReplies": 173
+    },
+    "paragraphs": 51,
+    "nextFixture": "Sassuolo home 15 January 2031",
+    "releaseVersion": "203101-lecce-beier2020-v1",
+    "press": "No fabricated manager statement, no new player interview.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "snapshotBuild": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Approved gallery file paths found, independent crop review not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot browser tests and final Pages deployment passed",
     "phase": "Napoli 1–1 Lazio · Raspadori level at 56′ · 2.7–1.3 xG · Serie A standings Napoli third 45pts/18",
     "match": "Napoli 1–1 Lazio · Serie A · January 2031 (exact day unconfirmed)",
@@ -173,72 +217,6 @@
       "statsAudit": "Raspadori 5G3A and Warren Zaïre-Emery 4G4A; Pio 26G10A, Beier 19G18A unchanged; Italy separate",
       "warnings": "21 nonblocking warnings, all legacy source asset/identity/alternate-format flags; no errors from new edition. Historic issues deferred for separate legacy review."
     }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compiled browser checks and final GitHub Pages deployment all passed",
-    "phase": "Napoli 4–1 Juventus Supercoppa Final · Pio scores FOUR, Beier two assists, Moore one · João Neves returns from broken toe",
-    "match": "Napoli 4–1 Juventus · SUPERCOPPA FINAL · Champions · January 2031",
-    "stories": [
-      "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
-      "joao-neves-returns-from-broken-toe-napoli-jan2031",
-      "beier-pio-supercoppa-double-act-three-goals-two-assists-2031",
-      "epolo-supercoppa-juventus-final-soft-goal-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Lorenzo Ferri · Calcio Giovane",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Tactical desk"
-    ],
-    "source": [
-      "stories-napoli-juventus-supercoppa-final-pio-four-jan2031.js",
-      "stories-joao-neves-broken-toe-return-jan2031.js",
-      "stories-beier-two-acts-supercoppa-pio-jan2031.js",
-      "stories-epolo-supercoppa-final-juventus-jan2031.js",
-      "site-visible-supercoppa-final-champions-neves-return-jan2031.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-coaches-key-players-walkout.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-coaches-squad-tactics-session.webp"
-    ],
-    "knownFacts": "Napoli WIN Supercoppa 4–1 against Juventus; FT 4–1, HT 2–0. Pio four goals: 21′ rebound from saved Mikey Moore shot (no official assist established), 36′ tight-angle from Beier, 59′ first-time from Mikey Moore, 88′ from Beier. Cvetkovic Juventus 60′ soft conceded by otherwise very good Epolo. Beier has two assists, Moore one confirmed; Pio club season 26G10A, Beier 19G18A, Moore 5G5A. All club games 27P22W4D1L GF66 GA21; league unchanged 17P14W2D1L 44 pts GF38 GA12. Neves previously injured toe 30 Oct 2030 Roma, expected 3 months, NOW returned from injury; last confirmed OVR 95, current match fitness/return selection not known. Supercoppa 2030–31 champions added to Napoli honours.",
-    "unknowns": "Date or venue of final, Juventus Cvetkovic first name, any other unconfirmed assists or goal details, 21′ goal official assist (no Moore official assist awarded), full XI, substitution minute, comeback selection minutes/return date for Neves, other recovered players. No invented press answers.",
-    "coverage": "Four substantial independent reports: final match, Neves character-led squad-return focus, Beier two-match attacking partnership, Epolo balanced goalkeeping analysis. Each with recurring-club supporter communities and meaningful dialogue, preserving manager press independence. 57 paragraphs, 29 first-level threads, 89 total comments incl. replies. Previous Geertruida/Hermansen/Olise/Rossetti and semifinal coverage remains in archive.",
-    "comments": {
-      "topLevel": 29,
-      "totalIncludingReplies": 89
-    },
-    "paragraphs": 57,
-    "nextFixture": "Lecce 12 January 2031 home Serie A (prior calendar); then Sassuolo 15, Verona 18, Barcelona 22, Bologna 26, Dynamo Kyiv 29.",
-    "releaseVersion": "203101-supercoppa-winners-pio-four-neves-return-v1",
-    "press": "No fabricated statements, substitutions, medical clearances or match facts; no unpublished manager interview.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "firstPaintLead": "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
-      "clubScope": "Napoli 27P22W4D1L GF66 GA21, league remains 44pts",
-      "italyScope": "unchanged",
-      "roster": "João Neves returned from injury, 95 OVR last known, no comeback appearance claimed; Rossetti and Hermansen already active, Geertruida sold; Olise remains 93 active unsigned.",
-      "sourceCommit": "fdec943c99295711892fba3ee08d1fe335fa452d",
-      "compiledCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40",
-      "articles": 701,
-      "results": 143,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "trophyAudit": "Supercoppa 2030–31 added to D.trophies; Napoli 4–1 Juventus final appears in results",
-      "statsAudit": "Pio 26G10A, Beier 19G18A, Moore 5G5A, Raspadori 4G3A, Stach 2G4A; league unchanged 44 points",
-      "nevesAudit": "João Neves 95 OVR previous rating, returned from broken toe, no minutes claimed",
-      "visualQA": "Approved existing gallery artwork used, no separate manual crop/screenshots reviewed",
-      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555679528",
-      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555679544",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555735746",
-      "publishedSite": "https://stefansaladino.github.io/FC-26-career-mode-tracker/"
-    },
-    "compiledCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40"
   },
   "release_history": [
     {
@@ -562,9 +540,9 @@
     "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
   },
   "latest_canon_only_checkpoint": {
-    "dateContext": "January 2031",
-    "status": "Lazio 1–1 and photographed standings added to sole canon; subsequent news package expressly authorised",
-    "source": "Manager match account and screenshot"
+    "dateContext": "12 January 2031",
+    "status": "Lecce 4–1 football facts and publication explicitly authorised",
+    "source": "Manager timeline and full time"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -628,12 +606,15 @@
     "noTransferConfirmed": true,
     "press": "No manager interview given",
     "remainingContract": "1 year 8 months",
-    "latestDemandWeeklyWage": 660000,
-    "latestDemandSigningBonus": 6000000,
-    "latestDemandMilestoneBonus": 15000000,
-    "latestDemandMilestoneTrigger": "15 goals",
+    "latestDemandWeeklyWage": 600000,
+    "latestDemandSigningBonus": 5900000,
+    "latestDemandMilestoneBonus": 17500000,
+    "latestDemandMilestoneTrigger": "20 goals",
     "latestPosition": "Representatives refuse any reduction; manager considering a possible sale and a new right midfielder, but has not confirmed a sale, listing or transfer.",
-    "confidential": true
+    "confidential": true,
+    "currentDisplayedMarketValue": 192500000,
+    "noExtensionConfirmed": true,
+    "negotiationStatus": "Paused to focus on Lecce; no new deal or sale confirmed"
   },
   "latest_trophy": {
     "competition": "Supercoppa",
