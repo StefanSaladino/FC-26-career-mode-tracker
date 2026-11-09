@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source edition committed; editorial and compiled-site verification pending",
+    "status": "Published — editorial gate, compact snapshot browser tests and final Pages deployment passed",
     "phase": "Napoli 1–1 Lazio · Raspadori level at 56′ · 2.7–1.3 xG · Serie A standings Napoli third 45pts/18",
     "match": "Napoli 1–1 Lazio · Serie A · January 2031 (exact day unconfirmed)",
     "stories": [
@@ -154,10 +154,24 @@
     "releaseVersion": "203101-lazio-xg-title-race-v1",
     "press": "No public manager quotations or fabricated answers. Raspadori dialogue is explicitly dramatized fictional in-universe.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compiledSnapshot": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "Approved gallery files verified by path; manual desktop and mobile crop not performed"
+      "editorialQualityGate": "success",
+      "compiledSnapshot": "success",
+      "pagesDeployment": "success",
+      "visualQA": "Approved asset paths verified; manual desktop/mobile crop or live public URL visual review not performed",
+      "snapshotBrowserTests": "success",
+      "sourceCommit": "43f3caeec6f18cb16d96d456efaf6ec39f30a79c",
+      "compiledCommit": "616bffc49f501805a94ff9b597a32b99ebf1ed28",
+      "editorialRun": "42561738615",
+      "snapshotRun": "42561738711",
+      "pagesRun": "42561790244",
+      "articles": 704,
+      "results": 144,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-lazio-one-one-xg-27-13-raspadori-jan2031",
+      "clubScope": "28P22W5D1L GF67 GA22, Serie A 18P 45pts",
+      "statsAudit": "Raspadori 5G3A and Warren Zaïre-Emery 4G4A; Pio 26G10A, Beier 19G18A unchanged; Italy separate",
+      "warnings": "21 nonblocking warnings, all legacy source asset/identity/alternate-format flags; no errors from new edition. Historic issues deferred for separate legacy review."
     }
   },
   "previous_newsroom_package": {
@@ -227,6 +241,18 @@
     "compiledCommit": "d8d23c0e1f83e6023a540fcd7b90391108459b40"
   },
   "release_history": [
+    {
+      "release_version": "203101-lazio-xg-title-race-v1",
+      "phase": "Napoli 1–1 Lazio, xG 2.7–1.3; title-race standings; dramatized Raspadori interview; 3 stories",
+      "story_ids": [
+        "napoli-lazio-one-one-xg-27-13-raspadori-jan2031",
+        "napoli-three-points-off-milano-game-in-hand-jan2031",
+        "raspadori-lazio-equaliser-fictional-player-interview-jan2031"
+      ],
+      "status": "Published — verified",
+      "compiled_commit": "616bffc49f501805a94ff9b597a32b99ebf1ed28",
+      "verified_pages_run": "42561790244"
+    },
     {
       "release_version": "20301207-pisa-warren-escape-v1",
       "phase": "Prior Pisa newsroom edition, succeeded",
@@ -455,11 +481,11 @@
       "image-fixes.js"
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
-    "football_canon_unchanged": true,
-    "current_published_commit": "d8d23c0e1f83e6023a540fcd7b90391108459b40",
+    "football_canon_unchanged": false,
+    "current_published_commit": "616bffc49f501805a94ff9b597a32b99ebf1ed28",
     "validation": {
-      "articles": 635,
-      "results": 122,
+      "articles": 704,
+      "results": 144,
       "seasons": 4,
       "public_js_files": 5,
       "historical_scripts_loaded": 0,
@@ -467,19 +493,19 @@
       "archive_reader_test_passed": true,
       "github_pages_deployment": "success"
     },
-    "most_recent_published_fixture": "Napoli 4–1 Juventus, Supercoppa FINAL WON · Pio four goals, Neves back · January 2031",
+    "most_recent_published_fixture": "Napoli 1–1 Lazio Serie A · Raspadori 56 from Zaïre-Emery · xG 2.7–1.3 · Jan 2031",
     "last_verified_artifact_count": {
-      "articles": 701,
-      "results": 143,
+      "articles": 704,
+      "results": 144,
       "seasons": 4
     },
-    "last_compiled_revision": "fdec943c9929",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42555735746",
+    "last_compiled_revision": "43f3caeec6f1",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42561790244",
     "pendingSourceRevision": null,
     "pendingLead": null,
-    "most_recent_source_fixture": "Napoli 4–1 Juventus Supercoppa final, championship published · Neves injury return",
+    "most_recent_source_fixture": "Napoli 1–1 Lazio · January 2031 · Napoli third 45pts/18",
     "pendingCorrection": null,
-    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997"
+    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42561738711"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
