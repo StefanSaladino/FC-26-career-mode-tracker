@@ -98,7 +98,7 @@
       "note": "1–2 December 2030: Elena De Luca publishes a substantial Lirim Hasa character-led player feature with an explicitly labelled fictional in-universe Q&A after his 78′ Juventus goal. His first shot was blocked; he followed it up. Beier's assist is officially credited, and Hasa's first club-season goal follows a previously logged assist for Pio against Bologna. No manager quotes or fabricated private conversations. 7–8 December: additional Elena De Luca player feature on Zaïre-Emery's first two club goals of the season against Pisa, no invented interview statements."
     }
   ],
-  "latest_confirmed_match": "NAPOLI 4–1 JUVENTUS, SUPERCOPPA FINAL, FULL TIME, TROPHY WON. 21′ Pio Esposito rebound from saved Mikey Moore shot (no confirmed official assist); 36′ Pio from Maximilian Beier through ball (official assist); HT 2–0; 59′ Pio first-time bottom corner from Mikey Moore pass (official assist); 60′ Juventus Cvetkovic low/weak shot beats excellent Epolo (goal conceded); 88′ Pio from Beier (Beier second official assist). FT 4–1. Pio four goals, Beier two assists, Moore one official assist. Club 2030–31 Pio 26G10A, Beier 19G18A; Moore +1 official assist. Club competitions 27P22W4D1L GF66 GA21, Serie A unchanged 17P14W2D1L 44pts GF38 GA12 GD+26; UCL unchanged. Final date/venue unknown. No instruction to publish final newsroom yet.",
+  "latest_confirmed_match": "NAPOLI 4–1 JUVENTUS · SUPERCOPPA FINAL · FULL TIME · TROPHY WON. Pio Esposito 21′ rebound from Di Gregorio save on Moore shot (NO confirmed official Moore assist on rebound), 36′ tight-angle from Beier through ball, 59′ first-time bottom-corner from Mikey Moore (official assist), 88′ from Beier (his second assist); Juventus Cvetkovic 60′ soft effort past otherwise excellent Epolo; HT 2–0. Pio FOUR final goals, Beier TWO assists, Moore ONE official assist. Neves BACK from broken toe suffered 30 Oct 2030 vs Roma; last known overall 95, no confirmed comeback minutes/next selection. Napoli 2030–31 competitive 27P22W4D1L GF66 GA21, league remains 17P14W2D1L 44 points GF38 GA12; Pio 26G10A, Beier 19G18A, Moore 5G5A; Supercoppa WON.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -113,6 +113,58 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Championship edition source pending editorial, browser compilation and deployment checks",
+    "phase": "Napoli 4–1 Juventus Supercoppa Final · Pio scores FOUR, Beier two assists, Moore one · João Neves returns from broken toe",
+    "match": "Napoli 4–1 Juventus · SUPERCOPPA FINAL · Champions · January 2031",
+    "stories": [
+      "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
+      "joao-neves-returns-from-broken-toe-napoli-jan2031",
+      "beier-pio-supercoppa-double-act-three-goals-two-assists-2031",
+      "epolo-supercoppa-juventus-final-soft-goal-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Lorenzo Ferri · Calcio Giovane",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Tactical desk"
+    ],
+    "source": [
+      "stories-napoli-juventus-supercoppa-final-pio-four-jan2031.js",
+      "stories-joao-neves-broken-toe-return-jan2031.js",
+      "stories-beier-two-acts-supercoppa-pio-jan2031.js",
+      "stories-epolo-supercoppa-final-juventus-jan2031.js",
+      "site-visible-supercoppa-final-champions-neves-return-jan2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-coaches-key-players-walkout.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-coaches-squad-tactics-session.webp"
+    ],
+    "knownFacts": "Napoli WIN Supercoppa 4–1 against Juventus; FT 4–1, HT 2–0. Pio four goals: 21′ rebound from saved Mikey Moore shot (no official assist established), 36′ tight-angle from Beier, 59′ first-time from Mikey Moore, 88′ from Beier. Cvetkovic Juventus 60′ soft conceded by otherwise very good Epolo. Beier has two assists, Moore one confirmed; Pio club season 26G10A, Beier 19G18A, Moore 5G5A. All club games 27P22W4D1L GF66 GA21; league unchanged 17P14W2D1L 44 pts GF38 GA12. Neves previously injured toe 30 Oct 2030 Roma, expected 3 months, NOW returned from injury; last confirmed OVR 95, current match fitness/return selection not known. Supercoppa 2030–31 champions added to Napoli honours.",
+    "unknowns": "Date or venue of final, Juventus Cvetkovic first name, any other unconfirmed assists or goal details, 21′ goal official assist (no Moore official assist awarded), full XI, substitution minute, comeback selection minutes/return date for Neves, other recovered players. No invented press answers.",
+    "coverage": "Four substantial independent reports: final match, Neves character-led squad-return focus, Beier two-match attacking partnership, Epolo balanced goalkeeping analysis. Each with recurring-club supporter communities and meaningful dialogue, preserving manager press independence. 57 paragraphs, 29 first-level threads, 89 total comments incl. replies. Previous Geertruida/Hermansen/Olise/Rossetti and semifinal coverage remains in archive.",
+    "comments": {
+      "topLevel": 29,
+      "totalIncludingReplies": 89
+    },
+    "paragraphs": 57,
+    "nextFixture": "Lecce 12 January 2031 home Serie A (prior calendar); then Sassuolo 15, Verona 18, Barcelona 22, Bologna 26, Dynamo Kyiv 29.",
+    "releaseVersion": "203101-supercoppa-winners-pio-four-neves-return-v1",
+    "press": "No fabricated statements, substitutions, medical clearances or match facts; no unpublished manager interview.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compiledSnapshot": "pending",
+      "snapshotBrowserTests": "pending",
+      "pagesDeployment": "pending",
+      "firstPaintLead": "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
+      "clubScope": "Napoli 27P22W4D1L GF66 GA21, league remains 44pts",
+      "italyScope": "unchanged",
+      "roster": "João Neves returned from injury, 95 OVR last known, no comeback appearance claimed; Rossetti and Hermansen already active, Geertruida sold; Olise remains 93 active unsigned."
+    },
+    "compiledCommit": null
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compiled browser regression, and GitHub Pages deployment all passed",
     "phase": "Napoli Supercoppa 4–1 semifinal and Juventus final, Olise negotiations ended for now, January sale/new signing/loan return",
     "match": "Napoli 4–1 Supercoppa semifinal · January 2031; final vs Juventus / January window and contract decisions",
@@ -180,75 +232,6 @@
       "visualQA": "Approved gallery assets used, no standalone rendered mobile/desktop manual QA performed"
     },
     "compiledCommit": "6c203c40eb3b9f668adb0bc10de9526be78e3fff"
-  },
-  "previous_newsroom_package": {
-    "status": "Published — expanded five-story year-end transfer/Udinese edition successfully validated, compiled and deployed",
-    "phase": "Napoli 1–1 Udinese; Epolo's rescue; Geertruida sold to Real Madrid $46.5m; Victor Hermansen signed from Fulham as successor",
-    "match": "Napoli 1–1 Udinese · 28 December 2030; Real Madrid/Geertruida and Fulham/Hermansen transfer business · year-end 2030",
-    "stories": [
-      "geertruida-real-madrid-46-5-million-sale-2030",
-      "victor-hermansen-fulham-napoli-replacement-dec2030",
-      "napoli-udinese-one-one-epolo-garcia-pio-dec2030",
-      "epolo-rescues-napoli-udinese-draw-dec2030",
-      "bellandi-geertruida-sale-january-defence-debate-2030"
-    ],
-    "bylines": [
-      "Marco D'Amato · CalcioMercato Napoli",
-      "Elena De Luca · Player desk",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-geertruida-real-madrid-sale-dec2030.js",
-      "stories-victor-hermansen-fulham-to-napoli-dec2030.js",
-      "stories-napoli-udinese-one-one-dec28-2030.js",
-      "stories-epolo-saves-udinese-point-dec2030.js",
-      "stories-bellandi-geertruida-january-squad-depth-dec2030.js",
-      "site-visible-udinese-geertruida-real-madrid-dec2030.js"
-    ],
-    "gallery": [
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-coaches-key-players-walkout.webp",
-      "assets/story-maradona-stadium-night.webp",
-      "assets/story-touchline-pressure.webp",
-      "assets/story-sandro-bastoni-defensive-talk.webp"
-    ],
-    "knownFacts": "Geertruida sold by Napoli to Real Madrid for $46.5m after failed renewal negotiation ($150k weekly and >$2m bonuses). 21-year-old Victor Hermansen officially signed from Fulham as replacement, 80 overall with 87 potential ceiling, LB/RB/LM, sporadic role, three-year deal, no release clause, $100k weekly wage, $500k signing bonus. Geertruida still credited 2G1A from Napoli this season historically; no longer active Napoli roster. Hermansen added to active squad, no new stats/appearances. Udinese 1–1 Napoli home 28 Dec: Pio 5′ after beating defender (Beier official assist); Garcia Udinese 66′. Epolo saved point, full strength Napoli poor, accumulated fixtures possibly a factor. 17P14W2D1L 44 Serie A points GF38 GA12 +26; 25P20W4D1L club all competitions GF58 GA19. Pio 22G9A, Beier 16G16A.",
-    "unknowns": "Hermansen incoming transfer fee and exact signing date, unconfirmed Hermansen centre-back suitability or future appearances, future Real Madrid Geertruida wage, exact bonus ask >$2m, net budget allocation, Geertruida contract length/counteroffer, Napoli manager quotes, specific Epolo saves, Udinese xG, Supercup opponent, January lineup/rotations. Do not fabricate.",
-    "coverage": "Five original independent features: transfer sale and replacement (13 paragraphs), Victor Hermansen signed-player focus (12), Udinese 1–1 report (13), Epolo goalkeeper feature (12), Bellandi's critical January analysis (12). 62 paragraphs, 43 original supporter threads, 118 comments/replies. Original older historic articles preserved. Existing approved gallery artwork only.",
-    "comments": {
-      "topLevel": 43,
-      "totalIncludingReplies": 118
-    },
-    "paragraphs": 62,
-    "nextFixture": "Home Supercup on 3 Jan 2031; opponent unconfirmed, manager intends selective cup rotation; Barcelona home Champions League 22 Jan and Dynamo Kyiv away 29 Jan.",
-    "releaseVersion": "2030yearend-geertruida-hermansen-udinese-v1",
-    "press": "Independent reporters, no fake manager responses, no fabricated transfer fee or playing role; nuanced CB vs LB/RB/LM analysis.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "compiledSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "pagesDeployment": "success",
-      "firstPaintLead": "geertruida-real-madrid-46-5-million-sale-2030",
-      "clubScope": "Serie A 17P14W2D1L 44 points; Napoli 25P20W4D1L GF58 GA19",
-      "italyScope": "unchanged",
-      "squad": "Geertruida removed from active squad, Hermansen added LB/RB/LM 80 OVR 87 POT; historical summer snapshot and 2G1A preserved",
-      "articles": 692,
-      "results": 141,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "browserPassed": true,
-      "sourceCommit": "8efc0eaf13b929487d32ce637e9b9c5b38296d7a",
-      "compiledCommit": "2418ba0b28a060f585f22f059175464bd80a22e7",
-      "qualityRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796967",
-      "buildRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997",
-      "pagesRun": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300876758",
-      "squadAudit": "Current defensive list contains Victor Hermansen 80 OVR LB/RB/LM and excludes Lutsharel Geertruida; preserve outgoing defender 2G1A in historical club stats.",
-      "statAudit": "Pio 22G9A and Beier 16G16A after Udinese; Serie A 44 points after 17; all club 25P20W4D1L.",
-      "visualQA": "Approved artwork paths exist in repo. No independent manual screenshot or desktop/mobile image-crop review performed."
-    },
-    "compiledCommit": "2418ba0b28a060f585f22f059175464bd80a22e7"
   },
   "release_history": [
     {
@@ -499,9 +482,9 @@
     },
     "last_compiled_revision": "c7d748250325",
     "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42305161242",
-    "pendingSourceRevision": null,
-    "pendingLead": null,
-    "most_recent_source_fixture": "Supercoppa semifinal 4–1; Juventus final / Olise renewal impasse, Rossetti loan return, Geertruida and Hermansen",
+    "pendingSourceRevision": "203101-supercoppa-winners-pio-four-neves-return-v1",
+    "pendingLead": "napoli-juventus-supercoppa-final-pio-four-4-1-jan2031",
+    "most_recent_source_fixture": "Napoli 4–1 Juventus Supercoppa Final WON, João Neves returns · January 2031",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42300796997"
   },
@@ -561,73 +544,11 @@
   },
   "latest_canon_only_checkpoint": {
     "fixture": "NAPOLI 4–1 JUVENTUS · SUPERCOPPA FINAL · FT · TROPHY WON",
-    "status": "Supercoppa champions — final result recorded in sole canon, final stories NOT yet authorised for publication",
+    "status": "Supercoppa final and João Neves injury return now included in explicitly authorised four-story championship newsroom edition; pending deployment",
     "competition": "Supercoppa Final",
-    "result": "Napoli 4–1 Juventus",
     "trophy": "Won",
-    "halfTime": "Napoli 2–0 Juventus",
-    "knownGoals": [
-      {
-        "minute": 21,
-        "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": null,
-        "detail": "Scores rebound after Mikey Moore shot saved by Di Gregorio; Moore not credited official assist"
-      },
-      {
-        "minute": 36,
-        "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": "Maximilian Beier",
-        "detail": "Through ball, Pio finishes from tight angle"
-      },
-      {
-        "minute": 59,
-        "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": "Mikey Moore",
-        "detail": "Perfect pass, first-time finish bottom corner"
-      },
-      {
-        "minute": 60,
-        "team": "Juventus",
-        "scorer": "Cvetkovic",
-        "assist": null,
-        "detail": "Weak shot beats Epolo, otherwise very good game"
-      },
-      {
-        "minute": 88,
-        "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": "Maximilian Beier",
-        "detail": "Pio fourth goal, Beier second assist"
-      }
-    ],
-    "clubTotals": {
-      "Pio": "26G10A",
-      "Beier": "19G18A",
-      "Moore": "1 verified final assist; cumulative not established"
-    },
-    "allClub": {
-      "played": 27,
-      "wins": 22,
-      "draws": 4,
-      "losses": 1,
-      "GF": 66,
-      "GA": 21
-    },
-    "serieA": {
-      "played": 17,
-      "wins": 14,
-      "draws": 2,
-      "losses": 1,
-      "points": 44,
-      "GF": 38,
-      "GA": 12,
-      "GD": 26
-    },
-    "unknowns": "Date and venue of final, own club lineup, Juventus goalscorer first name/assist, first 21′ goal officially credited assist, cumulative Moore tally",
-    "editorial": "Mister has not requested Supercoppa FINAL stories, so public site continues to show last published semifinal/transfer edition."
+    "nextFixture": "Lecce (12 Jan 2031, home, previously verified calendar)",
+    "editorial": "User explicitly ordered stories including Neves news. Semifinal/transfer package remains archived."
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -698,6 +619,20 @@
     "season": "2030–31",
     "verifiedBy": "Manager confirms Full Time and Supercoppa achieved",
     "finalDate": null,
-    "finalVenue": null
+    "finalVenue": null,
+    "newsCoverageAuthorized": true
+  },
+  "latest_neves_injury_status": {
+    "player": "João Neves",
+    "initialInjuryDate": "2030-10-30",
+    "match": "Napoli vs Roma",
+    "diagnosis": "Broken toe",
+    "originallyExpectedAbsence": "Approximately three months",
+    "updatedStatus": "Returned from injury; manager explicitly says Neves is back",
+    "overallLastConfirmed": 95,
+    "returnDate": null,
+    "availableToSelect": "Back in selection picture; exact readiness unspecified",
+    "firstMatchBackConfirmed": false,
+    "newInjuryEvent": false
   }
 }
