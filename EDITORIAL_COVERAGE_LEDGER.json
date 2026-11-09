@@ -465,7 +465,7 @@
     "match_facts_unchanged": true
   },
   "compiled_publication": {
-    "status": "Compiled and deployed successfully",
+    "status": "Compiled, verified and deployed with editorial correction and 24-article supporter discussion expansion",
     "workflow": "build-static-snapshot.yml",
     "source": "legacy-index.html",
     "generated": [
@@ -482,7 +482,7 @@
     ],
     "purpose": "Historical scripts run once in CI to compile final edition; page does not execute history; archive lazy loaded",
     "football_canon_unchanged": false,
-    "current_published_commit": "616bffc49f501805a94ff9b597a32b99ebf1ed28",
+    "current_published_commit": "266766a6fd65cb1796d81ccdeeeaa73dfc41e9d1",
     "validation": {
       "articles": 704,
       "results": 144,
@@ -499,13 +499,13 @@
       "results": 144,
       "seasons": 4
     },
-    "last_compiled_revision": "43f3caeec6f1",
-    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42561790244",
+    "last_compiled_revision": "423a8c8f4093",
+    "last_pages_deployment_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42610091187",
     "pendingSourceRevision": null,
     "pendingLead": null,
     "most_recent_source_fixture": "Napoli 1–1 Lazio · January 2031 · Napoli third 45pts/18",
     "pendingCorrection": null,
-    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42561738711"
+    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42610000822"
   },
   "latest_calendar_update": {
     "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
@@ -657,5 +657,35 @@
     "availableToSelect": "Back in selection picture; exact readiness unspecified",
     "firstMatchBackConfirmed": false,
     "newInjuryEvent": false
+  },
+  "latest_editorial_correction": {
+    "subject": "January 2031 Neves-Barella football affiliation mistake and 24-article discussions expansion",
+    "status": "Corrected and verified in compiled Pages edition",
+    "issue": "Barella incorrectly named as Napoli midfielder in João Neves injury return story, despite Italy-only canon",
+    "fix": "Removed from published Neves article body; full current Napoli midfield roster verified; Italy international Barella canon retained",
+    "comments": {
+      "januaryArticles": 12,
+      "decemberArticles": 12,
+      "totalArticlesExpanded": 24,
+      "newTopLevel": 187,
+      "newTotalIncludingReplies": 506,
+      "supercoppaFinalTopLevel": 28,
+      "lazioDrawTopLevel": 20,
+      "titleRaceTopLevel": 18,
+      "nevesTopLevel": 16,
+      "existingThreadsPreserved": true,
+      "fullHistoricArchiveRewritten": false
+    },
+    "technical": {
+      "sourceRevision": "423a8c8f4093d0b9f258c2548adc2c68e75d0e13",
+      "compiledCommit": "266766a6fd65cb1796d81ccdeeeaa73dfc41e9d1",
+      "snapshotBuild": "success",
+      "snapshotBuildRun": "42610000822",
+      "pagesDeployment": "success",
+      "pagesRun": "42610091187",
+      "commentsAuditModernized": true,
+      "oldAuditArchived": true,
+      "manualVisualQA": "not performed"
+    }
   }
 }

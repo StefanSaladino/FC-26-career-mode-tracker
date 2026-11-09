@@ -16,6 +16,9 @@ assert(snapText.startsWith(prefix),'Compiled season data missing');
 const data=JSON.parse(snapText.slice(prefix.length,-1));
 const manifest=/window\.NAPOLI_SNAPSHOT=\{[^;]*totalArticles:(\d+)/.exec(read('snapshot-data.js'))?.[1];
 const archive=JSON.parse(read('news-archive.json'));
+// This release must contain both hand-authored correction packages in the compiled snapshot.
+assert(data.january2031DiscussionExpansion?.articleIds?.length===12,'January supporter discussions missing from published snapshot');
+assert(data.december2030DiscussionExpansion?.articleIds?.length===12,'December supporter discussions missing from published snapshot');
 assert(Array.isArray(archive.articles)&&archive.articles.length>=700,'Historical article archive unexpectedly reduced');
 assert(manifest&&Number(manifest)===archive.articles.length,'Archive total does not match manifest');
 const ids=new Set();let total=0,empty=0,underTen=0;
