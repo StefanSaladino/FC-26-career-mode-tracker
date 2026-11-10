@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Compiled public edition VERIFIED in repository; direct GitHub Pages URL/deployment propagation not independently checked",
+    "status": "Published — editorial gate, compact build and browser regression, and GitHub Pages deployment SUCCESS",
     "phase": "Olise $197.9m Tottenham transfer effective summer; Torino 2–5 Napoli AET Coppa Italia; Beier hat-trick",
     "match": "Torino 2–5 Napoli after extra time; 2–2 after 90; exact game date, round and venue not established",
     "stories": [
@@ -158,17 +158,23 @@
     "technical": {
       "sourceCommit": "c4bdaaca340849dae179aa3e2f3dd5d56b4c974f",
       "compiledCommit": "7ebe40e370a32badd6147ebb9d03c436e938afc8",
-      "compactBuild": "SUCCESS (GitHub generated compact snapshot commit and report revision c4bdaaca3408)",
-      "compactBrowserTests": "SUCCESS — generated snapshot build committed following its scripted Playwright tests",
+      "compactBuild": "success",
+      "compactBrowserTests": "success",
       "articles": 729,
       "results": 152,
       "seasons": 4,
       "legacyScriptErrors": 0,
       "firstPaintLead": "olise-spurs-1979m-summer-sale-agreed-2031",
       "compiledDataChecked": "Fee exactly $197.9m dollars; agreed summer move, Olise still present in Napoli public Attackers; Torino 5–2 AET result; player club totals Beier27G26A Pio33G14A NicoPaz2G4A Olise1G8A Moore6G7A Estevao1G1A. UCL second with 20 points; Serie A unchanged at 57 after Bologna pending Fiorentina competition.",
-      "editorialGate": "Independent Actions editorial gate status not directly retrieved; source JS parse and representative-state test passed; committed snapshot browser tests passed",
-      "pagesDeployment": "Actual GitHub Pages deployment status and public URL not independently checked",
-      "visualQA": "All five approved gallery image paths checked to exist. No independent manual desktop/mobile crop or live website inspection."
+      "editorialGate": "success",
+      "pagesDeployment": "success",
+      "visualQA": "Five approved gallery images exist; direct public live-URL inspection and independent desktop/mobile image-crop review not performed.",
+      "editorialRun": "42898568841",
+      "buildRun": "42898568928",
+      "pagesRun": "42899063474",
+      "verifiedCompiled": "Lead, five fresh story IDs, Torino 2–5 Napoli AET result, Tottenham $197.9m future-dated sale, Olise current squad retained, Napoli player stats all verified in compiled snapshot; source scripts not in public index",
+      "verifiedStats": "Beier 27G26A; Pio Esposito 33G14A; Nico Paz 2G4A; Olise 1G8A; Moore 6G7A; Estêvão 1G1A; Serie A through Bologna 57pts/22; UCL second 20pts/8; Italy separate.",
+      "releaseNote": "One intermediate authoring commit failed compact build while new first-paint lead preceded the source loader; later complete-source run 42898568928 passed, generated commit and Pages deployment succeeded."
     }
   },
   "previous_newsroom_package": {
