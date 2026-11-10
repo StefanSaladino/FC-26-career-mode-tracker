@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Manager authorised; source story + state files created; current authoring lead and compact build pending",
+    "status": "Compiled public edition VERIFIED in repository; direct GitHub Pages URL/deployment propagation not independently checked",
     "phase": "Olise $197.9m Tottenham transfer effective summer; Torino 2–5 Napoli AET Coppa Italia; Beier hat-trick",
     "match": "Torino 2–5 Napoli after extra time; 2–2 after 90; exact game date, round and venue not established",
     "stories": [
@@ -148,7 +148,7 @@
     ],
     "knownFacts": "Torino 2–5 Napoli after extra time, Coppa Italia, 2–2 after 90, following Fiorentina 3–0. Beier 45+1′ (Estêvão assist), 65′ (Moore), 96′ (Pio), and Beier assist Nico Paz 120′. Pio 101′ (Olise assist); Silva 24′ and Ciammaglichella 74′ for Torino. Olise sale to Tottenham for $197.9m agreed, future effective date when summer window opens, retains Napoli status until then. Transfer fee confirmed explicitly $197.9 million (dollars), registration effective opening of summer 2031 window. Olise remains a Napoli player until then.",
     "unknowns": "Torino cup round and exact date, venue and future fixture, Fiorentina competition, specific transfer effective date/contract with Tottenham not given. No manager press replies. Private renewal salary negotiations must not be surfaced in this release.",
-    "coverage": "Five substantial reporter-eye features: Olise $197.9m agreed summer Tottenham deal, Torino 5–2 extra-time match, Beier 27G26A character profile, Olise final-season tactical context, Matteo Bellandi independent defensive critique. 69 body paragraphs, 44 original top-level supporter discussions with nested replies. No fictional player quotation or manager press answer. Beier and Olise character-led features satisfy active-month coverage when month verified.",
+    "coverage": "Five substantial news features: Olise $197.9m Tottenham agreement effective summer; Torino 5–2 AET Coppa report; Beier 27G26A character feature; Olise/Estêvão attacking transition analysis; Bellandi defence critique. 69 substantive article paragraphs, 44 originally authored supporter threads with replies. No fabricated manager statements, no leaked private Olise wage requests.",
     "paragraphs": 69,
     "comments": {
       "topLevel": 44
@@ -156,12 +156,19 @@
     "releaseVersion": "2031-torino-olise-spurs-1979m-v1",
     "press": "No manager press requested or invented; no player dialogue. All private staff discussions excluded.",
     "technical": {
-      "sourceCommit": null,
-      "compiledCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "Gallery assets need path check; manual crop not performed"
+      "sourceCommit": "c4bdaaca340849dae179aa3e2f3dd5d56b4c974f",
+      "compiledCommit": "7ebe40e370a32badd6147ebb9d03c436e938afc8",
+      "compactBuild": "SUCCESS (GitHub generated compact snapshot commit and report revision c4bdaaca3408)",
+      "compactBrowserTests": "SUCCESS — generated snapshot build committed following its scripted Playwright tests",
+      "articles": 729,
+      "results": 152,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "olise-spurs-1979m-summer-sale-agreed-2031",
+      "compiledDataChecked": "Fee exactly $197.9m dollars; agreed summer move, Olise still present in Napoli public Attackers; Torino 5–2 AET result; player club totals Beier27G26A Pio33G14A NicoPaz2G4A Olise1G8A Moore6G7A Estevao1G1A. UCL second with 20 points; Serie A unchanged at 57 after Bologna pending Fiorentina competition.",
+      "editorialGate": "Independent Actions editorial gate status not directly retrieved; source JS parse and representative-state test passed; committed snapshot browser tests passed",
+      "pagesDeployment": "Actual GitHub Pages deployment status and public URL not independently checked",
+      "visualQA": "All five approved gallery image paths checked to exist. No independent manual desktop/mobile crop or live website inspection."
     }
   },
   "previous_newsroom_package": {
