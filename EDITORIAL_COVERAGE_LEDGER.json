@@ -565,7 +565,7 @@
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183"
   },
   "latest_calendar_update": {
-    "status": "Source calendar overlay committed; compact build and deployment not yet verified",
+    "status": "Verified compact public edition built and GitHub Pages deployed",
     "type": "Manager-supplied FC 26 calendar photo update only; no new story authorization or player press",
     "selectedGameDate": "2031-02-09",
     "confirmedResults": [
@@ -662,9 +662,26 @@
     "scope": "Only calendar, match classification, current next-fixture display, league-specific record; do not re-add Fiorentina to club total/goal stats. Serie A rivals standings and new cup round unknown. No UCL fixtures shown. Preserve all five previously published Olise/Torino reports and public homepage lead.",
     "source": "site-visible-feb-mar-calendar-2031.js",
     "sourceCommit": "0e9e184fbf3263afbb0ed1efd99701842aacd6f9",
-    "buildCommit": null,
-    "pagesDeployment": null,
-    "visualQA": "Two manager screenshots visually reviewed, enlarged team badges; no actual live Pages manual screenshot inspect"
+    "buildCommit": "c0bca9b0efc2c3b6be1c29b6c5cdfa350fc52db4",
+    "pagesDeployment": {
+      "status": "success",
+      "runId": 42919875667
+    },
+    "visualQA": "Two manager screenshots visually reviewed, enlarged team badges; no actual live Pages manual screenshot inspect",
+    "buildSourceRevision": "0e9e184fbf32",
+    "editorialGate": {
+      "status": "success",
+      "runId": 42919767254
+    },
+    "compactBuild": {
+      "status": "success",
+      "runId": 42919767240,
+      "articles": 729,
+      "results": 152,
+      "seasons": 4,
+      "legacyErrors": 0
+    },
+    "compiledStateVerified": "Compiled index.html first paint retains Olise $197.9m transfer lead and shows Parma next; snapshot-data.js includes 12 calendar entries (2 completed club, 8 scheduled club, 2 Italy), Fiorentina league allocation, Torino Feb5, Napoli Serie A 23P60pts; no extra club games, no changed player stats, no new articles."
   },
   "latest_canon_only_checkpoint": {
     "dateContext": "12 January 2031",
