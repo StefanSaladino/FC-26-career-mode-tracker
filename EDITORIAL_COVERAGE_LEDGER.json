@@ -565,58 +565,106 @@
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183"
   },
   "latest_calendar_update": {
-    "source": "Two FC26 September and October calendar screenshots supplied by manager; manager identifies Inter next",
-    "dateInGame": "21 September 2030, after Bologna FT",
-    "nextFixture": "Inter home, Serie A, 28 September 2030",
-    "fixtureChanges": "Previously provisional 29 September home unidentified opponent corrected to Inter home September 28; Fiorentina 4-1 calendar date corrected to September 13 from former September 15",
-    "confirmedNewUpcoming": [
+    "status": "Source calendar overlay committed; compact build and deployment not yet verified",
+    "type": "Manager-supplied FC 26 calendar photo update only; no new story authorization or player press",
+    "selectedGameDate": "2031-02-09",
+    "confirmedResults": [
+      {
+        "date": "2031-02-01",
+        "match": "Fiorentina 0–3 Napoli",
+        "competition": "Serie A",
+        "venue": "Away",
+        "classificationResolved": true
+      },
+      {
+        "date": "2031-02-05",
+        "match": "Torino 2–5 Napoli",
+        "competition": "Coppa Italia",
+        "resultType": "After extra time",
+        "venue": "Not explicitly shown in completed tile"
+      }
+    ],
+    "latestSerieA": {
+      "played": 23,
+      "wins": 19,
+      "draws": 3,
+      "losses": 1,
+      "points": 60,
+      "goalsFor": 52,
+      "goalsAgainst": 16,
+      "goalDifference": 36,
+      "position": null
+    },
+    "napoliFutureFixtures": [
       [
-        "2030-09-28",
-        "Inter",
-        "Napoli home, Serie A"
+        "2031-02-09",
+        "Parma",
+        "Home",
+        "Serie A"
       ],
       [
-        "2030-10-01",
-        "Borussia Dortmund",
-        "Napoli away, UEFA Champions League"
+        "2031-02-15",
+        "Sampdoria",
+        "Away",
+        "Serie A"
       ],
       [
-        "2030-10-05",
-        "Opponent unknown",
-        "Napoli away, Serie A"
+        "2031-02-22",
+        "Bergamo Calcio / Atalanta",
+        "Home",
+        "Serie A"
       ],
       [
-        "2030-10-11",
-        "Denmark",
-        "Italy away, International"
+        "2031-03-02",
+        "Pescara",
+        "Away",
+        "Serie A"
       ],
       [
-        "2030-10-15",
-        "Norway",
-        "Italy home, International"
+        "2031-03-05",
+        "Milano FC / AC Milan",
+        "Away",
+        "Coppa Italia"
       ],
       [
-        "2030-10-18",
-        "Hellas Verona",
-        "Napoli home, Serie A"
+        "2031-03-08",
+        "Venezia",
+        "Home",
+        "Serie A"
       ],
       [
-        "2030-10-22",
-        "Celtic",
-        "Napoli home, UEFA Champions League"
-      ],
-      [
-        "2030-10-26",
-        "Lecce",
-        "Napoli away, Serie A"
-      ],
-      [
-        "2030-10-30",
+        "2031-03-16",
         "Roma",
-        "Napoli home, Serie A"
+        "Away",
+        "Serie A"
+      ],
+      [
+        "2031-03-23",
+        "Latium / Lazio",
+        "Home",
+        "Serie A"
       ]
     ],
-    "publication": "Schedule/chronology update only. No new newsroom story or invented fixtures; Bologna remains public lead."
+    "italyFutureFixtures": [
+      [
+        "2031-03-26",
+        "Hungary",
+        "Away",
+        "International"
+      ],
+      [
+        "2031-03-29",
+        "Ukraine",
+        "Home",
+        "International"
+      ]
+    ],
+    "scope": "Only calendar, match classification, current next-fixture display, league-specific record; do not re-add Fiorentina to club total/goal stats. Serie A rivals standings and new cup round unknown. No UCL fixtures shown. Preserve all five previously published Olise/Torino reports and public homepage lead.",
+    "source": "site-visible-feb-mar-calendar-2031.js",
+    "sourceCommit": "0e9e184fbf3263afbb0ed1efd99701842aacd6f9",
+    "buildCommit": null,
+    "pagesDeployment": null,
+    "visualQA": "Two manager screenshots visually reviewed, enlarged team badges; no actual live Pages manual screenshot inspect"
   },
   "latest_canon_only_checkpoint": {
     "dateContext": "12 January 2031",
