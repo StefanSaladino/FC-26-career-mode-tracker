@@ -101,9 +101,14 @@
       "month": "2031-01",
       "status": "covered",
       "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews). 22 January: Elena De Luca revisits Pio/Beier alternating goal and assist roles in the 2–0 Champions League win over Barcelona; Lorenzo Ferri covers Rossetti's confirmed short-term loan as a follow-up to his first Napoli brace, without fabricated interviews or a public manager pledge. Following Estêvão's $167.5m arrival and 49′ Fiorentina goal, Elena De Luca supplies a clearly labelled fictional in-universe player Q&A; it contains no actual player testimony and no manager quote. Release approved as part of Kyiv + Estêvão + Fiorentina package."
+    },
+    {
+      "month": "2031-02",
+      "status": "covered",
+      "note": "Elena De Luca character-led Mikey Moore profile following his 62′ goal in rainy Napoli 1–1 Parma on 9 February; accurate 7G7A Napoli club season totals. No invented player dialogue or manager quotes. February also includes a new Beier/Pio attacking partnership discussion after Sampdoria 2–1, 15 February."
     }
   ],
-  "latest_confirmed_match": "Torino 2–5 Napoli after extra time, Coppa Italia, 2–2 after 90, following Fiorentina 3–0. Beier 45+1′ (Estêvão assist), 65′ (Moore), 96′ (Pio), and Beier assist Nico Paz 120′. Pio 101′ (Olise assist); Silva 24′ and Ciammaglichella 74′ for Torino. Olise sale to Tottenham for $197.9m agreed, future effective date when summer window opens, retains Napoli status until then.",
+  "latest_confirmed_match": "Sampdoria 1–2 Napoli · 15 Feb 2031 Serie A away: Beier 9′ (Pio assist, individual shot xG 0.1), Pio 67′ (Beier assist), Pedrola 76′. Prior Napoli 1–1 Parma · 9 Feb rainy home Serie A: Moore 62′ (Beier assist), Sørensen 66′. Napoli 25P20W4D1L 64 pts, seven clear of Milano FC after updated photographed top-six.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +123,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Manager authorised; source story and current-state scripts committed; compact site build and Pages deployment verification pending",
+    "phase": "Parma 1–1 rainy home draw · Sampdoria 1–2 Napoli away win · Napoli seven clear on 64 points after 25 · Mikey Moore 7G7A profile",
+    "match": "Sampdoria 1–2 Napoli on 15 February 2031, away Serie A; preceding 9 Feb 2031 home Serie A Napoli 1–1 Parma",
+    "stories": [
+      "sampdoria-napoli-beier-pio-01xg-feb2031",
+      "napoli-parma-rain-moore-sorensen-feb2031",
+      "napoli-64-point-seven-clear-milan-title-race-feb2031",
+      "mikey-moore-seven-seven-feb2031-napoli-feature"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Lorenzo Ferri · Match desk",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk"
+    ],
+    "source": [
+      "stories-parma-sampdoria-title-moore-feb2031.js",
+      "site-visible-parma-sampdoria-title-feb2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-maradona-stadium-night.webp",
+      "assets/story-napoli-home-crowd.webp",
+      "assets/story-napoli-key-players-huddle.webp"
+    ],
+    "knownFacts": "Parma 1–1 Napoli Feb 9 rain: Moore 62′ (Beier official assist), Sørensen 66′, 8–2 shots, 3–2 shots on target. Sampdoria 1–2 Napoli Feb15: Beier 9′ from Pio (one shot's 0.1 xG, not match xG); Pio 67′ from Beier; Pedrola 76′. Napoli club totals Beier 28G28A Pio 34G15A Moore 7G7A. Serie A 25P20W4D1L 64pts GF55 GA18 +37, 1st. Table all after 25: Milano FC 57, Roma 56, Lombardia FC 54, Juventus 51, Latium 43. Next Bergamo Calcio/Atalanta home Feb22. Olise already sold to Spurs for $197.9m effective summer, still Napoli player until then.",
+    "unknowns": "No manager press, player interviews, Parma xG, Sampdoria match-wide xG, Sampdoria shots/cards/subs, or opponent specific other-match scores. Latest UCL round-of-16 draw unannounced. No fabricated missing match details.",
+    "coverage": "Four distinct journalism pieces: Sampdoria finish with Beier/Pio reciprocal 1G+1A; Parma rainy draw measured shot accuracy; updated 64-point title race with Milan overtaking Roma for second; February Mikey Moore character-led article based on seven goals and seven assists. 55 substantive body paragraphs, 31 original first-level fan discussions with diverse replies, no invented manager quotes.",
+    "paragraphs": 55,
+    "comments": {
+      "topLevel": 31
+    },
+    "releaseVersion": "2031-sampdoria-title-feb-v1",
+    "press": "Manager authorises stories but not a press conference; no public manager quotes invented. February Moore profile contains no invented player dialogue.",
+    "technical": {
+      "sourceCommit": null,
+      "compiledCommit": null,
+      "editorialGate": "pending",
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "All four approved-gallery asset paths exist. Manual rendered desktop/mobile crops not examined."
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact build and browser regression, and GitHub Pages deployment SUCCESS",
     "phase": "Olise $197.9m Tottenham transfer effective summer; Torino 2–5 Napoli AET Coppa Italia; Beier hat-trick",
     "match": "Torino 2–5 Napoli after extra time; 2–2 after 90; exact game date, round and venue not established",
@@ -175,61 +224,6 @@
       "verifiedCompiled": "Lead, five fresh story IDs, Torino 2–5 Napoli AET result, Tottenham $197.9m future-dated sale, Olise current squad retained, Napoli player stats all verified in compiled snapshot; source scripts not in public index",
       "verifiedStats": "Beier 27G26A; Pio Esposito 33G14A; Nico Paz 2G4A; Olise 1G8A; Moore 6G7A; Estêvão 1G1A; Serie A through Bologna 57pts/22; UCL second 20pts/8; Italy separate.",
       "releaseNote": "One intermediate authoring commit failed compact build while new first-paint lead preceded the source loader; later complete-source run 42898568928 passed, generated commit and Pages deployment succeeded."
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Compiled season-room release VERIFIED in generated repository edition; GitHub Pages propagation not independently inspected",
-    "phase": "Dynamo Kyiv 0–2 Napoli · UCL second and unbeaten · Estêvão $167.5m signing · Napoli 3–0 Fiorentina",
-    "match": "Napoli 3–0 Fiorentina, following Dynamo Kyiv 0–2 Napoli on 29 January 2031",
-    "stories": [
-      "napoli-fiorentina-three-nil-estevao-beier-2031",
-      "estevao-napoli-transfer-1675m-jan2031",
-      "estevao-first-napoli-goal-fictional-interview-2031",
-      "dynamo-kyiv-napoli-two-nil-jan2031",
-      "napoli-ucl-second-unbeaten-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Lorenzo Ferri · European desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-kyiv-estevao-fiorentina-2031.js",
-      "site-visible-kyiv-estevao-fiorentina-2031.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-napoli-home-crowd.webp",
-      "assets/story-european-team-celebration.webp",
-      "assets/story-champions-league-stakes.webp"
-    ],
-    "knownFacts": "Napoli 3–0 Fiorentina · after Dynamo Kyiv 0–2 Napoli (29 January 2031). Estêvão 49′ (Pio official assist, halftime substitute), Beier 55′ (Olise assist) and 70′ (Pio assist; Moore buildup run). 3–0 FT and team clean sheet. Fiorentina exact date, competition and venue not yet confirmed. Dynamo: Moore 56′ (Neves shot saved; no official Neves assist), Beier 60′ (Stach official assist; substitute). Napoli UCL 2nd unbeaten: 8P6W2D0L 20pts 18GF5GA +13, direct R16. Estêvão completed $167.5m signing (NOT euros), $270k/week, $2m bonus, five years, age 23 89 OVR Important.",
-    "unknowns": "Exact Fiorentina competition/date/venue and next club fixture not established; no league table promotion. No Neves official assist on Moore goal. Olise planned summer sale and private negotiations excluded from public reporting.",
-    "coverage": "Five independent, substantial features; Giulia Romano on Fiorentina; Elena De Luca on $167.5m signing and explicitly fictional dramatized Estêvão interview; Lorenzo Ferri Kyiv match; Marco Bellini UCL final table. 70 substantial body paragraphs, 43 original top-level discussion threads with multi-person replies. No fabricated manager press.",
-    "paragraphs": 70,
-    "comments": {
-      "topLevel": 43
-    },
-    "releaseVersion": "2031-kyiv-estevao-fiorentina-v1",
-    "press": "No manager public press responses; one explicitly labelled fictional player interview. Private staff planning withheld.",
-    "technical": {
-      "sourceCommit": "b4334b9f1a03afb558457a20c42f21b61f41c48c",
-      "compiledCommit": "228cfb6c94be82c5e367d66198911b4ccb0ccd4a",
-      "editorialGate": "GitHub Actions editorial-gate run not independently checked; source scripts parsed and passed representative-state validation",
-      "compactBuild": "success — snapshot-build-report.json 724 articles, 151 results, 4 seasons, no legacy errors",
-      "pagesDeployment": "GitHub Pages live-URL and deployment job not independently checked",
-      "visualQA": "Existing approved artwork files referenced, no manual browser or crop QA performed.",
-      "compactBrowserTests": "success — generated commit follows scripts/build-static-snapshot.mjs browser regression checks in workflow",
-      "articles": 724,
-      "results": 151,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-fiorentina-three-nil-estevao-beier-2031",
-      "images": "All five approved gallery asset paths verified to exist in GitHub; no manual desktop or mobile crop inspection",
-      "verifiedCompiledStats": "Beier24G25A Pio32G13A Moore6G6A Stach2G5A Olise1G7A Estevao1G0A Neves0G3A; UCL second 20pts; $167.5m signing; Italy separate",
-      "archive": "Compiled browser test opened recent and oldest archive stories and verified 724 article count; source historical files not downloaded by client"
     }
   },
   "release_history": [
@@ -941,5 +935,83 @@
         "finalVerifiedCommit": "66f847d20e65b9059cfb2b4a44d2a3e0643b372d"
       }
     }
-  ]
+  ],
+  "latest_league_table_verified_feb2031": {
+    "date": "2031-02-15",
+    "allTeamsPlayed": 25,
+    "topSixOnly": true,
+    "rows": [
+      [
+        "SSC Napoli",
+        25,
+        20,
+        4,
+        1,
+        55,
+        18,
+        37,
+        64
+      ],
+      [
+        "Milano FC",
+        25,
+        17,
+        6,
+        2,
+        54,
+        26,
+        28,
+        57
+      ],
+      [
+        "AS Roma",
+        25,
+        17,
+        5,
+        3,
+        46,
+        27,
+        19,
+        56
+      ],
+      [
+        "Lombardia FC",
+        25,
+        16,
+        6,
+        3,
+        51,
+        28,
+        23,
+        54
+      ],
+      [
+        "Juventus",
+        25,
+        15,
+        6,
+        4,
+        51,
+        30,
+        21,
+        51
+      ],
+      [
+        "Latium",
+        25,
+        12,
+        7,
+        6,
+        35,
+        32,
+        3,
+        43
+      ]
+    ],
+    "source": "Manager's FC 26 league screenshot supplied after Sampdoria 1–2 Napoli FT",
+    "gapToSecond": 7,
+    "nextOpponent": "Bergamo Calcio (Atalanta)",
+    "nextDate": "2031-02-22",
+    "unknowns": "No refreshed teams below sixth; no other individual results supplied."
+  }
 }
