@@ -100,10 +100,10 @@
     {
       "month": "2031-01",
       "status": "covered",
-      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews)."
+      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews). 22 January: Elena De Luca revisits Pio/Beier alternating goal and assist roles in the 2–0 Champions League win over Barcelona; Lorenzo Ferri covers Rossetti's confirmed short-term loan as a follow-up to his first Napoli brace, without fabricated interviews or a public manager pledge."
     }
   ],
-  "latest_confirmed_match": "Hellas Verona 1–2 Napoli · Serie A 18 Jan 2031 away (existing calendar). Isaac Verona 27′; Pio Esposito 33′ and 69′ both officially assisted by Maximilian Beier; FT 1–2. Napoli 21P17W3D1L 54pts GF48 GA16 +32; club all competitions 31P25W5D1L GF76 GA25; Pio31G10A, Beier20G23A, rest unchanged, Italy separate.",
+  "latest_confirmed_match": "Napoli 2–0 Barcelona, 22 January 2031 Champions League HOME. Beier 13′ from Pio, Pio 36′ from Beier. XG Barcelona 1.7 Napoli 1.6, shots 6–6, on-target Napoli 5–2. Napoli UCL 7P 5W2D0L 17 points GF16 GA5 +11. All-club 32P 26W5D1L GF78GA25; Serie A unchanged 21P54pts. Pio32G11A, Beier21G24A. Rossetti age19 short-term loan confirmed after Sassuolo first brace; destination unspecified, manager privately intends to retain him at Napoli after loan, NOT a public statement.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +118,54 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "New source prepared; editorial gate and compact compilation/deployment pending",
+    "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
+    "match": "Napoli 2–0 Barcelona · Champions League · 22 January 2031",
+    "personnel": "Edoardo Rossetti short-term loan in January 2031; receiving club and return date unspecified",
+    "stories": [
+      "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
+      "bellandi-barcelona-xg-shots-precision-jan2031",
+      "pio-beier-barcelona-reciprocal-partnership-jan2031",
+      "edoardo-rossetti-short-term-loan-after-sassuolo-brace-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Matteo Bellandi · Linea Calcio TV",
+      "Elena De Luca · Player desk",
+      "Lorenzo Ferri · Calcio Giovane"
+    ],
+    "source": [
+      "stories-napoli-barcelona-two-nil-jan2031.js",
+      "stories-bellandi-barcelona-shots-xg-jan2031.js",
+      "stories-pio-beier-reciprocal-barcelona-jan2031.js",
+      "stories-rossetti-short-term-loan-jan2031.js",
+      "site-visible-barcelona-rossetti-loan-jan2031.js"
+    ],
+    "gallery": [
+      "assets/story-european-team-celebration.webp",
+      "assets/story-maradona-tifo-night.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-napoli-shirt-identity.webp"
+    ],
+    "knownFacts": "Napoli 2–0 Barcelona, 22 January 2031 Champions League HOME. Beier 13′ from Pio, Pio 36′ from Beier. XG Barcelona 1.7 Napoli 1.6, shots 6–6, on-target Napoli 5–2. Napoli UCL 7P 5W2D0L 17 points GF16 GA5 +11. All-club 32P 26W5D1L GF78GA25; Serie A unchanged 21P54pts. Pio32G11A, Beier21G24A. Rossetti age19 short-term loan confirmed after Sassuolo first brace; destination unspecified, manager privately intends to retain him at Napoli after loan, NOT a public statement.",
+    "unknowns": "Current UCL ranking pending other games; goalkeeper, other match events, Barcelona shooters, loan destination and precise return date. Staff-only plan to retain Rossetti after loan; Olise negotiations private.",
+    "coverage": "Four original independently bylined stories: European match, statistical opinion, Pio/Beier player feature, Rossetti short loan. 63 paragraphs, 79 top-level discussions, 198 comments/replies. No manager/public player quotes or invented loan club.",
+    "comments": {
+      "topLevel": 79,
+      "totalIncludingReplies": 198
+    },
+    "paragraphs": 63,
+    "nextFixture": "Bologna home 26 January 2031; Dynamo Kyiv away UCL 29 January 2031",
+    "releaseVersion": "203101-barca-rossetti-loan-v1",
+    "press": "No public manager press; private plan and Olise terms firewalled.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compactSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Approved gallery image names selected; independent image/crop review not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact snapshot/browser tests and GitHub Pages deployment passed",
     "phase": "Hellas Verona 1–2 Napoli · Pio 33′ and 69′ both from Beier · three league wins in succession",
     "match": "Hellas Verona 1–2 Napoli · Serie A · 18 January 2031",
@@ -175,67 +223,6 @@
         "totalIncludingReplies": 137
       },
       "visualQA": "Approved image paths verified; independent desktop/mobile crop and direct public URL visual inspection not performed"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact snapshot browser regression and GitHub Pages deployment succeeded",
-    "phase": "Napoli 3–1 Sassuolo · Rossetti first two Napoli goals · Neves two assists",
-    "match": "Napoli 3–1 Sassuolo · Serie A · 15 January 2031",
-    "stories": [
-      "napoli-sassuolo-three-one-rossetti-brace-jan2031",
-      "edoardo-rossetti-first-napoli-brace-sassuolo-jan2031",
-      "joao-neves-two-assists-pio-rossetti-sassuolo-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Lorenzo Ferri · Calcio Giovane",
-      "Elena De Luca · Player desk"
-    ],
-    "source": [
-      "stories-sassuolo-rossetti-double-match-jan2031.js",
-      "stories-rossetti-first-two-goals-sassuolo-jan2031.js",
-      "stories-neves-two-assists-sassuolo-jan2031.js",
-      "site-visible-sassuolo-rossetti-brace-jan2031.js"
-    ],
-    "gallery": [
-      "assets/story-staff-squad-celebration.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-coaches-key-players-walkout.webp"
-    ],
-    "knownFacts": "Napoli 3–1 Sassuolo, Serie A 15 Jan 2031, Sassuolo 7th before match. Pio 30′ Neves assist; 19yo Edoardo Rossetti first Napoli goal 48′ from Beier, second 63′ from Neves; Weiper 90+1′ edge-of-box strike off bar and in. FT 3–1. League 20P16W3D1L, 51pts, GF46 GA15 +31; all-club 30P24W5D1L GF74GA24; Pio29G10A, Beier20G21A, Neves0G3A, Rossetti2G0A. Italy unchanged. Full current standings unavailable.",
-    "unknowns": "Current league rank after other clubs' matches; Weiper goal assist, goalkeeper, starting lineup, substitutions, xG. Olise contract terms and market value private.",
-    "coverage": "45 original paragraphs across independently bylined match, Rossetti character-led and Neves focus; 58 authored top-level supporter threads, 145 total comments and replies, supporter continuity, Sassuolo perspective, no invented manager/player interview.",
-    "paragraphs": 45,
-    "comments": {
-      "topLevel": 58,
-      "totalIncludingReplies": 145
-    },
-    "nextFixture": "Hellas Verona away 18 January 2031",
-    "releaseVersion": "203101-sassuolo-rossetti-brace-v1",
-    "press": "No manager interview or invented player quote. Olise terms private.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "editorialRun": "42709045407",
-      "compiledSnapshot": "success",
-      "snapshotBuildRun": "42709042800",
-      "snapshotBrowserTests": "success",
-      "sourceCommit": "7f2ea206aad07dbeafb58e4dbf13c944210c72d5",
-      "compiledCommit": "c9247f8d56c043895efefa0870123508488912b0",
-      "pagesDeployment": "success",
-      "pagesRun": "42709153809",
-      "articles": 711,
-      "results": 146,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-sassuolo-three-one-rossetti-brace-jan2031",
-      "clubScope": "Napoli club 30P24W5D1L GF74GA24, Serie A 20P51pts",
-      "playerStats": "Pio29G10A Beier20G21A João Neves0G3A Edoardo Rossetti2G0A; Italy separate",
-      "originalComments": {
-        "topLevel": 58,
-        "totalIncludingReplies": 145
-      },
-      "visualQA": "Gallery files verified; independent mobile/desktop crop or direct live public-URL browser QA not performed",
-      "archiveFetch": "Oversize archived JSON could not be separately parsed through connector; build browser regression passed"
     }
   },
   "release_history": [
