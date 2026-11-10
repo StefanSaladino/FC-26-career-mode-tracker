@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Published — editorial gate, compact browser tests and Pages deployment succeeded; post-build comment-audit recheck pending",
+    "status": "Published — editorial gate, compact browser tests, both comment audits, and final GitHub Pages deployment all successful",
     "phase": "Napoli 1–0 Bologna · Giacomo Raspadori 83′ from Beier · Serie A 57 points / 22",
     "match": "Napoli 1–0 Bologna · Serie A · 26 January 2031",
     "stories": [
@@ -168,8 +168,13 @@
         "topLevel": 24,
         "totalIncludingReplies": 66
       },
-      "commentAudit": "initial source-commit audit raced ahead of compiled archive (Bologna report missing); rechecking on compiled archive follow-up commit",
-      "visualQA": "Gallery file exists; no independent manual smartphone/desktop image crop or direct live URL visual inspection"
+      "commentAudit": "success after build",
+      "visualQA": "Gallery file exists; no independent manual smartphone/desktop image crop or direct live URL visual inspection",
+      "commentEditorialAuditRun": "42749936671",
+      "supporterCommentsAuditRun": "42749937251",
+      "finalEditorialRun": "42749937111",
+      "finalPagesRun": "42749936427",
+      "finalVerifiedCommit": "66f847d20e65b9059cfb2b4a44d2a3e0643b372d"
     }
   },
   "previous_newsroom_package": {
@@ -247,9 +252,12 @@
       "story_ids": [
         "napoli-bologna-one-nil-raspadori-beier-83-jan2031"
       ],
-      "status": "Published — editorial gate, compact browser tests and Pages deployment succeeded; post-build comment-audit recheck pending",
+      "status": "Published — editorial gate, compact browser tests, both comment audits, and final GitHub Pages deployment all successful",
       "compiled_commit": "f16c014875a63ce4ce4e4d753669ffaa630395b3",
-      "pages_run": "42749369487"
+      "pages_run": "42749369487",
+      "final_verified_commit": "66f847d20e65b9059cfb2b4a44d2a3e0643b372d",
+      "comment_editorial_run": "42749936671",
+      "supporter_audit_run": "42749937251"
     },
     {
       "release_version": "203101-barca-rossetti-loan-v1",
