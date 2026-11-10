@@ -103,7 +103,7 @@
       "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews). 22 January: Elena De Luca revisits Pio/Beier alternating goal and assist roles in the 2–0 Champions League win over Barcelona; Lorenzo Ferri covers Rossetti's confirmed short-term loan as a follow-up to his first Napoli brace, without fabricated interviews or a public manager pledge. Following Estêvão's $167.5m arrival and 49′ Fiorentina goal, Elena De Luca supplies a clearly labelled fictional in-universe player Q&A; it contains no actual player testimony and no manager quote. Release approved as part of Kyiv + Estêvão + Fiorentina package."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–0 Fiorentina · after Dynamo Kyiv 0–2 Napoli (29 January 2031). Estêvão 49′ (Pio official assist, halftime substitute), Beier 55′ (Olise assist) and 70′ (Pio assist; Moore buildup run). 3–0 FT and team clean sheet. Fiorentina exact date, competition and venue not yet confirmed. Dynamo: Moore 56′ (Neves shot saved; no official Neves assist), Beier 60′ (Stach official assist; substitute). Napoli UCL 2nd unbeaten: 8P6W2D0L 20pts 18GF5GA +13, direct R16. Estêvão completed $167.5m signing (NOT euros), $270k/week, $2m bonus, five years, age 23 89 OVR Important.",
+  "latest_confirmed_match": "Torino 2–5 Napoli after extra time, Coppa Italia, 2–2 after 90, following Fiorentina 3–0. Beier 45+1′ (Estêvão assist), 65′ (Moore), 96′ (Pio), and Beier assist Nico Paz 120′. Pio 101′ (Olise assist); Silva 24′ and Ciammaglichella 74′ for Torino. Olise sale to Tottenham for $197.9m agreed, future effective date when summer window opens, retains Napoli status until then.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +118,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Manager authorised; source story + state files created; current authoring lead and compact build pending",
+    "phase": "Olise $197.9m Tottenham transfer effective summer; Torino 2–5 Napoli AET Coppa Italia; Beier hat-trick",
+    "match": "Torino 2–5 Napoli after extra time; 2–2 after 90; exact game date, round and venue not established",
+    "stories": [
+      "olise-spurs-1979m-summer-sale-agreed-2031",
+      "torino-napoli-five-two-aet-beier-hat-trick-coppa2031",
+      "beier-torino-three-goals-one-assist-2031",
+      "olise-final-napoli-stretch-estevao-2031",
+      "bellandi-torino-defence-while-beier-runs-riot-2031"
+    ],
+    "bylines": [
+      "Marco Bellini · Il Calcio Sera",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Lorenzo Ferri · European desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-olise-spurs-torino-coppa-2031.js",
+      "site-visible-olise-spurs-torino-coppa-2031.js"
+    ],
+    "gallery": [
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-napoli-home-crowd.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "knownFacts": "Torino 2–5 Napoli after extra time, Coppa Italia, 2–2 after 90, following Fiorentina 3–0. Beier 45+1′ (Estêvão assist), 65′ (Moore), 96′ (Pio), and Beier assist Nico Paz 120′. Pio 101′ (Olise assist); Silva 24′ and Ciammaglichella 74′ for Torino. Olise sale to Tottenham for $197.9m agreed, future effective date when summer window opens, retains Napoli status until then. Transfer fee confirmed explicitly $197.9 million (dollars), registration effective opening of summer 2031 window. Olise remains a Napoli player until then.",
+    "unknowns": "Torino cup round and exact date, venue and future fixture, Fiorentina competition, specific transfer effective date/contract with Tottenham not given. No manager press replies. Private renewal salary negotiations must not be surfaced in this release.",
+    "coverage": "Five substantial reporter-eye features: Olise $197.9m agreed summer Tottenham deal, Torino 5–2 extra-time match, Beier 27G26A character profile, Olise final-season tactical context, Matteo Bellandi independent defensive critique. 69 body paragraphs, 44 original top-level supporter discussions with nested replies. No fictional player quotation or manager press answer. Beier and Olise character-led features satisfy active-month coverage when month verified.",
+    "paragraphs": 69,
+    "comments": {
+      "topLevel": 44
+    },
+    "releaseVersion": "2031-torino-olise-spurs-1979m-v1",
+    "press": "No manager press requested or invented; no player dialogue. All private staff discussions excluded.",
+    "technical": {
+      "sourceCommit": null,
+      "compiledCommit": null,
+      "editorialGate": "pending",
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Gallery assets need path check; manual crop not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Compiled season-room release VERIFIED in generated repository edition; GitHub Pages propagation not independently inspected",
     "phase": "Dynamo Kyiv 0–2 Napoli · UCL second and unbeaten · Estêvão $167.5m signing · Napoli 3–0 Fiorentina",
     "match": "Napoli 3–0 Fiorentina, following Dynamo Kyiv 0–2 Napoli on 29 January 2031",
@@ -170,66 +217,6 @@
       "images": "All five approved gallery asset paths verified to exist in GitHub; no manual desktop or mobile crop inspection",
       "verifiedCompiledStats": "Beier24G25A Pio32G13A Moore6G6A Stach2G5A Olise1G7A Estevao1G0A Neves0G3A; UCL second 20pts; $167.5m signing; Italy separate",
       "archive": "Compiled browser test opened recent and oldest archive stories and verified 724 article count; source historical files not downloaded by client"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact browser tests, both comment audits, and final GitHub Pages deployment all successful",
-    "phase": "Napoli 1–0 Bologna · Giacomo Raspadori 83′ from Beier · Serie A 57 points / 22",
-    "match": "Napoli 1–0 Bologna · Serie A · 26 January 2031",
-    "stories": [
-      "napoli-bologna-one-nil-raspadori-beier-83-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale"
-    ],
-    "source": [
-      "stories-napoli-bologna-raspadori-83-jan2031.js",
-      "site-visible-bologna-raspadori-83-jan2031.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp"
-    ],
-    "knownFacts": "Napoli 1–0 Bologna · Serie A HOME · 26 January 2031. Giacomo Raspadori 83′ winner, Maximilian Beier official assist. FT 1–0 team clean sheet. Napoli Serie A 22P18W3D1L 57pts GF49 GA16 GD+33; all-club 33P27W5D1L GF79GA25; Raspadori 6G3A, Beier 21G25A, Pio32G11A unchanged. UCL 17pts /7 matches unchanged, Italy separate. Next Dynamo Kyiv away UCL 29 Jan.",
-    "unknowns": "Individual save or shot statistics, lineup, substitutions, Bologna shots, xG, present league rank and future Dynamo result. Private Olise terms and Rossetti future intention not public.",
-    "coverage": "Single grounded substantial Bologna match report, 18 paragraphs, 24 bespoke top-level supporter discussions including Bologna perspective, 66 total comments and replies, established recurring voices, no invented public manager or player quotes.",
-    "paragraphs": 18,
-    "comments": {
-      "topLevel": 24,
-      "totalIncludingReplies": 66
-    },
-    "nextFixture": "Dynamo Kyiv away, Champions League, 29 January 2031",
-    "releaseVersion": "203101-bologna-raspadori-83-v1",
-    "press": "No manager public press answers or player interviews. Confidential Rossetti and Olise planning omitted.",
-    "technical": {
-      "sourceCommit": "a983f60550f4973d9d04806ebc9d99378a703059",
-      "compiledCommit": "f16c014875a63ce4ce4e4d753669ffaa630395b3",
-      "editorialGate": "success",
-      "editorialRun": "42749369533",
-      "compactBuild": "success",
-      "compactBrowserTests": "success",
-      "buildRun": "42749369450",
-      "pagesDeployment": "success",
-      "pagesRun": "42749369487",
-      "articles": 719,
-      "results": 149,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-bologna-one-nil-raspadori-beier-83-jan2031",
-      "club": "33P27W5D1L GF79GA25",
-      "serieA": "22P18W3D1L 57pts GF49GA16 +33",
-      "ucl": "7P5W2D0L 17 points unchanged",
-      "players": "Raspadori6G3A Beier21G25A Pio32G11A; Italy separate",
-      "comments": {
-        "topLevel": 24,
-        "totalIncludingReplies": 66
-      },
-      "commentAudit": "success after build",
-      "visualQA": "Gallery file exists; no independent manual smartphone/desktop image crop or direct live URL visual inspection",
-      "commentEditorialAuditRun": "42749936671",
-      "supporterCommentsAuditRun": "42749937251",
-      "finalEditorialRun": "42749937111",
-      "finalPagesRun": "42749936427",
-      "finalVerifiedCommit": "66f847d20e65b9059cfb2b4a44d2a3e0643b372d"
     }
   },
   "release_history": [
@@ -814,6 +801,66 @@
           "totalIncludingReplies": 198
         },
         "visualQA": "Approved files exist; manual desktop/mobile image crop and live Pages front-end visual QA not separately performed"
+      }
+    },
+    {
+      "status": "Published — editorial gate, compact browser tests, both comment audits, and final GitHub Pages deployment all successful",
+      "phase": "Napoli 1–0 Bologna · Giacomo Raspadori 83′ from Beier · Serie A 57 points / 22",
+      "match": "Napoli 1–0 Bologna · Serie A · 26 January 2031",
+      "stories": [
+        "napoli-bologna-one-nil-raspadori-beier-83-jan2031"
+      ],
+      "bylines": [
+        "Giulia Romano · Radio Napoli Centrale"
+      ],
+      "source": [
+        "stories-napoli-bologna-raspadori-83-jan2031.js",
+        "site-visible-bologna-raspadori-83-jan2031.js"
+      ],
+      "gallery": [
+        "assets/story-goal-celebration.webp"
+      ],
+      "knownFacts": "Napoli 1–0 Bologna · Serie A HOME · 26 January 2031. Giacomo Raspadori 83′ winner, Maximilian Beier official assist. FT 1–0 team clean sheet. Napoli Serie A 22P18W3D1L 57pts GF49 GA16 GD+33; all-club 33P27W5D1L GF79GA25; Raspadori 6G3A, Beier 21G25A, Pio32G11A unchanged. UCL 17pts /7 matches unchanged, Italy separate. Next Dynamo Kyiv away UCL 29 Jan.",
+      "unknowns": "Individual save or shot statistics, lineup, substitutions, Bologna shots, xG, present league rank and future Dynamo result. Private Olise terms and Rossetti future intention not public.",
+      "coverage": "Single grounded substantial Bologna match report, 18 paragraphs, 24 bespoke top-level supporter discussions including Bologna perspective, 66 total comments and replies, established recurring voices, no invented public manager or player quotes.",
+      "paragraphs": 18,
+      "comments": {
+        "topLevel": 24,
+        "totalIncludingReplies": 66
+      },
+      "nextFixture": "Dynamo Kyiv away, Champions League, 29 January 2031",
+      "releaseVersion": "203101-bologna-raspadori-83-v1",
+      "press": "No manager public press answers or player interviews. Confidential Rossetti and Olise planning omitted.",
+      "technical": {
+        "sourceCommit": "a983f60550f4973d9d04806ebc9d99378a703059",
+        "compiledCommit": "f16c014875a63ce4ce4e4d753669ffaa630395b3",
+        "editorialGate": "success",
+        "editorialRun": "42749369533",
+        "compactBuild": "success",
+        "compactBrowserTests": "success",
+        "buildRun": "42749369450",
+        "pagesDeployment": "success",
+        "pagesRun": "42749369487",
+        "articles": 719,
+        "results": 149,
+        "seasons": 4,
+        "legacyScriptErrors": 0,
+        "firstPaintLead": "napoli-bologna-one-nil-raspadori-beier-83-jan2031",
+        "club": "33P27W5D1L GF79GA25",
+        "serieA": "22P18W3D1L 57pts GF49GA16 +33",
+        "ucl": "7P5W2D0L 17 points unchanged",
+        "players": "Raspadori6G3A Beier21G25A Pio32G11A; Italy separate",
+        "comments": {
+          "topLevel": 24,
+          "totalIncludingReplies": 66
+        },
+        "commentAudit": "success after build",
+        "visualQA": "Gallery file exists; no independent manual smartphone/desktop image crop or direct live URL visual inspection",
+        "commentEditorialAuditRun": "42749936671",
+        "supporterCommentsAuditRun": "42749937251",
+        "finalEditorialRun": "42749937111",
+        "finalPagesRun": "42749936427",
+        "finalVerifiedCommit": "66f847d20e65b9059cfb2b4a44d2a3e0643b372d"
       }
     }
   ]
