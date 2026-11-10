@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "New source prepared; editorial gate and compact compilation/deployment pending",
+    "status": "Published — editorial gate, compact browser regression and GitHub Pages deployment passed",
     "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
     "match": "Napoli 2–0 Barcelona · Champions League · 22 January 2031",
     "personnel": "Edoardo Rossetti short-term loan in January 2031; receiving club and return date unspecified",
@@ -159,10 +159,29 @@
     "releaseVersion": "203101-barca-rossetti-loan-v1",
     "press": "No public manager press; private plan and Olise terms firewalled.",
     "technical": {
-      "editorialQualityGate": "pending",
-      "compactSnapshot": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "Approved gallery image names selected; independent image/crop review not performed"
+      "editorialQualityGate": "success",
+      "editorialRun": "42747539791",
+      "compactSnapshot": "success",
+      "snapshotRun": "42747539643",
+      "browserRegression": "success",
+      "sourceCommit": "d5affcd19bac2611ca49c4dcb1ff21e12f4d9bc9",
+      "compiledCommit": "df9c96e2f4c32c343efeac8d46c2ca78f4a065ed",
+      "pagesDeployment": "success",
+      "pagesRun": "42747623547",
+      "articles": 718,
+      "results": 148,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
+      "UCL": "7P5W2D0L 17pts 16GF5GA",
+      "allClub": "32P26W5D1L GF78GA25",
+      "serieA": "21P54pts unchanged",
+      "players": "Pio 32G11A, Beier 21G24A, Neves 0G3A, Rossetti 2G0A (now short loan)",
+      "comments": {
+        "topLevel": 79,
+        "totalIncludingReplies": 198
+      },
+      "visualQA": "Approved files exist; manual desktop/mobile image crop and live Pages front-end visual QA not separately performed"
     }
   },
   "previous_newsroom_package": {
@@ -226,6 +245,20 @@
     }
   },
   "release_history": [
+    {
+      "release_version": "203101-barca-rossetti-loan-v1",
+      "match": "Napoli 2–0 Barcelona · Champions League · 22 January 2031",
+      "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
+      "story_ids": [
+        "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
+        "bellandi-barcelona-xg-shots-precision-jan2031",
+        "pio-beier-barcelona-reciprocal-partnership-jan2031",
+        "edoardo-rossetti-short-term-loan-after-sassuolo-brace-jan2031"
+      ],
+      "status": "Published — editorial gate, compact browser regression and GitHub Pages deployment passed",
+      "compiled_commit": "df9c96e2f4c32c343efeac8d46c2ca78f4a065ed",
+      "verified_pages_run": "42747623547"
+    },
     {
       "release_version": "203101-verona-pio-beier-double-v1",
       "phase": "Hellas Verona 1–2 Napoli · Pio 33′ and 69′ both from Beier · three league wins in succession",

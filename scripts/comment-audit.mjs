@@ -76,16 +76,42 @@ const veronaSet=veronaIds.map(([id,minimum])=>{const s=archive.articles.find(x=>
  return s;});
 const veronaTopLevel=veronaSet.reduce((n,s)=>n+s.comments.length,0);
 assert(veronaTopLevel>=54,'Verona originals missing: expected at least 54 bespoke first-level threads');
+// 22 January Barcelona edition and Rossetti short-term loan: new publication guard; preserve January Lecce, Sassuolo and Verona archives above.
+const barcelonaIds=[
+ ['napoli-barcelona-two-nil-beier-pio-ucl-jan2031',24,17],
+ ['bellandi-barcelona-xg-shots-precision-jan2031',18,16],
+ ['pio-beier-barcelona-reciprocal-partnership-jan2031',17,15],
+ ['edoardo-rossetti-short-term-loan-after-sassuolo-brace-jan2031',20,15]
+];
+const barcelonaStories=barcelonaIds.map(([id,minimum,paragraphs])=>{
+ const a=archive.articles.find(x=>x.id===id);
+ assert(a,'Missing January Barcelona/loan story '+id);
+ assert(a.body?.length>=paragraphs,'Barcelona/loan piece too short '+id);
+ assert(a.comments?.length>=minimum,'Barcelona/loan comment threads lost '+id);
+ assert(fs.existsSync(path.join(root,a.image)),'Missing approved image '+a.image);
+ assert(!/manager (supplied|confirmed)|\\$600,000|\\$5\\.9M|\\$17\\.5M|\\$192\\.5M|source screenshot|no keeper confirmed/i.test(a.body.join(' ')),'Editorial or staff-room privacy leak: '+id);
+ return a;
+});
+const barcelonaThreads=barcelonaStories.reduce((n,s)=>n+s.comments.length,0);
+assert(barcelonaThreads>=79,'New Barcelona and Rossetti loan supporter discussions lost');
+const countNested=rows=>rows.reduce((n,r)=>n+1+countNested(r.replies||[]),0);
+assert(barcelonaStories.reduce((n,s)=>n+countNested(s.comments),0)>=198,'New Barcelona and Rossetti loan replies lost');
 const clubSeason=data.statsBySeason?.['2030–31']||[],clubStat=name=>clubSeason.find(r=>r[0]===name)?.slice(1,3);
 for(const [name,g,a] of [
- ['Pio Esposito',31,10],['Maximilian Beier',20,23],
+ ['Pio Esposito',32,11],['Maximilian Beier',21,24],
  ['Nico Paz',1,4],['Mikey Moore',5,6],['João Neves',0,3],['Edoardo Rossetti',2,0]
-])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli club stat after Verona '+name);
-assert(data.season203031?.serieA?.points===54&&data.season203031?.serieA?.played===21,'Wrong Serie A record after Verona');
-assert(data.season203031?.serieA?.position==null,'Do not invent current rank without full rival table');
-assert(data.nextClubFixture?.opponent==='Barcelona','Barcelona should be next club fixture');
-assert(data.latestResult?.[1]==='1–2'&&data.latestResult?.[2]==='Napoli'&&data.latestResult?.[0]==='Hellas Verona','Verona not latest result');
-assert(data.season203031?.competitiveGamesConfirmed===31&&data.season203031?.competitiveGoalsFor===76&&data.season203031?.competitiveGoalsAgainst===25,'Napoli all-club totals wrong after Verona');
+])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli club stats after Barcelona '+name);
+const league=data.season203031?.serieA;
+assert(league?.points===54&&league?.played===21&&league?.goalsFor===48&&league?.goalsAgainst===16,'Serie A changed incorrectly after European victory');
+const euro=data.season203031?.championsLeague;
+assert(euro?.points===17&&euro?.played===7&&euro?.wins===5&&euro?.draws===2&&euro?.losses===0&&euro?.goalsFor===16&&euro?.goalsAgainst===5,'Wrong UCL league phase record after Barcelona');
+assert(euro?.position==null,'Cannot assert current UCL rank without other clubs results');
+assert(data.season203031?.competitiveGamesConfirmed===32&&data.season203031?.competitiveWins===26&&data.season203031?.competitiveGoalsFor===78&&data.season203031?.competitiveGoalsAgainst===25,'Wrong Napoli all-club totals after Barcelona');
+assert(data.nextClubFixture?.opponent==='Bologna','Bologna must be next Napoli fixture');
+assert(data.latestResult?.[0]==='Napoli'&&data.latestResult?.[1]==='2–0'&&data.latestResult?.[2]==='Barcelona','Barcelona 2-0 not latest');
+const bca=data.barcelonaJanuary2031?.statistics;
+assert(bca?.xg?.napoli===1.6&&bca?.xg?.barcelona===1.7&&bca?.shots?.napoli===6&&bca?.shots?.barcelona===6&&bca?.shotsOnTarget?.napoli===5&&bca?.shotsOnTarget?.barcelona===2,'Barcelona match statistics altered');
+assert(data.rossettiShortLoanJan2031?.state==='away on loan'&&String(data.squadPublic?.Midfielders?.find(x=>x[0]==='E. Rossetti')?.[3]).includes('short-term loan'),'Rossetti loan not in squad data');
 
 const lead=html.match(/<article id="heroStory"[\s\S]*?data-article="([^"]+)"/)?.[1];assert(lead===data.hero.articleId&&ids.has(lead),'Static first paint must match compiled data');
 console.log(JSON.stringify({status:'PASS',articles:archive.articles.length,latestLead:lead,topLevelAcrossAllArticles:total,articlesWithoutInlineComments:empty,articlesWithFewerThanTenInlineThreads:underTen,janExpanded:!!data.january2031DiscussionExpansion,decExpanded:!!data.december2030DiscussionExpansion,publicScriptCount:scripts.length}));
