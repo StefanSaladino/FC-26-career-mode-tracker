@@ -97,6 +97,7 @@ assert(barcelonaThreads>=79,'New Barcelona and Rossetti loan supporter discussio
 const countNested=rows=>rows.reduce((n,r)=>n+1+countNested(r.replies||[]),0);
 assert(barcelonaStories.reduce((n,s)=>n+countNested(s.comments),0)>=198,'New Barcelona and Rossetti loan replies lost');
 // Current edition: Bologna 26 Jan. Preserve Lecce, Sassuolo, Verona, Barcelona original discussions above.
+// Run this complete Bologna guard after the compact site generator commits news-archive.json; source-only pushes can precede that artifact.
 const bolognaId='napoli-bologna-one-nil-raspadori-beier-83-jan2031';
 const bologna=archive.articles.find(a=>a.id===bolognaId);
 assert(bologna,'Bologna report missing');
