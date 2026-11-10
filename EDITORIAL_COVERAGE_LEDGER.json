@@ -103,7 +103,7 @@
       "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews). 22 January: Elena De Luca revisits Pio/Beier alternating goal and assist roles in the 2–0 Champions League win over Barcelona; Lorenzo Ferri covers Rossetti's confirmed short-term loan as a follow-up to his first Napoli brace, without fabricated interviews or a public manager pledge."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–0 Barcelona, 22 January 2031 Champions League HOME. Beier 13′ from Pio, Pio 36′ from Beier. XG Barcelona 1.7 Napoli 1.6, shots 6–6, on-target Napoli 5–2. Napoli UCL 7P 5W2D0L 17 points GF16 GA5 +11. All-club 32P 26W5D1L GF78GA25; Serie A unchanged 21P54pts. Pio32G11A, Beier21G24A. Rossetti age19 short-term loan confirmed after Sassuolo first brace; destination unspecified, manager privately intends to retain him at Napoli after loan, NOT a public statement.",
+  "latest_confirmed_match": "Napoli 1–0 Bologna · Serie A HOME · 26 January 2031. Giacomo Raspadori 83′ winner, Maximilian Beier official assist. FT 1–0 team clean sheet. Napoli Serie A 22P18W3D1L 57pts GF49 GA16 GD+33; all-club 33P27W5D1L GF79GA25; Raspadori 6G3A, Beier 21G25A, Pio32G11A unchanged. UCL 17pts /7 matches unchanged, Italy separate. Next Dynamo Kyiv away UCL 29 Jan.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +118,41 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "New Bologna source prepared; editorial quality, compact build and deployment pending",
+    "phase": "Napoli 1–0 Bologna · Giacomo Raspadori 83′ from Beier · Serie A 57 points / 22",
+    "match": "Napoli 1–0 Bologna · Serie A · 26 January 2031",
+    "stories": [
+      "napoli-bologna-one-nil-raspadori-beier-83-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale"
+    ],
+    "source": [
+      "stories-napoli-bologna-raspadori-83-jan2031.js",
+      "site-visible-bologna-raspadori-83-jan2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp"
+    ],
+    "knownFacts": "Napoli 1–0 Bologna · Serie A HOME · 26 January 2031. Giacomo Raspadori 83′ winner, Maximilian Beier official assist. FT 1–0 team clean sheet. Napoli Serie A 22P18W3D1L 57pts GF49 GA16 GD+33; all-club 33P27W5D1L GF79GA25; Raspadori 6G3A, Beier 21G25A, Pio32G11A unchanged. UCL 17pts /7 matches unchanged, Italy separate. Next Dynamo Kyiv away UCL 29 Jan.",
+    "unknowns": "Individual save or shot statistics, lineup, substitutions, Bologna shots, xG, present league rank and future Dynamo result. Private Olise terms and Rossetti future intention not public.",
+    "coverage": "Single grounded substantial Bologna match report, 18 paragraphs, 24 bespoke top-level supporter discussions including Bologna perspective, 66 total comments and replies, established recurring voices, no invented public manager or player quotes.",
+    "paragraphs": 18,
+    "comments": {
+      "topLevel": 24,
+      "totalIncludingReplies": 66
+    },
+    "nextFixture": "Dynamo Kyiv away, Champions League, 29 January 2031",
+    "releaseVersion": "203101-bologna-raspadori-83-v1",
+    "press": "No manager public press answers or player interviews. Confidential Rossetti and Olise planning omitted.",
+    "technical": {
+      "editorialQualityGate": "pending",
+      "compactSnapshot": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Approved gallery image path known; independent manual mobile/desktop crop not performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser regression and GitHub Pages deployment passed",
     "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
     "match": "Napoli 2–0 Barcelona · Champions League · 22 January 2031",
@@ -182,66 +217,6 @@
         "totalIncludingReplies": 198
       },
       "visualQA": "Approved files exist; manual desktop/mobile image crop and live Pages front-end visual QA not separately performed"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact snapshot/browser tests and GitHub Pages deployment passed",
-    "phase": "Hellas Verona 1–2 Napoli · Pio 33′ and 69′ both from Beier · three league wins in succession",
-    "match": "Hellas Verona 1–2 Napoli · Serie A · 18 January 2031",
-    "stories": [
-      "verona-one-two-napoli-pio-beier-comeback-jan2031",
-      "pio-beier-two-goals-two-assists-verona-jan2031",
-      "napoli-54-points-early-deficits-barcelona-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera"
-    ],
-    "source": [
-      "stories-verona-pio-brace-comeback-jan2031.js",
-      "stories-pio-beier-verona-partnership-jan2031.js",
-      "stories-napoli-54-points-verona-barcelona-jan2031.js",
-      "site-visible-verona-pio-double-jan2031.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "knownFacts": "Hellas Verona 1–2 Napoli · Serie A 18 Jan 2031 away (existing calendar). Isaac Verona 27′; Pio Esposito 33′ and 69′ both officially assisted by Maximilian Beier; FT 1–2. Napoli 21P17W3D1L 54pts GF48 GA16 +32; club all competitions 31P25W5D1L GF76 GA25; Pio31G10A, Beier20G23A, rest unchanged, Italy separate.",
-    "unknowns": "Current Serie A rank after rival results, Isaac first name/assist, goalkeeper, lineups, xG, substitutions. Olise private contract talks not material for journalism.",
-    "coverage": "Three distinct independent longform articles (match, star partnership, title-race pattern) 44 paragraphs, 54 unique top-level bespoke supporter discussions, 137 comments/replies. No invented manager or player quotes, no private contract leak.",
-    "comments": {
-      "topLevel": 54,
-      "totalIncludingReplies": 137
-    },
-    "paragraphs": 44,
-    "nextFixture": "Barcelona home Champions League 22 January 2031 (existing calendar)",
-    "releaseVersion": "203101-verona-pio-beier-double-v1",
-    "press": "No fabricated public manager interview or quotes. No fictional player interview.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "editorialRun": "42711842813",
-      "compactSnapshot": "success",
-      "snapshotBrowserTests": "success",
-      "snapshotRun": "42711842947",
-      "sourceCommit": "ed0b77b3c507485799b7f023ad6045671003af1c",
-      "compiledCommit": "d4fd3672d6a37961d2fe1eb2d3746915d1f976fa",
-      "pagesDeployment": "success",
-      "pagesRun": "42711931174",
-      "articles": 714,
-      "results": 147,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "verona-one-two-napoli-pio-beier-comeback-jan2031",
-      "clubScope": "31P25W5D1L GF76GA25 · Serie A 21P54pts",
-      "statsAudit": "Pio31G10A Beier20G23A Rossetti2G0A Neves0G3A; Italy separate",
-      "comments": {
-        "topLevel": 54,
-        "totalIncludingReplies": 137
-      },
-      "visualQA": "Approved image paths verified; independent desktop/mobile crop and direct public URL visual inspection not performed"
     }
   },
   "release_history": [
