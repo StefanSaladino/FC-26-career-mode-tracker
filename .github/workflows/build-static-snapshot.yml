@@ -36,5 +36,17 @@ jobs:
           git add index.html snapshot-data.js news-archive.json snapshot-build-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Compile compact season room edition [skip ci]"
-            git push origin HEAD:main
+            # Other editorial commits may reach main while Playwright compiles.
+            # Rebase the generated-only commit onto the latest main before publishing.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "Unable to publish compiled site after three push attempts" >&2
+                exit 1
+              fi
+            done
           fi
