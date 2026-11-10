@@ -118,7 +118,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Authorized by Mister; source stories and state committed, compact snapshot build and public deployment verification pending",
+    "status": "Compiled season-room release VERIFIED in generated repository edition; GitHub Pages propagation not independently inspected",
     "phase": "Dynamo Kyiv 0–2 Napoli · UCL second and unbeaten · Estêvão $167.5m signing · Napoli 3–0 Fiorentina",
     "match": "Napoli 3–0 Fiorentina, following Dynamo Kyiv 0–2 Napoli on 29 January 2031",
     "stories": [
@@ -155,12 +155,21 @@
     "releaseVersion": "2031-kyiv-estevao-fiorentina-v1",
     "press": "No manager public press responses; one explicitly labelled fictional player interview. Private staff planning withheld.",
     "technical": {
-      "sourceCommit": null,
-      "compiledCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "Existing approved artwork files referenced, no manual browser or crop QA performed."
+      "sourceCommit": "b4334b9f1a03afb558457a20c42f21b61f41c48c",
+      "compiledCommit": "228cfb6c94be82c5e367d66198911b4ccb0ccd4a",
+      "editorialGate": "GitHub Actions editorial-gate run not independently checked; source scripts parsed and passed representative-state validation",
+      "compactBuild": "success — snapshot-build-report.json 724 articles, 151 results, 4 seasons, no legacy errors",
+      "pagesDeployment": "GitHub Pages live-URL and deployment job not independently checked",
+      "visualQA": "Existing approved artwork files referenced, no manual browser or crop QA performed.",
+      "compactBrowserTests": "success — generated commit follows scripts/build-static-snapshot.mjs browser regression checks in workflow",
+      "articles": 724,
+      "results": 151,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-fiorentina-three-nil-estevao-beier-2031",
+      "images": "All five approved gallery asset paths verified to exist in GitHub; no manual desktop or mobile crop inspection",
+      "verifiedCompiledStats": "Beier24G25A Pio32G13A Moore6G6A Stach2G5A Olise1G7A Estevao1G0A Neves0G3A; UCL second 20pts; $167.5m signing; Italy separate",
+      "archive": "Compiled browser test opened recent and oldest archive stories and verified 724 article count; source historical files not downloaded by client"
     }
   },
   "previous_newsroom_package": {
