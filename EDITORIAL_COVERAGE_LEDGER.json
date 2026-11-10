@@ -123,7 +123,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Manager authorised; source story and current-state scripts committed; compact site build and Pages deployment verification pending",
+    "status": "Published — editorial gate SUCCESS, compact build and mobile browser checks SUCCESS, GitHub Pages deployment SUCCESS",
     "phase": "Parma 1–1 rainy home draw · Sampdoria 1–2 Napoli away win · Napoli seven clear on 64 points after 25 · Mikey Moore 7G7A profile",
     "match": "Sampdoria 1–2 Napoli on 15 February 2031, away Serie A; preceding 9 Feb 2031 home Serie A Napoli 1–1 Parma",
     "stories": [
@@ -158,12 +158,23 @@
     "releaseVersion": "2031-sampdoria-title-feb-v1",
     "press": "Manager authorises stories but not a press conference; no public manager quotes invented. February Moore profile contains no invented player dialogue.",
     "technical": {
-      "sourceCommit": null,
-      "compiledCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
-      "visualQA": "All four approved-gallery asset paths exist. Manual rendered desktop/mobile crops not examined."
+      "sourceCommit": "3f03058de153e9c473664b73761d26547fd9b703",
+      "compiledCommit": "d279d7dca9594da1fe2c852a7562d13cb1a791f6",
+      "editorialGate": "success",
+      "compactBuild": "success",
+      "pagesDeployment": "success",
+      "visualQA": "All four approved-gallery image files verified present. Automated browser checks passed; separate manual screenshot/crop QA and direct independent live CDN inspection not performed.",
+      "editorialRun": "42925520503",
+      "buildRun": "42925520541",
+      "compactBrowserTests": "success",
+      "pagesRun": "42925605293",
+      "articles": 733,
+      "results": 154,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "lead": "sampdoria-napoli-beier-pio-01xg-feb2031",
+      "checked": "Four story IDs in compact snapshot; static first paint agrees with Sampdoria 2–1 lead; Parma 1–1 and Sampdoria 2–1 in results, 154 total. Current standings Napoli 25P64pts, Milano FC 57, Roma56, Lombardia54, Juventus51, Latium43. Beier28G28A Pio34G15A Moore7G7A. Next Bergamo Calcio home 22 Feb. Olise remains active Napoli until $197.9m Spurs move effective summer. Production requests only compact JS assets.",
+      "buildRepair": "An intermediate build completed Playwright but could not push generated files because newer editorial commits had advanced main. Workflow amended to fetch/rebase generated-only commit before pushing, and final run 42925520541 passed all steps, yielding compiled commit d279d7... and Pages success 42925605293."
     }
   },
   "previous_newsroom_package": {
@@ -556,7 +567,14 @@
     "pendingLead": null,
     "most_recent_source_fixture": "Napoli 4–1 Lecce · 48 points /19 league games",
     "pendingCorrection": null,
-    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183"
+    "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183",
+    "latestRelease": "February 2031 Parma/Sampdoria/64pts/Moore",
+    "compiledCommit": "d279d7dca9594da1fe2c852a7562d13cb1a791f6",
+    "articles": 733,
+    "results": 154,
+    "buildRun": "42925520541",
+    "pagesRun": "42925605293",
+    "success": true
   },
   "latest_calendar_update": {
     "status": "Verified compact public edition built and GitHub Pages deployed",
