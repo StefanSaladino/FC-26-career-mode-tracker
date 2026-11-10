@@ -100,10 +100,10 @@
     {
       "month": "2031-01",
       "status": "covered",
-      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews). 22 January: Elena De Luca revisits Pio/Beier alternating goal and assist roles in the 2–0 Champions League win over Barcelona; Lorenzo Ferri covers Rossetti's confirmed short-term loan as a follow-up to his first Napoli brace, without fabricated interviews or a public manager pledge."
+      "note": "January: Neves broken-toe return character-led profile plus Elena De Luca's explicitly labelled fictional in-universe Raspadori interview after Lazio 1–1, relating his Pescara cup brace and two Supercoppa semifinal assists. No manager press quotes. 12 January: Elena De Luca adds a dedicated character-led Beier 20G20A feature after his 1G2A against Lecce, with no invented player dialogue or managerial quotes. 15 January: Lorenzo Ferri's Rossetti first Napoli brace character-led profile (19yo, two goals against Sassuolo) and Elena De Luca's João Neves two-assist return analysis, both without fabricated interview dialogue. 18 January: Elena De Luca follows Pio's 31 club goals and Beier's 23 assists in a character-led relationship analysis after their 2–1 away comeback against Verona (no invented interviews). 22 January: Elena De Luca revisits Pio/Beier alternating goal and assist roles in the 2–0 Champions League win over Barcelona; Lorenzo Ferri covers Rossetti's confirmed short-term loan as a follow-up to his first Napoli brace, without fabricated interviews or a public manager pledge. Following Estêvão's $167.5m arrival and 49′ Fiorentina goal, Elena De Luca supplies a clearly labelled fictional in-universe player Q&A; it contains no actual player testimony and no manager quote. Release approved as part of Kyiv + Estêvão + Fiorentina package."
     }
   ],
-  "latest_confirmed_match": "Napoli 1–0 Bologna · Serie A HOME · 26 January 2031. Giacomo Raspadori 83′ winner, Maximilian Beier official assist. FT 1–0 team clean sheet. Napoli Serie A 22P18W3D1L 57pts GF49 GA16 GD+33; all-club 33P27W5D1L GF79GA25; Raspadori 6G3A, Beier 21G25A, Pio32G11A unchanged. UCL 17pts /7 matches unchanged, Italy separate. Next Dynamo Kyiv away UCL 29 Jan.",
+  "latest_confirmed_match": "Napoli 3–0 Fiorentina · after Dynamo Kyiv 0–2 Napoli (29 January 2031). Estêvão 49′ (Pio official assist, halftime substitute), Beier 55′ (Olise assist) and 70′ (Pio assist; Moore buildup run). 3–0 FT and team clean sheet. Fiorentina exact date, competition and venue not yet confirmed. Dynamo: Moore 56′ (Neves shot saved; no official Neves assist), Beier 60′ (Stach official assist; substitute). Napoli UCL 2nd unbeaten: 8P6W2D0L 20pts 18GF5GA +13, direct R16. Estêvão completed $167.5m signing (NOT euros), $270k/week, $2m bonus, five years, age 23 89 OVR Important.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -118,6 +118,52 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Authorized by Mister; source stories and state committed, compact snapshot build and public deployment verification pending",
+    "phase": "Dynamo Kyiv 0–2 Napoli · UCL second and unbeaten · Estêvão $167.5m signing · Napoli 3–0 Fiorentina",
+    "match": "Napoli 3–0 Fiorentina, following Dynamo Kyiv 0–2 Napoli on 29 January 2031",
+    "stories": [
+      "napoli-fiorentina-three-nil-estevao-beier-2031",
+      "estevao-napoli-transfer-1675m-jan2031",
+      "estevao-first-napoli-goal-fictional-interview-2031",
+      "dynamo-kyiv-napoli-two-nil-jan2031",
+      "napoli-ucl-second-unbeaten-jan2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Lorenzo Ferri · European desk",
+      "Marco Bellini · Il Calcio Sera"
+    ],
+    "source": [
+      "stories-kyiv-estevao-fiorentina-2031.js",
+      "site-visible-kyiv-estevao-fiorentina-2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-napoli-home-crowd.webp",
+      "assets/story-european-team-celebration.webp",
+      "assets/story-champions-league-stakes.webp"
+    ],
+    "knownFacts": "Napoli 3–0 Fiorentina · after Dynamo Kyiv 0–2 Napoli (29 January 2031). Estêvão 49′ (Pio official assist, halftime substitute), Beier 55′ (Olise assist) and 70′ (Pio assist; Moore buildup run). 3–0 FT and team clean sheet. Fiorentina exact date, competition and venue not yet confirmed. Dynamo: Moore 56′ (Neves shot saved; no official Neves assist), Beier 60′ (Stach official assist; substitute). Napoli UCL 2nd unbeaten: 8P6W2D0L 20pts 18GF5GA +13, direct R16. Estêvão completed $167.5m signing (NOT euros), $270k/week, $2m bonus, five years, age 23 89 OVR Important.",
+    "unknowns": "Exact Fiorentina competition/date/venue and next club fixture not established; no league table promotion. No Neves official assist on Moore goal. Olise planned summer sale and private negotiations excluded from public reporting.",
+    "coverage": "Five independent, substantial features; Giulia Romano on Fiorentina; Elena De Luca on $167.5m signing and explicitly fictional dramatized Estêvão interview; Lorenzo Ferri Kyiv match; Marco Bellini UCL final table. 70 substantial body paragraphs, 43 original top-level discussion threads with multi-person replies. No fabricated manager press.",
+    "paragraphs": 70,
+    "comments": {
+      "topLevel": 43
+    },
+    "releaseVersion": "2031-kyiv-estevao-fiorentina-v1",
+    "press": "No manager public press responses; one explicitly labelled fictional player interview. Private staff planning withheld.",
+    "technical": {
+      "sourceCommit": null,
+      "compiledCommit": null,
+      "editorialGate": "pending",
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "visualQA": "Existing approved artwork files referenced, no manual browser or crop QA performed."
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact browser tests, both comment audits, and final GitHub Pages deployment all successful",
     "phase": "Napoli 1–0 Bologna · Giacomo Raspadori 83′ from Beier · Serie A 57 points / 22",
     "match": "Napoli 1–0 Bologna · Serie A · 26 January 2031",
@@ -175,73 +221,6 @@
       "finalEditorialRun": "42749937111",
       "finalPagesRun": "42749936427",
       "finalVerifiedCommit": "66f847d20e65b9059cfb2b4a44d2a3e0643b372d"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact browser regression and GitHub Pages deployment passed",
-    "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
-    "match": "Napoli 2–0 Barcelona · Champions League · 22 January 2031",
-    "personnel": "Edoardo Rossetti short-term loan in January 2031; receiving club and return date unspecified",
-    "stories": [
-      "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
-      "bellandi-barcelona-xg-shots-precision-jan2031",
-      "pio-beier-barcelona-reciprocal-partnership-jan2031",
-      "edoardo-rossetti-short-term-loan-after-sassuolo-brace-jan2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Matteo Bellandi · Linea Calcio TV",
-      "Elena De Luca · Player desk",
-      "Lorenzo Ferri · Calcio Giovane"
-    ],
-    "source": [
-      "stories-napoli-barcelona-two-nil-jan2031.js",
-      "stories-bellandi-barcelona-shots-xg-jan2031.js",
-      "stories-pio-beier-reciprocal-barcelona-jan2031.js",
-      "stories-rossetti-short-term-loan-jan2031.js",
-      "site-visible-barcelona-rossetti-loan-jan2031.js"
-    ],
-    "gallery": [
-      "assets/story-european-team-celebration.webp",
-      "assets/story-maradona-tifo-night.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-napoli-shirt-identity.webp"
-    ],
-    "knownFacts": "Napoli 2–0 Barcelona, 22 January 2031 Champions League HOME. Beier 13′ from Pio, Pio 36′ from Beier. XG Barcelona 1.7 Napoli 1.6, shots 6–6, on-target Napoli 5–2. Napoli UCL 7P 5W2D0L 17 points GF16 GA5 +11. All-club 32P 26W5D1L GF78GA25; Serie A unchanged 21P54pts. Pio32G11A, Beier21G24A. Rossetti age19 short-term loan confirmed after Sassuolo first brace; destination unspecified, manager privately intends to retain him at Napoli after loan, NOT a public statement.",
-    "unknowns": "Current UCL ranking pending other games; goalkeeper, other match events, Barcelona shooters, loan destination and precise return date. Staff-only plan to retain Rossetti after loan; Olise negotiations private.",
-    "coverage": "Four original independently bylined stories: European match, statistical opinion, Pio/Beier player feature, Rossetti short loan. 63 paragraphs, 79 top-level discussions, 198 comments/replies. No manager/public player quotes or invented loan club.",
-    "comments": {
-      "topLevel": 79,
-      "totalIncludingReplies": 198
-    },
-    "paragraphs": 63,
-    "nextFixture": "Bologna home 26 January 2031; Dynamo Kyiv away UCL 29 January 2031",
-    "releaseVersion": "203101-barca-rossetti-loan-v1",
-    "press": "No public manager press; private plan and Olise terms firewalled.",
-    "technical": {
-      "editorialQualityGate": "success",
-      "editorialRun": "42747539791",
-      "compactSnapshot": "success",
-      "snapshotRun": "42747539643",
-      "browserRegression": "success",
-      "sourceCommit": "d5affcd19bac2611ca49c4dcb1ff21e12f4d9bc9",
-      "compiledCommit": "df9c96e2f4c32c343efeac8d46c2ca78f4a065ed",
-      "pagesDeployment": "success",
-      "pagesRun": "42747623547",
-      "articles": 718,
-      "results": 148,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
-      "UCL": "7P5W2D0L 17pts 16GF5GA",
-      "allClub": "32P26W5D1L GF78GA25",
-      "serieA": "21P54pts unchanged",
-      "players": "Pio 32G11A, Beier 21G24A, Neves 0G3A, Rossetti 2G0A (now short loan)",
-      "comments": {
-        "topLevel": 79,
-        "totalIncludingReplies": 198
-      },
-      "visualQA": "Approved files exist; manual desktop/mobile image crop and live Pages front-end visual QA not separately performed"
     }
   },
   "release_history": [
@@ -759,5 +738,74 @@
       "oldAuditArchived": true,
       "manualVisualQA": "not performed"
     }
-  }
+  },
+  "archived_previous_newsroom_packages": [
+    {
+      "status": "Published — editorial gate, compact browser regression and GitHub Pages deployment passed",
+      "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
+      "match": "Napoli 2–0 Barcelona · Champions League · 22 January 2031",
+      "personnel": "Edoardo Rossetti short-term loan in January 2031; receiving club and return date unspecified",
+      "stories": [
+        "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
+        "bellandi-barcelona-xg-shots-precision-jan2031",
+        "pio-beier-barcelona-reciprocal-partnership-jan2031",
+        "edoardo-rossetti-short-term-loan-after-sassuolo-brace-jan2031"
+      ],
+      "bylines": [
+        "Giulia Romano · Radio Napoli Centrale",
+        "Matteo Bellandi · Linea Calcio TV",
+        "Elena De Luca · Player desk",
+        "Lorenzo Ferri · Calcio Giovane"
+      ],
+      "source": [
+        "stories-napoli-barcelona-two-nil-jan2031.js",
+        "stories-bellandi-barcelona-shots-xg-jan2031.js",
+        "stories-pio-beier-reciprocal-barcelona-jan2031.js",
+        "stories-rossetti-short-term-loan-jan2031.js",
+        "site-visible-barcelona-rossetti-loan-jan2031.js"
+      ],
+      "gallery": [
+        "assets/story-european-team-celebration.webp",
+        "assets/story-maradona-tifo-night.webp",
+        "assets/story-napoli-key-players-huddle.webp",
+        "assets/story-napoli-shirt-identity.webp"
+      ],
+      "knownFacts": "Napoli 2–0 Barcelona, 22 January 2031 Champions League HOME. Beier 13′ from Pio, Pio 36′ from Beier. XG Barcelona 1.7 Napoli 1.6, shots 6–6, on-target Napoli 5–2. Napoli UCL 7P 5W2D0L 17 points GF16 GA5 +11. All-club 32P 26W5D1L GF78GA25; Serie A unchanged 21P54pts. Pio32G11A, Beier21G24A. Rossetti age19 short-term loan confirmed after Sassuolo first brace; destination unspecified, manager privately intends to retain him at Napoli after loan, NOT a public statement.",
+      "unknowns": "Current UCL ranking pending other games; goalkeeper, other match events, Barcelona shooters, loan destination and precise return date. Staff-only plan to retain Rossetti after loan; Olise negotiations private.",
+      "coverage": "Four original independently bylined stories: European match, statistical opinion, Pio/Beier player feature, Rossetti short loan. 63 paragraphs, 79 top-level discussions, 198 comments/replies. No manager/public player quotes or invented loan club.",
+      "comments": {
+        "topLevel": 79,
+        "totalIncludingReplies": 198
+      },
+      "paragraphs": 63,
+      "nextFixture": "Bologna home 26 January 2031; Dynamo Kyiv away UCL 29 January 2031",
+      "releaseVersion": "203101-barca-rossetti-loan-v1",
+      "press": "No public manager press; private plan and Olise terms firewalled.",
+      "technical": {
+        "editorialQualityGate": "success",
+        "editorialRun": "42747539791",
+        "compactSnapshot": "success",
+        "snapshotRun": "42747539643",
+        "browserRegression": "success",
+        "sourceCommit": "d5affcd19bac2611ca49c4dcb1ff21e12f4d9bc9",
+        "compiledCommit": "df9c96e2f4c32c343efeac8d46c2ca78f4a065ed",
+        "pagesDeployment": "success",
+        "pagesRun": "42747623547",
+        "articles": 718,
+        "results": 148,
+        "seasons": 4,
+        "legacyScriptErrors": 0,
+        "firstPaintLead": "napoli-barcelona-two-nil-beier-pio-ucl-jan2031",
+        "UCL": "7P5W2D0L 17pts 16GF5GA",
+        "allClub": "32P26W5D1L GF78GA25",
+        "serieA": "21P54pts unchanged",
+        "players": "Pio 32G11A, Beier 21G24A, Neves 0G3A, Rossetti 2G0A (now short loan)",
+        "comments": {
+          "topLevel": 79,
+          "totalIncludingReplies": 198
+        },
+        "visualQA": "Approved files exist; manual desktop/mobile image crop and live Pages front-end visual QA not separately performed"
+      }
+    }
+  ]
 }
