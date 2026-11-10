@@ -662,7 +662,7 @@
     "scope": "Only calendar, match classification, current next-fixture display, league-specific record; do not re-add Fiorentina to club total/goal stats. Serie A rivals standings and new cup round unknown. No UCL fixtures shown. Preserve all five previously published Olise/Torino reports and public homepage lead.",
     "source": "site-visible-feb-mar-calendar-2031.js",
     "sourceCommit": "0e9e184fbf3263afbb0ed1efd99701842aacd6f9",
-    "buildCommit": "c0bca9b0efc2c3b6be1c29b6c5cdfa350fc52db4",
+    "buildCommit": "c0bca9b0efc2d9371521a926c251b48af12e7a1d",
     "pagesDeployment": {
       "status": "success",
       "runId": 42919875667
