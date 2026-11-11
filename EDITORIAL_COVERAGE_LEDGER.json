@@ -138,6 +138,48 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Manager approved and published to authoring source; GitHub compact build and Pages verification pending",
+    "phase": "Barcelona 2–1 Napoli UCL R16 away first leg, Beier 81′ Moore assist; Roma away March16 next",
+    "match": "FC Barcelona 2–1 Napoli · UCL Round of 16 first leg · Away · 11 March 2031",
+    "stories": [
+      "barcelona-napoli-two-one-beier-moore-r16-first-leg-mar2031",
+      "moore-beier-81st-minute-lifeline-barcelona-mar2031",
+      "roma-away-between-barcelona-legs-preview-mar2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Lorenzo Ferri · European desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "source": [
+      "stories-barcelona-r16-beier-roma-mar2031.js",
+      "site-visible-barcelona-first-leg-roma-mar2031.js"
+    ],
+    "knownFacts": "Endrick 22 Barcelona, Pedri 51 Barcelona, HT1–0, Beier 81 from Moore, FT Barcelona 2–1 Napoli; aggregate 2–1, Napoli home return Mar19. Roma away Mar16 next. Kayode four-week injury from Milan Mar5.",
+    "unknowns": "Specific buildup for Barcelona goals, goalkeeper, lineups, current March league standings, March2 Pescara result, Inter 2–2 date and competition, Roma result, Barcelona return result.",
+    "coverage": "Three substantial independently voiced match, Beier/Moore second-leg analysis, Roma preview/opinion. Reporter-eye and supporter continuity reviewed; no manager/player quotes or staff-room leak.",
+    "paragraphs": 40,
+    "comments": {
+      "topLevel": 26,
+      "includingReplies": 67
+    },
+    "releaseVersion": "2031-barcelona-r16-first-leg-mar11-v1",
+    "technical": {
+      "sourceCommit": null,
+      "editorialGate": "pending",
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "articlesExpected": 751,
+      "resultsExpected": 159,
+      "visualQA": "All three approved gallery paths verified in Git tree; direct visual crop audit not independently performed"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Manager authorized and source updated; compact compilation/Pages to verify",
     "phase": "Napoli 3–0 Venezia home Serie A Mar8, Pio brace and Beier 1G1A, Barcelona away next",
     "match": "Napoli 3–0 Venezia · Serie A · Home · 8 Mar 2031",
@@ -171,64 +213,6 @@
       "articlesExpected": 748,
       "resultsExpected": 158,
       "visualQA": "Approved gallery asset in existing guide; no manual screenshot QA"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Five stories and compact front page committed on main. GitHub Actions validation and GitHub Pages deployment queued; deployment not verified.",
-    "phase": "After March5 Milan 0-2 Napoli Coppa semifinal FIRST leg, Peacock clean sheet, Kayode injured out four weeks, Rossetti 81 age19 vs Mancini 77 age22 and Pio-Beier second-half substitute combination",
-    "match": "Milano FC 0–2 Napoli · Coppa Italia semifinal first leg · away · 5 March 2031",
-    "stories": [
-      "milan-napoli-coppa-semi-first-leg-two-nil-peacock-mar2031",
-      "peacock-milan-clean-sheet-keeper-feature-mar2031",
-      "kayode-injury-four-weeks-milan-barcelona-mar2031",
-      "rossetti-81-mancini-77-italy-napoli-development-mar2031",
-      "pio-beier-substitutes-milan-semi-impact-mar2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Lorenzo Ferri · European desk",
-      "Elena De Luca · Player desk",
-      "Lorenzo Ferri · Tactical desk"
-    ],
-    "source": [
-      "stories-milan-coppa-peacock-kayode-rossetti-mar2031.js",
-      "site-visible-milan-coppa-peacock-kayode-rossetti-mar2031.js"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-coaches-squad-tactics-session.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-sandro-beier-guidance.webp"
-    ],
-    "knownFacts": "Milan 0–2 Napoli Mar5 Coppa Italia semifinal first leg AWAY. 27′ Michael Olise shot blocked, ball bounced to Giacomo Raspadori who scored rebound, no official assist. 79′ second-half substitutes Pio Esposito played Maximilian Beier through, Beier ran and scored, Pio's official stat credit was not separately specified by Mister. Peacock outstanding clean sheet (no save count given). Kayode went down injured and was withdrawn, post-match prognosis four weeks. Rossetti progresses to 81 OVR age19 and Mancini stalls at 77 OVR age22. Napoli carry 2-0 lead into still-unplayed cup semifinal second leg, date unannounced.",
-    "unknowns": "Milan semifinal second-leg date and venue/leg-format specifics other than two-leg confirmation, Kayode injury diagnosis and exact return date, Milan first leg Peacock save total, Pio credited official game assist vs Milan, Inter fixture date and competition, Pescara March2 result, new Serie A standings. Do not invent any. No manager press responses supplied.",
-    "coverage": "Five original substantial independent newsroom pieces: Milan 0-2 Cup semifinal first-leg match report; Peacock character-led goalkeeper feature; Kayode four-week injury and defensive depth analysis; Elena De Luca Rossetti/Mancini 81vs77 Italian prospect development character feature; tactical coverage of Beier/Pio 79′ winner as second-half substitutes. Reporter-eye pass removes internal-source prose, no invented manager or player quotes; established supporter threads including rival Milan perspective and satirical SaladinoOutNow.",
-    "paragraphs": 76,
-    "comments": {
-      "topLevel": 42,
-      "includingReplies": 120
-    },
-    "releaseVersion": "2031-milan-coppa-peacock-mar-v1",
-    "press": "Mister explicitly authorised stories, not manager press. No manager quotes, no staged unlabelled player dialogue or manufactured interviews.",
-    "technical": {
-      "sourceCommit": "43e5c2a7e2738c5cf9d83da090f4ee993a39de19",
-      "compiledCommit": null,
-      "editorialGate": "queued",
-      "compactBuild": "queued",
-      "pagesDeployment": "queued",
-      "articlesExpected": 747,
-      "resultsExpected": 157,
-      "visualQA": "Five approved image asset paths verified on GitHub; separate manual rendered crop inspection not yet performed. Automated production browser tests to verify once build completes.",
-      "manualCompactCommit": "43e5c2a7e2738c5cf9d83da090f4ee993a39de19",
-      "compactSnapshotInMain": true,
-      "preloadedRecentArticles": 5,
-      "oldLazyArchiveArticles": 742,
-      "runtimeMergedArticles": 747,
-      "results": 157,
-      "automatedBrowserQA": "not run for this edition",
-      "evidence": "Combined 747 stories = 5 recent items in compact snapshot + 742 in old lazy archive. GitHub Actions has not yet completed a full rebuild, and no successful Pages deployment for this edition is recorded."
     }
   },
   "release_history": [
@@ -798,7 +782,9 @@
     },
     "next": "Roma away March16 Serie A",
     "publicationStatus": "not authorized; public site still Venezia edition",
-    "privateDecisionContinuity": "Rossetti no-sale policy, $65m valuation and $200m current transfer budget remain unchanged"
+    "privateDecisionContinuity": "Rossetti no-sale policy, $65m valuation and $200m current transfer budget remain unchanged",
+    "publicationAuthorized": true,
+    "newStatus": "Superseded by the Mister authorizing three newsroom reports March11; public Roma preview before match only"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -926,6 +912,64 @@
     }
   },
   "archived_previous_newsroom_packages": [
+    {
+      "status": "Five stories and compact front page committed on main. GitHub Actions validation and GitHub Pages deployment queued; deployment not verified.",
+      "phase": "After March5 Milan 0-2 Napoli Coppa semifinal FIRST leg, Peacock clean sheet, Kayode injured out four weeks, Rossetti 81 age19 vs Mancini 77 age22 and Pio-Beier second-half substitute combination",
+      "match": "Milano FC 0–2 Napoli · Coppa Italia semifinal first leg · away · 5 March 2031",
+      "stories": [
+        "milan-napoli-coppa-semi-first-leg-two-nil-peacock-mar2031",
+        "peacock-milan-clean-sheet-keeper-feature-mar2031",
+        "kayode-injury-four-weeks-milan-barcelona-mar2031",
+        "rossetti-81-mancini-77-italy-napoli-development-mar2031",
+        "pio-beier-substitutes-milan-semi-impact-mar2031"
+      ],
+      "bylines": [
+        "Giulia Romano · Radio Napoli Centrale",
+        "Marco Bellini · Il Calcio Sera",
+        "Lorenzo Ferri · European desk",
+        "Elena De Luca · Player desk",
+        "Lorenzo Ferri · Tactical desk"
+      ],
+      "source": [
+        "stories-milan-coppa-peacock-kayode-rossetti-mar2031.js",
+        "site-visible-milan-coppa-peacock-kayode-rossetti-mar2031.js"
+      ],
+      "gallery": [
+        "assets/story-goal-celebration.webp",
+        "assets/story-napoli-key-players-huddle.webp",
+        "assets/story-coaches-squad-tactics-session.webp",
+        "assets/story-napoli-shirt-identity.webp",
+        "assets/story-sandro-beier-guidance.webp"
+      ],
+      "knownFacts": "Milan 0–2 Napoli Mar5 Coppa Italia semifinal first leg AWAY. 27′ Michael Olise shot blocked, ball bounced to Giacomo Raspadori who scored rebound, no official assist. 79′ second-half substitutes Pio Esposito played Maximilian Beier through, Beier ran and scored, Pio's official stat credit was not separately specified by Mister. Peacock outstanding clean sheet (no save count given). Kayode went down injured and was withdrawn, post-match prognosis four weeks. Rossetti progresses to 81 OVR age19 and Mancini stalls at 77 OVR age22. Napoli carry 2-0 lead into still-unplayed cup semifinal second leg, date unannounced.",
+      "unknowns": "Milan semifinal second-leg date and venue/leg-format specifics other than two-leg confirmation, Kayode injury diagnosis and exact return date, Milan first leg Peacock save total, Pio credited official game assist vs Milan, Inter fixture date and competition, Pescara March2 result, new Serie A standings. Do not invent any. No manager press responses supplied.",
+      "coverage": "Five original substantial independent newsroom pieces: Milan 0-2 Cup semifinal first-leg match report; Peacock character-led goalkeeper feature; Kayode four-week injury and defensive depth analysis; Elena De Luca Rossetti/Mancini 81vs77 Italian prospect development character feature; tactical coverage of Beier/Pio 79′ winner as second-half substitutes. Reporter-eye pass removes internal-source prose, no invented manager or player quotes; established supporter threads including rival Milan perspective and satirical SaladinoOutNow.",
+      "paragraphs": 76,
+      "comments": {
+        "topLevel": 42,
+        "includingReplies": 120
+      },
+      "releaseVersion": "2031-milan-coppa-peacock-mar-v1",
+      "press": "Mister explicitly authorised stories, not manager press. No manager quotes, no staged unlabelled player dialogue or manufactured interviews.",
+      "technical": {
+        "sourceCommit": "43e5c2a7e2738c5cf9d83da090f4ee993a39de19",
+        "compiledCommit": null,
+        "editorialGate": "queued",
+        "compactBuild": "queued",
+        "pagesDeployment": "queued",
+        "articlesExpected": 747,
+        "resultsExpected": 157,
+        "visualQA": "Five approved image asset paths verified on GitHub; separate manual rendered crop inspection not yet performed. Automated production browser tests to verify once build completes.",
+        "manualCompactCommit": "43e5c2a7e2738c5cf9d83da090f4ee993a39de19",
+        "compactSnapshotInMain": true,
+        "preloadedRecentArticles": 5,
+        "oldLazyArchiveArticles": 742,
+        "runtimeMergedArticles": 747,
+        "results": 157,
+        "automatedBrowserQA": "not run for this edition",
+        "evidence": "Combined 747 stories = 5 recent items in compact snapshot + 742 in old lazy archive. GitHub Actions has not yet completed a full rebuild, and no successful Pages deployment for this edition is recorded."
+      }
+    },
     {
       "status": "PUBLISHED — full editorial validation success, compact browser regression success, GitHub Pages deployment success",
       "phase": "Napoli 2–2 Inter, 2–0 halftime lead surrendered; Estêvão-Moore and Pio-Beier partnerships; Epolo/Pavard defensive analysis; AC Milan away Coppa semifinal next March 5",
