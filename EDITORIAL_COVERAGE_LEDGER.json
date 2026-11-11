@@ -138,6 +138,42 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Manager authorized and source updated; compact compilation/Pages to verify",
+    "phase": "Napoli 3–0 Venezia home Serie A Mar8, Pio brace and Beier 1G1A, Barcelona away next",
+    "match": "Napoli 3–0 Venezia · Serie A · Home · 8 Mar 2031",
+    "stories": [
+      "napoli-venezia-three-nil-pio-brace-beier-mar8-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale"
+    ],
+    "source": [
+      "stories-venezia-pio-beier-mar8-2031.js",
+      "site-visible-venezia-march8-2031.js"
+    ],
+    "gallery": [
+      "assets/story-napoli-home-crowd.webp"
+    ],
+    "knownFacts": "32′ Beier from Estêvão; 61′ Pio from Bastoni; 83′ Pio from Beier; full time 3–0 and Napoli team clean sheet; Barcelona away next Mar11.",
+    "unknowns": "Venezia goalkeeper, full league standings after Pescara, Inter date/competition, Milan semifinal second-leg date",
+    "coverage": "One substantial routine match report with distinctive supporter replies; no invented manager or player interviews",
+    "paragraphs": 12,
+    "comments": {
+      "topLevel": 9,
+      "includingReplies": 23
+    },
+    "press": "No manager interview authorized or authored",
+    "releaseVersion": "2031-venezia-mar8-v1",
+    "technical": {
+      "sourceCommit": null,
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "articlesExpected": 748,
+      "resultsExpected": 158,
+      "visualQA": "Approved gallery asset in existing guide; no manual screenshot QA"
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Five stories and compact front page committed on main. GitHub Actions validation and GitHub Pages deployment queued; deployment not verified.",
     "phase": "After March5 Milan 0-2 Napoli Coppa semifinal FIRST leg, Peacock clean sheet, Kayode injured out four weeks, Rossetti 81 age19 vs Mancini 77 age22 and Pio-Beier second-half substitute combination",
     "match": "Milano FC 0–2 Napoli · Coppa Italia semifinal first leg · away · 5 March 2031",
@@ -193,65 +229,6 @@
       "results": 157,
       "automatedBrowserQA": "not run for this edition",
       "evidence": "Combined 747 stories = 5 recent items in compact snapshot + 742 in old lazy archive. GitHub Actions has not yet completed a full rebuild, and no successful Pages deployment for this edition is recorded."
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "PUBLISHED — full editorial validation success, compact browser regression success, GitHub Pages deployment success",
-    "phase": "Napoli 2–2 Inter, 2–0 halftime lead surrendered; Estêvão-Moore and Pio-Beier partnerships; Epolo/Pavard defensive analysis; AC Milan away Coppa semifinal next March 5",
-    "match": "Napoli 2–2 Inter / Lombardia FC — competition, exact date and venue not established, halftime 2–0",
-    "stories": [
-      "napoli-inter-two-two-epolo-pavard-comeback-mar2031",
-      "epolo-set-piece-collapse-inter-opinion-mar2031",
-      "milan-napoli-coppa-semifinal-next-mar2031",
-      "estevao-moore-inter-opening-goal-2031-feature"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Matteo Bellandi · Linea Calcio",
-      "Lorenzo Ferri · Coppa Italia desk",
-      "Elena De Luca · Player desk"
-    ],
-    "source": [
-      "stories-inter-two-two-milan-coppa-semi-mar2031.js",
-      "site-visible-inter-two-two-milan-coppa-semi-mar2031.js"
-    ],
-    "gallery": [
-      "assets/story-touchline-pressure.webp",
-      "assets/story-coaches-squad-tactics-session.webp",
-      "assets/story-maradona-stadium-night.webp",
-      "assets/story-napoli-key-players-huddle.webp"
-    ],
-    "knownFacts": "Moore crosses official assist for Estêvão 35′; Pio through-ball official assist for Beier 43′ into top corner; Napoli led 2–0 HT after early saves from Epolo and Tzolakis; Sauer 51′ capitalises Epolo error; Pavard equalises after Inter corner with no minute supplied; FT Napoli 2–2 Inter. Latest confirmed next fixture Milan away Coppa Italia SEMIFINAL March5. Known UCL Barcelona R16 legs March11 away and March19 home. Prior verified Serie A table through Atalanta Napoli67pts/26 Roma59. Match competition/date not assigned to Serie A.",
-    "unknowns": "No Inter date, competition, confirmed venue or latest league standings/points from this draw. Pescara 2 March date previously scheduled but result/status not given; do not mark win/draw/loss. Unknown specific Coppa semifinal leg format. No goal assists on Sauer/Pavard, Pavard minute, shots, xG, invented manager quotes or player press.",
-    "coverage": "Four substantial independent fictional journalism stories: full Inter comeback match report; Bellandi analysis of Epolo mistake versus Pavard set-piece goal without scapegoating; Milan away Coppa semifinal preview; Elena De Luca March character-led Moore–Estêvão partnership piece. 55 substantial body paragraphs and 33 top-level original supporter discussions (93 total nodes incl replies). No invented press interviews or private staff-room dialogue.",
-    "paragraphs": 55,
-    "comments": {
-      "topLevel": 33,
-      "includingReplies": 93
-    },
-    "releaseVersion": "2031-inter-milan-semi-mar-v1",
-    "press": "Manager explicitly says run stories, not a press interview. No manager answers supplied or invented. Player character feature without fabricated dialogue.",
-    "technical": {
-      "sourceCommit": "2a4ff25d23515d9ae3f2afa320f5e83b29e76c07",
-      "compiledCommit": "95adfa913863b9a29f6ffb85465f0d05f628512c",
-      "editorialGate": "success",
-      "compactBuild": "success",
-      "pagesDeployment": "success",
-      "articlesExpected": 742,
-      "resultsExpected": 156,
-      "visualQA": "Four approved gallery image paths verified exist. Automated headless browser tests covered home lead, article reader and comments, archive, stats, Italy filters and mobile viewport. Manual independent screenshot/crop inspection not performed.",
-      "editorialRun": "43092587658",
-      "buildRun": "43092587471",
-      "compactBrowserTests": "success",
-      "pagesRun": "43092716973",
-      "articles": 742,
-      "results": 156,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "napoli-inter-two-two-epolo-pavard-comeback-mar2031",
-      "checked": "Four new IDs in compiled snapshot, 742 articles, 156 results, no errors. Lead first-paint Inter 2–2; latest completed result Inter 2–2, first half 2–0. Next AC Milan away in Coppa Italia SEMIFINAL 5 March. Official club-season tracked contributions Beier29G29A, Pio35G16A, Moore7G8A, Estêvão2G1A; Pescara result not invented, Inter competition/date remain unspecified, last verified Serie A 67pts after 26 preserved. Barcelona R16 legs scheduled. Olise retains Napoli eligibility until summer Spurs transfer.",
-      "reporterEyeQA": "Edited fan 'recorded sequence' statistical sourcing and removed 'photographed table' provenance from public preview. No invented manager quotes, invented player dialogue, confidential private staff comments or assigned unconfirmed Inter date/competition.",
-      "productionRequests": "Only compact snapshot/runtime/comments/language/image JS; no old site-visible or stories scripts are loaded by visitors."
     }
   },
   "release_history": [
@@ -814,7 +791,9 @@
     },
     "caveat": "Not complete league totals or final official Squad Hub, Pescara March 2 result missing, Inter match competition/date unknown; do not advance Italy totals.",
     "next": "Barcelona away, 11 March 2031 UCL Round of 16 first leg",
-    "newsroom": "Held without publication; Milan five-story latest approved package unchanged"
+    "newsroom": "Held without publication; Milan five-story latest approved package unchanged",
+    "publicationAuthorized": true,
+    "newStatus": "Superseded by subsequent manager authorisation to publish Venezia"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -942,6 +921,65 @@
     }
   },
   "archived_previous_newsroom_packages": [
+    {
+      "status": "PUBLISHED — full editorial validation success, compact browser regression success, GitHub Pages deployment success",
+      "phase": "Napoli 2–2 Inter, 2–0 halftime lead surrendered; Estêvão-Moore and Pio-Beier partnerships; Epolo/Pavard defensive analysis; AC Milan away Coppa semifinal next March 5",
+      "match": "Napoli 2–2 Inter / Lombardia FC — competition, exact date and venue not established, halftime 2–0",
+      "stories": [
+        "napoli-inter-two-two-epolo-pavard-comeback-mar2031",
+        "epolo-set-piece-collapse-inter-opinion-mar2031",
+        "milan-napoli-coppa-semifinal-next-mar2031",
+        "estevao-moore-inter-opening-goal-2031-feature"
+      ],
+      "bylines": [
+        "Giulia Romano · Radio Napoli Centrale",
+        "Matteo Bellandi · Linea Calcio",
+        "Lorenzo Ferri · Coppa Italia desk",
+        "Elena De Luca · Player desk"
+      ],
+      "source": [
+        "stories-inter-two-two-milan-coppa-semi-mar2031.js",
+        "site-visible-inter-two-two-milan-coppa-semi-mar2031.js"
+      ],
+      "gallery": [
+        "assets/story-touchline-pressure.webp",
+        "assets/story-coaches-squad-tactics-session.webp",
+        "assets/story-maradona-stadium-night.webp",
+        "assets/story-napoli-key-players-huddle.webp"
+      ],
+      "knownFacts": "Moore crosses official assist for Estêvão 35′; Pio through-ball official assist for Beier 43′ into top corner; Napoli led 2–0 HT after early saves from Epolo and Tzolakis; Sauer 51′ capitalises Epolo error; Pavard equalises after Inter corner with no minute supplied; FT Napoli 2–2 Inter. Latest confirmed next fixture Milan away Coppa Italia SEMIFINAL March5. Known UCL Barcelona R16 legs March11 away and March19 home. Prior verified Serie A table through Atalanta Napoli67pts/26 Roma59. Match competition/date not assigned to Serie A.",
+      "unknowns": "No Inter date, competition, confirmed venue or latest league standings/points from this draw. Pescara 2 March date previously scheduled but result/status not given; do not mark win/draw/loss. Unknown specific Coppa semifinal leg format. No goal assists on Sauer/Pavard, Pavard minute, shots, xG, invented manager quotes or player press.",
+      "coverage": "Four substantial independent fictional journalism stories: full Inter comeback match report; Bellandi analysis of Epolo mistake versus Pavard set-piece goal without scapegoating; Milan away Coppa semifinal preview; Elena De Luca March character-led Moore–Estêvão partnership piece. 55 substantial body paragraphs and 33 top-level original supporter discussions (93 total nodes incl replies). No invented press interviews or private staff-room dialogue.",
+      "paragraphs": 55,
+      "comments": {
+        "topLevel": 33,
+        "includingReplies": 93
+      },
+      "releaseVersion": "2031-inter-milan-semi-mar-v1",
+      "press": "Manager explicitly says run stories, not a press interview. No manager answers supplied or invented. Player character feature without fabricated dialogue.",
+      "technical": {
+        "sourceCommit": "2a4ff25d23515d9ae3f2afa320f5e83b29e76c07",
+        "compiledCommit": "95adfa913863b9a29f6ffb85465f0d05f628512c",
+        "editorialGate": "success",
+        "compactBuild": "success",
+        "pagesDeployment": "success",
+        "articlesExpected": 742,
+        "resultsExpected": 156,
+        "visualQA": "Four approved gallery image paths verified exist. Automated headless browser tests covered home lead, article reader and comments, archive, stats, Italy filters and mobile viewport. Manual independent screenshot/crop inspection not performed.",
+        "editorialRun": "43092587658",
+        "buildRun": "43092587471",
+        "compactBrowserTests": "success",
+        "pagesRun": "43092716973",
+        "articles": 742,
+        "results": 156,
+        "seasons": 4,
+        "legacyScriptErrors": 0,
+        "firstPaintLead": "napoli-inter-two-two-epolo-pavard-comeback-mar2031",
+        "checked": "Four new IDs in compiled snapshot, 742 articles, 156 results, no errors. Lead first-paint Inter 2–2; latest completed result Inter 2–2, first half 2–0. Next AC Milan away in Coppa Italia SEMIFINAL 5 March. Official club-season tracked contributions Beier29G29A, Pio35G16A, Moore7G8A, Estêvão2G1A; Pescara result not invented, Inter competition/date remain unspecified, last verified Serie A 67pts after 26 preserved. Barcelona R16 legs scheduled. Olise retains Napoli eligibility until summer Spurs transfer.",
+        "reporterEyeQA": "Edited fan 'recorded sequence' statistical sourcing and removed 'photographed table' provenance from public preview. No invented manager quotes, invented player dialogue, confidential private staff comments or assigned unconfirmed Inter date/competition.",
+        "productionRequests": "Only compact snapshot/runtime/comments/language/image JS; no old site-visible or stories scripts are loaded by visitors."
+      }
+    },
     {
       "status": "Published — editorial gate, compact browser regression and GitHub Pages deployment passed",
       "phase": "Napoli 2–0 Barcelona · Pio/Beier each 1G1A · xG Barcelona 1.7 Napoli 1.6 · Rossetti short-term loan",
