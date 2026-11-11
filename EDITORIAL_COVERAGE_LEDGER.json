@@ -760,24 +760,29 @@
     }
   },
   "latest_canon_only_checkpoint": {
-    "type": "Private squad-planning update after Venezia Mar8 2031 — no newsroom authorization",
+    "type": "Private squad/finance directive after Venezia 8 March 2031",
     "Rossetti": {
       "age": 19,
       "overall": 81,
-      "gameMarketValueUSD": 65000000,
-      "currentStatus": "On loan, summer 2031 return confirmed by Mister"
+      "marketValueUSD": 65000000,
+      "summerLoanReturn": true,
+      "saleStatus": "Mister explicitly rules out selling Rossetti; retain",
+      "firstTeamRole": "to assess in preseason; not pre-guaranteed"
+    },
+    "transferBudget": {
+      "currency": "USD (in-game)",
+      "amount": 200000000,
+      "stage": "AFTER paying Estêvão transfer fee, BEFORE receiving Olise sale proceeds",
+      "OliseSale": {
+        "agreedFeeUSD": 197900000,
+        "completion": "Summer 2031; not yet received"
+      }
     },
     "Estevao": {
-      "trackedNapoli203031": "2 goals, 2 assists",
-      "minutes": "limited, numeric minutes unknown",
-      "managerIdea": "consider more playing time, not decided"
+      "approach": "more opportunities under consideration; no lineup ordered"
     },
-    "Olise": {
-      "trackedNapoli203031": "1 goal, 8 assists",
-      "transfer": "$197.9m to Tottenham agreed, effective summer 2031"
-    },
-    "privacy": "Staff-room only; no fresh publication rights",
-    "nextFixture": "Barcelona away March11 UCL Round of 16 first leg"
+    "publicRelease": "none; private staff-room information",
+    "next": "Barcelona away March 11, 2031, UCL R16 first leg"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
