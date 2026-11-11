@@ -123,7 +123,7 @@
       "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
     }
   ],
-  "latest_confirmed_match": "Roma 0–2 Napoli · Serie A · Away · 16 March 2031. 45+2 João Neves goal assisted by Estêvão; HT Roma0 Napoli1. 90+2 Beier goal on counterattacking McTominay assist; FT Roma0 Napoli2 rotated squad and team clean sheet. Latest top five all 29 played Napoli74 Roma63 Inter62 Juventus61 AC Milan60. Next Barcelona home UCL R16 second leg Mar19, Barca lead aggregate2–1.",
+  "latest_confirmed_match": "Napoli 2–0 FC Barcelona HOME Champions League Round of 16 SECOND LEG 19 March 2031; Moore 3′ first touch from Estêvão cross, Pio post 54′, Pio 75′ header from Estêvão cross. FT 2–0, Napoli advance 3–2 aggregate to quarterfinals; team clean sheet. Two official Estêvão assists. Next Napoli v Lazio home Serie A Mar23. League unchanged Napoli74/29 eleven ahead.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -138,6 +138,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source committed; compact GitHub Actions compilation and Pages deployment pending independent verification",
+    "phase": "Napoli 2–0 Barcelona UCL R16 HOME Mar19: Moore3, Pio75, Estêvão two assists; overturn 2–1 first-leg loss, advance 3–2 aggregate to quarterfinals",
+    "match": "Napoli 2–0 FC Barcelona · UEFA Champions League Round of 16 second leg · Home · 19 March 2031",
+    "stories": [
+      "napoli-barcelona-two-nil-moore-pio-estevao-r16-comeback-mar19-2031",
+      "estevao-two-assists-moore-pio-barcelona-mar19-2031",
+      "bellandi-napoli-barcelona-quarterfinal-after-comeback-mar19-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-european-team-celebration.webp",
+      "assets/story-coaches-key-players-walkout.webp",
+      "assets/story-champions-league-stakes.webp"
+    ],
+    "source": [
+      "stories-barcelona-home-comeback-quarterfinal-mar19-2031.js",
+      "site-visible-barcelona-home-comeback-mar19-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Moore3′ from Estêvão cross first touch; Pio hit post54′; Pio75′ header from Estêvão cross; Napoli2–0 FT and team clean sheet; Napoli advance3–2 aggregate; Estêvão 2 official assists; started Estêvão and Moore, Olise and Paz not starting. League table unchanged from Roma Mar16. Next Lazio home Serie A March23.",
+    "unknowns": "Quarterfinal opponent/dates, unreported match events, Barcelona keeper/Napoli keeper, XI beyond confirmed selections, statistics other than named goals and assists, Coppa semifinal return date, fitness updates.",
+    "coverage": "Three individually written in-universe pieces with independent reporter voices and established supporter continuity; a 2-leg match narrative, Estêvão/Moore player feature and balanced Bellandi column. No invented public quotes, interviews, confidential staff discussion or match statistics.",
+    "paragraphs": 42,
+    "comments": {
+      "topLevel": 29,
+      "totalIncludingReplies": 79
+    },
+    "nextFixture": "Lazio home Serie A 23 March 2031; Champions League quarterfinal opponent/date unknown",
+    "releaseVersion": "2031-barca-home-comeback-mar19-v1",
+    "press": "Manager authorises match coverage; no manager press answers or player interview given. No direct quotes fabricated.",
+    "technical": {
+      "status": "Source edit pending GitHub Actions builds",
+      "expectedArticles": 757,
+      "expectedResults": 161,
+      "existingLeaguePoints": 74,
+      "existingLeaguePlayed": 29,
+      "visualQA": "Approved gallery asset paths checked in repository. Manual rendered image/crop QA not performed."
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate, compact compilation, automated browser diagnostics and GitHub Pages deployment successful",
     "phase": "Roma 0–2 Napoli rotated squad Mar16, Neves 45+2 and Beier 90+2; manager-confirmed Napoli74 Roma63 Inter62 Juve61 Milan60 after29; Barcelona home R16 return next",
     "match": "Roma 0–2 Napoli · Serie A Away · 16 March 2031",
@@ -182,61 +229,6 @@
       "homepageLeadVerified": "roma-napoli-two-nil-neves-beier-rotation-mar16-2031",
       "liveNextFixture": "Barcelona home 19 March 2031, UCL R16 second leg, unplayed",
       "latestTopFiveVerified": "Napoli74 Roma63 Inter62 Juventus61 AC Milan60; all 29 played"
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published: editorial gate, compact build with browser tests, and GitHub Pages deployment all successful",
-    "phase": "Barcelona 2–1 Napoli UCL R16 away first leg, Beier 81′ Moore assist; Roma away March16 next",
-    "match": "FC Barcelona 2–1 Napoli · UCL Round of 16 first leg · Away · 11 March 2031",
-    "stories": [
-      "barcelona-napoli-two-one-beier-moore-r16-first-leg-mar2031",
-      "moore-beier-81st-minute-lifeline-barcelona-mar2031",
-      "roma-away-between-barcelona-legs-preview-mar2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Lorenzo Ferri · European desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "source": [
-      "stories-barcelona-r16-beier-roma-mar2031.js",
-      "site-visible-barcelona-first-leg-roma-mar2031.js"
-    ],
-    "knownFacts": "Endrick 22 Barcelona, Pedri 51 Barcelona, HT1–0, Beier 81 from Moore, FT Barcelona 2–1 Napoli; aggregate 2–1, Napoli home return Mar19. Roma away Mar16 next. Kayode four-week injury from Milan Mar5.",
-    "unknowns": "Specific buildup for Barcelona goals, goalkeeper, lineups, current March league standings, March2 Pescara result, Inter 2–2 date and competition, Roma result, Barcelona return result.",
-    "coverage": "Three substantial independently voiced match, Beier/Moore second-leg analysis, Roma preview/opinion. Reporter-eye and supporter continuity reviewed; no manager/player quotes or staff-room leak.",
-    "paragraphs": 40,
-    "comments": {
-      "topLevel": 26,
-      "includingReplies": 67
-    },
-    "releaseVersion": "2031-barcelona-r16-first-leg-mar11-v1",
-    "technical": {
-      "sourceCommit": "6d68eb332f6503fd3866f6d50c1af328ff0b7c7a",
-      "editorialGate": "success",
-      "compactBuild": "success",
-      "pagesDeployment": "success",
-      "articlesExpected": 751,
-      "resultsExpected": 159,
-      "visualQA": "Automated production browser build passed; no separate manual direct live URL crop inspection performed.",
-      "compiledCommit": "d4e98f7f4e99833ac48ab90402d58d8d9555d54d",
-      "editorialRun": "43116024920",
-      "buildRun": "43116024876",
-      "automatedProductionBrowserQA": "success via compiled GitHub Actions build",
-      "pagesRun": "43116111001",
-      "articles": 751,
-      "results": 159,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "verifiedFirstPaint": "barcelona-napoli-two-one-beier-moore-r16-first-leg-mar2031",
-      "sourceCoverAssetChecks": "all three present",
-      "articleIntegrity": "all three articles and 67 authored comment nodes present in generated 751-story archive",
-      "privateStaffRoomFirewall": "checked: new Barcelona/Roma stories do not expose Rossetti market value, $200m budget or private no-sale decision"
     }
   },
   "release_history": [
@@ -768,46 +760,24 @@
     }
   },
   "latest_canon_only_checkpoint": {
-    "type": "Manager-authorised Roma 0–2 Napoli result, March16 2031",
-    "latestStandings": {
-      "date": "2031-03-16",
-      "topFive": [
-        [
-          "Napoli",
-          29,
-          74
-        ],
-        [
-          "Roma",
-          29,
-          63
-        ],
-        [
-          "Inter",
-          29,
-          62
-        ],
-        [
-          "Juventus",
-          29,
-          61
-        ],
-        [
-          "AC Milan",
-          29,
-          60
-        ]
-      ]
-    },
-    "contributions": {
-      "JoaoNeves": "1G3A",
-      "Estevao": "2G3A",
-      "Beier": "33G30A",
-      "ScottMcTominay": "1G4A"
-    },
+    "type": "Barcelona UCL R16 comeback now authorised for newsroom",
+    "latestResult": "Napoli 2–0 FC Barcelona, 3–2 aggregate Mar19 2031",
     "publicationAuthorized": true,
-    "barcelonaReturn": "Napoli home 19 March, UCL R16 second leg unplayed; Barcelona2–1 aggregate",
-    "privateSquadDecisions": "No change to Rossetti no-sale directive or 200m budget"
+    "latestLeagueStill": [
+      "Napoli74/29",
+      "Roma63/29",
+      "Inter62/29",
+      "Juve61/29",
+      "Milan60/29"
+    ],
+    "players": {
+      "Pio": "38G16A",
+      "Moore": "8G9A",
+      "Estevao": "2G5A"
+    },
+    "nextFixture": "Lazio home Mar23",
+    "quarterfinalOpposition": "Not yet confirmed",
+    "staffPrivacy": "No update to Rossetti no-sale or budget directive."
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
@@ -935,6 +905,61 @@
     }
   },
   "archived_previous_newsroom_packages": [
+    {
+      "status": "Published: editorial gate, compact build with browser tests, and GitHub Pages deployment all successful",
+      "phase": "Barcelona 2–1 Napoli UCL R16 away first leg, Beier 81′ Moore assist; Roma away March16 next",
+      "match": "FC Barcelona 2–1 Napoli · UCL Round of 16 first leg · Away · 11 March 2031",
+      "stories": [
+        "barcelona-napoli-two-one-beier-moore-r16-first-leg-mar2031",
+        "moore-beier-81st-minute-lifeline-barcelona-mar2031",
+        "roma-away-between-barcelona-legs-preview-mar2031"
+      ],
+      "bylines": [
+        "Giulia Romano · Radio Napoli Centrale",
+        "Lorenzo Ferri · European desk",
+        "Matteo Bellandi · Linea Calcio"
+      ],
+      "gallery": [
+        "assets/story-champions-league-stakes.webp",
+        "assets/story-sandro-beier-guidance.webp",
+        "assets/story-touchline-pressure.webp"
+      ],
+      "source": [
+        "stories-barcelona-r16-beier-roma-mar2031.js",
+        "site-visible-barcelona-first-leg-roma-mar2031.js"
+      ],
+      "knownFacts": "Endrick 22 Barcelona, Pedri 51 Barcelona, HT1–0, Beier 81 from Moore, FT Barcelona 2–1 Napoli; aggregate 2–1, Napoli home return Mar19. Roma away Mar16 next. Kayode four-week injury from Milan Mar5.",
+      "unknowns": "Specific buildup for Barcelona goals, goalkeeper, lineups, current March league standings, March2 Pescara result, Inter 2–2 date and competition, Roma result, Barcelona return result.",
+      "coverage": "Three substantial independently voiced match, Beier/Moore second-leg analysis, Roma preview/opinion. Reporter-eye and supporter continuity reviewed; no manager/player quotes or staff-room leak.",
+      "paragraphs": 40,
+      "comments": {
+        "topLevel": 26,
+        "includingReplies": 67
+      },
+      "releaseVersion": "2031-barcelona-r16-first-leg-mar11-v1",
+      "technical": {
+        "sourceCommit": "6d68eb332f6503fd3866f6d50c1af328ff0b7c7a",
+        "editorialGate": "success",
+        "compactBuild": "success",
+        "pagesDeployment": "success",
+        "articlesExpected": 751,
+        "resultsExpected": 159,
+        "visualQA": "Automated production browser build passed; no separate manual direct live URL crop inspection performed.",
+        "compiledCommit": "d4e98f7f4e99833ac48ab90402d58d8d9555d54d",
+        "editorialRun": "43116024920",
+        "buildRun": "43116024876",
+        "automatedProductionBrowserQA": "success via compiled GitHub Actions build",
+        "pagesRun": "43116111001",
+        "articles": 751,
+        "results": 159,
+        "seasons": 4,
+        "legacyScriptErrors": 0,
+        "verifiedFirstPaint": "barcelona-napoli-two-one-beier-moore-r16-first-leg-mar2031",
+        "sourceCoverAssetChecks": "all three present",
+        "articleIntegrity": "all three articles and 67 authored comment nodes present in generated 751-story archive",
+        "privateStaffRoomFirewall": "checked: new Barcelona/Roma stories do not expose Rossetti market value, $200m budget or private no-sale decision"
+      }
+    },
     {
       "status": "Manager authorized and source updated; compact compilation/Pages to verify",
       "phase": "Napoli 3–0 Venezia home Serie A Mar8, Pio brace and Beier 1G1A, Barcelona away next",

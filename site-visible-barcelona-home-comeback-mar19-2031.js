@@ -1,0 +1,60 @@
+/* Napoli 2-0 Barcelona UCL round of 16 second leg 19 March 2031, 3-2 aggregate; Lazio next. */
+(()=>{'use strict';
+const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={}),$=id=>document.getElementById(id),E=x=>String(x??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ids=['napoli-barcelona-two-nil-moore-pio-estevao-r16-comeback-mar19-2031','estevao-two-assists-moore-pio-barcelona-mar19-2031','bellandi-napoli-barcelona-quarterfinal-after-comeback-mar19-2031'];
+const newest=ids.map(id=>D.articles.find(x=>x.id===id));
+if(newest.some(x=>!x))throw Error('Barcelona comeback newsroom stories missing');
+D.articles=[...newest,...D.articles.filter(x=>!ids.includes(x.id))];
+const match={date:'2031-03-19',team:'Napoli',opponent:'FC Barcelona',gameAlias:'Barcelona',competition:'Champions League',venue:'Home',round:'Round of 16',leg:2,status:'completed',score:'2–0',resultText:'Napoli 2–0 Barcelona',aggregate:'Napoli 3–2 Barcelona',qualifiedFor:'Quarterfinals',teamCleanSheet:true,events:[{minute:'3',team:'Napoli',scorer:'Mikey Moore',assist:'Estêvão',notes:'First touch from a cross'},{minute:'54',team:'Napoli',player:'Francesco Pio Esposito',type:'shot off post'},{minute:'75',team:'Napoli',scorer:'Francesco Pio Esposito',assist:'Estêvão',notes:'Header from a cross'}],officialAssists:{'Estêvão':2},started:['Estêvão','Mikey Moore'],notStarting:['Michael Olise','Nico Paz']};
+D.barcelonaSecondLegMar19_2031=match;
+D.uclRoundOf16Mar2031={firstLeg:{date:'2031-03-11',result:'FC Barcelona 2–1 Napoli',goals:[['Endrick',22],['Pedri',51],['Maximilian Beier',81]],beierAssist:'Mikey Moore'},secondLeg:match,aggregate:'Napoli 3–2 Barcelona',winner:'Napoli',nextRound:'Quarterfinals',nextOpponent:null,nextMatchDate:null};
+D.results=Array.isArray(D.results)?D.results:[];
+if(!D.results.some(r=>r[0]==='Napoli'&&String(r[1]).includes('Barcelona')&&r[2]==='Champions League'&&r[3]===2&&r[4]===0&&String(r[6]||'').includes('19 Mar 2031')))D.results.push(['Napoli','FC Barcelona','Champions League',2,0,'W','19 Mar 2031 · Home','Moore 3′ (Estêvão), Pio Esposito 75′ header (Estêvão); Pio off post 54′; aggregate Napoli 3–2 Barcelona, quarterfinals.']);
+for(const arr of [D.fixturesFebMar2031,D.schedule203031])if(Array.isArray(arr)){
+let x=arr.find(r=>r.date==='2031-03-19'&&r.team==='Napoli'&&/Barcelona/.test(String(r.opponent||r.gameAlias)));
+if(!x){x={};arr.push(x)}Object.assign(x,match);arr.sort((a,b)=>String(a.date||'9999').localeCompare(String(b.date||'9999')));
+}
+const next={date:'2031-03-23',team:'Napoli',opponent:'Lazio',gameAlias:'Lazio',competition:'Serie A',venue:'Home',status:'scheduled'};
+D.nextClubFixture=next;D.nextClubMatch={...next,played:false};D.nextMatch={...next,played:false,confirmedNext:true,kickoffTime:null};
+D.nextSerieAFixture={date:next.date,home:'Napoli',away:'Latium',gameAlias:'Lazio',competition:'Serie A',status:'scheduled'};
+D.nextEuropeanFixture={competition:'Champions League',round:'Quarterfinals',status:'opponent pending',opponent:null,date:null};
+D.currentCalendarDate2031='2031-03-19';
+D.upcoming=(D.fixturesFebMar2031||[]).filter(x=>x.team==='Napoli'&&x.date>'2031-03-19'&&x.status==='scheduled').map(x=>[x.gameAlias||x.opponent,x.competition,x.date.slice(5).replace('-','/')+' · '+x.venue]);
+D.latestResult=['Napoli','2–0','Barcelona','UCL R16 · 19 Mar 2031 · Napoli advance 3–2 on aggregate'];
+if(D.seasonState){D.seasonState.nextFixture=next;D.seasonState.championsLeague={...(D.seasonState.championsLeague||{}),stage:'Quarterfinals',status:'qualified',roundOf16Aggregate:'Napoli 3–2 Barcelona',quarterfinalOpponent:null};}
+const s=D.season203031||{};
+D.season203031={...s,updated:'Napoli 2–0 Barcelona UCL R16 second leg Mar19; Moore 3 from Estêvão, Pio 75 header from Estêvão; Pio struck post 54. Napoli advance 3–2 aggregate, team clean sheet. Serie A unchanged Napoli74pts/29, 11 clear of Roma; Lazio Mar23 next.',latestResult:'Napoli 2–0 FC Barcelona · Champions League R16 second leg · 19 Mar 2031',latestResultDate:'2031-03-19',latestResultCompetition:'Champions League',lastCompletedEuropeanFixture:match,nextClubOpponent:'Lazio',nextClubCompetition:'Serie A',nextClubDate:'2031-03-23',nextClubFixture:next,nextClubMatch:next,championsLeague:{...(s.championsLeague||{}),stage:'Quarterfinals',status:'qualified',aggregate:'Napoli 3–2 Barcelona',quarterfinalOpponent:null},statsVerifiedThrough:'Napoli club contributions through Barcelona R16 second leg March19; Serie A table unchanged from Roma March16.'};
+const stats=D.statsBySeason?.['2030–31'];
+if(stats){for(const [n,g,a,note]of[
+['Mikey Moore',1,0,'Barcelona home UCL R16 Mar19: 3′ first-touch goal from Estêvão cross'],
+['Francesco Pio Esposito',1,0,'Barcelona home UCL R16 Mar19: 75′ winning header from Estêvão cross; off post 54′'],
+['Estêvão',0,2,'Barcelona home UCL R16 Mar19: TWO official assists, Moore 3′ and Pio 75′']
+]){let row=stats.find(x=>x[0]===n||n==='Francesco Pio Esposito'&&x[0]==='Pio Esposito');if(!row){row=[n,0,0,''];stats.push(row)}row[1]=(Number(row[1])||0)+g;row[2]=(Number(row[2])||0)+a;row[3]=(row[3]?row[3]+' | ':'')+note}
+stats.sort((a,b)=>Number(b[1])-Number(a[1])||Number(b[2])-Number(a[2])||String(a[0]).localeCompare(String(b[0])));D.stats=stats;D.statsCurrentSeason='2030–31';
+const tally=new Map();for(const [year,rows]of Object.entries(D.statsBySeason))for(const [raw,g,a]of rows){const n=raw==='Francesco Pio Esposito'?'Pio Esposito':raw,v=tally.get(n)||{g:0,a:0,years:new Set()};v.g+=Number(g)||0;v.a+=Number(a)||0;v.years.add(year);tally.set(n,v)}
+const career=[...tally].map(([n,v])=>[n,v.g,v.a,[...v.years].sort().join(', ')]).sort((a,b)=>b[1]-a[1]||b[2]-a[2]);if(Array.isArray(D.careerStats))D.careerStats.splice(0,D.careerStats.length,...career);
+}
+D.statsScope='Napoli 2030–31 club competition contributions through Barcelona UCL R16 home Mar19: Pio38G16A, Beier33G30A, Moore8G9A, Estêvão2G5A, Neves1G3A, McTominay1G4A. Serie A table remains Napoli74pts/29, eleven ahead after Roma Mar16. Italy international stats separate.';
+const card=(a,v)=>'<article class="article-card '+E(v)+'" data-article="'+E(a.id)+'" tabindex="0" role="button"><div class="article-card-media">'+(a.image?'<img src="'+E(a.image)+'" alt="'+E(a.headline)+'" loading="lazy">':'')+'</div><div class="article-card-copy"><div class="story-meta"><span>'+E(a.category)+'</span><span>'+E(a.date)+'</span></div><h3>'+E(a.headline)+'</h3><p>'+E(a.dek)+'</p><span class="read-link">Read story →</span></div></article>';
+const a=newest[0];D.hero={...(D.hero||{}),articleId:a.id,strap:'CHAMPIONS LEAGUE · NAPOLI 2–0 BARCELONA · QUARTERFINALS'};
+const hero=$('heroStory');if(hero)hero.innerHTML='<div class="hero-media"><img src="'+E(a.image)+'" alt="'+E(a.headline)+'" loading="eager" fetchpriority="high"></div><div class="hero-copy" data-article="'+E(a.id)+'" tabindex="0" role="button"><div class="hero-strap">'+E(D.hero.strap)+'</div><div class="story-meta"><span>'+E(a.category)+'</span><span>'+E(a.date)+'</span></div><h2>'+E(a.headline)+'</h2><p>'+E(a.dek)+'</p><span class="hero-read">Read the story →</span></div>';
+const top=$('topStories');if(top)top.innerHTML=D.articles.slice(1,5).map((x,i)=>'<button type="button" class="top-story" data-article="'+E(x.id)+'"><span>'+String(i+1).padStart(2,'0')+'</span><div><small>'+E(x.category)+'</small><strong>'+E(x.headline)+'</strong></div></button>').join('');
+const latest=$('latestNews');if(latest)latest.innerHTML=D.articles.slice(1,7).map((x,i)=>card(x,i?'compact':'wide')).join('');
+const grid=$('newsGrid');if(grid)grid.innerHTML=D.articles.map((x,i)=>card(x,i?'standard':'lead-grid')).join('');
+const filters=$('articleFilters');if(filters)filters.innerHTML=['All',...new Set(D.articles.map(x=>x.category))].map((x,i)=>'<button type="button" class="filter-pill '+(i?'':'active')+'" data-category="'+E(x)+'">'+E(x)+'</button>').join('');
+D.ticker=['NAPOLI 2–0 BARCELONA · THROUGH TO THE CHAMPIONS LEAGUE QUARTERFINALS','MOORE 3′ · PIO 75′ HEADER · ESTÊVÃO TWO OFFICIAL ASSISTS','NAPOLI WIN ROUND OF 16 TIE 3–2 ON AGGREGATE','CLEAN SHEET AGAINST BARCELONA · COMEBACK COMPLETE','SERIE A: NAPOLI 74 PTS, 11 CLEAR · LAZIO HOME NEXT 23 MAR'];
+const ticker=$('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(x=>'<span>'+E(x)+'</span>').join('');
+D.whispers=[['EUROPEAN COMEBACK','Two home goals overturn Barcelona’s 2–1 first-leg lead. Napoli advance 3–2 on aggregate.'],['ESTÊVÃO, TWO ASSISTS','Both the third-minute opener and the 75th-minute winner came from his crosses.'],['MOORE’S TWO-LEG IMPACT','Moore assisted Beier in Barcelona before scoring after three minutes in Naples.'],['PIO’S REDEMPTION','Denied by the post at 54 minutes, Pio headed the tie-winner at 75.'],['DOMESTIC LEAD INTACT','Napoli remain on 74 points after 29 Serie A matches, eleven ahead of Roma.']];
+const whispers=$('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+E(x[0])+'</span><p>'+E(x[1])+'</p></div>').join('');
+const last=$('latestResult');if(last)last.innerHTML='<div class="latest-score"><span>NAP</span><strong>2–0</strong><span>BAR</span></div><p>CHAMPIONS LEAGUE R16 · 19 MAR · MOORE 3′ · PIO 75′ · 3–2 AGGREGATE</p>';
+const nextTwo=$('nextTwo');if(nextTwo)nextTwo.innerHTML='<div class="next-row"><strong>Lazio</strong><span>Serie A · 23 Mar · Home</span></div><div class="next-row"><strong>Champions League quarterfinals</strong><span>Opponent and dates to follow</span></div>';
+const form=$('formLine');if(form)form.innerHTML='<div><strong>NAPOLI 2–0 BARCELONA · UCL R16 SECOND LEG</strong><span>Moore 3′ · Pio 75′ · Estêvão two assists · team clean sheet</span></div><div><strong>AGGREGATE: NAPOLI 3–2 BARCELONA</strong><span>Napoli advance to the Champions League quarterfinals</span></div><div><strong>SERIE A · 29 GAMES</strong><span>Napoli 74 · Roma 63 · Inter 62 · Juventus 61 · Milan 60 · Lazio next 23 Mar</span></div>';
+const upcoming=(D.fixturesFebMar2031||[]).filter(x=>x.team==='Napoli'&&x.status==='scheduled'&&x.date>'2031-03-19');
+const strip=$('upcomingStrip');if(strip)strip.innerHTML=upcoming.slice(0,8).map(x=>'<div class="fixture"><span>'+E(x.competition)+' · '+E(Number(x.date.slice(-2)))+' Mar</span><strong>'+E(x.gameAlias||x.opponent)+'</strong><small>'+E(x.venue)+'</small></div>').join('');
+const status=document.querySelector('.header-status span:last-child');if(status)status.textContent='NAPOLI 2–0 BARCELONA · QUARTERFINALISTS';
+const meta=document.querySelector('meta[name="description"]');if(meta)meta.setAttribute('content','Napoli beat Barcelona 2–0 in the Champions League Round of 16 second leg, progressing 3–2 on aggregate as Estêvão assists goals for Moore and Pio.');
+if(stats){const table=$('statsTable');if(table)table.innerHTML='<thead><tr><th>Player</th><th>Goals</th><th>Assists</th><th>G+A</th><th>Season note</th></tr></thead><tbody>'+stats.map(r=>'<tr>'+[r[0],r[1],r[2],Number(r[1])+Number(r[2]),r[3]].map(x=>'<td>'+E(x)+'</td>').join('')+'</tr>').join('')+'</tbody>';
+const topRow=[...stats].sort((a,b)=>Number(b[1])-Number(a[1]))[0],topScorer=$('topScorer');if(topScorer)topScorer.innerHTML='<span>Top scorer · 2030–31</span><strong>'+E(topRow[0])+'</strong><b>'+E(topRow[1])+'</b><small>goals</small>';
+const max=Math.max(1,...stats.map(r=>Number(r[1])||0)),bars=$('goalBars');if(bars)bars.innerHTML=stats.filter(r=>Number(r[1])>0).map(r=>'<div class="goal-row"><span>'+E(r[0])+'</span><div class="bar-track"><div class="bar-fill" style="width:'+((Number(r[1])||0)/max*100)+'%"></div></div><strong>'+E(r[1])+'</strong></div>').join('');}
+const matches=$('matchesList');if(matches)matches.innerHTML=D.results.slice().reverse().map(r=>{const away=(r[0]==='Napoli'||r[0]==='Italy')&&/\bAway\b/i.test(String(r[6]));const left=away?r[1]:r[0],right=away?r[0]:r[1],score=away?r[4]+'–'+r[3]:r[3]+'–'+r[4];return '<div class="match-card"><div class="result-badge '+E(r[5])+'">'+E(r[5])+'</div><div class="match-main"><span>'+E(r[2])+'</span><strong>'+E(left)+' <b>'+E(score)+'</b> '+E(right)+'</strong><p>'+E(r[6])+' · '+E(r[7])+'</p></div></div>'}).join('');
+})();
