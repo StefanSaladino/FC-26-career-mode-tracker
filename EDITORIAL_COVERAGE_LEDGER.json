@@ -116,9 +116,14 @@
       "month": "2031-03",
       "status": "covered",
       "note": "Elena De Luca character-led March 2031 feature on Mikey Moore and Estêvão after 35′ goal vs Inter from Moore official cross. No manager quotes, fictional player statements or invented lineups; Moore and Estêvão tracked recorded club season 7G8A / 2G1A subject to unreported Pescara fixture."
+    },
+    {
+      "month": "2031-03",
+      "status": "covered_additional",
+      "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–2 Inter / Lombardia FC, match date and competition not established, halftime 2–0. Estêvão 35′ from official Moore assist, Beier 43′ from official Pio assist, Sauer 51′ after Epolo error, Pavard equaliser following corner, minute not supplied. Epolo and Tzolakis traded early saves. Next confirmed fixture: Milano FC / AC Milan away Coppa Italia SEMIFINAL on March 5, 2031. Do not infer Pescara result or updated Serie A standings.",
+  "latest_confirmed_match": "Milano FC / AC Milan 0–2 Napoli · Coppa Italia SEMIFINAL FIRST LEG away, March 5, 2031. Raspadori 27′ scored loose rebound after Olise blocked shot, NO official assist; Beier 79′ from pass by Pio, both second-half substitutes, Pio official game assist credit not separately confirmed. Peacock fantastic clean sheet. Kayode injured and removed, ruled out 4 weeks. Napoli lead aggregate 2–0, second leg date unknown, unplayed. Prospects after match: Rossetti 81 OVR at age19 rising, Mancini 77 OVR age22 stalled.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -133,6 +138,56 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Mister authorised and source publishing underway; editorial/compact build/Pages deployment to verify",
+    "phase": "After March5 Milan 0-2 Napoli Coppa semifinal FIRST leg, Peacock clean sheet, Kayode injured out four weeks, Rossetti 81 age19 vs Mancini 77 age22 and Pio-Beier second-half substitute combination",
+    "match": "Milano FC 0–2 Napoli · Coppa Italia semifinal first leg · away · 5 March 2031",
+    "stories": [
+      "milan-napoli-coppa-semi-first-leg-two-nil-peacock-mar2031",
+      "peacock-milan-clean-sheet-keeper-feature-mar2031",
+      "kayode-injury-four-weeks-milan-barcelona-mar2031",
+      "rossetti-81-mancini-77-italy-napoli-development-mar2031",
+      "pio-beier-substitutes-milan-semi-impact-mar2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Lorenzo Ferri · European desk",
+      "Elena De Luca · Player desk",
+      "Lorenzo Ferri · Tactical desk"
+    ],
+    "source": [
+      "stories-milan-coppa-peacock-kayode-rossetti-mar2031.js",
+      "site-visible-milan-coppa-peacock-kayode-rossetti-mar2031.js"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-coaches-squad-tactics-session.webp",
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-sandro-beier-guidance.webp"
+    ],
+    "knownFacts": "Milan 0–2 Napoli Mar5 Coppa Italia semifinal first leg AWAY. 27′ Michael Olise shot blocked, ball bounced to Giacomo Raspadori who scored rebound, no official assist. 79′ second-half substitutes Pio Esposito played Maximilian Beier through, Beier ran and scored, Pio's official stat credit was not separately specified by Mister. Peacock outstanding clean sheet (no save count given). Kayode went down injured and was withdrawn, post-match prognosis four weeks. Rossetti progresses to 81 OVR age19 and Mancini stalls at 77 OVR age22. Napoli carry 2-0 lead into still-unplayed cup semifinal second leg, date unannounced.",
+    "unknowns": "Milan semifinal second-leg date and venue/leg-format specifics other than two-leg confirmation, Kayode injury diagnosis and exact return date, Milan first leg Peacock save total, Pio credited official game assist vs Milan, Inter fixture date and competition, Pescara March2 result, new Serie A standings. Do not invent any. No manager press responses supplied.",
+    "coverage": "Five original substantial independent newsroom pieces: Milan 0-2 Cup semifinal first-leg match report; Peacock character-led goalkeeper feature; Kayode four-week injury and defensive depth analysis; Elena De Luca Rossetti/Mancini 81vs77 Italian prospect development character feature; tactical coverage of Beier/Pio 79′ winner as second-half substitutes. Reporter-eye pass removes internal-source prose, no invented manager or player quotes; established supporter threads including rival Milan perspective and satirical SaladinoOutNow.",
+    "paragraphs": 76,
+    "comments": {
+      "topLevel": 42,
+      "includingReplies": 120
+    },
+    "releaseVersion": "2031-milan-coppa-peacock-mar-v1",
+    "press": "Mister explicitly authorised stories, not manager press. No manager quotes, no staged unlabelled player dialogue or manufactured interviews.",
+    "technical": {
+      "sourceCommit": null,
+      "compiledCommit": null,
+      "editorialGate": "pending",
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "articlesExpected": 747,
+      "resultsExpected": 157,
+      "visualQA": "Five approved image asset paths verified on GitHub; separate manual rendered crop inspection not yet performed. Automated production browser tests to verify once build completes."
+    }
+  },
+  "previous_newsroom_package": {
     "status": "PUBLISHED — full editorial validation success, compact browser regression success, GitHub Pages deployment success",
     "phase": "Napoli 2–2 Inter, 2–0 halftime lead surrendered; Estêvão-Moore and Pio-Beier partnerships; Epolo/Pavard defensive analysis; AC Milan away Coppa semifinal next March 5",
     "match": "Napoli 2–2 Inter / Lombardia FC — competition, exact date and venue not established, halftime 2–0",
@@ -189,66 +244,6 @@
       "checked": "Four new IDs in compiled snapshot, 742 articles, 156 results, no errors. Lead first-paint Inter 2–2; latest completed result Inter 2–2, first half 2–0. Next AC Milan away in Coppa Italia SEMIFINAL 5 March. Official club-season tracked contributions Beier29G29A, Pio35G16A, Moore7G8A, Estêvão2G1A; Pescara result not invented, Inter competition/date remain unspecified, last verified Serie A 67pts after 26 preserved. Barcelona R16 legs scheduled. Olise retains Napoli eligibility until summer Spurs transfer.",
       "reporterEyeQA": "Edited fan 'recorded sequence' statistical sourcing and removed 'photographed table' provenance from public preview. No invented manager quotes, invented player dialogue, confidential private staff comments or assigned unconfirmed Inter date/competition.",
       "productionRequests": "Only compact snapshot/runtime/comments/language/image JS; no old site-visible or stories scripts are loaded by visitors."
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published and deployed — editorial gate success, compact browser validation success, GitHub Pages success",
-    "phase": "Feb 22 Napoli 2–1 Atalanta, Pio late rebound winner vs Simón's five saves; Napoli 67 points eight clear; Barcelona UCL last sixteen Mar11 away/Mar19 home; March schedule analysis",
-    "match": "Napoli 2–1 Bergamo Calcio / Atalanta · 22 Feb 2031 · Serie A home",
-    "stories": [
-      "barcelona-napoli-ucl-round16-draw-march2031",
-      "napoli-atalanta-pio-rebound-simon-five-saves-feb2031",
-      "napoli-march-four-fronts-barcelona-roma-milan-2031",
-      "nico-paz-atalanta-moment-torino-depth-2031",
-      "bellandi-napoli-after-scoring-concentration-feb2031"
-    ],
-    "bylines": [
-      "Marco Bellini · Il Calcio Sera",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Lorenzo Ferri · European desk",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-atalanta-barcelona-ucl-march2031.js",
-      "site-visible-atalanta-barcelona-ucl-march2031.js"
-    ],
-    "gallery": [
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-goal-celebration.webp",
-      "assets/story-touchline-pressure.webp",
-      "assets/story-napoli-key-players-huddle.webp"
-    ],
-    "knownFacts": "Napoli 2–1 Atalanta 22 Feb 2031: Nico Paz 31′ goal from Beier official assist; Lopez 41′ chip off crossbar and over line; Pio Esposito late 89′ unassisted rebound goal after Moore shot saved by Unai Simón. Simón had five saves, including 2 point blank by minute27, Beier header saved at minute44, Moore shot saved 89′; Olise wide shortly before HT. After result: Napoli 26P21W4D1L 67pts, 57GF19GA +38, first and 8 clear of Roma59, Inter57, Milan57 (Milan and Lazio each 27 games, other top six 26). All club Napoli 39P32W6D1L 94GF30GA. Pio35G15A Beier28G29A Paz3G4A Moore7G7A. Barcelona UCL round-of-16 first leg away March11, return Napoli home March19, Roma league away March16 between. Napoli ended UCL league phase second unbeaten 8P6W2D20pts.",
-    "unknowns": "No UCL R16 match outcome, injury/selection/press statements, score or match-wide xG for Atalanta, any other team result outside supplied standings, precise cup round vs Milano FC. Manager did not provide press answers; player dialogue not invented. Michael Olise remains at Napoli until summer transfer to Tottenham takes effect.",
-    "coverage": "Five distinct substantial original articles: Barcelona difficult draw and UCL context, Atalanta full account and Simón's five saves, strategic calendar March three-front fixture analysis, Nico Paz character-led player feature, Bellandi critical commentary on immediate post-goal defending. 73 body paragraphs, 42 top-level supporter discussions, 123 total reader comment nodes including nested replies, recurring supporter cast and opposition perspectives. No fake manager/player quotes, no private staff dialogue.",
-    "paragraphs": 73,
-    "comments": {
-      "topLevel": 42,
-      "includingReplies": 123
-    },
-    "releaseVersion": "2031-barcelona-atalanta-feb-v1",
-    "press": "No manager or player press invented. Paz character feature built from game events, not staged statements.",
-    "technical": {
-      "sourceCommit": "0c3c508120f57d661c0932e99531ec095f1b8cbe",
-      "compiledCommit": "2c318f8b147fec8b28e71ad80e188a6db8203702",
-      "editorialGate": "success",
-      "compactBuild": "success",
-      "pagesDeployment": "success",
-      "articlesExpected": 738,
-      "resultsExpected": 155,
-      "visualQA": "Four approved gallery image files found. GitHub Action Playwright production browser tests include mobile viewport, opening current lead and comments, archived news, stats, Italy match filter. Manual separate live-CDN screenshot/crop review not performed.",
-      "editorialRun": "43088209368",
-      "buildRun": "43087848306",
-      "compactBrowserTests": "success",
-      "pagesRun": "43088209268",
-      "articles": 738,
-      "results": 155,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "barcelona-napoli-ucl-round16-draw-march2031",
-      "verifiedPublicContent": "Barcelona R16 away Mar11/home Mar19; Napoli 2–1 Atalanta latest, Pio late no assist, Paz 31 Beier assist, Lopez 41; 67 points 26 Serie A, eight clear of Roma; Milano FC/Latium 27 matches, others 26; Pio35G15A, Beier28G29A, Paz3G4A, Moore7G7A; next Pescara away Mar2; Olise still current Napoli squad until summer Spurs deal. Five new story IDs appear in compact snapshot; 738 articles and 155 results; image paths present.",
-      "qualityNote": "Original text reviewed for no invented manager/fictional player dialogue, no public internal director, no missing-data or source-identity leakage. Editorial gate 43088209368 success. Build report 0 legacy script errors."
     }
   },
   "release_history": [
@@ -591,9 +586,9 @@
     "success": true
   },
   "latest_calendar_update": {
-    "status": "Manager says Milan is next in the Coppa Italia SEMIFINAL, March 5 away; prior Pescara March 2 fixture result/status not supplied",
+    "status": "After March5 Coppa semifinal first leg Milan 0–2 Napoli. Next Venezia home March8; Barcelona UCL R16 first leg away March11, Roma away Mar16, Barcelona UCL R16 second leg home Mar19. Coppa semifinal return date unannounced.",
     "type": "Manager-supplied FC 26 calendar photo update only; no new story authorization or player press",
-    "selectedGameDate": "2031-03-05",
+    "selectedGameDate": "2031-03-08",
     "confirmedResults": [
       {
         "date": "2031-02-01",
@@ -712,11 +707,11 @@
       "outcome": "Not played"
     },
     "nextClubFixture": {
-      "date": "2031-03-05",
-      "opponent": "Milano FC / AC Milan",
-      "venue": "Away",
-      "competition": "Coppa Italia",
-      "stage": "Semifinal"
+      "date": "2031-03-08",
+      "opponent": "Venezia",
+      "venue": "Home",
+      "competition": "Serie A",
+      "status": "scheduled"
     },
     "pescaraMarch2": {
       "opponent": "Pescara",
@@ -732,6 +727,51 @@
       "competition": null,
       "date": null,
       "venue": null
+    },
+    "lastMatch": {
+      "date": "2031-03-05",
+      "opponent": "Milano FC / AC Milan",
+      "venue": "Away",
+      "competition": "Coppa Italia",
+      "stage": "Semifinal first leg",
+      "result": "Milano FC 0–2 Napoli"
+    },
+    "coppaSemifinal": {
+      "firstLeg": {
+        "date": "2031-03-05",
+        "opponent": "Milano FC",
+        "venue": "Away",
+        "result": "0–2",
+        "status": "completed"
+      },
+      "secondLeg": {
+        "date": null,
+        "venue": null,
+        "status": "not played"
+      },
+      "aggregate": {
+        "Napoli": 2,
+        "MilanoFC": 0
+      },
+      "qualifiedForFinal": false
+    },
+    "kayode": {
+      "status": "Injured",
+      "outWeeks": 4,
+      "from": "2031-03-05",
+      "estimatedReturn": "early April, subject to recovery"
+    },
+    "development": {
+      "Rossetti": {
+        "age": 19,
+        "overall": 81,
+        "trend": "progressing"
+      },
+      "Mancini": {
+        "age": 22,
+        "overall": 77,
+        "trend": "stalled"
+      }
     }
   },
   "latest_canon_only_checkpoint": {
