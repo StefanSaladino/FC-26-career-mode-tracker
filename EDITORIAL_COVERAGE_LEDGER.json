@@ -760,40 +760,24 @@
     }
   },
   "latest_canon_only_checkpoint": {
-    "type": "Manager-confirmed March 8 2031 match — CANON ONLY / NO PRESS OR PUBLICATION AUTHORIZED",
-    "date": "2031-03-08",
-    "match": "Napoli 3–0 Venezia",
-    "competition": "Serie A",
-    "goals": [
-      {
-        "minute": 32,
-        "player": "Maximilian Beier",
-        "provider": "Estêvão"
-      },
-      {
-        "minute": 61,
-        "player": "Pio Esposito",
-        "provider": "Alessandro Bastoni"
-      },
-      {
-        "minute": 83,
-        "player": "Pio Esposito",
-        "provider": "Maximilian Beier"
-      }
-    ],
-    "cleanSheet": "team; goalkeeper unknown",
-    "matchPointsEarned": 3,
-    "trackedNapoliClubAfter": {
-      "Pio": "37G16A",
-      "Beier": "31G30A",
-      "Estêvão": "2G2A",
-      "Bastoni": "0G1A"
+    "type": "Private squad-planning update after Venezia Mar8 2031 — no newsroom authorization",
+    "Rossetti": {
+      "age": 19,
+      "overall": 81,
+      "gameMarketValueUSD": 65000000,
+      "currentStatus": "On loan, summer 2031 return confirmed by Mister"
     },
-    "caveat": "Not complete league totals or final official Squad Hub, Pescara March 2 result missing, Inter match competition/date unknown; do not advance Italy totals.",
-    "next": "Barcelona away, 11 March 2031 UCL Round of 16 first leg",
-    "newsroom": "Held without publication; Milan five-story latest approved package unchanged",
-    "publicationAuthorized": true,
-    "newStatus": "Superseded by subsequent manager authorisation to publish Venezia"
+    "Estevao": {
+      "trackedNapoli203031": "2 goals, 2 assists",
+      "minutes": "limited, numeric minutes unknown",
+      "managerIdea": "consider more playing time, not decided"
+    },
+    "Olise": {
+      "trackedNapoli203031": "1 goal, 8 assists",
+      "transfer": "$197.9m to Tottenham agreed, effective summer 2031"
+    },
+    "privacy": "Staff-room only; no fresh publication rights",
+    "nextFixture": "Barcelona away March11 UCL Round of 16 first leg"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
