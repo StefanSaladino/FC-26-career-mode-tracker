@@ -128,7 +128,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Manager approved five articles and public site source; compact build/browser regression and Pages deployment verification pending",
+    "status": "Published and deployed — editorial gate success, compact browser validation success, GitHub Pages success",
     "phase": "Feb 22 Napoli 2–1 Atalanta, Pio late rebound winner vs Simón's five saves; Napoli 67 points eight clear; Barcelona UCL last sixteen Mar11 away/Mar19 home; March schedule analysis",
     "match": "Napoli 2–1 Bergamo Calcio / Atalanta · 22 Feb 2031 · Serie A home",
     "stories": [
@@ -166,14 +166,25 @@
     "releaseVersion": "2031-barcelona-atalanta-feb-v1",
     "press": "No manager or player press invented. Paz character feature built from game events, not staged statements.",
     "technical": {
-      "sourceCommit": null,
-      "compiledCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
+      "sourceCommit": "0c3c508120f57d661c0932e99531ec095f1b8cbe",
+      "compiledCommit": "2c318f8b147fec8b28e71ad80e188a6db8203702",
+      "editorialGate": "success",
+      "compactBuild": "success",
+      "pagesDeployment": "success",
       "articlesExpected": 738,
       "resultsExpected": 155,
-      "visualQA": "Four approved gallery cover assets verified exist; no manual rendered crop review."
+      "visualQA": "Four approved gallery image files found. GitHub Action Playwright production browser tests include mobile viewport, opening current lead and comments, archived news, stats, Italy match filter. Manual separate live-CDN screenshot/crop review not performed.",
+      "editorialRun": "43088209368",
+      "buildRun": "43087848306",
+      "compactBrowserTests": "success",
+      "pagesRun": "43088209268",
+      "articles": 738,
+      "results": 155,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "barcelona-napoli-ucl-round16-draw-march2031",
+      "verifiedPublicContent": "Barcelona R16 away Mar11/home Mar19; Napoli 2–1 Atalanta latest, Pio late no assist, Paz 31 Beier assist, Lopez 41; 67 points 26 Serie A, eight clear of Roma; Milano FC/Latium 27 matches, others 26; Pio35G15A, Beier28G29A, Paz3G4A, Moore7G7A; next Pescara away Mar2; Olise still current Napoli squad until summer Spurs deal. Five new story IDs appear in compact snapshot; 738 articles and 155 results; image paths present.",
+      "qualityNote": "Original text reviewed for no invented manager/fictional player dialogue, no public internal director, no missing-data or source-identity leakage. Editorial gate 43088209368 success. Build report 0 legacy script errors."
     }
   },
   "previous_newsroom_package": {
@@ -562,12 +573,12 @@
     "most_recent_source_fixture": "Napoli 4–1 Lecce · 48 points /19 league games",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183",
-    "latestRelease": "February 2031 Parma/Sampdoria/64pts/Moore",
-    "compiledCommit": "d279d7dca9594da1fe2c852a7562d13cb1a791f6",
-    "articles": 733,
-    "results": 154,
-    "buildRun": "42925520541",
-    "pagesRun": "42925605293",
+    "latestRelease": "February 22, 2031 Atalanta/Barcelona R16 March edition",
+    "compiledCommit": "2c318f8b147fec8b28e71ad80e188a6db8203702",
+    "articles": 738,
+    "results": 155,
+    "buildRun": "43087848306",
+    "pagesRun": "43088209268",
     "success": true
   },
   "latest_calendar_update": {
