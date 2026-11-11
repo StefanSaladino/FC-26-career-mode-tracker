@@ -133,7 +133,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Manager authorised; source scripts and 4 full stories prepared, compact build and Pages deployment verification pending",
+    "status": "PUBLISHED — full editorial validation success, compact browser regression success, GitHub Pages deployment success",
     "phase": "Napoli 2–2 Inter, 2–0 halftime lead surrendered; Estêvão-Moore and Pio-Beier partnerships; Epolo/Pavard defensive analysis; AC Milan away Coppa semifinal next March 5",
     "match": "Napoli 2–2 Inter / Lombardia FC — competition, exact date and venue not established, halftime 2–0",
     "stories": [
@@ -169,14 +169,26 @@
     "releaseVersion": "2031-inter-milan-semi-mar-v1",
     "press": "Manager explicitly says run stories, not a press interview. No manager answers supplied or invented. Player character feature without fabricated dialogue.",
     "technical": {
-      "sourceCommit": null,
-      "compiledCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
+      "sourceCommit": "2a4ff25d23515d9ae3f2afa320f5e83b29e76c07",
+      "compiledCommit": "95adfa913863b9a29f6ffb85465f0d05f628512c",
+      "editorialGate": "success",
+      "compactBuild": "success",
+      "pagesDeployment": "success",
       "articlesExpected": 742,
       "resultsExpected": 156,
-      "visualQA": "Four approved gallery cover assets verified in repo, manual rendered mobile/desktop cropping not yet inspected."
+      "visualQA": "Four approved gallery image paths verified exist. Automated headless browser tests covered home lead, article reader and comments, archive, stats, Italy filters and mobile viewport. Manual independent screenshot/crop inspection not performed.",
+      "editorialRun": "43092587658",
+      "buildRun": "43092587471",
+      "compactBrowserTests": "success",
+      "pagesRun": "43092716973",
+      "articles": 742,
+      "results": 156,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "firstPaintLead": "napoli-inter-two-two-epolo-pavard-comeback-mar2031",
+      "checked": "Four new IDs in compiled snapshot, 742 articles, 156 results, no errors. Lead first-paint Inter 2–2; latest completed result Inter 2–2, first half 2–0. Next AC Milan away in Coppa Italia SEMIFINAL 5 March. Official club-season tracked contributions Beier29G29A, Pio35G16A, Moore7G8A, Estêvão2G1A; Pescara result not invented, Inter competition/date remain unspecified, last verified Serie A 67pts after 26 preserved. Barcelona R16 legs scheduled. Olise retains Napoli eligibility until summer Spurs transfer.",
+      "reporterEyeQA": "Edited fan 'recorded sequence' statistical sourcing and removed 'photographed table' provenance from public preview. No invented manager quotes, invented player dialogue, confidential private staff comments or assigned unconfirmed Inter date/competition.",
+      "productionRequests": "Only compact snapshot/runtime/comments/language/image JS; no old site-visible or stories scripts are loaded by visitors."
     }
   },
   "previous_newsroom_package": {
@@ -570,12 +582,12 @@
     "most_recent_source_fixture": "Napoli 4–1 Lecce · 48 points /19 league games",
     "pendingCorrection": null,
     "last_browser_build_run": "https://github.com/StefanSaladino/FC-26-career-mode-tracker/actions/runs/42705492183",
-    "latestRelease": "February 22, 2031 Atalanta/Barcelona R16 March edition",
-    "compiledCommit": "2c318f8b147fec8b28e71ad80e188a6db8203702",
-    "articles": 738,
-    "results": 155,
-    "buildRun": "43087848306",
-    "pagesRun": "43088209268",
+    "latestRelease": "Napoli 2–2 Inter and Milan Coppa Italia semifinal next (before 5 Mar 2031)",
+    "compiledCommit": "95adfa913863b9a29f6ffb85465f0d05f628512c",
+    "articles": 742,
+    "results": 156,
+    "buildRun": "43092587471",
+    "pagesRun": "43092716973",
     "success": true
   },
   "latest_calendar_update": {
