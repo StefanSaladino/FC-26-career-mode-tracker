@@ -13,7 +13,7 @@ permissions:
   contents: write
 concurrency:
   group: static-snapshot-main
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -35,18 +35,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html snapshot-data.js news-archive.json snapshot-build-report.json
           if ! git diff --cached --quiet; then
+            git fetch origin main
+            if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then
+              echo "Skipping stale snapshot: main advanced after this job checked out."
+              exit 0
+            fi
             git commit -m "Compile compact season room edition [skip ci]"
-            # Other editorial commits may reach main while Playwright compiles.
-            # Rebase the generated-only commit onto the latest main before publishing.
-            for attempt in 1 2 3; do
-              git fetch origin main
-              git rebase origin/main
-              if git push origin HEAD:main; then
-                break
-              fi
-              if [ "$attempt" -eq 3 ]; then
-                echo "Unable to publish compiled site after three push attempts" >&2
-                exit 1
-              fi
-            done
+            git push origin HEAD:main
           fi

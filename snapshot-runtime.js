@@ -9,8 +9,15 @@ async function loadArchive(){
   const response=await fetch(manifest.archiveUrl,{cache:'no-cache'});
   if(!response.ok)throw Error('News archive unavailable: '+response.status);
   const record=await response.json();
-  if(!Array.isArray(record.articles)||record.articles.length!==manifest.totalArticles)throw Error('Archive article count mismatch');
-  D.articles=record.articles;
+  if(!Array.isArray(record.articles))throw Error('News archive articles missing');
+  // A connector-published recent package may precede the deferred CI archive rebuild.
+  // Merge recent preloaded articles only when absent; a subsequent full CI archive
+  // already containing them is deduplicated automatically.
+  const existing=new Set(record.articles.map(a=>a.id));
+  const recentExtra=(D.articles||[]).filter(a=>a?.id&&!existing.has(a.id));
+  const combined=[...recentExtra,...record.articles];
+  if(combined.length!==manifest.totalArticles)throw Error('Archive article count mismatch: '+combined.length+'/'+manifest.totalArticles);
+  D.articles=combined;
   window.NAPOLI_COMMENT_OVERRIDE=record.comments?.commentOverride||{};
   window.NAPOLI_CURATED_ARCHIVE=record.comments?.curatedArchive||{};
   window.NAPOLI_LEGACY_AUTHORED_COMMENTS=record.comments?.legacyAuthoredComments||{};
