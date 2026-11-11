@@ -123,7 +123,7 @@
       "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–0 Venezia · Serie A HOME · 8 March 2031. Beier 32′ assisted by Estêvão; Pio Esposito 61′ assisted by Bastoni and 83′ assisted by Beier. Full-time 3–0, team clean sheet; goalkeeper not identified. Pio 2G, Beier 1G1A, Estêvão 1A, Bastoni 1A. Next FC Barcelona away March 11 UCL Round of 16 first leg. Milan Coppa semifinal second leg unplayed.",
+  "latest_confirmed_match": "FC Barcelona 2–1 Napoli · UEFA Champions League Round of 16 FIRST LEG · Away, March 11, 2031. Endrick 22′, Pedri 51′; Beier 81′ assisted by Mikey Moore. Half time Barcelona 1–0. Barcelona lead 2–1 on aggregate, Napoli host return March19. Next Roma away Serie A March16. No newsroom release authorized.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -760,29 +760,45 @@
     }
   },
   "latest_canon_only_checkpoint": {
-    "type": "Private squad/finance directive after Venezia 8 March 2031",
-    "Rossetti": {
-      "age": 19,
-      "overall": 81,
-      "marketValueUSD": 65000000,
-      "summerLoanReturn": true,
-      "saleStatus": "Mister explicitly rules out selling Rossetti; retain",
-      "firstTeamRole": "to assess in preseason; not pre-guaranteed"
-    },
-    "transferBudget": {
-      "currency": "USD (in-game)",
-      "amount": 200000000,
-      "stage": "AFTER paying Estêvão transfer fee, BEFORE receiving Olise sale proceeds",
-      "OliseSale": {
-        "agreedFeeUSD": 197900000,
-        "completion": "Summer 2031; not yet received"
+    "type": "Manager-confirmed Barcelona 2–1 Napoli UCL R16 away first leg — private canon only",
+    "date": "2031-03-11",
+    "competition": "UEFA Champions League",
+    "stage": "Round of 16, first leg",
+    "result": "Barcelona 2–1 Napoli",
+    "venue": "Away",
+    "events": [
+      {
+        "minute": 22,
+        "scorer": "Endrick",
+        "club": "Barcelona"
+      },
+      {
+        "minute": 51,
+        "scorer": "Pedri",
+        "club": "Barcelona"
+      },
+      {
+        "minute": 81,
+        "scorer": "Maximilian Beier",
+        "club": "Napoli",
+        "assist": "Mikey Moore"
       }
+    ],
+    "halftime": "Barcelona 1–0 Napoli",
+    "tie": {
+      "aggregate": "Barcelona 2–1 Napoli",
+      "secondLeg": "Napoli home March 19 2031, unplayed"
     },
-    "Estevao": {
-      "approach": "more opportunities under consideration; no lineup ordered"
+    "trackedNapoliClubStatsAfter": {
+      "Beier": "32G30A",
+      "Moore": "7G9A",
+      "Pio": "37G16A",
+      "Estevao": "2G2A",
+      "Olise": "1G8A"
     },
-    "publicRelease": "none; private staff-room information",
-    "next": "Barcelona away March 11, 2031, UCL R16 first leg"
+    "next": "Roma away March16 Serie A",
+    "publicationStatus": "not authorized; public site still Venezia edition",
+    "privateDecisionContinuity": "Rossetti no-sale policy, $65m valuation and $200m current transfer budget remain unchanged"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
