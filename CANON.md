@@ -1,3 +1,28 @@
+## 22 FEBRUARY 2031 — UPDATED SERIE A TABLE AND MARCH CALENDAR · BARCELONA UCL ROUND OF 16
+
+- **SOURCE:** After confirming **Napoli 2–1 Bergamo Calcio / Atalanta** on 22 February 2031, the Mister shared **two FC 26 screenshots**: refreshed **2030/31 Serie A Enilive top six** and **March 2031 calendar**. The UCL round-of-16 opponent is **FC BARCELONA**, replacing older 'opponent unknown' statements. Treat the photographed calendar as authoritative; no draw leg outcomes have yet been played. The manager comments “So much for a favourable draw in the UCL round of 16.” No press quote authorisation.
+- **SERIE A TABLE AS SHOWN (rank, team, P/W/D/L, GF/GA/GD, points):**
+  1. **SSC Napoli — 26/21/4/1, 57/19/+38, 67 pts**.
+  2. **AS Roma — 26/18/5/3, 49/28/+21, 59 pts** (**8 behind** Napoli).
+  3. **Lombardia FC / Inter — 26/17/6/3, 54/28/+26, 57 pts** (**10 behind**).
+  4. **Milano FC / AC Milan — 27/17/6/4, 55/30/+25, 57 pts** (**10 behind**, **has played one MORE league match** than Napoli, Roma, Inter, Juventus).
+  5. **Juventus — 26/15/7/4, 52/31/+21, 52 pts** (**15 behind**).
+  6. **Latium / Lazio — 27/13/7/7, 37/36/+1, 46 pts** (**21 behind, also has played one more league match**).
+  Napoli remain **FIRST on 67 points**, **eight clear of Roma** after all six latest table entries; leaders have **12 of 38 Serie A matches remaining**. Do not infer all rivals have played 26. The previous 25-game table is historical and no longer the latest; names use in-game aliases correctly. Do not fabricate opponents' scores to explain changes. Barcelona tie is entirely separate from Serie A standings.
+- **NEWLY CONFIRMED MARCH FIXTURES FROM SCREENSHOT:**
+  - **2 March 2031 — Pescara, AWAY, SERIE A** (next).
+  - **5 March 2031 — Milano FC / AC Milan, AWAY, COPPA ITALIA** (specific cup round still unknown; do not infer round from calendar).
+  - **8 March 2031 — Venezia, HOME, SERIE A**.
+  - **11 March 2031 — FC BARCELONA, AWAY, UEFA CHAMPIONS LEAGUE ROUND OF 16 FIRST LEG** (calendar tile shows Barcelona logo and 'Away UCL').
+  - **16 March 2031 — AS Roma, AWAY, SERIE A** (high-stakes title race head-to-head).
+  - **19 March 2031 — FC BARCELONA, HOME, UEFA CHAMPIONS LEAGUE ROUND OF 16 SECOND LEG** (calendar tile Barcelona 'Home UCL').
+  - **23 March 2031 — Latium / Lazio, HOME, SERIE A**.
+  - **26 March 2031 — Italy v HUNGARY, AWAY, INTERNATIONAL** (international format not specified).
+  - **29 March 2031 — Italy v UKRAINE, HOME, INTERNATIONAL**.
+- **COMPETITION CONTEXT:** Napoli qualified directly for Champions League round of 16 by finishing **2nd and unbeaten in UCL league phase, 8P6W2D 20 points 18GF5GA +13**. March 11 **away at Barcelona**, March 19 **home**. The calendar provides a demanding sequence: Pescara away, Coppa Milan away, Venezia home, Barcelona away, Roma away, Barcelona home, Lazio home over **2–23 March**. **No UCL scores**, formations, injury updates or Barcelona player news supplied.
+- **PRIVATE SANDRO STAFF ASSESSMENT, NOT PUBLIC PRESS:** Barcelona is an unusually difficult R16 opponent for a second-place unbeaten qualifier. Strong league position (eight-point cushion) allows intelligent rotation but not complacency. Managing fatigue and availability ahead of Milan cup March 5, Barcelona March 11/19 and Roma March 16 will be important; avoid inventing a specific starting XI or resting named players without manager's choices.
+- **PUBLICATION HOLD:** Updated standings and confirmed Barcelona R16 pairing and schedule are logged to **sole CANON.md only**. Manager has **NOT** instructed “run the stories” for Atalanta or the UCL draw. Existing public season room remains at previous approved Parma/Sampdoria publication. Do not publish articles or modify public home-page upcoming/standings until explicitly authorised. Next played match not yet started: Pescara away 2 March.
+
 ## 22 FEBRUARY 2031 — NAPOLI 2–1 BERGAMO CALCIO / ATALANTA · PIO LATE REBOUND WINNER
 
 - **MISTER-CONFIRMED FULL TIME:** **Napoli 2–1 Bergamo Calcio / Atalanta**, **Serie A home, 22 February 2031**. Napoli take three points. **31′ Nico Paz scored** from a **Maximilian Beier official assist**, 1–0 Napoli. **41′ Lopez equalised for Atalanta**, delicate chipped shot hit the crossbar and bounced just over the goal line, 1–1. Near the end, **89′ Mikey Moore worked his way into the box and shot; Unai Simón made the fifth save of his evening as reported by Mister**, but the loose ball was sitting there and **Pio Esposito scored the rebound for 2–1 Napoli at roughly the 89th minute**, **NO official assist credited to Moore or any other player**. Match finished **2–1 Napoli**. No scorer or assist beyond these recorded. No invented shot totals or match xG.
