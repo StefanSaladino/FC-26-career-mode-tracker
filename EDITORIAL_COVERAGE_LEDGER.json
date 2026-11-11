@@ -106,9 +106,14 @@
       "month": "2031-02",
       "status": "covered",
       "note": "Elena De Luca character-led Mikey Moore profile following his 62′ goal in rainy Napoli 1–1 Parma on 9 February; accurate 7G7A Napoli club season totals. No invented player dialogue or manager quotes. February also includes a new Beier/Pio attacking partnership discussion after Sampdoria 2–1, 15 February."
+    },
+    {
+      "month": "2031-02",
+      "status": "covered_additional",
+      "note": "Elena De Luca player focus on Nico Paz after 31′ goal from Beier against Atalanta; three goals and four assists Napoli 2030–31 season, follows his goal in extra time against Torino. Distinct from February Moore 7G7A feature; no fictitious player interview or quotes."
     }
   ],
-  "latest_confirmed_match": "Sampdoria 1–2 Napoli · 15 Feb 2031 Serie A away: Beier 9′ (Pio assist, individual shot xG 0.1), Pio 67′ (Beier assist), Pedrola 76′. Prior Napoli 1–1 Parma · 9 Feb rainy home Serie A: Moore 62′ (Beier assist), Sørensen 66′. Napoli 25P20W4D1L 64 pts, seven clear of Milano FC after updated photographed top-six.",
+  "latest_confirmed_match": "Napoli 2–1 Bergamo Calcio / Atalanta 22 Feb 2031 Serie A home. Nico Paz 31′ official Beier assist; Lopez 41′ chip hits bar and crosses line; Pio Esposito late ~89′ rebound on Moore shot saved by Unai Simón, no credited assist. Simón five saves. Napoli 26P21W4D1L 67pts GF57 GA19 +38, eight clear of Roma; next Pescara away March 2.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -123,6 +128,55 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Manager approved five articles and public site source; compact build/browser regression and Pages deployment verification pending",
+    "phase": "Feb 22 Napoli 2–1 Atalanta, Pio late rebound winner vs Simón's five saves; Napoli 67 points eight clear; Barcelona UCL last sixteen Mar11 away/Mar19 home; March schedule analysis",
+    "match": "Napoli 2–1 Bergamo Calcio / Atalanta · 22 Feb 2031 · Serie A home",
+    "stories": [
+      "barcelona-napoli-ucl-round16-draw-march2031",
+      "napoli-atalanta-pio-rebound-simon-five-saves-feb2031",
+      "napoli-march-four-fronts-barcelona-roma-milan-2031",
+      "nico-paz-atalanta-moment-torino-depth-2031",
+      "bellandi-napoli-after-scoring-concentration-feb2031"
+    ],
+    "bylines": [
+      "Marco Bellini · Il Calcio Sera",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Lorenzo Ferri · European desk",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "source": [
+      "stories-atalanta-barcelona-ucl-march2031.js",
+      "site-visible-atalanta-barcelona-ucl-march2031.js"
+    ],
+    "gallery": [
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-goal-celebration.webp",
+      "assets/story-touchline-pressure.webp",
+      "assets/story-napoli-key-players-huddle.webp"
+    ],
+    "knownFacts": "Napoli 2–1 Atalanta 22 Feb 2031: Nico Paz 31′ goal from Beier official assist; Lopez 41′ chip off crossbar and over line; Pio Esposito late 89′ unassisted rebound goal after Moore shot saved by Unai Simón. Simón had five saves, including 2 point blank by minute27, Beier header saved at minute44, Moore shot saved 89′; Olise wide shortly before HT. After result: Napoli 26P21W4D1L 67pts, 57GF19GA +38, first and 8 clear of Roma59, Inter57, Milan57 (Milan and Lazio each 27 games, other top six 26). All club Napoli 39P32W6D1L 94GF30GA. Pio35G15A Beier28G29A Paz3G4A Moore7G7A. Barcelona UCL round-of-16 first leg away March11, return Napoli home March19, Roma league away March16 between. Napoli ended UCL league phase second unbeaten 8P6W2D20pts.",
+    "unknowns": "No UCL R16 match outcome, injury/selection/press statements, score or match-wide xG for Atalanta, any other team result outside supplied standings, precise cup round vs Milano FC. Manager did not provide press answers; player dialogue not invented. Michael Olise remains at Napoli until summer transfer to Tottenham takes effect.",
+    "coverage": "Five distinct substantial original articles: Barcelona difficult draw and UCL context, Atalanta full account and Simón's five saves, strategic calendar March three-front fixture analysis, Nico Paz character-led player feature, Bellandi critical commentary on immediate post-goal defending. 73 body paragraphs, 42 top-level supporter discussions, 123 total reader comment nodes including nested replies, recurring supporter cast and opposition perspectives. No fake manager/player quotes, no private staff dialogue.",
+    "paragraphs": 73,
+    "comments": {
+      "topLevel": 42,
+      "includingReplies": 123
+    },
+    "releaseVersion": "2031-barcelona-atalanta-feb-v1",
+    "press": "No manager or player press invented. Paz character feature built from game events, not staged statements.",
+    "technical": {
+      "sourceCommit": null,
+      "compiledCommit": null,
+      "editorialGate": "pending",
+      "compactBuild": "pending",
+      "pagesDeployment": "pending",
+      "articlesExpected": 738,
+      "resultsExpected": 155,
+      "visualQA": "Four approved gallery cover assets verified exist; no manual rendered crop review."
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Published — editorial gate SUCCESS, compact build and mobile browser checks SUCCESS, GitHub Pages deployment SUCCESS",
     "phase": "Parma 1–1 rainy home draw · Sampdoria 1–2 Napoli away win · Napoli seven clear on 64 points after 25 · Mikey Moore 7G7A profile",
     "match": "Sampdoria 1–2 Napoli on 15 February 2031, away Serie A; preceding 9 Feb 2031 home Serie A Napoli 1–1 Parma",
@@ -175,66 +229,6 @@
       "lead": "sampdoria-napoli-beier-pio-01xg-feb2031",
       "checked": "Four story IDs in compact snapshot; static first paint agrees with Sampdoria 2–1 lead; Parma 1–1 and Sampdoria 2–1 in results, 154 total. Current standings Napoli 25P64pts, Milano FC 57, Roma56, Lombardia54, Juventus51, Latium43. Beier28G28A Pio34G15A Moore7G7A. Next Bergamo Calcio home 22 Feb. Olise remains active Napoli until $197.9m Spurs move effective summer. Production requests only compact JS assets.",
       "buildRepair": "An intermediate build completed Playwright but could not push generated files because newer editorial commits had advanced main. Workflow amended to fetch/rebase generated-only commit before pushing, and final run 42925520541 passed all steps, yielding compiled commit d279d7... and Pages success 42925605293."
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact build and browser regression, and GitHub Pages deployment SUCCESS",
-    "phase": "Olise $197.9m Tottenham transfer effective summer; Torino 2–5 Napoli AET Coppa Italia; Beier hat-trick",
-    "match": "Torino 2–5 Napoli after extra time; 2–2 after 90; exact game date, round and venue not established",
-    "stories": [
-      "olise-spurs-1979m-summer-sale-agreed-2031",
-      "torino-napoli-five-two-aet-beier-hat-trick-coppa2031",
-      "beier-torino-three-goals-one-assist-2031",
-      "olise-final-napoli-stretch-estevao-2031",
-      "bellandi-torino-defence-while-beier-runs-riot-2031"
-    ],
-    "bylines": [
-      "Marco Bellini · Il Calcio Sera",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Lorenzo Ferri · European desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "source": [
-      "stories-olise-spurs-torino-coppa-2031.js",
-      "site-visible-olise-spurs-torino-coppa-2031.js"
-    ],
-    "gallery": [
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-goal-celebration.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-napoli-home-crowd.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "knownFacts": "Torino 2–5 Napoli after extra time, Coppa Italia, 2–2 after 90, following Fiorentina 3–0. Beier 45+1′ (Estêvão assist), 65′ (Moore), 96′ (Pio), and Beier assist Nico Paz 120′. Pio 101′ (Olise assist); Silva 24′ and Ciammaglichella 74′ for Torino. Olise sale to Tottenham for $197.9m agreed, future effective date when summer window opens, retains Napoli status until then. Transfer fee confirmed explicitly $197.9 million (dollars), registration effective opening of summer 2031 window. Olise remains a Napoli player until then.",
-    "unknowns": "Torino cup round and exact date, venue and future fixture, Fiorentina competition, specific transfer effective date/contract with Tottenham not given. No manager press replies. Private renewal salary negotiations must not be surfaced in this release.",
-    "coverage": "Five substantial news features: Olise $197.9m Tottenham agreement effective summer; Torino 5–2 AET Coppa report; Beier 27G26A character feature; Olise/Estêvão attacking transition analysis; Bellandi defence critique. 69 substantive article paragraphs, 44 originally authored supporter threads with replies. No fabricated manager statements, no leaked private Olise wage requests.",
-    "paragraphs": 69,
-    "comments": {
-      "topLevel": 44
-    },
-    "releaseVersion": "2031-torino-olise-spurs-1979m-v1",
-    "press": "No manager press requested or invented; no player dialogue. All private staff discussions excluded.",
-    "technical": {
-      "sourceCommit": "c4bdaaca340849dae179aa3e2f3dd5d56b4c974f",
-      "compiledCommit": "7ebe40e370a32badd6147ebb9d03c436e938afc8",
-      "compactBuild": "success",
-      "compactBrowserTests": "success",
-      "articles": 729,
-      "results": 152,
-      "seasons": 4,
-      "legacyScriptErrors": 0,
-      "firstPaintLead": "olise-spurs-1979m-summer-sale-agreed-2031",
-      "compiledDataChecked": "Fee exactly $197.9m dollars; agreed summer move, Olise still present in Napoli public Attackers; Torino 5–2 AET result; player club totals Beier27G26A Pio33G14A NicoPaz2G4A Olise1G8A Moore6G7A Estevao1G1A. UCL second with 20 points; Serie A unchanged at 57 after Bologna pending Fiorentina competition.",
-      "editorialGate": "success",
-      "pagesDeployment": "success",
-      "visualQA": "Five approved gallery images exist; direct public live-URL inspection and independent desktop/mobile image-crop review not performed.",
-      "editorialRun": "42898568841",
-      "buildRun": "42898568928",
-      "pagesRun": "42899063474",
-      "verifiedCompiled": "Lead, five fresh story IDs, Torino 2–5 Napoli AET result, Tottenham $197.9m future-dated sale, Olise current squad retained, Napoli player stats all verified in compiled snapshot; source scripts not in public index",
-      "verifiedStats": "Beier 27G26A; Pio Esposito 33G14A; Nico Paz 2G4A; Olise 1G8A; Moore 6G7A; Estêvão 1G1A; Serie A through Bologna 57pts/22; UCL second 20pts/8; Italy separate.",
-      "releaseNote": "One intermediate authoring commit failed compact build while new first-paint lead preceded the source loader; later complete-source run 42898568928 passed, generated commit and Pages deployment succeeded."
     }
   },
   "release_history": [
@@ -577,9 +571,9 @@
     "success": true
   },
   "latest_calendar_update": {
-    "status": "Verified compact public edition built and GitHub Pages deployed",
+    "status": "Manager-verified March fixture photo, Barcelona R16 tie, publication now authorised with latest Atalanta newsroom package",
     "type": "Manager-supplied FC 26 calendar photo update only; no new story authorization or player press",
-    "selectedGameDate": "2031-02-09",
+    "selectedGameDate": "2031-03-02",
     "confirmedResults": [
       {
         "date": "2031-02-01",
@@ -597,35 +591,18 @@
       }
     ],
     "latestSerieA": {
-      "played": 23,
-      "wins": 19,
-      "draws": 3,
+      "played": 26,
+      "wins": 21,
+      "draws": 4,
       "losses": 1,
-      "points": 60,
-      "goalsFor": 52,
-      "goalsAgainst": 16,
-      "goalDifference": 36,
-      "position": null
+      "points": 67,
+      "goalsFor": 57,
+      "goalsAgainst": 19,
+      "goalDifference": 38,
+      "position": 1,
+      "gapToSecond": 8
     },
     "napoliFutureFixtures": [
-      [
-        "2031-02-09",
-        "Parma",
-        "Home",
-        "Serie A"
-      ],
-      [
-        "2031-02-15",
-        "Sampdoria",
-        "Away",
-        "Serie A"
-      ],
-      [
-        "2031-02-22",
-        "Bergamo Calcio / Atalanta",
-        "Home",
-        "Serie A"
-      ],
       [
         "2031-03-02",
         "Pescara",
@@ -645,10 +622,22 @@
         "Serie A"
       ],
       [
+        "2031-03-11",
+        "FC Barcelona",
+        "Away",
+        "UCL round of 16 first leg"
+      ],
+      [
         "2031-03-16",
-        "Roma",
+        "AS Roma",
         "Away",
         "Serie A"
+      ],
+      [
+        "2031-03-19",
+        "FC Barcelona",
+        "Home",
+        "UCL round of 16 second leg"
       ],
       [
         "2031-03-23",
@@ -693,7 +682,15 @@
       "seasons": 4,
       "legacyErrors": 0
     },
-    "compiledStateVerified": "Compiled index.html first paint retains Olise $197.9m transfer lead and shows Parma next; snapshot-data.js includes 12 calendar entries (2 completed club, 8 scheduled club, 2 Italy), Fiorentina league allocation, Torino Feb5, Napoli Serie A 23P60pts; no extra club games, no changed player stats, no new articles."
+    "compiledStateVerified": "Compiled index.html first paint retains Olise $197.9m transfer lead and shows Parma next; snapshot-data.js includes 12 calendar entries (2 completed club, 8 scheduled club, 2 Italy), Fiorentina league allocation, Torino Feb5, Napoli Serie A 23P60pts; no extra club games, no changed player stats, no new articles.",
+    "roundOf16": {
+      "opponent": "FC Barcelona",
+      "firstLegDate": "2031-03-11",
+      "firstLegVenue": "Away",
+      "secondLegDate": "2031-03-19",
+      "secondLegVenue": "Home",
+      "outcome": "Not played"
+    }
   },
   "latest_canon_only_checkpoint": {
     "dateContext": "12 January 2031",
@@ -955,81 +952,80 @@
     }
   ],
   "latest_league_table_verified_feb2031": {
-    "date": "2031-02-15",
-    "allTeamsPlayed": 25,
+    "date": "2031-02-22",
+    "source": "Manager FC26 league standings photograph after Napoli 2–1 Atalanta",
     "topSixOnly": true,
     "rows": [
       [
         "SSC Napoli",
-        25,
-        20,
+        26,
+        21,
         4,
         1,
-        55,
-        18,
-        37,
-        64
-      ],
-      [
-        "Milano FC",
-        25,
-        17,
-        6,
-        2,
-        54,
-        26,
-        28,
-        57
+        57,
+        19,
+        38,
+        67
       ],
       [
         "AS Roma",
-        25,
-        17,
+        26,
+        18,
         5,
         3,
-        46,
-        27,
-        19,
-        56
+        49,
+        28,
+        21,
+        59
       ],
       [
         "Lombardia FC",
-        25,
-        16,
+        26,
+        17,
         6,
         3,
-        51,
+        54,
         28,
-        23,
-        54
+        26,
+        57
+      ],
+      [
+        "Milano FC",
+        27,
+        17,
+        6,
+        4,
+        55,
+        30,
+        25,
+        57
       ],
       [
         "Juventus",
-        25,
+        26,
         15,
-        6,
+        7,
         4,
-        51,
-        30,
+        52,
+        31,
         21,
-        51
+        52
       ],
       [
         "Latium",
-        25,
-        12,
+        27,
+        13,
         7,
-        6,
-        35,
-        32,
-        3,
-        43
+        7,
+        37,
+        36,
+        1,
+        46
       ]
     ],
-    "source": "Manager's FC 26 league screenshot supplied after Sampdoria 1–2 Napoli FT",
-    "gapToSecond": 7,
-    "nextOpponent": "Bergamo Calcio (Atalanta)",
-    "nextDate": "2031-02-22",
-    "unknowns": "No refreshed teams below sixth; no other individual results supplied."
+    "gapToSecond": 8,
+    "seasonRemaining": 12,
+    "unevenGamesPlayed": true,
+    "notes": "Milan and Lazio shown after 27 matches, others 26. Other clubs below 6th not established."
   }
 }
