@@ -138,7 +138,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Manager authorised Roma two-nil stories and Barcelona return preview; source published; CI build and Pages verification pending",
+    "status": "Published — editorial gate, compact compilation, automated browser diagnostics and GitHub Pages deployment successful",
     "phase": "Roma 0–2 Napoli rotated squad Mar16, Neves 45+2 and Beier 90+2; manager-confirmed Napoli74 Roma63 Inter62 Juve61 Milan60 after29; Barcelona home R16 return next",
     "match": "Roma 0–2 Napoli · Serie A Away · 16 March 2031",
     "stories": [
@@ -171,13 +171,17 @@
     "releaseVersion": "2031-roma-two-nil-barcelona-return-mar16-v1",
     "press": "Mister explicitly authorises stories only; no public manager answers or staged player quotations.",
     "technical": {
-      "sourceCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
+      "sourceCommit": "685472700f9152539564ebee9d2c626dfc16a15e",
+      "editorialGate": "success · GitHub Actions run 43117678899",
+      "compactBuild": "success · run 43117678988 · 754 articles, 160 results, 4 seasons, zero legacy script errors",
+      "pagesDeployment": "success · GitHub Pages run 43117767653 on compiled commit 8fca7574473d",
       "articlesExpected": 754,
       "resultsExpected": 160,
-      "visualQA": "Three approved gallery files present in main tree; rendered desktop/mobile crop review not independently performed yet."
+      "visualQA": "Automated CI browser diagnostics passed; manual pixel/crop QA not separately executed",
+      "compiledCommit": "8fca7574473da6f234d27b3fda41fdc34f75cb68",
+      "homepageLeadVerified": "roma-napoli-two-nil-neves-beier-rotation-mar16-2031",
+      "liveNextFixture": "Barcelona home 19 March 2031, UCL R16 second leg, unplayed",
+      "latestTopFiveVerified": "Napoli74 Roma63 Inter62 Juventus61 AC Milan60; all 29 played"
     }
   },
   "previous_newsroom_package": {
