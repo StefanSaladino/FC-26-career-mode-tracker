@@ -59,6 +59,7 @@ for(const [section,match,fn] of [
  ['Goalkeepers',row=>/Peacock/i.test(row?.[0]||''),row=>{row[3]='Senior squad · outstanding clean sheet vs AC Milan in Coppa semifinal first leg 5 Mar 2031';}],
  ['Midfielders',row=>/Rossetti/i.test(row?.[0]||''),row=>{row[2]=81;row[3]='Age 19 · improved to 81 OVR · scored first Napoli brace vs Sassuolo in January';}]
 ]){for(const row of D.squadPublic[section]||[])if(match(row))fn(row)}
+if(Array.isArray(D.firstXI))for(const r of D.firstXI)if(r[0]==='RB'&&/Kayode/i.test(String(r[1]||''))){r[1]='RB selection pending · Kayode injured';r[2]='—';}
 D.playerAges={...(D.playerAges||{}),'E. Rossetti':19,'Rossetti':19,'Mancini':22,'V. Mancini':22};
 if(Array.isArray(D.loanedPlayers))for(const p of D.loanedPlayers){if(/Mancini/i.test(p[0]||'')){p[2]=22;p[3]=77;}}
 if(Array.isArray(D.currentSquadTransferUpdates))for(const r of D.currentSquadTransferUpdates)if(/Rossetti/i.test(r.player||'')){r.overall=81;r.age=19;r.latestDevelopment='81 OVR at age 19';}
