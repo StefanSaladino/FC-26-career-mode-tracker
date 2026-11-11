@@ -138,7 +138,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Mister authorised and source publishing underway; editorial/compact build/Pages deployment to verify",
+    "status": "Five stories and compact front page committed on main. GitHub Actions validation and GitHub Pages deployment queued; deployment not verified.",
     "phase": "After March5 Milan 0-2 Napoli Coppa semifinal FIRST leg, Peacock clean sheet, Kayode injured out four weeks, Rossetti 81 age19 vs Mancini 77 age22 and Pio-Beier second-half substitute combination",
     "match": "Milano FC 0–2 Napoli · Coppa Italia semifinal first leg · away · 5 March 2031",
     "stories": [
@@ -177,14 +177,22 @@
     "releaseVersion": "2031-milan-coppa-peacock-mar-v1",
     "press": "Mister explicitly authorised stories, not manager press. No manager quotes, no staged unlabelled player dialogue or manufactured interviews.",
     "technical": {
-      "sourceCommit": null,
+      "sourceCommit": "43e5c2a7e2738c5cf9d83da090f4ee993a39de19",
       "compiledCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
+      "editorialGate": "queued",
+      "compactBuild": "queued",
+      "pagesDeployment": "queued",
       "articlesExpected": 747,
       "resultsExpected": 157,
-      "visualQA": "Five approved image asset paths verified on GitHub; separate manual rendered crop inspection not yet performed. Automated production browser tests to verify once build completes."
+      "visualQA": "Five approved image asset paths verified on GitHub; separate manual rendered crop inspection not yet performed. Automated production browser tests to verify once build completes.",
+      "manualCompactCommit": "43e5c2a7e2738c5cf9d83da090f4ee993a39de19",
+      "compactSnapshotInMain": true,
+      "preloadedRecentArticles": 5,
+      "oldLazyArchiveArticles": 742,
+      "runtimeMergedArticles": 747,
+      "results": 157,
+      "automatedBrowserQA": "not run for this edition",
+      "evidence": "Combined 747 stories = 5 recent items in compact snapshot + 742 in old lazy archive. GitHub Actions has not yet completed a full rebuild, and no successful Pages deployment for this edition is recorded."
     }
   },
   "previous_newsroom_package": {
