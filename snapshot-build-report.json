@@ -1,18 +1,7 @@
 {
-  "revision": "52b6d43fec31",
-  "articles": 747,
-  "results": 157,
+  "revision": "e2e7bea2a1c3",
+  "articles": 748,
+  "results": 158,
   "seasons": 4,
-  "release": "Milan 0–2 Napoli Coppa semifinal first leg — five approved features",
-  "mode": "connector-side compact snapshot refresh",
-  "recentArticlesMergedFromSnapshot": 5,
-  "legacyArchiveArticles": 742,
-  "tests": {
-    "dataConsistency": "passed",
-    "staticLead": "passed",
-    "uniqueNewArticleIds": "passed",
-    "automatedBrowser": "not run",
-    "githubPages": "not yet verified"
-  },
-  "note": "Existing 742-article lazy archive retained. Snapshot runtime prepends five new articles until GitHub Actions publishes a unified 747-article archive."
+  "legacyErrors": []
 }
