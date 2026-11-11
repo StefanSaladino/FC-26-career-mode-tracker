@@ -123,7 +123,7 @@
       "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
     }
   ],
-  "latest_confirmed_match": "Milano FC / AC Milan 0–2 Napoli · Coppa Italia SEMIFINAL FIRST LEG away, March 5, 2031. Raspadori 27′ scored loose rebound after Olise blocked shot, NO official assist; Beier 79′ from pass by Pio, both second-half substitutes, Pio official game assist credit not separately confirmed. Peacock fantastic clean sheet. Kayode injured and removed, ruled out 4 weeks. Napoli lead aggregate 2–0, second leg date unknown, unplayed. Prospects after match: Rossetti 81 OVR at age19 rising, Mancini 77 OVR age22 stalled.",
+  "latest_confirmed_match": "Napoli 3–0 Venezia · Serie A HOME · 8 March 2031. Beier 32′ assisted by Estêvão; Pio Esposito 61′ assisted by Bastoni and 83′ assisted by Beier. Full-time 3–0, team clean sheet; goalkeeper not identified. Pio 2G, Beier 1G1A, Estêvão 1A, Bastoni 1A. Next FC Barcelona away March 11 UCL Round of 16 first leg. Milan Coppa semifinal second leg unplayed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -783,8 +783,38 @@
     }
   },
   "latest_canon_only_checkpoint": {
-    "type": "Inter match canon only earlier, now manager explicitly authorises March Inter articles",
-    "note": "The existing single CANON.md logged Inter result without press, date or competition. Latest release updates public stories and next Milan Coppa semifinal as user now requests. Pescara remains result unconfirmed."
+    "type": "Manager-confirmed March 8 2031 match — CANON ONLY / NO PRESS OR PUBLICATION AUTHORIZED",
+    "date": "2031-03-08",
+    "match": "Napoli 3–0 Venezia",
+    "competition": "Serie A",
+    "goals": [
+      {
+        "minute": 32,
+        "player": "Maximilian Beier",
+        "provider": "Estêvão"
+      },
+      {
+        "minute": 61,
+        "player": "Pio Esposito",
+        "provider": "Alessandro Bastoni"
+      },
+      {
+        "minute": 83,
+        "player": "Pio Esposito",
+        "provider": "Maximilian Beier"
+      }
+    ],
+    "cleanSheet": "team; goalkeeper unknown",
+    "matchPointsEarned": 3,
+    "trackedNapoliClubAfter": {
+      "Pio": "37G16A",
+      "Beier": "31G30A",
+      "Estêvão": "2G2A",
+      "Bastoni": "0G1A"
+    },
+    "caveat": "Not complete league totals or final official Squad Hub, Pescara March 2 result missing, Inter match competition/date unknown; do not advance Italy totals.",
+    "next": "Barcelona away, 11 March 2031 UCL Round of 16 first leg",
+    "newsroom": "Held without publication; Milan five-story latest approved package unchanged"
   },
   "previous_verified_four_story_edition": {
     "releaseVersion": "20301229-geertruida-madrid-udinese-v1",
