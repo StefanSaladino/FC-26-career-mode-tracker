@@ -138,7 +138,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Manager approved and published to authoring source; GitHub compact build and Pages verification pending",
+    "status": "Published: editorial gate, compact build with browser tests, and GitHub Pages deployment all successful",
     "phase": "Barcelona 2–1 Napoli UCL R16 away first leg, Beier 81′ Moore assist; Roma away March16 next",
     "match": "FC Barcelona 2–1 Napoli · UCL Round of 16 first leg · Away · 11 March 2031",
     "stories": [
@@ -170,13 +170,26 @@
     },
     "releaseVersion": "2031-barcelona-r16-first-leg-mar11-v1",
     "technical": {
-      "sourceCommit": null,
-      "editorialGate": "pending",
-      "compactBuild": "pending",
-      "pagesDeployment": "pending",
+      "sourceCommit": "6d68eb332f6503fd3866f6d50c1af328ff0b7c7a",
+      "editorialGate": "success",
+      "compactBuild": "success",
+      "pagesDeployment": "success",
       "articlesExpected": 751,
       "resultsExpected": 159,
-      "visualQA": "All three approved gallery paths verified in Git tree; direct visual crop audit not independently performed"
+      "visualQA": "Automated production browser build passed; no separate manual direct live URL crop inspection performed.",
+      "compiledCommit": "d4e98f7f4e99833ac48ab90402d58d8d9555d54d",
+      "editorialRun": "43116024920",
+      "buildRun": "43116024876",
+      "automatedProductionBrowserQA": "success via compiled GitHub Actions build",
+      "pagesRun": "43116111001",
+      "articles": 751,
+      "results": 159,
+      "seasons": 4,
+      "legacyScriptErrors": 0,
+      "verifiedFirstPaint": "barcelona-napoli-two-one-beier-moore-r16-first-leg-mar2031",
+      "sourceCoverAssetChecks": "all three present",
+      "articleIntegrity": "all three articles and 67 authored comment nodes present in generated 751-story archive",
+      "privateStaffRoomFirewall": "checked: new Barcelona/Roma stories do not expose Rossetti market value, $200m budget or private no-sale decision"
     }
   },
   "previous_newsroom_package": {
