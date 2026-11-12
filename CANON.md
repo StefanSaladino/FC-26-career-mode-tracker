@@ -1,3 +1,9 @@
+## 20 MARCH 2031 — BARCELONA COMEBACK SUPPORTER REACTION EXPANSION
+
+- **EDITORIAL AUTHORISATION:** Mister orders a substantially larger and more emotionally authentic community reaction across the three previously published March 19–20 Napoli 2–0 Barcelona Champions League comeback articles, particularly Pio's decisive 75′ header after his 54′ shot against the post.
+- **SOURCE AND SCOPE:** The three match report, player feature and Bellandi opinion articles and all original comments remain intact, with new individually authored multi-level discussions appended to the same story IDs in `stories-barcelona-home-comeback-quarterfinal-mar19-2031.js`. The additional readers recall the PSG loss and subsequent Madrid/Porto Champions League victories, react to the Barça tie, debate Estêvão, Moore, Olise and Paz, question Bellandi with ten recorded club trophies, and include perspectives from Barcelona and domestic rivals. No new manager interview, private staff material, match events, statistics, opposition draw or fixtures are introduced.
+- **QUALITY GATE:** Newly authored comments are checked for exact duplicate text, direct self-replies, article-specific themes, established supporter voice and multi-level discussions before compilation. Live deployment must be confirmed independently through the normal source → compact snapshot → Pages publication workflow.
+
 ## 19 MARCH 2031 — NAPOLI 2–0 BARCELONA · 3–2 AGGREGATE · CHAMPIONS LEAGUE QUARTERFINALS
 
 - **MISTER AUTHORIZATION:** After full time the manager says **“You can publish it now. Remember the rules.”** The entire second-leg result and associated analysis are authorised for publication. No permission for fictional manager quotations or invented on-record press responses.

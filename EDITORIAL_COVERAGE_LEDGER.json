@@ -138,7 +138,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Source committed; compact GitHub Actions compilation and Pages deployment pending independent verification",
+    "status": "Initial Barcelona edition verified live; community expansion source staged through normal GitHub publishing pipeline",
     "phase": "Napoli 2–0 Barcelona UCL R16 HOME Mar19: Moore3, Pio75, Estêvão two assists; overturn 2–1 first-leg loss, advance 3–2 aggregate to quarterfinals",
     "match": "Napoli 2–0 FC Barcelona · UEFA Champions League Round of 16 second leg · Home · 19 March 2031",
     "stories": [
@@ -182,6 +182,34 @@
       "existingLeaguePoints": 74,
       "existingLeaguePlayed": 29,
       "visualQA": "Approved gallery asset paths checked in repository. Manual rendered image/crop QA not performed."
+    },
+    "community_expansion": {
+      "date": "2031-03-20",
+      "scope": "Supporter comments on all three published Barcelona-comeback articles; original editorial and match state unchanged",
+      "previous": {
+        "topLevel": 29,
+        "includingReplies": 79,
+        "maxDepth": 1
+      },
+      "additional": {
+        "napoli-barcelona-two-nil-moore-pio-estevao-r16-comeback-mar19-2031": {
+          "additionalTop": 25,
+          "additionalTotal": 101,
+          "maxDepth": 4
+        },
+        "estevao-two-assists-moore-pio-barcelona-mar19-2031": {
+          "additionalTop": 19,
+          "additionalTotal": 67,
+          "maxDepth": 4
+        },
+        "bellandi-napoli-barcelona-quarterfinal-after-comeback-mar19-2031": {
+          "additionalTop": 24,
+          "additionalTotal": 90,
+          "maxDepth": 4
+        }
+      },
+      "source": "stories-barcelona-home-comeback-quarterfinal-mar19-2031.js",
+      "notes": "Original threads preserved; nested, emotional reader replies added. Source change triggers standard compact snapshot and Pages deployment."
     }
   },
   "previous_newsroom_package": {
