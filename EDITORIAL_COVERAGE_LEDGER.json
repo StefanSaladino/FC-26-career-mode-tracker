@@ -123,7 +123,7 @@
       "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
     }
   ],
-  "latest_confirmed_match": "Hungary 1–1 Italy AWAY 26 March 2031: Pio 72′ goal (Moise Kean official assist), Szoboszlai 80′ equaliser, xG Italy 2.4 and Hungary 1.2; Italy remain top of group. Napoli 1–1 Lazio HOME Serie A 23 March: Nico Paz 25′ header (Olise official assist), Ratkov 67′; Napoli 75 points from 30, 8 remaining. Kayode unavailable this international window. Ukraine home Mar29 next.",
+  "latest_confirmed_match": "Italy 3–1 Ukraine home International 29 March 2031. Kean hat-trick 13′ (Pafundi official assist), 52′ (Tonali official assist), 73′ (Pisilli official assist); Vanat 83′ while Bastoni injured, Scalvini replaced Bastoni. Bastoni bruised shoulder, five days out. Earlier Hungary 1–1 Italy Mar26, Kean assist Pio goal; March window 1W1D 4GF2GA. Napoli Serie A 75/30; club stats unaffected.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -138,6 +138,63 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Editorial sources prepared; GitHub Actions compact build and public Pages deployment require verification",
+    "phase": "Italy 3–1 Ukraine March29: Kean hat-trick; three distinct assists; Bastoni shoulder injury and Scalvini",
+    "match": "Italy 3–1 Ukraine · International home · 29 March 2031",
+    "stories": [
+      "italy-ukraine-three-one-kean-hattrick-mar29-2031",
+      "pafundi-tonali-pisilli-three-assists-kean-mar2031",
+      "bastoni-bruised-shoulder-five-days-scalvini-ukraine-mar2031"
+    ],
+    "bylines": [
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk",
+      "Marco D'Amato · Football desk"
+    ],
+    "gallery": [
+      "assets/editorial-italy-kean-pio-2030-verdict.svg",
+      "assets/editorial-pafundi-italy-first-goal-oct2030.svg",
+      "assets/bastoni-napoli.jpg"
+    ],
+    "source": [
+      "stories-italy-ukraine-kean-mar29-2031.js",
+      "site-visible-italy-ukraine-kean-mar29-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Kean goal13 Pafundi assist, goal52 Tonali assist, goal73 Pisilli assist; Bastoni hurt83, Vanat83 while play continued; Scalvini replaced Bastoni; FT Italy3–1 Ukraine, HT1–0, Bastoni bruised shoulder five-day absence; Kean March window3G1A; Italy national team only.",
+    "unknowns": "New Italy group ranking/points after Ukraine not independently confirmed; fixture competition subtype, extra lineup/match stats, exact substitution minute, final medical clearance, next Napoli club fixture and Champions League opponent remain unknown.",
+    "nextFixture": "Next Napoli club fixture after international window not yet reported",
+    "paragraphs": 43,
+    "comments": {
+      "topLevel": 37,
+      "totalIncludingReplies": 119,
+      "perArticle": [
+        {
+          "id": "italy-ukraine-three-one-kean-hattrick-mar29-2031",
+          "top": 17,
+          "total": 56
+        },
+        {
+          "id": "pafundi-tonali-pisilli-three-assists-kean-mar2031",
+          "top": 11,
+          "total": 35
+        },
+        {
+          "id": "bastoni-bruised-shoulder-five-days-scalvini-ukraine-mar2031",
+          "top": 9,
+          "total": 28
+        }
+      ]
+    },
+    "scopeCorrection": "Mister explicitly required no new World Cup recap as achievement had already been covered in 2030; removed standalone World Cup feature before committing. Kean's established seven-goal World Cup national record and bronze remain background only in current match journalism.",
+    "press": "No newly supplied official manager interview or player testimony.",
+    "mediaQA": "Existing gallery assets verified by repository tree; manual visual crop review not completed.",
+    "releaseVersion": "2031-italy-ukraine-kean-mar29-v1"
+  },
+  "previous_newsroom_package": {
     "status": "Editorial sources authored; compact GitHub Actions build and Pages verification pending",
     "phase": "Two completed draws: Napoli 1–1 Lazio on Mar23 and Hungary 1–1 Italy on Mar26; Italy remain first in the group",
     "match": "Napoli 1–1 Lazio · Serie A 23 Mar 2031; Hungary 1–1 Italy · International 26 Mar 2031",
@@ -203,81 +260,6 @@
     "verifiedImagePaths": true,
     "manualImageCropQA": "Not performed",
     "releaseVersion": "2031-hungary-lazio-mar26-v1"
-  },
-  "previous_newsroom_package": {
-    "status": "Initial Barcelona edition verified live; community expansion source staged through normal GitHub publishing pipeline",
-    "phase": "Napoli 2–0 Barcelona UCL R16 HOME Mar19: Moore3, Pio75, Estêvão two assists; overturn 2–1 first-leg loss, advance 3–2 aggregate to quarterfinals",
-    "match": "Napoli 2–0 FC Barcelona · UEFA Champions League Round of 16 second leg · Home · 19 March 2031",
-    "stories": [
-      "napoli-barcelona-two-nil-moore-pio-estevao-r16-comeback-mar19-2031",
-      "estevao-two-assists-moore-pio-barcelona-mar19-2031",
-      "bellandi-napoli-barcelona-quarterfinal-after-comeback-mar19-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-european-team-celebration.webp",
-      "assets/story-coaches-key-players-walkout.webp",
-      "assets/story-champions-league-stakes.webp"
-    ],
-    "source": [
-      "stories-barcelona-home-comeback-quarterfinal-mar19-2031.js",
-      "site-visible-barcelona-home-comeback-mar19-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Moore3′ from Estêvão cross first touch; Pio hit post54′; Pio75′ header from Estêvão cross; Napoli2–0 FT and team clean sheet; Napoli advance3–2 aggregate; Estêvão 2 official assists; started Estêvão and Moore, Olise and Paz not starting. League table unchanged from Roma Mar16. Next Lazio home Serie A March23.",
-    "unknowns": "Quarterfinal opponent/dates, unreported match events, Barcelona keeper/Napoli keeper, XI beyond confirmed selections, statistics other than named goals and assists, Coppa semifinal return date, fitness updates.",
-    "coverage": "Three individually written in-universe pieces with independent reporter voices and established supporter continuity; a 2-leg match narrative, Estêvão/Moore player feature and balanced Bellandi column. No invented public quotes, interviews, confidential staff discussion or match statistics.",
-    "paragraphs": 42,
-    "comments": {
-      "topLevel": 29,
-      "totalIncludingReplies": 79
-    },
-    "nextFixture": "Lazio home Serie A 23 March 2031; Champions League quarterfinal opponent/date unknown",
-    "releaseVersion": "2031-barca-home-comeback-mar19-v1",
-    "press": "Manager authorises match coverage; no manager press answers or player interview given. No direct quotes fabricated.",
-    "technical": {
-      "status": "Source edit pending GitHub Actions builds",
-      "expectedArticles": 757,
-      "expectedResults": 161,
-      "existingLeaguePoints": 74,
-      "existingLeaguePlayed": 29,
-      "visualQA": "Approved gallery asset paths checked in repository. Manual rendered image/crop QA not performed."
-    },
-    "community_expansion": {
-      "date": "2031-03-20",
-      "scope": "Supporter comments on all three published Barcelona-comeback articles; original editorial and match state unchanged",
-      "previous": {
-        "topLevel": 29,
-        "includingReplies": 79,
-        "maxDepth": 1
-      },
-      "additional": {
-        "napoli-barcelona-two-nil-moore-pio-estevao-r16-comeback-mar19-2031": {
-          "additionalTop": 25,
-          "additionalTotal": 101,
-          "maxDepth": 4
-        },
-        "estevao-two-assists-moore-pio-barcelona-mar19-2031": {
-          "additionalTop": 19,
-          "additionalTotal": 67,
-          "maxDepth": 4
-        },
-        "bellandi-napoli-barcelona-quarterfinal-after-comeback-mar19-2031": {
-          "additionalTop": 24,
-          "additionalTotal": 90,
-          "maxDepth": 4
-        }
-      },
-      "source": "stories-barcelona-home-comeback-quarterfinal-mar19-2031.js",
-      "notes": "Original threads preserved; nested, emotional reader replies added. Source change triggers standard compact snapshot and Pages deployment."
-    }
   },
   "release_history": [
     {
