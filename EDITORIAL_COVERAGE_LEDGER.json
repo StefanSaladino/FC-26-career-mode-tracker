@@ -126,9 +126,14 @@
       "month": "2031-04",
       "status": "covered",
       "note": "Elena De Luca character-led feature on Giacomo Raspadori after his explicit transfer request, his Pisa start and prior cup semifinal contribution against AC Milan. Does not invent motive, quote, destination or completed sale."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Elena De Luca player feature on Nico Paz after 7′ rebound goal at Arsenal, his fifth 2030–31 Napoli club goal (5G4A). Pio cross and Beier's saved shot noted, zero official assists credited. His prior league and cup goals documented; April Raspadori feature preserved. No fabricated interview."
     }
   ],
-  "latest_confirmed_match": "Napoli 0–0 Pisa home Serie A 4 April 2031, heavy rotation, Raspadori started; Napoli 76 points 31 matches, 23W7D1L 65GF22GA+43, Roma 67/31, Juventus 64/30. Raspadori formally wants to leave (request only, no destination or completed deal). Arsenal away Champions League QF first leg Apr8 next.",
+  "latest_confirmed_match": "Arsenal 2–1 Napoli · Champions League quarterfinal first leg · Arsenal home / Napoli away · 8 April 2031. Paz 7′ rebound after Raya saved Beier shot (Pio cross; no official Napoli assist), Saka 13′, Wood 19′ header from Saka cross. HT/FT 2–1. Arsenal lead aggregate 2–1. Juventus away Serie A April12 next.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -143,6 +148,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source release prepared; editorial, compact build and Pages deployment to be verified",
+    "phase": "Arsenal 2–1 Napoli April8 UCL quarterfinal first leg, Saka reversal, Nico Paz goal, Juventus ahead",
+    "match": "Arsenal 2–1 Napoli · UEFA Champions League quarterfinal first leg · Away · 8 April 2031",
+    "stories": [
+      "arsenal-two-one-napoli-paz-saka-wood-ucl-qf-apr8-2031",
+      "saka-six-minutes-wood-header-arsenal-napoli-apr2031",
+      "nico-paz-five-goals-arsenal-rebound-ucl-apr2031",
+      "juventus-between-arsenal-legs-napoli-april2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco D'Amato · Football desk",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-coaches-team-tactics.webp",
+      "assets/nico-paz-napoli.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "source": [
+      "stories-arsenal-first-leg-apr8-2031.js",
+      "site-visible-arsenal-first-leg-apr8-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Paz 7′ rebound after Pio cross/Beier shot saved by Raya; NO official Napoli assist. Saka Arsenal equaliser13′; Wood Arsenal header19′ from Saka cross. Arsenal 2–1 Napoli HT and FT Apr8 away QF first leg. Arsenal lead 2–1; second leg in Naples Apr16 unplayed. Next Juventus away Apr12. Napoli Serie A remains 76/31 nine ahead Roma 67/31. Paz club season 5G4A.",
+    "unknowns": "Saka's 13′ goal assist and manner; official credited assist to Wood aside from clear Saka cross; Wood's given name; additional match actions/lineups/xG, details about second half; April12 Juventus result and Apr16 return leg not played.",
+    "nextFixture": "Juventus away · Serie A · 12 April 2031",
+    "paragraphs": 58,
+    "comments": {
+      "topLevel": 44,
+      "totalIncludingReplies": 137,
+      "maxDepth": 3
+    },
+    "feature": "Elena De Luca character-led Nico Paz 5G4A follow-up; separate April character-led Raspadori feature retained",
+    "press": "No supplied manager press answers or player quotes; none manufactured",
+    "mediaQA": "Existing gallery assets verified in repository tree; no actual photo crop/browser view claimed in ledger",
+    "releaseVersion": "2031-arsenal-away-qf-apr8-v1"
+  },
+  "previous_newsroom_package": {
     "status": "Editorial source files prepared and committed; compact snapshot build, editorial gate and final Pages deployment require verification",
     "phase": "Pisa 0–0, full top-six league table 4 April 2031, Raspadori transfer request, Arsenal quarterfinal calendar",
     "match": "Napoli 0–0 Pisa · Serie A home · 4 April 2031",
@@ -185,63 +234,6 @@
     "mediaQA": "Existing approved archive artwork verified by repository tree; actual crop/browser QA not performed",
     "press": "No manager or player interview supplied, no invented on-record manager statements",
     "releaseVersion": "2031-pisa-raspadori-apr4-v1"
-  },
-  "previous_newsroom_package": {
-    "status": "Editorial sources prepared; GitHub Actions compact build and public Pages deployment require verification",
-    "phase": "Italy 3–1 Ukraine March29: Kean hat-trick; three distinct assists; Bastoni shoulder injury and Scalvini",
-    "match": "Italy 3–1 Ukraine · International home · 29 March 2031",
-    "stories": [
-      "italy-ukraine-three-one-kean-hattrick-mar29-2031",
-      "pafundi-tonali-pisilli-three-assists-kean-mar2031",
-      "bastoni-bruised-shoulder-five-days-scalvini-ukraine-mar2031"
-    ],
-    "bylines": [
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk",
-      "Marco D'Amato · Football desk"
-    ],
-    "gallery": [
-      "assets/editorial-italy-kean-pio-2030-verdict.svg",
-      "assets/editorial-pafundi-italy-first-goal-oct2030.svg",
-      "assets/bastoni-napoli.jpg"
-    ],
-    "source": [
-      "stories-italy-ukraine-kean-mar29-2031.js",
-      "site-visible-italy-ukraine-kean-mar29-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Kean goal13 Pafundi assist, goal52 Tonali assist, goal73 Pisilli assist; Bastoni hurt83, Vanat83 while play continued; Scalvini replaced Bastoni; FT Italy3–1 Ukraine, HT1–0, Bastoni bruised shoulder five-day absence; Kean March window3G1A; Italy national team only.",
-    "unknowns": "New Italy group ranking/points after Ukraine not independently confirmed; fixture competition subtype, extra lineup/match stats, exact substitution minute, final medical clearance, next Napoli club fixture and Champions League opponent remain unknown.",
-    "nextFixture": "Next Napoli club fixture after international window not yet reported",
-    "paragraphs": 43,
-    "comments": {
-      "topLevel": 37,
-      "totalIncludingReplies": 119,
-      "perArticle": [
-        {
-          "id": "italy-ukraine-three-one-kean-hattrick-mar29-2031",
-          "top": 17,
-          "total": 56
-        },
-        {
-          "id": "pafundi-tonali-pisilli-three-assists-kean-mar2031",
-          "top": 11,
-          "total": 35
-        },
-        {
-          "id": "bastoni-bruised-shoulder-five-days-scalvini-ukraine-mar2031",
-          "top": 9,
-          "total": 28
-        }
-      ]
-    },
-    "scopeCorrection": "Mister explicitly required no new World Cup recap as achievement had already been covered in 2030; removed standalone World Cup feature before committing. Kean's established seven-goal World Cup national record and bronze remain background only in current match journalism.",
-    "press": "No newly supplied official manager interview or player testimony.",
-    "mediaQA": "Existing gallery assets verified by repository tree; manual visual crop review not completed.",
-    "releaseVersion": "2031-italy-ukraine-kean-mar29-v1"
   },
   "release_history": [
     {
@@ -1414,7 +1406,7 @@
         "Arsenal",
         "Away",
         "UCL quarterfinal first leg",
-        "unplayed"
+        "Arsenal 2–1 Napoli FT · Paz 7′ no assist; Saka 13′; Wood 19′ Saka cross"
       ],
       [
         "2031-04-12",
@@ -1452,6 +1444,7 @@
         "unplayed"
       ]
     ],
-    "transferRequest": "Raspadori wants to leave; not a sale"
+    "transferRequest": "Raspadori wants to leave; not a sale",
+    "latestConfirmedMatch": "Arsenal 2–1 Napoli 8 Apr 2031 Champions League QF first leg; Juventus away April12 next"
   }
 }
