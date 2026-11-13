@@ -12,7 +12,7 @@ notes:'Napoli led 1–0 at 7 minutes, trailed 2–1 at halftime, lost 2–1 at f
 D.arsenalNapoliUCLQuarterfinalFirstLegApril8_2031=match;
 for(const k of ['schedule203031','fixturesFebMar2031','april2031Schedule'])if(Array.isArray(D[k])){
  let x=D[k].find(x=>x.team==='Napoli'&&x.date==='2031-04-08'&&x.competition==='Champions League');if(x)Object.assign(x,match);
- D[k].sort((a,b)=>String(a.date||'9999').localeCompare(String(b.date||'9999'));
+ D[k].sort((a,b)=>String(a.date||'9999').localeCompare(String(b.date||'9999')));
 }
 D.results=Array.isArray(D.results)?D.results:[];
 if(!D.results.some(x=>x[0]==='Arsenal'&&x[1]==='Napoli'&&String(x[6]||'').includes('8 Apr 2031')))D.results.push(['Arsenal','Napoli','Champions League',2,1,'L','8 Apr 2031 · Away · Quarterfinal first leg','Paz 7′ rebound (no official assist; Pio cross, Beier shot saved by Raya); Saka 13′; Wood header 19′ from Saka cross. HT 2–1, FT 2–1.']);
