@@ -123,7 +123,7 @@
       "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–0 FC Barcelona HOME Champions League Round of 16 SECOND LEG 19 March 2031; Moore 3′ first touch from Estêvão cross, Pio post 54′, Pio 75′ header from Estêvão cross. FT 2–0, Napoli advance 3–2 aggregate to quarterfinals; team clean sheet. Two official Estêvão assists. Next Napoli v Lazio home Serie A Mar23. League unchanged Napoli74/29 eleven ahead.",
+  "latest_confirmed_match": "Hungary 1–1 Italy AWAY 26 March 2031: Pio 72′ goal (Moise Kean official assist), Szoboszlai 80′ equaliser, xG Italy 2.4 and Hungary 1.2; Italy remain top of group. Napoli 1–1 Lazio HOME Serie A 23 March: Nico Paz 25′ header (Olise official assist), Ratkov 67′; Napoli 75 points from 30, 8 remaining. Kayode unavailable this international window. Ukraine home Mar29 next.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -138,6 +138,73 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Editorial sources authored; compact GitHub Actions build and Pages verification pending",
+    "phase": "Two completed draws: Napoli 1–1 Lazio on Mar23 and Hungary 1–1 Italy on Mar26; Italy remain first in the group",
+    "match": "Napoli 1–1 Lazio · Serie A 23 Mar 2031; Hungary 1–1 Italy · International 26 Mar 2031",
+    "stories": [
+      "hungary-italy-one-one-pio-kean-szoboszlai-mar26-2031",
+      "napoli-lazio-paz-olise-ratkov-one-one-mar23-2031",
+      "pio-kean-two-shirts-two-late-goals-mar2031",
+      "bellandi-two-late-equalisers-napoli-italy-mar2031"
+    ],
+    "bylines": [
+      "Sofia Mancini · Azzurri desk",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/editorial-italy-kean-pio-2030-verdict.svg",
+      "assets/nico-paz-napoli.webp",
+      "assets/editorial-italy-pio-kean-partnership-jun2030.svg",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "source": [
+      "stories-lazio-hungary-double-draw-mar2031.js",
+      "site-visible-lazio-hungary-double-draw-mar2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Paz25 headed goal from Olise official cross/assist; Ratkov equalised Lazio67; Napoli75pts/30 eight fixtures left. Hungary Italy Pio72 from Kean official assist; Szoboszlai80; final xG Italy2.4 Hungary1.2; Italy first in group; Kayode unavailable entire period. Ukraine home Mar29 next.",
+    "unknowns": "Napoli's updated gap to rivals after March16, remaining current rivals' results, Italy group points and other rankings, detailed defensive goals mechanics, exact international tournament subtype, full lineups, other fixture events, next Napoli club opponent/date.",
+    "nextFixture": "Italy v Ukraine home 29 March 2031",
+    "paragraphs": 56,
+    "comments": {
+      "topLevel": 54,
+      "totalIncludingReplies": 168,
+      "maxDepth": 3,
+      "perArticle": [
+        {
+          "id": "hungary-italy-one-one-pio-kean-szoboszlai-mar26-2031",
+          "topLevel": 15,
+          "total": 47
+        },
+        {
+          "id": "napoli-lazio-paz-olise-ratkov-one-one-mar23-2031",
+          "topLevel": 14,
+          "total": 44
+        },
+        {
+          "id": "pio-kean-two-shirts-two-late-goals-mar2031",
+          "topLevel": 12,
+          "total": 37
+        },
+        {
+          "id": "bellandi-two-late-equalisers-napoli-italy-mar2031",
+          "topLevel": 13,
+          "total": 40
+        }
+      ]
+    },
+    "press": "No manager press responses provided. Player analysis has no fictional on-record Q&A; independent reporters analyse observable football.",
+    "implementation": "New stories & current-state overlay, older stories preserved, single canon, source loader and legacy first-paint revised; GitHub Actions compilation must finish before live claims.",
+    "verifiedImagePaths": true,
+    "manualImageCropQA": "Not performed",
+    "releaseVersion": "2031-hungary-lazio-mar26-v1"
+  },
+  "previous_newsroom_package": {
     "status": "Initial Barcelona edition verified live; community expansion source staged through normal GitHub publishing pipeline",
     "phase": "Napoli 2–0 Barcelona UCL R16 HOME Mar19: Moore3, Pio75, Estêvão two assists; overturn 2–1 first-leg loss, advance 3–2 aggregate to quarterfinals",
     "match": "Napoli 2–0 FC Barcelona · UEFA Champions League Round of 16 second leg · Home · 19 March 2031",
@@ -210,53 +277,6 @@
       },
       "source": "stories-barcelona-home-comeback-quarterfinal-mar19-2031.js",
       "notes": "Original threads preserved; nested, emotional reader replies added. Source change triggers standard compact snapshot and Pages deployment."
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Published — editorial gate, compact compilation, automated browser diagnostics and GitHub Pages deployment successful",
-    "phase": "Roma 0–2 Napoli rotated squad Mar16, Neves 45+2 and Beier 90+2; manager-confirmed Napoli74 Roma63 Inter62 Juve61 Milan60 after29; Barcelona home R16 return next",
-    "match": "Roma 0–2 Napoli · Serie A Away · 16 March 2031",
-    "stories": [
-      "roma-napoli-two-nil-neves-beier-rotation-mar16-2031",
-      "estevao-neves-mctominay-roma-squad-depth-mar2031",
-      "napoli-barcelona-home-return-preview-after-roma-mar19-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Lorenzo Ferri · European desk"
-    ],
-    "gallery": [
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-coaches-squad-tactics-session.webp",
-      "assets/story-maradona-tifo-night.webp"
-    ],
-    "source": [
-      "stories-roma-2-0-estevao-neves-beier-barcelona-mar2031.js",
-      "site-visible-roma-two-nil-barcelona-next-mar2031.js"
-    ],
-    "knownFacts": "45+2 João Neves goal from Estêvão, HT 0–1; 90+2 Beier goal from Scott McTominay on a counterattack, FT Roma 0–2 Napoli. Rotated squad, team clean sheet. Top five all 29 played: Napoli74 Roma63 Inter62 Juventus61 AC Milan60. Next Barça home Mar19 UCL R16 second leg, Barça 2–1 aggregate.",
-    "unknowns": "Roma starting XI and subs, goalkeeper, xG, other goal details; full Serie A WDL/GF/GA and clubs outside top five; Pescara Mar2 match exact result; Barcelona second-leg result (NOT PLAYED), Inter match date/competition.",
-    "coverage": "Giulia Romano full Roma match report; Elena De Luca independent depth/Estêvão-Neves-McT analysis; Lorenzo Ferri Barcelona return preview. Three genuine angles and active recurring supporter discussions. No manager public press, fabricated private comments or new transfers.",
-    "paragraphs": 41,
-    "comments": {
-      "topLevel": 27,
-      "includingReplies": 67
-    },
-    "releaseVersion": "2031-roma-two-nil-barcelona-return-mar16-v1",
-    "press": "Mister explicitly authorises stories only; no public manager answers or staged player quotations.",
-    "technical": {
-      "sourceCommit": "685472700f9152539564ebee9d2c626dfc16a15e",
-      "editorialGate": "success · GitHub Actions run 43117678899",
-      "compactBuild": "success · run 43117678988 · 754 articles, 160 results, 4 seasons, zero legacy script errors",
-      "pagesDeployment": "success · GitHub Pages run 43117767653 on compiled commit 8fca7574473d",
-      "articlesExpected": 754,
-      "resultsExpected": 160,
-      "visualQA": "Automated CI browser diagnostics passed; manual pixel/crop QA not separately executed",
-      "compiledCommit": "8fca7574473da6f234d27b3fda41fdc34f75cb68",
-      "homepageLeadVerified": "roma-napoli-two-nil-neves-beier-rotation-mar16-2031",
-      "liveNextFixture": "Barcelona home 19 March 2031, UCL R16 second leg, unplayed",
-      "latestTopFiveVerified": "Napoli74 Roma63 Inter62 Juventus61 AC Milan60; all 29 played"
     }
   },
   "release_history": [

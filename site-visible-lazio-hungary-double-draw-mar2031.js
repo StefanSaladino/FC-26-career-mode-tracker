@@ -1,0 +1,66 @@
+/* 23–26 March 2031: Napoli 1–1 Lazio and Hungary 1–1 Italy. First place in Italy group retained. */
+(()=>{'use strict';
+const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={}),$=id=>document.getElementById(id);
+const E=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ids=['hungary-italy-one-one-pio-kean-szoboszlai-mar26-2031','napoli-lazio-paz-olise-ratkov-one-one-mar23-2031','pio-kean-two-shirts-two-late-goals-mar2031','bellandi-two-late-equalisers-napoli-italy-mar2031'];
+const newest=ids.map(id=>(D.articles||[]).find(a=>a.id===id));
+if(newest.some(a=>!a))throw Error('Lazio/Hungary match newsroom articles missing');
+D.articles=[...newest,...(D.articles||[]).filter(a=>!ids.includes(a.id))];
+const lazio={date:'2031-03-23',team:'Napoli',opponent:'Latium',gameAlias:'Lazio',venue:'Home',competition:'Serie A',status:'completed',score:'1–1',resultText:'Napoli 1–1 Lazio',halftime:'Napoli 1–0 Lazio',events:[{minute:'25',team:'Napoli',scorer:'Nico Paz',assist:'Michael Olise',finish:'Header from cross'},{minute:'67',team:'Lazio',scorer:'Ratkov'}]};
+const hungary={date:'2031-03-26',team:'Italy',opponent:'Hungary',venue:'Away',competition:'International',competitionSubtype:null,status:'completed',score:'1–1',resultText:'Hungary 1–1 Italy',events:[{minute:'72',team:'Italy',scorer:'Francesco Pio Esposito',assist:'Moise Kean',officialAssist:true},{minute:'80',team:'Hungary',scorer:'Dominik Szoboszlai'}],xG:{italy:2.4,hungary:1.2},groupPosition:1,groupLeaderRetained:true,kayodeUnavailableEntireWindow:true};
+D.napoliLazioMarch23_2031=lazio;D.italyHungaryMarch26_2031=hungary;
+D.italyGroupStandingMarch2031={date:'2031-03-26',rank:1,topOfGroup:true,points:null,otherTeams:null};
+D.italyMarch2031Contributions={date:'2031-03-26',opponent:'Hungary',scope:'Italy national team only',players:{'Francesco Pio Esposito':{goals:1,assists:0},'Moise Kean':{goals:0,assists:1}},xGItaly:2.4,xGHungary:1.2};
+D.kayodeMarch2031={player:'Michael Kayode',italyAvailability:'Unavailable for the entire March international window'};
+D.results=Array.isArray(D.results)?D.results:[];
+if(!D.results.some(r=>r[0]==='Napoli'&&r[2]==='Serie A'&&String(r[6]||'').includes('23 Mar 2031')&&r[3]===1&&r[4]===1))D.results.push(['Napoli','Latium','Serie A',1,1,'D','23 Mar 2031 · Home','Nico Paz 25′ header (Michael Olise official assist); Ratkov 67′. Napoli 75 league points from 30 games.']);
+if(!D.results.some(r=>r[0]==='Italy'&&r[1]==='Hungary'&&String(r[6]||'').includes('26 Mar 2031')))D.results.push(['Italy','Hungary','International',1,1,'D','26 Mar 2031 · Away','Pio Esposito 72′ (Moise Kean official assist); Szoboszlai 80′. xG Italy 2.4, Hungary 1.2. Italy remain top of the group.']);
+for(const arr of [D.fixturesFebMar2031,D.schedule203031])if(Array.isArray(arr)){let item=arr.find(x=>x.date==='2031-03-23'&&x.team==='Napoli');if(!item){item={};arr.push(item)}Object.assign(item,lazio);arr.sort((a,b)=>String(a.date||'9999').localeCompare(String(b.date||'9999')))}
+for(const arr of [D.fixturesFebMar2031,D.italyMarch2031])if(Array.isArray(arr)){let item=arr.find(x=>x.date==='2031-03-26'&&x.team==='Italy');if(!item){item={};arr.push(item)}Object.assign(item,hungary);arr.sort((a,b)=>String(a.date||'9999').localeCompare(String(b.date||'9999')))}
+if(D.nextInternationalWindow){D.nextInternationalWindow.groupRank=1;D.nextInternationalWindow.kayodeUnavailable=true;D.nextInternationalWindow.latestResult=hungary;if(Array.isArray(D.nextInternationalWindow.fixtures)){const x=D.nextInternationalWindow.fixtures.find(x=>x.date==='2031-03-26');if(x)Object.assign(x,hungary)}}
+D.latestInternationalResult=['Hungary','1–1','Italy','International · 26 March 2031 · Pio 72′ (Kean), Szoboszlai 80′; group leaders'];
+D.latestClubLeagueResult=lazio;D.serieAAfterLazioMarch23_2031={date:'2031-03-23',team:'Napoli',points:75,played:30,remaining:8,rivalResultsSinceMarch16NotEstablished:true};
+if(D.seasonState?.league)Object.assign(D.seasonState.league,{played:30,points:75,remaining:8,leadPoints:null,asOf:'2031-03-23',status:'Napoli after Lazio; other top-five clubs last recorded on 16 March'});
+if(D.seasonState)D.seasonState.nextFixture=null;
+if(D.serieAStandings203031?.rows?.[0]?.[0]==='SSC Napoli'){D.serieAStandings203031.rows[0][1]=30;D.serieAStandings203031.rows[0][8]=75;D.serieAStandings203031.date='Napoli Mar23; other clubs Mar16';D.serieAStandings203031.source='Napoli 75 points after 30 matches (Mar23); other listed clubs last confirmed at 29 games on Mar16; not a same-date table.'}
+if(D.serieAStandingsLastConfirmed){D.serieAStandingsLastConfirmed.verifiedNapoli=['SSC Napoli',30,null,null,null,null,null,null,75];D.serieAStandingsLastConfirmed.otherClubsNotRefreshed=true;D.serieAStandingsLastConfirmed.asOf='Napoli 23 Mar; rivals 16 Mar'}
+if(Array.isArray(D.latestSerieATopFive)&&D.latestSerieATopFive[0]?.name==='Napoli')Object.assign(D.latestSerieATopFive[0],{played:30,points:75,asOf:'2031-03-23',othersAsOf:'2031-03-16'});
+if(!D.march23LazioClubStatsApplied){
+ const stats=D.statsBySeason?.['2030–31'];if(Array.isArray(stats)){
+ for(const [name,g,a,note] of [['Nico Paz',1,0,'23 March 2031 Lazio home: 25′ headed goal, assist Michael Olise'],['Michael Olise',0,1,'23 March 2031 Lazio home: official crossing assist to Paz header at 25′']]){
+ let row=stats.find(x=>x[0]===name);if(!row){row=[name,0,0,''];stats.push(row)}row[1]=(Number(row[1])||0)+g;row[2]=(Number(row[2])||0)+a;row[3]=(row[3]?row[3]+' | ':'')+note;
+ }stats.sort((a,b)=>Number(b[1])-Number(a[1])||Number(b[2])-Number(a[2]));D.stats=stats;D.statsCurrentSeason='2030–31';
+ const tally=new Map();for(const [year,rows]of Object.entries(D.statsBySeason))for(const [raw,g,a]of rows){const name=raw==='Francesco Pio Esposito'?'Pio Esposito':raw,v=tally.get(name)||{g:0,a:0,years:new Set()};v.g+=Number(g)||0;v.a+=Number(a)||0;v.years.add(year);tally.set(name,v)}D.careerStats=[...tally].map(([name,v])=>[name,v.g,v.a,[...v.years].sort().join(', ')]).sort((a,b)=>b[1]-a[1]||b[2]-a[2]);
+ }D.march23LazioClubStatsApplied=true;
+}
+D.statsScope='Napoli competitive CLUB 2030–31 through Lazio home Mar23: Pio38G16A, Beier33G30A, Moore8G9A, Estêvão2G5A, Nico Paz4G4A, Olise1G9A. Pio Hungary goal and Kean Hungary assist belong exclusively to ITALY international scope.';
+const prior=D.season203031||{};D.season203031={...prior,updated:'Napoli 1–1 Lazio on 23 Mar, Paz25 (Olise), Ratkov67; Napoli75pts/30, eight remaining. Italy 1–1 Hungary away Mar26, Pio72 (Kean) Szoboszlai80, xG Italy2.4 Hungary1.2; Italy retain group lead.',lastCompletedLeagueFixture:lazio,latestResult:'Napoli 1–1 Lazio · Serie A · 23 Mar 2031',latestResultDate:'2031-03-23',latestResultCompetition:'Serie A',nextClubOpponent:null,nextClubDate:null,nextClubFixture:null,nextClubMatch:null,serieA:{...(prior.serieA||{}),played:30,points:75,remaining:8,leadPoints:null,rivalsLastVerified:'2031-03-16'},statsVerifiedThrough:'Napoli club through Lazio March23; Italy match excluded from club goals and assists.'};
+D.nextClubFixture=null;D.nextClubMatch=null;D.nextSerieAFixture=null;
+D.nextMatch={date:'2031-03-29',team:'Italy',opponent:'Ukraine',venue:'Home',competition:'International',status:'scheduled',played:false,confirmedNext:true};
+D.nextInternationalFixture={...D.nextMatch};D.currentCalendarDate2031='2031-03-26';
+D.upcoming=[['Ukraine','International','29 Mar 2031 · Italy Home']];
+D.latestResult=['Hungary','1–1','Italy','International · 26 Mar 2031 · Pio 72′ from Kean, Szoboszlai 80′; Italy top of group'];
+D.hero={...(D.hero||{}),articleId:ids[0],strap:'HUNGARY 1–1 ITALY · AZZURRI STAY TOP OF GROUP'};
+const card=(a,v)=>'<article class="article-card '+E(v)+'" data-article="'+E(a.id)+'" tabindex="0" role="button"><div class="article-card-media">'+(a.image?'<img src="'+E(a.image)+'" alt="'+E(a.headline)+'" loading="lazy">':'')+'</div><div class="article-card-copy"><div class="story-meta"><span>'+E(a.category)+'</span><span>'+E(a.date)+'</span></div><h3>'+E(a.headline)+'</h3><p>'+E(a.dek)+'</p><span class="read-link">Read story →</span></div></article>';
+const a=newest[0],hero=$('heroStory');if(hero)hero.innerHTML='<div class="hero-media"><img src="'+E(a.image)+'" alt="'+E(a.headline)+'" loading="eager" fetchpriority="high"></div><div class="hero-copy" data-article="'+E(a.id)+'" tabindex="0" role="button"><div class="hero-strap">'+E(D.hero.strap)+'</div><div class="story-meta"><span>'+E(a.category)+'</span><span>'+E(a.date)+'</span></div><h2>'+E(a.headline)+'</h2><p>'+E(a.dek)+'</p><span class="hero-read">Read the story →</span></div>';
+const top=$('topStories');if(top)top.innerHTML=D.articles.slice(1,5).map((x,i)=>'<button type="button" class="top-story" data-article="'+E(x.id)+'"><span>'+String(i+1).padStart(2,'0')+'</span><div><small>'+E(x.category)+'</small><strong>'+E(x.headline)+'</strong></div></button>').join('');
+const latest=$('latestNews');if(latest)latest.innerHTML=D.articles.slice(1,7).map((x,i)=>card(x,i?'compact':'wide')).join('');
+const grid=$('newsGrid');if(grid)grid.innerHTML=D.articles.map((x,i)=>card(x,i?'standard':'lead-grid')).join('');
+const filters=$('articleFilters');if(filters)filters.innerHTML=['All',...new Set(D.articles.map(x=>x.category))].map((x,i)=>'<button type="button" class="filter-pill '+(i?'':'active')+'" data-category="'+E(x)+'">'+E(x)+'</button>').join('');
+D.ticker=['HUNGARY 1–1 ITALY · PIO 72′ (KEAN) · SZOBOSZLAI 80′','ITALY xG 2.4 TO HUNGARY 1.2 · AZZURRI REMAIN TOP OF GROUP','ITALY vs UKRAINE · HOME · 29 MARCH NEXT','NAPOLI 1–1 LAZIO · PAZ 25′ (OLISE) · RATKOV 67′','NAPOLI 75 POINTS AFTER 30 SERIE A MATCHES · EIGHT REMAIN'];
+const ticker=$('tickerTrack');if(ticker)ticker.innerHTML=[...D.ticker,...D.ticker].map(t=>'<span>'+E(t)+'</span>').join('');
+D.whispers=[['ITALY REMAIN FIRST','Pio scores from Kean at 72, Szoboszlai equalises at 80; Italy remain top of their group.'],['ITALY CHANCE ADVANTAGE','The Azzurri created 2.4 xG to Hungary’s 1.2 but finished 1–1.'],['NAPOLI DROP TWO POINTS','Paz heads Olise’s cross home at 25; Ratkov levels for Lazio at 67.'],['SERIE A','Napoli reach 75 points from 30 league matches; eight fixtures remain.'],['NEXT: UKRAINE','Italy at home on 29 March; Kayode unavailable for this international window.']];
+const whispers=$('whisperList');if(whispers)whispers.innerHTML=D.whispers.map(x=>'<div class="whisper"><span>'+E(x[0])+'</span><p>'+E(x[1])+'</p></div>').join('');
+const lr=$('latestResult');if(lr)lr.innerHTML='<div class="latest-score"><span>HUN</span><strong>1–1</strong><span>ITA</span></div><p>INTERNATIONAL · 26 MAR · PIO 72′ · SZOBOSZLAI 80′ · ITALY TOP OF GROUP</p>';
+const nextTwo=$('nextTwo');if(nextTwo)nextTwo.innerHTML='<div class="next-row"><strong>Ukraine</strong><span>International · 29 Mar · Italy home</span></div><div class="next-row"><strong>Napoli</strong><span>Next club fixture after international break</span></div>';
+const form=$('formLine');if(form)form.innerHTML='<div><strong>HUNGARY 1–1 ITALY · 26 MAR</strong><span>Pio 72′ from Kean · Szoboszlai 80′ · Italy xG 2.4, Hungary 1.2</span></div><div><strong>AZZURRI REMAIN TOP OF GROUP</strong><span>Ukraine home 29 March · Kayode unavailable</span></div><div><strong>NAPOLI 1–1 LAZIO · SERIE A</strong><span>Paz 25′ (Olise) · Ratkov 67′ · Napoli 75 points / 30 matches</span></div>';
+const strip=$('upcomingStrip');if(strip)strip.innerHTML='<div class="fixture"><span>International · 29 Mar</span><strong>Ukraine</strong><small>Italy home</small></div>';
+const status=document.querySelector('.header-status span:last-child');if(status)status.textContent='ITALY 1–1 HUNGARY · GROUP LEAD RETAINED';
+const meta=document.querySelector('meta[name="description"]');if(meta)meta.setAttribute('content','Italy draw 1–1 at Hungary despite 2.4–1.2 xG but remain group leaders. Napoli draw 1–1 with Lazio, reaching 75 Serie A points.');
+const matches=$('matchesList');if(matches)matches.innerHTML=D.results.slice().reverse().map(row=>{const away=(row[0]==='Napoli'||row[0]==='Italy')&&/\bAway\b/i.test(String(row[6]));const left=away?row[1]:row[0],right=away?row[0]:row[1],score=away?row[4]+'–'+row[3]:row[3]+'–'+row[4];return '<div class="match-card"><div class="result-badge '+E(row[5])+'">'+E(row[5])+'</div><div class="match-main"><span>'+E(row[2])+'</span><strong>'+E(left)+' <b>'+E(score)+'</b> '+E(right)+'</strong><p>'+E(row[6])+' · '+E(row[7])+'</p></div></div>'}).join('');
+const stats=D.statsBySeason?.['2030–31'];if(Array.isArray(stats)){
+const table=$('statsTable');if(table)table.innerHTML='<thead><tr><th>Player</th><th>Goals</th><th>Assists</th><th>G+A</th><th>Season note</th></tr></thead><tbody>'+stats.map(r=>'<tr>'+[r[0],r[1],r[2],Number(r[1])+Number(r[2]),r[3]].map(x=>'<td>'+E(x)+'</td>').join('')+'</tr>').join('')+'</tbody>';
+const leader=[...stats].sort((a,b)=>b[1]-a[1])[0],topScorer=$('topScorer');if(topScorer)topScorer.innerHTML='<span>Top scorer · 2030–31</span><strong>'+E(leader[0])+'</strong><b>'+E(leader[1])+'</b><small>goals</small>';
+const max=Math.max(1,...stats.map(r=>Number(r[1])||0)),bars=$('goalBars');if(bars)bars.innerHTML=stats.filter(r=>Number(r[1])>0).map(r=>'<div class="goal-row"><span>'+E(r[0])+'</span><div class="bar-track"><div class="bar-fill" style="width:'+((Number(r[1])||0)/max*100)+'%"></div></div><strong>'+E(r[1])+'</strong></div>').join('');
+}
+})();
