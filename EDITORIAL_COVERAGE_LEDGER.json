@@ -136,9 +136,19 @@
       "month": "2031-04",
       "status": "covered_additional",
       "note": "Elena De Luca character-led follow-up on Pio Esposito and Maximilian Beier in Juventus 1–1 Napoli Apr12: Pio's goal minute19 from Beier official assist, bringing club season to Pio39G16A and Beier33G31A. April Raspadori and Paz player features remain intact; no invented quotes."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Elena De Luca in-depth feature after Napoli 3–1 Arsenal Apr16: Maximilian Beier 2G1A, club 35G32A, 49′ goal from Neves and later untimed no-assist poke before 90+1′ Estêvão headed winner from Beier cross; follows previous April Beier/Pio feature. No fake player quotes."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Marco D'Amato character-led feature Estêvão's 90+1′ header from Beier against Arsenal, Napoli QF win 4–3 aggregate, club 3G5A. Builds on 2 assists vs Barcelona home in March; no fabricated player testimony."
     }
   ],
-  "latest_confirmed_match": "Juventus 1–1 Napoli, away Serie A 12 April 2031. Cvetkovic 8′, Pio Esposito 19′ official Maximilian Beier assist. HT and FT 1–1. Napoli 77 points /32 league matches, Roma 70 /32, six league games left. Four consecutive competitive matches without a Napoli win. Arsenal home UCL QF second leg April16 next, Arsenal lead 2–1 aggregate.",
+  "latest_confirmed_match": "Napoli 3–1 Arsenal HOME UEFA Champions League quarterfinal second leg 16 April 2031, Napoli win 4–3 aggregate and qualify for semifinals. Beier 49′ (João Neves official assist); Rice 72′ Arsenal; Beier second goal between 72′ and 90+1′ exact minute unspecified and NO official assist; Estêvão 90+1′ HEADER (Beier official assist). FT confirmed. Crashed initial match attempt with Olise/Paz header voided; no official contribution. Next Cagliari home Serie A Apr19. Serie A standings Napoli77/32 Roma70/32 unchanged.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -153,6 +163,61 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Publication candidate source authored on main; final status determined by editorial gate, compact snapshot and GitHub Pages deployment.",
+    "phase": "Napoli comeback over Arsenal QF second leg Apr16 2031 · Beier brace Estêvão 90+1′ winner",
+    "match": "Napoli 3–1 Arsenal home · UCL QF second leg · 16 April 2031 · Napoli 4–3 aggregate",
+    "stories": [
+      "napoli-arsenal-three-one-estevao-91-beier-comeback-apr16-2031",
+      "maximilian-beier-two-goals-one-assist-arsenal-apr16-2031",
+      "estevao-header-91-beier-cross-napoli-arsenal-apr16-2031",
+      "rice-72-napoli-arsenal-collapse-turnaround-bellandi-apr2031",
+      "napoli-third-straight-ucl-dream-survives-arsenal-apr2031",
+      "maradona-fan-reactions-napoli-arsenal-91st-minute-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco D'Amato · Il Calcio Sera",
+      "Matteo Bellandi · Linea Calcio",
+      "Marco Bellini · Il Calcio Sera",
+      "Giada Conti · Napoli Tribune"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-coaches-team-tactics.webp",
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-napoli-home-crowd.webp"
+    ],
+    "source": [
+      "stories-arsenal-comeback-apr16-2031.js",
+      "stories-arsenal-aftershock-apr16-2031.js",
+      "site-visible-arsenal-comeback-apr16-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Napoli 3–1 Arsenal Apr16, 4–3 aggregate; Beier 49′ (Neves assist), Rice 72′, Beier second (no official assist, time unspecified after Rice and before 90+1), Estêvão header 90+1 (Beier official assist). Napoli semifinal qualification. Two previous consecutive European trophies, third not yet won. Beier season 35G32A, Estêvão3G5A, Neves1G4A, Pio39G16A, Paz5G4A. League Napoli77/32, Roma70/32 remains unchanged.",
+    "unknowns": "Second Beier goal exact minute and cross provider; assist/goal method Rice; full lineups, substitutions and injuries; UCL semifinal opponent and dates; all future fixtures and league results.",
+    "nextFixture": "Cagliari HOME · Serie A · 19 April 2031 · not played",
+    "paragraphs": 107,
+    "comments": {
+      "topLevel": 80,
+      "totalIncludingReplies": 284,
+      "maxDepth": 3
+    },
+    "feature": "Beier and Estêvão player-led longform, alongside established April Raspadori and Paz player features",
+    "press": "No manager public interview given; no direct user-manager public quotes invented. No player interviews or testimony fabricated.",
+    "mediaQA": "Six approved repo image paths confirmed to exist; archival fiction identified as illustration and not literal event photo. Live preview visual crop dependent on compiled-site tests.",
+    "releaseVersion": "2031-arsenal-home-comeback-qf-apr16-v1",
+    "expectedArchive": {
+      "stories": 782,
+      "results": 168
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Source prepared and committed; editorial quality gate, compiled browser tests and Pages deployment pending independent confirmation",
     "phase": "Juventus 1–1 Napoli Apr12, complete six-row all-32 league table, four games without a win and Arsenal return",
     "match": "Juventus 1–1 Napoli · Serie A away · 12 April 2031",
@@ -195,50 +260,6 @@
     "press": "No new manager press interview or player testimony supplied; no invented direct quotations",
     "mediaQA": "All four images confirmed as existing approved repository artwork; no live browser crop inspection yet",
     "releaseVersion": "2031-juventus-draw-title-apr12-v1"
-  },
-  "previous_newsroom_package": {
-    "status": "Source release prepared; editorial, compact build and Pages deployment to be verified",
-    "phase": "Arsenal 2–1 Napoli April8 UCL quarterfinal first leg, Saka reversal, Nico Paz goal, Juventus ahead",
-    "match": "Arsenal 2–1 Napoli · UEFA Champions League quarterfinal first leg · Away · 8 April 2031",
-    "stories": [
-      "arsenal-two-one-napoli-paz-saka-wood-ucl-qf-apr8-2031",
-      "saka-six-minutes-wood-header-arsenal-napoli-apr2031",
-      "nico-paz-five-goals-arsenal-rebound-ucl-apr2031",
-      "juventus-between-arsenal-legs-napoli-april2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco D'Amato · Football desk",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-coaches-team-tactics.webp",
-      "assets/nico-paz-napoli.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "source": [
-      "stories-arsenal-first-leg-apr8-2031.js",
-      "site-visible-arsenal-first-leg-apr8-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Paz 7′ rebound after Pio cross/Beier shot saved by Raya; NO official Napoli assist. Saka Arsenal equaliser13′; Wood Arsenal header19′ from Saka cross. Arsenal 2–1 Napoli HT and FT Apr8 away QF first leg. Arsenal lead 2–1; second leg in Naples Apr16 unplayed. Next Juventus away Apr12. Napoli Serie A remains 76/31 nine ahead Roma 67/31. Paz club season 5G4A.",
-    "unknowns": "Saka's 13′ goal assist and manner; official credited assist to Wood aside from clear Saka cross; Wood's given name; additional match actions/lineups/xG, details about second half; April12 Juventus result and Apr16 return leg not played.",
-    "nextFixture": "Juventus away · Serie A · 12 April 2031",
-    "paragraphs": 58,
-    "comments": {
-      "topLevel": 44,
-      "totalIncludingReplies": 137,
-      "maxDepth": 3
-    },
-    "feature": "Elena De Luca character-led Nico Paz 5G4A follow-up; separate April character-led Raspadori feature retained",
-    "press": "No supplied manager press answers or player quotes; none manufactured",
-    "mediaQA": "Existing gallery assets verified in repository tree; no actual photo crop/browser view claimed in ledger",
-    "releaseVersion": "2031-arsenal-away-qf-apr8-v1"
   },
   "release_history": [
     {
@@ -1328,7 +1349,7 @@
     "notes": "Milan and Lazio shown after 27 matches, others 26. Other clubs below 6th not established."
   },
   "latest_april_2031_calendar_and_table": {
-    "date": "2031-04-12",
+    "date": "2031-04-16",
     "leagueTopSix": [
       [
         "SSC Napoli",
@@ -1413,7 +1434,7 @@
         "assists": 4
       }
     },
-    "nextMatch": "Napoli vs Arsenal UCL QF second leg home Apr16, Arsenal 2–1 aggregate advantage",
+    "nextMatch": "Cagliari HOME Serie A Apr19, not played",
     "fixtures": [
       [
         "2031-04-04",
@@ -1426,7 +1447,7 @@
         "2031-04-08",
         "Arsenal",
         "Away",
-        "Champions League quarterfinal first leg",
+        "UCL QF 1st leg",
         "Arsenal 2–1 Napoli FT"
       ],
       [
@@ -1440,8 +1461,8 @@
         "2031-04-16",
         "Arsenal",
         "Home",
-        "Champions League quarterfinal second leg",
-        "scheduled"
+        "UCL QF 2nd leg",
+        "Napoli 3–1 Arsenal FT; Napoli 4–3 agg advance"
       ],
       [
         "2031-04-19",
@@ -1454,7 +1475,7 @@
         "2031-04-23",
         "AC Milan",
         "Home",
-        "Coppa Italia semifinal second leg (Napoli 2–0 ahead on aggregate)",
+        "Coppa Italia semifinal 2nd leg, Napoli lead 2–0 aggregate",
         "scheduled"
       ],
       [
@@ -1464,6 +1485,35 @@
         "Serie A",
         "scheduled"
       ]
-    ]
+    ],
+    "lastCompletedUCL": "Napoli 3–1 Arsenal home 16 Apr QF second leg; Napoli advance 4–3 aggregate to semifinals",
+    "uCLSemifinals": {
+      "status": "qualified",
+      "opponent": null,
+      "dates": null
+    },
+    "clubStatsAfterArsenalApr16": {
+      "beier": {
+        "goals": 35,
+        "assists": 32
+      },
+      "estevao": {
+        "goals": 3,
+        "assists": 5
+      },
+      "joaoNeves": {
+        "goals": 1,
+        "assists": 4
+      },
+      "pio": {
+        "goals": 39,
+        "assists": 16
+      },
+      "nicoPaz": {
+        "goals": 5,
+        "assists": 4
+      }
+    },
+    "leagueTopSixLastVerifiedAsOf": "2031-04-12"
   }
 }
