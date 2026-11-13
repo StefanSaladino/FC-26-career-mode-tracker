@@ -131,9 +131,14 @@
       "month": "2031-04",
       "status": "covered_additional",
       "note": "Elena De Luca player feature on Nico Paz after 7′ rebound goal at Arsenal, his fifth 2030–31 Napoli club goal (5G4A). Pio cross and Beier's saved shot noted, zero official assists credited. His prior league and cup goals documented; April Raspadori feature preserved. No fabricated interview."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Elena De Luca character-led follow-up on Pio Esposito and Maximilian Beier in Juventus 1–1 Napoli Apr12: Pio's goal minute19 from Beier official assist, bringing club season to Pio39G16A and Beier33G31A. April Raspadori and Paz player features remain intact; no invented quotes."
     }
   ],
-  "latest_confirmed_match": "Arsenal 2–1 Napoli · Champions League quarterfinal first leg · Arsenal home / Napoli away · 8 April 2031. Paz 7′ rebound after Raya saved Beier shot (Pio cross; no official Napoli assist), Saka 13′, Wood 19′ header from Saka cross. HT/FT 2–1. Arsenal lead aggregate 2–1. Juventus away Serie A April12 next.",
+  "latest_confirmed_match": "Juventus 1–1 Napoli, away Serie A 12 April 2031. Cvetkovic 8′, Pio Esposito 19′ official Maximilian Beier assist. HT and FT 1–1. Napoli 77 points /32 league matches, Roma 70 /32, six league games left. Four consecutive competitive matches without a Napoli win. Arsenal home UCL QF second leg April16 next, Arsenal lead 2–1 aggregate.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -148,6 +153,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source prepared and committed; editorial quality gate, compiled browser tests and Pages deployment pending independent confirmation",
+    "phase": "Juventus 1–1 Napoli Apr12, complete six-row all-32 league table, four games without a win and Arsenal return",
+    "match": "Juventus 1–1 Napoli · Serie A away · 12 April 2031",
+    "stories": [
+      "juventus-napoli-one-one-cvetkovic-pio-apr12-2031",
+      "napoli-seven-points-clear-roma-70-table-apr12-2031",
+      "pio-beier-connection-juventus-39-31-apr2031",
+      "napoli-arsenal-home-recovery-april-schedule-bellandi-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-touchline-pressure.webp",
+      "assets/story-maradona-stadium-night.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-coaches-team-tactics.webp"
+    ],
+    "source": [
+      "stories-juventus-draw-title-race-apr12-2031.js",
+      "site-visible-juventus-draw-title-race-apr12-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Juventus away league Apr12: Cvetkovic 8′, Pio Esposito 19′ Beier assist; HT/FT 1–1. Napoli 77 points/32, 23W8D1L, 66GF23GA GD43. Roma70/32, Inter68/32, Juventus68/32, Milan65/32, Lazio50/32. Napoli seven ahead with six league games left. Pio club 39G16A, Beier33G31A, Paz5G4A. Four without win across competitions, last three Serie A draws. Arsenal home Apr16 second leg with aggregate 1–2, unplayed.",
+    "unknowns": "Juve goal assist and shot type; unconfirmed substitutions and full lineup, chances, xG, goalkeeper; other clubs below sixth; Arsenal second leg result and future events; current injuries and precise Raspadori transfer destination.",
+    "nextFixture": "Napoli vs Arsenal · UEFA Champions League quarterfinal second leg · 16 April 2031 · Home",
+    "paragraphs": 60,
+    "comments": {
+      "topLevel": 39,
+      "totalIncludingReplies": 120,
+      "maxDepth": 3
+    },
+    "feature": "Elena De Luca April character-led Pio/Beier collaboration; existing April Raspadori and Paz articles retained",
+    "press": "No new manager press interview or player testimony supplied; no invented direct quotations",
+    "mediaQA": "All four images confirmed as existing approved repository artwork; no live browser crop inspection yet",
+    "releaseVersion": "2031-juventus-draw-title-apr12-v1"
+  },
+  "previous_newsroom_package": {
     "status": "Source release prepared; editorial, compact build and Pages deployment to be verified",
     "phase": "Arsenal 2–1 Napoli April8 UCL quarterfinal first leg, Saka reversal, Nico Paz goal, Juventus ahead",
     "match": "Arsenal 2–1 Napoli · UEFA Champions League quarterfinal first leg · Away · 8 April 2031",
@@ -190,50 +239,6 @@
     "press": "No supplied manager press answers or player quotes; none manufactured",
     "mediaQA": "Existing gallery assets verified in repository tree; no actual photo crop/browser view claimed in ledger",
     "releaseVersion": "2031-arsenal-away-qf-apr8-v1"
-  },
-  "previous_newsroom_package": {
-    "status": "Editorial source files prepared and committed; compact snapshot build, editorial gate and final Pages deployment require verification",
-    "phase": "Pisa 0–0, full top-six league table 4 April 2031, Raspadori transfer request, Arsenal quarterfinal calendar",
-    "match": "Napoli 0–0 Pisa · Serie A home · 4 April 2031",
-    "stories": [
-      "raspadori-napoli-transfer-request-after-pisa-apr4-2031",
-      "napoli-pisa-nil-nil-heavy-rotation-apr4-2031",
-      "napoli-serie-a-76-roma-67-juve-64-title-race-apr2031",
-      "arsenal-juventus-arsenal-napoli-rotation-cost-apr2031"
-    ],
-    "bylines": [
-      "Elena De Luca · Player desk",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-esposito-squad-walkout.webp",
-      "assets/story-napoli-home-crowd.webp",
-      "assets/story-maradona-stadium-night.webp",
-      "assets/story-coaches-team-tactics.webp"
-    ],
-    "source": [
-      "stories-pisa-raspadori-apr4-2031.js",
-      "site-visible-pisa-raspadori-apr4-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Napoli 0–0 Pisa Apr4 home Serie A, heavy rotation, Raspadori started; Raspadori subsequently explicitly wants departure but no completed transfer or destination. Screenshot table exact: Napoli 76/31 23W7D1L 65GF22GA GD43, Roma67/31, Juventus64/30, Inter62/30, AC Milan61/30, Lazio49/30. Arsenal away Apr8, Juventus away Apr12, Arsenal home Apr16, Cagliari home Apr19, Milan home Coppa semifinal return Apr23 (Napoli lead 2–0), Torino away Apr27.",
-    "unknowns": "Full Pisa starting XI, xG and chances, official reason for Raspadori request, transfer destination/fee, remaining standings below sixth, Arsenal result/lineup, Juventus and rest of April results, current Bastoni return readiness.",
-    "nextFixture": "Arsenal away · UEFA Champions League quarterfinal first leg · 8 April 2031",
-    "paragraphs": 60,
-    "comments": {
-      "topLevel": 50,
-      "totalIncludingReplies": 161,
-      "maxDepth": 3
-    },
-    "feature": "April 2031 Raspadori character-led reporting by Elena De Luca; no fictional interview",
-    "mediaQA": "Existing approved archive artwork verified by repository tree; actual crop/browser QA not performed",
-    "press": "No manager or player interview supplied, no invented on-record manager statements",
-    "releaseVersion": "2031-pisa-raspadori-apr4-v1"
   },
   "release_history": [
     {
@@ -1323,128 +1328,142 @@
     "notes": "Milan and Lazio shown after 27 matches, others 26. Other clubs below 6th not established."
   },
   "latest_april_2031_calendar_and_table": {
-    "date": "2031-04-04",
+    "date": "2031-04-12",
     "leagueTopSix": [
       [
-        "Napoli",
-        31,
+        "SSC Napoli",
+        32,
         23,
-        7,
+        8,
         1,
-        65,
-        22,
+        66,
+        23,
         43,
-        76
+        77
       ],
       [
-        "Roma",
-        31,
-        20,
+        "AS Roma",
+        32,
+        21,
         7,
         4,
-        56,
-        34,
-        22,
-        67
+        58,
+        35,
+        23,
+        70
+      ],
+      [
+        "Lombardia FC / Inter",
+        32,
+        20,
+        8,
+        4,
+        67,
+        35,
+        32,
+        68
       ],
       [
         "Juventus",
-        30,
-        19,
-        7,
-        4,
-        59,
-        34,
-        25,
-        64
-      ],
-      [
-        "Inter/Lombardia FC",
-        30,
-        18,
+        32,
+        20,
         8,
         4,
-        61,
-        33,
-        28,
-        62
+        62,
+        36,
+        26,
+        68
       ],
       [
-        "AC Milan/Milano FC",
-        30,
-        18,
-        7,
+        "Milano FC / AC Milan",
+        32,
+        19,
+        8,
         5,
-        61,
-        34,
-        27,
-        61
+        66,
+        37,
+        29,
+        65
       ],
       [
-        "Lazio/Latium",
-        30,
+        "Latium / Lazio",
+        32,
         13,
-        10,
-        7,
-        41,
-        40,
-        1,
-        49
+        11,
+        8,
+        43,
+        43,
+        0,
+        50
       ]
     ],
-    "leadOverRoma": 9,
+    "leadOverRoma": 7,
+    "leagueGamesRemainingForNapoli": 6,
+    "clubStatsAfterJuventus": {
+      "pio": {
+        "goals": 39,
+        "assists": 16
+      },
+      "beier": {
+        "goals": 33,
+        "assists": 31
+      },
+      "paz": {
+        "goals": 5,
+        "assists": 4
+      }
+    },
+    "nextMatch": "Napoli vs Arsenal UCL QF second leg home Apr16, Arsenal 2–1 aggregate advantage",
     "fixtures": [
       [
         "2031-04-04",
         "Pisa",
         "Home",
         "Serie A",
-        "0–0 FT"
+        "Napoli 0–0 Pisa FT"
       ],
       [
         "2031-04-08",
         "Arsenal",
         "Away",
-        "UCL quarterfinal first leg",
-        "Arsenal 2–1 Napoli FT · Paz 7′ no assist; Saka 13′; Wood 19′ Saka cross"
+        "Champions League quarterfinal first leg",
+        "Arsenal 2–1 Napoli FT"
       ],
       [
         "2031-04-12",
         "Juventus",
         "Away",
         "Serie A",
-        "unplayed"
+        "Juventus 1–1 Napoli FT"
       ],
       [
         "2031-04-16",
         "Arsenal",
         "Home",
-        "UCL quarterfinal second leg",
-        "unplayed"
+        "Champions League quarterfinal second leg",
+        "scheduled"
       ],
       [
         "2031-04-19",
         "Cagliari",
         "Home",
         "Serie A",
-        "unplayed"
+        "scheduled"
       ],
       [
         "2031-04-23",
         "AC Milan",
         "Home",
-        "Coppa semifinal second leg; Napoli lead aggregate 2–0",
-        "unplayed"
+        "Coppa Italia semifinal second leg (Napoli 2–0 ahead on aggregate)",
+        "scheduled"
       ],
       [
         "2031-04-27",
         "Torino",
         "Away",
         "Serie A",
-        "unplayed"
+        "scheduled"
       ]
-    ],
-    "transferRequest": "Raspadori wants to leave; not a sale",
-    "latestConfirmedMatch": "Arsenal 2–1 Napoli 8 Apr 2031 Champions League QF first leg; Juventus away April12 next"
+    ]
   }
 }
