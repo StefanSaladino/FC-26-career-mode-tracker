@@ -121,9 +121,14 @@
       "month": "2031-03",
       "status": "covered_additional",
       "note": "March additional character-led feature by Marco Bellini on Peacock's outstanding clean sheet in Milano FC 0–2 Napoli Coppa Italia semifinal first leg (no invented save count), and Elena De Luca prospect feature comparing Rossetti progress to 81 OVR at age 19 with Mancini stalled 77 OVR at age 22; both without fabricated press dialogue. Existing March Moore–Estêvão profile remains."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered",
+      "note": "Elena De Luca character-led feature on Giacomo Raspadori after his explicit transfer request, his Pisa start and prior cup semifinal contribution against AC Milan. Does not invent motive, quote, destination or completed sale."
     }
   ],
-  "latest_confirmed_match": "Italy 3–1 Ukraine home International 29 March 2031. Kean hat-trick 13′ (Pafundi official assist), 52′ (Tonali official assist), 73′ (Pisilli official assist); Vanat 83′ while Bastoni injured, Scalvini replaced Bastoni. Bastoni bruised shoulder, five days out. Earlier Hungary 1–1 Italy Mar26, Kean assist Pio goal; March window 1W1D 4GF2GA. Napoli Serie A 75/30; club stats unaffected.",
+  "latest_confirmed_match": "Napoli 0–0 Pisa home Serie A 4 April 2031, heavy rotation, Raspadori started; Napoli 76 points 31 matches, 23W7D1L 65GF22GA+43, Roma 67/31, Juventus 64/30. Raspadori formally wants to leave (request only, no destination or completed deal). Arsenal away Champions League QF first leg Apr8 next.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -138,6 +143,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Editorial source files prepared and committed; compact snapshot build, editorial gate and final Pages deployment require verification",
+    "phase": "Pisa 0–0, full top-six league table 4 April 2031, Raspadori transfer request, Arsenal quarterfinal calendar",
+    "match": "Napoli 0–0 Pisa · Serie A home · 4 April 2031",
+    "stories": [
+      "raspadori-napoli-transfer-request-after-pisa-apr4-2031",
+      "napoli-pisa-nil-nil-heavy-rotation-apr4-2031",
+      "napoli-serie-a-76-roma-67-juve-64-title-race-apr2031",
+      "arsenal-juventus-arsenal-napoli-rotation-cost-apr2031"
+    ],
+    "bylines": [
+      "Elena De Luca · Player desk",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-esposito-squad-walkout.webp",
+      "assets/story-napoli-home-crowd.webp",
+      "assets/story-maradona-stadium-night.webp",
+      "assets/story-coaches-team-tactics.webp"
+    ],
+    "source": [
+      "stories-pisa-raspadori-apr4-2031.js",
+      "site-visible-pisa-raspadori-apr4-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Napoli 0–0 Pisa Apr4 home Serie A, heavy rotation, Raspadori started; Raspadori subsequently explicitly wants departure but no completed transfer or destination. Screenshot table exact: Napoli 76/31 23W7D1L 65GF22GA GD43, Roma67/31, Juventus64/30, Inter62/30, AC Milan61/30, Lazio49/30. Arsenal away Apr8, Juventus away Apr12, Arsenal home Apr16, Cagliari home Apr19, Milan home Coppa semifinal return Apr23 (Napoli lead 2–0), Torino away Apr27.",
+    "unknowns": "Full Pisa starting XI, xG and chances, official reason for Raspadori request, transfer destination/fee, remaining standings below sixth, Arsenal result/lineup, Juventus and rest of April results, current Bastoni return readiness.",
+    "nextFixture": "Arsenal away · UEFA Champions League quarterfinal first leg · 8 April 2031",
+    "paragraphs": 60,
+    "comments": {
+      "topLevel": 50,
+      "totalIncludingReplies": 161,
+      "maxDepth": 3
+    },
+    "feature": "April 2031 Raspadori character-led reporting by Elena De Luca; no fictional interview",
+    "mediaQA": "Existing approved archive artwork verified by repository tree; actual crop/browser QA not performed",
+    "press": "No manager or player interview supplied, no invented on-record manager statements",
+    "releaseVersion": "2031-pisa-raspadori-apr4-v1"
+  },
+  "previous_newsroom_package": {
     "status": "Editorial sources prepared; GitHub Actions compact build and public Pages deployment require verification",
     "phase": "Italy 3–1 Ukraine March29: Kean hat-trick; three distinct assists; Bastoni shoulder injury and Scalvini",
     "match": "Italy 3–1 Ukraine · International home · 29 March 2031",
@@ -193,73 +242,6 @@
     "press": "No newly supplied official manager interview or player testimony.",
     "mediaQA": "Existing gallery assets verified by repository tree; manual visual crop review not completed.",
     "releaseVersion": "2031-italy-ukraine-kean-mar29-v1"
-  },
-  "previous_newsroom_package": {
-    "status": "Editorial sources authored; compact GitHub Actions build and Pages verification pending",
-    "phase": "Two completed draws: Napoli 1–1 Lazio on Mar23 and Hungary 1–1 Italy on Mar26; Italy remain first in the group",
-    "match": "Napoli 1–1 Lazio · Serie A 23 Mar 2031; Hungary 1–1 Italy · International 26 Mar 2031",
-    "stories": [
-      "hungary-italy-one-one-pio-kean-szoboszlai-mar26-2031",
-      "napoli-lazio-paz-olise-ratkov-one-one-mar23-2031",
-      "pio-kean-two-shirts-two-late-goals-mar2031",
-      "bellandi-two-late-equalisers-napoli-italy-mar2031"
-    ],
-    "bylines": [
-      "Sofia Mancini · Azzurri desk",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/editorial-italy-kean-pio-2030-verdict.svg",
-      "assets/nico-paz-napoli.webp",
-      "assets/editorial-italy-pio-kean-partnership-jun2030.svg",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "source": [
-      "stories-lazio-hungary-double-draw-mar2031.js",
-      "site-visible-lazio-hungary-double-draw-mar2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Paz25 headed goal from Olise official cross/assist; Ratkov equalised Lazio67; Napoli75pts/30 eight fixtures left. Hungary Italy Pio72 from Kean official assist; Szoboszlai80; final xG Italy2.4 Hungary1.2; Italy first in group; Kayode unavailable entire period. Ukraine home Mar29 next.",
-    "unknowns": "Napoli's updated gap to rivals after March16, remaining current rivals' results, Italy group points and other rankings, detailed defensive goals mechanics, exact international tournament subtype, full lineups, other fixture events, next Napoli club opponent/date.",
-    "nextFixture": "Italy v Ukraine home 29 March 2031",
-    "paragraphs": 56,
-    "comments": {
-      "topLevel": 54,
-      "totalIncludingReplies": 168,
-      "maxDepth": 3,
-      "perArticle": [
-        {
-          "id": "hungary-italy-one-one-pio-kean-szoboszlai-mar26-2031",
-          "topLevel": 15,
-          "total": 47
-        },
-        {
-          "id": "napoli-lazio-paz-olise-ratkov-one-one-mar23-2031",
-          "topLevel": 14,
-          "total": 44
-        },
-        {
-          "id": "pio-kean-two-shirts-two-late-goals-mar2031",
-          "topLevel": 12,
-          "total": 37
-        },
-        {
-          "id": "bellandi-two-late-equalisers-napoli-italy-mar2031",
-          "topLevel": 13,
-          "total": 40
-        }
-      ]
-    },
-    "press": "No manager press responses provided. Player analysis has no fictional on-record Q&A; independent reporters analyse observable football.",
-    "implementation": "New stories & current-state overlay, older stories preserved, single canon, source loader and legacy first-paint revised; GitHub Actions compilation must finish before live claims.",
-    "verifiedImagePaths": true,
-    "manualImageCropQA": "Not performed",
-    "releaseVersion": "2031-hungary-lazio-mar26-v1"
   },
   "release_history": [
     {
@@ -1347,5 +1329,129 @@
     "seasonRemaining": 12,
     "unevenGamesPlayed": true,
     "notes": "Milan and Lazio shown after 27 matches, others 26. Other clubs below 6th not established."
+  },
+  "latest_april_2031_calendar_and_table": {
+    "date": "2031-04-04",
+    "leagueTopSix": [
+      [
+        "Napoli",
+        31,
+        23,
+        7,
+        1,
+        65,
+        22,
+        43,
+        76
+      ],
+      [
+        "Roma",
+        31,
+        20,
+        7,
+        4,
+        56,
+        34,
+        22,
+        67
+      ],
+      [
+        "Juventus",
+        30,
+        19,
+        7,
+        4,
+        59,
+        34,
+        25,
+        64
+      ],
+      [
+        "Inter/Lombardia FC",
+        30,
+        18,
+        8,
+        4,
+        61,
+        33,
+        28,
+        62
+      ],
+      [
+        "AC Milan/Milano FC",
+        30,
+        18,
+        7,
+        5,
+        61,
+        34,
+        27,
+        61
+      ],
+      [
+        "Lazio/Latium",
+        30,
+        13,
+        10,
+        7,
+        41,
+        40,
+        1,
+        49
+      ]
+    ],
+    "leadOverRoma": 9,
+    "fixtures": [
+      [
+        "2031-04-04",
+        "Pisa",
+        "Home",
+        "Serie A",
+        "0–0 FT"
+      ],
+      [
+        "2031-04-08",
+        "Arsenal",
+        "Away",
+        "UCL quarterfinal first leg",
+        "unplayed"
+      ],
+      [
+        "2031-04-12",
+        "Juventus",
+        "Away",
+        "Serie A",
+        "unplayed"
+      ],
+      [
+        "2031-04-16",
+        "Arsenal",
+        "Home",
+        "UCL quarterfinal second leg",
+        "unplayed"
+      ],
+      [
+        "2031-04-19",
+        "Cagliari",
+        "Home",
+        "Serie A",
+        "unplayed"
+      ],
+      [
+        "2031-04-23",
+        "AC Milan",
+        "Home",
+        "Coppa semifinal second leg; Napoli lead aggregate 2–0",
+        "unplayed"
+      ],
+      [
+        "2031-04-27",
+        "Torino",
+        "Away",
+        "Serie A",
+        "unplayed"
+      ]
+    ],
+    "transferRequest": "Raspadori wants to leave; not a sale"
   }
 }
