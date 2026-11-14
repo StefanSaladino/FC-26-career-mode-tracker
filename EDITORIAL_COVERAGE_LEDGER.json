@@ -163,7 +163,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Publication candidate source authored on main; final status determined by editorial gate, compact snapshot and GitHub Pages deployment.",
+    "status": "Content expansion committed on main; editorial gate and compiled public edition deployment require verification",
     "phase": "Napoli comeback over Arsenal QF second leg Apr16 2031 · Beier brace Estêvão 90+1′ winner",
     "match": "Napoli 3–1 Arsenal home · UCL QF second leg · 16 April 2031 · Napoli 4–3 aggregate",
     "stories": [
@@ -197,25 +197,32 @@
       "site-visible-juventus-apr2030.js",
       "legacy-index.html",
       "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
+      "EDITORIAL_COVERAGE_LEDGER.json",
+      "comments-arsenal-top-level-wave-a-apr16-2031.js",
+      "comments-arsenal-top-level-wave-b-apr16-2031.js"
     ],
     "knownFacts": "Napoli 3–1 Arsenal Apr16, 4–3 aggregate; Beier 49′ (Neves assist), Rice 72′, Beier second (no official assist, time unspecified after Rice and before 90+1), Estêvão header 90+1 (Beier official assist). Napoli semifinal qualification. Two previous consecutive European trophies, third not yet won. Beier season 35G32A, Estêvão3G5A, Neves1G4A, Pio39G16A, Paz5G4A. League Napoli77/32, Roma70/32 remains unchanged.",
     "unknowns": "Second Beier goal exact minute and cross provider; assist/goal method Rice; full lineups, substitutions and injuries; UCL semifinal opponent and dates; all future fixtures and league results.",
     "nextFixture": "Cagliari HOME · Serie A · 19 April 2031 · not played",
     "paragraphs": 107,
     "comments": {
-      "topLevel": 80,
-      "totalIncludingReplies": 284,
-      "maxDepth": 3
+      "topLevel": 230,
+      "totalIncludingReplies": 434,
+      "maxDepth": 3,
+      "originalTopLevel": 80,
+      "originalTotalIncludingReplies": 284,
+      "additionalTopLevel": 150,
+      "addedPerArticle": 25
     },
     "feature": "Beier and Estêvão player-led longform, alongside established April Raspadori and Paz player features",
     "press": "No manager public interview given; no direct user-manager public quotes invented. No player interviews or testimony fabricated.",
     "mediaQA": "Six approved repo image paths confirmed to exist; archival fiction identified as illustration and not literal event photo. Live preview visual crop dependent on compiled-site tests.",
-    "releaseVersion": "2031-arsenal-home-comeback-qf-apr16-v1",
+    "releaseVersion": "2031-arsenal-home-comeback-threads-apr16-v2",
     "expectedArchive": {
       "stories": 782,
       "results": 168
-    }
+    },
+    "discussionExpansion": "Manager expressly requested more top-level threads. Added 150 fresh independent top-level comments, 25 per article, and preserved prior 80 root threads plus 204 nested replies. After expansion 230 top-level roots, 434 total comments/replies. Expanded perspectives on Beier, Estêvão, Rice, Arsenal heartbreak, Napoli culture, title pressure; first paint and original article body unchanged."
   },
   "previous_newsroom_package": {
     "status": "Source prepared and committed; editorial quality gate, compiled browser tests and Pages deployment pending independent confirmation",
