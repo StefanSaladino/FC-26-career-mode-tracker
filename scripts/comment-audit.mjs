@@ -106,21 +106,50 @@ assert(bologna.comments?.length>=24,'Bologna supporter threads lost');
 assert(fs.existsSync(path.join(root,bologna.image)),'Approved Bologna cover image missing');
 assert(countNested(bologna.comments)>=66,'Bologna replies lost');
 assert(!/manager (supplied|confirmed)|source screenshot|private staff-room/i.test(bologna.body.join(' ')),'Bologna public reporting includes source provenance or private material');
-const clubSeason=data.statsBySeason?.['2030–31']||[],clubStat=name=>clubSeason.find(r=>r[0]===name)?.slice(1,3);
+// Current reporting checkpoint: Napoli 3–1 Arsenal, UEFA Champions League quarterfinal
+// 16 April 2031. Older Bologna story content is checked above as archived history;
+// its historical snapshot totals must not override the living season data.
+const clubSeason=data.statsBySeason?.['2030–31']||[];
+const clubStat=name=>clubSeason.find(r=>r[0]===name)?.slice(1,3);
 for(const [name,g,a] of [
- ['Pio Esposito',32,11],['Maximilian Beier',21,25],['Giacomo Raspadori',6,3],
- ['Nico Paz',1,4],['Mikey Moore',5,6],['João Neves',0,3],['Edoardo Rossetti',2,0]
-])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli club stats after Bologna '+name);
-const league=data.season203031?.serieA;
-assert(league?.played===22&&league?.wins===18&&league?.draws===3&&league?.losses===1&&league?.points===57&&league?.goalsFor===49&&league?.goalsAgainst===16&&league?.goalDifference===33,'Wrong Serie A record after Bologna');
-assert(league?.position==null,'Do not invent league position');
-const euro=data.season203031?.championsLeague;
-assert(euro?.played===7&&euro?.points===17&&euro?.wins===5&&euro?.draws===2&&euro?.losses===0&&euro?.goalsFor===16&&euro?.goalsAgainst===5,'UCL record must remain unchanged');
-assert(data.season203031?.competitiveGamesConfirmed===33&&data.season203031?.competitiveWins===27&&data.season203031?.competitiveDraws===5&&data.season203031?.competitiveLosses===1&&data.season203031?.competitiveGoalsFor===79&&data.season203031?.competitiveGoalsAgainst===25,'All-competitions totals mismatch after Bologna');
-assert(data.latestResult?.[0]==='Napoli'&&data.latestResult?.[1]==='1–0'&&data.latestResult?.[2]==='Bologna','Napoli 1–0 Bologna must be latest');
-assert(data.nextClubFixture?.opponent==='Dynamo Kyiv','Dynamo Kyiv must be next scheduled match');
-assert(data.bolognaJanuary2031?.events?.length===1&&data.bolognaJanuary2031.events[0]?.minute===83&&data.bolognaJanuary2031.events[0]?.scorer==='Giacomo Raspadori'&&data.bolognaJanuary2031.events[0]?.assist==='Maximilian Beier','Goal event not recorded correctly');
-assert(data.rossettiShortLoanJan2031?.state==='away on loan','Rossetti loan erroneously changed');
+ ['Pio Esposito',39,16],['Maximilian Beier',35,32],['Nico Paz',5,4],
+ ['Estêvão',3,5],['João Neves',1,4]
+])assert(JSON.stringify(clubStat(name))===JSON.stringify([g,a]),'Wrong Napoli current club stats after Arsenal 16 April '+name);
+const league=data.seasonState?.league;
+assert(league?.played===32&&league?.wins===23&&league?.draws===8&&league?.losses===1&&league?.points===77&&league?.goalsFor===66&&league?.goalsAgainst===23&&league?.goalDifference===43,'Wrong Serie A standings after latest Champions League match');
+assert(league?.leadPoints===7&&league?.remaining===6,'Serie A seven-point lead and six-game cushion lost');
+const qf=data.seasonState?.championsLeague?.quarterfinal;
+assert(data.seasonState?.championsLeague?.stage==='Semifinals'&&qf?.qualifier==='Napoli'&&qf?.aggregate?.Napoli===4&&qf?.aggregate?.Arsenal===3,'Napoli must advance to UCL semifinals 4–3 on aggregate');
+const secondLeg=qf?.legs?.find(x=>x.date==='2031-04-16');
+assert(secondLeg?.status==='completed'&&secondLeg?.resultText==='Napoli 3–1 Arsenal'&&secondLeg?.events?.length===4,'Arsenal comeback match record missing');
+assert(secondLeg.events[0]?.minute==='49'&&secondLeg.events[0]?.scorer==='Maximilian Beier'&&secondLeg.events[0]?.assist==='João Neves','Beier 49′ / João Neves contribution changed');
+assert(secondLeg.events[1]?.minute==='72'&&secondLeg.events[1]?.scorer==='Declan Rice','Rice 72′ equalizer missing');
+assert(secondLeg.events[2]?.scorer==='Maximilian Beier'&&secondLeg.events[2]?.minute==null&&secondLeg.events[2]?.officialAssist===false,'Beier second goal cannot receive an invented minute or assist');
+assert(secondLeg.events[3]?.minute==='90+1'&&secondLeg.events[3]?.scorer==='Estêvão'&&secondLeg.events[3]?.assist==='Maximilian Beier','Estêvão stoppage-time header / Beier assist missing');
+assert(data.latestResult?.[0]==='Napoli'&&data.latestResult?.[1]==='3–1'&&data.latestResult?.[2]==='Arsenal','Current latest result must be Napoli 3–1 Arsenal');
+assert(data.nextMatch?.opponent==='Cagliari'&&data.nextMatch?.date==='2031-04-19','Cagliari must remain next scheduled fixture');
+const arsenalComments=[
+ ['napoli-arsenal-three-one-estevao-91-beier-comeback-apr16-2031',40],
+ ['maximilian-beier-two-goals-one-assist-arsenal-apr16-2031',38],
+ ['estevao-header-91-beier-cross-napoli-arsenal-apr16-2031',37],
+ ['rice-72-napoli-arsenal-collapse-turnaround-bellandi-apr2031',37],
+ ['napoli-third-straight-ucl-dream-survives-arsenal-apr2031',38],
+ ['maradona-fan-reactions-napoli-arsenal-91st-minute-2031',40]
+];
+let newTopLevel=0,newTotal=0;
+for(const [id,expectedRoots] of arsenalComments){
+ const a=archive.articles.find(x=>x.id===id);
+ assert(a,'Missing latest Arsenal comeback report '+id);
+ assert(a.comments?.length===expectedRoots,'Top-level Arsenal discussions not fully deployed for '+id+': got '+a.comments?.length);
+ assert(a.body?.length>=15,'Original article body missing for '+id);
+ const all=new Set();
+ const visit=(nodes)=>{for(const node of nodes){assert(node.user&&node.text,'Empty user or text in '+id);const key=node.text.trim().toLowerCase();assert(!all.has(key),'Repeated Arsenal comment in '+id);all.add(key);visit(node.replies||[])}};
+ visit(a.comments);
+ newTopLevel+=a.comments.length;newTotal+=all.size;
+}
+assert(newTopLevel===230,'Arsenal comeback must have 230 independent root reactions across six articles');
+assert(newTotal===434,'Arsenal comeback must preserve 204 original replies and contain 434 total comments');
+assert(read('site-visible-juventus-apr2030.js').includes('comments-arsenal-top-level-wave-a-apr16-2031.js')&&read('site-visible-juventus-apr2030.js').includes('comments-arsenal-top-level-wave-b-apr16-2031.js'),'Additional root discussion scripts missing from compiled loader');
 
 const lead=html.match(/<article id="heroStory"[\s\S]*?data-article="([^"]+)"/)?.[1];assert(lead===data.hero.articleId&&ids.has(lead),'Static first paint must match compiled data');
 console.log(JSON.stringify({status:'PASS',articles:archive.articles.length,latestLead:lead,topLevelAcrossAllArticles:total,articlesWithoutInlineComments:empty,articlesWithFewerThanTenInlineThreads:underTen,janExpanded:!!data.january2031DiscussionExpansion,decExpanded:!!data.december2030DiscussionExpansion,publicScriptCount:scripts.length}));
