@@ -166,9 +166,14 @@
       "month": "2031-05",
       "status": "covered",
       "note": "Elena De Luca feature after Sassuolo away May4: young Mikey Moore's 21' assist for Olise volley and own second-half goal from Beier (exact minute not confirmed), as well as team attack Olise, Beier, Pio, Raspadori. No invented quotes."
+    },
+    {
+      "month": "2031-05",
+      "status": "covered_additional",
+      "note": "Elena De Luca May8 feature on RB Leipzig goalkeeper Svilar's 10.0 and nine saves in 1–0 loss to Napoli, Man of Match. Pio scorer28, Paz official assist. No invented player quotes."
     }
   ],
-  "latest_confirmed_match": "4 May 2031 Sassuolo 2–3 Napoli away Serie A FT. Olise 21 (Moore assist), Moore second-half goal from Beier (minute unconfirmed), Pinamonti 63, Raspadori 68 (Pio assist), Weiper 75. Inter and Roma won; Napoli83/35 Inter77/35 Roma76/35, six clear and three to go; Leipzig home May7 UCL SF second leg (Napoli lead 2–1 agg) unplayed.",
+  "latest_confirmed_match": "7 May 2031 Napoli 1–0 RB Leipzig UCL semifinal second leg, Napoli through 3–1 aggregate to fourth consecutive UCL final vs PSG, final UNPLAYED. Pio28 Paz official cross assist, Paz post36, Napoli xG5.2 Leipzig0.9, shots11–5, on target11–1, Svilar10.0 nine recorded saves MOTM in defeat. PSG beat Napoli 3–2 AET in first final 2028; Napoli beat Madrid 2029 and Porto 2030.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -183,6 +188,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Committed source; verify editorial gate, compiled static snapshot and Pages deployment",
+    "phase": "Leipzig home UCL SF second leg Napoli 1–0, Svilar 10.0 in loss, PSG final preview, four consecutive UCL finals",
+    "match": "7 May 2031 Napoli 1–0 Leipzig home, Napoli win 3–1 aggregate and face PSG in fourth consecutive UCL final (final unplayed)",
+    "stories": [
+      "napoli-psg-fourth-consecutive-final-2031-rematch",
+      "napoli-leipzig-one-nil-svilar-may7-2031",
+      "svilar-perfect-ten-napoli-semifinal-may2031",
+      "bellandi-napoli-paris-fourth-straight-final-may2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-european-team-celebration.webp",
+      "assets/story-maradona-stadium-night.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "source": [
+      "stories-napoli-leipzig-psg-final-may7-2031.js",
+      "site-visible-leipzig-return-psg-final-may7-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Pio goal 28 Nico Paz official assist; Paz post at 36; Napoli xG4.1 at36, 4.3HT, 5.2FT Leipzig0.9; shots 11–5, on target 11–1; Svilar ten rating, 9 saves 82% success, 1 conceded, MOTM despite defeat. Fourth straight UCL final vs PSG. PSG beat Napoli 3–2 AET 2028, Napoli beat Madrid 2–0 2029 and Porto 1–0 2030.",
+    "unknowns": "PSG final date, venue, lineups, result all unknown. No invented reconciliation for nine saves vs eleven shots on target and one goal. Coppa Italia final opponent/date unknown.",
+    "nextFixture": "Udinese away Serie A May10, Napoli83/35 Inter77/35 Roma76/35; PSG final unscheduled and unplayed",
+    "paragraphs": 61,
+    "comments": {
+      "topLevel": 79,
+      "totalIncludingReplies": 126
+    },
+    "feature": "Elena De Luca opposing keeper Svilar's 10.0 MOTM losing performance, May character-led; earlier Moore May feature remains.",
+    "press": "No manager public press and no player quotes invented.",
+    "mediaQA": "Existing approved archival gallery paths verified in GitHub tree; image rendering/cropping not separately inspected.",
+    "releaseVersion": "2031-leipzig-return-psg-final-v1",
+    "expectedArchive": {
+      "stories": 798,
+      "results": 174
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Committed in source; editorial CI, snapshot compile and Pages deployment to be verified",
     "phase": "Sassuolo away league 3–2 / three-team Scudetto race unchanged at six points",
     "match": "4 May 2031 Sassuolo 2–3 Napoli Serie A; Inter and Roma also WON separate matches",
@@ -224,53 +276,6 @@
     "expectedArchive": {
       "stories": 794,
       "results": 173
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Source release submitted; editorial CI, compiled snapshot and final Pages deployment to be verified",
-    "phase": "Leipzig away UCL semifinal first-leg 2–1 comeback plus Torino away Serie A 1–0 setback",
-    "match": "29 Apr 2031 RB Leipzig 1–2 Napoli Champions League semifinal first leg; 26 Apr Torino 1–0 Napoli Serie A",
-    "stories": [
-      "leipzig-napoli-one-two-defenders-comeback-apr29-2031",
-      "bastoni-buongiorno-davies-leipzig-semifinal-apr2031",
-      "torino-one-nil-napoli-vlasic-title-lead-apr26-2031",
-      "bellandi-napoli-six-clear-leipzig-rebound-apr2031"
-    ],
-    "bylines": [
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk",
-      "Giulia Romano · Radio Napoli Centrale",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-touchline-pressure.webp",
-      "assets/story-coaches-team-tactics.webp"
-    ],
-    "source": [
-      "stories-torino-leipzig-comeback-apr26-29-2031.js",
-      "site-visible-torino-leipzig-apr29-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Torino Vlašić57; manager screenshot top six Napoli 80/34 Inter74/34 Roma73/34. Leipzig HT 0–0, Davies own goal 48, Pio 66 Bastoni backheel official assist, Buongiorno 81 headed from Zaïre corner, Svilar touched to bar and across line; FT 1–2, Napoli lead 2–1 aggregate. Napoli club Pio41G16A, Bastoni0G2A, Buongiorno1G0A, Warren4G7A.",
-    "unknowns": "Other match events, Torino opponent scorer assist, match lineups/stats, UCL semifinal return result, eventual Coppa final date/opponent.",
-    "nextFixture": "Sassuolo away May4 Serie A; Leipzig HOME May7 UCL semifinal 2nd leg",
-    "paragraphs": 54,
-    "comments": {
-      "topLevel": 67,
-      "totalIncludingReplies": 141
-    },
-    "feature": "Elena De Luca Bastoni, Buongiorno and Davies defender character feature",
-    "press": "No manager public press and no player interviews; no quotes fabricated.",
-    "mediaQA": "Existing approved gallery asset paths verified in GitHub tree; separate visual crop test only claimed if performed.",
-    "releaseVersion": "2031-leipzig-semi-first-leg-v1",
-    "expectedArchive": {
-      "stories": 791,
-      "results": 172
     }
   },
   "release_history": [
@@ -1765,5 +1770,64 @@
     ],
     "interRomaBothWon": true,
     "leadPoints": 6
+  },
+  "latest_ucl_semifinal_2031_05_07": {
+    "date": "2031-05-07",
+    "result": "Napoli 1–0 RB Leipzig",
+    "aggregate": "Napoli 3–1 RB Leipzig",
+    "qualifiedForFinal": true,
+    "goal": "Pio28 Nico Paz official cross assist",
+    "PazPostMinute": 36,
+    "xg": {
+      "Napoli": 5.2,
+      "Leipzig": 0.9
+    },
+    "xgAtHalftime": 4.3,
+    "shots": {
+      "Napoli": 11,
+      "Leipzig": 5
+    },
+    "onTarget": {
+      "Napoli": 11,
+      "Leipzig": 1
+    },
+    "Svilar": {
+      "rating": 10,
+      "saves": 9,
+      "saveSuccessRate": 82,
+      "conceded": 1,
+      "manOfMatch": true
+    },
+    "finalOpponent": "PSG",
+    "finalStatus": "unplayed"
+  },
+  "latest_ucl_final_opponent_2031": {
+    "opponent": "Paris Saint-Germain",
+    "confirmed": true,
+    "status": "UNPLAYED",
+    "date": null,
+    "venue": null,
+    "history": [
+      {
+        "season": "2027–28",
+        "opponent": "PSG",
+        "result": "Napoli 2–3 PSG AET"
+      },
+      {
+        "season": "2028–29",
+        "opponent": "Real Madrid",
+        "result": "Napoli 2–0 Real Madrid"
+      },
+      {
+        "season": "2029–30",
+        "opponent": "Porto",
+        "result": "Porto 0–1 Napoli"
+      },
+      {
+        "season": "2030–31",
+        "opponent": "PSG",
+        "status": "unplayed"
+      }
+    ]
   }
 }
