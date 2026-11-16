@@ -608,193 +608,151 @@
     "success": true
   },
   "latest_calendar_update": {
-    "status": "After March5 Coppa semifinal first leg Milan 0–2 Napoli. Next Venezia home March8; Barcelona UCL R16 first leg away March11, Roma away Mar16, Barcelona UCL R16 second leg home Mar19. Coppa semifinal return date unannounced.",
-    "type": "Manager-supplied FC 26 calendar photo update only; no new story authorization or player press",
-    "selectedGameDate": "2031-03-08",
-    "confirmedResults": [
-      {
-        "date": "2031-02-01",
-        "match": "Fiorentina 0–3 Napoli",
-        "competition": "Serie A",
-        "venue": "Away",
-        "classificationResolved": true
-      },
-      {
-        "date": "2031-02-05",
-        "match": "Torino 2–5 Napoli",
-        "competition": "Coppa Italia",
-        "resultType": "After extra time",
-        "venue": "Not explicitly shown in completed tile"
-      }
-    ],
-    "latestSerieA": {
-      "played": 26,
-      "wins": 21,
-      "draws": 4,
-      "losses": 1,
-      "points": 67,
-      "goalsFor": 57,
-      "goalsAgainst": 19,
-      "goalDifference": 38,
-      "position": 1,
-      "gapToSecond": 8
-    },
-    "napoliFutureFixtures": [
-      [
-        "2031-03-02",
-        "Pescara",
-        "Away",
-        "Serie A"
-      ],
-      [
-        "2031-03-05",
-        "Milano FC / AC Milan",
-        "Away",
-        "Coppa Italia"
-      ],
-      [
-        "2031-03-08",
-        "Venezia",
-        "Home",
-        "Serie A"
-      ],
-      [
-        "2031-03-11",
-        "FC Barcelona",
-        "Away",
-        "UCL round of 16 first leg"
-      ],
-      [
-        "2031-03-16",
-        "AS Roma",
-        "Away",
-        "Serie A"
-      ],
-      [
-        "2031-03-19",
-        "FC Barcelona",
-        "Home",
-        "UCL round of 16 second leg"
-      ],
-      [
-        "2031-03-23",
-        "Latium / Lazio",
-        "Home",
-        "Serie A"
-      ]
-    ],
-    "italyFutureFixtures": [
-      [
-        "2031-03-26",
-        "Hungary",
-        "Away",
-        "International"
-      ],
-      [
-        "2031-03-29",
-        "Ukraine",
-        "Home",
-        "International"
-      ]
-    ],
-    "scope": "Only calendar, match classification, current next-fixture display, league-specific record; do not re-add Fiorentina to club total/goal stats. Serie A rivals standings and new cup round unknown. No UCL fixtures shown. Preserve all five previously published Olise/Torino reports and public homepage lead.",
-    "source": "site-visible-feb-mar-calendar-2031.js",
-    "sourceCommit": "0e9e184fbf3263afbb0ed1efd99701842aacd6f9",
-    "buildCommit": "c0bca9b0efc2d9371521a926c251b48af12e7a1d",
-    "pagesDeployment": {
-      "status": "success",
-      "runId": 42919875667
-    },
-    "visualQA": "Two manager screenshots visually reviewed, enlarged team badges; no actual live Pages manual screenshot inspect",
-    "buildSourceRevision": "0e9e184fbf32",
-    "editorialGate": {
-      "status": "success",
-      "runId": 42919767254
-    },
-    "compactBuild": {
-      "status": "success",
-      "runId": 42919767240,
-      "articles": 729,
-      "results": 152,
-      "seasons": 4,
-      "legacyErrors": 0
-    },
-    "compiledStateVerified": "Compiled index.html first paint retains Olise $197.9m transfer lead and shows Parma next; snapshot-data.js includes 12 calendar entries (2 completed club, 8 scheduled club, 2 Italy), Fiorentina league allocation, Torino Feb5, Napoli Serie A 23P60pts; no extra club games, no changed player stats, no new articles.",
-    "roundOf16": {
-      "opponent": "FC Barcelona",
-      "firstLegDate": "2031-03-11",
-      "firstLegVenue": "Away",
-      "secondLegDate": "2031-03-19",
-      "secondLegVenue": "Home",
-      "outcome": "Not played"
-    },
-    "nextClubFixture": {
-      "date": "2031-03-08",
-      "opponent": "Venezia",
-      "venue": "Home",
-      "competition": "Serie A",
+    "type": "Manager-supplied screenshots of April and May 2031 fictional career-mode fixture calendar; CALENDAR UPDATE ONLY, no new news publishing instruction",
+    "source": "Two FC26 month calendar screenshots, April and May 2031, after last confirmed result Arsenal Apr16",
+    "lastConfirmedMatch": "Napoli 3–1 Arsenal HOME, UCL QF second leg Apr16 2031, Napoli win 4–3 aggregate",
+    "currentConfirmedFixtureNext": "Cagliari home Serie A Apr19, unplayed",
+    "torinoCorrection": {
+      "previouslyListed": "2031-04-27",
+      "confirmed": "2031-04-26",
       "status": "scheduled"
     },
-    "pescaraMarch2": {
-      "opponent": "Pescara",
-      "date": "2031-03-02",
-      "venue": "Away",
-      "competition": "Serie A",
-      "resultKnown": false,
-      "status": "Result not supplied"
-    },
-    "interLatest": {
-      "opponent": "Inter / Lombardia FC",
-      "result": "Napoli 2–2 Inter",
-      "competition": null,
-      "date": null,
-      "venue": null
-    },
-    "lastMatch": {
-      "date": "2031-03-05",
-      "opponent": "Milano FC / AC Milan",
-      "venue": "Away",
-      "competition": "Coppa Italia",
-      "stage": "Semifinal first leg",
-      "result": "Milano FC 0–2 Napoli"
-    },
-    "coppaSemifinal": {
+    "championsLeagueSemifinal": {
+      "opponent": "RB Leipzig",
       "firstLeg": {
-        "date": "2031-03-05",
-        "opponent": "Milano FC",
+        "date": "2031-04-29",
         "venue": "Away",
-        "result": "0–2",
-        "status": "completed"
+        "status": "scheduled"
       },
       "secondLeg": {
-        "date": null,
-        "venue": null,
-        "status": "not played"
+        "date": "2031-05-07",
+        "venue": "Home",
+        "status": "scheduled"
       },
-      "aggregate": {
-        "Napoli": 2,
-        "MilanoFC": 0
-      },
-      "qualifiedForFinal": false
+      "aggregate": null,
+      "outcome": null
     },
-    "kayode": {
-      "status": "Injured",
-      "outWeeks": 4,
-      "from": "2031-03-05",
-      "estimatedReturn": "early April, subject to recovery"
+    "remainingFixtures": [
+      [
+        "2031-04-19",
+        "Cagliari",
+        "Home",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-04-23",
+        "AC Milan / Milano FC",
+        "Home",
+        "Coppa Italia semifinal 2nd leg (Napoli lead 2–0 aggregate)",
+        "scheduled"
+      ],
+      [
+        "2031-04-26",
+        "Torino",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-04-29",
+        "RB Leipzig",
+        "Away",
+        "Champions League semifinal 1st leg",
+        "scheduled"
+      ],
+      [
+        "2031-05-04",
+        "Sassuolo",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-07",
+        "RB Leipzig",
+        "Home",
+        "Champions League semifinal 2nd leg",
+        "scheduled"
+      ],
+      [
+        "2031-05-10",
+        "Udinese",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-18",
+        "Como",
+        "Home",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-25",
+        "AC Milan / Milano FC",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ]
+    ],
+    "serieARunIn": [
+      [
+        "2031-04-19",
+        "Cagliari",
+        "Home",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-04-26",
+        "Torino",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-04",
+        "Sassuolo",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-10",
+        "Udinese",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-18",
+        "Como",
+        "Home",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-25",
+        "AC Milan / Milano FC",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ]
+    ],
+    "leagueLastVerified": {
+      "asOf": "2031-04-12",
+      "napoliPoints": 77,
+      "napoliPlayed": 32,
+      "romaPoints": 70,
+      "romaPlayed": 32,
+      "lead": 7,
+      "remainingLeagueGames": 6
     },
-    "development": {
-      "Rossetti": {
-        "age": 19,
-        "overall": 81,
-        "trend": "progressing"
-      },
-      "Mancini": {
-        "age": 22,
-        "overall": 77,
-        "trend": "stalled"
-      }
-    }
+    "nonResults": "Both screenshots establish fixtures, not played outcomes. All Apr19-May25 unplayed; no stats/league changes.",
+    "sourceScript": "site-visible-april-may-calendar-leipzig-2031.js",
+    "noNewsroomStories": true
   },
   "latest_canon_only_checkpoint": {
     "type": "Barcelona UCL R16 comeback now authorised for newsroom",
@@ -1441,7 +1399,7 @@
         "assists": 4
       }
     },
-    "nextMatch": "Cagliari HOME Serie A Apr19, not played",
+    "nextMatch": "Cagliari HOME Serie A Apr19 (not played)",
     "fixtures": [
       [
         "2031-04-04",
@@ -1480,14 +1438,56 @@
       ],
       [
         "2031-04-23",
-        "AC Milan",
+        "AC Milan / Milano FC",
         "Home",
-        "Coppa Italia semifinal 2nd leg, Napoli lead 2–0 aggregate",
+        "Coppa Italia semifinal 2nd leg (Napoli lead 2–0 aggregate)",
         "scheduled"
       ],
       [
-        "2031-04-27",
+        "2031-04-26",
         "Torino",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-04-29",
+        "RB Leipzig",
+        "Away",
+        "Champions League semifinal 1st leg",
+        "scheduled"
+      ],
+      [
+        "2031-05-04",
+        "Sassuolo",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-07",
+        "RB Leipzig",
+        "Home",
+        "Champions League semifinal 2nd leg",
+        "scheduled"
+      ],
+      [
+        "2031-05-10",
+        "Udinese",
+        "Away",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-18",
+        "Como",
+        "Home",
+        "Serie A",
+        "scheduled"
+      ],
+      [
+        "2031-05-25",
+        "AC Milan / Milano FC",
         "Away",
         "Serie A",
         "scheduled"
@@ -1495,9 +1495,20 @@
     ],
     "lastCompletedUCL": "Napoli 3–1 Arsenal home 16 Apr QF second leg; Napoli advance 4–3 aggregate to semifinals",
     "uCLSemifinals": {
-      "status": "qualified",
-      "opponent": null,
-      "dates": null
+      "status": "scheduled",
+      "opponent": "RB Leipzig",
+      "firstLeg": {
+        "date": "2031-04-29",
+        "venue": "Away",
+        "status": "scheduled"
+      },
+      "secondLeg": {
+        "date": "2031-05-07",
+        "venue": "Home",
+        "status": "scheduled"
+      },
+      "aggregate": null,
+      "winner": null
     },
     "clubStatsAfterArsenalApr16": {
       "beier": {
@@ -1521,6 +1532,9 @@
         "assists": 4
       }
     },
-    "leagueTopSixLastVerifiedAsOf": "2031-04-12"
+    "leagueTopSixLastVerifiedAsOf": "2031-04-12",
+    "may2031Added": true,
+    "torinoCorrectedFrom": "2031-04-27",
+    "torinoCorrectedTo": "2031-04-26"
   }
 }
