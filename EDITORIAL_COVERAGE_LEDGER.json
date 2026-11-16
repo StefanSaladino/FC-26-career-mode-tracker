@@ -181,9 +181,14 @@
       "month": "2031-05",
       "status": "covered_additional",
       "note": "Elena De Luca May15: Pio's two goals 50/55 and Beier goal16 assist50 in Napoli Coppa Italia victory; no invented quotes."
+    },
+    {
+      "month": "2031-05",
+      "status": "covered_additional",
+      "note": "May19: Elena De Luca 15-paragraph Mikey Moore character study after Como 4–0 1G2A; Lorenzo Ferri 21-paragraph explicitly labelled FICTIONAL IN-UNIVERSE Moore Q&A. No invented real player testimony or manager interview. 150 distinct top-level comments, 318 with replies across 5 championship stories."
     }
   ],
-  "latest_confirmed_match": "Coppa Italia final May14 2031 Napoli 3–1 Bergamo. HT1–0. 16 Beier header Olise assist, 50 Pio Beier assist, 55 Pio header Paz assist, 72 Fruk Bergamo PK past Peacock. Napoli cup champions. League Napoli84/36 Inter80/36 Roma79/36 unchanged. Como home May18, PSG UCL final May31 unplayed.",
+  "latest_confirmed_match": "18 May 2031 Napoli HOME 4–0 Como Serie A. HT3–0; Moore18 header from Estêvão cross, Pio38 from Moore, Beier43 from Moore through-ball, McTominay84 from Pio. Fourth consecutive SCUDETTO clinched, Napoli87/37 26W9D2L GF78 GA28 GD+50. Inter max86, Roma max85, rival May18 match results unknown. Milan away May25, PSG UCL final May31 unplayed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -198,6 +203,55 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "One consolidated source edition; automated compiled snapshot and Pages checks still required",
+    "phase": "Napoli 4–0 Como, fourth consecutive Scudetto and Mikey Moore 1G2A",
+    "match": "May18 2031 Napoli 4–0 Como home Serie A; Moore18 (Estêvão), Pio38 (Moore), Beier43 (Moore), McTominay84 (Pio); fourth successive championship",
+    "stories": [
+      "napoli-como-four-nil-fourth-scudetto-may18-2031",
+      "moore-como-goal-two-assists-title-may18-2031",
+      "napoli-four-straight-scudetti-dynasty-may19-2031",
+      "bellandi-scudetto-paris-not-yet-may19-2031",
+      "mikey-moore-fictional-title-night-interview-may19-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player Desk",
+      "Marco Bellini · Il Calcio Sera",
+      "Matteo Bellandi · Linea Calcio",
+      "Lorenzo Ferri · Player Interviews"
+    ],
+    "gallery": [
+      "assets/story-napoli-home-crowd.webp",
+      "assets/story-sandro-player-guidance.webp",
+      "assets/story-naples-vesuvius-sunset.webp",
+      "assets/story-touchline-pressure.webp",
+      "assets/story-napoli-key-players-huddle.webp"
+    ],
+    "source": [
+      "stories-como-fourth-scudetto-moore-may18-2031.js",
+      "site-visible-como-scudetto-may18-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "facts": "Napoli87/37 26W9D2L GF78 GA28+50, fourth consecutive Scudetto, Moore1G2A, Pio1G1A, Beier1G, McT1G, Estêvão1A. Inter80/36 Roma79/36 LAST confirmed May10, final maxima86 and85. Milan May25 and PSG May31 unplayed.",
+    "unknowns": "May18 rival games, GK saves or identity, other match actions, lineups, shots, cards, xG, public manager quotes",
+    "nextMatch": "AC Milan away Serie A May25, then PSG UCL final May31",
+    "paragraphs": 83,
+    "comments": {
+      "topLevel": 150,
+      "totalIncludingReplies": 318
+    },
+    "feature": "Elena De Luca Moore title-closer player character study and Lorenzo Ferri clearly marked fictional in-universe Moore interview. No real interview testimony or manager public press quotes.",
+    "mediaQA": "Existing approved gallery paths only; referenced as fictional archival illustrations, not match photography. Browser QA/Pages status to be verified by automated build.",
+    "releaseVersion": "2031-como-fourth-scudetto-v1",
+    "expectedArchive": {
+      "stories": 811,
+      "results": 177
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Committed source; editorial checks, compact snapshot browser tests, Pages deployment pending",
     "phase": "Napoli 3–1 Bergamo Coppa Italia CHAMPIONS, Pio brace, Beier goal+assist, Olise and Paz assists",
     "match": "May14 2031 Final Napoli 3–1 Bergamo; Beier16 Olise assist, Pio50 Beier, Pio55 Paz, Fruk72 pen; CUP WON",
@@ -241,53 +295,6 @@
     "expectedArchive": {
       "stories": 806,
       "results": 176
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Source committed, editorial CI/browser snapshot/Pages deployment to be checked",
-    "phase": "Udinese draw denies immediate fourth straight Scudetto, Inter win and Roma 79, Coppa final next",
-    "match": "10 May 2031 Udinese 1–1 Napoli Serie A HT0–0; Beier79 Pio assist, Pafundi87; Napoli84 Inter80 Roma79 /36",
-    "stories": [
-      "udinese-napoli-pafundi-title-delay-may10-2031",
-      "pio-beier-udinese-top-corner-connection-may2031",
-      "bellandi-84-80-79-scudetto-comes-to-como-may2031",
-      "coppa-final-may14-after-udinese-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio",
-      "Lorenzo Ferri · Coppa Italia Desk"
-    ],
-    "gallery": [
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-touchline-pressure.webp",
-      "assets/story-napoli-shirt-identity.webp"
-    ],
-    "source": [
-      "stories-udinese-title-delay-beier-cup-may10-2031.js",
-      "site-visible-udinese-title-race-may10-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Beier79 right-foot top corner after Pio Esposito through ball (official assist), Udinese Pafundi87, HT0–0 FT1–1. Inter WON; table Napoli84 Inter80 Roma79 all 36P. Napoli tiebreak over Inter: one win or two draws from last two; Inter max86 Roma max85. Coppa final May14, Como May18, Milan May25, PSG UCL final May31. Both finals unplayed.",
-    "unknowns": "Pafundi assist, other match stats, goalkeeper errors and detailed defensive action, Inter/Roma scores and opponents, rivals GF/GA, Coppa final opponent/venue name. No manager press.",
-    "nextFixture": "Coppa Italia final May14, opponent unknown; Como home May18 Serie A (win clinches), AC Milan away May25, PSG UCL final May31",
-    "paragraphs": 60,
-    "comments": {
-      "topLevel": 66,
-      "totalIncludingReplies": 127
-    },
-    "feature": "Elena De Luca May11 Beier–Pio 79' top-corner goal character-led, no faked player quotation.",
-    "press": "No invented manager or player interview or public manager response.",
-    "mediaQA": "Approved existing fictional assets checked for existence in repo; no independent browser image-crop QA claimed.",
-    "releaseVersion": "2031-udinese-draw-four-clear-may10-v1",
-    "expectedArchive": {
-      "stories": 802,
-      "results": 175
     }
   },
   "release_history": [
@@ -869,15 +876,12 @@
     "negotiationStatus": "Paused to focus on Lecce; no new deal or sale confirmed"
   },
   "latest_trophy": {
-    "competition": "Coppa Italia",
+    "competition": "Serie A",
     "season": "2030–31",
-    "status": "Won",
     "winner": "Napoli",
-    "date": "2031-05-14",
-    "opponent": "Bergamo",
-    "result": "Napoli 3–1 Bergamo",
-    "venue": "Neutral, specific stadium unknown",
-    "newsCoverageAuthorized": true
+    "date": "2031-05-18",
+    "result": "Napoli 4–0 Como",
+    "consecutiveTitles": 4
   },
   "latest_neves_injury_status": {
     "player": "João Neves",
@@ -1931,5 +1935,61 @@
       "played": 36
     },
     "uclFinal": "PSG neutral May31, unplayed"
+  },
+  "latest_serie_a_title_2031_05_18": {
+    "date": "2031-05-18",
+    "winner": "Napoli",
+    "consecutiveScudetti": 4,
+    "match": "Napoli 4–0 Como",
+    "halfTime": "3–0",
+    "points": 87,
+    "played": 37,
+    "wins": 26,
+    "draws": 9,
+    "losses": 2,
+    "gf": 78,
+    "ga": 28,
+    "gd": 50,
+    "rivalsLastConfirmed": {
+      "inter": {
+        "played": 36,
+        "points": 80,
+        "max": 86
+      },
+      "roma": {
+        "played": 36,
+        "points": 79,
+        "max": 85
+      },
+      "date": "2031-05-10"
+    },
+    "goals": [
+      [
+        "18",
+        "Mikey Moore",
+        "Estêvão"
+      ],
+      [
+        "38",
+        "Pio Esposito",
+        "Mikey Moore"
+      ],
+      [
+        "43",
+        "Maximilian Beier",
+        "Mikey Moore"
+      ],
+      [
+        "84",
+        "Scott McTominay",
+        "Pio Esposito"
+      ]
+    ],
+    "comments": {
+      "topLevel": 150,
+      "total": 318
+    },
+    "nextLeague": "AC Milan away May25 unplayed",
+    "nextEurope": "PSG UCL final May31 unplayed"
   }
 }
