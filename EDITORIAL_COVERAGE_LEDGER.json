@@ -176,9 +176,14 @@
       "month": "2031-05",
       "status": "covered_additional",
       "note": "Elena De Luca May11 character-led Beier and Pio attacking partnership, featuring 79' goal from Pio through-ball assist and right-foot top corner. Napoli 1–1 Udinese, no fabricated quotes."
+    },
+    {
+      "month": "2031-05",
+      "status": "covered_additional",
+      "note": "Elena De Luca May15: Pio's two goals 50/55 and Beier goal16 assist50 in Napoli Coppa Italia victory; no invented quotes."
     }
   ],
-  "latest_confirmed_match": "10 May 2031 Udinese 1–1 Napoli Serie A away. HT0–0; 79 Beier right-foot top corner from Pio official through-ball assist; 87 Pafundi Udinese equaliser. FT 1–1. Napoli84/36 Inter80/36 Roma79/36, Napoli four clear two rounds remain, tiebreak over Inter; one win or two draws clinch title. Coppa final May14 and PSG UCL final May31, both unplayed.",
+  "latest_confirmed_match": "Coppa Italia final May14 2031 Napoli 3–1 Bergamo. HT1–0. 16 Beier header Olise assist, 50 Pio Beier assist, 55 Pio header Paz assist, 72 Fruk Bergamo PK past Peacock. Napoli cup champions. League Napoli84/36 Inter80/36 Roma79/36 unchanged. Como home May18, PSG UCL final May31 unplayed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -193,6 +198,52 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Committed source; editorial checks, compact snapshot browser tests, Pages deployment pending",
+    "phase": "Napoli 3–1 Bergamo Coppa Italia CHAMPIONS, Pio brace, Beier goal+assist, Olise and Paz assists",
+    "match": "May14 2031 Final Napoli 3–1 Bergamo; Beier16 Olise assist, Pio50 Beier, Pio55 Paz, Fruk72 pen; CUP WON",
+    "stories": [
+      "napoli-bergamo-coppa-italia-final-champions-may14-2031",
+      "pio-beier-coppa-final-double-may15-2031",
+      "coppa-olise-paz-fruk-penalty-analysis-may15-2031",
+      "bellandi-coppa-won-scudetto-psg-ahead-may2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Marco Bellini · Il Calcio Sera",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-staff-squad-celebration.webp",
+      "assets/story-manager-pio-esposito.webp",
+      "assets/story-coaches-squad-tactics-session.webp",
+      "assets/story-napoli-home-crowd.webp"
+    ],
+    "source": [
+      "stories-coppa-bergamo-champions-may14-2031.js",
+      "site-visible-coppa-bergamo-champions-may14-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "facts": "Coppa Italia Napoli 3–1 Bergamo champions May14. HT1–0. Three goals and three official assists; Fruk72 penalty past Peacock. Serie A remains Napoli84 Inter80 Roma79 /36, one win vs Como May18 clinches. PSG UCL final May31 unplayed.",
+    "unknowns": "Penalty incident specifics and referee motives, exact neutral stadium, other match events and lineups, match statistics, manager/footballer press quotes",
+    "nextMatch": "Como home Serie A May18, then AC Milan away May25, UCL final PSG May31",
+    "paragraphs": 62,
+    "comments": {
+      "topLevel": 86,
+      "totalIncludingReplies": 154
+    },
+    "feature": "Elena De Luca May15 Pio+Beier character-led feature; no invented quotes",
+    "mediaQA": "Approved gallery paths verified; browser checks delegated to static build workflow",
+    "releaseVersion": "2031-coppa-bergamo-final-champions-v1",
+    "expectedArchive": {
+      "stories": 806,
+      "results": 176
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Source committed, editorial CI/browser snapshot/Pages deployment to be checked",
     "phase": "Udinese draw denies immediate fourth straight Scudetto, Inter win and Roma 79, Coppa final next",
     "match": "10 May 2031 Udinese 1–1 Napoli Serie A HT0–0; Beier79 Pio assist, Pafundi87; Napoli84 Inter80 Roma79 /36",
@@ -237,53 +288,6 @@
     "expectedArchive": {
       "stories": 802,
       "results": 175
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Committed source; verify editorial gate, compiled static snapshot and Pages deployment",
-    "phase": "Leipzig home UCL SF second leg Napoli 1–0, Svilar 10.0 in loss, PSG final preview, four consecutive UCL finals",
-    "match": "7 May 2031 Napoli 1–0 Leipzig home, Napoli win 3–1 aggregate and face PSG in fourth consecutive UCL final (final unplayed)",
-    "stories": [
-      "napoli-psg-fourth-consecutive-final-2031-rematch",
-      "napoli-leipzig-one-nil-svilar-may7-2031",
-      "svilar-perfect-ten-napoli-semifinal-may2031",
-      "bellandi-napoli-paris-fourth-straight-final-may2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-european-team-celebration.webp",
-      "assets/story-maradona-stadium-night.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "source": [
-      "stories-napoli-leipzig-psg-final-may7-2031.js",
-      "site-visible-leipzig-return-psg-final-may7-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Pio goal 28 Nico Paz official assist; Paz post at 36; Napoli xG4.1 at36, 4.3HT, 5.2FT Leipzig0.9; shots 11–5, on target 11–1; Svilar ten rating, 9 saves 82% success, 1 conceded, MOTM despite defeat. Fourth straight UCL final vs PSG. PSG beat Napoli 3–2 AET 2028, Napoli beat Madrid 2–0 2029 and Porto 1–0 2030.",
-    "unknowns": "PSG final date, venue, lineups, result all unknown. No invented reconciliation for nine saves vs eleven shots on target and one goal. Coppa Italia final opponent/date unknown.",
-    "nextFixture": "Udinese away Serie A May10, Napoli83/35 Inter77/35 Roma76/35; PSG final unscheduled and unplayed",
-    "paragraphs": 61,
-    "comments": {
-      "topLevel": 79,
-      "totalIncludingReplies": 126
-    },
-    "feature": "Elena De Luca opposing keeper Svilar's 10.0 MOTM losing performance, May character-led; earlier Moore May feature remains.",
-    "press": "No manager public press and no player quotes invented.",
-    "mediaQA": "Existing approved archival gallery paths verified in GitHub tree; image rendering/cropping not separately inspected.",
-    "releaseVersion": "2031-leipzig-return-psg-final-v1",
-    "expectedArchive": {
-      "stories": 798,
-      "results": 174
     }
   },
   "release_history": [
@@ -865,13 +869,14 @@
     "negotiationStatus": "Paused to focus on Lecce; no new deal or sale confirmed"
   },
   "latest_trophy": {
-    "competition": "Supercoppa",
-    "status": "Won",
-    "result": "Napoli 4–1 Juventus",
+    "competition": "Coppa Italia",
     "season": "2030–31",
-    "verifiedBy": "Manager confirms Full Time and Supercoppa achieved",
-    "finalDate": null,
-    "finalVenue": null,
+    "status": "Won",
+    "winner": "Napoli",
+    "date": "2031-05-14",
+    "opponent": "Bergamo",
+    "result": "Napoli 3–1 Bergamo",
+    "venue": "Neutral, specific stadium unknown",
     "newsCoverageAuthorized": true
   },
   "latest_neves_injury_status": {
@@ -1881,5 +1886,50 @@
       "opponent": "PSG",
       "status": "unplayed"
     }
+  },
+  "latest_coppa_final_2031_05_14": {
+    "date": "2031-05-14",
+    "team": "Napoli",
+    "opponent": "Bergamo",
+    "result": "Napoli 3–1 Bergamo",
+    "winner": "Napoli",
+    "halftime": "1–0",
+    "goals": [
+      {
+        "minute": 16,
+        "team": "Napoli",
+        "player": "Maximilian Beier",
+        "assist": "Michael Olise",
+        "finish": "Header"
+      },
+      {
+        "minute": 50,
+        "team": "Napoli",
+        "player": "Pio Esposito",
+        "assist": "Maximilian Beier"
+      },
+      {
+        "minute": 55,
+        "team": "Napoli",
+        "player": "Pio Esposito",
+        "assist": "Nico Paz",
+        "finish": "Header"
+      },
+      {
+        "minute": 72,
+        "team": "Bergamo",
+        "player": "Fruk",
+        "type": "Penalty",
+        "keeper": "Peacock"
+      }
+    ],
+    "penaltyAssessment": "Mister viewed award as very weak",
+    "serieATableUnchanged": {
+      "Napoli": 84,
+      "Inter": 80,
+      "Roma": 79,
+      "played": 36
+    },
+    "uclFinal": "PSG neutral May31, unplayed"
   }
 }
