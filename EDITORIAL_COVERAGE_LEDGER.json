@@ -146,9 +146,14 @@
       "month": "2031-04",
       "status": "covered_additional",
       "note": "Marco D'Amato character-led feature Estêvão's 90+1′ header from Beier against Arsenal, Napoli QF win 4–3 aggregate, club 3G5A. Builds on 2 assists vs Barcelona home in March; no fabricated player testimony."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Elena De Luca Apr19 Cagliari character-led feature: Zaïre-Emery two official assists, Moore one official assist and uncredited post rebound, Neves unassisted goal, Beier hat-trick. No invented player interview."
     }
   ],
-  "latest_confirmed_match": "Napoli 3–1 Arsenal HOME UEFA Champions League quarterfinal second leg 16 April 2031, Napoli win 4–3 aggregate and qualify for semifinals. Beier 49′ (João Neves official assist); Rice 72′ Arsenal; Beier second goal between 72′ and 90+1′ exact minute unspecified and NO official assist; Estêvão 90+1′ HEADER (Beier official assist). FT confirmed. Crashed initial match attempt with Olise/Paz header voided; no official contribution. Next Cagliari home Serie A Apr19. Serie A standings Napoli77/32 Roma70/32 unchanged.",
+  "latest_confirmed_match": "Napoli 4–1 Cagliari home Serie A Apr19 2031, Beier 17′ (Zaïre-Emery), Angelo 26′, Beier 71′ (Moore), Neves 83′ unassisted after Moore hit post, Beier 87′ (Zaïre-Emery). Roma lost separate league match; Napoli 80/33 Roma70/33 ten clear; AC Milan Coppa semifinal return Apr23 next.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -163,6 +168,47 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source published; CI editorial gate, compiled snapshot and Pages deployment must be independently checked",
+    "phase": "Apr19 Cagliari 4–1, Beier hat-trick, Roma loss, Napoli ten clear",
+    "match": "Napoli 4–1 Cagliari · Serie A home 19 April 2031",
+    "stories": [
+      "napoli-cagliari-four-one-beier-hattrick-apr19-2031",
+      "zaire-emery-moore-neves-cagliari-apr19-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk"
+    ],
+    "gallery": [
+      "assets/story-napoli-home-crowd.webp",
+      "assets/story-coaches-team-tactics.webp"
+    ],
+    "source": [
+      "stories-cagliari-beier-zaire-apr19-2031.js",
+      "site-visible-cagliari-title-apr19-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Beier 17,71,87, Zaïre-Emery two assists, Moore one, Neves 83 no assist after Moore hit post; Roma loss without score; Napoli 80/33, Roma70/33; Beier38G32A.",
+    "unknowns": "Roma opponent and score, updated Roma GF/GA, unreported Cagliari incidents, individual keeper or selection.",
+    "nextFixture": "AC Milan HOME 23 April 2031 Coppa semifinal second leg, Napoli lead 2–0 aggregate",
+    "paragraphs": 27,
+    "comments": {
+      "topLevel": 37,
+      "totalIncludingReplies": 58
+    },
+    "feature": "Zaïre-Emery / Moore / Neves character-led player focus",
+    "press": "No public manager interview; no fabricated player quotes",
+    "mediaQA": "Both approved repository gallery image paths used; independent live crop verification not claimed",
+    "releaseVersion": "2031-cagliari-four-one-v1",
+    "expectedArchive": {
+      "stories": 784,
+      "results": 169
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Content expansion committed on main; editorial gate and compiled public edition deployment require verification",
     "phase": "Napoli comeback over Arsenal QF second leg Apr16 2031 · Beier brace Estêvão 90+1′ winner",
     "match": "Napoli 3–1 Arsenal home · UCL QF second leg · 16 April 2031 · Napoli 4–3 aggregate",
@@ -223,50 +269,6 @@
       "results": 168
     },
     "discussionExpansion": "Manager expressly requested more top-level threads. Added 150 fresh independent top-level comments, 25 per article, and preserved prior 80 root threads plus 204 nested replies. After expansion 230 top-level roots, 434 total comments/replies. Expanded perspectives on Beier, Estêvão, Rice, Arsenal heartbreak, Napoli culture, title pressure; first paint and original article body unchanged."
-  },
-  "previous_newsroom_package": {
-    "status": "Source prepared and committed; editorial quality gate, compiled browser tests and Pages deployment pending independent confirmation",
-    "phase": "Juventus 1–1 Napoli Apr12, complete six-row all-32 league table, four games without a win and Arsenal return",
-    "match": "Juventus 1–1 Napoli · Serie A away · 12 April 2031",
-    "stories": [
-      "juventus-napoli-one-one-cvetkovic-pio-apr12-2031",
-      "napoli-seven-points-clear-roma-70-table-apr12-2031",
-      "pio-beier-connection-juventus-39-31-apr2031",
-      "napoli-arsenal-home-recovery-april-schedule-bellandi-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-touchline-pressure.webp",
-      "assets/story-maradona-stadium-night.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-coaches-team-tactics.webp"
-    ],
-    "source": [
-      "stories-juventus-draw-title-race-apr12-2031.js",
-      "site-visible-juventus-draw-title-race-apr12-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Juventus away league Apr12: Cvetkovic 8′, Pio Esposito 19′ Beier assist; HT/FT 1–1. Napoli 77 points/32, 23W8D1L, 66GF23GA GD43. Roma70/32, Inter68/32, Juventus68/32, Milan65/32, Lazio50/32. Napoli seven ahead with six league games left. Pio club 39G16A, Beier33G31A, Paz5G4A. Four without win across competitions, last three Serie A draws. Arsenal home Apr16 second leg with aggregate 1–2, unplayed.",
-    "unknowns": "Juve goal assist and shot type; unconfirmed substitutions and full lineup, chances, xG, goalkeeper; other clubs below sixth; Arsenal second leg result and future events; current injuries and precise Raspadori transfer destination.",
-    "nextFixture": "Napoli vs Arsenal · UEFA Champions League quarterfinal second leg · 16 April 2031 · Home",
-    "paragraphs": 60,
-    "comments": {
-      "topLevel": 39,
-      "totalIncludingReplies": 120,
-      "maxDepth": 3
-    },
-    "feature": "Elena De Luca April character-led Pio/Beier collaboration; existing April Raspadori and Paz articles retained",
-    "press": "No new manager press interview or player testimony supplied; no invented direct quotations",
-    "mediaQA": "All four images confirmed as existing approved repository artwork; no live browser crop inspection yet",
-    "releaseVersion": "2031-juventus-draw-title-apr12-v1"
   },
   "release_history": [
     {
@@ -1536,5 +1538,29 @@
     "may2031Added": true,
     "torinoCorrectedFrom": "2031-04-27",
     "torinoCorrectedTo": "2031-04-26"
+  },
+  "latest_serie_a_title_race_2031_04_19": {
+    "napoli": {
+      "played": 33,
+      "points": 80,
+      "wins": 24,
+      "draws": 8,
+      "losses": 1,
+      "GF": 70,
+      "GA": 24,
+      "GD": 46
+    },
+    "roma": {
+      "played": 33,
+      "points": 70,
+      "result": "loss",
+      "opponent": null,
+      "score": null,
+      "GF": null,
+      "GA": null
+    },
+    "lead": 10,
+    "napoliMatchesLeft": 5,
+    "priorCompleteTable": "2031-04-12"
   }
 }
