@@ -151,9 +151,14 @@
       "month": "2031-04",
       "status": "covered_additional",
       "note": "Elena De Luca Apr19 Cagliari character-led feature: Zaïre-Emery two official assists, Moore one official assist and uncredited post rebound, Neves unassisted goal, Beier hat-trick. No invented player interview."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Elena De Luca 24 Apr Coppa final qualification character-led Anton Stach feature: started rotated return leg, scored 89th goal from substitute Beier assist, Napoli 2–2 Milan (4–2 aggregate); no fabricated quote."
     }
   ],
-  "latest_confirmed_match": "Napoli 4–1 Cagliari home Serie A Apr19 2031, Beier 17′ (Zaïre-Emery), Angelo 26′, Beier 71′ (Moore), Neves 83′ unassisted after Moore hit post, Beier 87′ (Zaïre-Emery). Roma lost separate league match; Napoli 80/33 Roma70/33 ten clear; AC Milan Coppa semifinal return Apr23 next.",
+  "latest_confirmed_match": "Napoli 2–2 AC Milan home Coppa Italia semifinal second leg 23 Apr 2031, Napoli advance to final 4–2 aggregate. Milan Giménez 11′ & 52′; Pio 39′ no assist following Estêvão post; starting Stach 89′ Beier assist (Beier substitute). Torino away Apr26 next.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -168,6 +173,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source submitted on main; automated editorial quality gate, snapshot compilation and Pages deployment to be verified",
+    "phase": "Coppa Italia final qualification · Napoli 2–2 AC Milan Apr23 · Napoli win 4–2 aggregate",
+    "match": "Napoli 2–2 AC Milan home Coppa semifinal second leg Apr23 2031; aggregate Napoli 4–2",
+    "stories": [
+      "napoli-milan-two-two-coppa-stach-final-apr23-2031",
+      "anton-stach-rotated-starter-coppa-final-apr23-2031",
+      "bellandi-napoli-milan-semi-gimenez-warning-apr23-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-european-team-celebration.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-coaches-team-tactics.webp"
+    ],
+    "source": [
+      "stories-milan-coppa-final-stach-apr23-2031.js",
+      "site-visible-milan-coppa-final-apr23-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Giménez 11′ 52′; Pio 39′ no assist after Estêvão struck post; starting Anton Stach 89′ official Beier assist; Beier off bench; FT 2–2, 4–2 agg final qualification. League still Napoli80/33 Roma70/33.",
+    "unknowns": "Cup final opponent/date/venue, Milan assists, all other lineup spots, exact Beier sub minute, keeper, chance statistics.",
+    "nextFixture": "Torino AWAY Apr26 Serie A; RB Leipzig away Apr29 Champions League semifinal 1st leg",
+    "paragraphs": 42,
+    "comments": {
+      "topLevel": 51,
+      "totalIncludingReplies": 106
+    },
+    "feature": "Elena De Luca player character-led Anton Stach feature; starter not impact substitute",
+    "press": "No manager answers provided, none invented; no fictional player interview in this release.",
+    "mediaQA": "Approved archival gallery files checked in GitHub tree; actual rendered browser cropping not claimed until checked.",
+    "releaseVersion": "2031-milan-coppa-final-stach-apr23-v1",
+    "expectedArchive": {
+      "stories": 787,
+      "results": 170
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Source published; CI editorial gate, compiled snapshot and Pages deployment must be independently checked",
     "phase": "Apr19 Cagliari 4–1, Beier hat-trick, Roma loss, Napoli ten clear",
     "match": "Napoli 4–1 Cagliari · Serie A home 19 April 2031",
@@ -207,68 +256,6 @@
       "stories": 784,
       "results": 169
     }
-  },
-  "previous_newsroom_package": {
-    "status": "Content expansion committed on main; editorial gate and compiled public edition deployment require verification",
-    "phase": "Napoli comeback over Arsenal QF second leg Apr16 2031 · Beier brace Estêvão 90+1′ winner",
-    "match": "Napoli 3–1 Arsenal home · UCL QF second leg · 16 April 2031 · Napoli 4–3 aggregate",
-    "stories": [
-      "napoli-arsenal-three-one-estevao-91-beier-comeback-apr16-2031",
-      "maximilian-beier-two-goals-one-assist-arsenal-apr16-2031",
-      "estevao-header-91-beier-cross-napoli-arsenal-apr16-2031",
-      "rice-72-napoli-arsenal-collapse-turnaround-bellandi-apr2031",
-      "napoli-third-straight-ucl-dream-survives-arsenal-apr2031",
-      "maradona-fan-reactions-napoli-arsenal-91st-minute-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco D'Amato · Il Calcio Sera",
-      "Matteo Bellandi · Linea Calcio",
-      "Marco Bellini · Il Calcio Sera",
-      "Giada Conti · Napoli Tribune"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-coaches-team-tactics.webp",
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-napoli-home-crowd.webp"
-    ],
-    "source": [
-      "stories-arsenal-comeback-apr16-2031.js",
-      "stories-arsenal-aftershock-apr16-2031.js",
-      "site-visible-arsenal-comeback-apr16-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json",
-      "comments-arsenal-top-level-wave-a-apr16-2031.js",
-      "comments-arsenal-top-level-wave-b-apr16-2031.js"
-    ],
-    "knownFacts": "Napoli 3–1 Arsenal Apr16, 4–3 aggregate; Beier 49′ (Neves assist), Rice 72′, Beier second (no official assist, time unspecified after Rice and before 90+1), Estêvão header 90+1 (Beier official assist). Napoli semifinal qualification. Two previous consecutive European trophies, third not yet won. Beier season 35G32A, Estêvão3G5A, Neves1G4A, Pio39G16A, Paz5G4A. League Napoli77/32, Roma70/32 remains unchanged.",
-    "unknowns": "Second Beier goal exact minute and cross provider; assist/goal method Rice; full lineups, substitutions and injuries; UCL semifinal opponent and dates; all future fixtures and league results.",
-    "nextFixture": "Cagliari HOME · Serie A · 19 April 2031 · not played",
-    "paragraphs": 107,
-    "comments": {
-      "topLevel": 230,
-      "totalIncludingReplies": 434,
-      "maxDepth": 3,
-      "originalTopLevel": 80,
-      "originalTotalIncludingReplies": 284,
-      "additionalTopLevel": 150,
-      "addedPerArticle": 25
-    },
-    "feature": "Beier and Estêvão player-led longform, alongside established April Raspadori and Paz player features",
-    "press": "No manager public interview given; no direct user-manager public quotes invented. No player interviews or testimony fabricated.",
-    "mediaQA": "Six approved repo image paths confirmed to exist; archival fiction identified as illustration and not literal event photo. Live preview visual crop dependent on compiled-site tests.",
-    "releaseVersion": "2031-arsenal-home-comeback-threads-apr16-v2",
-    "expectedArchive": {
-      "stories": 782,
-      "results": 168
-    },
-    "discussionExpansion": "Manager expressly requested more top-level threads. Added 150 fresh independent top-level comments, 25 per article, and preserved prior 80 root threads plus 204 nested replies. After expansion 230 top-level roots, 434 total comments/replies. Expanded perspectives on Beier, Estêvão, Rice, Arsenal heartbreak, Napoli culture, title pressure; first paint and original article body unchanged."
   },
   "release_history": [
     {
@@ -1562,5 +1549,20 @@
     "lead": 10,
     "napoliMatchesLeft": 5,
     "priorCompleteTable": "2031-04-12"
+  },
+  "latest_coppa_italia_final_qualification_2031": {
+    "date": "2031-04-23",
+    "match": "Napoli 2–2 AC Milan",
+    "round": "Semifinal second leg",
+    "firstLeg": "AC Milan 0–2 Napoli Mar5",
+    "aggregate": {
+      "Napoli": 4,
+      "AC_Milan": 2
+    },
+    "qualified": "Napoli",
+    "finalOpponent": null,
+    "finalDate": null,
+    "finalVenue": null,
+    "leaguePointsUnchanged": true
   }
 }
