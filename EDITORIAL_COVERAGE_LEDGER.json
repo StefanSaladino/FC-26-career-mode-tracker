@@ -156,9 +156,14 @@
       "month": "2031-04",
       "status": "covered_additional",
       "note": "Elena De Luca 24 Apr Coppa final qualification character-led Anton Stach feature: started rotated return leg, scored 89th goal from substitute Beier assist, Napoli 2–2 Milan (4–2 aggregate); no fabricated quote."
+    },
+    {
+      "month": "2031-04",
+      "status": "covered_additional",
+      "note": "Elena De Luca after Leipzig 29 April: Bastoni captain backheel assist Pio 66, Buongiorno winning header 81 from Warren corner, Davies unlucky own goal 48; no invented quotes."
     }
   ],
-  "latest_confirmed_match": "Napoli 2–2 AC Milan home Coppa Italia semifinal second leg 23 Apr 2031, Napoli advance to final 4–2 aggregate. Milan Giménez 11′ & 52′; Pio 39′ no assist following Estêvão post; starting Stach 89′ Beier assist (Beier substitute). Torino away Apr26 next.",
+  "latest_confirmed_match": "RB Leipzig 1–2 Napoli away UCL SF first leg 29 Apr 2031. Davies own goal 48 Leipzig; Pio first time 66 Bastoni backheel assist; Buongiorno headed winner 81 Zaïre-Emery corner, Svilar touch onto crossbar over line. Napoli lead 2–1 aggregate; return home May7 unplayed. Previous Torino 1–0 Napoli Apr26 Vlašić57, screenshot Napoli80/34 Inter74/34 Roma73/34 six clear.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -173,6 +178,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source release submitted; editorial CI, compiled snapshot and final Pages deployment to be verified",
+    "phase": "Leipzig away UCL semifinal first-leg 2–1 comeback plus Torino away Serie A 1–0 setback",
+    "match": "29 Apr 2031 RB Leipzig 1–2 Napoli Champions League semifinal first leg; 26 Apr Torino 1–0 Napoli Serie A",
+    "stories": [
+      "leipzig-napoli-one-two-defenders-comeback-apr29-2031",
+      "bastoni-buongiorno-davies-leipzig-semifinal-apr2031",
+      "torino-one-nil-napoli-vlasic-title-lead-apr26-2031",
+      "bellandi-napoli-six-clear-leipzig-rebound-apr2031"
+    ],
+    "bylines": [
+      "Marco Bellini · Il Calcio Sera",
+      "Elena De Luca · Player desk",
+      "Giulia Romano · Radio Napoli Centrale",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-touchline-pressure.webp",
+      "assets/story-coaches-team-tactics.webp"
+    ],
+    "source": [
+      "stories-torino-leipzig-comeback-apr26-29-2031.js",
+      "site-visible-torino-leipzig-apr29-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Torino Vlašić57; manager screenshot top six Napoli 80/34 Inter74/34 Roma73/34. Leipzig HT 0–0, Davies own goal 48, Pio 66 Bastoni backheel official assist, Buongiorno 81 headed from Zaïre corner, Svilar touched to bar and across line; FT 1–2, Napoli lead 2–1 aggregate. Napoli club Pio41G16A, Bastoni0G2A, Buongiorno1G0A, Warren4G7A.",
+    "unknowns": "Other match events, Torino opponent scorer assist, match lineups/stats, UCL semifinal return result, eventual Coppa final date/opponent.",
+    "nextFixture": "Sassuolo away May4 Serie A; Leipzig HOME May7 UCL semifinal 2nd leg",
+    "paragraphs": 54,
+    "comments": {
+      "topLevel": 67,
+      "totalIncludingReplies": 141
+    },
+    "feature": "Elena De Luca Bastoni, Buongiorno and Davies defender character feature",
+    "press": "No manager public press and no player interviews; no quotes fabricated.",
+    "mediaQA": "Existing approved gallery asset paths verified in GitHub tree; separate visual crop test only claimed if performed.",
+    "releaseVersion": "2031-leipzig-semi-first-leg-v1",
+    "expectedArchive": {
+      "stories": 791,
+      "results": 172
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Source submitted on main; automated editorial quality gate, snapshot compilation and Pages deployment to be verified",
     "phase": "Coppa Italia final qualification · Napoli 2–2 AC Milan Apr23 · Napoli win 4–2 aggregate",
     "match": "Napoli 2–2 AC Milan home Coppa semifinal second leg Apr23 2031; aggregate Napoli 4–2",
@@ -214,47 +266,6 @@
     "expectedArchive": {
       "stories": 787,
       "results": 170
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Source published; CI editorial gate, compiled snapshot and Pages deployment must be independently checked",
-    "phase": "Apr19 Cagliari 4–1, Beier hat-trick, Roma loss, Napoli ten clear",
-    "match": "Napoli 4–1 Cagliari · Serie A home 19 April 2031",
-    "stories": [
-      "napoli-cagliari-four-one-beier-hattrick-apr19-2031",
-      "zaire-emery-moore-neves-cagliari-apr19-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk"
-    ],
-    "gallery": [
-      "assets/story-napoli-home-crowd.webp",
-      "assets/story-coaches-team-tactics.webp"
-    ],
-    "source": [
-      "stories-cagliari-beier-zaire-apr19-2031.js",
-      "site-visible-cagliari-title-apr19-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Beier 17,71,87, Zaïre-Emery two assists, Moore one, Neves 83 no assist after Moore hit post; Roma loss without score; Napoli 80/33, Roma70/33; Beier38G32A.",
-    "unknowns": "Roma opponent and score, updated Roma GF/GA, unreported Cagliari incidents, individual keeper or selection.",
-    "nextFixture": "AC Milan HOME 23 April 2031 Coppa semifinal second leg, Napoli lead 2–0 aggregate",
-    "paragraphs": 27,
-    "comments": {
-      "topLevel": 37,
-      "totalIncludingReplies": 58
-    },
-    "feature": "Zaïre-Emery / Moore / Neves character-led player focus",
-    "press": "No public manager interview; no fabricated player quotes",
-    "mediaQA": "Both approved repository gallery image paths used; independent live crop verification not claimed",
-    "releaseVersion": "2031-cagliari-four-one-v1",
-    "expectedArchive": {
-      "stories": 784,
-      "results": 169
     }
   },
   "release_history": [
@@ -1564,5 +1575,116 @@
     "finalDate": null,
     "finalVenue": null,
     "leaguePointsUnchanged": true
+  },
+  "latest_league_standings_2031_04_26": {
+    "source": "Manager screenshot",
+    "date": "2031-04-26",
+    "rows": [
+      [
+        "Napoli",
+        34,
+        24,
+        8,
+        2,
+        70,
+        25,
+        45,
+        80
+      ],
+      [
+        "Inter / Lombardia FC",
+        34,
+        22,
+        8,
+        4,
+        72,
+        36,
+        36,
+        74
+      ],
+      [
+        "Roma",
+        34,
+        22,
+        7,
+        5,
+        63,
+        40,
+        23,
+        73
+      ],
+      [
+        "Juventus",
+        34,
+        20,
+        9,
+        5,
+        64,
+        39,
+        25,
+        69
+      ],
+      [
+        "AC Milan / Milano FC",
+        34,
+        20,
+        8,
+        6,
+        69,
+        39,
+        30,
+        68
+      ],
+      [
+        "Lazio / Latium",
+        34,
+        14,
+        11,
+        9,
+        45,
+        45,
+        0,
+        53
+      ]
+    ],
+    "leader": "Napoli",
+    "leadPoints": 6,
+    "remaining": 4
+  },
+  "latest_ucl_semifinal_2031_04_29": {
+    "opponent": "RB Leipzig",
+    "stage": "semifinal",
+    "leg": 1,
+    "date": "2031-04-29",
+    "venue": "Away",
+    "score": "RB Leipzig 1–2 Napoli",
+    "events": [
+      {
+        "minute": 48,
+        "scorer": "Davies",
+        "ownGoal": true,
+        "creditedTo": "RB Leipzig"
+      },
+      {
+        "minute": 66,
+        "scorer": "Pio Esposito",
+        "assist": "Bastoni backheel",
+        "officialAssist": true
+      },
+      {
+        "minute": 81,
+        "scorer": "Buongiorno",
+        "assist": "Zaïre-Emery corner",
+        "officialAssist": true,
+        "goalkeeperTouch": "Svilar onto bar and over line"
+      }
+    ],
+    "aggregate": "Napoli 2–1 RB Leipzig",
+    "leg2": {
+      "date": "2031-05-07",
+      "venue": "Home",
+      "status": "scheduled"
+    },
+    "qualifiedForFinal": false
   }
 }
