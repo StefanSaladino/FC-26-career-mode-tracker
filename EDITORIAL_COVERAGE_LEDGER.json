@@ -161,9 +161,14 @@
       "month": "2031-04",
       "status": "covered_additional",
       "note": "Elena De Luca after Leipzig 29 April: Bastoni captain backheel assist Pio 66, Buongiorno winning header 81 from Warren corner, Davies unlucky own goal 48; no invented quotes."
+    },
+    {
+      "month": "2031-05",
+      "status": "covered",
+      "note": "Elena De Luca feature after Sassuolo away May4: young Mikey Moore's 21' assist for Olise volley and own second-half goal from Beier (exact minute not confirmed), as well as team attack Olise, Beier, Pio, Raspadori. No invented quotes."
     }
   ],
-  "latest_confirmed_match": "RB Leipzig 1–2 Napoli away UCL SF first leg 29 Apr 2031. Davies own goal 48 Leipzig; Pio first time 66 Bastoni backheel assist; Buongiorno headed winner 81 Zaïre-Emery corner, Svilar touch onto crossbar over line. Napoli lead 2–1 aggregate; return home May7 unplayed. Previous Torino 1–0 Napoli Apr26 Vlašić57, screenshot Napoli80/34 Inter74/34 Roma73/34 six clear.",
+  "latest_confirmed_match": "4 May 2031 Sassuolo 2–3 Napoli away Serie A FT. Olise 21 (Moore assist), Moore second-half goal from Beier (minute unconfirmed), Pinamonti 63, Raspadori 68 (Pio assist), Weiper 75. Inter and Roma won; Napoli83/35 Inter77/35 Roma76/35, six clear and three to go; Leipzig home May7 UCL SF second leg (Napoli lead 2–1 agg) unplayed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -178,6 +183,50 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Committed in source; editorial CI, snapshot compile and Pages deployment to be verified",
+    "phase": "Sassuolo away league 3–2 / three-team Scudetto race unchanged at six points",
+    "match": "4 May 2031 Sassuolo 2–3 Napoli Serie A; Inter and Roma also WON separate matches",
+    "stories": [
+      "sassuolo-napoli-three-two-moore-olise-raspadori-may4-2031",
+      "mikey-moore-sassuolo-goal-assist-may4-2031",
+      "bellandi-napoli-title-chase-six-clear-roma-inter-may4-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio"
+    ],
+    "gallery": [
+      "assets/story-goal-celebration.webp",
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-touchline-pressure.webp"
+    ],
+    "source": [
+      "stories-sassuolo-title-moore-may4-2031.js",
+      "site-visible-sassuolo-title-may4-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Olise volley 21 from Moore cross; second-half Moore goal from Beier, exact minute unknown; Pinamonti 63; Raspadori 68 from Pio; Weiper 75. HT 0–1, FT 2–3. Napoli83/35 Inter77/35 Roma76/35; six clear three league fixtures left, four Napoli pts guarantee.",
+    "unknowns": "Moore exact goal minute; Sassuolo goal assists, substitutions, other match stats; Inter & Roma scorelines and updated GF/GA, standings below third, UCL semifinal second-leg result.",
+    "nextFixture": "RB Leipzig HOME May7 Champions League semifinal second leg Napoli lead 2–1 aggregate; Udinese away May10 Serie A",
+    "paragraphs": 41,
+    "comments": {
+      "topLevel": 51,
+      "totalIncludingReplies": 95
+    },
+    "feature": "Elena De Luca May 2031 player focus on Mikey Moore, one goal plus one official assist",
+    "press": "No invented manager or player interview; manager press not requested.",
+    "mediaQA": "Referenced previously approved archival Napoli illustration paths exist in repository; no current browser-crop inspection claimed.",
+    "releaseVersion": "2031-sassuolo-six-clear-may4-v1",
+    "expectedArchive": {
+      "stories": 794,
+      "results": 173
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Source release submitted; editorial CI, compiled snapshot and final Pages deployment to be verified",
     "phase": "Leipzig away UCL semifinal first-leg 2–1 comeback plus Torino away Serie A 1–0 setback",
     "match": "29 Apr 2031 RB Leipzig 1–2 Napoli Champions League semifinal first leg; 26 Apr Torino 1–0 Napoli Serie A",
@@ -222,50 +271,6 @@
     "expectedArchive": {
       "stories": 791,
       "results": 172
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Source submitted on main; automated editorial quality gate, snapshot compilation and Pages deployment to be verified",
-    "phase": "Coppa Italia final qualification · Napoli 2–2 AC Milan Apr23 · Napoli win 4–2 aggregate",
-    "match": "Napoli 2–2 AC Milan home Coppa semifinal second leg Apr23 2031; aggregate Napoli 4–2",
-    "stories": [
-      "napoli-milan-two-two-coppa-stach-final-apr23-2031",
-      "anton-stach-rotated-starter-coppa-final-apr23-2031",
-      "bellandi-napoli-milan-semi-gimenez-warning-apr23-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-european-team-celebration.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-coaches-team-tactics.webp"
-    ],
-    "source": [
-      "stories-milan-coppa-final-stach-apr23-2031.js",
-      "site-visible-milan-coppa-final-apr23-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Giménez 11′ 52′; Pio 39′ no assist after Estêvão struck post; starting Anton Stach 89′ official Beier assist; Beier off bench; FT 2–2, 4–2 agg final qualification. League still Napoli80/33 Roma70/33.",
-    "unknowns": "Cup final opponent/date/venue, Milan assists, all other lineup spots, exact Beier sub minute, keeper, chance statistics.",
-    "nextFixture": "Torino AWAY Apr26 Serie A; RB Leipzig away Apr29 Champions League semifinal 1st leg",
-    "paragraphs": 42,
-    "comments": {
-      "topLevel": 51,
-      "totalIncludingReplies": 106
-    },
-    "feature": "Elena De Luca player character-led Anton Stach feature; starter not impact substitute",
-    "press": "No manager answers provided, none invented; no fictional player interview in this release.",
-    "mediaQA": "Approved archival gallery files checked in GitHub tree; actual rendered browser cropping not claimed until checked.",
-    "releaseVersion": "2031-milan-coppa-final-stach-apr23-v1",
-    "expectedArchive": {
-      "stories": 787,
-      "results": 170
     }
   },
   "release_history": [
@@ -1686,5 +1691,79 @@
       "status": "scheduled"
     },
     "qualifiedForFinal": false
+  },
+  "latest_serie_a_title_race_2031_05_04": {
+    "source": "User in-chat confirmed Sassuolo 2–3 Napoli and wins for Inter and Roma; carried verified Apr26 screenshot forward only for points and P/W/D/L. Unknown updated rival goals, opposition, other standings.",
+    "date": "2031-05-04",
+    "Napoli": {
+      "played": 35,
+      "won": 25,
+      "drawn": 8,
+      "lost": 2,
+      "for": 73,
+      "against": 27,
+      "gd": 46,
+      "points": 83
+    },
+    "Inter": {
+      "played": 35,
+      "won": 23,
+      "drawn": 8,
+      "lost": 4,
+      "for": null,
+      "against": null,
+      "gd": null,
+      "points": 77
+    },
+    "Roma": {
+      "played": 35,
+      "won": 23,
+      "drawn": 7,
+      "lost": 5,
+      "for": null,
+      "against": null,
+      "gd": null,
+      "points": 76
+    },
+    "remaining": 3,
+    "lead": 6,
+    "pointsToMathematicalTitle": 4,
+    "others": "Unverified after 26 Apr screenshot"
+  },
+  "latest_sassuolo_2031_05_04": {
+    "date": "2031-05-04",
+    "result": "Sassuolo 2–3 Napoli",
+    "halftime": "0–1",
+    "events": [
+      {
+        "minute": 21,
+        "scorer": "Michael Olise",
+        "assist": "Mikey Moore",
+        "finish": "Volley"
+      },
+      {
+        "minute": null,
+        "period": "Second half before 63",
+        "scorer": "Mikey Moore",
+        "assist": "Maximilian Beier"
+      },
+      {
+        "minute": 63,
+        "scorer": "Andrea Pinamonti",
+        "team": "Sassuolo"
+      },
+      {
+        "minute": 68,
+        "scorer": "Giacomo Raspadori",
+        "assist": "Pio Esposito"
+      },
+      {
+        "minute": 75,
+        "scorer": "Nelson Weiper",
+        "team": "Sassuolo"
+      }
+    ],
+    "interRomaBothWon": true,
+    "leadPoints": 6
   }
 }
