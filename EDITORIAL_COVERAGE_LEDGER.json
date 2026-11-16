@@ -171,9 +171,14 @@
       "month": "2031-05",
       "status": "covered_additional",
       "note": "Elena De Luca May8 feature on RB Leipzig goalkeeper Svilar's 10.0 and nine saves in 1–0 loss to Napoli, Man of Match. Pio scorer28, Paz official assist. No invented player quotes."
+    },
+    {
+      "month": "2031-05",
+      "status": "covered_additional",
+      "note": "Elena De Luca May11 character-led Beier and Pio attacking partnership, featuring 79' goal from Pio through-ball assist and right-foot top corner. Napoli 1–1 Udinese, no fabricated quotes."
     }
   ],
-  "latest_confirmed_match": "7 May 2031 Napoli 1–0 RB Leipzig UCL semifinal second leg, Napoli through 3–1 aggregate to fourth consecutive UCL final vs PSG, final UNPLAYED. Pio28 Paz official cross assist, Paz post36, Napoli xG5.2 Leipzig0.9, shots11–5, on target11–1, Svilar10.0 nine recorded saves MOTM in defeat. PSG beat Napoli 3–2 AET in first final 2028; Napoli beat Madrid 2029 and Porto 2030.",
+  "latest_confirmed_match": "10 May 2031 Udinese 1–1 Napoli Serie A away. HT0–0; 79 Beier right-foot top corner from Pio official through-ball assist; 87 Pafundi Udinese equaliser. FT 1–1. Napoli84/36 Inter80/36 Roma79/36, Napoli four clear two rounds remain, tiebreak over Inter; one win or two draws clinch title. Coppa final May14 and PSG UCL final May31, both unplayed.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -188,6 +193,53 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source committed, editorial CI/browser snapshot/Pages deployment to be checked",
+    "phase": "Udinese draw denies immediate fourth straight Scudetto, Inter win and Roma 79, Coppa final next",
+    "match": "10 May 2031 Udinese 1–1 Napoli Serie A HT0–0; Beier79 Pio assist, Pafundi87; Napoli84 Inter80 Roma79 /36",
+    "stories": [
+      "udinese-napoli-pafundi-title-delay-may10-2031",
+      "pio-beier-udinese-top-corner-connection-may2031",
+      "bellandi-84-80-79-scudetto-comes-to-como-may2031",
+      "coppa-final-may14-after-udinese-2031"
+    ],
+    "bylines": [
+      "Giulia Romano · Radio Napoli Centrale",
+      "Elena De Luca · Player desk",
+      "Matteo Bellandi · Linea Calcio",
+      "Lorenzo Ferri · Coppa Italia Desk"
+    ],
+    "gallery": [
+      "assets/story-napoli-key-players-huddle.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-touchline-pressure.webp",
+      "assets/story-napoli-shirt-identity.webp"
+    ],
+    "source": [
+      "stories-udinese-title-delay-beier-cup-may10-2031.js",
+      "site-visible-udinese-title-race-may10-2031.js",
+      "site-visible-juventus-apr2030.js",
+      "legacy-index.html",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ],
+    "knownFacts": "Beier79 right-foot top corner after Pio Esposito through ball (official assist), Udinese Pafundi87, HT0–0 FT1–1. Inter WON; table Napoli84 Inter80 Roma79 all 36P. Napoli tiebreak over Inter: one win or two draws from last two; Inter max86 Roma max85. Coppa final May14, Como May18, Milan May25, PSG UCL final May31. Both finals unplayed.",
+    "unknowns": "Pafundi assist, other match stats, goalkeeper errors and detailed defensive action, Inter/Roma scores and opponents, rivals GF/GA, Coppa final opponent/venue name. No manager press.",
+    "nextFixture": "Coppa Italia final May14, opponent unknown; Como home May18 Serie A (win clinches), AC Milan away May25, PSG UCL final May31",
+    "paragraphs": 60,
+    "comments": {
+      "topLevel": 66,
+      "totalIncludingReplies": 127
+    },
+    "feature": "Elena De Luca May11 Beier–Pio 79' top-corner goal character-led, no faked player quotation.",
+    "press": "No invented manager or player interview or public manager response.",
+    "mediaQA": "Approved existing fictional assets checked for existence in repo; no independent browser image-crop QA claimed.",
+    "releaseVersion": "2031-udinese-draw-four-clear-may10-v1",
+    "expectedArchive": {
+      "stories": 802,
+      "results": 175
+    }
+  },
+  "previous_newsroom_package": {
     "status": "Committed source; verify editorial gate, compiled static snapshot and Pages deployment",
     "phase": "Leipzig home UCL SF second leg Napoli 1–0, Svilar 10.0 in loss, PSG final preview, four consecutive UCL finals",
     "match": "7 May 2031 Napoli 1–0 Leipzig home, Napoli win 3–1 aggregate and face PSG in fourth consecutive UCL final (final unplayed)",
@@ -232,50 +284,6 @@
     "expectedArchive": {
       "stories": 798,
       "results": 174
-    }
-  },
-  "previous_newsroom_package": {
-    "status": "Committed in source; editorial CI, snapshot compile and Pages deployment to be verified",
-    "phase": "Sassuolo away league 3–2 / three-team Scudetto race unchanged at six points",
-    "match": "4 May 2031 Sassuolo 2–3 Napoli Serie A; Inter and Roma also WON separate matches",
-    "stories": [
-      "sassuolo-napoli-three-two-moore-olise-raspadori-may4-2031",
-      "mikey-moore-sassuolo-goal-assist-may4-2031",
-      "bellandi-napoli-title-chase-six-clear-roma-inter-may4-2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-goal-celebration.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-touchline-pressure.webp"
-    ],
-    "source": [
-      "stories-sassuolo-title-moore-may4-2031.js",
-      "site-visible-sassuolo-title-may4-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "knownFacts": "Olise volley 21 from Moore cross; second-half Moore goal from Beier, exact minute unknown; Pinamonti 63; Raspadori 68 from Pio; Weiper 75. HT 0–1, FT 2–3. Napoli83/35 Inter77/35 Roma76/35; six clear three league fixtures left, four Napoli pts guarantee.",
-    "unknowns": "Moore exact goal minute; Sassuolo goal assists, substitutions, other match stats; Inter & Roma scorelines and updated GF/GA, standings below third, UCL semifinal second-leg result.",
-    "nextFixture": "RB Leipzig HOME May7 Champions League semifinal second leg Napoli lead 2–1 aggregate; Udinese away May10 Serie A",
-    "paragraphs": 41,
-    "comments": {
-      "topLevel": 51,
-      "totalIncludingReplies": 95
-    },
-    "feature": "Elena De Luca May 2031 player focus on Mikey Moore, one goal plus one official assist",
-    "press": "No invented manager or player interview; manager press not requested.",
-    "mediaQA": "Referenced previously approved archival Napoli illustration paths exist in repository; no current browser-crop inspection claimed.",
-    "releaseVersion": "2031-sassuolo-six-clear-may4-v1",
-    "expectedArchive": {
-      "stories": 794,
-      "results": 173
     }
   },
   "release_history": [
@@ -1829,5 +1837,49 @@
         "status": "unplayed"
       }
     ]
+  },
+  "latest_serie_a_title_race_2031_05_10": {
+    "date": "2031-05-10",
+    "table": [
+      {
+        "rank": 1,
+        "club": "Napoli",
+        "points": 84,
+        "played": 36,
+        "record": "25W9D2L",
+        "goalsFor": 74,
+        "goalsAgainst": 28,
+        "gd": 46
+      },
+      {
+        "rank": 2,
+        "club": "Inter",
+        "points": 80,
+        "played": 36,
+        "latestMatch": "Won, score unknown"
+      },
+      {
+        "rank": 3,
+        "club": "Roma",
+        "points": 79,
+        "played": 36,
+        "latestMatch": "Points rose from 76 to79; opponent and score unknown"
+      }
+    ],
+    "gapToInter": 4,
+    "remaining": 2,
+    "interMax": 86,
+    "romaMax": 85,
+    "managerConfirmedTiebreakerNapoliOverInter": true,
+    "clinched": false,
+    "clinchMath": "One win OR two draws from remaining Como home May18, AC Milan away May25",
+    "udinese": "Udinese 1–1 Napoli HT0–0; Beier 79 Pio assist, Pafundi 87",
+    "nextFixture": "Coppa Italia final May14, unplayed",
+    "cupFinalOpponent": null,
+    "uclFinal": {
+      "date": "2031-05-31",
+      "opponent": "PSG",
+      "status": "unplayed"
+    }
   }
 }
