@@ -188,7 +188,7 @@
       "note": "May19: Elena De Luca 15-paragraph Mikey Moore character study after Como 4–0 1G2A; Lorenzo Ferri 21-paragraph explicitly labelled FICTIONAL IN-UNIVERSE Moore Q&A. No invented real player testimony or manager interview. 150 distinct top-level comments, 356 with replies across 5 championship stories."
     }
   ],
-  "latest_confirmed_match": "18 May 2031 Napoli HOME 4–0 Como Serie A. HT3–0; Moore18 header from Estêvão cross, Pio38 from Moore, Beier43 from Moore through-ball, McTominay84 from Pio. Fourth consecutive SCUDETTO clinched, Napoli87/37 26W9D2L GF78 GA28 GD+50. Inter max86, Roma max85, rival May18 match results unknown. Milan away May25, PSG UCL final May31 unplayed.",
+  "latest_confirmed_match": "25 May 2031 AC Milan 1–0 Napoli, Serie A final match, away. Giménez58 penalty, no Napoli goals/assists; heavily rotated already champions. Final Napoli Serie A 87/38 26W9D3L GF78 GA29 GD+49. PSG May31 UCL final UNPLAYED.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -203,95 +203,57 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "Post-publication Como supporter discussion quality pass committed in one source edition; automated build and Pages verification follow",
-    "phase": "Napoli 4–0 Como, fourth consecutive Scudetto and Mikey Moore 1G2A",
-    "match": "May18 2031 Napoli 4–0 Como home Serie A; Moore18 (Estêvão), Pio38 (Moore), Beier43 (Moore), McTominay84 (Pio); fourth successive championship",
+    "phase": "Milan final league defeat, Serie A awards, four player media-day interviews, and full PSG press conference",
+    "status": "SOURCE READY FOR SINGLE COMMIT; automated build and Pages verification pending",
     "stories": [
-      "napoli-como-four-nil-fourth-scudetto-may18-2031",
-      "moore-como-goal-two-assists-title-may18-2031",
-      "napoli-four-straight-scudetti-dynasty-may19-2031",
-      "bellandi-scudetto-paris-not-yet-may19-2031",
-      "mikey-moore-fictional-title-night-interview-may19-2031"
+      "saladino-paris-press-no-revenge-may2031",
+      "milan-napoli-one-nil-final-league-may25-2031",
+      "sauer-awards-beier-pio-serie-a-may2031",
+      "beier-pre-final-player-interview-may2031",
+      "pio-pre-final-player-interview-may2031",
+      "bastoni-pre-final-player-interview-may2031",
+      "moore-pre-final-player-interview-may2031",
+      "bellandi-paris-discipline-arsenal-critique-may2031",
+      "madrid-question-napoli-paris-press-may2031",
+      "naples-gratitude-before-paris-may2031"
     ],
     "bylines": [
       "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player Desk",
       "Marco Bellini · Il Calcio Sera",
-      "Matteo Bellandi · Linea Calcio",
-      "Lorenzo Ferri · Player Interviews"
+      "Elena De Luca · Player Desk",
+      "Lorenzo Ferri · Player Interviews",
+      "Matteo Bellandi · Linea Calcio"
     ],
     "gallery": [
-      "assets/story-napoli-home-crowd.webp",
-      "assets/story-sandro-player-guidance.webp",
-      "assets/story-naples-vesuvius-sunset.webp",
+      "assets/story-champions-league-stakes.webp",
+      "assets/story-napoli-shirt-identity.webp",
+      "assets/story-sandro-beier-guidance.webp",
+      "assets/story-manager-pio-esposito.webp",
+      "assets/story-sandro-bastoni-defensive-talk.webp",
+      "assets/story-napoli-key-players-huddle.webp",
       "assets/story-touchline-pressure.webp",
-      "assets/story-napoli-key-players-huddle.webp"
+      "assets/story-coaches-team-tactics.webp",
+      "assets/story-naples-vesuvius-sunset.webp"
     ],
     "source": [
-      "stories-como-fourth-scudetto-moore-may18-2031.js",
-      "site-visible-como-scudetto-may18-2031.js",
+      "stories-pre-final-paris-media-day-may2031.js",
+      "site-visible-pre-final-paris-may2031.js",
       "site-visible-juventus-apr2030.js",
       "legacy-index.html",
       "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json",
-      "comments-engine-v2.js",
-      "site-polish.css",
-      "COMMENTS-ARCHITECTURE.md"
+      "EDITORIAL_COVERAGE_LEDGER.json"
     ],
-    "facts": "Napoli87/37 26W9D2L GF78 GA28+50, fourth consecutive Scudetto, Moore1G2A, Pio1G1A, Beier1G, McT1G, Estêvão1A. Inter80/36 Roma79/36 LAST confirmed May10, final maxima86 and85. Milan May25 and PSG May31 unplayed.",
-    "unknowns": "May18 rival games, GK saves or identity, other match actions, lineups, shots, cards, xG, public manager quotes",
-    "nextMatch": "AC Milan away Serie A May25, then PSG UCL final May31",
-    "paragraphs": 83,
-    "comments": {
-      "topLevel": 150,
-      "totalIncludingReplies": 356,
-      "byArticle": [
-        {
-          "story": "napoli-como-four-nil-fourth-scudetto-may18-2031",
-          "topLevel": 43,
-          "total": 120
-        },
-        {
-          "story": "moore-como-goal-two-assists-title-may18-2031",
-          "topLevel": 31,
-          "total": 68
-        },
-        {
-          "story": "napoli-four-straight-scudetti-dynasty-may19-2031",
-          "topLevel": 29,
-          "total": 61
-        },
-        {
-          "story": "bellandi-scudetto-paris-not-yet-may19-2031",
-          "topLevel": 26,
-          "total": 59
-        },
-        {
-          "story": "mikey-moore-fictional-title-night-interview-may19-2031",
-          "topLevel": 21,
-          "total": 48
-        }
-      ],
-      "editorialQA": "Original PioNation 45-goal comment preserved verbatim after manager clarification. Uneven turnout, coherent replies and some unanswered comments; no discussion of canon or source mechanics. Zero comment-engine duplicate, self-reply or generic-filter errors in dry-run."
+    "counts": {
+      "stories": 10,
+      "paragraphs": 96,
+      "commentsTop": 83,
+      "commentsAll": 142
     },
-    "feature": "Elena De Luca Moore title-closer player character study and Lorenzo Ferri clearly marked fictional in-universe Moore interview. No real interview testimony or manager public press quotes.",
-    "mediaQA": "Comments engine dry-run: 150 top-level / 356 including replies across five articles; 0 duplicates/self-replies/generic-filtered. Updated two-letter avatars and stable palette. Full site build/Pages verification pending.",
-    "releaseVersion": "2031-como-fourth-scudetto-discussion-quality-v2",
-    "expectedArchive": {
-      "stories": 811,
-      "results": 177
-    },
-    "qualityPass": {
-      "requestedByManager": true,
-      "scope": "Five Como Scudetto articles and recurring fan avatars",
-      "leadTopLevel": 43,
-      "topLevelTotal": 150,
-      "allIncludingReplies": 356,
-      "previousAllIncludingReplies": 318,
-      "confirmUnchanged": "45 GOALS AND AN ASSIST FOR SCOTT. HE IS EVERYWHERE.",
-      "characterContinuityReviewed": true,
-      "sourceRetainedInGitHistory": true
-    }
+    "nextMatch": "Napoli vs PSG Champions League final May31, neutral, UNPLAYED",
+    "privateStaffFirewall": "Do not report manager private decision about Madrid",
+    "playerDialogueProvenance": "Creatively authored as in-universe press Q&A in chat; not independently authenticated real-world dialogue",
+    "managerPressProvenance": "User-authored direct answers in this conversation only",
+    "publicationMethod": "One source commit then automatic compact snapshot and Pages."
   },
   "previous_newsroom_package": {
     "status": "Committed source; editorial checks, compact snapshot browser tests, Pages deployment pending",
@@ -2111,5 +2073,81 @@
     "goalkeeper": "Peacock started Coppa final May14, Fruk penalty; earlier March5 clean sheet; other saves/appearance totals incomplete. Como goalkeeper unknown.",
     "frontEnd": "One stats-room.js renderer for compiled first paint and interactive tabs; Italy scope preserved",
     "publication": "one source commit; compact snapshot and Pages checks"
+  },
+  "latest_league_final_2031_05_25": {
+    "date": "2031-05-25",
+    "opponent": "AC Milan",
+    "home": false,
+    "score": "AC Milan 1–0 Napoli",
+    "scorer": "Giménez",
+    "minute": 58,
+    "type": "penalty",
+    "napoliGoals": 0,
+    "napoliAssists": 0,
+    "rotation": "Most starters rested",
+    "finalTableNapoli": {
+      "points": 87,
+      "played": 38,
+      "wins": 26,
+      "draws": 9,
+      "losses": 3,
+      "goalsFor": 78,
+      "goalsAgainst": 29,
+      "goalDifference": 49,
+      "champions": true
+    },
+    "rivalResults": "Not established"
+  },
+  "latest_public_press_before_psg_2031": {
+    "date": "ahead of 2031-05-31 final; precise media-day date not confirmed",
+    "managerAnswers": [
+      "Well there’s the small caveat that we have the guy who scored the first goal against us now wearing our shirt, so revenge may be a bit complicated in that sense",
+      "No, this game is not about revenge. This game is about this years champions league finals. It’s about defending a trophy we’ve won two years in a row now. The second emotions come into it, you lose shape and focus. That’s not our way.",
+      "As for your question, Giulia, a loss like that always stings. But two consecutive European trophies in a row does change how you view things. And no, before you ask, there is no ill will towards Joao in our room",
+      "Fair question. But what allowed us to get back into that game? We didn’t get down on our luck when Raya produced save after save. We didn’t pout. We stayed focus and took our chances when they came.",
+      "Sorry Marco, this is not something I can discuss today. Today the focus is on Napoli vs Paris.",
+      "Obviously we’ve built this squad with extraordinary depth. Unfortunately that comes with difficult decisions to be made at times like this. You’ll see the rotation when the game starts.",
+      "Semplicemente, grazie. Non avevamo potuto fare quello che abbiamo fatto senza tutti voi."
+    ],
+    "assistantPress": "Sandro addressed transition defence, discipline, the 2028 Neves irony, and publicly supported the manager's choice not to discuss Madrid.",
+    "managerDeclinedMadrid": true,
+    "managerDeclinedStartingXI": true,
+    "privateMadridRecommitment": "Staff only, NOT for publication",
+    "playerPress": [
+      {
+        "name": "Maximilian Beier",
+        "source": "Authored in-world player dialogue in prior assistant chat"
+      },
+      {
+        "name": "Pio Esposito",
+        "source": "Authored in-world player dialogue in prior assistant chat"
+      },
+      {
+        "name": "Alessandro Bastoni",
+        "source": "Authored in-world player dialogue in prior assistant chat"
+      },
+      {
+        "name": "Mikey Moore",
+        "source": "Authored in-world player dialogue in prior assistant chat"
+      }
+    ]
+  },
+  "latest_awards_203031": {
+    "competition": "Serie A",
+    "playerOfSeason": "Leo Sauer",
+    "leagueGoals": {
+      "Sauer": 22,
+      "Beier": 22,
+      "Pio": 25,
+      "Rafael Leão": 26
+    },
+    "leagueAssists": {
+      "Beier": 23,
+      "Pio": 12
+    },
+    "teamOfSeasonNapoli": [
+      "Maximilian Beier"
+    ],
+    "criteria": "Unknown. Do not impute additional voting criteria."
   }
 }
