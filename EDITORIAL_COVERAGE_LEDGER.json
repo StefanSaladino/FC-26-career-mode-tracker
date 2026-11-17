@@ -2366,6 +2366,34 @@
       },
       "gross_fees_three_sales_usd": 28150000,
       "notes": "No public disclosure of incomplete Esposito transfer negotiations"
+    },
+    {
+      "season": "2031–32",
+      "status": "confirmed by manager",
+      "new_loan": {
+        "player": "G. Ricci",
+        "age": 21,
+        "ovr": 72,
+        "position": "CB",
+        "destination": null,
+        "duration": null
+      },
+      "reconfirmed_loan": {
+        "player": "L. Resende",
+        "age": 20,
+        "ovr": 72,
+        "position": "CAM",
+        "already_recorded": true
+      },
+      "squad_after_updates": {
+        "original_squad_hub": 38,
+        "confirmed_sales_from_hub": 3,
+        "contracted_remaining": 35,
+        "confirmed_loans": 7,
+        "not_reported_on_loan": 28
+      },
+      "gross_sale_fees_usd": 28150000,
+      "scope": "Roster maintenance only; private negotiations not published"
     }
   ]
 }

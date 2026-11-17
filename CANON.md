@@ -1,3 +1,15 @@
+## SUMMER 2031 — G. RICCI JOINS LOAN GROUP; RESENDE STATUS RECONFIRMED
+
+**Manager-confirmed:** G. Ricci (21, CB, 72 OVR) has left Napoli on loan. L. Resende (20, CAM, 72 OVR) is ALSO out on loan; this reconfirms the already-recorded Resende move, not a second transaction. Neither loan destination or term has been specified. M. Valentini (21, CB, 73 OVR) remains on a separately confirmed **one-year loan**.
+
+**Latest current census (supersedes earlier loan counts):** Original summer 2031 Squad Hub: 38. Confirmed sales from that screenshot: T. Sánchez ($3.3m, destination unknown), L. Jetten (Torino, $17.6m), A. Reyna ($7.25m, buyer unknown). **35 players remain contracted from that census; 7 confirmed on loan** — C. Brun, O. Ly, D. Parisis, M. Valentini, J. Pagano, L. Resende and G. Ricci. **28 others are not reported to be on loan**; their exact availability should not be invented. Gross fees from these three sales total **$28.15m**. Other prior departures Olise, Raspadori and De Bruyne remain out.
+
+**Defensive implications:** Bastoni (32/93), Buongiorno (32/89) and Rafa Marín (29/81) are now the only confirmed non-loaned CBs in the screenshot census: Reyna sold, Valentini and Ricci loaned. Kayode, Calafiori and Hermansen have recorded other primary positions; avoid assuming CB eligibility until checked. The squad needs practical cover and a long-term succession plan. Private Sebastiano Esposito negotiations remain unsuccessful and confidential; Pio has not been informed.
+
+**Newsroom:** Technical roster and loan status update only. No match article, player interview or manager public remarks commissioned. Preserve history and empty 2031–32 competitive stats.
+
+---
+
 ## SUMMER 2031 — L. RESENDE LEAVES ON LOAN
 
 **Manager-confirmed:** L. Resende (20, CAM, 72 OVR) has been loaned out. Destination and duration are not provided; do not invent them. Preserve Napoli player ownership and historical record.
