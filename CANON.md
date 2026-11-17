@@ -1,3 +1,13 @@
+## SUMMER 2031 — CONFIRMED TRANSFER MOVES: BRUN AND LY LOANS, SÁNCHEZ SALE
+
+**Manager-confirmed:** C. Brun (21, RM, 76 OVR) has left on loan; O. Ly (17, RW, 64 OVR) has also left on loan. Loan destinations and lengths have not been stated. Both remain Napoli players but should appear in a separate **Players on loan** section, not in the available first-team position groups. **T. Sánchez (22, CDM, 69 OVR) has been sold for $3.3 million**, buying club unspecified. Remove Sánchez from the current contracted squad and retain his historical record.
+
+**Updated squad accounting:** 38 players in the original summer Squad Hub census; minus Sánchez sale = **37 still contracted** in that census. Of those, **two confirmed loans**, leaving 35 **not known to be on loan**; other loan statuses have not been reconfirmed. **Four confirmed summer departures** when Olise, Raspadori, De Bruyne and Sánchez are counted. Do not treat loaned players as sold, fabricate destinations or imply all other players are definitely available.
+
+**Scope:** Roster and canon maintenance only; no new public manager interview or newsroom article authorised. The negotiated but unsigned Sebastiano Esposito deal remains private and unresolved; Pio is not to be informed. Do not expose player agents' negotiations or private squad planning.
+
+---
+
 ## SUMMER 2031 — 2031–32 SEASON ROLLOVER / CURRENT SQUAD CENSUS
 
 **MANAGER-AUTHORIZED MAINTENANCE, NOT A NEWS ARTICLE:** The manager requests updated ratings, removal of departures from the current roster and a 2031–32 season tab. The supplied five Squad Hub screenshots show 38 players. Their ages, positions and overall ratings are confirmed. They do **not** establish who is on loan or future squad decisions. The 2031–32 competition has no confirmed match yet: its goals/assists start **unreported/empty**, never copy the 2030–31 completed totals into the new season.

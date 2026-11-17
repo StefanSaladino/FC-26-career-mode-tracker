@@ -2267,5 +2267,35 @@
       "confidentiality": "No uncompleted transfers or manager/staff internal conversations public",
       "scope": "Technical roster update and season stats tab; no new match story or interviews"
     }
+  ],
+  "season_transfer_updates": [
+    {
+      "season": "2031–32",
+      "status": "confirmed by manager",
+      "completed_sale": {
+        "player": "T. Sánchez",
+        "fee_usd": 3300000,
+        "buyer": null
+      },
+      "confirmed_loans": [
+        {
+          "player": "C. Brun",
+          "destination": null,
+          "duration": null
+        },
+        {
+          "player": "O. Ly",
+          "destination": null,
+          "duration": null
+        }
+      ],
+      "player_census": {
+        "original_38_pictured": true,
+        "contracted_remaining": 37,
+        "loaned_confirmed": 2,
+        "other_loan_statuses": "unknown"
+      },
+      "public_scope": "Current squad and loan listing; no private negotiations published"
+    }
   ]
 }
