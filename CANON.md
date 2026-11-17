@@ -1,3 +1,13 @@
+## SUMMER 2031 — A. VERGARA PERMANENT SALE FOR $8.1M
+
+**Manager-confirmed:** A. Vergara (28, RW, 75 OVR in summer 2031 opening Squad Hub) has been sold permanently for **$8.1 million**. Buyer was not provided. Remove Vergara from current contracted player and selection groups and place in the summer departures group; preserve any historical match records and statistics.
+
+**Latest roster accounting supersedes older counts below:** 38 originally pictured, then FOUR sales from that census: T. Sánchez for $3.3m, L. Jetten to Torino for $17.6m, A. Reyna for $7.25m, and A. Vergara for $8.1m. Total **$36.25m gross proceeds** from these four sales; not an exact cash balance or transfer budget. **34 players remain contracted**, including **7 confirmed loans** (Brun, Ly, Parisis, Valentini for one year, Pagano, Resende, Ricci), leaving **27 players not reported as on loan**. Confirmed total summer departures including Olise, Raspadori and retired De Bruyne: SEVEN. Other loan status cannot be inferred. No new completed incoming player has been reported.
+
+**Newsroom maintenance only:** Update current 2031–32 squad / transfers, preserve prior season data and 2031–32 blank stats. Sebastiano Esposito negotiations and all manager staff-room conversations remain private; no new interviews or articles commissioned.
+
+---
+
 ## SUMMER 2031 — G. RICCI JOINS LOAN GROUP; RESENDE STATUS RECONFIRMED
 
 **Manager-confirmed:** G. Ricci (21, CB, 72 OVR) has left Napoli on loan. L. Resende (20, CAM, 72 OVR) is ALSO out on loan; this reconfirms the already-recorded Resende move, not a second transaction. Neither loan destination or term has been specified. M. Valentini (21, CB, 73 OVR) remains on a separately confirmed **one-year loan**.

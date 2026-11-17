@@ -9,11 +9,11 @@ const rows=[
 ['Lirim Hasa','CM',27,80],['Scott McTominay','CM',34,84],['Anton Stach','CM',32,82],['Warren Zaïre-Emery','CM',25,90],['João Neves','CM',26,95],
 ['Nico Paz','CAM',26,91],['L. Resende','CAM',20,72],['D. Parisis','CAM',17,66],
 ['Estêvão','RM',24,89],['C. Brun','RM',21,76],['V. Mancini','RM',22,77],['E. Rossetti','RM',19,82],
-['Mikey Moore','LW',23,88],['A. Vergara','RW',28,75],['M. Hooper','RW',20,77],['J. Pagano','RW',18,64],['O. Ly','RW',17,64],
+['Mikey Moore','LW',23,88],['M. Hooper','RW',20,77],['J. Pagano','RW',18,64],['O. Ly','RW',17,64],
 ['Maximilian Beier','ST',28,92],['Pio Esposito','ST',26,92],['F. Freitas','ST',19,70]
 ];
-if(rows.length!==35||new Set(rows.map(p=>p[0])).size!==35)throw Error('Summer 2031 post-transfer squad requires 35 distinct players');
-const departures=[{name:'Michael Olise',destination:'Tottenham Hotspur',type:'Transfer'},{name:'Giacomo Raspadori',destination:'Fulham',type:'Transfer'},{name:'Kevin De Bruyne',destination:'Retired',type:'Retirement'},{name:'T. Sánchez',destination:'Club not provided',type:'Transfer',fee:3300000},{name:'L. Jetten',destination:'Torino',type:'Transfer',fee:17600000},{name:'A. Reyna',destination:'Buyer not reported',type:'Transfer',fee:7250000}];
+if(rows.length!==34||new Set(rows.map(p=>p[0])).size!==34)throw Error('Summer 2031 post-transfer squad requires 34 distinct players');
+const departures=[{name:'Michael Olise',destination:'Tottenham Hotspur',type:'Transfer'},{name:'Giacomo Raspadori',destination:'Fulham',type:'Transfer'},{name:'Kevin De Bruyne',destination:'Retired',type:'Retirement'},{name:'T. Sánchez',destination:'Club not provided',type:'Transfer',fee:3300000},{name:'L. Jetten',destination:'Torino',type:'Transfer',fee:17600000},{name:'A. Reyna',destination:'Buyer not reported',type:'Transfer',fee:7250000},{name:'A. Vergara',destination:'Buyer not reported',type:'Transfer',fee:8100000}];
 const aliases={'M. Epolo':['Epolo'],'L. Jetten':['Lucas Jetten'],'Alphonso Davies':['A. Davies','Davies'],'Riccardo Calafiori':['R. Calafiori'],'Alessandro Bastoni':['A. Bastoni'],'Alessandro Buongiorno':['A. Buongiorno'],'Rafa Marín':['R. Marín','Marín'],'Michael Kayode':['M. Kayode'],'Lirim Hasa':['L. Hasa'],'Scott McTominay':['S. McTominay'],'Anton Stach':['A. Stach'],'Warren Zaïre-Emery':['W. Zaïre-Emery'],'João Neves':['J. Neves'],'Nico Paz':['N. Paz'],'Mikey Moore':['M. Moore'],'Maximilian Beier':['M. Beier'],'Pio Esposito':['F. Esposito','Francesco Pio Esposito'],'E. Rossetti':['Rossetti']};
 const groups={Goalkeepers:[],Defenders:[],Midfielders:[],Attackers:[]},players={},ratings={};
 D.playerAges={...(D.playerAges||{})};
@@ -28,9 +28,9 @@ for(const [name,pos,age,overall] of rows){
 D.squadPublic=groups;D.playerRatingsCurrent=ratings;
 D.loanedPlayers=[['C. Brun','RM',21,76],['O. Ly','RW',17,64],['D. Parisis','CAM',17,66],['M. Valentini','CB',21,73],['J. Pagano','RW',18,64],['L. Resende','CAM',20,72],['G. Ricci','CB',21,72]];
 D.loanDetails={...(D.loanDetails||{}),'C. Brun':'Loan confirmed · destination unreported','O. Ly':'Loan confirmed · destination unreported','D. Parisis':'Loan confirmed · destination unreported','M. Valentini':'One-season loan · destination unreported','J. Pagano':'Loan confirmed · destination unreported','L. Resende':'Loan confirmed · destination unreported','G. Ricci':'Loan confirmed · destination unreported'};
-D.squadSnapshot={updated:'Summer 2031 · 2031–32 transfer update',verified:true,playerCount:35,availableCount:null,knownNotLoanedCount:28,loanCount:7,players,departures,loans:[{name:'C. Brun',position:'RM',age:21,overall:76,destination:null},{name:'O. Ly',position:'RW',age:17,overall:64,destination:null},{name:'D. Parisis',position:'CAM',age:17,overall:66,destination:null},{name:'M. Valentini',position:'CB',age:21,overall:73,destination:null,duration:'One year'},{name:'J. Pagano',position:'RW',age:18,overall:64,destination:null},{name:'L. Resende',position:'CAM',age:20,overall:72,destination:null},{name:'G. Ricci',position:'CB',age:21,overall:72,destination:null}],notes:'38 originally pictured; T. Sánchez sold for $3.3m, L. Jetten to Torino for $17.6m, and A. Reyna sold for $7.25m. Brun, Ly, Parisis, Valentini, Pagano, Resende and Ricci out on loan. Valentini loan duration one year; destinations unspecified. Other loan statuses unverified; unsigned targets excluded.'};
+D.squadSnapshot={updated:'Summer 2031 · 2031–32 transfer update',verified:true,playerCount:34,availableCount:null,knownNotLoanedCount:27,loanCount:7,players,departures,loans:[{name:'C. Brun',position:'RM',age:21,overall:76,destination:null},{name:'O. Ly',position:'RW',age:17,overall:64,destination:null},{name:'D. Parisis',position:'CAM',age:17,overall:66,destination:null},{name:'M. Valentini',position:'CB',age:21,overall:73,destination:null,duration:'One year'},{name:'J. Pagano',position:'RW',age:18,overall:64,destination:null},{name:'L. Resende',position:'CAM',age:20,overall:72,destination:null},{name:'G. Ricci',position:'CB',age:21,overall:72,destination:null}],notes:'38 originally pictured; T. Sánchez sold for $3.3m, L. Jetten to Torino for $17.6m, A. Reyna sold for $7.25m and A. Vergara sold for $8.1m. Brun, Ly, Parisis, Valentini, Pagano, Resende and Ricci out on loan. Valentini loan duration one year; destinations unspecified. Other loan statuses unverified; unsigned targets excluded.'};
 D.squadCurrentSeason='2031–32';D.departuresSummer2031=departures;
-D.developmentNote='Summer 2031 squad: Brun, Ly, Parisis, Valentini (one year), Pagano, Resende and Ricci on loan; destinations unreported. Sánchez, Jetten and Reyna sold. All other loan statuses unverified.';
+D.developmentNote='Summer 2031 squad: Brun, Ly, Parisis, Valentini (one year), Pagano, Resende and Ricci on loan; destinations unreported. Sánchez, Jetten, Reyna and Vergara sold. All other loan statuses unverified.';
 D.firstXI=[];D.eliteXI=[]; // Stale 2030–31 projected formations removed until manager announces the new XI.
 D.statsBySeason=D.statsBySeason||{};D.statsBySeason['2031–32']=[];
 D.statsCurrentSeason='2031–32';D.stats=[];D.statsRoomAsOf='Summer 2031 · preseason';
@@ -43,7 +43,7 @@ const mk=(tag,cls,value)=>{const n=document.createElement(tag);if(cls)n.classNam
 const squad=el('squadGroups');
 if(squad){
  const intro=mk('div','development-roster-head');intro.dataset.squadEdition='summer2031';
- intro.append(mk('div','section-kicker','2031–32 · Opening squad'),mk('h2','', 'First-team ratings'),mk('p','', '35 contracted players · 7 confirmed loans · 28 others not recorded on loan. Further changes remain possible this summer.'));
+ intro.append(mk('div','section-kicker','2031–32 · Opening squad'),mk('h2','', 'First-team ratings'),mk('p','', '34 contracted players · 7 confirmed loans · 27 others not recorded on loan. Further changes remain possible this summer.'));
  const frag=document.createDocumentFragment();frag.append(intro);
  for(const [group,items] of Object.entries(groups)){
   const panel=mk('section','squad-group');panel.dataset.squadEdition='summer2031';
@@ -81,7 +81,7 @@ const eyebrow=document.querySelector('.brand-copy .eyebrow');if(eyebrow)eyebrow.
 const header=document.querySelector('.header-status span:last-child');if(header)header.textContent='2031–32 PRESEASON · REIGNING EUROPEAN CHAMPIONS';
 document.title='Napoli 2031–32 — Season Room';
 const description=document.querySelector('meta[name="description"]');if(description)description.content='Napoli open the 2031–32 campaign as reigning Serie A, Coppa Italia and Champions League winners. Updated squad ratings and season statistics.';
-D.ticker=['NAPOLI 2031–32 · CHAMPIONS BEGIN A NEW CAMPAIGN','THIRD STRAIGHT CHAMPIONS LEAGUE · SECOND STRAIGHT TREBLE','OLISE DEPARTS FOR TOTTENHAM · RASPADORI JOINS FULHAM','KEVIN DE BRUYNE RETIRES · SUMMER SQUAD UPDATED','SÁNCHEZ $3.3M · JETTEN TO TORINO $17.6M · REYNA SOLD $7.25M','BRUN, LY, PARISIS, VALENTINI, PAGANO, RESENDE AND RICCI LOANED OUT','2030–31 FINAL: NAPOLI 2–0 PSG · BEIER 61′ AND 71′'];
+D.ticker=['NAPOLI 2031–32 · CHAMPIONS BEGIN A NEW CAMPAIGN','THIRD STRAIGHT CHAMPIONS LEAGUE · SECOND STRAIGHT TREBLE','OLISE DEPARTS FOR TOTTENHAM · RASPADORI JOINS FULHAM','KEVIN DE BRUYNE RETIRES · SUMMER SQUAD UPDATED','SÁNCHEZ $3.3M · JETTEN $17.6M · REYNA $7.25M · VERGARA $8.1M','BRUN, LY, PARISIS, VALENTINI, PAGANO, RESENDE AND RICCI LOANED OUT','2030–31 FINAL: NAPOLI 2–0 PSG · BEIER 61′ AND 71′'];
 const ticker=el('tickerTrack');if(ticker)ticker.replaceChildren(...[...D.ticker,...D.ticker].map(s=>mk('span','',s)));
 const next=el('nextTwo');if(next)next.replaceChildren(mk('div','next-row','2031–32 fixtures awaiting confirmation'));
 const upcoming=el('upcomingStrip');if(upcoming){const row=mk('div','fixture');row.append(mk('span','','SUMMER 2031'),mk('strong','','2031–32 · PRESEASON'),mk('small','','Next Napoli fixture not yet confirmed'));upcoming.replaceChildren(row);}

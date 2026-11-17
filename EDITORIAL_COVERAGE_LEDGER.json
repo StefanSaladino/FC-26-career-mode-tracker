@@ -2394,6 +2394,27 @@
       },
       "gross_sale_fees_usd": 28150000,
       "scope": "Roster maintenance only; private negotiations not published"
+    },
+    {
+      "season": "2031–32",
+      "status": "confirmed by manager",
+      "completed_sale": {
+        "player": "A. Vergara",
+        "age": 28,
+        "position": "RW",
+        "overall": 75,
+        "fee_usd": 8100000,
+        "buyer": null
+      },
+      "census": {
+        "original_players": 38,
+        "sales_since_original": 4,
+        "contracted_remaining": 34,
+        "confirmed_loans": 7,
+        "others_not_reported_on_loan": 27
+      },
+      "confirmed_census_sale_fees_usd": 36250000,
+      "scope": "Roster and archive continuity only; no new reporting or private negotiations publicized"
     }
   ]
 }
