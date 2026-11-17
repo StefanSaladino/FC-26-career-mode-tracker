@@ -1,7 +1,10 @@
 {
-  "revision": "9117bd9dae64",
+  "revision": "18e1a28ffdf6",
   "articles": 811,
   "results": 177,
   "seasons": 4,
+  "publicationVoice": {
+    "articleCount": 811
+  },
   "legacyErrors": []
 }
