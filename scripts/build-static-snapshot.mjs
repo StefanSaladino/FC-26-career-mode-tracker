@@ -53,9 +53,9 @@ try{
   if(!document.querySelector('#stats .section-head p')?.textContent?.includes('2031–32'))throw Error('Outdated active-season summary');
   if(!document.getElementById('statsVerificationNotice')?.textContent?.includes('2031–32'))throw Error('Outdated active-season verification note');
   if(!document.getElementById('keeperStats203031')?.hidden)throw Error('Historical keeper panel incorrectly displayed in new season');
-  if(data.squadSnapshot?.playerCount!==37||data.squadSnapshot?.loanCount!==2||document.querySelectorAll('#squadGroups .player-row').length!==41)throw Error('Summer 2031 squad, loans or departures incomplete');
-  if(data.squadSnapshot?.players?.['T. Sánchez']||!data.squadSnapshot?.players?.['C. Brun']?.onLoan||!data.squadSnapshot?.players?.['O. Ly']?.onLoan)throw Error('Sánchez sale or Brun/Ly loans not reflected in current squad');
-  if(!data.squadSnapshot.departures?.some(x=>x.name==='T. Sánchez'&&x.fee===3300000))throw Error('Sánchez sale fee missing');
+  if(data.squadSnapshot?.playerCount!==36||data.squadSnapshot?.loanCount!==3||document.querySelectorAll('#squadGroups .player-row').length!==41)throw Error('Summer 2031 squad, loans or departures incomplete');
+  if(data.squadSnapshot?.players?.['T. Sánchez']||data.squadSnapshot?.players?.['L. Jetten']||!data.squadSnapshot?.players?.['C. Brun']?.onLoan||!data.squadSnapshot?.players?.['O. Ly']?.onLoan||!data.squadSnapshot?.players?.['D. Parisis']?.onLoan)throw Error('Sánchez/Jetten sales or Brun/Ly/Parisis loans not reflected in current squad');
+  if(!data.squadSnapshot.departures?.some(x=>x.name==='T. Sánchez'&&x.fee===3300000)||!data.squadSnapshot.departures?.some(x=>x.name==='L. Jetten'&&x.destination==='Torino'&&x.fee===17600000))throw Error('Confirmed sales and fees missing');
   const squadNames=Object.keys(data.squadSnapshot.players||{});
   if(['Michael Olise','Giacomo Raspadori','Kevin De Bruyne','Sebastiano Esposito'].some(n=>squadNames.includes(n)))throw Error('Departed or unsigned player remains in current squad');
   const beierNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Maximilian Beier');
@@ -145,8 +145,8 @@ try{
  await fresh.locator('.section-nav [data-target="squad"]').click();
  if(await fresh.locator('#squadGroups .squad-group .player-row').count()!==41)throw Error('Current squad, loans or four departures not visible');
  const loans=await fresh.locator('#squadGroups .squad-group').filter({hasText:'Players on loan'}).innerText();
- if(!loans.includes('C. Brun')||!loans.includes('O. Ly'))throw Error('Brun or Ly not in on-loan section');
- if(!(await fresh.locator('#squadGroups').innerText()).includes('T. Sánchez'))throw Error('Sold Sánchez not in departure section');
+ if(!loans.includes('C. Brun')||!loans.includes('O. Ly')||!loans.includes('D. Parisis'))throw Error('Brun, Ly or Parisis not in on-loan section');
+ if(!(await fresh.locator('#squadGroups').innerText()).includes('T. Sánchez')||!(await fresh.locator('#squadGroups').innerText()).includes('L. Jetten'))throw Error('Sold Sánchez or Jetten not in departure section');
  if((await fresh.locator('#squadGroups').innerText()).includes('Sebastiano Esposito'))throw Error('Unsigned Sebastiano added prematurely');
  await fresh.locator('.section-nav [data-target="matches"]').click();
  await fresh.locator('#teamFilter').selectOption('Italy');

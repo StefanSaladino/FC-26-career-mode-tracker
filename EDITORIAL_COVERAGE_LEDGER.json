@@ -2296,6 +2296,29 @@
         "other_loan_statuses": "unknown"
       },
       "public_scope": "Current squad and loan listing; no private negotiations published"
+    },
+    {
+      "season": "2031–32",
+      "status": "confirmed by manager",
+      "completed_sale": {
+        "player": "L. Jetten",
+        "destination": "Torino",
+        "fee_usd": 17600000
+      },
+      "confirmed_loan": {
+        "player": "D. Parisis",
+        "destination": null,
+        "duration": null
+      },
+      "current_squad": {
+        "original_pictured": 38,
+        "permanent_sales_since_census": 2,
+        "contracted_remaining": 36,
+        "confirmed_loans": 3,
+        "others_not_recorded_as_loaned": 33
+      },
+      "aggregate_confirmed_sale_fees_usd": 20900000,
+      "scope": "Current roster maintenance only; unsigned deals and private staff planning excluded"
     }
   ]
 }

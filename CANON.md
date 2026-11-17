@@ -1,3 +1,13 @@
+## SUMMER 2031 — TORINO BUY JETTEN; PARISIS GOES OUT ON LOAN
+
+**Manager-confirmed transactions:** L. Jetten (24, LB, 77 OVR) sold permanently to Torino for **$17.6 million**. D. Parisis (17, CAM, 66 OVR) has gone out on loan; destination and length unreported. Do not confuse the loan with a sale. Previous confirmed moves still stand: T. Sánchez permanently sold for **$3.3 million** (destination unreported), C. Brun and O. Ly on loan (destinations unreported), and earlier senior departures Olise (Tottenham), Raspadori (Fulham), De Bruyne (retirement).
+
+**Current accounting relative to original 38-player Squad Hub:** two further permanent sales (Sánchez, Jetten) mean **36 players still on Napoli's books** among the original screenshot list; **three confirmed loans** (Brun, Ly, Parisis), leaving **33 not reported to be on loan**. Other loan statuses are unknown. Total confirmed summer departures including the three earlier names: **five**. Sales of Sánchez and Jetten add **$20.9m combined gross transfer fees**, not necessarily the exact in-game budget balance. The uncompleted Sebastiano Esposito personal terms remain confidential, unsigned and excluded from the roster.
+
+**Operational instruction:** Update the 2031–32 public current squad/loans/departures and archive continuity, with no made-up destinations, future matches or private transfer negotiation details. This note supersedes earlier current-roster counts in this living canon; historical May 2031 stats unchanged.
+
+---
+
 ## SUMMER 2031 — CONFIRMED TRANSFER MOVES: BRUN AND LY LOANS, SÁNCHEZ SALE
 
 **Manager-confirmed:** C. Brun (21, RM, 76 OVR) has left on loan; O. Ly (17, RW, 64 OVR) has also left on loan. Loan destinations and lengths have not been stated. Both remain Napoli players but should appear in a separate **Players on loan** section, not in the available first-team position groups. **T. Sánchez (22, CDM, 69 OVR) has been sold for $3.3 million**, buying club unspecified. Remove Sánchez from the current contracted squad and retain his historical record.
