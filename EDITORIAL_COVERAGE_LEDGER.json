@@ -185,7 +185,7 @@
     {
       "month": "2031-05",
       "status": "covered_additional",
-      "note": "May19: Elena De Luca 15-paragraph Mikey Moore character study after Como 4–0 1G2A; Lorenzo Ferri 21-paragraph explicitly labelled FICTIONAL IN-UNIVERSE Moore Q&A. No invented real player testimony or manager interview. 150 distinct top-level comments, 318 with replies across 5 championship stories."
+      "note": "May19: Elena De Luca 15-paragraph Mikey Moore character study after Como 4–0 1G2A; Lorenzo Ferri 21-paragraph explicitly labelled FICTIONAL IN-UNIVERSE Moore Q&A. No invented real player testimony or manager interview. 150 distinct top-level comments, 356 with replies across 5 championship stories."
     }
   ],
   "latest_confirmed_match": "18 May 2031 Napoli HOME 4–0 Como Serie A. HT3–0; Moore18 header from Estêvão cross, Pio38 from Moore, Beier43 from Moore through-ball, McTominay84 from Pio. Fourth consecutive SCUDETTO clinched, Napoli87/37 26W9D2L GF78 GA28 GD+50. Inter max86, Roma max85, rival May18 match results unknown. Milan away May25, PSG UCL final May31 unplayed.",
@@ -203,7 +203,7 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "status": "One consolidated source edition; automated compiled snapshot and Pages checks still required",
+    "status": "Post-publication Como supporter discussion quality pass committed in one source edition; automated build and Pages verification follow",
     "phase": "Napoli 4–0 Como, fourth consecutive Scudetto and Mikey Moore 1G2A",
     "match": "May18 2031 Napoli 4–0 Como home Serie A; Moore18 (Estêvão), Pio38 (Moore), Beier43 (Moore), McTominay84 (Pio); fourth successive championship",
     "stories": [
@@ -233,7 +233,10 @@
       "site-visible-juventus-apr2030.js",
       "legacy-index.html",
       "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
+      "EDITORIAL_COVERAGE_LEDGER.json",
+      "comments-engine-v2.js",
+      "site-polish.css",
+      "COMMENTS-ARCHITECTURE.md"
     ],
     "facts": "Napoli87/37 26W9D2L GF78 GA28+50, fourth consecutive Scudetto, Moore1G2A, Pio1G1A, Beier1G, McT1G, Estêvão1A. Inter80/36 Roma79/36 LAST confirmed May10, final maxima86 and85. Milan May25 and PSG May31 unplayed.",
     "unknowns": "May18 rival games, GK saves or identity, other match actions, lineups, shots, cards, xG, public manager quotes",
@@ -241,14 +244,53 @@
     "paragraphs": 83,
     "comments": {
       "topLevel": 150,
-      "totalIncludingReplies": 318
+      "totalIncludingReplies": 356,
+      "byArticle": [
+        {
+          "story": "napoli-como-four-nil-fourth-scudetto-may18-2031",
+          "topLevel": 43,
+          "total": 120
+        },
+        {
+          "story": "moore-como-goal-two-assists-title-may18-2031",
+          "topLevel": 31,
+          "total": 68
+        },
+        {
+          "story": "napoli-four-straight-scudetti-dynasty-may19-2031",
+          "topLevel": 29,
+          "total": 61
+        },
+        {
+          "story": "bellandi-scudetto-paris-not-yet-may19-2031",
+          "topLevel": 26,
+          "total": 59
+        },
+        {
+          "story": "mikey-moore-fictional-title-night-interview-may19-2031",
+          "topLevel": 21,
+          "total": 48
+        }
+      ],
+      "editorialQA": "Original PioNation 45-goal comment preserved verbatim after manager clarification. Uneven turnout, coherent replies and some unanswered comments; no discussion of canon or source mechanics. Zero comment-engine duplicate, self-reply or generic-filter errors in dry-run."
     },
     "feature": "Elena De Luca Moore title-closer player character study and Lorenzo Ferri clearly marked fictional in-universe Moore interview. No real interview testimony or manager public press quotes.",
-    "mediaQA": "Existing approved gallery paths only; referenced as fictional archival illustrations, not match photography. Browser QA/Pages status to be verified by automated build.",
-    "releaseVersion": "2031-como-fourth-scudetto-v1",
+    "mediaQA": "Comments engine dry-run: 150 top-level / 356 including replies across five articles; 0 duplicates/self-replies/generic-filtered. Updated two-letter avatars and stable palette. Full site build/Pages verification pending.",
+    "releaseVersion": "2031-como-fourth-scudetto-discussion-quality-v2",
     "expectedArchive": {
       "stories": 811,
       "results": 177
+    },
+    "qualityPass": {
+      "requestedByManager": true,
+      "scope": "Five Como Scudetto articles and recurring fan avatars",
+      "leadTopLevel": 43,
+      "topLevelTotal": 150,
+      "allIncludingReplies": 356,
+      "previousAllIncludingReplies": 318,
+      "confirmUnchanged": "45 GOALS AND AN ASSIST FOR SCOTT. HE IS EVERYWHERE.",
+      "characterContinuityReviewed": true,
+      "sourceRetainedInGitHistory": true
     }
   },
   "previous_newsroom_package": {
@@ -1987,9 +2029,26 @@
     ],
     "comments": {
       "topLevel": 150,
-      "total": 318
+      "total": 356
     },
     "nextLeague": "AC Milan away May25 unplayed",
     "nextEurope": "PSG UCL final May31 unplayed"
+  },
+  "last_editorial_quality_pass_2031_05_18": {
+    "scope": "Napoli 4–0 Como four-Scudetto supporter threads",
+    "revised": true,
+    "dateInUniverse": "2031-05-19",
+    "storyCount": 5,
+    "commentsTopLevel": 150,
+    "totalIncludingReplies": 356,
+    "previousTotal": 318,
+    "topLevelByStory": [
+      43,
+      31,
+      29,
+      26,
+      21
+    ],
+    "assistantReview": "Expanded sustained topical exchanges and varied turnout; removed source/canon meta from public comments, preserved original PioNation parent line, improved PN/PH avatar distinction."
   }
 }

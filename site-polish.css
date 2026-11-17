@@ -64,7 +64,7 @@ main{padding-bottom:30px}
   border-radius:50%;
   display:grid;
   place-items:center;
-  background:var(--navy);
+  background:var(--fan-avatar,var(--navy));
   color:#fff;
   font-size:.78rem;
   font-weight:950;
@@ -83,7 +83,7 @@ main{padding-bottom:30px}
 .comment-replies[hidden]{display:none!important}
 .fan-reply{grid-template-columns:32px minmax(0,1fr);gap:10px;padding:13px 0;border-bottom:1px solid #eef2f6}
 .fan-reply:last-child{border-bottom:0}
-.fan-reply .comment-avatar{width:30px;height:30px;font-size:.64rem;background:#173a5f}
+.fan-reply .comment-avatar{width:30px;height:30px;font-size:.64rem;background:var(--fan-avatar,var(--navy))}
 .fan-reply .comment-user{font-size:.72rem;margin-bottom:3px}
 .fan-reply .comment-body p{font-size:.86rem;line-height:1.5}
 .fan-reply .fan-actions{margin-top:6px;font-size:.7rem;gap:12px}

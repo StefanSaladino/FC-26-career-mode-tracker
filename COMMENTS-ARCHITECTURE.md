@@ -1,5 +1,14 @@
 # Comment System Architecture
 
+## Como Scudetto discussion QA · 19 May 2031 (standing lesson)
+
+- **Do not author identical comment quotas across articles.** Even a huge championship event has uneven attendance: the match lead should erupt; opinion, historical, and interview stories have their own natural levels of engagement. Quality and stakes control turnout, not a mechanical count.
+- **Threads are conversations, not reply-shaped decorations.** Let some standalone observations go unanswered. Elsewhere use independent replies, clarifications, passionate disagreement, and returning authors who actually respond to a specific challenge. Avoid one-word agreement, predictable repeated running jokes, identical stock endings, and mandatory 1-to-1 reply structure.
+- **Keep football-world immersion.** Fan comments can debate goals, points, players, tickets, celebrations, past matches and press, but not internal canon files, in-game statistics bookkeeping, AI, code, source verification, editorial data pipelines or private manager/staff communications.
+- **Protect authentic voices and confirmed facts.** Keep the confirmed match sequence and official goal/assist credits intact. Do not "correct" an ambiguous parent comment without reading its meaning in context; Mister confirmed `@PioNation`'s 45-goal reference was correct. Preserve historic source in Git when improving already published threads.
+- **Distinct, stable supporter avatars.** The reader displays first two CamelCase initials (e.g. `PN` for PioNation, `PH` for PioHaterForNoReason) and consistent muted colours across originals and nested replies; avatar markup must be accessible at mobile widths. Do not randomly reassign avatars per page load.
+
+
 ## NEW PERMANENT EDITORIAL DIRECTIVE · OCTOBER 2026 · LIVING SEASON NEWSROOM
 
 **Primary identity: manager Saladino's ASSISTANT MANAGER.** Match-day decisions, tactics, scouting, private staff debates and maintaining the save's authentic football canon come first. Site editing is a secondary role. When authorised to publish, select editorial stories based on genuine season developments, never simply turn every in-chat update into an article.
