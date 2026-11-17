@@ -72,4 +72,44 @@ if($('upcomingStrip'))$('upcomingStrip').innerHTML=D.upcoming.map(x=>'<div class
 const hs=document.querySelector('.header-status span:last-child');if(hs)hs.textContent='FOUR CONSECUTIVE SCUDETTI · NAPOLI 87 / 37';
 const meta=document.querySelector('meta[name="description"]');if(meta)meta.content='Napoli 4–0 Como May18 2031. Fourth consecutive Serie A title secured on87 points. Mikey Moore goal and two assists, Pio, Beier, McTominay score. PSG Champions League final May31 unplayed.';
 if($('matchesList')&&!$('matchesList').querySelector('[data-como-scudetto-may18]'))$('matchesList').innerHTML='<div class="match-card" data-como-scudetto-may18="true"><div class="result-badge W">W</div><div class="match-main"><span>Serie A · 18 May 2031 · Champions</span><strong>Napoli <b>4–0</b> Como</strong><p>Moore18 (Estêvão) · Pio38 (Moore) · Beier43 (Moore) · McTominay84 (Pio) · FOURTH SCUDETTO</p></div></div>'+$('matchesList').innerHTML;
+
+/* Stats Room reconciliation: one player identity and one 2029–30 season, not two. */
+const history202930=D.statsBySeason?.['2029–30'];
+if(!Array.isArray(history202930))throw Error('Stats Room: 2029–30 archive missing');
+const pioFinal=history202930.find(r=>r[0]==='Francesco Pio Esposito');
+const pioMarch=history202930.find(r=>r[0]==='Pio Esposito');
+if(pioFinal&&pioMarch){
+ if(Number(pioFinal[1])!==34||Number(pioFinal[2])!==21)throw Error('Stats Room: unexpected final Pio baseline');
+ if(Number(pioMarch[1])!==28||Number(pioMarch[2])!==20)throw Error('Stats Room: unexpected March Pio baseline');
+ pioFinal[0]='Pio Esposito';
+ pioFinal[3]='34 goals and 21 assists through the Porto Champions League final, 1 June 2030. Supersedes the 28-goal, 20-assist March squad snapshot.';
+ history202930.splice(history202930.indexOf(pioMarch),1);
+}else if(pioFinal){
+ pioFinal[0]='Pio Esposito';
+}else if(!pioMarch||Number(pioMarch[1])!==34||Number(pioMarch[2])!==21){
+ throw Error('Stats Room: missing final Pio 2029–30 total');
+}
+if(history202930.filter(r=>r[0]==='Pio Esposito').length!==1)throw Error('Stats Room: duplicate Pio remains');
+history202930.sort((a,b)=>(Number(b[1])||0)-(Number(a[1])||0)||(Number(b[2])||0)-(Number(a[2])||0));
+const pioCareerRow=D.careerStats?.find(r=>r[0]==='Pio Esposito');
+if(!pioCareerRow)throw Error('Stats Room: Pio career row missing');
+const pioSeasonRows=['2027–28','2028–29','2029–30','2030–31'].map(y=>{
+ const r=D.statsBySeason?.[y]?.find(row=>row[0]==='Pio Esposito');
+ if(!r)throw Error('Stats Room: Pio missing '+y);
+ return r;
+});
+pioCareerRow[1]=pioSeasonRows.reduce((sum,r)=>sum+Number(r[1]||0),0);
+pioCareerRow[2]=pioSeasonRows.reduce((sum,r)=>sum+Number(r[2]||0),0);
+if(pioCareerRow[1]!==144||pioCareerRow[2]!==73)throw Error('Stats Room: Pio reconciliation failed');
+D.careerStats.sort((a,b)=>(Number(b[1])||0)-(Number(a[1])||0)||(Number(b[2])||0)-(Number(a[2])||0));
+D.statsRoomAsOf='18 May 2031';
+D.statsRoomAudit={pioCareerGoals:144,pioCareerAssists:73,pio202930:[34,21],clubOnly:true,historical202829Partial:true};
+D.keeperStats203031=D.keeperStats203031||{};
+D.keeperStats203031.Peacock={
+ ...(D.keeperStats203031.Peacock||{}),
+ lastMatch:'Napoli 3–1 Bergamo · 14 May 2031 Coppa Italia final',
+ lastConfirmedCleanSheet:'Milano FC 0–2 Napoli · 5 March 2031 Coppa Italia semifinal first leg',
+ lastKnownPerformance:'Started Coppa final; Fruk scored a 72-minute Bergamo penalty. Other save and season appearance totals not established.',
+ finalMay14:{started:true,penaltyConceded:1,otherSaves:null,cleanSheet:false}
+};
 })();

@@ -37,9 +37,22 @@ try{
   return frame&&!frame.classList.contains('is-booting')&&document.querySelector('#heroStory [data-article="'+id+'"]')&&window.NAPOLI_DATA?.articles?.some(x=>x.id===id);
  },expectedLead,{timeout:180000});
  await old.waitForTimeout(250);
+ await old.addScriptTag({url:'http://127.0.0.1:'+port+'/stats-room.js'});
  const result=await old.evaluate(()=>{
   const data=JSON.parse(JSON.stringify(window.NAPOLI_DATA));
   if(!data.articles?.length||!data.results?.length)throw Error('Incomplete historical state');
+  const pio2030=data.statsBySeason?.['2029–30']?.filter(r=>r[0]==='Pio Esposito')||[];
+  const pioNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Pio Esposito');
+  const pioCareer=data.careerStats?.find(r=>r[0]==='Pio Esposito');
+  if(pio2030.length!==1||pio2030[0][1]!==34||pio2030[0][2]!==21)throw Error('Duplicate or stale 2029–30 Pio season');
+  if(!pioNow||pioNow[1]!==45||pioNow[2]!==19)throw Error('Latest Pio club-season stats missing');
+  if(!pioCareer||pioCareer[1]!==144||pioCareer[2]!==73)throw Error('Pio career reconciliation failed');
+  const pioFirst=[...document.querySelectorAll('#statsTable tbody tr')].find(r=>r.cells[0]?.textContent?.trim()==='Pio Esposito');
+  if(!pioFirst||pioFirst.cells[1]?.textContent!=='45'||pioFirst.cells[2]?.textContent!=='19')throw Error('Outdated first-paint stats table');
+  if(!document.querySelector('#stats .section-head p')?.textContent?.includes('18 May 2031'))throw Error('Outdated first-paint season summary');
+  if(!document.getElementById('statsVerificationNotice')?.textContent?.includes('18 May 2031'))throw Error('Outdated stats verification note');
+  if(!document.getElementById('keeperStats203031')?.textContent?.includes('14 May 2031'))throw Error('Peacock Coppa final missing from keeper panel');
+  const statsAudit={seasonPio:[pioNow[1],pioNow[2]],careerPio:[pioCareer[1],pioCareer[2]],historicalPio:[pio2030[0][1],pio2030[0][2]],firstPaint:true};
   const current={...data,articles:data.articles.slice(0,24)};
   const archive={articles:data.articles,comments:{
    commentOverride:window.NAPOLI_COMMENT_OVERRIDE||{},
@@ -52,7 +65,7 @@ try{
   document.body.classList.remove('seasonroom-hydrating');
   document.getElementById('leadFrame')?.classList.remove('is-booting');
   document.getElementById('heroStory')?.removeAttribute('aria-hidden');
-  return {hero,current,archive,html:'<!doctype html>\n'+document.documentElement.outerHTML,count:{articles:data.articles.length,results:data.results.length,seasons:Object.keys(data.statsBySeason||{}).length}};
+  return {hero,current,archive,html:'<!doctype html>\n'+document.documentElement.outerHTML,count:{articles:data.articles.length,results:data.results.length,seasons:Object.keys(data.statsBySeason||{}).length},statsAudit};
  });
  const publicationVoice=normalizeSeasonRoomPublication(result.archive,result.archive.comments);
  result.current.articles=result.archive.articles.slice(0,24);
@@ -62,7 +75,7 @@ try{
  if(result.count.articles<40||result.count.results<10)throw Error('Incomplete archive: '+JSON.stringify(result.count));
  await fs.writeFile('snapshot-data.js','window.NAPOLI_DATA='+JSON.stringify(result.current)+';\nwindow.NAPOLI_SNAPSHOT={archiveUrl:"news-archive.json?v='+revision+'",totalArticles:'+result.count.articles+',version:"'+revision+'"};\n');
  await fs.writeFile('news-archive.json',JSON.stringify(result.archive));
- const scripts=['snapshot-data.js','snapshot-runtime.js','comments-engine-v2.js','language-controller.js','image-fixes.js'].map(s=>'<script src="'+s+'?v='+revision+'"></script>').join('');
+ const scripts=['snapshot-data.js','snapshot-runtime.js','stats-room.js','comments-engine-v2.js','language-controller.js','image-fixes.js'].map(s=>'<script src="'+s+'?v='+revision+'"></script>').join('');
  // Some earlier historical overlays still repaint the static masthead and media
  // captions during source replay. Keep generated first-paint copy in-world too.
  result.html=result.html
@@ -72,7 +85,7 @@ try{
  if(result.html.includes('FC 26 CAREER MODE')||result.html.includes('>Gameplay · ')||/Season Room generated composite[^<]*FC 26 save/.test(result.html))
   throw Error('Historical overlay restored out-of-world first-paint copy');
  await fs.writeFile('index.html',result.html.replace('</body>',scripts+'</body>'));
- await fs.writeFile('snapshot-build-report.json',JSON.stringify({revision,...result.count,publicationVoice,legacyErrors:legacyErrors.slice(0,30)},null,2));
+ await fs.writeFile('snapshot-build-report.json',JSON.stringify({revision,...result.count,statsAudit:result.statsAudit,publicationVoice,legacyErrors:legacyErrors.slice(0,30)},null,2));
  console.log('Build state:',JSON.stringify({revision,...result.count,legacyErrors:legacyErrors.slice(0,6)}));
  const fresh=await browser.newPage({viewport:{width:390,height:844},serviceWorkers:'block'});
  const requests=[],errors=[];
@@ -102,6 +115,15 @@ try{
  await fresh.locator('.section-nav [data-target="stats"]').click();
  await fresh.locator('.stats-filters [data-stats-view="2030–31"]').click();
  if(!(await fresh.locator('#statsTable').innerText()).includes('Maximilian Beier'))throw Error('Season statistics lost');
+ let first=await fresh.locator('#statsTable tbody tr').first().locator('td').allTextContents();
+ if(first[0]!=='Pio Esposito'||first[1]!=='45'||first[2]!=='19')throw Error('Stats Room not current on opening: '+JSON.stringify(first));
+ await fresh.locator('[data-stats-view="career"]').click();
+ first=await fresh.locator('#statsTable tbody tr').first().locator('td').allTextContents();
+ if(first[0]!=='Pio Esposito'||first[1]!=='144'||first[2]!=='73')throw Error('Stats Room career duplicate: '+JSON.stringify(first));
+ await fresh.locator('[data-stats-view="2029–30"]').click();
+ const pioCount=await fresh.locator('#statsTable tbody tr').filter({hasText:'Pio Esposito'}).count();
+ if(pioCount!==1)throw Error('Stats Room duplicate Pio 2029–30 row: '+pioCount);
+ await fresh.locator('[data-stats-view="2030–31"]').click();
  await fresh.locator('.section-nav [data-target="matches"]').click();
  await fresh.locator('#teamFilter').selectOption('Italy');
  const italyCards=await fresh.locator('#matchesList .match-card').count();

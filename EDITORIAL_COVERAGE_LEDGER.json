@@ -2060,5 +2060,56 @@
     "safety": "No match events, stats or off-record staff conversations newly invented or disclosed.",
     "integrity": "Stable story IDs; 811 stories; 177 recorded results; verified season totals unchanged.",
     "release": "Single consolidated source push and automated compact snapshot."
+  },
+  "latest_stats_room_reconciliation_2031_05_18": {
+    "maintenanceDate": "2026-11-16",
+    "asOf": "2031-05-18",
+    "historicalPio202930": {
+      "correct": [
+        "Pio Esposito",
+        34,
+        21
+      ],
+      "supersededMidseasonSnapshot": [
+        "Pio Esposito",
+        28,
+        20
+      ],
+      "formerAlias": "Francesco Pio Esposito",
+      "duplicatesRemovedFromPublishedStats": 1
+    },
+    "pioCareer": {
+      "correct": [
+        144,
+        73
+      ],
+      "previousInflated": [
+        172,
+        93
+      ],
+      "bySeason": {
+        "2027–28": [
+          29,
+          12
+        ],
+        "2028–29": [
+          36,
+          21
+        ],
+        "2029–30": [
+          34,
+          21
+        ],
+        "2030–31": [
+          45,
+          19
+        ]
+      },
+      "scope": "recorded Napoli club career only; historical 2028–29 incomplete"
+    },
+    "currentSeason": "No 2030–31 goals or assists altered, through Como 18 May 2031",
+    "goalkeeper": "Peacock started Coppa final May14, Fruk penalty; earlier March5 clean sheet; other saves/appearance totals incomplete. Como goalkeeper unknown.",
+    "frontEnd": "One stats-room.js renderer for compiled first paint and interactive tabs; Italy scope preserved",
+    "publication": "one source commit; compact snapshot and Pages checks"
   }
 }

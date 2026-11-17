@@ -71,6 +71,7 @@ function filterMatches(){
  }).join('');
 }
 function stats(view){
+ if(window.SEASONROOM_STATS?.render)return window.SEASONROOM_STATS.render(view);
  const rows=view==='career'?D.careerStats:(D.statsBySeason?.[view]||[]);
  document.querySelectorAll('.stats-filters [data-stats-view]').forEach(b=>b.classList.toggle('active',b.dataset.statsView===view));
  const table=get('statsTable');
