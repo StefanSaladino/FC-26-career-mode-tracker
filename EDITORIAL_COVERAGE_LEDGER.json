@@ -2050,5 +2050,15 @@
       21
     ],
     "assistantReview": "Expanded sustained topical exchanges and varied turnout; removed source/canon meta from public comments, preserved original PioNation parent line, improved PN/PH avatar distinction."
+  },
+  "latest_publication_voice_standard": {
+    "date": "2026-11-16",
+    "scope": "All public Season Room surfaces, current and 811 archived articles",
+    "rule": "Write only from inside the Napoli and Italy football world; no public simulation, fictional-status, career-mode, in-game data provenance or scripted-dialogue disclaimers. Natural football use of 'game' is fine.",
+    "implementation": "scripts/season-room-publication-voice.mjs runs at build-time on full published article archive and supporter comments; recent Moore story source, UI labels, historical credits, masthead and footer corrected.",
+    "interviews": "Player interviews are created as original in-world character conversations; creative provenance remains internal. Only manager's genuine public interview statements may be directly quoted.",
+    "safety": "No match events, stats or off-record staff conversations newly invented or disclosed.",
+    "integrity": "Stable story IDs; 811 stories; 177 recorded results; verified season totals unchanged.",
+    "release": "Single consolidated source push and automated compact snapshot."
   }
 }

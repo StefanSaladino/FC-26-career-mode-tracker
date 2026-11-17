@@ -54,7 +54,7 @@ async function read(id){
  if(!a||!r||!modal)return;
  r.dataset.articleId=a.id;r.dataset.articleHeadline=a.headline;
  const cover=a.image?'<div class="reader-media"><img src="'+esc(a.image)+'" alt="'+esc(a.headline)+'" loading="eager">'+(a.imageCredit?'<div class="photo-credit">'+esc(a.imageCredit)+'</div>':'')+'</div>':'';
- r.innerHTML=cover+'<div class="reader-body '+(a.longform?'reader-longform':'')+'"><div class="story-meta"><span>'+esc(a.category)+'</span><span>'+esc(a.date)+'</span></div><div class="reader-label">'+esc(a.label||'Season Room')+'</div><h2 id="readerHeadline">'+esc(a.headline)+'</h2><p class="reader-dek">'+esc(a.dek)+'</p>'+(a.byline?'<div class="reader-byline">'+esc(a.byline)+'</div>':'')+(a.body||[a.dek]).map((p,i)=>(a.chapterHeads?.[i]?'<h3 class="reader-chapter">'+esc(a.chapterHeads[i])+'</h3>':'')+'<p>'+esc(p)+'</p>').join('')+'<div class="reader-end">Season Room · Fictional in-universe coverage</div></div>';
+ r.innerHTML=cover+'<div class="reader-body '+(a.longform?'reader-longform':'')+'"><div class="story-meta"><span>'+esc(a.category)+'</span><span>'+esc(a.date)+'</span></div><div class="reader-label">'+esc(a.label||'Season Room')+'</div><h2 id="readerHeadline">'+esc(a.headline)+'</h2><p class="reader-dek">'+esc(a.dek)+'</p>'+(a.byline?'<div class="reader-byline">'+esc(a.byline)+'</div>':'')+(a.body||[a.dek]).map((p,i)=>(a.chapterHeads?.[i]?'<h3 class="reader-chapter">'+esc(a.chapterHeads[i])+'</h3>':'')+'<p>'+esc(p)+'</p>').join('')+'<div class="reader-end">Napoli Season Room · The story continues</div></div>';
  modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');
  document.dispatchEvent(new CustomEvent('seasonroom:article-opened',{detail:{id:a.id}}));
 }

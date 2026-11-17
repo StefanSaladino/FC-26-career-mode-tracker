@@ -12,6 +12,8 @@
 
 **Nonnegotiable:** Never invent manager quotes or manager press responses. The manager and Sandro can each refuse, postpone, end or decline press with no explanation. Invite the manager to press **in chat**, and publish only the answers actually supplied. Sandro may answer as himself. No mandatory interviews. Refusals may be reported without invented motives.
 
+**Public newsroom voice:** The Season Room is written from inside Napoli and Italy's football world. Public stories, interviews, captions, comments, mastheads and reader labels never refer to a career-mode save, simulation, fictional or dramatized status, game footage, CANON, internal screens or manager-supplied updates. Ordinary football use of “game” is fine. Creative player Q&A can appear as in-world conversations; internal ledger documents its provenance. Direct public manager quotes still require actual on-record answers in chat.
+
 **Coverage:** Major matches receive full substantial treatment; routine matches receive appropriately lighter coverage; exceptional events can escalate coverage. Follow player personalities, interviews, reader discussions, images and Italy storylines. At least one character-led player feature per active in-game month or explicit documented exception. Quality over quotas.
 
 **Publishing:** Read canon, verify manager-confirmed facts, draft, run `node scripts/validate-editorial.mjs`, review warnings contextually, inspect visuals when possible, update live state + canon + coverage ledger, verify GitHub commits. Never claim unperformed checks. Do not create a second canon. Technical failures may block; textual/editorial flags are **nonblocking**. See the constitution for full rules.

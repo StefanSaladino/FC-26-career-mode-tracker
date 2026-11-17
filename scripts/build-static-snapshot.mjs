@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
 import { chromium } from 'playwright';
+import { normalizeSeasonRoomPublication } from './season-room-publication-voice.mjs';
 
 const root=process.cwd();
 const revision=(process.env.GITHUB_SHA||'local').slice(0,12);
@@ -53,6 +54,9 @@ try{
   document.getElementById('heroStory')?.removeAttribute('aria-hidden');
   return {hero,current,archive,html:'<!doctype html>\n'+document.documentElement.outerHTML,count:{articles:data.articles.length,results:data.results.length,seasons:Object.keys(data.statsBySeason||{}).length}};
  });
+ const publicationVoice=normalizeSeasonRoomPublication(result.archive,result.archive.comments);
+ result.current.articles=result.archive.articles.slice(0,24);
+ if(result.current.meta)delete result.current.meta.fictionalNotice;
  if(legacyErrors.length)throw Error('Legacy script execution failures: '+legacyErrors.join('; '));
  if(result.hero!==expectedLead)throw Error('Wrong lead: '+result.hero+' expected '+expectedLead);
  if(result.count.articles<40||result.count.results<10)throw Error('Incomplete archive: '+JSON.stringify(result.count));
@@ -60,7 +64,7 @@ try{
  await fs.writeFile('news-archive.json',JSON.stringify(result.archive));
  const scripts=['snapshot-data.js','snapshot-runtime.js','comments-engine-v2.js','language-controller.js','image-fixes.js'].map(s=>'<script src="'+s+'?v='+revision+'"></script>').join('');
  await fs.writeFile('index.html',result.html.replace('</body>',scripts+'</body>'));
- await fs.writeFile('snapshot-build-report.json',JSON.stringify({revision,...result.count,legacyErrors:legacyErrors.slice(0,30)},null,2));
+ await fs.writeFile('snapshot-build-report.json',JSON.stringify({revision,...result.count,publicationVoice,legacyErrors:legacyErrors.slice(0,30)},null,2));
  console.log('Build state:',JSON.stringify({revision,...result.count,legacyErrors:legacyErrors.slice(0,6)}));
  const fresh=await browser.newPage({viewport:{width:390,height:844},serviceWorkers:'block'});
  const requests=[],errors=[];

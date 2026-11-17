@@ -2,8 +2,7 @@ window.NAPOLI_DATA = {
   meta: {
     season: "2027–28",
     club: "SSC Napoli",
-    managerRole: "Napoli + Italy manager",
-    fictionalNotice: "All newsroom reporting, quotes and rumours are fictional and exist only inside this FC 26 Career Mode save."
+    managerRole: "Napoli + Italy manager"
   },
 
   ticker: [

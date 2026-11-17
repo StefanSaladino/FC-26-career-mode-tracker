@@ -1,5 +1,9 @@
 # Comment System Architecture
 
+## In-world supporter voice — 16 November 2026
+
+Supporters write as people living inside the football world. They may talk about goals, tickets, rivalries, the press, controversy and match clips but never about simulated results, fictional scenes, game mechanics, career-mode numbers, source files, manager-provided screenshots or CANON. Public comment chrome must not describe its conversations as curated fiction. Keep natural football use of the word “game.” Apply the same standard when publishing old archived comment threads.
+
 ## Como Scudetto discussion QA · 19 May 2031 (standing lesson)
 
 - **Do not author identical comment quotas across articles.** Even a huge championship event has uneven attendance: the match lead should erupt; opinion, historical, and interview stories have their own natural levels of engagement. Quality and stakes control turnout, not a mechanical count.
