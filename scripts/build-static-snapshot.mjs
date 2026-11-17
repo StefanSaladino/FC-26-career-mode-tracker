@@ -53,8 +53,8 @@ try{
   if(!document.querySelector('#stats .section-head p')?.textContent?.includes('2031–32'))throw Error('Outdated active-season summary');
   if(!document.getElementById('statsVerificationNotice')?.textContent?.includes('2031–32'))throw Error('Outdated active-season verification note');
   if(!document.getElementById('keeperStats203031')?.hidden)throw Error('Historical keeper panel incorrectly displayed in new season');
-  if(data.squadSnapshot?.playerCount!==35||data.squadSnapshot?.loanCount!==5||document.querySelectorAll('#squadGroups .player-row').length!==41)throw Error('Summer 2031 squad, loans or departures incomplete');
-  if(['T. Sánchez','L. Jetten','A. Reyna'].some(name=>data.squadSnapshot?.players?.[name])||['C. Brun','O. Ly','D. Parisis','M. Valentini','J. Pagano'].some(name=>!data.squadSnapshot?.players?.[name]?.onLoan))throw Error('Sales or loans not reflected in current squad');
+  if(data.squadSnapshot?.playerCount!==35||data.squadSnapshot?.loanCount!==6||document.querySelectorAll('#squadGroups .player-row').length!==41)throw Error('Summer 2031 squad, loans or departures incomplete');
+  if(['T. Sánchez','L. Jetten','A. Reyna'].some(name=>data.squadSnapshot?.players?.[name])||['C. Brun','O. Ly','D. Parisis','M. Valentini','J. Pagano','L. Resende'].some(name=>!data.squadSnapshot?.players?.[name]?.onLoan))throw Error('Sales or loans not reflected in current squad');
   if(!data.squadSnapshot.departures?.some(x=>x.name==='T. Sánchez'&&x.fee===3300000)||!data.squadSnapshot.departures?.some(x=>x.name==='L. Jetten'&&x.destination==='Torino'&&x.fee===17600000)||!data.squadSnapshot.departures?.some(x=>x.name==='A. Reyna'&&x.fee===7250000))throw Error('Confirmed sales and fees missing');
   if(!data.squadSnapshot.loans?.some(x=>x.name==='M. Valentini'&&x.duration==='One year'))throw Error('Valentini one-year loan missing');
   const squadNames=Object.keys(data.squadSnapshot.players||{});
@@ -146,7 +146,7 @@ try{
  await fresh.locator('.section-nav [data-target="squad"]').click();
  if(await fresh.locator('#squadGroups .squad-group .player-row').count()!==41)throw Error('Current squad, loans or four departures not visible');
  const loans=await fresh.locator('#squadGroups .squad-group').filter({hasText:'Players on loan'}).innerText();
- if(['C. Brun','O. Ly','D. Parisis','M. Valentini','J. Pagano'].some(name=>!loans.includes(name)))throw Error('A confirmed loanee is missing from the squad');
+ if(['C. Brun','O. Ly','D. Parisis','M. Valentini','J. Pagano','L. Resende'].some(name=>!loans.includes(name)))throw Error('A confirmed loanee is missing from the squad');
  const squadView=await fresh.locator('#squadGroups').innerText();
  if(['T. Sánchez','L. Jetten','A. Reyna'].some(name=>!squadView.includes(name)))throw Error('A completed sale is missing from departures');
  if((await fresh.locator('#squadGroups').innerText()).includes('Sebastiano Esposito'))throw Error('Unsigned Sebastiano added prematurely');

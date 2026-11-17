@@ -1,3 +1,13 @@
+## SUMMER 2031 — L. RESENDE LEAVES ON LOAN
+
+**Manager-confirmed:** L. Resende (20, CAM, 72 OVR) has been loaned out. Destination and duration are not provided; do not invent them. Preserve Napoli player ownership and historical record.
+
+**Latest authoritative squad status from original 38-player opening census:** Sold since census: T. Sánchez ($3.3m), L. Jetten (Torino, $17.6m), A. Reyna ($7.25m). **35 remain under contract** in the census, including **six confirmed loans**: C. Brun, O. Ly, D. Parisis, M. Valentini (one year), J. Pagano and L. Resende. **29 are not recorded on loan**, although other loan status has not been established. The three known sale fees total **$28.15 million gross**, not a confirmed in-game budget update.
+
+**Confidentiality:** Sebastiano Esposito's $41.25m club agreement did not become a signing; personal terms broke down over wage offer. Keep private and do not inform Pio. No unconfirmed player moves or manager press quotes may be made public. Preserve prior seasons and 2031–32 empty club competitive statistics.
+
+---
+
 ## SUMMER 2031 — REYNA SOLD; VALENTINI AND PAGANO LOANED OUT
 
 **Manager-confirmed:** A. Reyna (23, CB, 72 OVR) permanently sold for **$7.25 million**. Buyer not provided. M. Valentini (21, CB, 73 OVR) sent on a **one-year loan**; club not given. J. Pagano (18, RW, 64 OVR) also sent on loan; destination and duration not given. Their player history remains intact.

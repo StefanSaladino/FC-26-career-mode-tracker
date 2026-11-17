@@ -2347,6 +2347,25 @@
       },
       "gross_fees_from_sanchez_jetten_reyna_usd": 28150000,
       "scope": "Current squad records only; private negotiations remain confidential"
+    },
+    {
+      "season": "2031–32",
+      "status": "confirmed by manager",
+      "confirmed_loan": {
+        "player": "L. Resende",
+        "position": "CAM",
+        "age": 20,
+        "overall": 72,
+        "destination": null,
+        "duration": null
+      },
+      "current_squad": {
+        "contracted_original_census": 35,
+        "confirmed_loans": 6,
+        "not_reported_on_loan": 29
+      },
+      "gross_fees_three_sales_usd": 28150000,
+      "notes": "No public disclosure of incomplete Esposito transfer negotiations"
     }
   ]
 }
