@@ -1,8 +1,23 @@
 {
-  "revision": "23efed2cf639",
+  "revision": "396eb1d8bfd2",
   "articles": 811,
   "results": 177,
   "seasons": 4,
+  "statsAudit": {
+    "seasonPio": [
+      45,
+      19
+    ],
+    "careerPio": [
+      144,
+      73
+    ],
+    "historicalPio": [
+      34,
+      21
+    ],
+    "firstPaint": true
+  },
   "publicationVoice": {
     "articleCount": 811
   },
