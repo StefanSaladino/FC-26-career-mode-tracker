@@ -186,9 +186,14 @@
       "month": "2031-05",
       "status": "covered_additional",
       "note": "May19: Elena De Luca 15-paragraph Mikey Moore character study after Como 4–0 1G2A; Lorenzo Ferri 21-paragraph explicitly labelled FICTIONAL IN-UNIVERSE Moore Q&A. No invented real player testimony or manager interview. 150 distinct top-level comments, 356 with replies across 5 championship stories."
+    },
+    {
+      "month": "2031-05",
+      "status": "covered_additional",
+      "note": "Munich Champions League final May31: full six-player mixed-zone Q&A (Beier/Pio/Epolo/Bastoni/Estêvão/Nico Paz), plus Beier homecoming, goalkeeper and João Neves character pieces. These player Q&As are original in-universe authored dialogue; no public user-authored post-final manager quotes. 14 stories, 219 top-level and 333 total comments, final 2–0 PSG. Do not expose Q&A provenance in published text."
     }
   ],
-  "latest_confirmed_match": "25 May 2031 AC Milan 1–0 Napoli, Serie A final match, away. Giménez58 penalty, no Napoli goals/assists; heavily rotated already champions. Final Napoli Serie A 87/38 26W9D3L GF78 GA29 GD+49. PSG May31 UCL final UNPLAYED.",
+  "latest_confirmed_match": "31 May 2031 Champions League FINAL Munich: Napoli 2–0 PSG (HT0–0). 61 Beier official Estêvão assist; 71 Beier official Pio assist after Nico Paz buildup. Epolo and Chevalier one enormous first-half save each; PSG offside88; Epolo clean sheet. Third consecutive UCL and second consecutive Scudetto+Coppa+UCL treble.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -203,57 +208,64 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "phase": "Milan final league defeat, Serie A awards, four player media-day interviews, and full PSG press conference",
-    "status": "SOURCE READY FOR SINGLE COMMIT; automated build and Pages verification pending",
+    "status": "One consolidated source edition committed; compiled snapshot and Pages deployment tracked by GitHub Actions",
+    "phase": "Munich Champions League Final 31 May 2031, Napoli 2–0 PSG and second consecutive treble",
     "stories": [
-      "saladino-paris-press-no-revenge-may2031",
-      "milan-napoli-one-nil-final-league-may25-2031",
-      "sauer-awards-beier-pio-serie-a-may2031",
-      "beier-pre-final-player-interview-may2031",
-      "pio-pre-final-player-interview-may2031",
-      "bastoni-pre-final-player-interview-may2031",
-      "moore-pre-final-player-interview-may2031",
-      "bellandi-paris-discipline-arsenal-critique-may2031",
-      "madrid-question-napoli-paris-press-may2031",
-      "naples-gratitude-before-paris-may2031"
+      "napoli-psg-2-0-munich-threepeat-treble-may31-2031",
+      "two-consecutive-trebles-napoli-era-may31-2031",
+      "beier-munich-germany-final-brace-may31-2031",
+      "beier-munich-champions-final-interview-may31-2031",
+      "pio-esposito-final-assist-interview-may31-2031",
+      "epolo-chevalier-munich-goalkeeper-final-may31-2031",
+      "epolo-munich-clean-sheet-interview-may31-2031",
+      "bastoni-line-dembele-kvara-vitinha-final-may31-2031",
+      "bastoni-captain-munich-interview-may31-2031",
+      "estevao-beier-assist-munich-interview-may31-2031",
+      "nico-paz-quiet-touch-second-goal-interview-may31-2031",
+      "neves-psg-2028-to-napoli-2031-may31",
+      "munich-2031-napoli-supporters-celebration-may31",
+      "bellandi-munich-napoli-two-trebles-verdict-may31"
     ],
+    "counts": {
+      "articles": 14,
+      "paragraphs": 200,
+      "topLevel": 219,
+      "totalIncludingReplies": 333,
+      "playerInterviews": 6,
+      "expectedArchive": 835,
+      "expectedResults": 179
+    },
     "bylines": [
       "Giulia Romano · Radio Napoli Centrale",
       "Marco Bellini · Il Calcio Sera",
       "Elena De Luca · Player Desk",
+      "Sara Bellomo · Goalkeeper Desk",
+      "Marco D'Amato · Tactical Desk",
       "Lorenzo Ferri · Player Interviews",
       "Matteo Bellandi · Linea Calcio"
     ],
-    "gallery": [
-      "assets/story-champions-league-stakes.webp",
-      "assets/story-napoli-shirt-identity.webp",
-      "assets/story-sandro-beier-guidance.webp",
-      "assets/story-manager-pio-esposito.webp",
-      "assets/story-sandro-bastoni-defensive-talk.webp",
-      "assets/story-napoli-key-players-huddle.webp",
-      "assets/story-touchline-pressure.webp",
-      "assets/story-coaches-team-tactics.webp",
-      "assets/story-naples-vesuvius-sunset.webp"
-    ],
-    "source": [
-      "stories-pre-final-paris-media-day-may2031.js",
-      "site-visible-pre-final-paris-may2031.js",
+    "sources": [
+      "stories-munich-final-champions-may31-2031.js",
+      "stories-munich-final-interviews-beier-pio-may31-2031.js",
+      "stories-munich-final-interviews-epolo-bastoni-may31-2031.js",
+      "stories-munich-final-interviews-estevao-paz-may31-2031.js",
+      "stories-munich-final-celebrations-verdict-may31-2031.js",
+      "site-visible-munich-threepeat-final-may31-2031.js",
       "site-visible-juventus-apr2030.js",
       "legacy-index.html",
+      "stats-room.js",
+      "scripts/build-static-snapshot.mjs",
       "CANON.md",
       "EDITORIAL_COVERAGE_LEDGER.json"
     ],
-    "counts": {
-      "stories": 10,
-      "paragraphs": 96,
-      "commentsTop": 83,
-      "commentsAll": 142
-    },
-    "nextMatch": "Napoli vs PSG Champions League final May31, neutral, UNPLAYED",
-    "privateStaffFirewall": "Do not report manager private decision about Madrid",
-    "playerDialogueProvenance": "Creatively authored as in-universe press Q&A in chat; not independently authenticated real-world dialogue",
-    "managerPressProvenance": "User-authored direct answers in this conversation only",
-    "publicationMethod": "One source commit then automatic compact snapshot and Pages."
+    "galleryPolicy": "Existing approved Napoli gallery only; imagery is illustration not verified match photo",
+    "playerQandAProvenance": "Six original in-universe player interviews authored in chat; not independently authenticated real-world testimony",
+    "managerPress": "No post-final user-authored press quotes; pre-final user-authored statements preserved exactly, Madrid private decision not published",
+    "fictionalNamedCelebrityAttendance": "Unverified; do not publish",
+    "noInventedStats": true,
+    "finalPlayed": true,
+    "nextFixture": "Not established",
+    "buildTarget": "compact snapshot and Pages after single source commit"
   },
   "previous_newsroom_package": {
     "status": "Committed source; editorial checks, compact snapshot browser tests, Pages deployment pending",
@@ -2149,5 +2161,95 @@
       "Maximilian Beier"
     ],
     "criteria": "Unknown. Do not impute additional voting criteria."
+  },
+  "latest_ucl_final_2031_05_31": {
+    "date": "2031-05-31",
+    "venue": "Munich, Germany; neutral",
+    "result": "Napoli 2–0 Paris Saint-Germain",
+    "halftime": "0–0",
+    "goals": [
+      {
+        "minute": "61",
+        "scorer": "Maximilian Beier",
+        "officialAssist": "Estêvão",
+        "notes": "One-on-one after Estêvão sees the run"
+      },
+      {
+        "minute": "71",
+        "scorer": "Maximilian Beier",
+        "officialAssist": "Pio Esposito",
+        "buildup": "Nico Paz plays Pio in the box; Pio lays it to Beier"
+      }
+    ],
+    "keeperHighlights": {
+      "Epolo": "one enormous first-half save; final clean sheet; total saves unknown",
+      "Chevalier": "one enormous first-half save; total saves unknown"
+    },
+    "otherEvent": "PSG offside 88'",
+    "winner": "Napoli",
+    "successiveUCLTitles": 3,
+    "consecutiveUCLFinals": 4,
+    "consecutiveTrebles": 2,
+    "trebleComponents": [
+      "Serie A",
+      "Coppa Italia",
+      "Champions League"
+    ],
+    "matchDetailScope": "No other events, stats, tactical substitutions, kickoff details or xG reported."
+  },
+  "latest_napoli_cumulative_club_stats_2030_31_final": {
+    "date": "2031-05-31",
+    "goalsAssists": {
+      "Beier": [
+        43,
+        35
+      ],
+      "Pio": [
+        45,
+        20
+      ],
+      "Estevao": [
+        3,
+        7
+      ],
+      "Moore": [
+        10,
+        13
+      ]
+    },
+    "recordedCareerMinimum": {
+      "Beier": [
+        133,
+        90
+      ],
+      "Pio": [
+        144,
+        74
+      ],
+      "Estevao": [
+        3,
+        7
+      ]
+    },
+    "pio202930": [
+      34,
+      21
+    ],
+    "italyExcluded": true,
+    "keeperEpoloFullSaveCountUnknown": true
+  },
+  "latest_championship_era_2031": {
+    "serieAConsecutive": 4,
+    "uclConsecutive": 3,
+    "uclFinalConsecutive": 4,
+    "treblesConsecutive": 2,
+    "trebleSeasons": [
+      "2029–30",
+      "2030–31"
+    ],
+    "priorFinal2028": "lost 2–3 AET PSG",
+    "final2029": "Napoli 2–0 Real Madrid",
+    "final2030": "Porto 0–1 Napoli",
+    "final2031": "Napoli 2–0 PSG"
   }
 }

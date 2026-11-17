@@ -3,7 +3,7 @@
 const D=window.NAPOLI_DATA||{},$=id=>document.getElementById(id);
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const current=D.statsCurrentSeason||'2030–31';
-const asOf=D.statsRoomAsOf||'18 May 2031';
+const asOf=D.statsRoomAsOf||'31 May 2031';
 const number=value=>value==null?'—':String(value);
 const count=value=>Number.isFinite(Number(value))?Number(value):0;
 function note(view,row){
@@ -33,7 +33,7 @@ function render(requested){
  const verification=$('statsVerificationNotice');
  if(view===current){
   if(intro)intro.textContent='Napoli '+current+' competitive-club goals and assists, recorded through '+asOf+'. Italy totals are kept separate.';
-  if(verification)verification.textContent='Season records through Napoli 4–0 Como on '+asOf+'. Historical seasons may be incomplete; figures include only recorded Napoli club competitions.';
+  if(verification)verification.textContent='Season records through Napoli 2–0 PSG, Champions League final in Munich, on '+asOf+'. Historical seasons may be incomplete; figures include only recorded Napoli club competitions.';
  }else if(view==='career'){
   if(intro)intro.textContent='Napoli career totals from the recorded season archive. Historic records are incomplete, especially 2028–29.';
   if(verification)verification.textContent='Pio Esposito’s 2029–30 records are consolidated into one season entry (34 goals, 21 assists). Older records are incomplete, so career totals are recorded minimums, not independently verified full-career totals. Italy excluded.';
@@ -47,7 +47,7 @@ function render(requested){
  const keeper=$('keeperStats203031');
  if(keeper){
   keeper.hidden=view!==current;
-  if(view===current)keeper.textContent='Goalkeepers — selected confirmed performances, not complete season totals: Epolo made six saves and conceded once against Milan (25 August 2030). Peacock started the Coppa Italia final against Bergamo (14 May 2031), conceding Fruk’s penalty; his earlier clean sheet against Milan was on 5 March. Other appearances and saves are not fully recorded.';
+  if(view===current)keeper.textContent='Goalkeepers — selected confirmed performances, NOT complete season totals: Epolo made an enormous first-half save and kept a clean sheet in Napoli 2–0 PSG (31 May 2031 Champions League final); he also made six saves and conceded once against Milan on 25 August 2030. Peacock started the Coppa Italia final against Bergamo (14 May 2031), conceding a penalty; his earlier confirmed clean sheet against Milan was on 5 March. Total appearances and saves for the season are incomplete.';
  }
  return {view,rows:rows.length};
 }
