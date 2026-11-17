@@ -63,6 +63,14 @@ try{
  await fs.writeFile('snapshot-data.js','window.NAPOLI_DATA='+JSON.stringify(result.current)+';\nwindow.NAPOLI_SNAPSHOT={archiveUrl:"news-archive.json?v='+revision+'",totalArticles:'+result.count.articles+',version:"'+revision+'"};\n');
  await fs.writeFile('news-archive.json',JSON.stringify(result.archive));
  const scripts=['snapshot-data.js','snapshot-runtime.js','comments-engine-v2.js','language-controller.js','image-fixes.js'].map(s=>'<script src="'+s+'?v='+revision+'"></script>').join('');
+ // Some earlier historical overlays still repaint the static masthead and media
+ // captions during source replay. Keep generated first-paint copy in-world too.
+ result.html=result.html
+  .replaceAll('FC 26 CAREER MODE · NAPOLI 2030–31','NAPOLI & ITALIA · SEASON 2030–31')
+  .replace(/>Gameplay · /g,'>Match footage · ')
+  .replace(/Season Room generated composite[^<]*FC 26 save\./g,'Season Room · Editorial illustration');
+ if(result.html.includes('FC 26 CAREER MODE')||result.html.includes('>Gameplay · ')||/Season Room generated composite[^<]*FC 26 save/.test(result.html))
+  throw Error('Historical overlay restored out-of-world first-paint copy');
  await fs.writeFile('index.html',result.html.replace('</body>',scripts+'</body>'));
  await fs.writeFile('snapshot-build-report.json',JSON.stringify({revision,...result.count,publicationVoice,legacyErrors:legacyErrors.slice(0,30)},null,2));
  console.log('Build state:',JSON.stringify({revision,...result.count,legacyErrors:legacyErrors.slice(0,6)}));
