@@ -1,7 +1,7 @@
 {
-  "revision": "396eb1d8bfd2",
-  "articles": 811,
-  "results": 177,
+  "revision": "17d23ab5c7c5",
+  "articles": 821,
+  "results": 178,
   "seasons": 4,
   "statsAudit": {
     "seasonPio": [
@@ -19,7 +19,7 @@
     "firstPaint": true
   },
   "publicationVoice": {
-    "articleCount": 811
+    "articleCount": 821
   },
   "legacyErrors": []
 }
