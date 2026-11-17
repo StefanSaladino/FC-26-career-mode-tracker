@@ -1,3 +1,15 @@
+## SUMMER 2031 — REYNA SOLD; VALENTINI AND PAGANO LOANED OUT
+
+**Manager-confirmed:** A. Reyna (23, CB, 72 OVR) permanently sold for **$7.25 million**. Buyer not provided. M. Valentini (21, CB, 73 OVR) sent on a **one-year loan**; club not given. J. Pagano (18, RW, 64 OVR) also sent on loan; destination and duration not given. Their player history remains intact.
+
+**LATEST COUNT SUPERSEDES EARLIER SNAPSHOTS:** Original five Squad Hub screenshots: 38 players. Sales since those images: T. Sánchez $3.3m, L. Jetten to Torino $17.6m, A. Reyna $7.25m = **$28.15m confirmed gross transfer fees** and **35 remaining Napoli-contracted players** from that census. FIVE confirmed loans: C. Brun, O. Ly, D. Parisis, M. Valentini (one year), J. Pagano. That leaves **30 not reported on loan**; no assumption about other loan statuses. Earlier departures Olise to Tottenham, Raspadori to Fulham and De Bruyne retirement remain confirmed; total six summer departures including these and the three sales.
+
+**STAFF PRIORITY:** With Valentini loaned and Reyna sold, available CBs from the census are Alessandro Bastoni (32/93), Alessandro Buongiorno (32/89), Rafa Marín (29/81) and G. Ricci (21/72). Assess cover/succession without inventing incoming signings. Maintain confidentiality regarding Sebastiano Esposito: personal terms broke down at wage stage after $100k/week + $500k signing bonus offer; no completed signing, do not tell Pio or publish private negotiation.
+
+**Scope:** Current squad, loan and transfer record refresh only. Historical records and 2031–32 blank competitive stats preserved.
+
+---
+
 ## SUMMER 2031 — TORINO BUY JETTEN; PARISIS GOES OUT ON LOAN
 
 **Manager-confirmed transactions:** L. Jetten (24, LB, 77 OVR) sold permanently to Torino for **$17.6 million**. D. Parisis (17, CAM, 66 OVR) has gone out on loan; destination and length unreported. Do not confuse the loan with a sale. Previous confirmed moves still stand: T. Sánchez permanently sold for **$3.3 million** (destination unreported), C. Brun and O. Ly on loan (destinations unreported), and earlier senior departures Olise (Tottenham), Raspadori (Fulham), De Bruyne (retirement).

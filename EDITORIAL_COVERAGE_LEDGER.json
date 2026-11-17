@@ -2319,6 +2319,34 @@
       },
       "aggregate_confirmed_sale_fees_usd": 20900000,
       "scope": "Current roster maintenance only; unsigned deals and private staff planning excluded"
+    },
+    {
+      "season": "2031–32",
+      "status": "confirmed by manager",
+      "completed_sale": {
+        "player": "A. Reyna",
+        "fee_usd": 7250000,
+        "destination": null
+      },
+      "confirmed_loans": [
+        {
+          "player": "M. Valentini",
+          "duration": "One year",
+          "destination": null
+        },
+        {
+          "player": "J. Pagano",
+          "duration": null,
+          "destination": null
+        }
+      ],
+      "squad_after_changes": {
+        "contracted_in_census": 35,
+        "confirmed_loans": 5,
+        "others_not_reported_on_loan": 30
+      },
+      "gross_fees_from_sanchez_jetten_reyna_usd": 28150000,
+      "scope": "Current squad records only; private negotiations remain confidential"
     }
   ]
 }
