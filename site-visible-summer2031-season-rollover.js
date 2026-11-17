@@ -40,7 +40,7 @@ const mk=(tag,cls,value)=>{const n=document.createElement(tag);if(cls)n.classNam
 const squad=el('squadGroups');
 if(squad){
  const intro=mk('div','development-roster-head');intro.dataset.squadEdition='summer2031';
- intro.append(mk('div','section-kicker','2031–32 · Opening squad'),mk('h2','', 'First-team ratings'),mk('p','', '38 players from the latest Squad Hub census. Loan and transfer decisions remain subject to confirmation.'));
+ intro.append(mk('div','section-kicker','2031–32 · Opening squad'),mk('h2','', 'First-team ratings'),mk('p','', '38 players in Napoli’s opening 2031–32 senior squad. Further changes remain possible during the transfer window.'));
  const frag=document.createDocumentFragment();frag.append(intro);
  for(const [group,items] of Object.entries(groups)){
   const panel=mk('section','squad-group');panel.dataset.squadEdition='summer2031';
@@ -66,7 +66,7 @@ if(academy){
  const tbody=document.createElement('tbody');for(const p of young){const row=document.createElement('tr');for(const v of p)row.append(mk('td','',v));tbody.append(row);}
  academy.replaceChildren(thead,tbody);
  const h=document.querySelector('#academy .section-head h2');if(h)h.textContent='Young Players & Development';
- const intro=document.querySelector('#academy .section-head');if(intro&&!intro.querySelector('[data-youth-census]')){const p=mk('p','','Summer 2031 senior-squad players aged 22 and under. Current loan assignments are not yet established.');p.dataset.youthCensus='summer2031';p.style.cssText='font-size:.88rem;opacity:.82;margin-top:8px;max-width:730px';intro.querySelector('div')?.append(p);}
+ const intro=document.querySelector('#academy .section-head');if(intro){intro.querySelector('[data-academy-edition]')?.remove();}if(intro&&!intro.querySelector('[data-youth-census]')){const p=mk('p','','Summer 2031 senior-squad players aged 22 and under. Current loan assignments are not yet established.');p.dataset.youthCensus='summer2031';p.style.cssText='font-size:.88rem;opacity:.82;margin-top:8px;max-width:730px';intro.querySelector('div')?.append(p);}
 }
 const filters=document.querySelector('#stats .stats-filters');
 if(filters&&!filters.querySelector('[data-stats-view="2031–32"]')){for(const button of filters.querySelectorAll('[data-stats-view]'))button.classList.remove('active');const button=mk('button','filter-pill active','2031–32');button.type='button';button.dataset.statsView='2031–32';filters.prepend(button);}
