@@ -1,3 +1,27 @@
+## SUMMER 2031 — 2031–32 SEASON ROLLOVER / CURRENT SQUAD CENSUS
+
+**MANAGER-AUTHORIZED MAINTENANCE, NOT A NEWS ARTICLE:** The manager requests updated ratings, removal of departures from the current roster and a 2031–32 season tab. The supplied five Squad Hub screenshots show 38 players. Their ages, positions and overall ratings are confirmed. They do **not** establish who is on loan or future squad decisions. The 2031–32 competition has no confirmed match yet: its goals/assists start **unreported/empty**, never copy the 2030–31 completed totals into the new season.
+
+**CONFIRMED DEPARTURES:** Michael Olise has joined Tottenham Hotspur, Giacomo Raspadori has joined Fulham, and Kevin De Bruyne has retired. Exclude all three from the active squad; retain their archived statistics, stories and past appearances. Earlier exits Meret/Geertruida likewise do not appear in the 2031 census.
+
+**SQUAD HUB (name — age / OVR; positions as seen):**
+- **GK:** M. Epolo 26/86; F. Lawton 21/78; C. Peacock 22/75; O. Burnett 21/79.
+- **LB:** L. Jetten 24/77; Alphonso Davies 30/91; Riccardo Calafiori 29/89; Y. Tran 20/75; S. Vitale 19/75; V. Hermansen 22/81.
+- **CB:** Alessandro Bastoni 32/93 (captain); Alessandro Buongiorno 32/89; Rafa Marín 29/81; M. Valentini 21/73; G. Ricci 21/72; A. Reyna 23/72.
+- **RB:** Michael Kayode 26/88. **CDM:** T. Sánchez 22/69.
+- **CM:** Lirim Hasa 27/80; Scott McTominay 34/84; Anton Stach 32/82; Warren Zaïre-Emery 25/90; João Neves 26/95.
+- **CAM:** Nico Paz 26/91; L. Resende 20/72; D. Parisis 17/66.
+- **RM:** Estêvão 24/89; C. Brun 21/76; V. Mancini 22/77; E. Rossetti 19/82.
+- **LW:** Mikey Moore 23/88.
+- **RW:** A. Vergara 28/75; M. Hooper 20/77; J. Pagano 18/64; O. Ly 17/64.
+- **ST:** Maximilian Beier 28/92; Pio Esposito 26/92; F. Freitas 19/70.
+
+**STILL ON CURRENT ROSTER:** Hasa, Peacock and Mancini; discussion of potential sales is not a completed transaction. New XI and competitive fixtures unannounced. Retain all 2030–31 historical Napoli club stats, including Pio45G20A, Beier43G35A, Estêvão3G7A, club records and trophy histories.
+
+**CONFIDENTIAL STAFF ROOM ONLY — NEVER LEAK INTO PUBLIC NEWSROOM:** The proposed Sebastiano Esposito transfer fee of $41.25m was agreed between clubs, **personal terms not signed**; he is NOT a Napoli player. Pio Esposito must not be informed until the deal is official. The club's transfer budget, planned player rotations, private discussions with Moore, and internal transfer assessments remain private. No public manager statements or articles are authorised by this technical roster update.
+
+---
+
 ## 31 MAY 2031 — MUNICH: NAPOLI 2–0 PSG — THIRD CONSECUTIVE UCL, SECOND CONSECUTIVE TREBLE
 
 **STATUS: FINAL WHISTLE CONFIRMED, NEWSROOM PUBLICATION EXPRESSLY AUTHORIZED.** The manager said "Tell the newsroom to run it" and explicitly required substantial player interviews and spectacle-worthy stories. No post-final interactive manager press answers have been supplied; **do not invent public manager quotes**. Six original in-universe player mixed-zone interviews were creatively authored as part of this edition; keep that provenance INTERNAL and never expose it in public sports writing. No further club fixtures have been confirmed. Italy calendar remains separate.

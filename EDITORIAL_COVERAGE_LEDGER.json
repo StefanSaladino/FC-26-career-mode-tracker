@@ -2251,5 +2251,21 @@
     "final2029": "Napoli 2–0 Real Madrid",
     "final2030": "Porto 0–1 Napoli",
     "final2031": "Napoli 2–0 PSG"
-  }
+  },
+  "season_rollovers": [
+    {
+      "season": "2031–32",
+      "status": "preseason_open",
+      "roster_source": "Five manager-provided summer 2031 Squad Hub screenshots",
+      "players_pictured": 38,
+      "departures": [
+        "Michael Olise — Tottenham Hotspur",
+        "Giacomo Raspadori — Fulham",
+        "Kevin De Bruyne — retired"
+      ],
+      "statistics": "New 2031–32 club season empty; 2030–31 results and contributions preserved",
+      "confidentiality": "No uncompleted transfers or manager/staff internal conversations public",
+      "scope": "Technical roster update and season stats tab; no new match story or interviews"
+    }
+  ]
 }
