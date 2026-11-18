@@ -46,10 +46,10 @@ try{
   const pioCareer=data.careerStats?.find(r=>r[0]==='Pio Esposito');
   if(pio2030.length!==1||pio2030[0][1]!==34||pio2030[0][2]!==21)throw Error('Duplicate or stale 2029–30 Pio season');
   if(!pioNow||pioNow[1]!==45||pioNow[2]!==20)throw Error('Latest Pio club-season stats missing');
-  if(!pioCareer||pioCareer[1]!==144||pioCareer[2]!==74)throw Error('Pio career reconciliation failed');
-  if(data.statsCurrentSeason!=='2031–32'||!Array.isArray(data.statsBySeason?.['2031–32'])||data.statsBySeason['2031–32'].length!==0)throw Error('New 2031–32 season stats not initialized');
+  if(!pioCareer||pioCareer[1]!==145||pioCareer[2]!==74)throw Error('Pio career reconciliation failed');
+  if(data.statsCurrentSeason!=='2031–32'||!Array.isArray(data.statsBySeason?.['2031–32'])||data.statsBySeason['2031–32'].length!==2||!data.statsBySeason['2031–32'].some(r=>r[0]==='Pio Esposito'&&r[1]===1&&r[2]===0)||!data.statsBySeason['2031–32'].some(r=>r[0]==='Estêvão'&&r[1]===0&&r[2]===1))throw Error('New 2031–32 season stats not initialized');
   if(!document.querySelector('.stats-filters [data-stats-view="2031–32"].active'))throw Error('2031–32 season tab missing or inactive');
-  if(!document.querySelector('#statsTable')?.textContent?.includes('No Napoli competitive contributions recorded'))throw Error('2031–32 first-paint empty state missing');
+  if(!document.querySelector('#statsTable')?.textContent?.includes('Pio Esposito'))throw Error('2031–32 first-paint empty state missing');
   if(!document.querySelector('#stats .section-head p')?.textContent?.includes('2031–32'))throw Error('Outdated active-season summary');
   if(!document.getElementById('statsVerificationNotice')?.textContent?.includes('2031–32'))throw Error('Outdated active-season verification note');
   if(!document.getElementById('keeperStats203031')?.hidden)throw Error('Historical keeper panel incorrectly displayed in new season');
@@ -75,6 +75,8 @@ try{
   if(data.uclFinal2031?.status!=='completed'||data.uclFinal2031?.winner!=='Napoli'||data.secondConsecutiveTreble2031!==true)throw Error('Championship state incomplete');
   if(data.nextClubFixture!==null||data.nextEuropeanFixture!==null)throw Error('PSG still shown as upcoming');
   if(!data.articles?.some(a=>a.id==='beier-munich-champions-final-interview-may31-2031'))throw Error('Munich final mixed-zone Q&As missing');
+  if(!data.results?.some(r=>r[1]==='Inter'&&r[2]==='Supercoppa Italiana'&&r[3]===1&&r[4]===1&&r[5]==='W'))throw Error('Supercoppa final result missing');
+  if(!data.articles?.some(a=>a.id==='napoli-inter-supercoppa-rossetti-penalties-2031'&&a.comments?.length>=30)||data.articles[0].id!=='napoli-inter-supercoppa-rossetti-penalties-2031')throw Error('Special edition lead or comments missing');
   const statsAudit={seasonPio:[pioNow[1],pioNow[2]],careerPio:[pioCareer[1],pioCareer[2]],historicalPio:[pio2030[0][1],pio2030[0][2]],firstPaint:true};
   const current={...data,articles:data.articles.slice(0,24)};
   const archive={articles:data.articles,comments:{
@@ -137,14 +139,14 @@ try{
  await fresh.locator('#articleModal [data-close-article]').last().click({force:true});
  await fresh.locator('.section-nav [data-target="stats"]').click();
  await fresh.locator('.stats-filters [data-stats-view="2031–32"]').click();
- if(!(await fresh.locator('#statsTable').innerText()).includes('No Napoli competitive contributions recorded'))throw Error('New 2031–32 statistics tab did not render');
+ if(!(await fresh.locator('#statsTable').innerText()).includes('Pio Esposito'))throw Error('New 2031–32 statistics tab did not render');
  await fresh.locator('.stats-filters [data-stats-view="2030–31"]').click();
  if(!(await fresh.locator('#statsTable').innerText()).includes('Maximilian Beier'))throw Error('Historical 2030–31 statistics lost');
  let first=await fresh.locator('#statsTable tbody tr').first().locator('td').allTextContents();
  if(first[0]!=='Pio Esposito'||first[1]!=='45'||first[2]!=='20')throw Error('2030–31 final numbers changed: '+JSON.stringify(first));
  await fresh.locator('[data-stats-view="career"]').click();
  first=await fresh.locator('#statsTable tbody tr').first().locator('td').allTextContents();
- if(first[0]!=='Pio Esposito'||first[1]!=='144'||first[2]!=='74')throw Error('Stats Room career duplicate: '+JSON.stringify(first));
+ if(first[0]!=='Pio Esposito'||first[1]!=='145'||first[2]!=='74')throw Error('Stats Room career duplicate: '+JSON.stringify(first));
  await fresh.locator('[data-stats-view="2029–30"]').click();
  const pioCount=await fresh.locator('#statsTable tbody tr').filter({hasText:'Pio Esposito'}).count();
  if(pioCount!==1)throw Error('Stats Room duplicate Pio 2029–30 row: '+pioCount);

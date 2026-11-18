@@ -1,3 +1,21 @@
+## 2031–32 SEASON OPENING — SUPERCOPPA ITALIANA: NAPOLI BEAT INTER 4–1 ON PENALTIES AFTER 1–1 DRAW
+
+**Manager-authorized special edition.** Supercoppa Italiana final against Inter is Napoli's first major 2031–32 test. Exact calendar date, venue and full lineup were not supplied; DO NOT invent them. Match ended **Inter 1–1 Napoli** after 120 minutes. **Napoli win shootout 4–1**, with the final Napoli penalty by **Edoardo Rossetti (19 years old, 82 OVR)** struck into the **top corner**. Rossetti's fourth kick ended the shootout; Inter did NOT take a fourth penalty.
+
+**Regulation and extra time:**
+- 25' Carboni scores for Inter, 1–0.
+- 39' Pio Esposito scores a headed equalizer from an Estêvão cross; **official assist Estêvão**, 1–1.
+- Halftime 1–1. Both goalkeepers excellent across the match; individual save totals and Inter goalkeeper identity unreported.
+- End of regulation 1–1; extra time. Pio strikes the post at **120+1** and the ball stays out. End of extra time still 1–1.
+
+**Shootout (in this exact order):** Round 1 Napoli Pio scores, Inter Barella strikes post (miss); Round 2 Napoli Beier scores, Inter Lavelli scores; Round 3 Napoli Warren Zaïre-Emery scores, Inter Frattesi attempt **saved by Epolo**; Round 4 Napoli Edoardo Rossetti scores to the top corner and secures trophy. Final shootout **Napoli 4–1 Inter** (4/4 successful Napoli kicks, 1/3 Inter; no further kicks). Pio's extra-time post and first shootout score are distinct events. Do not credit Rossetti with a competitive club goal or Epolo with clean sheet. Pio's 39' goal and Estêvão's official 39' assist count toward **2031–32 Napoli club season**; penalties do not. Record Pio **1G0A** and Estêvão **0G1A** at this stage, career minima Pio **145G74A** and Estêvão **3G8A**; all 2030–31 season totals remain unchanged and Italy records remain separate.
+
+**Editorial release:** 3 independent lead/feature/goalkeeper articles. Main title: "THE BOY WHO WOULDN'T BLINK: ROSSETTI WINS THE SUPERCOPPA FOR NAPOLI". 15 lead paragraphs, 10 Rossetti feature, 10 Epolo/goalkeeper article. 69 top-level comments across three articles, with 56 distinctive nested replies (125 overall). Recurring handles, rival allegiances and self-returning poster threads reviewed; no duplicate text. Rossetti feature is a character-led reported essay, NOT a fabricated interview. No manager quotes authored. Artwork selected from existing approved Season Room assets; the images are general editorial illustrations, not documentary photographs of Rossetti's strike or Epolo's save. Exact month unknown: log season-opening feature, do not assign an unreported YYYY-MM month.
+
+**Source publication:** `stories-supercoppa-inter-2031.js` and `site-visible-supercoppa-inter-2031.js` load after the summer squad overlay. `legacy-index.html` static lead changed to the new final story. Compiled public index must be regenerated successfully and Pages deployment verified before claiming the edition is live. Supersedes earlier "no 2031–32 match played" wording in older summer entries, not the confirmed roster or 2030–31 title history.
+
+---
+
 ## SUMMER 2031 — LATEST 2031–32 SQUAD AND SEBASTIANO ESPOSITO SIGNING
 
 **Manager-confirmed signing:** Sebastiano Esposito joins Napoli permanently on a **$36m transfer fee**, **rotation role**, **$160k/week wages**, **$500k signing bonus**. New Squad Hub: ST, age 29, **82 OVR**. Previous failed negotiations are superseded. Wage, bonus and earlier private discussions are staff-room knowledge only, not public article material. Arsenal offered $375m for Pio Esposito; Mister rejected outright. Pio stays, no completed deal or manager public press quote.

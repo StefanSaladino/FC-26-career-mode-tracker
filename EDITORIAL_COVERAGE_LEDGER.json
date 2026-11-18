@@ -193,7 +193,64 @@
       "note": "Munich Champions League final May31: full six-player mixed-zone Q&A (Beier/Pio/Epolo/Bastoni/Estêvão/Nico Paz), plus Beier homecoming, goalkeeper and João Neves character pieces. These player Q&As are original in-universe authored dialogue; no public user-authored post-final manager quotes. 14 stories, 219 top-level and 333 total comments, final 2–0 PSG. Do not expose Q&A provenance in published text."
     }
   ],
-  "latest_confirmed_match": "31 May 2031 Champions League FINAL Munich: Napoli 2–0 PSG (HT0–0). 61 Beier official Estêvão assist; 71 Beier official Pio assist after Nico Paz buildup. Epolo and Chevalier one enormous first-half save each; PSG offside88; Epolo clean sheet. Third consecutive UCL and second consecutive Scudetto+Coppa+UCL treble.",
+  "latest_confirmed_match": {
+    "season": "2031–32",
+    "competition": "Supercoppa Italiana",
+    "date": null,
+    "team": "Napoli",
+    "opponent": "Inter",
+    "score_after_extra_time": "1–1",
+    "shootout": [
+      [
+        "Pio Esposito",
+        "goal"
+      ],
+      [
+        "Barella",
+        "post"
+      ],
+      [
+        "Maximilian Beier",
+        "goal"
+      ],
+      [
+        "Lavelli",
+        "goal"
+      ],
+      [
+        "Warren Zaïre-Emery",
+        "goal"
+      ],
+      [
+        "Frattesi",
+        "saved by Epolo"
+      ],
+      [
+        "Edoardo Rossetti",
+        "goal, top corner"
+      ]
+    ],
+    "winner": "Napoli",
+    "goals": [
+      {
+        "minute": "25",
+        "team": "Inter",
+        "scorer": "Carboni"
+      },
+      {
+        "minute": "39",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Estêvão",
+        "official_assist": true
+      }
+    ],
+    "extra_time_woodwork": {
+      "minute": "120+1",
+      "player": "Pio Esposito",
+      "outcome": "post, no goal"
+    }
+  },
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -208,6 +265,23 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "season": "2031–32",
+    "competition": "Supercoppa Italiana",
+    "date": null,
+    "result": "Napoli 1–1 Inter (4–1 penalties)",
+    "headline": "THE BOY WHO WOULDN'T BLINK: ROSSETTI WINS THE SUPERCOPPA FOR NAPOLI",
+    "lead_article_id": "napoli-inter-supercoppa-rossetti-penalties-2031",
+    "article_ids": [
+      "napoli-inter-supercoppa-rossetti-penalties-2031",
+      "edoardo-rossetti-19-supercoppa-top-corner-2031",
+      "epolo-inter-supercoppa-frattesi-save-2031"
+    ],
+    "article_count": 3,
+    "top_level_comments": 69,
+    "total_comments_including_replies": 125,
+    "notes": "Special edition: precise match calendar date not supplied. Existing approved gallery images. Character-led Rossetti profile without fabricated player/manager quotes; no private staff-room information or fan-account allegiance errors."
+  },
+  "previous_newsroom_package": {
     "status": "One consolidated source edition committed; compiled snapshot and Pages deployment tracked by GitHub Actions",
     "phase": "Munich Champions League Final 31 May 2031, Napoli 2–0 PSG and second consecutive treble",
     "stories": [
@@ -266,52 +340,6 @@
     "finalPlayed": true,
     "nextFixture": "Not established",
     "buildTarget": "compact snapshot and Pages after single source commit"
-  },
-  "previous_newsroom_package": {
-    "status": "Committed source; editorial checks, compact snapshot browser tests, Pages deployment pending",
-    "phase": "Napoli 3–1 Bergamo Coppa Italia CHAMPIONS, Pio brace, Beier goal+assist, Olise and Paz assists",
-    "match": "May14 2031 Final Napoli 3–1 Bergamo; Beier16 Olise assist, Pio50 Beier, Pio55 Paz, Fruk72 pen; CUP WON",
-    "stories": [
-      "napoli-bergamo-coppa-italia-final-champions-may14-2031",
-      "pio-beier-coppa-final-double-may15-2031",
-      "coppa-olise-paz-fruk-penalty-analysis-may15-2031",
-      "bellandi-coppa-won-scudetto-psg-ahead-may2031"
-    ],
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Elena De Luca · Player desk",
-      "Marco Bellini · Il Calcio Sera",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "gallery": [
-      "assets/story-staff-squad-celebration.webp",
-      "assets/story-manager-pio-esposito.webp",
-      "assets/story-coaches-squad-tactics-session.webp",
-      "assets/story-napoli-home-crowd.webp"
-    ],
-    "source": [
-      "stories-coppa-bergamo-champions-may14-2031.js",
-      "site-visible-coppa-bergamo-champions-may14-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "facts": "Coppa Italia Napoli 3–1 Bergamo champions May14. HT1–0. Three goals and three official assists; Fruk72 penalty past Peacock. Serie A remains Napoli84 Inter80 Roma79 /36, one win vs Como May18 clinches. PSG UCL final May31 unplayed.",
-    "unknowns": "Penalty incident specifics and referee motives, exact neutral stadium, other match events and lineups, match statistics, manager/footballer press quotes",
-    "nextMatch": "Como home Serie A May18, then AC Milan away May25, UCL final PSG May31",
-    "paragraphs": 62,
-    "comments": {
-      "topLevel": 86,
-      "totalIncludingReplies": 154
-    },
-    "feature": "Elena De Luca May15 Pio+Beier character-led feature; no invented quotes",
-    "mediaQA": "Approved gallery paths verified; browser checks delegated to static build workflow",
-    "releaseVersion": "2031-coppa-bergamo-final-champions-v1",
-    "expectedArchive": {
-      "stories": 806,
-      "results": 176
-    }
   },
   "release_history": [
     {
@@ -2416,5 +2444,35 @@
       "confirmed_census_sale_fees_usd": 36250000,
       "scope": "Roster and archive continuity only; no new reporting or private negotiations publicized"
     }
-  ]
+  ],
+  "latest_supercoppa_2031_32": {
+    "winner": "Napoli",
+    "goals_2031_32_club": {
+      "Pio_Esposito": [
+        1,
+        0
+      ],
+      "Estevao": [
+        0,
+        1
+      ]
+    },
+    "career_minima_after_match": {
+      "Pio_Esposito": [
+        145,
+        74
+      ],
+      "Estevao": [
+        3,
+        8
+      ]
+    },
+    "previous_season_totals_untouched": true,
+    "italy_stats_untouched": true
+  },
+  "season_2031_32_character_feature": {
+    "season": "2031–32",
+    "calendar_month": null,
+    "coverage": "Edoardo Rossetti 19-year-old decisive penalty; Elena De Luca player character feature, no invented interview; calendar month not provided."
+  }
 }
