@@ -191,66 +191,14 @@
       "month": "2031-05",
       "status": "covered_additional",
       "note": "Munich Champions League final May31: full six-player mixed-zone Q&A (Beier/Pio/Epolo/Bastoni/Estêvão/Nico Paz), plus Beier homecoming, goalkeeper and João Neves character pieces. These player Q&As are original in-universe authored dialogue; no public user-authored post-final manager quotes. 14 stories, 219 top-level and 333 total comments, final 2–0 PSG. Do not expose Q&A provenance in published text."
+    },
+    {
+      "month": "2031-08",
+      "status": "covered",
+      "note": "24 Aug 2031 Elena De Luca's character-led Pio Esposito feature after Palermo 2–2 draw; Pio scores at 15′ (Zaïre-Emery) and 49′ (Estêvão), after earlier equalizer against Inter in Supercoppa. Reported essay, not an invented interview; no fabricated manager press. Three newsroom stories, 42 top-level and 39 threaded replies."
     }
   ],
-  "latest_confirmed_match": {
-    "season": "2031–32",
-    "competition": "Supercoppa Italiana",
-    "date": null,
-    "team": "Napoli",
-    "opponent": "Inter",
-    "score_after_extra_time": "1–1",
-    "shootout": [
-      [
-        "Pio Esposito",
-        "goal"
-      ],
-      [
-        "Barella",
-        "post"
-      ],
-      [
-        "Maximilian Beier",
-        "goal"
-      ],
-      [
-        "Lavelli",
-        "goal"
-      ],
-      [
-        "Warren Zaïre-Emery",
-        "goal"
-      ],
-      [
-        "Frattesi",
-        "saved by Epolo"
-      ],
-      [
-        "Edoardo Rossetti",
-        "goal, top corner"
-      ]
-    ],
-    "winner": "Napoli",
-    "goals": [
-      {
-        "minute": "25",
-        "team": "Inter",
-        "scorer": "Carboni"
-      },
-      {
-        "minute": "39",
-        "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": "Estêvão",
-        "official_assist": true
-      }
-    ],
-    "extra_time_woodwork": {
-      "minute": "120+1",
-      "player": "Pio Esposito",
-      "outcome": "post, no goal"
-    }
-  },
+  "latest_confirmed_match": "24 August 2031 Serie A opener: Palermo 2–2 Napoli (away), Diakité Palermo 7′ & 32′; Pio Esposito Napoli 15′ (Zaïre-Emery official assist), 49′ (Estêvão official assist). Pio brace, 1 opening league point; no other match stats.",
   "manager_press": {
     "status": "optional",
     "consent_required": true,
@@ -265,6 +213,30 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "status": "Source publication authorised; compact builder and Pages deployment pending verification",
+    "phase": "24 August 2031 — Palermo 2–2 Napoli Serie A opener and August/September calendar",
+    "stories": [
+      "palermo-napoli-two-two-diakite-pio-aug24-2031",
+      "pio-esposito-two-equalisers-palermo-aug24-2031",
+      "napoli-august-september-roma-arsenal-calendar-2031"
+    ],
+    "sources": [
+      "stories-palermo-aug24-2031.js",
+      "site-visible-palermo-aug24-2031.js"
+    ],
+    "counts": {
+      "articles": 3,
+      "paragraphs": 32,
+      "topLevel": 42,
+      "threadedReplies": 39,
+      "totalComments": 81
+    },
+    "coverage": "Player-focused Pio essay for August 2031; no fabricated interview or manager public quotes",
+    "images": "Approved Napoli gallery artwork",
+    "calendar": "Sampdoria Aug 30; Italy/Norway Sept 9; Roma away Sept 12; Arsenal away UCL Sept 16; home league unnamed Sept 21; Sassuolo away Sept 27",
+    "preserve": "Supercoppa special edition and comment threads; 16 squad loans and prior stats"
+  },
+  "previous_newsroom_package": {
     "season": "2031–32",
     "competition": "Supercoppa Italiana",
     "date": null,
@@ -280,66 +252,6 @@
     "top_level_comments": 69,
     "total_comments_including_replies": 125,
     "notes": "Special edition: precise match calendar date not supplied. Existing approved gallery images. Character-led Rossetti profile without fabricated player/manager quotes; no private staff-room information or fan-account allegiance errors."
-  },
-  "previous_newsroom_package": {
-    "status": "One consolidated source edition committed; compiled snapshot and Pages deployment tracked by GitHub Actions",
-    "phase": "Munich Champions League Final 31 May 2031, Napoli 2–0 PSG and second consecutive treble",
-    "stories": [
-      "napoli-psg-2-0-munich-threepeat-treble-may31-2031",
-      "two-consecutive-trebles-napoli-era-may31-2031",
-      "beier-munich-germany-final-brace-may31-2031",
-      "beier-munich-champions-final-interview-may31-2031",
-      "pio-esposito-final-assist-interview-may31-2031",
-      "epolo-chevalier-munich-goalkeeper-final-may31-2031",
-      "epolo-munich-clean-sheet-interview-may31-2031",
-      "bastoni-line-dembele-kvara-vitinha-final-may31-2031",
-      "bastoni-captain-munich-interview-may31-2031",
-      "estevao-beier-assist-munich-interview-may31-2031",
-      "nico-paz-quiet-touch-second-goal-interview-may31-2031",
-      "neves-psg-2028-to-napoli-2031-may31",
-      "munich-2031-napoli-supporters-celebration-may31",
-      "bellandi-munich-napoli-two-trebles-verdict-may31"
-    ],
-    "counts": {
-      "articles": 14,
-      "paragraphs": 200,
-      "topLevel": 219,
-      "totalIncludingReplies": 333,
-      "playerInterviews": 6,
-      "expectedArchive": 835,
-      "expectedResults": 179
-    },
-    "bylines": [
-      "Giulia Romano · Radio Napoli Centrale",
-      "Marco Bellini · Il Calcio Sera",
-      "Elena De Luca · Player Desk",
-      "Sara Bellomo · Goalkeeper Desk",
-      "Marco D'Amato · Tactical Desk",
-      "Lorenzo Ferri · Player Interviews",
-      "Matteo Bellandi · Linea Calcio"
-    ],
-    "sources": [
-      "stories-munich-final-champions-may31-2031.js",
-      "stories-munich-final-interviews-beier-pio-may31-2031.js",
-      "stories-munich-final-interviews-epolo-bastoni-may31-2031.js",
-      "stories-munich-final-interviews-estevao-paz-may31-2031.js",
-      "stories-munich-final-celebrations-verdict-may31-2031.js",
-      "site-visible-munich-threepeat-final-may31-2031.js",
-      "site-visible-juventus-apr2030.js",
-      "legacy-index.html",
-      "stats-room.js",
-      "scripts/build-static-snapshot.mjs",
-      "CANON.md",
-      "EDITORIAL_COVERAGE_LEDGER.json"
-    ],
-    "galleryPolicy": "Existing approved Napoli gallery only; imagery is illustration not verified match photo",
-    "playerQandAProvenance": "Six original in-universe player interviews authored in chat; not independently authenticated real-world testimony",
-    "managerPress": "No post-final user-authored press quotes; pre-final user-authored statements preserved exactly, Madrid private decision not published",
-    "fictionalNamedCelebrityAttendance": "Unverified; do not publish",
-    "noInventedStats": true,
-    "finalPlayed": true,
-    "nextFixture": "Not established",
-    "buildTarget": "compact snapshot and Pages after single source commit"
   },
   "release_history": [
     {
@@ -2525,5 +2437,59 @@
     ],
     "loan_destinations_and_terms_unreported": true,
     "public_articles_added": 0
+  },
+  "latest_league_2031_32": {
+    "date": "2031-08-24",
+    "competition": "Serie A",
+    "fixture": "Palermo 2–2 Napoli",
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1,
+    "leaguePosition": null
+  },
+  "latest_calendar_aug_sep_2031": {
+    "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
+    "upcoming": [
+      [
+        "2031-08-30",
+        "Sampdoria",
+        "Home",
+        "Serie A"
+      ],
+      [
+        "2031-09-09",
+        "Norway",
+        "Away",
+        "Italy international"
+      ],
+      [
+        "2031-09-12",
+        "Roma",
+        "Away",
+        "Serie A"
+      ],
+      [
+        "2031-09-16",
+        "Arsenal",
+        "Away",
+        "Champions League"
+      ],
+      [
+        "2031-09-21",
+        null,
+        "Home",
+        "Serie A"
+      ],
+      [
+        "2031-09-27",
+        "Sassuolo",
+        "Away",
+        "Serie A"
+      ]
+    ]
   }
 }

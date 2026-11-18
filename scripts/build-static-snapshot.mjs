@@ -46,8 +46,8 @@ try{
   const pioCareer=data.careerStats?.find(r=>r[0]==='Pio Esposito');
   if(pio2030.length!==1||pio2030[0][1]!==34||pio2030[0][2]!==21)throw Error('Duplicate or stale 2029–30 Pio season');
   if(!pioNow||pioNow[1]!==45||pioNow[2]!==20)throw Error('Latest Pio club-season stats missing');
-  if(!pioCareer||pioCareer[1]!==145||pioCareer[2]!==74)throw Error('Pio career reconciliation failed');
-  if(data.statsCurrentSeason!=='2031–32'||!Array.isArray(data.statsBySeason?.['2031–32'])||data.statsBySeason['2031–32'].length!==2||!data.statsBySeason['2031–32'].some(r=>r[0]==='Pio Esposito'&&r[1]===1&&r[2]===0)||!data.statsBySeason['2031–32'].some(r=>r[0]==='Estêvão'&&r[1]===0&&r[2]===1))throw Error('New 2031–32 season stats not initialized');
+  if(!pioCareer||pioCareer[1]!==147||pioCareer[2]!==74)throw Error('Pio career reconciliation failed');
+  if(data.statsCurrentSeason!=='2031–32'||!Array.isArray(data.statsBySeason?.['2031–32'])||data.statsBySeason['2031–32'].length!==3||!data.statsBySeason['2031–32'].some(r=>r[0]==='Pio Esposito'&&r[1]===3&&r[2]===0)||!data.statsBySeason['2031–32'].some(r=>r[0]==='Estêvão'&&r[1]===0&&r[2]===2)||!data.statsBySeason['2031–32'].some(r=>r[0]==='Warren Zaïre-Emery'&&r[1]===0&&r[2]===1))throw Error('New 2031–32 season stats not initialized');
   if(!document.querySelector('.stats-filters [data-stats-view="2031–32"].active'))throw Error('2031–32 season tab missing or inactive');
   if(!document.querySelector('#statsTable')?.textContent?.includes('Pio Esposito'))throw Error('2031–32 first-paint empty state missing');
   if(!document.querySelector('#stats .section-head p')?.textContent?.includes('2031–32'))throw Error('Outdated active-season summary');
@@ -74,10 +74,12 @@ try{
   const finalResult=data.results?.find(r=>r[0]==='Napoli'&&r[2]==='Champions League'&&r[3]===2&&r[4]===0&&String(r[6]).includes('31 May 2031'));
   if(!finalResult)throw Error('Napoli 2–0 PSG final result missing');
   if(data.uclFinal2031?.status!=='completed'||data.uclFinal2031?.winner!=='Napoli'||data.secondConsecutiveTreble2031!==true)throw Error('Championship state incomplete');
-  if(data.nextClubFixture!==null||data.nextEuropeanFixture!==null)throw Error('PSG still shown as upcoming');
+  if(data.nextClubFixture?.opponent!=='Sampdoria'||data.nextClubFixture?.date!=='2031-08-30'||data.nextEuropeanFixture?.opponent!=='Arsenal'||data.nextEuropeanFixture?.date!=='2031-09-16')throw Error('Upcoming schedule not reconciled with the August/September calendar');
   if(!data.articles?.some(a=>a.id==='beier-munich-champions-final-interview-may31-2031'))throw Error('Munich final mixed-zone Q&As missing');
   if(!data.results?.some(r=>r[1]==='Inter'&&r[2]==='Supercoppa Italiana'&&r[3]===1&&r[4]===1&&r[5]==='W'))throw Error('Supercoppa final result missing');
-  if(!data.articles?.some(a=>a.id==='napoli-inter-supercoppa-rossetti-penalties-2031'&&a.comments?.length>=30)||data.articles[0].id!=='napoli-inter-supercoppa-rossetti-penalties-2031')throw Error('Special edition lead or comments missing');
+  if(!data.articles?.some(a=>a.id==='napoli-inter-supercoppa-rossetti-penalties-2031'&&a.comments?.length>=30))throw Error('Supercoppa story lost from archive');
+  if(data.articles[0]?.id!=='palermo-napoli-two-two-diakite-pio-aug24-2031'||!data.articles?.some(a=>a.id==='pio-esposito-two-equalisers-palermo-aug24-2031')||!data.articles?.some(a=>a.id==='napoli-august-september-roma-arsenal-calendar-2031')||data.articles[0]?.comments?.length<15)throw Error('Palermo opening edition or supporter discussion missing');
+  if(!data.results.some(r=>r[0]==='Napoli'&&r[1]==='Palermo'&&r[2]==='Serie A'&&r[3]===2&&r[4]===2&&r[5]==='D'&&String(r[6]).includes('24 Aug 2031')))throw Error('Palermo 2–2 opening result missing');
   const statsAudit={seasonPio:[pioNow[1],pioNow[2]],careerPio:[pioCareer[1],pioCareer[2]],historicalPio:[pio2030[0][1],pio2030[0][2]],firstPaint:true};
   const current={...data,articles:data.articles.slice(0,24)};
   const archive={articles:data.articles,comments:{
@@ -147,13 +149,13 @@ try{
  if(first[0]!=='Pio Esposito'||first[1]!=='45'||first[2]!=='20')throw Error('2030–31 final numbers changed: '+JSON.stringify(first));
  await fresh.locator('[data-stats-view="career"]').click();
  first=await fresh.locator('#statsTable tbody tr').first().locator('td').allTextContents();
- if(first[0]!=='Pio Esposito'||first[1]!=='145'||first[2]!=='74')throw Error('Stats Room career duplicate: '+JSON.stringify(first));
+ if(first[0]!=='Pio Esposito'||first[1]!=='147'||first[2]!=='74')throw Error('Stats Room career duplicate: '+JSON.stringify(first));
  await fresh.locator('[data-stats-view="2029–30"]').click();
  const pioCount=await fresh.locator('#statsTable tbody tr').filter({hasText:'Pio Esposito'}).count();
  if(pioCount!==1)throw Error('Stats Room duplicate Pio 2029–30 row: '+pioCount);
  await fresh.locator('[data-stats-view="2031–32"]').click();
  await fresh.locator('.section-nav [data-target="squad"]').click();
- if(await fresh.locator('#squadGroups .squad-group .player-row').count()!==45)throw Error('Current 37-player squad, 13 loans, arrivals or departures not visible');
+ if(await fresh.locator('#squadGroups .squad-group .player-row').count()!==45)throw Error('Current 37-player squad, 16 loans, arrivals or departures not visible');
  const loans=await fresh.locator('#squadGroups .squad-group').filter({hasText:'Players on loan'}).innerText();
  if(['F. Lawton','Y. Tran','S. Vitale','M. Valentini','G. Ricci','L. Resende','D. Parisis','C. Brun','V. Mancini','M. Hooper','J. Pagano','O. Ly','F. Freitas','G. D\'Angelo','Lirim Hasa','M. Cancio'].some(name=>!loans.includes(name)))throw Error('A confirmed loanee is missing from the squad');
  const squadView=await fresh.locator('#squadGroups').innerText();
