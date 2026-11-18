@@ -48,7 +48,7 @@ D.fixtures203132=[{date:'2031-08-13',team:'Napoli',opponent:'Inter',competition:
  {date:'2031-09-16',team:'Napoli',opponent:'Arsenal',competition:'Champions League',venue:'Away',status:'scheduled'},
  {date:'2031-09-21',team:'Napoli',opponent:null,competition:'Serie A',venue:'Home',status:'scheduled'},
  {date:'2031-09-27',team:'Napoli',opponent:'Sassuolo',competition:'Serie A',venue:'Away',status:'scheduled'}];
-D.nextClubFixture=D.fixtures203132[2];D.nextEuropeanFixture=D.fixtures203132[4];
+D.nextClubFixture=D.fixtures203132[2];D.nextEuropeanFixture=D.fixtures203132[5];
 /* Calendar confirms Supercoppa on August 13; preserve its match result and penalty sequence. */
 if(D.supercoppaInter2031)D.supercoppaInter2031.date='2031-08-13';
 if(D.seasonState.supercoppa?.final)D.seasonState.supercoppa.final.date='2031-08-13';
