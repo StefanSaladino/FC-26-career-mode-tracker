@@ -1,3 +1,11 @@
+## 2031–32 SQUAD UPDATE — D’ANGELO, HASA AND CANCIO LOAN DEPARTURES
+
+**Manager-confirmed after the Supercoppa win over Inter:** Three additional Napoli players leave **on loan**, not permanent sales: **G. D'Angelo (RW, 18, 64 OVR)**, **Lirim Hasa (CM, 27, 80 OVR)** and **M. Cancio (LM, 18, 61 OVR)**. Loan destinations and durations have not been reported and must not be guessed. All three remain Napoli contracted players, appearing under the loan group rather than currently available position groups. Youth table marks D'Angelo and Cancio on loan; Hasa belongs in the loans section. Do not remove their historic achievements.
+
+**Current census now:** 37 contracted players, **16 loans** (13 previously listed + these 3), **21 not marked on loan**; seven existing summer permanent departures unchanged. Vitale and Valentini retain their independently confirmed one-year loan durations. No fixture result, player rating, scorer, season goal/assist record, public news article, interview, comments or manager quotation changes from this administrative update. The Supercoppa special edition remains the current lead story.
+
+---
+
 ## 2031–32 SEASON OPENING — SUPERCOPPA ITALIANA: NAPOLI BEAT INTER 4–1 ON PENALTIES AFTER 1–1 DRAW
 
 **Manager-authorized special edition.** Supercoppa Italiana final against Inter is Napoli's first major 2031–32 test. Exact calendar date, venue and full lineup were not supplied; DO NOT invent them. Match ended **Inter 1–1 Napoli** after 120 minutes. **Napoli win shootout 4–1**, with the final Napoli penalty by **Edoardo Rossetti (19 years old, 82 OVR)** struck into the **top corner**. Rossetti's fourth kick ended the shootout; Inter did NOT take a fourth penalty.

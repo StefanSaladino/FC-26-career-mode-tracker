@@ -2443,6 +2443,44 @@
       },
       "confirmed_census_sale_fees_usd": 36250000,
       "scope": "Roster and archive continuity only; no new reporting or private negotiations publicized"
+    },
+    {
+      "season": "2031–32",
+      "status": "manager confirmed",
+      "type": "three new loans after Inter Supercoppa",
+      "loans": [
+        {
+          "name": "G. D'Angelo",
+          "position": "RW",
+          "age": 18,
+          "overall": 64,
+          "destination": null,
+          "duration": null
+        },
+        {
+          "name": "Lirim Hasa",
+          "position": "CM",
+          "age": 27,
+          "overall": 80,
+          "destination": null,
+          "duration": null
+        },
+        {
+          "name": "M. Cancio",
+          "position": "LM",
+          "age": 18,
+          "overall": 61,
+          "destination": null,
+          "duration": null
+        }
+      ],
+      "updated_census": {
+        "contracted_players": 37,
+        "on_loan": 16,
+        "not_marked_on_loan": 21,
+        "permanent_departures": 7
+      },
+      "scope": "Squad and academy state only. Existing Supercoppa newsroom edition, comments, goals and assists unchanged."
     }
   ],
   "latest_supercoppa_2031_32": {
@@ -2474,5 +2512,18 @@
     "season": "2031–32",
     "calendar_month": null,
     "coverage": "Edoardo Rossetti 19-year-old decisive penalty; Elena De Luca player character feature, no invented interview; calendar month not provided."
+  },
+  "latest_squad_2031_32": {
+    "updated": "after Supercoppa final against Inter",
+    "contracted_players": 37,
+    "on_loan": 16,
+    "not_marked_on_loan": 21,
+    "latest_loan_additions": [
+      "G. D'Angelo",
+      "Lirim Hasa",
+      "M. Cancio"
+    ],
+    "loan_destinations_and_terms_unreported": true,
+    "public_articles_added": 0
   }
 }
