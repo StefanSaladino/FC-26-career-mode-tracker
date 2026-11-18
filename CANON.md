@@ -1,3 +1,15 @@
+## SUMMER 2031 — LATEST 2031–32 SQUAD AND SEBASTIANO ESPOSITO SIGNING
+
+**Manager-confirmed signing:** Sebastiano Esposito joins Napoli permanently on a **$36m transfer fee**, **rotation role**, **$160k/week wages**, **$500k signing bonus**. New Squad Hub: ST, age 29, **82 OVR**. Previous failed negotiations are superseded. Wage, bonus and earlier private discussions are staff-room knowledge only, not public article material. Arsenal offered $375m for Pio Esposito; Mister rejected outright. Pio stays, no completed deal or manager public press quote.
+
+**Latest 2031 Squad Hub screenshots (four images):** Old opening 38-player census minus four confirmed sales (T. Sánchez $3.3m, L. Jetten to Torino $17.6m, A. Reyna $7.25m, A. Vergara $8.1m) leaves 34; newly pictured Sebastiano Esposito, **M. Cancio (18/61, LM)** and **G. D'Angelo (18/64, RW)** yield **37 current contracted players**. Do not invent a transfer or promotion mechanism for Cancio/D'Angelo. C. Peacock (22/75, GK) retained from prior census, not pictured in this set.
+
+**13 current loan indicators:** F. Lawton 21/78, Y. Tran 20/76, S. Vitale 19/76, M. Valentini 22/73, G. Ricci 22/72, L. Resende 20/72, D. Parisis 17/66, C. Brun 21/76, V. Mancini 22/78, M. Hooper 20/77, J. Pagano 18/67, O. Ly 17/67 and F. Freitas 19/70. Mister confirms **Vitale's one-year loan**; Valentini's previously confirmed one-year loan holds. Do not infer destination from badge. **24 other current players not marked on loan**; availability is not guaranteed.
+
+**Other new pictured ages/ratings:** O. Burnett 21/78; V. Hermansen 22/82; Michael Kayode 27/88; Scott McTominay 34/83; Anton Stach 32/83; Mikey Moore 24/88. New screenshot ratings supersede conflicting older opening census values. Retain all former players in historic stats and news. 2031–32 Napoli competitive stats remain empty because the season has not started. Only technical current roster, transfer group, youth table, QA and canon maintenance requested. No newsroom articles, fan comments or invented press approved.
+
+---
+
 ## SUMMER 2031 — A. VERGARA PERMANENT SALE FOR $8.1M
 
 **Manager-confirmed:** A. Vergara (28, RW, 75 OVR in summer 2031 opening Squad Hub) has been sold permanently for **$8.1 million**. Buyer was not provided. Remove Vergara from current contracted player and selection groups and place in the summer departures group; preserve any historical match records and statistics.
