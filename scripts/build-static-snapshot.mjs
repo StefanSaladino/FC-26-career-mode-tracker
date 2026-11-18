@@ -150,12 +150,12 @@ try{
  if(pioCount!==1)throw Error('Stats Room duplicate Pio 2029–30 row: '+pioCount);
  await fresh.locator('[data-stats-view="2031–32"]').click();
  await fresh.locator('.section-nav [data-target="squad"]').click();
- if(await fresh.locator('#squadGroups .squad-group .player-row').count()!==41)throw Error('Current squad, loans or four departures not visible');
+ if(await fresh.locator('#squadGroups .squad-group .player-row').count()!==45)throw Error('Current 37-player squad, 13 loans, arrivals or departures not visible');
  const loans=await fresh.locator('#squadGroups .squad-group').filter({hasText:'Players on loan'}).innerText();
- if(['C. Brun','O. Ly','D. Parisis','M. Valentini','J. Pagano','L. Resende','G. Ricci'].some(name=>!loans.includes(name)))throw Error('A confirmed loanee is missing from the squad');
+ if(['F. Lawton','Y. Tran','S. Vitale','M. Valentini','G. Ricci','L. Resende','D. Parisis','C. Brun','V. Mancini','M. Hooper','J. Pagano','O. Ly','F. Freitas'].some(name=>!loans.includes(name)))throw Error('A confirmed loanee is missing from the squad');
  const squadView=await fresh.locator('#squadGroups').innerText();
  if(['T. Sánchez','L. Jetten','A. Reyna','A. Vergara'].some(name=>!squadView.includes(name)))throw Error('A completed sale is missing from departures');
- if((await fresh.locator('#squadGroups').innerText()).includes('Sebastiano Esposito'))throw Error('Unsigned Sebastiano added prematurely');
+ if(!(await fresh.locator('#squadGroups').innerText()).includes('Sebastiano Esposito'))throw Error('Completed Sebastiano signing missing from squad');
  await fresh.locator('.section-nav [data-target="matches"]').click();
  await fresh.locator('#teamFilter').selectOption('Italy');
  const italyCards=await fresh.locator('#matchesList .match-card').count();
