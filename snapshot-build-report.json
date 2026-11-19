@@ -1,7 +1,7 @@
 {
-  "revision": "7e500607ed05",
-  "articles": 841,
-  "results": 181,
+  "revision": "62bfa1edad63",
+  "articles": 846,
+  "results": 183,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,17 +9,30 @@
       20
     ],
     "careerPio": [
-      147,
+      148,
       74
     ],
     "historicalPio": [
       34,
       21
     ],
-    "firstPaint": true
+    "firstPaint": true,
+    "italyGroupTop": {
+      "position": 1,
+      "team": "Italy",
+      "played": 8,
+      "won": 6,
+      "drawn": 2,
+      "lost": 0,
+      "goalsFor": 15,
+      "goalsAgainst": 5,
+      "goalDifference": 10,
+      "points": 20
+    },
+    "nextClub": "Roma"
   },
   "publicationVoice": {
-    "articleCount": 841
+    "articleCount": 846
   },
   "legacyErrors": []
 }
