@@ -196,6 +196,11 @@
       "month": "2031-08",
       "status": "covered",
       "note": "24 Aug 2031 Elena De Luca's character-led Pio Esposito feature after Palermo 2–2 draw; Pio scores at 15′ (Zaïre-Emery) and 49′ (Estêvão), after earlier equalizer against Inter in Supercoppa. Reported essay, not an invented interview; no fabricated manager press. Three newsroom stories, 42 top-level and 39 threaded replies."
+    },
+    {
+      "month": "2031-09",
+      "status": "covered",
+      "note": "9 Sep 2031: Elena De Luca's 10-paragraph Gianluigi Donnarumma character-led feature after 2–1 Norway away, highlighting goalkeeper brilliance without inventing saves or press quotes. Original in-world analysis, not an interview. Five stories across Italy and Napoli with 69 top-level, 61 replies."
     }
   ],
   "latest_confirmed_match": "24 August 2031 Serie A opener: Palermo 2–2 Napoli (away), Diakité Palermo 7′ & 32′; Pio Esposito Napoli 15′ (Zaïre-Emery official assist), 49′ (Estêvão official assist). Pio brace, 1 opening league point; no other match stats.",
@@ -213,6 +218,31 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "9 September 2031 Italy 2–1 Norway and complete qualifying group, Napoli 2–0 Sampdoria, Nijstad signing",
+    "status": "Publication requested and source prepared; build and deployment to be checked",
+    "stories": [
+      "italy-norway-2-1-pio-kean-gigio-sep9-2031",
+      "gigio-donnarumma-norway-italy-sep9-2031",
+      "italy-euro-qualifying-group-unbeaten-20-points-2031",
+      "napoli-sampdoria-two-nil-neves-pio-aug30-2031",
+      "napoli-nijstad-manchester-united-arrival-2031"
+    ],
+    "sources": [
+      "stories-italy-norway-sampdoria-sep2031.js",
+      "site-visible-italy-norway-sep2031.js"
+    ],
+    "counts": {
+      "articles": 5,
+      "paragraphs": 53,
+      "topLevel": 69,
+      "threadedReplies": 61,
+      "totalComments": 130
+    },
+    "identity": "No public press manager quotations. Pio Italy goal separate from Napoli club four goals.",
+    "imaging": "Existing approved image assets used as archival editorial illustration",
+    "qa": "Run editorial QA and compact snapshot browser checks, Pages deployment; previous edition preserved."
+  },
+  "previous_newsroom_package": {
     "status": "Source publication authorised; compact builder and Pages deployment pending verification",
     "phase": "24 August 2031 — Palermo 2–2 Napoli Serie A opener and August/September calendar",
     "stories": [
@@ -235,23 +265,6 @@
     "images": "Approved Napoli gallery artwork",
     "calendar": "Sampdoria Aug 30; Italy/Norway Sept 9; Roma away Sept 12; Arsenal away UCL Sept 16; home league unnamed Sept 21; Sassuolo away Sept 27",
     "preserve": "Supercoppa special edition and comment threads; 16 squad loans and prior stats"
-  },
-  "previous_newsroom_package": {
-    "season": "2031–32",
-    "competition": "Supercoppa Italiana",
-    "date": null,
-    "result": "Napoli 1–1 Inter (4–1 penalties)",
-    "headline": "THE BOY WHO WOULDN'T BLINK: ROSSETTI WINS THE SUPERCOPPA FOR NAPOLI",
-    "lead_article_id": "napoli-inter-supercoppa-rossetti-penalties-2031",
-    "article_ids": [
-      "napoli-inter-supercoppa-rossetti-penalties-2031",
-      "edoardo-rossetti-19-supercoppa-top-corner-2031",
-      "epolo-inter-supercoppa-frattesi-save-2031"
-    ],
-    "article_count": 3,
-    "top_level_comments": 69,
-    "total_comments_including_replies": 125,
-    "notes": "Special edition: precise match calendar date not supplied. Existing approved gallery images. Character-led Rossetti profile without fabricated player/manager quotes; no private staff-room information or fan-account allegiance errors."
   },
   "release_history": [
     {
@@ -2436,20 +2449,62 @@
       "M. Cancio"
     ],
     "loan_destinations_and_terms_unreported": true,
-    "public_articles_added": 0
+    "public_articles_added": 0,
+    "playerCount": 38,
+    "loanCount": 16,
+    "notMarkedLoanCount": 22,
+    "newSigning": {
+      "name": "Ruud Nijstad",
+      "from": "Manchester United",
+      "fee": 27500000,
+      "weeklyWage": 84000,
+      "signingBonus": 700000,
+      "age": 23,
+      "overall": 78,
+      "potential": 88,
+      "contractYears": 3,
+      "role": "Prospect"
+    }
   },
   "latest_league_2031_32": {
-    "date": "2031-08-24",
+    "date": "2031-08-30",
     "competition": "Serie A",
-    "fixture": "Palermo 2–2 Napoli",
-    "played": 1,
-    "won": 0,
+    "fixture": "Napoli 2–0 Sampdoria",
+    "played": 2,
+    "won": 1,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 2,
+    "goalsFor": 4,
     "goalsAgainst": 2,
-    "points": 1,
-    "leaguePosition": null
+    "points": 4,
+    "leaguePosition": null,
+    "match": {
+      "xg": [
+        4.2,
+        0.7
+      ],
+      "shots": [
+        10,
+        2
+      ],
+      "shotsOnTarget": [
+        8,
+        0
+      ],
+      "goals": [
+        [
+          "Pio Esposito",
+          58,
+          "Mikey Moore"
+        ],
+        [
+          "João Neves",
+          67,
+          "Nico Paz"
+        ]
+      ],
+      "keeperOlschowskySaves": 6
+    }
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -2491,5 +2546,85 @@
         "Serie A"
       ]
     ]
+  },
+  "latest_italy_qualifying_2030_31": {
+    "asOf": "2031-09-09",
+    "italy": {
+      "played": 8,
+      "won": 6,
+      "drawn": 2,
+      "lost": 0,
+      "goalsFor": 15,
+      "goalsAgainst": 5,
+      "goalDifference": 10,
+      "points": 20,
+      "position": 1
+    },
+    "standings": [
+      [
+        "Italy",
+        8,
+        6,
+        2,
+        0,
+        15,
+        5,
+        10,
+        20
+      ],
+      [
+        "Denmark",
+        8,
+        4,
+        1,
+        3,
+        13,
+        11,
+        2,
+        13
+      ],
+      [
+        "Norway",
+        8,
+        3,
+        1,
+        4,
+        8,
+        11,
+        -3,
+        10
+      ],
+      [
+        "Ukraine",
+        8,
+        2,
+        1,
+        5,
+        7,
+        13,
+        -6,
+        7
+      ],
+      [
+        "Hungary",
+        8,
+        1,
+        3,
+        4,
+        9,
+        12,
+        -3,
+        6
+      ]
+    ],
+    "latestMatch": {
+      "date": "2031-09-09",
+      "fixture": "Norway 1–2 Italy",
+      "haaland": 20,
+      "kean": 53,
+      "pio": 58,
+      "barellaAssist": true,
+      "donnarumma": "Brilliant, no precise save count"
+    }
   }
 }

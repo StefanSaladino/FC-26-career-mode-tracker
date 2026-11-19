@@ -32,8 +32,8 @@ function render(requested){
  const intro=document.querySelector('#stats .section-head p');
  const verification=$('statsVerificationNotice');
  if(view===current){
-  if(intro)intro.textContent=rows.length?'Napoli '+current+' · Serie A opened with a 2–2 draw at Palermo on 24 August; Pio Esposito scored twice. Supercoppa champions.':'Napoli '+current+' · new campaign. Competitive club statistics will begin with the first confirmed fixture.';
-  if(verification)verification.textContent=rows.length?'2031–32 club matches: Supercoppa versus Inter (Pio 1 goal, Estêvão 1 assist); Palermo 2–2 Napoli on 24 August (Pio 2 goals, Zaïre-Emery 1 assist, Estêvão 1 assist). Shootout kicks excluded. Italy excluded.':'No 2031–32 competitive club match has been recorded. The completed 2030–31 treble-winning season remains available in its own tab.';
+  if(intro)intro.textContent=rows.length?'Napoli '+current+' · Napoli beat Sampdoria 2–0 on 30 August after drawing 2–2 at Palermo. Pio Esposito has four competitive club goals; Supercoppa champions.':'Napoli '+current+' · new campaign. Competitive club statistics will begin with the first confirmed fixture.';
+  if(verification)verification.textContent=rows.length?'2031–32 Napoli club: Supercoppa against Inter (Pio goal, Estêvão assist); Palermo draw (Pio brace, Zaïre-Emery and Estêvão assists); Sampdoria win 30 August (Pio and Neves goals, Moore and Paz assists). Penalty shootouts and Italy internationals excluded.':'No 2031–32 competitive club match has been recorded. The completed 2030–31 treble-winning season remains available in its own tab.';
  }else if(view==='career'){
   if(intro)intro.textContent='Napoli career totals from the recorded season archive. Historic records are incomplete, especially 2028–29.';
   if(verification)verification.textContent='Pio Esposito’s 2029–30 records are consolidated into one season entry (34 goals, 21 assists). Older records are incomplete, so career totals are recorded minimums, not independently verified full-career totals. Italy excluded.';
