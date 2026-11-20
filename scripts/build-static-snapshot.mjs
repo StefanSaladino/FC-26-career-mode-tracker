@@ -65,12 +65,16 @@ try{
   if(data.squadSnapshot.players['O. Ly']?.overall!==67||data.squadSnapshot.players['J. Pagano']?.overall!==67||data.squadSnapshot.players['O. Burnett']?.overall!==78)throw Error('Latest pictured ratings missing');
   if(!data.squadSnapshot.loans?.some(x=>x.name==='S. Vitale'&&x.duration==='One year'))throw Error('Vitale one-year loan missing');
   if(['G. D\'Angelo','Lirim Hasa','M. Cancio'].some(n=>!data.squadSnapshot.loans.some(x=>x.name===n&&x.destination===null&&!x.duration)))throw Error('New confirmed loans missing or terms invented');
-  if(!document.getElementById('academyLoansTable')?.textContent?.includes('M. Cancio')||!document.getElementById('academyLoansTable')?.textContent?.includes("G. D'Angelo"))throw Error('Contracted youth and loans table lost historical academy promotions');
-  if(data.academySnapshot2031?.playerCount!==14||data.academySnapshot2031?.players?.length!==14||document.querySelectorAll('#youthTable tbody tr').length!==14)throw Error('September 2031 active academy list incomplete');
-  if(!data.academySnapshot2031.players.some(p=>p.name==='D. Castiello'&&p.position==='CM'&&p.age===16&&p.overall===58&&p.potentialMin===92&&p.potentialMax===94&&p.nationality==='Italy'))throw Error('Castiello Italian academy priority missing');
-  if(!['D. Sagna','C. Baldé'].every(name=>data.academySnapshot2031.players.some(p=>p.name===name&&p.confirmedNotItalian&&p.nationality===null)))throw Error('Non-Italian academy nationality evidence lost');
-  if(!document.getElementById('youthTable')?.textContent?.includes('D. Castiello')||!document.getElementById('youthTable')?.textContent?.includes('D. Sagna')||!document.getElementById('youthTable')?.textContent?.includes('C. Baldé'))throw Error('Current youth academy not rendered');
-  if(data.academySnapshot2030?.playerCount!==16)throw Error('Historical 2030 academy record lost');
+  if(!document.getElementById('youthTable')?.textContent?.includes('M. Cancio')||!document.getElementById('youthTable')?.textContent?.includes("G. D'Angelo"))throw Error('Academy table not refreshed');
+  const youth=data.currentAcademySnapshot?.players||[];
+  if(youth.length!==14||data.academySnapshot2031?.playerCount!==14||data.youth?.length!==14)throw Error('Latest 14-player Youth Squad snapshot missing');
+  for(const [name,position,age,overall,low,high] of [['D. Castiello','CM',16,58,92,94],['D. Sagna','RM',16,60,88,94],['C. Baldé','CAM',17,64,87,93],['V. Gatti','GK',17,61,84,90],['M. Cissé','LW',15,58,84,90]]){
+   const player=youth.find(p=>p.name===name);
+   if(!player||player.position!==position||player.age!==age||player.overall!==overall||player.potentialMin!==low||player.potentialMax!==high||player.plan!=='Dynamic')throw Error('Academy prospect rating mismatch '+name);
+  }
+  if(document.querySelectorAll('#academyYouth2031 tbody tr').length!==14||!document.getElementById('academyYouth2031')?.textContent?.includes('D. Castiello'))throw Error('Youth Academy table not rendered in site');
+  if(!document.querySelector('[data-senior-development]')||!document.getElementById('youthTable')?.textContent?.includes('M. Cancio'))throw Error('Separate senior-loan development table lost');
+  if(document.getElementById('academy')?.textContent?.match(/nationality|nationalities|citizenship/i))throw Error('Academy UI unexpectedly exposes nationality');
   const beierNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Maximilian Beier');
   const estevaoNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Estêvão');
   const beierCareer=data.careerStats?.find(r=>r[0]==='Maximilian Beier');
@@ -176,6 +180,10 @@ try{
  if(['T. Sánchez','L. Jetten','A. Reyna','A. Vergara'].some(name=>!squadView.includes(name)))throw Error('A completed sale is missing from departures');
  if(!(await fresh.locator('#squadGroups').innerText()).includes('Sebastiano Esposito'))throw Error('Completed Sebastiano signing missing from squad');
  if(!(await fresh.locator('#squadGroups').innerText()).includes('Ruud Nijstad'))throw Error('Ruud Nijstad not visible in current squad');
+ await fresh.locator('.section-nav [data-target="academy"]').click();
+ if(await fresh.locator('#academyYouth2031 tbody tr').count()!==14)throw Error('Compiled academy prospect table incomplete');
+ if(!(await fresh.locator('#academyYouth2031').innerText()).includes('D. Castiello'))throw Error('Castiello missing from compiled academy');
+ if(!(await fresh.locator('#youthTable').innerText()).includes('M. Cancio'))throw Error('Senior/loan development table lost during academy refresh');
  await fresh.locator('.section-nav [data-target="matches"]').click();
  await fresh.locator('#teamFilter').selectOption('Italy');
  const italyCards=await fresh.locator('#matchesList .match-card').count();

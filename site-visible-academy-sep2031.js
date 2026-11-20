@@ -1,31 +1,38 @@
-/* Academy squad update from manager's two September 2031 Youth Squad screenshots. Existing senior/loan display preserved. */
+/* September 2031 Youth Squad snapshot: 14 screenshot-confirmed academy players.
+   Keep academy distinct from senior squad and existing loan/young-player table.
+   No nationality fields or labels displayed in the website UI. */
 (()=>{'use strict';
 const D=window.NAPOLI_DATA||(window.NAPOLI_DATA={});
-const raw=[["V. Gatti","GK",17,61,84,90],["N. Rinaldi","CB",15,57,75,91],["M. Ruggiero","CB",14,53,69,87],["V. Pellegrino","RB",16,59,75,89],["S. Badji","CM",16,56,79,85],["D. Castiello","CM",16,58,92,94],["P. Benedetti","CAM",17,63,72,78],["F. Cattaneo","CAM",16,57,79,85],["C. Baldé","CAM",17,64,87,93],["O. Lua","CAM",16,60,80,86],["D. Nicolino","RM",16,58,79,85],["D. Sagna","RM",16,60,88,94],["E. Kamara","LW",15,55,83,89],["M. Cissé","LW",15,58,84,90]];
-const entries=raw.map(([name,position,age,overall,potentialMin,potentialMax])=>({name,position,age,overall,potentialMin,potentialMax,potentialRange:potentialMin+'–'+potentialMax,plan:'Dynamic',nationality:name==='D. Castiello'?'Italy':null,confirmedNotItalian:name==='D. Sagna'||name==='C. Baldé'}));
-D.academySnapshot2031={asOf:'September 2031',source:'Youth Squad screens (2 images)',verified:true,playerCount:entries.length,players:entries,
- notes:'A dated snapshot of 14 visible academy players only, not 2031 senior or loan players. Potential ranges are estimates. Absent from current youth screenshots does not prove a historic player was released or sold. D. Sagna in current screenshot must not be silently identified as previous D. Segna. Manager independently confirms Castiello is Italian; Sagna and Baldé are not Italian, but their exact nationalities are not specified.'};
-D.academyPlayers=entries.map(p=>[p.name,p.position,p.age,p.overall,p.potentialRange]);
-D.youth=entries.map(p=>[p.name,p.position,p.age,p.overall,p.potentialRange,p.plan,'Academy']);
-D.academyCurrentAsOf='September 2031';
-D.academyNationalityNotes2031={italyConfirmed:['D. Castiello'],notItalianCountryUnspecified:['D. Sagna','C. Baldé']};
-const legacy=document.getElementById('youthTable');if(!legacy)throw Error('Existing Academy table not found');
-if(document.getElementById('academyLoansTable'))return;
-legacy.id='academyLoansTable';
-legacy.setAttribute('aria-label','Young first-team players and loanees');
-const wrap=legacy.closest('.table-wrap');if(!wrap)throw Error('Academy section table wrapper not found');
-const section=wrap.closest('#academy');const parent=wrap.parentNode;
-const overview=document.createElement('div');overview.className='academy-snapshot-intro';
-const kicker=document.createElement('h3');kicker.textContent='Current youth squad · September 2031';
-const note=document.createElement('p');note.textContent='14 academy players · Dynamic plans · Scouting potential ranges are estimates, not guaranteed outcomes.';
-overview.append(kicker,note);parent.insertBefore(overview,wrap);
-const youthWrap=document.createElement('div');youthWrap.className='table-wrap';const table=document.createElement('table');table.id='youthTable';table.setAttribute('aria-label','Current 2031 Napoli youth academy');
-const h=document.createElement('thead'),thRow=document.createElement('tr');
-for(const name of ['Player','Position','Age','OVR','Potential','Plan','Nationality']){const th=document.createElement('th');th.textContent=name;thRow.append(th)}h.append(thRow);
-const body=document.createElement('tbody');
-for(const p of entries){const row=document.createElement('tr');for(const value of [p.name,p.position,p.age,p.overall,p.potentialRange,p.plan,p.nationality|| (p.confirmedNotItalian?'Non-Italian':'—')]){const c=document.createElement('td');c.textContent=String(value);row.append(c)}body.append(row)}
-table.append(h,body);youthWrap.append(table);parent.insertBefore(youthWrap,wrap);
-const loansTitle=document.createElement('h3');loansTitle.textContent='Young professionals and loans';parent.insertBefore(loansTitle,wrap);
-const loansNote=document.createElement('p');loansNote.textContent='Contracted senior players and loanees are listed separately from the academy; the roster is unchanged by this academy update.';parent.insertBefore(loansNote,wrap);
-const meta=section?.querySelector('.section-head .section-kicker');if(meta)meta.textContent='Academy · 14 prospects';
+const players=[{"name":"V. Gatti","position":"GK","age":17,"overall":61,"potentialMin":84,"potentialMax":90,"potentialRange":"84–90","plan":"Dynamic"},{"name":"N. Rinaldi","position":"CB","age":15,"overall":57,"potentialMin":75,"potentialMax":91,"potentialRange":"75–91","plan":"Dynamic"},{"name":"M. Ruggiero","position":"CB","age":14,"overall":53,"potentialMin":69,"potentialMax":87,"potentialRange":"69–87","plan":"Dynamic"},{"name":"V. Pellegrino","position":"RB","age":16,"overall":59,"potentialMin":75,"potentialMax":89,"potentialRange":"75–89","plan":"Dynamic"},{"name":"S. Badji","position":"CM","age":16,"overall":56,"potentialMin":79,"potentialMax":85,"potentialRange":"79–85","plan":"Dynamic"},{"name":"D. Castiello","position":"CM","age":16,"overall":58,"potentialMin":92,"potentialMax":94,"potentialRange":"92–94","plan":"Dynamic"},{"name":"P. Benedetti","position":"CAM","age":17,"overall":63,"potentialMin":72,"potentialMax":78,"potentialRange":"72–78","plan":"Dynamic"},{"name":"F. Cattaneo","position":"CAM","age":16,"overall":57,"potentialMin":79,"potentialMax":85,"potentialRange":"79–85","plan":"Dynamic"},{"name":"C. Baldé","position":"CAM","age":17,"overall":64,"potentialMin":87,"potentialMax":93,"potentialRange":"87–93","plan":"Dynamic"},{"name":"O. Lua","position":"CAM","age":16,"overall":60,"potentialMin":80,"potentialMax":86,"potentialRange":"80–86","plan":"Dynamic"},{"name":"D. Nicolino","position":"RM","age":16,"overall":58,"potentialMin":79,"potentialMax":85,"potentialRange":"79–85","plan":"Dynamic"},{"name":"D. Sagna","position":"RM","age":16,"overall":60,"potentialMin":88,"potentialMax":94,"potentialRange":"88–94","plan":"Dynamic"},{"name":"E. Kamara","position":"LW","age":15,"overall":55,"potentialMin":83,"potentialMax":89,"potentialRange":"83–89","plan":"Dynamic"},{"name":"M. Cissé","position":"LW","age":15,"overall":58,"potentialMin":84,"potentialMax":90,"potentialRange":"84–90","plan":"Dynamic"}];
+D.academySnapshot2031={
+ updated:'September 2031 · Youth Squad screenshots',
+ playerCount:players.length,players,
+ notes:'Latest 14 visible academy players. Dynamic development plans; projected potential ranges are estimates, not guaranteed outcomes. Players absent from the current screenshots are not automatically released, sold or promoted. Senior players and loanees stay separate.'
+};
+D.currentAcademySnapshot=D.academySnapshot2031;
+D.academyPlayers=players.map(p=>[p.name,p.position,p.age,p.overall,p.potentialRange]);
+D.youth=players.map(p=>[p.name,p.position,p.age,p.overall,p.potentialRange,p.plan,'—']);
+const safe=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const academy=document.getElementById('academy'),oldSenior=document.getElementById('youthTable');
+if(academy&&oldSenior){
+ const wrap=oldSenior.closest('.table-wrap');
+ const head=academy.querySelector('.section-head h2');
+ if(head)head.textContent='Academy & Development';
+ const intro=academy.querySelector('[data-youth-census]');
+ if(intro)intro.textContent='September 2031 Youth Squad snapshot; senior development players and loanees remain separately listed below.';
+ academy.querySelector('[data-academy-edition]')?.remove();
+ academy.querySelector('[data-academy-snapshot-sep2031]')?.remove();
+ const panel=document.createElement('div');panel.dataset.academySnapshotSep2031='true';panel.className='academy-snapshot-current';
+ const title=document.createElement('h3');title.textContent='Youth Academy · September 2031';
+ const note=document.createElement('p');note.textContent='14 academy players shown in the latest Youth Squad update. Potential figures are projected ranges, not guarantees. All players are on Dynamic plans.';
+ const tableWrap=document.createElement('div');tableWrap.className='table-wrap';
+ const table=document.createElement('table');table.id='academyYouth2031';
+ table.innerHTML='<thead><tr>'+['Player','Pos','Age','OVR','Potential','Plan'].map(v=>'<th>'+safe(v)+'</th>').join('')+'</tr></thead><tbody>'+players.map(p=>'<tr>'+[p.name,p.position,p.age,p.overall,p.potentialRange,p.plan].map(v=>'<td>'+safe(v)+'</td>').join('')+'</tr>').join('')+'</tbody>';
+ tableWrap.append(table);panel.append(title,note,tableWrap);
+ if(wrap)wrap.before(panel);else academy.querySelector('.wrap')?.append(panel);
+ if(wrap){
+  const seniorTitle=document.createElement('h3');seniorTitle.dataset.seniorDevelopment='true';seniorTitle.textContent='Young First-Team Players & Loans';
+  wrap.before(seniorTitle);
+ }
+}
 })();

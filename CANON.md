@@ -1,28 +1,31 @@
-## SEPTEMBER 2031 — UPDATED NAPOLI ACADEMY FROM TWO YOUTH-SQUAD SCREENS; NATIONALITIES CONFIRMED
+## SEPTEMBER 2031 — YOUTH ACADEMY CURRENT SNAPSHOT (14 PLAYERS, MANAGER SCREENSHOTS)
 
-**Manager requests an academy-only update and staff assessment**, not a new match article or newsroom release. Screenshots show the **current visible 14-player youth list** (all Dynamic plans). Ordered top to bottom:
-1. **V. Gatti**, GK, age 17, **61 OVR**, **84–90** potential.
-2. **N. Rinaldi**, CB, 15, **57**, **75–91**.
-3. **M. Ruggiero**, CB, 14, **53**, **69–87**.
-4. **V. Pellegrino**, RB, 16, **59**, **75–89**.
-5. **S. Badji**, CM, 16, **56**, **79–85**.
-6. **D. Castiello**, CM, 16, **58**, **92–94**.
-7. **P. Benedetti**, CAM, 17, **63**, **72–78**.
-8. **F. Cattaneo**, CAM, 16, **57**, **79–85**.
-9. **C. Baldé**, CAM, 17, **64**, **87–93**.
-10. **O. Lua**, CAM, 16, **60**, **80–86**.
-11. **D. Nicolino**, RM, 16, **58**, **79–85**.
-12. **D. Sagna**, RM, 16, **60**, **88–94**.
-13. **E. Kamara**, LW, 15, **55**, **83–89**.
-14. **M. Cissé**, LW, 15, **58**, **84–90**.
+**MOST RECENT ACADEMY:** Two new Youth Squad screenshots supplied by Mister following an Italy national-team renewal offer and Napoli 3–2 Inter. Exactly **14 distinct academy players visible**; all under **Dynamic** development, potential presented as **estimates/ranges** not guarantees. This September 2031 list supersedes the summer 2030 Academy roster for current displays, while historic academy snapshots remain in their dated sections. Absent earlier academy names do **not** establish releases, promotions, sales or loans. All current academy players are distinct from the 38 contracted senior players and 16 loaned players.
 
-**Citizenship/nationality confirmed separately by manager:** **D. Castiello is Italian**. **D. Sagna and C. Baldé are NOT Italian**; **their actual countries are unknown**, so no flags, national teams or heritage may be inferred. Every other youth's nationality is unconfirmed on these screenshots; do not infer Italy from initials or surnames. This affects eligibility considerations for **manager's Italy national team** and long-term Napoli prospects, but there is no national team selection or promotion yet.
+**CORRECT NATIONAL TEAM ELIGIBILITY (Mister's explicit confirmation):** **D. Castiello (CM 16, 58 OVR, 92–94 projected POT) is Italian**; **D. Sagna (RM 16, 60 OVR, 88–94) is NOT Italian**, nationality not established; **C. Baldé (CAM 17, 64 OVR, 87–93) is NOT Italian** (prior explicit detail: Senegalese). Do **NOT** infer Italian eligibility from surnames for any other academy player. The manager's prior standing instruction remains: **NO nationality column, label or metadata on the visible public academy roster UI**. Store eligibility details in CANON/ledger for Italian national team scouting only.
 
-**Staff priority:** Castiello (92–94 potential, central midfielder, age 16) is standout long-range technical/high-upside prospect for Napoli and possibly Italy after substantial development; Sagna 88–94 and Baldé 87–93 also top group, both non-Italian; Gatti 61 OVR/84–90 deserves GK tracking; Rinaldi 75–91 and M. Cissé 84–90 among young longer-term projects. Potential intervals are scouts' estimates, not guaranteed final OVR. No player has been promoted, loaned or sold merely by appearing/disappearing from this snapshot. **D. Sagna must not be conflated with older D. Segna** without evidence. Preserve summer 2030 youth snapshot in historical state, preserve current 2031 senior squad, previously promoted players and contracted loanees separately. Do not label the newly visible youth as current senior or on-loan professionals.
+| Player | Position | Age | OVR | Estimated POT range | Plan |
+|---|---|---:|---:|---|---|
+| V. Gatti | GK | 17 | 61 | 84–90 | Dynamic |
+| N. Rinaldi | CB | 15 | 57 | 75–91 | Dynamic |
+| M. Ruggiero | CB | 14 | 53 | 69–87 | Dynamic |
+| V. Pellegrino | RB | 16 | 59 | 75–89 | Dynamic |
+| S. Badji | CM | 16 | 56 | 79–85 | Dynamic |
+| D. Castiello | CM | 16 | 58 | 92–94 | Dynamic |
+| P. Benedetti | CAM | 17 | 63 | 72–78 | Dynamic |
+| F. Cattaneo | CAM | 16 | 57 | 79–85 | Dynamic |
+| C. Baldé | CAM | 17 | 64 | 87–93 | Dynamic |
+| O. Lua | CAM | 16 | 60 | 80–86 | Dynamic |
+| D. Nicolino | RM | 16 | 58 | 79–85 | Dynamic |
+| D. Sagna | RM | 16 | 60 | 88–94 | Dynamic |
+| E. Kamara | LW | 15 | 55 | 83–89 | Dynamic |
+| M. Cissé | LW | 15 | 58 | 84–90 | Dynamic |
 
-**Recent match continuity not yet published in newsroom:** User has subsequently described Napoli **3–2 Inter** (Serie A; fixture date not explicitly provided) with Beier 8' (Moore), Bonny 12' (Inter), Pio 23' (Zaïre-Emery), Bonny 31', Beier 45+3' (Zaïre-Emery). Epolo saved Bonny clean look **90+2'** behind for a corner and Napoli won FT. Don't fabricate assist for Bonny, xG, opponent GK or other events; do NOT automatically publish news or change current hero/stats/match results as part of academy-only update. Current follow-on Serie A record after this win would be P4 3W1D0L 10 points GF9 GA4, but keep newsroom publication held until manager explicitly says to run stories. The Italian federation has **offered** the manager renewal; no acceptance confirmed, do not falsely publish that he renewed.
+**STAFF VIEW:** Castiello most exciting Italy-eligible high-ceiling prospect, but current 58 OVR at 16 means sustained academy development, no premature senior starts. Sagna offers high-ceiling wide-midfield development (not Azzurri-eligible); Baldé highest current OVR at 64 and strongest near-term creator but not Italy-eligible. Gatti 61 OVR at 17 with 84–90 projected range; Cissé 58 at just 15, 84–90; Rinaldi 57 at 15 with broad 75–91 range; both need time. No confirmed promotions, positions changes, release, loan or lineup decisions. P. Benedetti relatively advanced at 63 but lower 72–78 potential estimate; could provide near-term depth, not necessarily elite ceiling.
 
-**Technical implementation:** `site-visible-academy-sep2031.js` provides current 14-player Academy table (position, age, OVR, potential, plan and verified nationality labels); original `academyLoansTable` preserves young professional / loans list. Update `CANON.md`, ledger, academy-only script loader and static snapshot build. Keep existing Arsenal lead until new newsroom authorization.
+**IMPLEMENTATION SCOPE:** Academy-only current snapshot in `site-visible-academy-sep2031.js`; new Youth Academy table visible ahead of existing senior development and loaned-player table, rather than overwriting older player history or conflating academy with senior contracts. Leave published articles and live latest match as Arsenal 1–0 until Mister expressly authorises news for Inter or Italy renewal. Latest site squad stays 38 contracted with 16 loans. Academy website has no nationality fields.
+
+**RECENT CONTINUITY, NOT YET NEWSROOM-PUBLISHED:** Napoli beat Inter **3–2** in Serie A at home (exact fixture date not provided). Beier 8′ from Mikey Moore; Bonny 12′; Pio Esposito 23′ from Zaïre-Emery; Bonny 31′; Beier 45+3′ from Zaïre-Emery. Bonny nearly equalised 90+2′, but Epolo got a hand to his clear shot and diverted it behind for a corner, preserving the win. FT 3–2. Napoli four Serie A matches **3W1D0L, GF9 GA4, 10 points, GD+5**, league rank unknown. Club goals/assists including Inter but not yet updated to the public site: Pio **6G0A**, Beier **2G0A**, Moore **0G3A**, Zaïre-Emery **0G3A** (Palermo one + Inter two); prior assistant's “four Zaïre assists” was an incorrect count. Italy national team federation **offered/recommended manager contract renewal**; no acceptance or final contract execution confirmed. Do not invent acceptance terms. This is saved for a later separately authorised match/newsroom publication.
 
 ---
 

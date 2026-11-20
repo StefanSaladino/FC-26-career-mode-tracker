@@ -2693,50 +2693,147 @@
     },
     "notes": "Napoli club only; Pio's Italy Norway goal excluded; shootout conversions excluded"
   },
-  "latest_academy_2031_09": {
-    "source": "Manager's two current Youth Squad screenshots, followed by manager nationality confirmation",
-    "players": 14,
-    "date": "September 2031; exact day not confirmed",
-    "plans": "Dynamic for all 14",
-    "newAcademyScript": "site-visible-academy-sep2031.js",
-    "historicalAcademy2030Preserved": true,
-    "seniorAndLoansSeparate": true,
-    "confirmedNationality": {
-      "italian": [
-        "D. Castiello"
-      ],
-      "notItalianWithCountryUnknown": [
-        "D. Sagna",
-        "C. Baldé"
-      ]
-    },
-    "standouts": [
+  "latest_academy_2031_32": {
+    "snapshotPeriod": "September 2031 after Inter match, exact calendar day unknown",
+    "source": "Two manager screenshots of Youth Squad",
+    "status": "14 academy names, ages, positions, current OVR, POT ranges and Dynamic plans screenshot-confirmed",
+    "playerCount": 14,
+    "players": [
       {
-        "name": "D. Castiello",
-        "age": 16,
-        "position": "CM",
-        "ovr": 58,
-        "potential": "92–94",
-        "nationality": "Italy"
+        "name": "V. Gatti",
+        "position": "GK",
+        "age": 17,
+        "overall": 61,
+        "potentialRange": "84–90",
+        "plan": "Dynamic"
       },
       {
-        "name": "D. Sagna",
+        "name": "N. Rinaldi",
+        "position": "CB",
+        "age": 15,
+        "overall": 57,
+        "potentialRange": "75–91",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "M. Ruggiero",
+        "position": "CB",
+        "age": 14,
+        "overall": 53,
+        "potentialRange": "69–87",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "V. Pellegrino",
+        "position": "RB",
         "age": 16,
-        "position": "RM",
-        "ovr": 60,
-        "potential": "88–94",
-        "notItalian": true
+        "overall": 59,
+        "potentialRange": "75–89",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "S. Badji",
+        "position": "CM",
+        "age": 16,
+        "overall": 56,
+        "potentialRange": "79–85",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "D. Castiello",
+        "position": "CM",
+        "age": 16,
+        "overall": 58,
+        "potentialRange": "92–94",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "P. Benedetti",
+        "position": "CAM",
+        "age": 17,
+        "overall": 63,
+        "potentialRange": "72–78",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "F. Cattaneo",
+        "position": "CAM",
+        "age": 16,
+        "overall": 57,
+        "potentialRange": "79–85",
+        "plan": "Dynamic"
       },
       {
         "name": "C. Baldé",
-        "age": 17,
         "position": "CAM",
-        "ovr": 64,
-        "potential": "87–93",
-        "notItalian": true
+        "age": 17,
+        "overall": 64,
+        "potentialRange": "87–93",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "O. Lua",
+        "position": "CAM",
+        "age": 16,
+        "overall": 60,
+        "potentialRange": "80–86",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "D. Nicolino",
+        "position": "RM",
+        "age": 16,
+        "overall": 58,
+        "potentialRange": "79–85",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "D. Sagna",
+        "position": "RM",
+        "age": 16,
+        "overall": 60,
+        "potentialRange": "88–94",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "E. Kamara",
+        "position": "LW",
+        "age": 15,
+        "overall": 55,
+        "potentialRange": "83–89",
+        "plan": "Dynamic"
+      },
+      {
+        "name": "M. Cissé",
+        "position": "LW",
+        "age": 15,
+        "overall": 58,
+        "potentialRange": "84–90",
+        "plan": "Dynamic"
       }
     ],
-    "editorial": "Academy update only; no new public stories. Inter result and Italy renewal offer held for subsequent user-authorized editorial edition",
-    "qa": "Snapshot compilation and Pages deployment verification pending."
+    "internalEligibility": {
+      "D. Castiello": "Italian, confirmed",
+      "D. Sagna": "Not Italian; nationality otherwise unconfirmed",
+      "C. Baldé": "Not Italian; prior confirmation Senegalese"
+    },
+    "publicRosterNationality": false,
+    "historicalAcademyPreserved": true,
+    "academySeparatedFromSeniorAndLoans": true,
+    "currentSeniorSquadUnchanged": true,
+    "newsroomPublication": false,
+    "sourceFiles": [
+      "site-visible-academy-sep2031.js",
+      "CANON.md",
+      "EDITORIAL_COVERAGE_LEDGER.json"
+    ]
+  },
+  "pending_newsroom_after_arsenal": {
+    "match": "Napoli 3–2 Inter (date not supplied)",
+    "events": "Beier 8′ Moore; Bonny 12′; Pio 23′ Zaïre-Emery; Bonny 31′; Beier 45+3′ Zaïre-Emery; Epolo save on Bonny 90+2′",
+    "leaguePoints": 10,
+    "form": "3W 1D 0L",
+    "italyRenewalOffer": "Italy offers renewal; manager's acceptance unconfirmed",
+    "status": "Canon only. Do not change public match archive or lead without explicit run-the-stories instruction."
   }
 }
