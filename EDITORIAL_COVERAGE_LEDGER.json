@@ -218,6 +218,30 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "16 September 2031 Arsenal 1–0 Napoli and Roma 0–2 Napoli; Bellandi column",
+    "status": "Publication requested; final source script prepared; compiled build and Pages deployment to be verified",
+    "stories": [
+      "arsenal-napoli-1-0-ansah-epolo-raya-sep16-2031",
+      "bellandi-arsenal-napoli-early-goal-raya-epolo-sep16-2031",
+      "roma-napoli-0-2-sebastiano-pio-esposito-sep12-2031",
+      "sebastiano-pio-esposito-brothers-roma-role-sep2031"
+    ],
+    "sources": [
+      "stories-roma-arsenal-bellandi-sep2031.js",
+      "site-visible-roma-arsenal-sep2031.js"
+    ],
+    "counts": {
+      "articles": 4,
+      "paragraphs": 49,
+      "topLevel": 62,
+      "threadedReplies": 58,
+      "totalComments": 120
+    },
+    "standards": "No invented manager public quotes, no Sandro private phone-call leak. Bellandi independent public opinion grounded in reported events. Epolo/Raya both excellent, no invented save counts.",
+    "imagery": "Existing approved Napoli editorial illustrations, no fabricated Arsenal match photo.",
+    "qa": "After source push: verify editorial validator, compact browser compile, deployment."
+  },
+  "previous_newsroom_package": {
     "phase": "9 September 2031 Italy 2–1 Norway and complete qualifying group, Napoli 2–0 Sampdoria, Nijstad signing",
     "status": "Publication requested and source prepared; build and deployment to be checked",
     "stories": [
@@ -241,30 +265,6 @@
     "identity": "No public press manager quotations. Pio Italy goal separate from Napoli club four goals.",
     "imaging": "Existing approved image assets used as archival editorial illustration",
     "qa": "Run editorial QA and compact snapshot browser checks, Pages deployment; previous edition preserved."
-  },
-  "previous_newsroom_package": {
-    "status": "Source publication authorised; compact builder and Pages deployment pending verification",
-    "phase": "24 August 2031 — Palermo 2–2 Napoli Serie A opener and August/September calendar",
-    "stories": [
-      "palermo-napoli-two-two-diakite-pio-aug24-2031",
-      "pio-esposito-two-equalisers-palermo-aug24-2031",
-      "napoli-august-september-roma-arsenal-calendar-2031"
-    ],
-    "sources": [
-      "stories-palermo-aug24-2031.js",
-      "site-visible-palermo-aug24-2031.js"
-    ],
-    "counts": {
-      "articles": 3,
-      "paragraphs": 32,
-      "topLevel": 42,
-      "threadedReplies": 39,
-      "totalComments": 81
-    },
-    "coverage": "Player-focused Pio essay for August 2031; no fabricated interview or manager public quotes",
-    "images": "Approved Napoli gallery artwork",
-    "calendar": "Sampdoria Aug 30; Italy/Norway Sept 9; Roma away Sept 12; Arsenal away UCL Sept 16; home league unnamed Sept 21; Sassuolo away Sept 27",
-    "preserve": "Supercoppa special edition and comment threads; 16 squad loans and prior stats"
   },
   "release_history": [
     {
@@ -2467,44 +2467,33 @@
     }
   },
   "latest_league_2031_32": {
-    "date": "2031-08-30",
+    "date": "2031-09-12",
     "competition": "Serie A",
-    "fixture": "Napoli 2–0 Sampdoria",
-    "played": 2,
-    "won": 1,
+    "fixture": "Roma 0–2 Napoli",
+    "played": 3,
+    "won": 2,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 4,
+    "goalsFor": 6,
     "goalsAgainst": 2,
-    "points": 4,
+    "goalDifference": 4,
+    "points": 7,
     "leaguePosition": null,
-    "match": {
-      "xg": [
-        4.2,
-        0.7
-      ],
-      "shots": [
-        10,
-        2
-      ],
-      "shotsOnTarget": [
-        8,
-        0
-      ],
-      "goals": [
-        [
-          "Pio Esposito",
-          58,
-          "Mikey Moore"
-        ],
-        [
-          "João Neves",
-          67,
-          "Nico Paz"
-        ]
-      ],
-      "keeperOlschowskySaves": 6
-    }
+    "goals": [
+      {
+        "minute": 32,
+        "scorer": "Sebastiano Esposito",
+        "assist": "Mikey Moore",
+        "firstNapoliGoal": true
+      },
+      {
+        "minute": 75,
+        "scorer": "Pio Esposito",
+        "assist": "Sebastiano Esposito",
+        "assistType": "through ball"
+      }
+    ],
+    "cleanSheet": true
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -2626,5 +2615,82 @@
       "barellaAssist": true,
       "donnarumma": "Brilliant, no precise save count"
     }
+  },
+  "latest_europe_2031_32": {
+    "date": "2031-09-16",
+    "competition": "UEFA Champions League league phase",
+    "fixture": "Arsenal 1–0 Napoli",
+    "goal": {
+      "minute": 8,
+      "scorer": "Ansah"
+    },
+    "goalkeepers": {
+      "Napoli": "Epolo brilliant",
+      "Arsenal": "David Raya excellent"
+    },
+    "napoliChances": "a few good chances",
+    "played": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 1,
+    "points": 0,
+    "nextConfirmedEuropeanFixture": null
+  },
+  "latest_club_contributions_2031_32": {
+    "date": "2031-09-16",
+    "clubSeason": [
+      [
+        "Pio Esposito",
+        5,
+        0
+      ],
+      [
+        "Sebastiano Esposito",
+        1,
+        1
+      ],
+      [
+        "Mikey Moore",
+        0,
+        2
+      ],
+      [
+        "Estêvão",
+        0,
+        2
+      ],
+      [
+        "Warren Zaïre-Emery",
+        0,
+        1
+      ],
+      [
+        "João Neves",
+        1,
+        0
+      ],
+      [
+        "Nico Paz",
+        0,
+        1
+      ]
+    ],
+    "clubCareer": {
+      "PioEsposito": [
+        149,
+        74
+      ],
+      "MikeyMoore": [
+        17,
+        30
+      ],
+      "SebastianoEsposito": [
+        1,
+        1
+      ]
+    },
+    "notes": "Napoli club only; Pio's Italy Norway goal excluded; shootout conversions excluded"
   }
 }
