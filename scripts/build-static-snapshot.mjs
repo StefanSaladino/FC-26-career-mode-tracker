@@ -65,7 +65,12 @@ try{
   if(data.squadSnapshot.players['O. Ly']?.overall!==67||data.squadSnapshot.players['J. Pagano']?.overall!==67||data.squadSnapshot.players['O. Burnett']?.overall!==78)throw Error('Latest pictured ratings missing');
   if(!data.squadSnapshot.loans?.some(x=>x.name==='S. Vitale'&&x.duration==='One year'))throw Error('Vitale one-year loan missing');
   if(['G. D\'Angelo','Lirim Hasa','M. Cancio'].some(n=>!data.squadSnapshot.loans.some(x=>x.name===n&&x.destination===null&&!x.duration)))throw Error('New confirmed loans missing or terms invented');
-  if(!document.getElementById('youthTable')?.textContent?.includes('M. Cancio')||!document.getElementById('youthTable')?.textContent?.includes("G. D'Angelo"))throw Error('Academy table not refreshed');
+  if(!document.getElementById('academyLoansTable')?.textContent?.includes('M. Cancio')||!document.getElementById('academyLoansTable')?.textContent?.includes("G. D'Angelo"))throw Error('Contracted youth and loans table lost historical academy promotions');
+  if(data.academySnapshot2031?.playerCount!==14||data.academySnapshot2031?.players?.length!==14||document.querySelectorAll('#youthTable tbody tr').length!==14)throw Error('September 2031 active academy list incomplete');
+  if(!data.academySnapshot2031.players.some(p=>p.name==='D. Castiello'&&p.position==='CM'&&p.age===16&&p.overall===58&&p.potentialMin===92&&p.potentialMax===94&&p.nationality==='Italy'))throw Error('Castiello Italian academy priority missing');
+  if(!['D. Sagna','C. Baldé'].every(name=>data.academySnapshot2031.players.some(p=>p.name===name&&p.confirmedNotItalian&&p.nationality===null)))throw Error('Non-Italian academy nationality evidence lost');
+  if(!document.getElementById('youthTable')?.textContent?.includes('D. Castiello')||!document.getElementById('youthTable')?.textContent?.includes('D. Sagna')||!document.getElementById('youthTable')?.textContent?.includes('C. Baldé'))throw Error('Current youth academy not rendered');
+  if(data.academySnapshot2030?.playerCount!==16)throw Error('Historical 2030 academy record lost');
   const beierNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Maximilian Beier');
   const estevaoNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Estêvão');
   const beierCareer=data.careerStats?.find(r=>r[0]==='Maximilian Beier');

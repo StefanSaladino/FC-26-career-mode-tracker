@@ -1,3 +1,31 @@
+## SEPTEMBER 2031 — UPDATED NAPOLI ACADEMY FROM TWO YOUTH-SQUAD SCREENS; NATIONALITIES CONFIRMED
+
+**Manager requests an academy-only update and staff assessment**, not a new match article or newsroom release. Screenshots show the **current visible 14-player youth list** (all Dynamic plans). Ordered top to bottom:
+1. **V. Gatti**, GK, age 17, **61 OVR**, **84–90** potential.
+2. **N. Rinaldi**, CB, 15, **57**, **75–91**.
+3. **M. Ruggiero**, CB, 14, **53**, **69–87**.
+4. **V. Pellegrino**, RB, 16, **59**, **75–89**.
+5. **S. Badji**, CM, 16, **56**, **79–85**.
+6. **D. Castiello**, CM, 16, **58**, **92–94**.
+7. **P. Benedetti**, CAM, 17, **63**, **72–78**.
+8. **F. Cattaneo**, CAM, 16, **57**, **79–85**.
+9. **C. Baldé**, CAM, 17, **64**, **87–93**.
+10. **O. Lua**, CAM, 16, **60**, **80–86**.
+11. **D. Nicolino**, RM, 16, **58**, **79–85**.
+12. **D. Sagna**, RM, 16, **60**, **88–94**.
+13. **E. Kamara**, LW, 15, **55**, **83–89**.
+14. **M. Cissé**, LW, 15, **58**, **84–90**.
+
+**Citizenship/nationality confirmed separately by manager:** **D. Castiello is Italian**. **D. Sagna and C. Baldé are NOT Italian**; **their actual countries are unknown**, so no flags, national teams or heritage may be inferred. Every other youth's nationality is unconfirmed on these screenshots; do not infer Italy from initials or surnames. This affects eligibility considerations for **manager's Italy national team** and long-term Napoli prospects, but there is no national team selection or promotion yet.
+
+**Staff priority:** Castiello (92–94 potential, central midfielder, age 16) is standout long-range technical/high-upside prospect for Napoli and possibly Italy after substantial development; Sagna 88–94 and Baldé 87–93 also top group, both non-Italian; Gatti 61 OVR/84–90 deserves GK tracking; Rinaldi 75–91 and M. Cissé 84–90 among young longer-term projects. Potential intervals are scouts' estimates, not guaranteed final OVR. No player has been promoted, loaned or sold merely by appearing/disappearing from this snapshot. **D. Sagna must not be conflated with older D. Segna** without evidence. Preserve summer 2030 youth snapshot in historical state, preserve current 2031 senior squad, previously promoted players and contracted loanees separately. Do not label the newly visible youth as current senior or on-loan professionals.
+
+**Recent match continuity not yet published in newsroom:** User has subsequently described Napoli **3–2 Inter** (Serie A; fixture date not explicitly provided) with Beier 8' (Moore), Bonny 12' (Inter), Pio 23' (Zaïre-Emery), Bonny 31', Beier 45+3' (Zaïre-Emery). Epolo saved Bonny clean look **90+2'** behind for a corner and Napoli won FT. Don't fabricate assist for Bonny, xG, opponent GK or other events; do NOT automatically publish news or change current hero/stats/match results as part of academy-only update. Current follow-on Serie A record after this win would be P4 3W1D0L 10 points GF9 GA4, but keep newsroom publication held until manager explicitly says to run stories. The Italian federation has **offered** the manager renewal; no acceptance confirmed, do not falsely publish that he renewed.
+
+**Technical implementation:** `site-visible-academy-sep2031.js` provides current 14-player Academy table (position, age, OVR, potential, plan and verified nationality labels); original `academyLoansTable` preserves young professional / loans list. Update `CANON.md`, ledger, academy-only script loader and static snapshot build. Keep existing Arsenal lead until new newsroom authorization.
+
+---
+
 ## 16 SEPTEMBER 2031 — ARSENAL 1–0 NAPOLI IN LONDON; ROMA 0–2 NAPOLI AWAY; BELLANDI'S INDEPENDENT COLUMN
 
 **Confirmed Arsenal Champions League league phase opening fixture — 16 Sep 2031 away:** Arsenal **1–0 Napoli**, sole scorer **Ansah 8′**, no assist identified. Mister calls it a **very good, competitive match**, Napoli had **a few good chances**, but Arsenal goalkeeper **David Raya was very good**, and Napoli goalkeeper **Epolo was also fantastic**. No save totals, shots, on-target counts, xG, passes, lineup, other players' match actions or injuries confirmed. This is Napoli's first **2031–32 Champions League league-phase** fixture, record **P1 W0 D0 L1 GF0 GA1, 0 points**; do not claim the European campaign is over or infer league-phase standing. Manager's staff-room assessment: **“This means nothing AM. It’s one loss in the group stage. Lots to play.”** PRIVATE; never turn into a public manager quote or leak private Sandro conversations. Historical comparison: Arsenal beat Napoli 2–1 in London in the previous UCL QF first leg, before Napoli's home turnaround; do not confuse that knockout tie with current league-phase match. No Arsenal next matchup confirmed.

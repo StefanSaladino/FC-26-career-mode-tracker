@@ -2692,5 +2692,51 @@
       ]
     },
     "notes": "Napoli club only; Pio's Italy Norway goal excluded; shootout conversions excluded"
+  },
+  "latest_academy_2031_09": {
+    "source": "Manager's two current Youth Squad screenshots, followed by manager nationality confirmation",
+    "players": 14,
+    "date": "September 2031; exact day not confirmed",
+    "plans": "Dynamic for all 14",
+    "newAcademyScript": "site-visible-academy-sep2031.js",
+    "historicalAcademy2030Preserved": true,
+    "seniorAndLoansSeparate": true,
+    "confirmedNationality": {
+      "italian": [
+        "D. Castiello"
+      ],
+      "notItalianWithCountryUnknown": [
+        "D. Sagna",
+        "C. Baldé"
+      ]
+    },
+    "standouts": [
+      {
+        "name": "D. Castiello",
+        "age": 16,
+        "position": "CM",
+        "ovr": 58,
+        "potential": "92–94",
+        "nationality": "Italy"
+      },
+      {
+        "name": "D. Sagna",
+        "age": 16,
+        "position": "RM",
+        "ovr": 60,
+        "potential": "88–94",
+        "notItalian": true
+      },
+      {
+        "name": "C. Baldé",
+        "age": 17,
+        "position": "CAM",
+        "ovr": 64,
+        "potential": "87–93",
+        "notItalian": true
+      }
+    ],
+    "editorial": "Academy update only; no new public stories. Inter result and Italy renewal offer held for subsequent user-authorized editorial edition",
+    "qa": "Snapshot compilation and Pages deployment verification pending."
   }
 }
