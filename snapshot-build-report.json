@@ -1,7 +1,7 @@
 {
-  "revision": "62bfa1edad63",
-  "articles": 846,
-  "results": 183,
+  "revision": "28f5c96c6be1",
+  "articles": 850,
+  "results": 185,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,7 +9,7 @@
       20
     ],
     "careerPio": [
-      148,
+      149,
       74
     ],
     "historicalPio": [
@@ -29,10 +29,12 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Roma"
+    "nextClub": null,
+    "latestEurope": "Arsenal 1–0 Napoli",
+    "latestSerieA": "Roma 0–2 Napoli"
   },
   "publicationVoice": {
-    "articleCount": 846
+    "articleCount": 850
   },
   "legacyErrors": []
 }
