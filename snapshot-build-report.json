@@ -1,7 +1,7 @@
 {
-  "revision": "95b2c35d3e3e",
-  "articles": 853,
-  "results": 187,
+  "revision": "4d9918297668",
+  "articles": 858,
+  "results": 188,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,7 +9,7 @@
       20
     ],
     "careerPio": [
-      151,
+      152,
       74
     ],
     "historicalPio": [
@@ -29,12 +29,12 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Paris Saint-Germain",
-    "latestEurope": "Arsenal 1–0 Napoli",
+    "nextClub": "Udinese",
+    "latestEurope": "Napoli 3–0 Paris Saint-Germain",
     "latestSerieA": "Sassuolo 1–3 Napoli"
   },
   "publicationVoice": {
-    "articleCount": 853
+    "articleCount": 858
   },
   "legacyErrors": []
 }
