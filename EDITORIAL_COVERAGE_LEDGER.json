@@ -218,28 +218,25 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "phase": "16 September 2031 Arsenal 1–0 Napoli and Roma 0–2 Napoli; Bellandi column",
-    "status": "Publication requested; final source script prepared; compiled build and Pages deployment to be verified",
+    "phase": "27 September 2031 · Sassuolo 1–3 Napoli, previously pending Napoli 3–2 Inter, Burnett feature",
+    "status": "Source edition prepared for one consolidated commit; compact compile and Pages deployment require verification",
     "stories": [
-      "arsenal-napoli-1-0-ansah-epolo-raya-sep16-2031",
-      "bellandi-arsenal-napoli-early-goal-raya-epolo-sep16-2031",
-      "roma-napoli-0-2-sebastiano-pio-esposito-sep12-2031",
-      "sebastiano-pio-esposito-brothers-roma-role-sep2031"
+      "sassuolo-napoli-1-3-burnett-reprieve-sep27-2031",
+      "napoli-inter-3-2-beier-bonny-epolo-sep2031",
+      "burnett-first-half-sassuolo-goalkeeper-depth-sep2031"
     ],
     "sources": [
-      "stories-roma-arsenal-bellandi-sep2031.js",
-      "site-visible-roma-arsenal-sep2031.js"
+      "stories-inter-sassuolo-sep2031.js",
+      "site-visible-inter-sassuolo-sep2031.js"
     ],
     "counts": {
-      "articles": 4,
-      "paragraphs": 49,
-      "topLevel": 62,
-      "threadedReplies": 58,
-      "totalComments": 120
+      "articles": 3,
+      "paragraphs": 36,
+      "topLevel": 38
     },
-    "standards": "No invented manager public quotes, no Sandro private phone-call leak. Bellandi independent public opinion grounded in reported events. Epolo/Raya both excellent, no invented save counts.",
-    "imagery": "Existing approved Napoli editorial illustrations, no fabricated Arsenal match photo.",
-    "qa": "After source push: verify editorial validator, compact browser compile, deployment."
+    "standards": "No fabricated manager quotes, no unconfirmed Inter date, Burnett heroics and half-time xG correctly scoped, Zaïre-Emery personal details private.",
+    "imagery": "Existing approved Napoli gallery illustrations, not match photographs",
+    "qa": "Check editorial gate, compiled build and Pages deployment."
   },
   "previous_newsroom_package": {
     "phase": "9 September 2031 Italy 2–1 Norway and complete qualifying group, Napoli 2–0 Sampdoria, Nijstad signing",
@@ -2467,33 +2464,25 @@
     }
   },
   "latest_league_2031_32": {
-    "date": "2031-09-12",
-    "competition": "Serie A",
-    "fixture": "Roma 0–2 Napoli",
-    "played": 3,
-    "won": 2,
+    "season": "2031–32",
+    "asOf": "2031-09-27",
+    "played": 5,
+    "won": 4,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 6,
-    "goalsAgainst": 2,
-    "goalDifference": 4,
-    "points": 7,
-    "leaguePosition": null,
-    "goals": [
-      {
-        "minute": 32,
-        "scorer": "Sebastiano Esposito",
-        "assist": "Mikey Moore",
-        "firstNapoliGoal": true
-      },
-      {
-        "minute": 75,
-        "scorer": "Pio Esposito",
-        "assist": "Sebastiano Esposito",
-        "assistType": "through ball"
-      }
-    ],
-    "cleanSheet": true
+    "goalsFor": 12,
+    "goalsAgainst": 5,
+    "goalDifference": 7,
+    "points": 13,
+    "position": null,
+    "lastResult": "Sassuolo 1–3 Napoli",
+    "previousResult": "Napoli 3–2 Inter",
+    "lastResultHTxg": {
+      "sassuolo": 3.3,
+      "napoli": 1.7
+    },
+    "burnettPerformance": "Very good first half",
+    "secondHalfSassuoloChances": 1
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -2639,59 +2628,76 @@
     "nextConfirmedEuropeanFixture": null
   },
   "latest_club_contributions_2031_32": {
-    "date": "2031-09-16",
-    "clubSeason": [
-      [
-        "Pio Esposito",
-        5,
-        0
-      ],
-      [
-        "Sebastiano Esposito",
-        1,
-        1
-      ],
-      [
-        "Mikey Moore",
-        0,
-        2
-      ],
-      [
-        "Estêvão",
-        0,
-        2
-      ],
-      [
-        "Warren Zaïre-Emery",
-        0,
-        1
-      ],
-      [
-        "João Neves",
-        1,
-        0
-      ],
-      [
-        "Nico Paz",
-        0,
-        1
-      ]
-    ],
-    "clubCareer": {
+    "asOf": "2031-09-27",
+    "clubSeason": {
       "PioEsposito": [
-        149,
-        74
-      ],
-      "MikeyMoore": [
-        17,
-        30
+        7,
+        0
       ],
       "SebastianoEsposito": [
         1,
         1
+      ],
+      "MikeyMoore": [
+        0,
+        4
+      ],
+      "Estevao": [
+        0,
+        2
+      ],
+      "WarrenZaireEmery": [
+        0,
+        3
+      ],
+      "JoaoNeves": [
+        2,
+        0
+      ],
+      "NicoPaz": [
+        1,
+        1
+      ],
+      "MaximilianBeier": [
+        2,
+        0
+      ],
+      "AntonStach": [
+        0,
+        1
+      ],
+      "ScottMcTominay": [
+        0,
+        1
       ]
     },
-    "notes": "Napoli club only; Pio's Italy Norway goal excluded; shootout conversions excluded"
+    "careerConfirmed": {
+      "PioEsposito": [
+        151,
+        74
+      ],
+      "MikeyMoore": [
+        17,
+        32
+      ],
+      "JoaoNeves": [
+        9,
+        9
+      ],
+      "NicoPaz": [
+        21,
+        26
+      ],
+      "WarrenZaireEmery": [
+        6,
+        17
+      ],
+      "MaximilianBeier": [
+        135,
+        90
+      ]
+    },
+    "scope": "All Napoli competitive club games including 2031 Supercoppa, shootouts and Italy excluded"
   },
   "latest_academy_2031_32": {
     "snapshotPeriod": "September 2031 after Inter match, exact calendar day unknown",
@@ -2834,6 +2840,18 @@
     "leaguePoints": 10,
     "form": "3W 1D 0L",
     "italyRenewalOffer": "Italy offers renewal; manager's acceptance unconfirmed",
-    "status": "Canon only. Do not change public match archive or lead without explicit run-the-stories instruction."
+    "status": "Published together with Sassuolo edition on Mister's explicit approval; no unpublished Inter match remains."
+  },
+  "zaire_emery_leave_sep2031": {
+    "reason": "Personal emergency; details confidential",
+    "status": "Leave of absence",
+    "returnDate": null,
+    "publicScope": "Only personal leave and unknown return; no personal details or fabricated statements"
+  },
+  "season_2031_32_burnett_character_feature": {
+    "month": "2031-09",
+    "status": "covered",
+    "storyId": "burnett-first-half-sassuolo-goalkeeper-depth-sep2031",
+    "notes": "Character-focused analysis based on user's observation of keeper's first-half display at Sassuolo; no invented interview."
   }
 }
