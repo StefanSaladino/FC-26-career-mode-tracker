@@ -78,7 +78,7 @@ try{
   const beierNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Maximilian Beier');
   const estevaoNow=data.statsBySeason?.['2030–31']?.find(r=>r[0]==='Estêvão');
   const beierCareer=data.careerStats?.find(r=>r[0]==='Maximilian Beier');
-  if(!beierNow||beierNow[1]!==43||beierNow[2]!==35||!beierCareer||beierCareer[1]!==133||beierCareer[2]!==90)throw Error('Beier final brace not in Stats Room');
+  if(!beierNow||beierNow[1]!==43||beierNow[2]!==35||!beierCareer||beierCareer[1]!==135||beierCareer[2]!==90)throw Error('Beier final brace not in Stats Room');
   if(!estevaoNow||estevaoNow[1]!==3||estevaoNow[2]!==7)throw Error('Estêvão final assist not in Stats Room');
   const finalResult=data.results?.find(r=>r[0]==='Napoli'&&r[2]==='Champions League'&&r[3]===2&&r[4]===0&&String(r[6]).includes('31 May 2031'));
   if(!finalResult)throw Error('Napoli 2–0 PSG final result missing');
