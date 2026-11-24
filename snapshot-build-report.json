@@ -1,7 +1,7 @@
 {
-  "revision": "82a1873a11cc",
-  "articles": 861,
-  "results": 189,
+  "revision": "cba771d457d3",
+  "articles": 865,
+  "results": 190,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -31,10 +31,16 @@
     },
     "nextClub": "Fiorentina",
     "latestEurope": "Napoli 3–0 Paris Saint-Germain",
-    "latestSerieA": "Napoli 3–1 Udinese"
+    "latestSerieA": "Napoli 3–1 Udinese",
+    "latestInternational": "Italy 3–0 Indonesia",
+    "italyPioHatTrick": 10,
+    "indonesiaHalfTimeXG": {
+      "Italy": 2.9,
+      "Indonesia": 0
+    }
   },
   "publicationVoice": {
-    "articleCount": 861
+    "articleCount": 865
   },
   "legacyErrors": []
 }
