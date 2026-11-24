@@ -210,19 +210,18 @@
   ],
   "latest_confirmed_match": {
     "team": "Napoli",
-    "opponent": "Paris Saint-Germain",
-    "competition": "Champions League",
-    "date": "2031-10-01",
+    "opponent": "Udinese",
+    "competition": "Serie A",
+    "date": "2031-10-05",
     "venue": "Home",
-    "result": "3–0",
-    "halftime": "0–0",
+    "result": "3–1",
     "events": [
-      "49′ Pio Esposito (Beier)",
-      "63′ Estêvão (Beier)",
-      "90+2′ Bastoni (Rossetti corner)"
+      "10′ Pio Esposito penalty (won by Rossetti; Solet yellow)",
+      "17′ Pio Esposito (João Neves assist)",
+      "37′ Lucca Udinese",
+      "69′ Maximilian Beier rebound; Koffi saved Neves shot; no assist"
     ],
-    "officialManOfTheMatch": "Warren Zaïre-Emery",
-    "notes": "Rossetti, Hermansen, Sebastiano substituted on, exact minutes not established."
+    "notes": "Rotation noted but lineup unspecified. No match award or Napoli goalkeeper confirmed."
   },
   "manager_press": {
     "status": "optional",
@@ -238,33 +237,29 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "phase": "1 October 2031 · Napoli 3–0 Paris Saint-Germain; Warren Zaïre-Emery MOTM on return",
-    "status": "Five source stories prepared; source commit and browser compilation/Pages deployment to verify",
+    "phase": "5 October 2031 · Napoli 3–1 Udinese, Pio brace, Rossetti earns penalty, Beier rebound",
+    "status": "Source edition authored; verify editorial gate, compact browser compilation and Pages deployment",
     "stories": [
-      "napoli-psg-3-0-zaire-emery-motm-beier-bastoni-oct1-2031",
-      "beier-two-assists-paris-attack-evolution-oct1-2031",
-      "zaire-emery-motm-return-psg-oct1-2031",
-      "rossetti-bastoni-paris-corner-future-oct1-2031",
-      "bellandi-paris-napoli-arsenal-response-oct1-2031"
+      "napoli-udinese-3-1-pio-brace-beier-rebound-oct5-2031",
+      "pio-esposito-solet-udinese-brace-oct5-2031",
+      "rossetti-paris-corner-udinese-penalty-two-matches-oct5-2031"
     ],
     "sources": [
-      "stories-paris-main-oct1-2031.js",
-      "stories-paris-beier-oct1-2031.js",
-      "stories-paris-warren-oct1-2031.js",
-      "stories-paris-rossetti-oct1-2031.js",
-      "stories-paris-bellandi-oct1-2031.js",
-      "site-visible-paris-three-nil-oct1-2031.js"
+      "stories-udinese-main-oct5-2031.js",
+      "stories-udinese-pio-oct5-2031.js",
+      "stories-udinese-rossetti-oct5-2031.js",
+      "site-visible-udinese-oct5-2031.js"
     ],
     "counts": {
-      "articles": 5,
-      "paragraphs": 64,
-      "topLevel": 92,
-      "threadedReplies": 62,
-      "totalComments": 154
+      "articles": 3,
+      "paragraphs": 39,
+      "topLevel": 53,
+      "threadedReplies": 37,
+      "totalComments": 90
     },
-    "standards": "Pio 49 Beier, Estêvão 63 Beier, Bastoni 90+2 Rossetti corner; Warren wins MOTM; zero stats from abandoned game; no invented manager public quotes or personal leave details.",
-    "imagery": "Approved existing Napoli gallery editorial illustrations.",
-    "qa": "Editorial gate + compiled browser tests + GitHub Pages deployment to verify after push"
+    "standards": "10 Pio penalty won by Rossetti; Solet booked at 10; 17 Pio from Neves pass; 37 Lucca; 69 Beier rebound Koffi saves Neves shot: NO ASSIST. No fabricated manager quotes, unknown additional events omitted.",
+    "imagery": "Approved Napoli editorial gallery only; not claimed documentary photographs",
+    "qa": "Check editorial gate, compiled static snapshot, first-paint lead, comment reader, stats and Pages deployment."
   },
   "previous_newsroom_package": {
     "phase": "9 September 2031 Italy 2–1 Norway and complete qualifying group, Napoli 2–0 Sampdoria, Nijstad signing",
@@ -2493,18 +2488,18 @@
   },
   "latest_league_2031_32": {
     "season": "2031–32",
-    "asOf": "2031-09-27",
-    "played": 5,
-    "won": 4,
+    "asOf": "2031-10-05",
+    "played": 6,
+    "won": 5,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 12,
-    "goalsAgainst": 5,
-    "goalDifference": 7,
-    "points": 13,
+    "goalsFor": 15,
+    "goalsAgainst": 6,
+    "goalDifference": 9,
+    "points": 16,
     "position": null,
-    "lastResult": "Sassuolo 1–3 Napoli",
-    "previousResult": "Napoli 3–2 Inter",
+    "lastResult": "Napoli 3–1 Udinese",
+    "previousResult": "Sassuolo 1–3 Napoli",
     "lastResultHTxg": {
       "sassuolo": 3.3,
       "napoli": 1.7
@@ -2654,10 +2649,10 @@
     "abandonedAttemptVoided": true
   },
   "latest_club_contributions_2031_32": {
-    "asOf": "2031-10-01",
+    "asOf": "2031-10-05",
     "clubSeason": {
       "PioEsposito": [
-        8,
+        10,
         0
       ],
       "SebastianoEsposito": [
@@ -2678,14 +2673,14 @@
       ],
       "JoaoNeves": [
         2,
-        0
+        1
       ],
       "NicoPaz": [
         1,
         1
       ],
       "MaximilianBeier": [
-        2,
+        3,
         2
       ],
       "AntonStach": [
@@ -2707,11 +2702,11 @@
     },
     "careerConfirmed": {
       "PioEsposito": [
-        152,
+        154,
         74
       ],
       "MaximilianBeier": [
-        135,
+        136,
         92
       ],
       "Estevao": [
@@ -2725,9 +2720,13 @@
       "EdoardoRossetti": [
         2,
         1
+      ],
+      "JoaoNeves": [
+        9,
+        10
       ]
     },
-    "scope": "Napoli club competitive including Supercoppa, shootouts and Italy excluded; abandoned first PSG attempt void."
+    "scope": "Napoli club competitive, Supercoppa included, penalty shootouts and Italy excluded. Rossetti penalty won is not assist. Neves saved shot before Beier rebound is not assist."
   },
   "latest_academy_2031_32": {
     "snapshotPeriod": "September 2031 after Inter match, exact calendar day unknown",
@@ -2890,8 +2889,10 @@
     "stories": [
       "beier-two-assists-paris-attack-evolution-oct1-2031",
       "zaire-emery-motm-return-psg-oct1-2031",
-      "rossetti-bastoni-paris-corner-future-oct1-2031"
+      "rossetti-bastoni-paris-corner-future-oct1-2031",
+      "pio-esposito-solet-udinese-brace-oct5-2031",
+      "rossetti-paris-corner-udinese-penalty-two-matches-oct5-2031"
     ],
-    "note": "Warren personal-leave return + official MOTM, Beier creative form, Rossetti to Bastoni; original player character studies without invented interview."
+    "note": "October player feature covered by Warren award and PSG pieces, supplemented by Udinese Pio brace/Solet and Rossetti penalty won after PSG corner assist. No invented interview."
   }
 }
