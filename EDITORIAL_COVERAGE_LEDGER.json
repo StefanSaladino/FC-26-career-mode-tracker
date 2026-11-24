@@ -209,19 +209,31 @@
     }
   ],
   "latest_confirmed_match": {
-    "team": "Napoli",
-    "opponent": "Udinese",
-    "competition": "Serie A",
-    "date": "2031-10-05",
-    "venue": "Home",
-    "result": "3–1",
+    "team": "Italy",
+    "opponent": "Indonesia",
+    "competition": "International Friendly",
+    "date": null,
+    "period": "October 2031",
+    "venue": null,
+    "result": "3–0",
+    "halftime": "2–0",
     "events": [
-      "10′ Pio Esposito penalty (won by Rossetti; Solet yellow)",
-      "17′ Pio Esposito (João Neves assist)",
-      "37′ Lucca Udinese",
-      "69′ Maximilian Beier rebound; Koffi saved Neves shot; no assist"
+      "14′ Pio Esposito (Edoardo Rossetti assist)",
+      "30′ Pio Esposito (Francesco Camarda assist)",
+      "87′ Pio Esposito third chance after two Audero saves, no reported assist"
     ],
-    "notes": "Rotation noted but lineup unspecified. No match award or Napoli goalkeeper confirmed."
+    "halftimeXG": {
+      "Italy": 2.9,
+      "Indonesia": 0
+    },
+    "ratings": {
+      "Francesco Pio Esposito": 10,
+      "Edoardo Rossetti": 8,
+      "Francesco Camarda": 7.7,
+      "Simone Pafundi": 7.4,
+      "Mattia Liberali": 7.4
+    },
+    "notes": "Very young Italy lineup. Audero four good first-half saves plus miraculous double at 87. Official save total, exact date and match award not confirmed."
   },
   "manager_press": {
     "status": "optional",
@@ -237,29 +249,31 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "phase": "5 October 2031 · Napoli 3–1 Udinese, Pio brace, Rossetti earns penalty, Beier rebound",
-    "status": "Source edition authored; verify editorial gate, compact browser compilation and Pages deployment",
+    "phase": "October 2031 · Italy 3–0 Indonesia, Pio hat-trick perfect 10.0, youth ratings, Audero saves",
+    "status": "Publication sources assembled; verify editorial quality, compiled-site browser tests and Pages deployment",
     "stories": [
-      "napoli-udinese-3-1-pio-brace-beier-rebound-oct5-2031",
-      "pio-esposito-solet-udinese-brace-oct5-2031",
-      "rossetti-paris-corner-udinese-penalty-two-matches-oct5-2031"
+      "italy-indonesia-3-0-pio-perfect-ten-youth-oct2031",
+      "pio-esposito-perfect-ten-hat-trick-italy-indonesia-oct2031",
+      "rossetti-camarda-pafundi-liberali-young-italy-indonesia-oct2031",
+      "audero-indonesia-italy-double-save-heroics-oct2031"
     ],
     "sources": [
-      "stories-udinese-main-oct5-2031.js",
-      "stories-udinese-pio-oct5-2031.js",
-      "stories-udinese-rossetti-oct5-2031.js",
-      "site-visible-udinese-oct5-2031.js"
+      "stories-italy-indonesia-main-oct2031.js",
+      "stories-italy-indonesia-pio-ten-oct2031.js",
+      "stories-italy-indonesia-youth-rossetti-oct2031.js",
+      "stories-italy-indonesia-audero-oct2031.js",
+      "site-visible-italy-indonesia-oct2031.js"
     ],
     "counts": {
-      "articles": 3,
-      "paragraphs": 39,
-      "topLevel": 53,
-      "threadedReplies": 37,
-      "totalComments": 90
+      "articles": 4,
+      "paragraphs": 54,
+      "topLevel": 68,
+      "threadedReplies": 41,
+      "totalComments": 109
     },
-    "standards": "10 Pio penalty won by Rossetti; Solet booked at 10; 17 Pio from Neves pass; 37 Lucca; 69 Beier rebound Koffi saves Neves shot: NO ASSIST. No fabricated manager quotes, unknown additional events omitted.",
-    "imagery": "Approved Napoli editorial gallery only; not claimed documentary photographs",
-    "qa": "Check editorial gate, compiled static snapshot, first-paint lead, comment reader, stats and Pages deployment."
+    "standards": "Italy friendly: Pio 14 Rossetti assist, 30 Camarda assist, 87 third chance after two Audero saves with no reported assist. Halftime 2.9–0.0 xG; four good Audero first-half saves. Match ratings Pio10.0, Rossetti8.0, Camarda7.7, Pafundi/Liberali7.4. Separate Napoli club statistics.",
+    "imagery": "Previously approved football gallery illustrations, not documentary match photographs",
+    "qa": "Editorial validation and compact compilation/browser tests plus current generated GitHub Pages deployment to verify."
   },
   "previous_newsroom_package": {
     "phase": "9 September 2031 Italy 2–1 Norway and complete qualifying group, Napoli 2–0 Sampdoria, Nijstad signing",
@@ -2891,8 +2905,68 @@
       "zaire-emery-motm-return-psg-oct1-2031",
       "rossetti-bastoni-paris-corner-future-oct1-2031",
       "pio-esposito-solet-udinese-brace-oct5-2031",
-      "rossetti-paris-corner-udinese-penalty-two-matches-oct5-2031"
+      "rossetti-paris-corner-udinese-penalty-two-matches-oct5-2031",
+      "pio-esposito-perfect-ten-hat-trick-italy-indonesia-oct2031",
+      "rossetti-camarda-pafundi-liberali-young-italy-indonesia-oct2031",
+      "audero-indonesia-italy-double-save-heroics-oct2031"
     ],
-    "note": "October player feature covered by Warren award and PSG pieces, supplemented by Udinese Pio brace/Solet and Rossetti penalty won after PSG corner assist. No invented interview."
+    "note": "Multiple October character-led pieces, latest Italy/Indonesia: Pio 10.0 hat-trick, Rossetti/Camarda youthful assists, Audero heroic saves; no invented interviews."
+  },
+  "latest_international_match": {
+    "team": "Italy",
+    "opponent": "Indonesia",
+    "competition": "International Friendly",
+    "date": null,
+    "period": "October 2031",
+    "venue": null,
+    "result": "3–0",
+    "halftime": "2–0",
+    "events": [
+      "14′ Pio Esposito (Edoardo Rossetti assist)",
+      "30′ Pio Esposito (Francesco Camarda assist)",
+      "87′ Pio Esposito third chance after two Audero saves, no reported assist"
+    ],
+    "halftimeXG": {
+      "Italy": 2.9,
+      "Indonesia": 0
+    },
+    "ratings": {
+      "Francesco Pio Esposito": 10,
+      "Edoardo Rossetti": 8,
+      "Francesco Camarda": 7.7,
+      "Simone Pafundi": 7.4,
+      "Mattia Liberali": 7.4
+    },
+    "notes": "Very young Italy lineup. Audero four good first-half saves plus miraculous double at 87. Official save total, exact date and match award not confirmed."
+  },
+  "italy_indonesia_oct2031": {
+    "result": "Italy 3–0 Indonesia",
+    "date": null,
+    "period": "October 2031",
+    "competition": "International Friendly",
+    "goals": {
+      "PioEsposito": 3
+    },
+    "assists": {
+      "EdoardoRossetti": 1,
+      "FrancescoCamarda": 1
+    },
+    "halfTimeXG": {
+      "Italy": 2.9,
+      "Indonesia": 0
+    },
+    "goalkeeper": "Emil Audero",
+    "firstHalfGoodSaves": 4,
+    "doubleRecoveryAt87": true,
+    "knownPlayerRatings": {
+      "Francesco Pio Esposito": 10,
+      "Edoardo Rossetti": 8,
+      "Francesco Camarda": 7.7,
+      "Simone Pafundi": 7.4,
+      "Mattia Liberali": 7.4
+    },
+    "italyOnly": true,
+    "noAddedNapoliStats": true,
+    "qualifyingTableUnchanged": true
   }
 }
