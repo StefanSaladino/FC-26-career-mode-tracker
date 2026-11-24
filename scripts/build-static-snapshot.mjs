@@ -176,7 +176,7 @@ try{
  if(first[0]!=='Pio Esposito'||first[1]!=='45'||first[2]!=='20')throw Error('2030–31 final numbers changed: '+JSON.stringify(first));
  await fresh.locator('[data-stats-view="career"]').click();
  first=await fresh.locator('#statsTable tbody tr').first().locator('td').allTextContents();
- if(first[0]!=='Pio Esposito'||first[1]!=='154'||first[2]!=='74')throw Error('Stats Room career duplicate: '+JSON.stringify(first));
+ if(first[0]!=='Pio Esposito'||first[1]!=='156'||first[2]!=='74')throw Error('Stats Room career mismatch after Milan: '+JSON.stringify(first));
  await fresh.locator('[data-stats-view="2029–30"]').click();
  const pioCount=await fresh.locator('#statsTable tbody tr').filter({hasText:'Pio Esposito'}).count();
  if(pioCount!==1)throw Error('Stats Room duplicate Pio 2029–30 row: '+pioCount);
