@@ -1,3 +1,61 @@
+## OCTOBER 2031 — NAPOLI 4–0 MILAN; MIKEY MOORE BRACE AND CORNER ASSIST, SHOT DOMINANCE
+
+**Confirmed Serie A result, Napoli home, October 2031 (exact day not supplied):** Napoli **4–0 Milan FT**, with no further goals beyond **18′ Mikey Moore** (official assist **Warren Zaïre-Emery**), **44′ Alphonso Davies** header from **Mikey Moore corner (official Moore assist)**, **45+2′ Mikey Moore** (official assist **Maximilian Beier**), **73′ Pio Esposito** (official assist **Edoardo Rossetti**). Moore **2 goals and 1 assist**, not official MOTM unless independently confirmed by manager. Four goals, four different assists: Zaïre-Emery, Moore, Beier and Rossetti. **Shots: Napoli 10, Milan 2. Shots on target: Napoli 8, Milan 1**. Napoli 80% shot accuracy, 40% goals/all shots. No xG, official player ratings, keeper name or saves beyond on-target count supplied; do NOT invent. Napoli clean sheet.
+
+**Serie A league record AFTER Milan:** **P9 W8 D1 L0, GF22 GA7 GD+15, 25 points**, position unknown; fifth consecutive Serie A title being pursued. Prior 17 Oct Fiorentina away 1–0 and later Torino home 2–1 (Torino exact calendar day unknown). Next Napoli fixture per manager-supplied November image **1 November 2031 vs Monza home**, next UCL **5 November vs RB Salzburg home**. October Milan match day unconfirmed; do not assign a date.
+
+**October 2031 competitive Napoli club contributions after Milan, including current Supercoppa, excluding Italy friendlies and shootouts:** Pio Esposito **12G0A**, Sebastiano Esposito **1G1A**, Mikey Moore **3G5A**, Estêvão **1G3A**, Warren Zaïre-Emery **0G4A**, João Neves **2G2A**, Nico Paz **2G2A**, Maximilian Beier **5G4A**, Anton Stach **0G1A**, Scott McTominay **0G1A**, Alessandro Bastoni **1G0A**, Edoardo Rossetti **0G2A**, Alphonso Davies **1G0A**. Club career known confirmed aggregates updated cumulatively from prior checkpoint: Pio **156G74A** (was 154G74A; +Benfica and Milan goals), Beier **138G94A** (was 136G92A; +Fiorentina, Torino goals and Benfica, Milan assists), Moore **20G33A** (was 17G32A; +Benfica 1 goal, Milan 2 goals and corner assist), Paz **22G27A** (was 21G26A; +Torino goal, Benfica assist), Neves **9G11A** (was 9G10A; +Torino assist), Zaïre-Emery **6G18A** (+Milan assist), Estêvão **4G10A** (+Fiorentina assist), Rossetti **2G2A** (+Milan assist), Davies **12G8A** (+Milan header). Historical Pio 2030–31 45G20A and Beier 43G35A unchanged. If source career totals drift, stop and reconcile, don't reset.
+
+**Mikey development thread:** Benfica 50′ goal after Beier pass, Torino substitute at 61′ with two efforts by 75′ (one saved well by Leo Román, one narrowly missed, no goal/assist), Milan brace and corner assist, great attacking range. Milan 2G1A is match contribution, not 3 goals; season totals 3G5A including previous matches. No official Milan MOTM supplied.
+
+**Newspaper coverage authorised:** Mister said “Let’s run all missing stories” following Milan 4–0 and shot breakdown. Full Milan report, separate Moore development profile and tactical 10–2 shot analysis in wide consolidated package. Professional reporting and established threaded supporter voices, no public manager quotes invented, archival approved Napoli images only.
+
+---
+
+## OCTOBER 2031 — NAPOLI 2–1 TORINO; ROTATION, PAZ REBOUND, NJIE EQUALISER, NEVES TO BEIER
+
+**Confirmed Serie A result, Napoli home, October 2031 (day unspecified):** **Napoli 2–1 Torino FT**. Manager deliberately selected **heavily rotated** team. **24′ Nico Paz** collects and finishes after **Edoardo Rossetti strikes crossbar**; **NO OFFICIAL ASSIST**, as rebound from Rossetti shot. **39′ Alieu Njie** equalises for Torino. Napoli keeper **Burnett reacted late**, but manager emphasizes Napoli's defending should not have allowed the opportunity; exact phase and defensive individual culprit unknown. **Half-time 1–1**. **Pio Esposito entered at half-time**, replacement player unspecified. **61′ Maximilian Beier**, **João Neves official assist** after Neves **wins the ball**, sends to Beier **just inside penalty box**, Beier **strikes first time** and scores. **At 61′ Mikey Moore and Alphonso Davies also came on** with fresh legs (players replaced unspecified). By 75′ Moore had **two notable attempts**: one forced Leo Román into a great save, second narrowly missed the target. **89′ Beier shot hits the post**. No other goal, assist, shots, xG, lineup/keepers' complete stats or precise date supplied. FT 2–1.
+
+**League after Torino:** P8 W7 D1 L0 GF18 GA7 GD+11 22 pts. Reconciliation: Fiorentina away 1–0 on 17 Oct produced 19 pts (7 games), Torino 2–1 gave 22 (8), Milan 4–0 gave 25 (9). Beier Torino winner adds +1 club goal, Neves +1 club assist. Paz Torino adds +1 goal but Rossetti does NOT get assist. Burnett retained after mistake; no invented disciplinary consequence. The context suggests importance of examining defence before goalkeeper reaction without pretending to know the exact defensive breakdown.
+
+**Publication:** stand-alone main 2–1 match story plus depth/defensive rotation analysis in the authorised catch-up package, no fabricated manager quotes or exact date.
+
+---
+
+## 21 OCTOBER 2031 — NAPOLI 2–0 BENFICA; MOORE FIRST GOAL, PIO FROM PAZ, GOMES SIX SAVES
+
+**Champions League league-phase result, Napoli home 21 Oct:** **Napoli 2–0 Benfica FT. 50′ Mikey Moore** cuts inside after **Maximilian Beier official assist** and scores. **84′ Pio Esposito** scores from **Nico Paz official assist**. Benfica goalkeeper **Gomes** made **five reported saves by time of 84′ goal**, including some excellent ones, then **one more spectacular save before FT**, so reported six in total. No other complete shot counts/xG/player ratings or full lineups reported; no invented keeper award. FT 2–0, Napoli clean sheet.
+
+**Champions League after Benfica:** P3 W2 D0 L1 GF5 GA1 GD+4 6 points; actual league-phase rank not verified. Arsenal 1–0 Napoli Sep16; Napoli 3–0 PSG Oct1; Napoli 2–0 Benfica Oct21; next Champions League **RB Salzburg home Nov5**; Sporting CP away Nov26 per manager November screenshot. Moore +1 club goal, Beier +1 club assist, Pio +1 club goal, Paz +1 club assist. Separate Gomes goalkeeper analysis in authorised catch-up, no invented event.
+
+---
+
+## 17 OCTOBER 2031 — FIORENTINA 0–1 NAPOLI; 89′ BEIER WINNER FROM ESTÊVÃO COUNTER
+
+**Serie A away result, 17 October:** **Fiorentina 0–1 Napoli FT**, **89′ Maximilian Beier** taps home from **official Estêvão assist**. Napoli had generated **1.7 xG THROUGH FIRST 85 MINUTES**, NOT final match xG, yet no goal until 89. Fiorentina dangerous late sequence: first corner **Riccardo Calafiori heads clear**, Fiorentina win **another corner**, the second delivery **is collected and cleared** (who collects not identified). Napoli break: **Pio Esposito slides Estêvão through**; Estêvão squares pass to Beier; Beier taps in. Pio's through ball **NOT official assist**, Estêvão receives sole credited assist. Napoli clean sheet, no other goals. Final xG, keeper identities, shots, and official match award unknown.
+
+**Serie A after Fiorentina:** P7 W6 D1 L0 GF16 GA6 GD+10 19pts; rank unverified. Beier season from 3G2A to 4G2A; Estêvão from 1G2A to 1G3A. Notation: an attacking build-up pass is not necessarily official assist. Main 89th-minute winner story and separate two-corners/counter analysis authorised in catch-up edition.
+
+---
+
+## OCTOBER 2031 — JAPAN 0–3 ITALY FRIENDLY; PIO–KEAN EXCHANGE, TONALI ASSIST, 4.2–0.4 XG
+
+**Italy international friendly result in October 2031 (exact day and venue NOT identified by manager):** **Japan 0–3 Italy FT, HT Japan 0–2 Italy.** **42′ Francesco Pio Esposito** (official **Moise Kean** assist); **44′ Moise Kean** (official **Pio Esposito** assist); **72′ Pio Esposito** (official **Sandro Tonali** assist). Pio **2 goals, 1 assist**, match rating **9.7**. Half-time xG **Italy 2.3 vs Japan 0.1**; FINAL xG **Italy 4.2 vs Japan 0.4**. Italy clean sheet. No other ratings, exact lineup, shots or match award supplied.
+
+**Italy October friendlies:** Italy 3–0 Indonesia with Pio three goals, then Japan 0–3 Italy with Pio two goals and one assist, resulting in **P2 W2 D0 L0 GF6 GA0**, Pio **5G1A** across international window, Indonesia 10.0 and Japan 9.7 (average 9.85, if displayed as arithmetic mean). Kean Japan **1G1A**, Tonali **0G1A**; previous Indonesia Rossetti and Camarda each one goal assist; Pafundi and Liberali 7.4 ratings in Indonesia. Qualifying group already complete, 20 points, unchanged. **ALL ITALY G/A EXCLUDED FROM NAPOLI CLUB TOTALS.** Distinct main Japan report and Kean–Pio partnership analysis authorised catch-up edition.
+
+---
+
+## OCTOBER 2031 STAFF-ROOM CONTRACT BUSINESS — NEVES RENEWED, PAZ NEGOTIATIONS DEFERRED
+
+**Internal management continuity, not automatically public press material:** João Neves is **27, 95 OVR**, agreed **Crucial role**, negotiated **three-year extension** while 1y8m on current contract. **Release clause $513.1M**, final **weekly wage $640K** and **signing bonus $6.5M**; earlier agent demand $700K + $6.1M, current wage was $470K. User confirmed contract settled. Budget before $458M, user-reported remaining after business $444M. Do not infer exact final contract expiry from ambiguous renewal UI; do not equate budget decrement to a mathematically exact package cost. Nico Paz **27, 91 OVR**, renewal proposed but **NOT completed**: agent requested **$670K weekly**, **$6M signing** and **$4M bonus after five goals**, manager explicitly said **"We'll revisit later"**. Do NOT publish these internal negotiation figures, presume agreement or report dressing-room conflict. Napoli midfielder Neves remains core of team and created Torino winner.
+
+**November schedule supplied by manager image:** 1 Nov Napoli–Monza Serie A; 5 Nov Napoli–RB Salzburg UCL; 9 Nov Lecce–Napoli Serie A; 15 Nov Italy–Australia friendly; 18 Nov Italy–Portugal friendly; 22 Nov Napoli–Hellas Verona Serie A; 26 Nov Sporting CP–Napoli UCL; 30 Nov final crest appeared to be Bergamo Calcio but opponent name NOT explicit in image, do not present it as verified without manager confirmation. The October Torino/Milan fixtures' exact calendar days NOT supplied; do not assign dates to make schedule tidy.
+
+**Release guidelines:** Single canonical source; eleven articles covering five missing matches (Japan 2, Fiorentina 2, Benfica 2, Torino 2, Milan 3); contract notes internal only; verified archival imagery, varied supporters and opposition fans; preserve 865 previous articles and 190 previous results, no fabricated public manager quotes, no competing canon; full build/Pages must succeed before declaring live.
+
+---
+
 ## OCTOBER 2031 — ITALY 3–0 INDONESIA FRIENDLY; PIO HAT-TRICK AND PERFECT 10.0, YOUNG AZZURRI, AUDERO SAVES
 
 **Result, October 2031 international friendly:** **Italy 3–0 Indonesia FT**, **HT 2–0**. The manager deliberately started a **very young Italy side** to test developing talent. Confirmed goals: **14′ Francesco Pio Esposito** (official assist **Edoardo Rossetti**); **30′ Francesco Pio Esposito** (official assist **Francesco Camarda**); **87′ Francesco Pio Esposito**, his **third** of the match (hat-trick), scored after Indonesia goalkeeper **Emil Audero** stopped the initial attempt and made a **miraculous recovery save** to stop a second, before Pio finished the **third chance in the same sequence**. **Third goal assist not reported**—do NOT assign one. Final Italy clean sheet. Exact calendar day, venue, full starting lineup, substitution minutes, final xG and full match saves total not stated in the manager's match narration; DO NOT invent. Prior shared calendar mentions October 10 and 14 as international friendly dates, but the precise day of this Indonesia game is **not directly identified**: public edition uses October 2031.

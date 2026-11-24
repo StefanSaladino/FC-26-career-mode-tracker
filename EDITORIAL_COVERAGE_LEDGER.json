@@ -209,31 +209,28 @@
     }
   ],
   "latest_confirmed_match": {
-    "team": "Italy",
-    "opponent": "Indonesia",
-    "competition": "International Friendly",
+    "team": "Napoli",
+    "opponent": "Milan",
+    "competition": "Serie A",
     "date": null,
     "period": "October 2031",
-    "venue": null,
-    "result": "3–0",
-    "halftime": "2–0",
+    "venue": "Home",
+    "result": "4–0",
     "events": [
-      "14′ Pio Esposito (Edoardo Rossetti assist)",
-      "30′ Pio Esposito (Francesco Camarda assist)",
-      "87′ Pio Esposito third chance after two Audero saves, no reported assist"
+      "18′ Moore (Zaïre-Emery assist)",
+      "44′ Davies header (Moore corner assist)",
+      "45+2′ Moore (Beier assist)",
+      "73′ Pio Esposito (Rossetti assist)"
     ],
-    "halftimeXG": {
-      "Italy": 2.9,
-      "Indonesia": 0
+    "shots": {
+      "Napoli": 10,
+      "Milan": 2
     },
-    "ratings": {
-      "Francesco Pio Esposito": 10,
-      "Edoardo Rossetti": 8,
-      "Francesco Camarda": 7.7,
-      "Simone Pafundi": 7.4,
-      "Mattia Liberali": 7.4
+    "shotsOnTarget": {
+      "Napoli": 8,
+      "Milan": 1
     },
-    "notes": "Very young Italy lineup. Audero four good first-half saves plus miraculous double at 87. Official save total, exact date and match award not confirmed."
+    "notes": "Moore 2G1A. No match xG, official MOTM/rating or exact calendar day confirmed."
   },
   "manager_press": {
     "status": "optional",
@@ -249,6 +246,47 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "October 2031 backlog cleared · Italy 0–3 Japan, Fiorentina 0–1 Napoli, Napoli 2–0 Benfica, Napoli 2–1 Torino, Napoli 4–0 Milan",
+    "status": "Published source edition pending editorial QA, browser compilation and Pages deployment",
+    "stories": [
+      "napoli-milan-four-nil-moore-brace-oct2031",
+      "mikey-moore-brace-assist-milan-oct2031",
+      "napoli-milan-ten-shots-eight-on-target-oct2031",
+      "napoli-torino-2-1-rotation-beier-neves-oct2031",
+      "torino-rotation-rossetti-burnett-moore-oct2031",
+      "napoli-benfica-2-0-moore-pio-gomes-oct21-2031",
+      "gomes-six-saves-benfica-napoli-oct21-2031",
+      "fiorentina-napoli-beier-89th-winner-oct17-2031",
+      "fiorentina-corner-pio-estevao-beier-transition-oct17-2031",
+      "italy-japan-3-0-kean-pio-double-oct2031",
+      "pio-kean-partnership-japan-italy-oct2031"
+    ],
+    "sources": [
+      "stories-milan-main-oct2031.js",
+      "stories-milan-moore-oct2031.js",
+      "stories-milan-control-oct2031.js",
+      "stories-torino-main-oct2031.js",
+      "stories-torino-rotation-oct2031.js",
+      "stories-benfica-main-oct21-2031.js",
+      "stories-benfica-gomes-oct21-2031.js",
+      "stories-fiorentina-main-oct17-2031.js",
+      "stories-fiorentina-counter-oct17-2031.js",
+      "stories-japan-main-oct2031.js",
+      "stories-japan-kean-pio-oct2031.js",
+      "site-visible-missing-oct2031-milan-latest.js"
+    ],
+    "counts": {
+      "articles": 11,
+      "paragraphs": 151,
+      "topLevel": 168,
+      "threadedReplies": 74,
+      "totalComments": 242
+    },
+    "standards": "Five distinct match reports plus six independent angles. Correct reported goal minutes, officials assists, goalkeeper saves, interim/full-time xG, shots, and rating 9.7. Unknown exact Italy-Japan/Torino/Milan dates not invented. All Italy friendly goals separate from Napoli club records.",
+    "imagery": "Previously approved archival Napoli/Italy gallery only; not claimed as documentary photos",
+    "qa": "GitHub editorial validation, compiled snapshot and browser verification and latest generated GitHub Pages successful deployment required."
+  },
+  "previous_newsroom_package": {
     "phase": "October 2031 · Italy 3–0 Indonesia, Pio hat-trick perfect 10.0, youth ratings, Audero saves",
     "status": "Publication sources assembled; verify editorial quality, compiled-site browser tests and Pages deployment",
     "stories": [
@@ -274,31 +312,6 @@
     "standards": "Italy friendly: Pio 14 Rossetti assist, 30 Camarda assist, 87 third chance after two Audero saves with no reported assist. Halftime 2.9–0.0 xG; four good Audero first-half saves. Match ratings Pio10.0, Rossetti8.0, Camarda7.7, Pafundi/Liberali7.4. Separate Napoli club statistics.",
     "imagery": "Previously approved football gallery illustrations, not documentary match photographs",
     "qa": "Editorial validation and compact compilation/browser tests plus current generated GitHub Pages deployment to verify."
-  },
-  "previous_newsroom_package": {
-    "phase": "9 September 2031 Italy 2–1 Norway and complete qualifying group, Napoli 2–0 Sampdoria, Nijstad signing",
-    "status": "Publication requested and source prepared; build and deployment to be checked",
-    "stories": [
-      "italy-norway-2-1-pio-kean-gigio-sep9-2031",
-      "gigio-donnarumma-norway-italy-sep9-2031",
-      "italy-euro-qualifying-group-unbeaten-20-points-2031",
-      "napoli-sampdoria-two-nil-neves-pio-aug30-2031",
-      "napoli-nijstad-manchester-united-arrival-2031"
-    ],
-    "sources": [
-      "stories-italy-norway-sampdoria-sep2031.js",
-      "site-visible-italy-norway-sep2031.js"
-    ],
-    "counts": {
-      "articles": 5,
-      "paragraphs": 53,
-      "topLevel": 69,
-      "threadedReplies": 61,
-      "totalComments": 130
-    },
-    "identity": "No public press manager quotations. Pio Italy goal separate from Napoli club four goals.",
-    "imaging": "Existing approved image assets used as archival editorial illustration",
-    "qa": "Run editorial QA and compact snapshot browser checks, Pages deployment; previous edition preserved."
   },
   "release_history": [
     {
@@ -640,151 +653,60 @@
     "success": true
   },
   "latest_calendar_update": {
-    "type": "Manager-supplied screenshots of April and May 2031 fictional career-mode fixture calendar; CALENDAR UPDATE ONLY, no new news publishing instruction",
-    "source": "Two FC26 month calendar screenshots, April and May 2031, after last confirmed result Arsenal Apr16",
-    "lastConfirmedMatch": "Napoli 3–1 Arsenal HOME, UCL QF second leg Apr16 2031, Napoli win 4–3 aggregate",
-    "currentConfirmedFixtureNext": "Cagliari home Serie A Apr19, unplayed",
-    "torinoCorrection": {
-      "previouslyListed": "2031-04-27",
-      "confirmed": "2031-04-26",
-      "status": "scheduled"
-    },
-    "championsLeagueSemifinal": {
-      "opponent": "RB Leipzig",
-      "firstLeg": {
-        "date": "2031-04-29",
-        "venue": "Away",
-        "status": "scheduled"
-      },
-      "secondLeg": {
-        "date": "2031-05-07",
-        "venue": "Home",
-        "status": "scheduled"
-      },
-      "aggregate": null,
-      "outcome": null
-    },
-    "remainingFixtures": [
+    "period": "November 2031",
+    "status": "Seven identified fixtures and one unconfirmed opponent crest",
+    "confirmed": [
       [
-        "2031-04-19",
-        "Cagliari",
-        "Home",
-        "Serie A",
-        "scheduled"
+        "2031-11-01",
+        "Napoli",
+        "Monza",
+        "Serie A"
       ],
       [
-        "2031-04-23",
-        "AC Milan / Milano FC",
-        "Home",
-        "Coppa Italia semifinal 2nd leg (Napoli lead 2–0 aggregate)",
-        "scheduled"
+        "2031-11-05",
+        "Napoli",
+        "RB Salzburg",
+        "Champions League"
       ],
       [
-        "2031-04-26",
-        "Torino",
-        "Away",
-        "Serie A",
-        "scheduled"
+        "2031-11-09",
+        "Napoli",
+        "Lecce",
+        "Serie A"
       ],
       [
-        "2031-04-29",
-        "RB Leipzig",
-        "Away",
-        "Champions League semifinal 1st leg",
-        "scheduled"
+        "2031-11-15",
+        "Italy",
+        "Australia",
+        "Friendly"
       ],
       [
-        "2031-05-04",
-        "Sassuolo",
-        "Away",
-        "Serie A",
-        "scheduled"
+        "2031-11-18",
+        "Italy",
+        "Portugal",
+        "Friendly"
       ],
       [
-        "2031-05-07",
-        "RB Leipzig",
-        "Home",
-        "Champions League semifinal 2nd leg",
-        "scheduled"
+        "2031-11-22",
+        "Napoli",
+        "Hellas Verona",
+        "Serie A"
       ],
       [
-        "2031-05-10",
-        "Udinese",
-        "Away",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-05-18",
-        "Como",
-        "Home",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-05-25",
-        "AC Milan / Milano FC",
-        "Away",
-        "Serie A",
-        "scheduled"
+        "2031-11-26",
+        "Napoli",
+        "Sporting CP",
+        "Champions League"
       ]
     ],
-    "serieARunIn": [
-      [
-        "2031-04-19",
-        "Cagliari",
-        "Home",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-04-26",
-        "Torino",
-        "Away",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-05-04",
-        "Sassuolo",
-        "Away",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-05-10",
-        "Udinese",
-        "Away",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-05-18",
-        "Como",
-        "Home",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-05-25",
-        "AC Milan / Milano FC",
-        "Away",
-        "Serie A",
-        "scheduled"
-      ]
+    "uncertain": [
+      {
+        "date": "2031-11-30",
+        "opponent": "Unconfirmed (crest resembles Bergamo Calcio)"
+      }
     ],
-    "leagueLastVerified": {
-      "asOf": "2031-04-12",
-      "napoliPoints": 77,
-      "napoliPlayed": 32,
-      "romaPoints": 70,
-      "romaPlayed": 32,
-      "lead": 7,
-      "remainingLeagueGames": 6
-    },
-    "nonResults": "Both screenshots establish fixtures, not played outcomes. All Apr19-May25 unplayed; no stats/league changes.",
-    "sourceScript": "site-visible-april-may-calendar-leipzig-2031.js",
-    "noNewsroomStories": true
+    "nextClub": "Monza home 1 November",
+    "nextEurope": "RB Salzburg home 5 November"
   },
   "latest_canon_only_checkpoint": {
     "type": "Barcelona UCL R16 comeback now authorised for newsroom",
@@ -2502,18 +2424,18 @@
   },
   "latest_league_2031_32": {
     "season": "2031–32",
-    "asOf": "2031-10-05",
-    "played": 6,
-    "won": 5,
+    "asOf": "October 2031 · after Milan",
+    "played": 9,
+    "won": 8,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 15,
-    "goalsAgainst": 6,
-    "goalDifference": 9,
-    "points": 16,
+    "goalsFor": 22,
+    "goalsAgainst": 7,
+    "goalDifference": 15,
+    "points": 25,
     "position": null,
-    "lastResult": "Napoli 3–1 Udinese",
-    "previousResult": "Sassuolo 1–3 Napoli",
+    "lastResult": "Napoli 4–0 Milan",
+    "previousResult": "Napoli 2–1 Torino",
     "lastResultHTxg": {
       "sassuolo": 3.3,
       "napoli": 1.7
@@ -2644,26 +2566,27 @@
   },
   "latest_europe_2031_32": {
     "season": "2031–32",
-    "asOf": "2031-10-01",
+    "asOf": "2031-10-21",
     "competition": "Champions League",
     "stage": "League phase",
-    "played": 2,
-    "won": 1,
+    "played": 3,
+    "won": 2,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 3,
+    "goalsFor": 5,
     "goalsAgainst": 1,
-    "goalDifference": 2,
-    "points": 3,
-    "latestResult": "Napoli 3–0 Paris Saint-Germain",
-    "previousResult": "Arsenal 1–0 Napoli",
-    "nextOpponent": "Benfica",
-    "nextDate": "2031-10-21",
+    "goalDifference": 4,
+    "points": 6,
+    "latestResult": "Napoli 2–0 Benfica",
+    "previousResult": "Napoli 3–0 Paris Saint-Germain",
+    "nextOpponent": "RB Salzburg",
+    "nextDate": "2031-11-05",
     "officialManOfTheMatch": "Warren Zaïre-Emery",
-    "abandonedAttemptVoided": true
+    "abandonedAttemptVoided": true,
+    "position": null
   },
   "latest_club_contributions_2031_32": {
-    "asOf": "2031-10-05",
+    "asOf": "October 2031 · through Milan",
     "clubSeason": {
       "PioEsposito": [
         10,
@@ -2740,7 +2663,112 @@
         10
       ]
     },
-    "scope": "Napoli club competitive, Supercoppa included, penalty shootouts and Italy excluded. Rossetti penalty won is not assist. Neves saved shot before Beier rebound is not assist."
+    "scope": "Competitive Napoli club only, includes Supercoppa, excludes shootouts and all Italy appearances",
+    "totals": [
+      [
+        "Pio Esposito",
+        12,
+        0
+      ],
+      [
+        "Sebastiano Esposito",
+        1,
+        1
+      ],
+      [
+        "Mikey Moore",
+        3,
+        5
+      ],
+      [
+        "Estêvão",
+        1,
+        3
+      ],
+      [
+        "Warren Zaïre-Emery",
+        0,
+        4
+      ],
+      [
+        "João Neves",
+        2,
+        2
+      ],
+      [
+        "Nico Paz",
+        2,
+        2
+      ],
+      [
+        "Maximilian Beier",
+        5,
+        4
+      ],
+      [
+        "Anton Stach",
+        0,
+        1
+      ],
+      [
+        "Scott McTominay",
+        0,
+        1
+      ],
+      [
+        "Alessandro Bastoni",
+        1,
+        0
+      ],
+      [
+        "Edoardo Rossetti",
+        0,
+        2
+      ],
+      [
+        "Alphonso Davies",
+        1,
+        0
+      ]
+    ],
+    "careerUpdates": {
+      "Pio Esposito": [
+        156,
+        74
+      ],
+      "Maximilian Beier": [
+        138,
+        94
+      ],
+      "Mikey Moore": [
+        20,
+        33
+      ],
+      "Nico Paz": [
+        22,
+        27
+      ],
+      "João Neves": [
+        9,
+        11
+      ],
+      "Warren Zaïre-Emery": [
+        6,
+        18
+      ],
+      "Estêvão": [
+        4,
+        10
+      ],
+      "Edoardo Rossetti": [
+        2,
+        2
+      ],
+      "Alphonso Davies": [
+        12,
+        8
+      ]
+    }
   },
   "latest_academy_2031_32": {
     "snapshotPeriod": "September 2031 after Inter match, exact calendar day unknown",
@@ -2908,36 +2936,37 @@
       "rossetti-paris-corner-udinese-penalty-two-matches-oct5-2031",
       "pio-esposito-perfect-ten-hat-trick-italy-indonesia-oct2031",
       "rossetti-camarda-pafundi-liberali-young-italy-indonesia-oct2031",
-      "audero-indonesia-italy-double-save-heroics-oct2031"
+      "audero-indonesia-italy-double-save-heroics-oct2031",
+      "pio-kean-partnership-japan-italy-oct2031",
+      "gomes-six-saves-benfica-napoli-oct21-2031",
+      "torino-rotation-rossetti-burnett-moore-oct2031",
+      "mikey-moore-brace-assist-milan-oct2031"
     ],
-    "note": "Multiple October character-led pieces, latest Italy/Indonesia: Pio 10.0 hat-trick, Rossetti/Camarda youthful assists, Audero heroic saves; no invented interviews."
+    "note": "Multiple October character-led articles, including Kean/Pio 3–0 Japan, Benfica goalkeeper Gomes, Napoli rotation, and Moore's Milan brace; no fabricated interviews or manager statements."
   },
   "latest_international_match": {
     "team": "Italy",
-    "opponent": "Indonesia",
+    "opponent": "Japan",
     "competition": "International Friendly",
     "date": null,
     "period": "October 2031",
-    "venue": null,
     "result": "3–0",
     "halftime": "2–0",
     "events": [
-      "14′ Pio Esposito (Edoardo Rossetti assist)",
-      "30′ Pio Esposito (Francesco Camarda assist)",
-      "87′ Pio Esposito third chance after two Audero saves, no reported assist"
+      "42′ Pio (Kean assist)",
+      "44′ Kean (Pio assist)",
+      "72′ Pio (Tonali assist)"
     ],
-    "halftimeXG": {
-      "Italy": 2.9,
-      "Indonesia": 0
+    "halfTimeXG": {
+      "Italy": 2.3,
+      "Japan": 0.1
     },
-    "ratings": {
-      "Francesco Pio Esposito": 10,
-      "Edoardo Rossetti": 8,
-      "Francesco Camarda": 7.7,
-      "Simone Pafundi": 7.4,
-      "Mattia Liberali": 7.4
+    "fullTimeXG": {
+      "Italy": 4.2,
+      "Japan": 0.4
     },
-    "notes": "Very young Italy lineup. Audero four good first-half saves plus miraculous double at 87. Official save total, exact date and match award not confirmed."
+    "ratingPio": 9.7,
+    "italyOnly": true
   },
   "italy_indonesia_oct2031": {
     "result": "Italy 3–0 Indonesia",
@@ -2968,5 +2997,95 @@
     "italyOnly": true,
     "noAddedNapoliStats": true,
     "qualifyingTableUnchanged": true
+  },
+  "italy_japan_oct2031": {
+    "team": "Italy",
+    "opponent": "Japan",
+    "competition": "International Friendly",
+    "date": null,
+    "period": "October 2031",
+    "result": "3–0",
+    "halftime": "2–0",
+    "events": [
+      "42′ Pio (Kean assist)",
+      "44′ Kean (Pio assist)",
+      "72′ Pio (Tonali assist)"
+    ],
+    "halfTimeXG": {
+      "Italy": 2.3,
+      "Japan": 0.1
+    },
+    "fullTimeXG": {
+      "Italy": 4.2,
+      "Japan": 0.4
+    },
+    "ratingPio": 9.7,
+    "italyOnly": true,
+    "octoberFriendlyCombined": {
+      "played": 2,
+      "won": 2,
+      "goalsFor": 6,
+      "goalsAgainst": 0,
+      "pioGoals": 5,
+      "pioAssists": 1
+    },
+    "clubGoalsUnaffected": true
+  },
+  "missing_stories_oct2031": {
+    "matches": [
+      "Japan 0–3 Italy",
+      "Fiorentina 0–1 Napoli",
+      "Napoli 2–0 Benfica",
+      "Napoli 2–1 Torino",
+      "Napoli 4–0 Milan"
+    ],
+    "dateNotAssigned": [
+      "Japan",
+      "Torino",
+      "Milan"
+    ],
+    "coverageIds": [
+      "napoli-milan-four-nil-moore-brace-oct2031",
+      "mikey-moore-brace-assist-milan-oct2031",
+      "napoli-milan-ten-shots-eight-on-target-oct2031",
+      "napoli-torino-2-1-rotation-beier-neves-oct2031",
+      "torino-rotation-rossetti-burnett-moore-oct2031",
+      "napoli-benfica-2-0-moore-pio-gomes-oct21-2031",
+      "gomes-six-saves-benfica-napoli-oct21-2031",
+      "fiorentina-napoli-beier-89th-winner-oct17-2031",
+      "fiorentina-corner-pio-estevao-beier-transition-oct17-2031",
+      "italy-japan-3-0-kean-pio-double-oct2031",
+      "pio-kean-partnership-japan-italy-oct2031"
+    ],
+    "counts": {
+      "articles": 11,
+      "paragraphs": 151,
+      "topLevel": 168,
+      "threadedReplies": 74,
+      "totalComments": 242
+    },
+    "matchEventsBoundToCanon": true
+  },
+  "internal_oct2031_contract_continuity": {
+    "privacy": "Internal staff-room; not automatically announced to public stories",
+    "neves": {
+      "age": 27,
+      "overall": 95,
+      "role": "Crucial",
+      "extensionYears": 3,
+      "releaseClause": 513100000,
+      "wageWeekly": 640000,
+      "signingBonus": 6500000,
+      "renewalStatus": "agreed",
+      "budgetAfterUserReported": 444000000
+    },
+    "paz": {
+      "age": 27,
+      "overall": 91,
+      "requestedWageWeekly": 670000,
+      "requestedSigningBonus": 6000000,
+      "requestedBonusAfterFiveGoals": 4000000,
+      "renewalStatus": "postponed, not signed"
+    }
   }
 }
