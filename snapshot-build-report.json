@@ -1,7 +1,7 @@
 {
-  "revision": "cba771d457d3",
-  "articles": 865,
-  "results": 190,
+  "revision": "93d865e1a6ca",
+  "articles": 876,
+  "results": 195,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,7 +9,7 @@
       20
     ],
     "careerPio": [
-      154,
+      156,
       74
     ],
     "historicalPio": [
@@ -29,18 +29,31 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Fiorentina",
-    "latestEurope": "Napoli 3–0 Paris Saint-Germain",
-    "latestSerieA": "Napoli 3–1 Udinese",
-    "latestInternational": "Italy 3–0 Indonesia",
+    "nextClub": "Monza",
+    "latestEurope": "Napoli 2–0 Benfica",
+    "latestSerieA": "Napoli 4–0 Milan",
+    "latestInternational": "Japan 0–3 Italy",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
       "Italy": 2.9,
       "Indonesia": 0
-    }
+    },
+    "italyJapanFinalXG": {
+      "Italy": 4.2,
+      "Japan": 0.4
+    },
+    "milanShots": {
+      "Napoli": 10,
+      "Milan": 2
+    },
+    "milanShotsOnTarget": {
+      "Napoli": 8,
+      "Milan": 1
+    },
+    "mooreCompetitiveGoals": 3
   },
   "publicationVoice": {
-    "articleCount": 865
+    "articleCount": 876
   },
   "legacyErrors": []
 }
