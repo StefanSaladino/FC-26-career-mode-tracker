@@ -210,27 +210,40 @@
   ],
   "latest_confirmed_match": {
     "team": "Napoli",
-    "opponent": "Milan",
+    "opponent": "Monza",
     "competition": "Serie A",
-    "date": null,
-    "period": "October 2031",
+    "date": "2031-11-01",
     "venue": "Home",
-    "result": "4–0",
+    "result": "6–0",
+    "halftime": "4–0",
     "events": [
-      "18′ Moore (Zaïre-Emery assist)",
-      "44′ Davies header (Moore corner assist)",
-      "45+2′ Moore (Beier assist)",
-      "73′ Pio Esposito (Rossetti assist)"
+      "19′ Pio Esposito (Rossetti assist)",
+      "24′ João Neves (Pio assist)",
+      "33′ Pio Esposito (Nico Paz assist)",
+      "40′ Estêvão (Pio assist)",
+      "77′ Pio Esposito (Sebastiano assist)",
+      "80′ Pio Esposito (Sebastiano assist)"
     ],
-    "shots": {
-      "Napoli": 10,
-      "Milan": 2
+    "pio": {
+      "goals": 4,
+      "assists": 2,
+      "goalContributions": 6,
+      "penaltySaved": true,
+      "penaltySavedBy": "Pizzignacco",
+      "penaltyMinute": null
     },
-    "shotsOnTarget": {
-      "Napoli": 8,
-      "Milan": 1
+    "halftimeSubs": {
+      "off": [
+        "Mikey Moore",
+        "Nico Paz"
+      ],
+      "on": [
+        "Sebastiano Esposito",
+        "Victor Hermansen"
+      ],
+      "pairingsUnspecified": true
     },
-    "notes": "Moore 2G1A. No match xG, official MOTM/rating or exact calendar day confirmed."
+    "notes": "Pio won penalty after being tripped, saved spectacularly by Pizzignacco in second half before 77. No other match stats/awards known."
   },
   "manager_press": {
     "status": "optional",
@@ -246,6 +259,33 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "1 November 2031 · Napoli 6–0 Monza · Pio four goals/two assists, Seba two assists, Bellandi column",
+    "status": "Sources authored and committed only after release; compiled snapshot and GitHub Pages must pass separately",
+    "stories": [
+      "napoli-monza-six-nil-pio-four-goals-two-assists-nov1-2031",
+      "bellandi-monza-six-nil-pio-four-two-nov1-2031",
+      "esposito-brothers-two-assists-three-minutes-monza-nov1-2031",
+      "pio-esposito-four-goals-two-assists-missed-penalty-nov1-2031"
+    ],
+    "sources": [
+      "stories-monza-main-nov1-2031.js",
+      "stories-monza-bellandi-nov1-2031.js",
+      "stories-monza-brothers-nov1-2031.js",
+      "stories-monza-pio-nov1-2031.js",
+      "site-visible-monza-pio-four-nov1-2031.js"
+    ],
+    "counts": {
+      "articles": 4,
+      "paragraphs": 68,
+      "topLevel": 80,
+      "threadedReplies": 59,
+      "totalComments": 139
+    },
+    "standards": "Monza goals: Pio 19 Rossetti, Neves 24 Pio, Pio 33 Paz, Estêvão 40 Pio, Pio 77 and 80 Sebastiano. Pio penalty saved by Pizzignacco, exact minute unconfirmed. Half-time Moore/Paz off, Seba/Hermansen on; no assumed specific pairings. Pio 4G2A, brother 2A. Bellandi established skeptical but fair voice; no invented public manager quotes. Italy friendlies separated from Napoli stats.",
+    "imagery": "Existing approved Napoli gallery illustrations only, not action photos",
+    "qa": "Verify editorial workflow, full static snapshot/browser QA and generated Pages deployment. Do not claim done before checked."
+  },
+  "previous_newsroom_package": {
     "phase": "October 2031 backlog cleared · Italy 0–3 Japan, Fiorentina 0–1 Napoli, Napoli 2–0 Benfica, Napoli 2–1 Torino, Napoli 4–0 Milan",
     "status": "Published source edition pending editorial QA, browser compilation and Pages deployment",
     "stories": [
@@ -285,33 +325,6 @@
     "standards": "Five distinct match reports plus six independent angles. Correct reported goal minutes, officials assists, goalkeeper saves, interim/full-time xG, shots, and rating 9.7. Unknown exact Italy-Japan/Torino/Milan dates not invented. All Italy friendly goals separate from Napoli club records.",
     "imagery": "Previously approved archival Napoli/Italy gallery only; not claimed as documentary photos",
     "qa": "GitHub editorial validation, compiled snapshot and browser verification and latest generated GitHub Pages successful deployment required."
-  },
-  "previous_newsroom_package": {
-    "phase": "October 2031 · Italy 3–0 Indonesia, Pio hat-trick perfect 10.0, youth ratings, Audero saves",
-    "status": "Publication sources assembled; verify editorial quality, compiled-site browser tests and Pages deployment",
-    "stories": [
-      "italy-indonesia-3-0-pio-perfect-ten-youth-oct2031",
-      "pio-esposito-perfect-ten-hat-trick-italy-indonesia-oct2031",
-      "rossetti-camarda-pafundi-liberali-young-italy-indonesia-oct2031",
-      "audero-indonesia-italy-double-save-heroics-oct2031"
-    ],
-    "sources": [
-      "stories-italy-indonesia-main-oct2031.js",
-      "stories-italy-indonesia-pio-ten-oct2031.js",
-      "stories-italy-indonesia-youth-rossetti-oct2031.js",
-      "stories-italy-indonesia-audero-oct2031.js",
-      "site-visible-italy-indonesia-oct2031.js"
-    ],
-    "counts": {
-      "articles": 4,
-      "paragraphs": 54,
-      "topLevel": 68,
-      "threadedReplies": 41,
-      "totalComments": 109
-    },
-    "standards": "Italy friendly: Pio 14 Rossetti assist, 30 Camarda assist, 87 third chance after two Audero saves with no reported assist. Halftime 2.9–0.0 xG; four good Audero first-half saves. Match ratings Pio10.0, Rossetti8.0, Camarda7.7, Pafundi/Liberali7.4. Separate Napoli club statistics.",
-    "imagery": "Previously approved football gallery illustrations, not documentary match photographs",
-    "qa": "Editorial validation and compact compilation/browser tests plus current generated GitHub Pages deployment to verify."
   },
   "release_history": [
     {
@@ -654,59 +667,67 @@
   },
   "latest_calendar_update": {
     "period": "November 2031",
-    "status": "Seven identified fixtures and one unconfirmed opponent crest",
+    "status": "Completed Monza; next Salzburg 5 November, Lecce 9 November",
     "confirmed": [
       [
         "2031-11-01",
         "Napoli",
         "Monza",
-        "Serie A"
+        "Serie A",
+        "completed 6–0"
       ],
       [
         "2031-11-05",
         "Napoli",
         "RB Salzburg",
-        "Champions League"
+        "Champions League",
+        "scheduled"
       ],
       [
         "2031-11-09",
         "Napoli",
         "Lecce",
-        "Serie A"
+        "Serie A",
+        "scheduled"
       ],
       [
         "2031-11-15",
         "Italy",
         "Australia",
-        "Friendly"
+        "Friendly",
+        "scheduled"
       ],
       [
         "2031-11-18",
         "Italy",
         "Portugal",
-        "Friendly"
+        "Friendly",
+        "scheduled"
       ],
       [
         "2031-11-22",
         "Napoli",
         "Hellas Verona",
-        "Serie A"
+        "Serie A",
+        "scheduled"
       ],
       [
         "2031-11-26",
         "Napoli",
         "Sporting CP",
-        "Champions League"
+        "Champions League",
+        "scheduled"
       ]
     ],
     "uncertain": [
       {
         "date": "2031-11-30",
-        "opponent": "Unconfirmed (crest resembles Bergamo Calcio)"
+        "opponent": "Unconfirmed crest appears consistent with Bergamo Calcio"
       }
     ],
-    "nextClub": "Monza home 1 November",
-    "nextEurope": "RB Salzburg home 5 November"
+    "nextClub": "RB Salzburg home 5 November",
+    "nextSerieA": "Lecce away 9 November",
+    "nextInternational": "Australia 15 November"
   },
   "latest_canon_only_checkpoint": {
     "type": "Barcelona UCL R16 comeback now authorised for newsroom",
@@ -2424,24 +2445,20 @@
   },
   "latest_league_2031_32": {
     "season": "2031–32",
-    "asOf": "October 2031 · after Milan",
-    "played": 9,
-    "won": 8,
+    "asOf": "2031-11-01",
+    "played": 10,
+    "won": 9,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 22,
+    "goalsFor": 28,
     "goalsAgainst": 7,
-    "goalDifference": 15,
-    "points": 25,
+    "goalDifference": 21,
+    "points": 28,
     "position": null,
-    "lastResult": "Napoli 4–0 Milan",
-    "previousResult": "Napoli 2–1 Torino",
-    "lastResultHTxg": {
-      "sassuolo": 3.3,
-      "napoli": 1.7
-    },
-    "burnettPerformance": "Very good first half",
-    "secondHalfSassuoloChances": 1
+    "lastResult": "Napoli 6–0 Monza",
+    "previousResult": "Napoli 4–0 Milan",
+    "recentLeagueConsecutiveCleanSheets": 2,
+    "recentLeagueTwoMatchGoalsFor": 10
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -2586,39 +2603,40 @@
     "position": null
   },
   "latest_club_contributions_2031_32": {
-    "asOf": "October 2031 · through Milan",
+    "asOf": "2031-11-01 · after Napoli 6–0 Monza",
+    "scope": "Napoli competitive club season only, Supercoppa counted; shootouts and Italy international friendlies excluded",
     "clubSeason": {
       "PioEsposito": [
-        10,
-        0
+        16,
+        2
       ],
       "SebastianoEsposito": [
         1,
-        1
+        3
       ],
       "MikeyMoore": [
-        0,
-        4
+        3,
+        5
       ],
       "Estevao": [
-        1,
-        2
+        2,
+        3
       ],
       "WarrenZaireEmery": [
         0,
-        3
+        4
       ],
       "JoaoNeves": [
-        2,
-        1
-      ],
-      "NicoPaz": [
-        1,
-        1
-      ],
-      "MaximilianBeier": [
         3,
         2
+      ],
+      "NicoPaz": [
+        2,
+        3
+      ],
+      "MaximilianBeier": [
+        5,
+        4
       ],
       "AntonStach": [
         0,
@@ -2634,46 +2652,65 @@
       ],
       "EdoardoRossetti": [
         0,
-        1
+        3
+      ],
+      "AlphonsoDavies": [
+        1,
+        0
       ]
     },
     "careerConfirmed": {
       "PioEsposito": [
-        154,
-        74
+        160,
+        76
+      ],
+      "SebastianoEsposito": [
+        1,
+        3
       ],
       "MaximilianBeier": [
-        136,
-        92
+        138,
+        94
+      ],
+      "MikeyMoore": [
+        20,
+        33
+      ],
+      "NicoPaz": [
+        22,
+        28
+      ],
+      "JoaoNeves": [
+        10,
+        11
       ],
       "Estevao": [
-        4,
-        9
-      ],
-      "AlessandroBastoni": [
-        3,
-        2
+        5,
+        10
       ],
       "EdoardoRossetti": [
         2,
-        1
+        3
       ],
-      "JoaoNeves": [
-        9,
-        10
+      "WarrenZaireEmery": [
+        6,
+        18
+      ],
+      "AlphonsoDavies": [
+        12,
+        8
       ]
     },
-    "scope": "Competitive Napoli club only, includes Supercoppa, excludes shootouts and all Italy appearances",
     "totals": [
       [
         "Pio Esposito",
-        12,
-        0
+        16,
+        2
       ],
       [
         "Sebastiano Esposito",
         1,
-        1
+        3
       ],
       [
         "Mikey Moore",
@@ -2682,7 +2719,7 @@
       ],
       [
         "Estêvão",
-        1,
+        2,
         3
       ],
       [
@@ -2692,13 +2729,13 @@
       ],
       [
         "João Neves",
-        2,
+        3,
         2
       ],
       [
         "Nico Paz",
         2,
-        2
+        3
       ],
       [
         "Maximilian Beier",
@@ -2723,7 +2760,7 @@
       [
         "Edoardo Rossetti",
         0,
-        2
+        3
       ],
       [
         "Alphonso Davies",
@@ -2733,40 +2770,28 @@
     ],
     "careerUpdates": {
       "Pio Esposito": [
-        156,
-        74
+        160,
+        76
       ],
-      "Maximilian Beier": [
-        138,
-        94
+      "Sebastiano Esposito": [
+        1,
+        3
       ],
-      "Mikey Moore": [
-        20,
-        33
+      "João Neves": [
+        10,
+        11
       ],
       "Nico Paz": [
         22,
-        27
-      ],
-      "João Neves": [
-        9,
-        11
-      ],
-      "Warren Zaïre-Emery": [
-        6,
-        18
+        28
       ],
       "Estêvão": [
-        4,
+        5,
         10
       ],
       "Edoardo Rossetti": [
         2,
-        2
-      ],
-      "Alphonso Davies": [
-        12,
-        8
+        3
       ]
     }
   },
@@ -3087,5 +3112,148 @@
       "requestedBonusAfterFiveGoals": 4000000,
       "renewalStatus": "postponed, not signed"
     }
+  },
+  "monza_nov1_2031": {
+    "result": "Napoli 6–0 Monza",
+    "date": "2031-11-01",
+    "events": [
+      "19′ Pio Esposito (Rossetti assist)",
+      "24′ João Neves (Pio assist)",
+      "33′ Pio Esposito (Nico Paz assist)",
+      "40′ Estêvão (Pio assist)",
+      "77′ Pio Esposito (Sebastiano assist)",
+      "80′ Pio Esposito (Sebastiano assist)"
+    ],
+    "penalty": {
+      "goals": 4,
+      "assists": 2,
+      "goalContributions": 6,
+      "penaltySaved": true,
+      "penaltySavedBy": "Pizzignacco",
+      "penaltyMinute": null
+    },
+    "substitutions": {
+      "off": [
+        "Mikey Moore",
+        "Nico Paz"
+      ],
+      "on": [
+        "Sebastiano Esposito",
+        "Victor Hermansen"
+      ],
+      "pairingsUnspecified": true
+    },
+    "leagueAfter": {
+      "played": 10,
+      "won": 9,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 28,
+      "goalsAgainst": 7,
+      "goalDifference": 21,
+      "points": 28,
+      "position": null
+    },
+    "clubStatsAfter": {
+      "PioEsposito": [
+        16,
+        2
+      ],
+      "SebastianoEsposito": [
+        1,
+        3
+      ],
+      "MikeyMoore": [
+        3,
+        5
+      ],
+      "Estevao": [
+        2,
+        3
+      ],
+      "WarrenZaireEmery": [
+        0,
+        4
+      ],
+      "JoaoNeves": [
+        3,
+        2
+      ],
+      "NicoPaz": [
+        2,
+        3
+      ],
+      "MaximilianBeier": [
+        5,
+        4
+      ],
+      "AntonStach": [
+        0,
+        1
+      ],
+      "ScottMcTominay": [
+        0,
+        1
+      ],
+      "AlessandroBastoni": [
+        1,
+        0
+      ],
+      "EdoardoRossetti": [
+        0,
+        3
+      ],
+      "AlphonsoDavies": [
+        1,
+        0
+      ]
+    },
+    "careerAfter": {
+      "Pio Esposito": [
+        160,
+        76
+      ],
+      "Sebastiano Esposito": [
+        1,
+        3
+      ],
+      "João Neves": [
+        10,
+        11
+      ],
+      "Nico Paz": [
+        22,
+        28
+      ],
+      "Estêvão": [
+        5,
+        10
+      ],
+      "Edoardo Rossetti": [
+        2,
+        3
+      ]
+    }
+  },
+  "november_2031_player_features": {
+    "month": "2031-11",
+    "status": "covered",
+    "stories": [
+      "pio-esposito-four-goals-two-assists-missed-penalty-nov1-2031",
+      "esposito-brothers-two-assists-three-minutes-monza-nov1-2031"
+    ],
+    "note": "Pio's four-goal/two-assist performance with missed penalty and Sebastiano brother-to-brother pair of assists both covered in depth. No fabricated post-match player interview."
+  },
+  "bellandi_monza_nov2031": {
+    "articleId": "bellandi-monza-six-nil-pio-four-two-nov1-2031",
+    "outlet": "Linea Calcio TV",
+    "voice": "Measured and pointed, celebrates 6-0 and rational half-time changes while refusing to use result as proof Salzburg will be identical",
+    "continuity": [
+      "Criticized early conceded goals at Arsenal",
+      "Acknowledged Napoli response versus PSG",
+      "Historically skeptical about rotation and assistant manager Sandro"
+    ],
+    "publicManagerQuoteInvented": false,
+    "authoredAsInWorldEditorial": true
   }
 }
