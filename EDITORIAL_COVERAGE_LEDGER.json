@@ -210,40 +210,42 @@
   ],
   "latest_confirmed_match": {
     "team": "Napoli",
-    "opponent": "Monza",
-    "competition": "Serie A",
-    "date": "2031-11-01",
+    "opponent": "RB Salzburg",
+    "competition": "Champions League",
+    "stage": "League phase",
+    "date": "2031-11-05",
     "venue": "Home",
-    "result": "6–0",
-    "halftime": "4–0",
+    "result": "5–2",
+    "halftime": "3–0",
     "events": [
-      "19′ Pio Esposito (Rossetti assist)",
-      "24′ João Neves (Pio assist)",
-      "33′ Pio Esposito (Nico Paz assist)",
-      "40′ Estêvão (Pio assist)",
-      "77′ Pio Esposito (Sebastiano assist)",
-      "80′ Pio Esposito (Sebastiano assist)"
+      "9′ Pio Esposito (Nico Paz assist)",
+      "29′ Estêvão (Pio Esposito assist)",
+      "39′ Pio Esposito (Estêvão assist)",
+      "52′ Alphonso Davies (João Neves assist, fake shot freezes goalkeeper)",
+      "62′ Lucas Vennegoor of Hesselink (RB Salzburg, assist unknown)",
+      "80′ Pio Esposito (Riccardo Calafiori assist)",
+      "89′ Simmelhack (RB Salzburg, headed goal from cross, assist unknown)"
     ],
     "pio": {
-      "goals": 4,
-      "assists": 2,
-      "goalContributions": 6,
-      "penaltySaved": true,
-      "penaltySavedBy": "Pizzignacco",
-      "penaltyMinute": null
+      "goals": 3,
+      "assists": 1,
+      "goalContributions": 4,
+      "secondConsecutiveHatTrick": true,
+      "twoMatchGoals": 7,
+      "twoMatchAssists": 3
     },
-    "halftimeSubs": {
+    "substitutions": {
       "off": [
-        "Mikey Moore",
-        "Nico Paz"
+        "Nico Paz",
+        "Alphonso Davies",
+        "Mikey Moore"
       ],
-      "on": [
-        "Sebastiano Esposito",
-        "Victor Hermansen"
-      ],
-      "pairingsUnspecified": true
+      "on": [],
+      "time": "Second half after 52′ and before 62′",
+      "exactMinuteUnspecified": true,
+      "incomingUnspecified": true
     },
-    "notes": "Pio won penalty after being tripped, saved spectacularly by Pizzignacco in second half before 77. No other match stats/awards known."
+    "notes": "No own goals, red cards or other reported events. Manager-confirmed Pio not tired private; no public direct manager quote. User explicitly authorised publication after FT."
   },
   "manager_press": {
     "status": "optional",
@@ -259,6 +261,33 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "5 November 2031 · Napoli 5–2 RB Salzburg · Pio second consecutive hat-trick · late defensive analysis",
+    "status": "Authorised and prepared. Source commit then editorial validation, snapshot/browser compilation and Pages deployment required before live.",
+    "stories": [
+      "napoli-salzburg-five-two-pio-hat-trick-nov5-2031",
+      "bellandi-salzburg-five-two-defensive-warning-nov5-2031",
+      "pio-esposito-seven-goals-two-games-europe-nov5-2031",
+      "salzburg-two-concessions-napoli-four-goal-lead-nov5-2031"
+    ],
+    "sources": [
+      "stories-salzburg-main-nov5-2031.js",
+      "stories-salzburg-bellandi-nov5-2031.js",
+      "stories-salzburg-pio-two-hat-tricks-nov5-2031.js",
+      "stories-salzburg-two-concessions-nov5-2031.js",
+      "site-visible-salzburg-pio-hattrick-nov5-2031.js"
+    ],
+    "counts": {
+      "articles": 4,
+      "paragraphs": 71,
+      "topLevel": 80,
+      "threadedReplies": 61,
+      "totalComments": 141
+    },
+    "standards": "UCL P4 W3 L1 GF10 GA3 9 points. Pio 9/39/80 (assists Paz, Estêvão, Calafiori), Estêvão 29 (Pio), Davies 52 (Neves fake shot). Salzburg Vennegoor of Hesselink 62 and Simmelhack 89 headed cross, assists unknown. HT 3-0, 4-0 at 52. Paz/Davies/Moore off after 52, replacements/time unknown; no attribution to subs or particular defender. Pio seven goals three assists last Monza+Salzburg, ten of Napoli 11 goals; competitive Napoli season 19G3A. Italy friendly scope separate.",
+    "imagery": "Previously approved Napoli gallery archive; no assertion of documentary match photography or rendered visual QA",
+    "qa": "Confirm workflow editorial gate, browser snapshot tests, generated public commit and GitHub Pages successful deployment."
+  },
+  "previous_newsroom_package": {
     "phase": "1 November 2031 · Napoli 6–0 Monza · Pio four goals/two assists, Seba two assists, Bellandi column",
     "status": "Sources authored and committed only after release; compiled snapshot and GitHub Pages must pass separately",
     "stories": [
@@ -284,47 +313,6 @@
     "standards": "Monza goals: Pio 19 Rossetti, Neves 24 Pio, Pio 33 Paz, Estêvão 40 Pio, Pio 77 and 80 Sebastiano. Pio penalty saved by Pizzignacco, exact minute unconfirmed. Half-time Moore/Paz off, Seba/Hermansen on; no assumed specific pairings. Pio 4G2A, brother 2A. Bellandi established skeptical but fair voice; no invented public manager quotes. Italy friendlies separated from Napoli stats.",
     "imagery": "Existing approved Napoli gallery illustrations only, not action photos",
     "qa": "Verify editorial workflow, full static snapshot/browser QA and generated Pages deployment. Do not claim done before checked."
-  },
-  "previous_newsroom_package": {
-    "phase": "October 2031 backlog cleared · Italy 0–3 Japan, Fiorentina 0–1 Napoli, Napoli 2–0 Benfica, Napoli 2–1 Torino, Napoli 4–0 Milan",
-    "status": "Published source edition pending editorial QA, browser compilation and Pages deployment",
-    "stories": [
-      "napoli-milan-four-nil-moore-brace-oct2031",
-      "mikey-moore-brace-assist-milan-oct2031",
-      "napoli-milan-ten-shots-eight-on-target-oct2031",
-      "napoli-torino-2-1-rotation-beier-neves-oct2031",
-      "torino-rotation-rossetti-burnett-moore-oct2031",
-      "napoli-benfica-2-0-moore-pio-gomes-oct21-2031",
-      "gomes-six-saves-benfica-napoli-oct21-2031",
-      "fiorentina-napoli-beier-89th-winner-oct17-2031",
-      "fiorentina-corner-pio-estevao-beier-transition-oct17-2031",
-      "italy-japan-3-0-kean-pio-double-oct2031",
-      "pio-kean-partnership-japan-italy-oct2031"
-    ],
-    "sources": [
-      "stories-milan-main-oct2031.js",
-      "stories-milan-moore-oct2031.js",
-      "stories-milan-control-oct2031.js",
-      "stories-torino-main-oct2031.js",
-      "stories-torino-rotation-oct2031.js",
-      "stories-benfica-main-oct21-2031.js",
-      "stories-benfica-gomes-oct21-2031.js",
-      "stories-fiorentina-main-oct17-2031.js",
-      "stories-fiorentina-counter-oct17-2031.js",
-      "stories-japan-main-oct2031.js",
-      "stories-japan-kean-pio-oct2031.js",
-      "site-visible-missing-oct2031-milan-latest.js"
-    ],
-    "counts": {
-      "articles": 11,
-      "paragraphs": 151,
-      "topLevel": 168,
-      "threadedReplies": 74,
-      "totalComments": 242
-    },
-    "standards": "Five distinct match reports plus six independent angles. Correct reported goal minutes, officials assists, goalkeeper saves, interim/full-time xG, shots, and rating 9.7. Unknown exact Italy-Japan/Torino/Milan dates not invented. All Italy friendly goals separate from Napoli club records.",
-    "imagery": "Previously approved archival Napoli/Italy gallery only; not claimed as documentary photos",
-    "qa": "GitHub editorial validation, compiled snapshot and browser verification and latest generated GitHub Pages successful deployment required."
   },
   "release_history": [
     {
@@ -667,7 +655,7 @@
   },
   "latest_calendar_update": {
     "period": "November 2031",
-    "status": "Completed Monza; next Salzburg 5 November, Lecce 9 November",
+    "status": "Completed Salzburg UCL; next Lecce away 9 November",
     "confirmed": [
       [
         "2031-11-01",
@@ -681,7 +669,7 @@
         "Napoli",
         "RB Salzburg",
         "Champions League",
-        "scheduled"
+        "completed 5–2"
       ],
       [
         "2031-11-09",
@@ -725,8 +713,9 @@
         "opponent": "Unconfirmed crest appears consistent with Bergamo Calcio"
       }
     ],
-    "nextClub": "RB Salzburg home 5 November",
+    "nextClub": "Lecce away 9 November",
     "nextSerieA": "Lecce away 9 November",
+    "nextEurope": "Sporting CP away 26 November",
     "nextInternational": "Australia 15 November"
   },
   "latest_canon_only_checkpoint": {
@@ -2583,32 +2572,30 @@
   },
   "latest_europe_2031_32": {
     "season": "2031–32",
-    "asOf": "2031-10-21",
+    "asOf": "2031-11-05",
     "competition": "Champions League",
     "stage": "League phase",
-    "played": 3,
-    "won": 2,
+    "played": 4,
+    "won": 3,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 5,
-    "goalsAgainst": 1,
-    "goalDifference": 4,
-    "points": 6,
-    "latestResult": "Napoli 2–0 Benfica",
-    "previousResult": "Napoli 3–0 Paris Saint-Germain",
-    "nextOpponent": "RB Salzburg",
-    "nextDate": "2031-11-05",
-    "officialManOfTheMatch": "Warren Zaïre-Emery",
-    "abandonedAttemptVoided": true,
+    "goalsFor": 10,
+    "goalsAgainst": 3,
+    "goalDifference": 7,
+    "points": 9,
+    "latestResult": "Napoli 5–2 RB Salzburg",
+    "previousResult": "Napoli 2–0 Benfica",
+    "nextOpponent": "Sporting CP",
+    "nextDate": "2031-11-26",
     "position": null
   },
   "latest_club_contributions_2031_32": {
-    "asOf": "2031-11-01 · after Napoli 6–0 Monza",
-    "scope": "Napoli competitive club season only, Supercoppa counted; shootouts and Italy international friendlies excluded",
+    "asOf": "2031-11-05 · after Napoli 5–2 RB Salzburg",
+    "scope": "Competitive Napoli club season including Supercoppa; no Italy friendlies or shootouts",
     "clubSeason": {
       "PioEsposito": [
-        16,
-        2
+        19,
+        3
       ],
       "SebastianoEsposito": [
         1,
@@ -2619,8 +2606,8 @@
         5
       ],
       "Estevao": [
-        2,
-        3
+        3,
+        4
       ],
       "WarrenZaireEmery": [
         0,
@@ -2628,11 +2615,11 @@
       ],
       "JoaoNeves": [
         3,
-        2
+        3
       ],
       "NicoPaz": [
         2,
-        3
+        4
       ],
       "MaximilianBeier": [
         5,
@@ -2655,14 +2642,18 @@
         3
       ],
       "AlphonsoDavies": [
-        1,
+        2,
         0
+      ],
+      "RiccardoCalafiori": [
+        0,
+        1
       ]
     },
     "careerConfirmed": {
       "PioEsposito": [
-        160,
-        76
+        163,
+        77
       ],
       "SebastianoEsposito": [
         1,
@@ -2678,15 +2669,15 @@
       ],
       "NicoPaz": [
         22,
-        28
+        29
       ],
       "JoaoNeves": [
         10,
-        11
+        12
       ],
       "Estevao": [
-        5,
-        10
+        6,
+        11
       ],
       "EdoardoRossetti": [
         2,
@@ -2697,15 +2688,19 @@
         18
       ],
       "AlphonsoDavies": [
-        12,
+        13,
         8
+      ],
+      "RiccardoCalafiori": [
+        0,
+        2
       ]
     },
     "totals": [
       [
         "Pio Esposito",
-        16,
-        2
+        19,
+        3
       ],
       [
         "Sebastiano Esposito",
@@ -2719,8 +2714,8 @@
       ],
       [
         "Estêvão",
-        2,
-        3
+        3,
+        4
       ],
       [
         "Warren Zaïre-Emery",
@@ -2730,12 +2725,12 @@
       [
         "João Neves",
         3,
-        2
+        3
       ],
       [
         "Nico Paz",
         2,
-        3
+        4
       ],
       [
         "Maximilian Beier",
@@ -2764,34 +2759,39 @@
       ],
       [
         "Alphonso Davies",
-        1,
+        2,
         0
+      ],
+      [
+        "Riccardo Calafiori",
+        0,
+        1
       ]
     ],
     "careerUpdates": {
       "Pio Esposito": [
-        160,
-        76
+        163,
+        77
       ],
-      "Sebastiano Esposito": [
-        1,
-        3
+      "Estêvão": [
+        6,
+        11
+      ],
+      "Alphonso Davies": [
+        13,
+        8
       ],
       "João Neves": [
         10,
-        11
+        12
       ],
       "Nico Paz": [
         22,
-        28
+        29
       ],
-      "Estêvão": [
-        5,
-        10
-      ],
-      "Edoardo Rossetti": [
-        2,
-        3
+      "Riccardo Calafiori": [
+        0,
+        2
       ]
     }
   },
@@ -3240,9 +3240,10 @@
     "status": "covered",
     "stories": [
       "pio-esposito-four-goals-two-assists-missed-penalty-nov1-2031",
-      "esposito-brothers-two-assists-three-minutes-monza-nov1-2031"
+      "esposito-brothers-two-assists-three-minutes-monza-nov1-2031",
+      "pio-esposito-seven-goals-two-games-europe-nov5-2031"
     ],
-    "note": "Pio's four-goal/two-assist performance with missed penalty and Sebastiano brother-to-brother pair of assists both covered in depth. No fabricated post-match player interview."
+    "note": "Character-led Pio and brothers pieces for November; no fabricated Q&A or manager public statements."
   },
   "bellandi_monza_nov2031": {
     "articleId": "bellandi-monza-six-nil-pio-four-two-nov1-2031",
@@ -3255,5 +3256,151 @@
     ],
     "publicManagerQuoteInvented": false,
     "authoredAsInWorldEditorial": true
+  },
+  "salzburg_nov5_2031": {
+    "result": "Napoli 5–2 RB Salzburg",
+    "date": "2031-11-05",
+    "events": [
+      "9′ Pio Esposito (Nico Paz assist)",
+      "29′ Estêvão (Pio Esposito assist)",
+      "39′ Pio Esposito (Estêvão assist)",
+      "52′ Alphonso Davies (João Neves assist, fake shot freezes goalkeeper)",
+      "62′ Lucas Vennegoor of Hesselink (RB Salzburg, assist unknown)",
+      "80′ Pio Esposito (Riccardo Calafiori assist)",
+      "89′ Simmelhack (RB Salzburg, headed goal from cross, assist unknown)"
+    ],
+    "substitutions": {
+      "off": [
+        "Nico Paz",
+        "Alphonso Davies",
+        "Mikey Moore"
+      ],
+      "on": [],
+      "time": "Second half after 52′ and before 62′",
+      "exactMinuteUnspecified": true,
+      "incomingUnspecified": true
+    },
+    "uclAfter": {
+      "played": 4,
+      "won": 3,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 10,
+      "goalsAgainst": 3,
+      "goalDifference": 7,
+      "points": 9,
+      "position": null
+    },
+    "leagueAfterUnchanged": {
+      "played": 10,
+      "won": 9,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 28,
+      "goalsAgainst": 7,
+      "goalDifference": 21,
+      "points": 28,
+      "position": null
+    },
+    "clubSeasonAfter": {
+      "PioEsposito": [
+        19,
+        3
+      ],
+      "SebastianoEsposito": [
+        1,
+        3
+      ],
+      "MikeyMoore": [
+        3,
+        5
+      ],
+      "Estevao": [
+        3,
+        4
+      ],
+      "WarrenZaireEmery": [
+        0,
+        4
+      ],
+      "JoaoNeves": [
+        3,
+        3
+      ],
+      "NicoPaz": [
+        2,
+        4
+      ],
+      "MaximilianBeier": [
+        5,
+        4
+      ],
+      "AntonStach": [
+        0,
+        1
+      ],
+      "ScottMcTominay": [
+        0,
+        1
+      ],
+      "AlessandroBastoni": [
+        1,
+        0
+      ],
+      "EdoardoRossetti": [
+        0,
+        3
+      ],
+      "AlphonsoDavies": [
+        2,
+        0
+      ],
+      "RiccardoCalafiori": [
+        0,
+        1
+      ]
+    },
+    "clubCareerUpdates": {
+      "Pio Esposito": [
+        163,
+        77
+      ],
+      "Estêvão": [
+        6,
+        11
+      ],
+      "Alphonso Davies": [
+        13,
+        8
+      ],
+      "João Neves": [
+        10,
+        12
+      ],
+      "Nico Paz": [
+        22,
+        29
+      ],
+      "Riccardo Calafiori": [
+        0,
+        2
+      ]
+    },
+    "twoMatchPio": {
+      "Monza": "4G2A",
+      "Salzburg": "3G1A",
+      "goals": 7,
+      "assists": 3,
+      "contributions": 10,
+      "napoliGoalsBothMatches": 11
+    }
+  },
+  "bellandi_salzburg_nov2031": {
+    "articleId": "bellandi-salzburg-five-two-defensive-warning-nov5-2031",
+    "outlet": "Linea Calcio TV",
+    "voice": "Recognises European answer and Pio brilliance, analytically questions two concessions after 4–0. Does not assign particular blame to unknown substitutes or defenders.",
+    "followsPrevious": "bellandi-monza-six-nil-pio-four-two-nov1-2031",
+    "authoredAsInWorldEditorial": true,
+    "publicManagerQuoteInvented": false
   }
 }
