@@ -1,7 +1,7 @@
 {
-  "revision": "ed6f30d88db9",
-  "articles": 880,
-  "results": 196,
+  "revision": "30668c042df3",
+  "articles": 884,
+  "results": 197,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,8 +9,8 @@
       20
     ],
     "careerPio": [
-      160,
-      76
+      163,
+      77
     ],
     "historicalPio": [
       34,
@@ -29,8 +29,8 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "RB Salzburg",
-    "latestEurope": "Napoli 2–0 Benfica",
+    "nextClub": "Lecce",
+    "latestEurope": "Napoli 5–2 RB Salzburg",
     "latestSerieA": "Napoli 6–0 Monza",
     "latestInternational": "Japan 0–3 Italy",
     "italyPioHatTrick": 10,
@@ -59,10 +59,31 @@
       "Sebastiano Esposito",
       "Victor Hermansen"
     ],
-    "leaguePointsAfterMonza": 28
+    "leaguePointsAfterMonza": 28,
+    "salzburgScore": "Napoli 5–2 RB Salzburg",
+    "salzburgPioGoals": 3,
+    "salzburgPioAssists": 1,
+    "backToBackPioGoals": 7,
+    "backToBackPioAssists": 3,
+    "salzburgAssists": [
+      "Nico Paz",
+      "Pio Esposito",
+      "Estêvão",
+      "João Neves",
+      null,
+      "Riccardo Calafiori",
+      null
+    ],
+    "salzburgSubstitutedOff": [
+      "Nico Paz",
+      "Alphonso Davies",
+      "Mikey Moore"
+    ],
+    "uclPtsAfterSalzburg": 9,
+    "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 880
+    "articleCount": 884
   },
   "legacyErrors": []
 }
