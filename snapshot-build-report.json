@@ -1,7 +1,7 @@
 {
-  "revision": "93d865e1a6ca",
-  "articles": 876,
-  "results": 195,
+  "revision": "ed6f30d88db9",
+  "articles": 880,
+  "results": 196,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,8 +9,8 @@
       20
     ],
     "careerPio": [
-      156,
-      74
+      160,
+      76
     ],
     "historicalPio": [
       34,
@@ -29,9 +29,9 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Monza",
+    "nextClub": "RB Salzburg",
     "latestEurope": "Napoli 2–0 Benfica",
-    "latestSerieA": "Napoli 4–0 Milan",
+    "latestSerieA": "Napoli 6–0 Monza",
     "latestInternational": "Japan 0–3 Italy",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
@@ -50,10 +50,19 @@
       "Napoli": 8,
       "Milan": 1
     },
-    "mooreCompetitiveGoals": 3
+    "mooreCompetitiveGoals": 3,
+    "monzaPioGoals": 4,
+    "monzaPioAssists": 2,
+    "monzaPenaltySavedBy": "Pizzignacco",
+    "sebaMonzaAssists": 2,
+    "monzaHalfTimeSubs": [
+      "Sebastiano Esposito",
+      "Victor Hermansen"
+    ],
+    "leaguePointsAfterMonza": 28
   },
   "publicationVoice": {
-    "articleCount": 876
+    "articleCount": 880
   },
   "legacyErrors": []
 }
