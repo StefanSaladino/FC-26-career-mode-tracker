@@ -1,7 +1,7 @@
 {
-  "revision": "30668c042df3",
-  "articles": 884,
-  "results": 197,
+  "revision": "4f55bdc56a81",
+  "articles": 888,
+  "results": 198,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -9,7 +9,7 @@
       20
     ],
     "careerPio": [
-      163,
+      164,
       77
     ],
     "historicalPio": [
@@ -29,7 +29,7 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Lecce",
+    "nextClub": "Hellas Verona",
     "latestEurope": "Napoli 5–2 RB Salzburg",
     "latestSerieA": "Napoli 6–0 Monza",
     "latestInternational": "Japan 0–3 Italy",
@@ -60,6 +60,24 @@
       "Victor Hermansen"
     ],
     "leaguePointsAfterMonza": 28,
+    "leaguePointsAfterLecce": 31,
+    "lecceScore": "Lecce 0–3 Napoli",
+    "lecceAssists": [
+      "Mikey Moore",
+      "Anton Stach",
+      "Edoardo Rossetti"
+    ],
+    "lecceScorers": [
+      "Maximilian Beier",
+      "Pio Esposito",
+      "Sebastiano Esposito"
+    ],
+    "leccePenaltyKeeper": "Eriksson",
+    "leccePostMinute": "27",
+    "leccePioGoal": 1,
+    "leccePioAssists": 0,
+    "espositoBrothersScored": true,
+    "lecceCleanSheet": true,
     "salzburgScore": "Napoli 5–2 RB Salzburg",
     "salzburgPioGoals": 3,
     "salzburgPioAssists": 1,
@@ -83,7 +101,7 @@
     "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 884
+    "articleCount": 888
   },
   "legacyErrors": []
 }
