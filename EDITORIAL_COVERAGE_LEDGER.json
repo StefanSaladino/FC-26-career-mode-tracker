@@ -209,71 +209,81 @@
     }
   ],
   "latest_confirmed_match": {
-    "date": "2031-11-18",
+    "date": "2031-11-22",
     "season": "2031–32",
-    "team": "Italy",
-    "opponent": "Portugal",
+    "team": "Napoli",
+    "opponent": "Hellas Verona",
     "venue": "Home",
-    "competition": "International Friendly",
+    "competition": "Serie A",
     "status": "completed",
-    "score": "2–1",
-    "resultText": "Italy 2–1 Portugal",
-    "goalsFor": 2,
+    "score": "3–1",
+    "resultText": "Napoli 3–1 Hellas Verona",
+    "goalsFor": 3,
     "goalsAgainst": 1,
-    "halftime": "Italy 1–0 Portugal",
-    "xGAtHalfTime": {
-      "Italy": 0.6,
-      "Portugal": 0
-    },
-    "xGFullTime": null,
+    "halftime": "Napoli 2–0 Hellas Verona",
     "events": [
       {
-        "minute": "13",
-        "team": "Italy",
-        "scorer": "Simone Pafundi",
-        "assist": "Moise Kean",
+        "minute": "6",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Estêvão",
         "officialAssist": true,
-        "notes": "Slides past goalkeeper"
+        "notes": "Estêvão cross, Pio header"
       },
       {
-        "minute": "65",
-        "team": "Italy",
-        "scorer": "Francesco Pio Esposito",
-        "assist": "Moise Kean",
-        "officialAssist": true
+        "minute": "22",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Warren Zaïre-Emery",
+        "officialAssist": true,
+        "notes": "Zaïre-Emery cross to Pio; finish technique not confirmed"
       },
       {
-        "minute": "79",
-        "team": "Portugal",
-        "scorer": "Roger",
+        "minute": "59",
+        "team": "Hellas Verona",
+        "scorer": "Sarr",
         "assist": null,
-        "assistStatus": "not reported",
-        "notes": "Bad bounce sent Roger through"
+        "assistStatus": "not reported"
+      },
+      {
+        "minute": "61",
+        "team": "Napoli",
+        "scorer": "Warren Zaïre-Emery",
+        "assist": "João Neves",
+        "officialAssist": true,
+        "notes": "Rocket from edge of box"
       }
     ],
-    "comuzzo": {
-      "name": "Pietro Comuzzo",
-      "age": 26,
-      "position": "CB",
-      "startedInPlaceOf": "Alessandro Buongiorno",
-      "liveRating": 7.4,
-      "liveRatingMinute": 65,
-      "finalRating": null,
-      "notes": "Kept Portugal out of threatening areas; no attribution of Roger goal to Comuzzo"
+    "xGAtHalfTime": {
+      "Napoli": 3.1,
+      "Verona": 0.6
     },
-    "keanMatch": {
-      "goals": 0,
-      "assists": 2
+    "shotsAtHalfTime": {
+      "Napoli": 10,
+      "Verona": 2
     },
+    "shotsOnTargetAtHalfTime": {
+      "Napoli": 8,
+      "Verona": 1
+    },
+    "opponentGoalkeeper": {
+      "name": "Abramowicz",
+      "firstHalfSaves": 6,
+      "totalSaves": null
+    },
+    "xGFullTime": null,
     "pioMatch": {
-      "goals": 1,
+      "goals": 2,
       "assists": 0,
-      "fourItalyMatchGoals": 9,
-      "fourItalyMatchAssists": 1
+      "fourClubMatchGoals": 10,
+      "clubSeasonGoalsAfter": 22
     },
-    "notes": "No final xG, ratings, full lineup, substitutions, disciplinary events or goalkeeper identity reported; Roger assist unknown. João Neves participated per manager context; no position or individual performance statistics established.",
-    "result": "Italy 2–1 Portugal",
-    "italyOnly": true
+    "warrenMatch": {
+      "goals": 1,
+      "assists": 1
+    },
+    "notes": "No final shots/xG/save totals, final player ratings, match award, substitutions, full XI or cards confirmed. Sarr assist unknown.",
+    "result": "Napoli 3–1 Hellas Verona"
   },
   "manager_press": {
     "status": "optional",
@@ -289,8 +299,30 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "22 November 2031 · Napoli 3–1 Hellas Verona · Pio brace, Warren goal and assist, Abramowicz six HT saves",
+    "status": "Authorised source package; compilation and live deployment require separate verification",
+    "stories": [
+      "napoli-verona-three-one-pio-warren-nov22-2031",
+      "zaire-emery-two-minute-response-verona-nov22-2031",
+      "abramowicz-six-first-half-saves-verona-nov22-2031"
+    ],
+    "sources": [
+      "stories-verona-nov22-2031.js",
+      "site-visible-verona-three-one-nov22-2031.js"
+    ],
+    "counts": {
+      "articles": 3,
+      "paragraphs": 25,
+      "topLevel": 27,
+      "threadedReplies": 10,
+      "totalComments": 37
+    },
+    "standards": "HT statistics only; Pio 6 and 22 (Estêvão, Warren); Sarr 59 unknown assist; Warren 61 from Neves. No invented manager quotes or ratings. Italy separate.",
+    "imagery": "Previously approved archival gallery illustrations"
+  },
+  "previous_newsroom_package": {
     "phase": "18 November 2031 · Italy 2–1 Portugal · Kean two assists, Comuzzo focus",
-    "status": "Authorised source package; compiled browser QA and Pages deployment separately verified",
+    "status": "Compiled snapshot verified",
     "stories": [
       "italy-portugal-two-one-pafundi-pio-nov18-2031",
       "comuzzo-defensive-positioning-portugal-nov18-2031",
@@ -309,16 +341,8 @@
     },
     "standards": "HT xG 0.6–0.0 only; Comuzzo 7.4 live not final; Roger assist unknown. No invented manager quotes. Italy statistics separate from club.",
     "imagery": "Previously approved archival gallery illustrations",
-    "qa": "No unperformed checks claimed."
-  },
-  "previous_newsroom_package": {
-    "phase": "15 November 2031 · Italy 4–1 Australia",
-    "stories": [
-      "italy-australia-four-one-pio-hattrick-nov15-2031",
-      "pio-australia-penalty-redemption-interview-nov15-2031"
-    ],
-    "status": "Compiled snapshot verified",
-    "compiledCommit": "df12361bd5adc5d0b9888954a00596752ced5d86"
+    "qa": "No unperformed checks claimed.",
+    "compiledCommit": "81a56da022b693a1e81d0d954dede999e2b69b29"
   },
   "release_history": [
     {
@@ -2440,21 +2464,22 @@
   },
   "latest_league_2031_32": {
     "season": "2031–32",
-    "asOf": "2031-11-09",
-    "competition": "Serie A",
-    "played": 11,
-    "won": 10,
+    "played": 12,
+    "won": 11,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 31,
-    "goalsAgainst": 7,
-    "goalDifference": 24,
-    "points": 31,
+    "goalsFor": 34,
+    "goalsAgainst": 8,
+    "goalDifference": 26,
+    "points": 34,
     "position": null,
-    "latestResult": "Lecce 0–3 Napoli",
-    "previousResult": "Napoli 6–0 Monza",
-    "nextOpponent": "Hellas Verona",
-    "nextDate": "2031-11-22"
+    "asOf": "2031-11-22",
+    "lastOpponent": "Hellas Verona",
+    "competition": "Serie A",
+    "latestResult": "Napoli 3–1 Hellas Verona",
+    "previousResult": "Lecce 0–3 Napoli",
+    "nextOpponent": null,
+    "nextDate": null
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -3546,6 +3571,28 @@
       "standards": "HT xG 0.6–0.0 only; Comuzzo 7.4 live not final; Roger assist unknown. No invented manager quotes. Italy statistics separate from club.",
       "imagery": "Previously approved archival gallery illustrations",
       "qa": "No unperformed checks claimed."
+    },
+    {
+      "phase": "22 November 2031 · Napoli 3–1 Hellas Verona · Pio brace, Warren goal and assist, Abramowicz six HT saves",
+      "status": "Authorised source package; compilation and live deployment require separate verification",
+      "stories": [
+        "napoli-verona-three-one-pio-warren-nov22-2031",
+        "zaire-emery-two-minute-response-verona-nov22-2031",
+        "abramowicz-six-first-half-saves-verona-nov22-2031"
+      ],
+      "sources": [
+        "stories-verona-nov22-2031.js",
+        "site-visible-verona-three-one-nov22-2031.js"
+      ],
+      "counts": {
+        "articles": 3,
+        "paragraphs": 25,
+        "topLevel": 27,
+        "threadedReplies": 10,
+        "totalComments": 37
+      },
+      "standards": "HT statistics only; Pio 6 and 22 (Estêvão, Warren); Sarr 59 unknown assist; Warren 61 from Neves. No invented manager quotes or ratings. Italy separate.",
+      "imagery": "Previously approved archival gallery illustrations"
     }
   ],
   "lecce_nov9_2031": {
@@ -3842,5 +3889,145 @@
     ],
     "managerAuthorized": true,
     "clubStatsUnchanged": true
+  },
+  "verona_nov22_2031": {
+    "date": "2031-11-22",
+    "season": "2031–32",
+    "team": "Napoli",
+    "opponent": "Hellas Verona",
+    "venue": "Home",
+    "competition": "Serie A",
+    "status": "completed",
+    "score": "3–1",
+    "resultText": "Napoli 3–1 Hellas Verona",
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "halftime": "Napoli 2–0 Hellas Verona",
+    "events": [
+      {
+        "minute": "6",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Estêvão",
+        "officialAssist": true,
+        "notes": "Estêvão cross, Pio header"
+      },
+      {
+        "minute": "22",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Warren Zaïre-Emery",
+        "officialAssist": true,
+        "notes": "Zaïre-Emery cross to Pio; finish technique not confirmed"
+      },
+      {
+        "minute": "59",
+        "team": "Hellas Verona",
+        "scorer": "Sarr",
+        "assist": null,
+        "assistStatus": "not reported"
+      },
+      {
+        "minute": "61",
+        "team": "Napoli",
+        "scorer": "Warren Zaïre-Emery",
+        "assist": "João Neves",
+        "officialAssist": true,
+        "notes": "Rocket from edge of box"
+      }
+    ],
+    "xGAtHalfTime": {
+      "Napoli": 3.1,
+      "Verona": 0.6
+    },
+    "shotsAtHalfTime": {
+      "Napoli": 10,
+      "Verona": 2
+    },
+    "shotsOnTargetAtHalfTime": {
+      "Napoli": 8,
+      "Verona": 1
+    },
+    "opponentGoalkeeper": {
+      "name": "Abramowicz",
+      "firstHalfSaves": 6,
+      "totalSaves": null
+    },
+    "xGFullTime": null,
+    "pioMatch": {
+      "goals": 2,
+      "assists": 0,
+      "fourClubMatchGoals": 10,
+      "clubSeasonGoalsAfter": 22
+    },
+    "warrenMatch": {
+      "goals": 1,
+      "assists": 1
+    },
+    "notes": "No final shots/xG/save totals, final player ratings, match award, substitutions, full XI or cards confirmed. Sarr assist unknown.",
+    "leagueAfter": {
+      "season": "2031–32",
+      "played": 12,
+      "won": 11,
+      "drawn": 1,
+      "lost": 0,
+      "goalsFor": 34,
+      "goalsAgainst": 8,
+      "goalDifference": 26,
+      "points": 34,
+      "position": null,
+      "asOf": "2031-11-22",
+      "lastOpponent": "Hellas Verona"
+    },
+    "clubSeasonUpdates": [
+      [
+        "Pio Esposito",
+        22,
+        3
+      ],
+      [
+        "Estêvão",
+        3,
+        5
+      ],
+      [
+        "Warren Zaïre-Emery",
+        1,
+        5
+      ],
+      [
+        "João Neves",
+        3,
+        4
+      ]
+    ],
+    "clubCareerUpdates": [
+      [
+        "Pio Esposito",
+        166,
+        77
+      ],
+      [
+        "Estêvão",
+        6,
+        12
+      ],
+      [
+        "Warren Zaïre-Emery",
+        7,
+        19
+      ],
+      [
+        "João Neves",
+        10,
+        13
+      ]
+    ],
+    "articles": [
+      "napoli-verona-three-one-pio-warren-nov22-2031",
+      "zaire-emery-two-minute-response-verona-nov22-2031",
+      "abramowicz-six-first-half-saves-verona-nov22-2031"
+    ],
+    "managerAuthorized": true
   }
 }
