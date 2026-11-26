@@ -1,13 +1,21 @@
 {
-  "revision": "e6557f8d3ad9",
-  "articles": 890,
-  "results": 199,
+  "revision": "fa6177db751e",
+  "articles": 893,
+  "results": 200,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
-      45,
-      20
+      20,
+      3
     ],
+    "portugalScore": "Italy 2–1 Portugal",
+    "portugalHTXG": {
+      "Italy": 0.6,
+      "Portugal": 0
+    },
+    "comuzzoLiveRating": 7.4,
+    "keanPortugalAssists": 2,
+    "italyFourFriendlyGoals": 12,
     "careerPio": [
       164,
       77
@@ -32,7 +40,7 @@
     "nextClub": "Hellas Verona",
     "latestEurope": "Napoli 5–2 RB Salzburg",
     "latestSerieA": "Lecce 0–3 Napoli",
-    "latestInternational": "Italy 4–1 Australia",
+    "latestInternational": "Italy 2–1 Portugal",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
       "Italy": 2.9,
@@ -101,7 +109,7 @@
     "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 890
+    "articleCount": 893
   },
   "legacyErrors": []
 }
