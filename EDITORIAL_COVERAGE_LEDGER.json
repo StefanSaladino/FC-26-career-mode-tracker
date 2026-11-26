@@ -209,49 +209,71 @@
     }
   ],
   "latest_confirmed_match": {
-    "team": "Napoli",
-    "opponent": "Lecce",
-    "competition": "Serie A",
-    "date": "2031-11-09",
-    "venue": "Away",
-    "result": "Lecce 0–3 Napoli",
-    "halftime": "Lecce 0–1 Napoli",
+    "date": "2031-11-18",
+    "season": "2031–32",
+    "team": "Italy",
+    "opponent": "Portugal",
+    "venue": "Home",
+    "competition": "International Friendly",
+    "status": "completed",
+    "score": "2–1",
+    "resultText": "Italy 2–1 Portugal",
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "halftime": "Italy 1–0 Portugal",
+    "xGAtHalfTime": {
+      "Italy": 0.6,
+      "Portugal": 0
+    },
+    "xGFullTime": null,
     "events": [
-      "16′ Mikey Moore tripped in Lecce penalty area; Eriksson saves Pio penalty",
-      "27′ Pio Esposito hits post",
-      "35′ Maximilian Beier (Mikey Moore official assist)",
-      "66′ Pio Esposito (Anton Stach official assist)",
-      "76′ Sebastiano Esposito (Edoardo Rossetti official assist, Pio earlier pass to Rossetti)"
+      {
+        "minute": "13",
+        "team": "Italy",
+        "scorer": "Simone Pafundi",
+        "assist": "Moise Kean",
+        "officialAssist": true,
+        "notes": "Slides past goalkeeper"
+      },
+      {
+        "minute": "65",
+        "team": "Italy",
+        "scorer": "Francesco Pio Esposito",
+        "assist": "Moise Kean",
+        "officialAssist": true
+      },
+      {
+        "minute": "79",
+        "team": "Portugal",
+        "scorer": "Roger",
+        "assist": null,
+        "assistStatus": "not reported",
+        "notes": "Bad bounce sent Roger through"
+      }
     ],
-    "pio": {
+    "comuzzo": {
+      "name": "Pietro Comuzzo",
+      "age": 26,
+      "position": "CB",
+      "startedInPlaceOf": "Alessandro Buongiorno",
+      "liveRating": 7.4,
+      "liveRatingMinute": 65,
+      "finalRating": null,
+      "notes": "Kept Portugal out of threatening areas; no attribution of Roger goal to Comuzzo"
+    },
+    "keanMatch": {
+      "goals": 0,
+      "assists": 2
+    },
+    "pioMatch": {
       "goals": 1,
       "assists": 0,
-      "officialGoalContributions": 1,
-      "penaltySavedBy": "Eriksson",
-      "penaltyMinute": "16",
-      "hitPostMinute": "27",
-      "earlierPassOnSebastianoGoal": true,
-      "threeMatchGoals": 8,
-      "clubSeasonGoalsAfter": 20
+      "fourItalyMatchGoals": 9,
+      "fourItalyMatchAssists": 1
     },
-    "officialAssists": [
-      [
-        "35",
-        "Mikey Moore",
-        "Maximilian Beier"
-      ],
-      [
-        "66",
-        "Anton Stach",
-        "Pio Esposito"
-      ],
-      [
-        "76",
-        "Edoardo Rossetti",
-        "Sebastiano Esposito"
-      ]
-    ],
-    "notes": "Mister reported penalty incident and goal events and authorised stories after FT. Official Rossetti assist, not Pio. No shots, xG, ratings, full XI, subs, awards, bookings, or complete keeper saves supplied."
+    "notes": "No final xG, ratings, full lineup, substitutions, disciplinary events or goalkeeper identity reported; Roger assist unknown. João Neves participated per manager context; no position or individual performance statistics established.",
+    "result": "Italy 2–1 Portugal",
+    "italyOnly": true
   },
   "manager_press": {
     "status": "optional",
@@ -267,58 +289,36 @@
     "may_end": true
   },
   "latest_newsroom_package": {
-    "phase": "9 November 2031 · Lecce 0–3 Napoli · Pio beats Eriksson after saved penalty · Esposito brothers score · league 31 pts",
-    "status": "Authorised source package. Editorial gate, browser-compiled public snapshot and Pages deployment must each succeed before considered publicly released.",
+    "phase": "18 November 2031 · Italy 2–1 Portugal · Kean two assists, Comuzzo focus",
+    "status": "Authorised source package; compiled browser QA and Pages deployment separately verified",
     "stories": [
-      "lecce-napoli-three-nil-beier-pio-seba-nov9-2031",
-      "pio-sebastiano-rossetti-lecce-family-move-nov9-2031",
-      "eriksson-saves-pio-penalty-striker-answers-lecce-nov9-2031",
-      "bellandi-lecce-three-nil-penalty-discipline-nov9-2031"
+      "italy-portugal-two-one-pafundi-pio-nov18-2031",
+      "comuzzo-defensive-positioning-portugal-nov18-2031",
+      "kean-two-assists-italy-portugal-nov18-2031"
     ],
     "sources": [
-      "stories-lecce-main-nov9-2031.js",
-      "stories-lecce-esposito-brothers-nov9-2031.js",
-      "stories-lecce-penalty-eriksson-pio-nov9-2031.js",
-      "stories-lecce-bellandi-nov9-2031.js",
-      "site-visible-lecce-three-nil-nov9-2031.js"
+      "stories-italy-portugal-nov18-2031.js",
+      "site-visible-italy-portugal-nov18-2031.js"
     ],
     "counts": {
-      "articles": 4,
-      "paragraphs": 62,
-      "topLevel": 72,
-      "threadedReplies": 63,
-      "totalComments": 135
+      "articles": 3,
+      "paragraphs": 26,
+      "topLevel": 27,
+      "threadedReplies": 13,
+      "totalComments": 40
     },
-    "standards": "FT Lecce 0–3 Napoli, HT 0–1 inferred from 35 Beier opener (Moore assist), 66 Pio (Stach), 76 Sebastiano (Rossetti). 16 Moore tripped in box and won penalty, Eriksson miraculous save from Pio; 27 Pio struck post. 76 goal began with Pio to Rossetti to Seba, Pio pre-assist only NOT official assist. Pio 8G in Monza/Salzburg/Lecce, twenty competitive club goals. Serie A 31pts P11 W10 D1 GF31 GA7; UCL nine points unchanged. Italy Pio friendly stats excluded.",
-    "imagery": "Approved archival Napoli gallery illustrations; none treated as documentary Lecce photographs.",
-    "qa": "Run editorial validator, browser snapshot, generated public commit and GitHub Pages deploy. No unperformed QA represented as successful."
+    "standards": "HT xG 0.6–0.0 only; Comuzzo 7.4 live not final; Roger assist unknown. No invented manager quotes. Italy statistics separate from club.",
+    "imagery": "Previously approved archival gallery illustrations",
+    "qa": "No unperformed checks claimed."
   },
   "previous_newsroom_package": {
-    "phase": "5 November 2031 · Napoli 5–2 RB Salzburg · Pio second consecutive hat-trick · late defensive analysis",
-    "status": "Authorised and prepared. Source commit then editorial validation, snapshot/browser compilation and Pages deployment required before live.",
+    "phase": "15 November 2031 · Italy 4–1 Australia",
     "stories": [
-      "napoli-salzburg-five-two-pio-hat-trick-nov5-2031",
-      "bellandi-salzburg-five-two-defensive-warning-nov5-2031",
-      "pio-esposito-seven-goals-two-games-europe-nov5-2031",
-      "salzburg-two-concessions-napoli-four-goal-lead-nov5-2031"
+      "italy-australia-four-one-pio-hattrick-nov15-2031",
+      "pio-australia-penalty-redemption-interview-nov15-2031"
     ],
-    "sources": [
-      "stories-salzburg-main-nov5-2031.js",
-      "stories-salzburg-bellandi-nov5-2031.js",
-      "stories-salzburg-pio-two-hat-tricks-nov5-2031.js",
-      "stories-salzburg-two-concessions-nov5-2031.js",
-      "site-visible-salzburg-pio-hattrick-nov5-2031.js"
-    ],
-    "counts": {
-      "articles": 4,
-      "paragraphs": 71,
-      "topLevel": 80,
-      "threadedReplies": 61,
-      "totalComments": 141
-    },
-    "standards": "UCL P4 W3 L1 GF10 GA3 9 points. Pio 9/39/80 (assists Paz, Estêvão, Calafiori), Estêvão 29 (Pio), Davies 52 (Neves fake shot). Salzburg Vennegoor of Hesselink 62 and Simmelhack 89 headed cross, assists unknown. HT 3-0, 4-0 at 52. Paz/Davies/Moore off after 52, replacements/time unknown; no attribution to subs or particular defender. Pio seven goals three assists last Monza+Salzburg, ten of Napoli 11 goals; competitive Napoli season 19G3A. Italy friendly scope separate.",
-    "imagery": "Previously approved Napoli gallery archive; no assertion of documentary match photography or rendered visual QA",
-    "qa": "Confirm workflow editorial gate, browser snapshot tests, generated public commit and GitHub Pages successful deployment."
+    "status": "Compiled snapshot verified",
+    "compiledCommit": "df12361bd5adc5d0b9888954a00596752ced5d86"
   },
   "release_history": [
     {
@@ -2982,27 +2982,70 @@
     "note": "Multiple October character-led articles, including Kean/Pio 3–0 Japan, Benfica goalkeeper Gomes, Napoli rotation, and Moore's Milan brace; no fabricated interviews or manager statements."
   },
   "latest_international_match": {
+    "date": "2031-11-18",
+    "season": "2031–32",
     "team": "Italy",
-    "opponent": "Japan",
+    "opponent": "Portugal",
+    "venue": "Home",
     "competition": "International Friendly",
-    "date": null,
-    "period": "October 2031",
-    "result": "3–0",
-    "halftime": "2–0",
+    "status": "completed",
+    "score": "2–1",
+    "resultText": "Italy 2–1 Portugal",
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "halftime": "Italy 1–0 Portugal",
+    "xGAtHalfTime": {
+      "Italy": 0.6,
+      "Portugal": 0
+    },
+    "xGFullTime": null,
     "events": [
-      "42′ Pio (Kean assist)",
-      "44′ Kean (Pio assist)",
-      "72′ Pio (Tonali assist)"
+      {
+        "minute": "13",
+        "team": "Italy",
+        "scorer": "Simone Pafundi",
+        "assist": "Moise Kean",
+        "officialAssist": true,
+        "notes": "Slides past goalkeeper"
+      },
+      {
+        "minute": "65",
+        "team": "Italy",
+        "scorer": "Francesco Pio Esposito",
+        "assist": "Moise Kean",
+        "officialAssist": true
+      },
+      {
+        "minute": "79",
+        "team": "Portugal",
+        "scorer": "Roger",
+        "assist": null,
+        "assistStatus": "not reported",
+        "notes": "Bad bounce sent Roger through"
+      }
     ],
-    "halfTimeXG": {
-      "Italy": 2.3,
-      "Japan": 0.1
+    "comuzzo": {
+      "name": "Pietro Comuzzo",
+      "age": 26,
+      "position": "CB",
+      "startedInPlaceOf": "Alessandro Buongiorno",
+      "liveRating": 7.4,
+      "liveRatingMinute": 65,
+      "finalRating": null,
+      "notes": "Kept Portugal out of threatening areas; no attribution of Roger goal to Comuzzo"
     },
-    "fullTimeXG": {
-      "Italy": 4.2,
-      "Japan": 0.4
+    "keanMatch": {
+      "goals": 0,
+      "assists": 2
     },
-    "ratingPio": 9.7,
+    "pioMatch": {
+      "goals": 1,
+      "assists": 0,
+      "fourItalyMatchGoals": 9,
+      "fourItalyMatchAssists": 1
+    },
+    "notes": "No final xG, ratings, full lineup, substitutions, disciplinary events or goalkeeper identity reported; Roger assist unknown. João Neves participated per manager context; no position or individual performance statistics established.",
+    "result": "2–1",
     "italyOnly": true
   },
   "italy_indonesia_oct2031": {
@@ -3471,6 +3514,38 @@
       "standards": "UCL P4 W3 L1 GF10 GA3 9 points. Pio 9/39/80 (assists Paz, Estêvão, Calafiori), Estêvão 29 (Pio), Davies 52 (Neves fake shot). Salzburg Vennegoor of Hesselink 62 and Simmelhack 89 headed cross, assists unknown. HT 3-0, 4-0 at 52. Paz/Davies/Moore off after 52, replacements/time unknown; no attribution to subs or particular defender. Pio seven goals three assists last Monza+Salzburg, ten of Napoli 11 goals; competitive Napoli season 19G3A. Italy friendly scope separate.",
       "imagery": "Previously approved Napoli gallery archive; no assertion of documentary match photography or rendered visual QA",
       "qa": "Confirm workflow editorial gate, browser snapshot tests, generated public commit and GitHub Pages successful deployment."
+    },
+    {
+      "phase": "15 November 2031 · Italy 4–1 Australia",
+      "stories": [
+        "italy-australia-four-one-pio-hattrick-nov15-2031",
+        "pio-australia-penalty-redemption-interview-nov15-2031"
+      ],
+      "status": "Compiled snapshot verified",
+      "compiledCommit": "df12361bd5adc5d0b9888954a00596752ced5d86"
+    },
+    {
+      "phase": "18 November 2031 · Italy 2–1 Portugal · Kean two assists, Comuzzo focus",
+      "status": "Authorised source package; compiled browser QA and Pages deployment separately verified",
+      "stories": [
+        "italy-portugal-two-one-pafundi-pio-nov18-2031",
+        "comuzzo-defensive-positioning-portugal-nov18-2031",
+        "kean-two-assists-italy-portugal-nov18-2031"
+      ],
+      "sources": [
+        "stories-italy-portugal-nov18-2031.js",
+        "site-visible-italy-portugal-nov18-2031.js"
+      ],
+      "counts": {
+        "articles": 3,
+        "paragraphs": 26,
+        "topLevel": 27,
+        "threadedReplies": 13,
+        "totalComments": 40
+      },
+      "standards": "HT xG 0.6–0.0 only; Comuzzo 7.4 live not final; Roger assist unknown. No invented manager quotes. Italy statistics separate from club.",
+      "imagery": "Previously approved archival gallery illustrations",
+      "qa": "No unperformed checks claimed."
     }
   ],
   "lecce_nov9_2031": {
@@ -3695,5 +3770,77 @@
     "nextInternational": "Portugal",
     "topLevelComments": 21,
     "replies": 11
+  },
+  "italy_portugal_nov18_2031": {
+    "date": "2031-11-18",
+    "season": "2031–32",
+    "team": "Italy",
+    "opponent": "Portugal",
+    "venue": "Home",
+    "competition": "International Friendly",
+    "status": "completed",
+    "score": "2–1",
+    "resultText": "Italy 2–1 Portugal",
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "halftime": "Italy 1–0 Portugal",
+    "xGAtHalfTime": {
+      "Italy": 0.6,
+      "Portugal": 0
+    },
+    "xGFullTime": null,
+    "events": [
+      {
+        "minute": "13",
+        "team": "Italy",
+        "scorer": "Simone Pafundi",
+        "assist": "Moise Kean",
+        "officialAssist": true,
+        "notes": "Slides past goalkeeper"
+      },
+      {
+        "minute": "65",
+        "team": "Italy",
+        "scorer": "Francesco Pio Esposito",
+        "assist": "Moise Kean",
+        "officialAssist": true
+      },
+      {
+        "minute": "79",
+        "team": "Portugal",
+        "scorer": "Roger",
+        "assist": null,
+        "assistStatus": "not reported",
+        "notes": "Bad bounce sent Roger through"
+      }
+    ],
+    "comuzzo": {
+      "name": "Pietro Comuzzo",
+      "age": 26,
+      "position": "CB",
+      "startedInPlaceOf": "Alessandro Buongiorno",
+      "liveRating": 7.4,
+      "liveRatingMinute": 65,
+      "finalRating": null,
+      "notes": "Kept Portugal out of threatening areas; no attribution of Roger goal to Comuzzo"
+    },
+    "keanMatch": {
+      "goals": 0,
+      "assists": 2
+    },
+    "pioMatch": {
+      "goals": 1,
+      "assists": 0,
+      "fourItalyMatchGoals": 9,
+      "fourItalyMatchAssists": 1
+    },
+    "notes": "No final xG, ratings, full lineup, substitutions, disciplinary events or goalkeeper identity reported; Roger assist unknown. João Neves participated per manager context; no position or individual performance statistics established.",
+    "articles": [
+      "italy-portugal-two-one-pafundi-pio-nov18-2031",
+      "comuzzo-defensive-positioning-portugal-nov18-2031",
+      "kean-two-assists-italy-portugal-nov18-2031"
+    ],
+    "managerAuthorized": true,
+    "clubStatsUnchanged": true
   }
 }
