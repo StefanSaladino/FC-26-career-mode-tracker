@@ -3626,5 +3626,74 @@
     "preceding": "bellandi-salzburg-five-two-defensive-warning-nov5-2031",
     "originalEditorialCharacter": true,
     "publicManagerQuoteInvented": false
+  },
+  "italy_australia_nov15_2031": {
+    "date": "2031-11-15",
+    "result": "Italy 4–1 Australia",
+    "scope": "Italy only",
+    "articles": [
+      "italy-australia-four-one-pio-hattrick-nov15-2031",
+      "pio-australia-penalty-redemption-interview-nov15-2031"
+    ],
+    "managerAuthorized": true,
+    "managerPublicQuoteInvented": false,
+    "playerInterview": {
+      "player": "Francesco Pio Esposito",
+      "interviewer": "Giulia Romano",
+      "creativeInWorld": true,
+      "approved": true
+    },
+    "events": [
+      {
+        "minute": "17",
+        "team": "Italy",
+        "scorer": "Francesco Pio Esposito",
+        "assist": "Simone Pafundi",
+        "officialAssist": true
+      },
+      {
+        "minute": "28",
+        "team": "Australia",
+        "scorer": "Volpato",
+        "assist": null,
+        "assistStatus": "not reported"
+      },
+      {
+        "minute": "38",
+        "team": "Italy",
+        "scorer": "Francesco Pio Esposito",
+        "assist": null,
+        "officialAssist": false,
+        "notes": "Kayode cross, Liberali header off crossbar, Pio heads rebound in; no assist"
+      },
+      {
+        "minute": "85",
+        "team": "Italy",
+        "scorer": "Francesco Pio Esposito",
+        "assist": null,
+        "officialAssist": false,
+        "penalty": true,
+        "notes": "Rossetti won penalty; bottom corner"
+      },
+      {
+        "minute": "90+1",
+        "team": "Italy",
+        "scorer": "Manuel Locatelli",
+        "assist": "Francesco Camarda",
+        "officialAssist": true
+      }
+    ],
+    "penalty": {
+      "minute": "85",
+      "awardedTo": "Italy",
+      "wonBy": "Edoardo Rossetti",
+      "taker": "Francesco Pio Esposito",
+      "goal": true,
+      "notes": "Bottom corner; ends two saved penalties"
+    },
+    "clubStatsUnchanged": true,
+    "nextInternational": "Portugal",
+    "topLevelComments": 21,
+    "replies": 11
   }
 }

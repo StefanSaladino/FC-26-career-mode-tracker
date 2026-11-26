@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate editorial sources
+        run: node scripts/validate-editorial.mjs
       - name: Install build-time browser
         run: |
           npm install --no-save playwright@1.56.1
