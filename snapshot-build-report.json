@@ -1,13 +1,28 @@
 {
-  "revision": "fa6177db751e",
-  "articles": 893,
-  "results": 200,
+  "revision": "983ba87856c1",
+  "articles": 896,
+  "results": 201,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
-      20,
+      22,
       3
     ],
+    "veronaScore": "Napoli 3–1 Hellas Verona",
+    "veronaHTXG": {
+      "Napoli": 3.1,
+      "Verona": 0.6
+    },
+    "veronaHTShots": {
+      "Napoli": 10,
+      "Verona": 2
+    },
+    "veronaHTShotsOnTarget": {
+      "Napoli": 8,
+      "Verona": 1
+    },
+    "abramowiczHTSaves": 6,
+    "leaguePointsAfterVerona": 34,
     "portugalScore": "Italy 2–1 Portugal",
     "portugalHTXG": {
       "Italy": 0.6,
@@ -17,7 +32,7 @@
     "keanPortugalAssists": 2,
     "italyFourFriendlyGoals": 12,
     "careerPio": [
-      164,
+      166,
       77
     ],
     "historicalPio": [
@@ -37,9 +52,9 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Hellas Verona",
+    "nextClub": "Sporting CP",
     "latestEurope": "Napoli 5–2 RB Salzburg",
-    "latestSerieA": "Lecce 0–3 Napoli",
+    "latestSerieA": "Napoli 3–1 Hellas Verona",
     "latestInternational": "Italy 2–1 Portugal",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
@@ -109,7 +124,7 @@
     "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 893
+    "articleCount": 896
   },
   "legacyErrors": []
 }
