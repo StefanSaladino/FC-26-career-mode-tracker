@@ -1,7 +1,7 @@
 {
-  "revision": "4f55bdc56a81",
-  "articles": 888,
-  "results": 198,
+  "revision": "e6557f8d3ad9",
+  "articles": 890,
+  "results": 199,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
@@ -31,8 +31,8 @@
     },
     "nextClub": "Hellas Verona",
     "latestEurope": "Napoli 5–2 RB Salzburg",
-    "latestSerieA": "Napoli 6–0 Monza",
-    "latestInternational": "Japan 0–3 Italy",
+    "latestSerieA": "Lecce 0–3 Napoli",
+    "latestInternational": "Italy 4–1 Australia",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
       "Italy": 2.9,
@@ -101,7 +101,7 @@
     "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 888
+    "articleCount": 890
   },
   "legacyErrors": []
 }
