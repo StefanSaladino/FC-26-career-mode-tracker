@@ -1,13 +1,64 @@
 {
-  "revision": "8a0121b6bde6",
-  "articles": 901,
-  "results": 203,
+  "revision": "2cb0e33c2c17",
+  "articles": 907,
+  "results": 205,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
-      24,
+      26,
       3
     ],
+    "comoScore": "Napoli 3–0 Como",
+    "comoHTXG": {
+      "Napoli": 2.8,
+      "Como": null
+    },
+    "epoloDoubleSave": {
+      "minute": null,
+      "beforeGoalMinute": "28",
+      "initialChance": "De Coster alone",
+      "saves": 2,
+      "secondSave": "Rebound",
+      "followedBy": "Napoli counterattack, Estêvão cross, Moore header",
+      "officialAssist": null,
+      "totalMatchSaves": null
+    },
+    "liverpoolScore": "Liverpool 0–2 Napoli",
+    "pioLiverpoolRecord": {
+      "scope": "Two documented meetings",
+      "matches": 2,
+      "goals": 4,
+      "assists": 1,
+      "napoliGoals": 5,
+      "napoliAgainst": 0,
+      "wins": 2,
+      "fixtures": [
+        {
+          "date": "2030-09-17",
+          "result": "Napoli 3–0 Liverpool",
+          "goals": 2,
+          "assists": 1
+        },
+        {
+          "date": "2031-12-09",
+          "result": "Liverpool 0–2 Napoli",
+          "goals": 2,
+          "assists": 0
+        }
+      ]
+    },
+    "leaguePointsAfterComo": 37,
+    "uclPointsAfterLiverpool": 15,
+    "responseAfterBergamo": {
+      "matches": 2,
+      "wins": 2,
+      "goalsFor": 5,
+      "goalsAgainst": 0,
+      "results": [
+        "Napoli 3–0 Como",
+        "Liverpool 0–2 Napoli"
+      ]
+    },
     "sportingScore": "Sporting CP 0–2 Napoli",
     "bergamoScore": "Napoli 1–2 Bergamo",
     "leaguePointsAfterBergamo": 34,
@@ -15,19 +66,102 @@
     "decemberFixtures": [
       {
         "date": "2031-12-06",
+        "season": "2031–32",
         "team": "Napoli",
         "opponent": "Como",
         "venue": "Home",
         "competition": "Serie A",
-        "status": "scheduled"
+        "status": "completed",
+        "score": "3–0",
+        "resultText": "Napoli 3–0 Como",
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "halftime": "Napoli 2–0 Como",
+        "events": [
+          {
+            "minute": "14",
+            "team": "Napoli",
+            "scorer": "Sebastiano Esposito",
+            "assist": "Maximilian Beier",
+            "officialAssist": true
+          },
+          {
+            "minute": "28",
+            "team": "Napoli",
+            "scorer": "Mikey Moore",
+            "assist": "Estêvão",
+            "officialAssist": true,
+            "notes": "Counterattack after Epolo double save; Estêvão cross, Moore header"
+          },
+          {
+            "minute": "86",
+            "team": "Napoli",
+            "scorer": "Scott McTominay",
+            "assist": "Nico Paz",
+            "officialAssist": true,
+            "notes": "Strike from outside box"
+          }
+        ],
+        "xGAtHalfTime": {
+          "Napoli": 2.8,
+          "Como": null
+        },
+        "xGFullTime": null,
+        "epoloDoubleSave": {
+          "minute": null,
+          "beforeGoalMinute": "28",
+          "initialChance": "De Coster alone",
+          "saves": 2,
+          "secondSave": "Rebound",
+          "followedBy": "Napoli counterattack, Estêvão cross, Moore header",
+          "officialAssist": null,
+          "totalMatchSaves": null
+        },
+        "cleanSheet": true,
+        "staffSelection": {
+          "player": "Matthieu Epolo",
+          "type": "Sandro's personal selection, not official MOTM"
+        },
+        "notes": "No final xG, shots, ratings, official award, substitutions or XI confirmed."
       },
       {
         "date": "2031-12-09",
+        "season": "2031–32",
         "team": "Napoli",
         "opponent": "Liverpool",
         "venue": "Away",
         "competition": "Champions League",
-        "status": "scheduled"
+        "stage": "League phase",
+        "status": "completed",
+        "score": "2–0",
+        "resultText": "Liverpool 0–2 Napoli",
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "halftime": "Liverpool 0–1 Napoli",
+        "events": [
+          {
+            "minute": "34",
+            "team": "Napoli",
+            "scorer": "Pio Esposito",
+            "assist": "Maximilian Beier",
+            "officialAssist": true
+          },
+          {
+            "minute": "56",
+            "team": "Napoli",
+            "scorer": "Pio Esposito",
+            "assist": "Estêvão",
+            "officialAssist": true
+          }
+        ],
+        "pioMatch": {
+          "goals": 2,
+          "assists": 0,
+          "clubSeasonGoalsAfter": 26,
+          "careerGoalsAfter": 170
+        },
+        "cleanSheet": true,
+        "notes": "FT confirmed, HT inferred from goal chronology; no shots/xG, ratings, award, XI or substitutions supplied."
       },
       {
         "date": "2031-12-13",
@@ -97,7 +231,7 @@
     "keanPortugalAssists": 2,
     "italyFourFriendlyGoals": 12,
     "careerPio": [
-      168,
+      170,
       77
     ],
     "historicalPio": [
@@ -117,9 +251,9 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Como",
-    "latestEurope": "Sporting CP 0–2 Napoli",
-    "latestSerieA": "Napoli 1–2 Bergamo",
+    "nextClub": "Parma",
+    "latestEurope": "Liverpool 0–2 Napoli",
+    "latestSerieA": "Napoli 3–0 Como",
     "latestInternational": "Italy 2–1 Portugal",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
@@ -138,7 +272,7 @@
       "Napoli": 8,
       "Milan": 1
     },
-    "mooreCompetitiveGoals": 3,
+    "mooreCompetitiveGoals": 4,
     "monzaPioGoals": 4,
     "monzaPioAssists": 2,
     "monzaPenaltySavedBy": "Pizzignacco",
@@ -189,7 +323,7 @@
     "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 901
+    "articleCount": 907
   },
   "legacyErrors": []
 }
