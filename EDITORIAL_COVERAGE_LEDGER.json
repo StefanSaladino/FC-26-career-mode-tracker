@@ -209,45 +209,44 @@
     }
   ],
   "latest_confirmed_match": {
-    "date": "2031-11-30",
+    "date": "2031-12-09",
     "season": "2031–32",
     "team": "Napoli",
-    "opponent": "Bergamo",
-    "opponentAlias": "Atalanta",
-    "venue": null,
-    "competition": "Serie A",
+    "opponent": "Liverpool",
+    "venue": "Away",
+    "competition": "Champions League",
+    "stage": "League phase",
     "status": "completed",
-    "score": "1–2",
-    "resultText": "Napoli 1–2 Bergamo",
-    "goalsFor": 1,
-    "goalsAgainst": 2,
-    "halftime": "0–0",
+    "score": "2–0",
+    "resultText": "Liverpool 0–2 Napoli",
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "halftime": "Liverpool 0–1 Napoli",
     "events": [
       {
-        "minute": "48",
+        "minute": "34",
         "team": "Napoli",
-        "scorer": "Warren Zaïre-Emery",
-        "assist": null,
-        "officialAssist": false
+        "scorer": "Pio Esposito",
+        "assist": "Maximilian Beier",
+        "officialAssist": true
       },
       {
-        "minute": "62",
-        "team": "Bergamo",
-        "scorer": "Meirelles",
-        "assist": null,
-        "assistStatus": "not reported"
-      },
-      {
-        "minute": "89",
-        "team": "Bergamo",
-        "scorer": "Fruk",
-        "assist": null,
-        "assistStatus": "not reported"
+        "minute": "56",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Estêvão",
+        "officialAssist": true
       }
     ],
-    "firstLeagueLoss": true,
-    "notes": "Venue not confirmed; score displayed Napoli perspective. HT 0–0 follows first goal at 48. No full XI, substitutions, xG, shots, final ratings, or concession mechanisms established.",
-    "result": "Napoli 1–2 Bergamo"
+    "pioMatch": {
+      "goals": 2,
+      "assists": 0,
+      "clubSeasonGoalsAfter": 26,
+      "careerGoalsAfter": 170
+    },
+    "cleanSheet": true,
+    "notes": "FT confirmed, HT inferred from goal chronology; no shots/xG, ratings, award, XI or substitutions supplied.",
+    "result": "Liverpool 0–2 Napoli"
   },
   "manager_press": {
     "status": "optional",
@@ -263,8 +262,33 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "6–9 December 2031 · Como and Liverpool wins",
+    "status": "Authorised source package; build/deployment separate",
+    "stories": [
+      "liverpool-napoli-two-nil-pio-brace-dec9-2031",
+      "pio-liverpool-four-goals-one-assist-dec9-2031",
+      "bellandi-napoli-response-como-liverpool-dec9-2031",
+      "napoli-como-three-nil-seba-moore-mctominay-dec6-2031",
+      "epolo-double-save-moore-counter-como-dec6-2031",
+      "sebastiano-esposito-como-opportunity-dec6-2031"
+    ],
+    "sources": [
+      "stories-como-liverpool-dec2031.js",
+      "site-visible-como-liverpool-dec2031.js"
+    ],
+    "counts": {
+      "articles": 6,
+      "paragraphs": 52,
+      "topLevel": 59,
+      "threadedReplies": 11,
+      "totalComments": 70
+    },
+    "standards": "HT xG only; Epolo two saves, no full total or official MOTM; no invented quotes; Liverpool record verified",
+    "imagery": "Previously approved archival illustrations"
+  },
+  "previous_newsroom_package": {
     "phase": "26–30 November 2031 · Sporting win, first Serie A loss to Bergamo, December calendar",
-    "status": "Authorised source package; compilation and Pages deployment separately verified",
+    "status": "Compiled snapshot verified",
     "stories": [
       "bergamo-napoli-first-league-defeat-fruk-nov30-2031",
       "bellandi-bergamo-first-league-defeat-nov30-2031",
@@ -284,30 +308,8 @@
       "totalComments": 65
     },
     "standards": "No invented venue, assists, final stats, tactical causes or manager quotes. Bellandi opinion grounded in established criticism and fair to Napoli/Bergamo.",
-    "imagery": "Previously approved archival illustrations"
-  },
-  "previous_newsroom_package": {
-    "phase": "22 November 2031 · Napoli 3–1 Hellas Verona · Pio brace, Warren goal and assist, Abramowicz six HT saves",
-    "status": "Compiled snapshot verified",
-    "stories": [
-      "napoli-verona-three-one-pio-warren-nov22-2031",
-      "zaire-emery-two-minute-response-verona-nov22-2031",
-      "abramowicz-six-first-half-saves-verona-nov22-2031"
-    ],
-    "sources": [
-      "stories-verona-nov22-2031.js",
-      "site-visible-verona-three-one-nov22-2031.js"
-    ],
-    "counts": {
-      "articles": 3,
-      "paragraphs": 25,
-      "topLevel": 27,
-      "threadedReplies": 10,
-      "totalComments": 37
-    },
-    "standards": "HT statistics only; Pio 6 and 22 (Estêvão, Warren); Sarr 59 unknown assist; Warren 61 from Neves. No invented manager quotes or ratings. Italy separate.",
-    "imagery": "Previously approved archival gallery illustrations",
-    "compiledCommit": "e8631554ed7776d7eb2b8910a64d629477b99e15"
+    "imagery": "Previously approved archival illustrations",
+    "compiledCommit": "9b1806f0e3de7ddc1daedbd7e649b7db5c133904"
   },
   "release_history": [
     {
@@ -653,19 +655,102 @@
     "confirmed": [
       {
         "date": "2031-12-06",
+        "season": "2031–32",
         "team": "Napoli",
         "opponent": "Como",
         "venue": "Home",
         "competition": "Serie A",
-        "status": "scheduled"
+        "status": "completed",
+        "score": "3–0",
+        "resultText": "Napoli 3–0 Como",
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "halftime": "Napoli 2–0 Como",
+        "events": [
+          {
+            "minute": "14",
+            "team": "Napoli",
+            "scorer": "Sebastiano Esposito",
+            "assist": "Maximilian Beier",
+            "officialAssist": true
+          },
+          {
+            "minute": "28",
+            "team": "Napoli",
+            "scorer": "Mikey Moore",
+            "assist": "Estêvão",
+            "officialAssist": true,
+            "notes": "Counterattack after Epolo double save; Estêvão cross, Moore header"
+          },
+          {
+            "minute": "86",
+            "team": "Napoli",
+            "scorer": "Scott McTominay",
+            "assist": "Nico Paz",
+            "officialAssist": true,
+            "notes": "Strike from outside box"
+          }
+        ],
+        "xGAtHalfTime": {
+          "Napoli": 2.8,
+          "Como": null
+        },
+        "xGFullTime": null,
+        "epoloDoubleSave": {
+          "minute": null,
+          "beforeGoalMinute": "28",
+          "initialChance": "De Coster alone",
+          "saves": 2,
+          "secondSave": "Rebound",
+          "followedBy": "Napoli counterattack, Estêvão cross, Moore header",
+          "officialAssist": null,
+          "totalMatchSaves": null
+        },
+        "cleanSheet": true,
+        "staffSelection": {
+          "player": "Matthieu Epolo",
+          "type": "Sandro's personal selection, not official MOTM"
+        },
+        "notes": "No final xG, shots, ratings, official award, substitutions or XI confirmed."
       },
       {
         "date": "2031-12-09",
+        "season": "2031–32",
         "team": "Napoli",
         "opponent": "Liverpool",
         "venue": "Away",
         "competition": "Champions League",
-        "status": "scheduled"
+        "stage": "League phase",
+        "status": "completed",
+        "score": "2–0",
+        "resultText": "Liverpool 0–2 Napoli",
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "halftime": "Liverpool 0–1 Napoli",
+        "events": [
+          {
+            "minute": "34",
+            "team": "Napoli",
+            "scorer": "Pio Esposito",
+            "assist": "Maximilian Beier",
+            "officialAssist": true
+          },
+          {
+            "minute": "56",
+            "team": "Napoli",
+            "scorer": "Pio Esposito",
+            "assist": "Estêvão",
+            "officialAssist": true
+          }
+        ],
+        "pioMatch": {
+          "goals": 2,
+          "assists": 0,
+          "clubSeasonGoalsAfter": 26,
+          "careerGoalsAfter": 170
+        },
+        "cleanSheet": true,
+        "notes": "FT confirmed, HT inferred from goal chronology; no shots/xG, ratings, award, XI or substitutions supplied."
       },
       {
         "date": "2031-12-13",
@@ -700,10 +785,10 @@
         "status": "scheduled"
       }
     ],
-    "status": "Six fixtures confirmed from manager calendar screenshot",
-    "nextClub": "Como home 6 December",
-    "nextSerieA": "Como home 6 December",
-    "nextEurope": "Liverpool away 9 December",
+    "status": "Como and Liverpool completed",
+    "nextClub": "Parma away 13 December",
+    "nextSerieA": "Parma away 13 December",
+    "nextEurope": null,
     "nextInternational": null
   },
   "latest_canon_only_checkpoint": {
@@ -2422,22 +2507,22 @@
   },
   "latest_league_2031_32": {
     "season": "2031–32",
-    "played": 13,
-    "won": 11,
+    "played": 14,
+    "won": 12,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 35,
+    "goalsFor": 38,
     "goalsAgainst": 10,
-    "goalDifference": 25,
-    "points": 34,
+    "goalDifference": 28,
+    "points": 37,
     "position": null,
-    "asOf": "2031-11-30",
-    "lastOpponent": "Bergamo",
+    "asOf": "2031-12-06",
+    "lastOpponent": "Como",
     "competition": "Serie A",
-    "latestResult": "Napoli 1–2 Bergamo",
-    "previousResult": "Napoli 3–1 Hellas Verona",
-    "nextOpponent": "Como",
-    "nextDate": "2031-12-06"
+    "latestResult": "Napoli 3–0 Como",
+    "previousResult": "Napoli 1–2 Bergamo",
+    "nextOpponent": "Parma",
+    "nextDate": "2031-12-13"
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -2562,42 +2647,42 @@
   },
   "latest_europe_2031_32": {
     "stage": "League phase",
-    "played": 5,
-    "won": 4,
+    "played": 6,
+    "won": 5,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 12,
+    "goalsFor": 14,
     "goalsAgainst": 3,
-    "goalDifference": 9,
-    "points": 12,
+    "goalDifference": 11,
+    "points": 15,
     "position": null,
-    "asOf": "2031-11-26",
-    "lastOpponent": "Sporting CP",
+    "asOf": "2031-12-09",
+    "lastOpponent": "Liverpool",
     "competition": "Champions League",
-    "latestResult": "Sporting CP 0–2 Napoli",
-    "previousResult": "Napoli 5–2 RB Salzburg",
-    "nextOpponent": "Liverpool",
-    "nextDate": "2031-12-09"
+    "latestResult": "Liverpool 0–2 Napoli",
+    "previousResult": "Sporting CP 0–2 Napoli",
+    "nextOpponent": null,
+    "nextDate": null
   },
   "latest_club_contributions_2031_32": {
-    "asOf": "2031-11-30",
+    "asOf": "2031-12-09",
     "scope": "Competitive Napoli club only, no Italy or shootouts",
     "clubSeason": {
       "Pio Esposito": [
-        24,
+        26,
         3
       ],
       "Sebastiano Esposito": [
-        2,
+        3,
         3
       ],
       "Mikey Moore": [
-        3,
+        4,
         6
       ],
       "Estêvão": [
         3,
-        5
+        7
       ],
       "Warren Zaïre-Emery": [
         2,
@@ -2609,18 +2694,18 @@
       ],
       "Nico Paz": [
         2,
-        4
+        5
       ],
       "Maximilian Beier": [
         6,
-        5
+        7
       ],
       "Anton Stach": [
         0,
         2
       ],
       "Scott McTominay": [
-        0,
+        1,
         2
       ],
       "Alessandro Bastoni": [
@@ -2643,23 +2728,23 @@
     "totals": [
       [
         "Pio Esposito",
-        24,
+        26,
         3
       ],
       [
         "Sebastiano Esposito",
-        2,
+        3,
         3
       ],
       [
         "Mikey Moore",
-        3,
+        4,
         6
       ],
       [
         "Estêvão",
         3,
-        5
+        7
       ],
       [
         "Warren Zaïre-Emery",
@@ -2674,12 +2759,12 @@
       [
         "Nico Paz",
         2,
-        4
+        5
       ],
       [
         "Maximilian Beier",
         6,
-        5
+        7
       ],
       [
         "Anton Stach",
@@ -2688,7 +2773,7 @@
       ],
       [
         "Scott McTominay",
-        0,
+        1,
         2
       ],
       [
@@ -2713,60 +2798,156 @@
       ]
     ],
     "careerConfirmed": {
-      "PioEsposito": [
-        168,
+      "Pio Esposito": [
+        170,
         77
       ],
-      "SebastianoEsposito": [
-        2,
-        3
-      ],
-      "MaximilianBeier": [
+      "Maximilian Beier": [
         139,
-        95
+        97
       ],
-      "MikeyMoore": [
-        20,
+      "Nico Paz": [
+        22,
+        30
+      ],
+      "Mikey Moore": [
+        21,
         34
       ],
-      "NicoPaz": [
-        22,
-        29
+      "Giacomo Raspadori": [
+        15,
+        9
       ],
-      "JoaoNeves": [
-        10,
-        13
+      "Endrick": [
+        14,
+        11
       ],
-      "Estevao": [
-        6,
-        12
+      "Scott McTominay": [
+        13,
+        28
       ],
-      "EdoardoRossetti": [
-        2,
-        4
-      ],
-      "WarrenZaireEmery": [
-        8,
-        19
-      ],
-      "AlphonsoDavies": [
+      "Alphonso Davies": [
         13,
         8
       ],
-      "RiccardoCalafiori": [
-        0,
-        2
+      "Federico Chiesa": [
+        9,
+        4
       ],
-      "AntonStach": [
+      "Michael Olise": [
+        7,
+        18
+      ],
+      "João Neves": [
+        10,
+        13
+      ],
+      "Warren Zaïre-Emery": [
+        8,
+        19
+      ],
+      "Kevin De Bruyne": [
+        6,
+        7
+      ],
+      "Anton Stach": [
         5,
         10
       ],
-      "ScottMcTominay": [
-        12,
-        28
+      "Estêvão": [
+        6,
+        14
+      ],
+      "Lirim Hasa": [
+        2,
+        3
+      ],
+      "Lutsharel Geertruida": [
+        2,
+        3
+      ],
+      "Alessandro Bastoni": [
+        3,
+        2
+      ],
+      "Sam Beukema": [
+        2,
+        0
+      ],
+      "Edoardo Rossetti": [
+        2,
+        4
+      ],
+      "Alessandro Buongiorno": [
+        1,
+        1
+      ],
+      "Riccardo Calafiori": [
+        0,
+        2
+      ],
+      "Noa Lang": [
+        0,
+        1
+      ],
+      "Michael Kayode": [
+        0,
+        1
+      ],
+      "Billy Gilmour": [
+        0,
+        1
+      ],
+      "C. Brun": [
+        0,
+        0
+      ],
+      "Alex Meret": [
+        0,
+        0
+      ],
+      "Marc Cucurella": [
+        0,
+        0
+      ],
+      "Rafa Marín": [
+        0,
+        0
+      ],
+      "Giovanni Di Lorenzo": [
+        0,
+        0
+      ],
+      "Rao": [
+        0,
+        0
+      ],
+      "C. Peacock": [
+        0,
+        0
+      ],
+      "Emery Balcombe": [
+        0,
+        0
+      ],
+      "Epolo": [
+        0,
+        0
+      ],
+      "Lucas Jetten": [
+        0,
+        0
+      ],
+      "O. Burnett": [
+        0,
+        0
+      ],
+      "Sebastiano Esposito": [
+        3,
+        3
       ]
     },
-    "notes": "Sporting 2G Pio, 1A Beier, 1A McTominay. Bergamo 1G Warren unassisted."
+    "notes": "Como and Liverpool goals and official assists only."
   },
   "latest_academy_2031_32": {
     "snapshotPeriod": "September 2031 after Inter match, exact calendar day unknown",
@@ -3553,6 +3734,31 @@
       },
       "standards": "No invented venue, assists, final stats, tactical causes or manager quotes. Bellandi opinion grounded in established criticism and fair to Napoli/Bergamo.",
       "imagery": "Previously approved archival illustrations"
+    },
+    {
+      "phase": "6–9 December 2031 · Como and Liverpool wins",
+      "status": "Authorised source package; build/deployment separate",
+      "stories": [
+        "liverpool-napoli-two-nil-pio-brace-dec9-2031",
+        "pio-liverpool-four-goals-one-assist-dec9-2031",
+        "bellandi-napoli-response-como-liverpool-dec9-2031",
+        "napoli-como-three-nil-seba-moore-mctominay-dec6-2031",
+        "epolo-double-save-moore-counter-como-dec6-2031",
+        "sebastiano-esposito-como-opportunity-dec6-2031"
+      ],
+      "sources": [
+        "stories-como-liverpool-dec2031.js",
+        "site-visible-como-liverpool-dec2031.js"
+      ],
+      "counts": {
+        "articles": 6,
+        "paragraphs": 52,
+        "topLevel": 59,
+        "threadedReplies": 11,
+        "totalComments": 70
+      },
+      "standards": "HT xG only; Epolo two saves, no full total or official MOTM; no invented quotes; Liverpool record verified",
+      "imagery": "Previously approved archival illustrations"
     }
   ],
   "lecce_nov9_2031": {
@@ -4104,5 +4310,167 @@
     "managerPublicQuoteInvented": false,
     "criticalOpinion": true,
     "notes": "Prior Salzburg lead concern; acknowledged Lecce/Verona/Sporting responses; critiques lost lead without attributing unconfirmed causes."
+  },
+  "como_dec6_2031": {
+    "date": "2031-12-06",
+    "season": "2031–32",
+    "team": "Napoli",
+    "opponent": "Como",
+    "venue": "Home",
+    "competition": "Serie A",
+    "status": "completed",
+    "score": "3–0",
+    "resultText": "Napoli 3–0 Como",
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "halftime": "Napoli 2–0 Como",
+    "events": [
+      {
+        "minute": "14",
+        "team": "Napoli",
+        "scorer": "Sebastiano Esposito",
+        "assist": "Maximilian Beier",
+        "officialAssist": true
+      },
+      {
+        "minute": "28",
+        "team": "Napoli",
+        "scorer": "Mikey Moore",
+        "assist": "Estêvão",
+        "officialAssist": true,
+        "notes": "Counterattack after Epolo double save; Estêvão cross, Moore header"
+      },
+      {
+        "minute": "86",
+        "team": "Napoli",
+        "scorer": "Scott McTominay",
+        "assist": "Nico Paz",
+        "officialAssist": true,
+        "notes": "Strike from outside box"
+      }
+    ],
+    "xGAtHalfTime": {
+      "Napoli": 2.8,
+      "Como": null
+    },
+    "xGFullTime": null,
+    "epoloDoubleSave": {
+      "minute": null,
+      "beforeGoalMinute": "28",
+      "initialChance": "De Coster alone",
+      "saves": 2,
+      "secondSave": "Rebound",
+      "followedBy": "Napoli counterattack, Estêvão cross, Moore header",
+      "officialAssist": null,
+      "totalMatchSaves": null
+    },
+    "cleanSheet": true,
+    "staffSelection": {
+      "player": "Matthieu Epolo",
+      "type": "Sandro's personal selection, not official MOTM"
+    },
+    "notes": "No final xG, shots, ratings, official award, substitutions or XI confirmed.",
+    "leagueAfter": {
+      "season": "2031–32",
+      "played": 14,
+      "won": 12,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 38,
+      "goalsAgainst": 10,
+      "goalDifference": 28,
+      "points": 37,
+      "position": null,
+      "asOf": "2031-12-06",
+      "lastOpponent": "Como"
+    },
+    "managerAuthorized": true
+  },
+  "liverpool_dec9_2031": {
+    "date": "2031-12-09",
+    "season": "2031–32",
+    "team": "Napoli",
+    "opponent": "Liverpool",
+    "venue": "Away",
+    "competition": "Champions League",
+    "stage": "League phase",
+    "status": "completed",
+    "score": "2–0",
+    "resultText": "Liverpool 0–2 Napoli",
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "halftime": "Liverpool 0–1 Napoli",
+    "events": [
+      {
+        "minute": "34",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Maximilian Beier",
+        "officialAssist": true
+      },
+      {
+        "minute": "56",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Estêvão",
+        "officialAssist": true
+      }
+    ],
+    "pioMatch": {
+      "goals": 2,
+      "assists": 0,
+      "clubSeasonGoalsAfter": 26,
+      "careerGoalsAfter": 170
+    },
+    "cleanSheet": true,
+    "notes": "FT confirmed, HT inferred from goal chronology; no shots/xG, ratings, award, XI or substitutions supplied.",
+    "uclAfter": {
+      "stage": "League phase",
+      "played": 6,
+      "won": 5,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 3,
+      "goalDifference": 11,
+      "points": 15,
+      "position": null,
+      "asOf": "2031-12-09",
+      "lastOpponent": "Liverpool"
+    },
+    "pioRecord": {
+      "scope": "Two documented meetings",
+      "matches": 2,
+      "goals": 4,
+      "assists": 1,
+      "napoliGoals": 5,
+      "napoliAgainst": 0,
+      "wins": 2,
+      "fixtures": [
+        {
+          "date": "2030-09-17",
+          "result": "Napoli 3–0 Liverpool",
+          "goals": 2,
+          "assists": 1
+        },
+        {
+          "date": "2031-12-09",
+          "result": "Liverpool 0–2 Napoli",
+          "goals": 2,
+          "assists": 0
+        }
+      ]
+    },
+    "managerAuthorized": true
+  },
+  "december_2031_player_features": {
+    "month": "2031-12",
+    "status": "covered",
+    "stories": [
+      "pio-liverpool-four-goals-one-assist-dec9-2031",
+      "epolo-double-save-moore-counter-como-dec6-2031",
+      "sebastiano-esposito-como-opportunity-dec6-2031"
+    ],
+    "note": "Player-focused features, no invented quotes."
   }
 }
