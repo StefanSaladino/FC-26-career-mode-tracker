@@ -209,81 +209,45 @@
     }
   ],
   "latest_confirmed_match": {
-    "date": "2031-11-22",
+    "date": "2031-11-30",
     "season": "2031–32",
     "team": "Napoli",
-    "opponent": "Hellas Verona",
-    "venue": "Home",
+    "opponent": "Bergamo",
+    "opponentAlias": "Atalanta",
+    "venue": null,
     "competition": "Serie A",
     "status": "completed",
-    "score": "3–1",
-    "resultText": "Napoli 3–1 Hellas Verona",
-    "goalsFor": 3,
-    "goalsAgainst": 1,
-    "halftime": "Napoli 2–0 Hellas Verona",
+    "score": "1–2",
+    "resultText": "Napoli 1–2 Bergamo",
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "halftime": "0–0",
     "events": [
       {
-        "minute": "6",
+        "minute": "48",
         "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": "Estêvão",
-        "officialAssist": true,
-        "notes": "Estêvão cross, Pio header"
+        "scorer": "Warren Zaïre-Emery",
+        "assist": null,
+        "officialAssist": false
       },
       {
-        "minute": "22",
-        "team": "Napoli",
-        "scorer": "Pio Esposito",
-        "assist": "Warren Zaïre-Emery",
-        "officialAssist": true,
-        "notes": "Zaïre-Emery cross to Pio; finish technique not confirmed"
-      },
-      {
-        "minute": "59",
-        "team": "Hellas Verona",
-        "scorer": "Sarr",
+        "minute": "62",
+        "team": "Bergamo",
+        "scorer": "Meirelles",
         "assist": null,
         "assistStatus": "not reported"
       },
       {
-        "minute": "61",
-        "team": "Napoli",
-        "scorer": "Warren Zaïre-Emery",
-        "assist": "João Neves",
-        "officialAssist": true,
-        "notes": "Rocket from edge of box"
+        "minute": "89",
+        "team": "Bergamo",
+        "scorer": "Fruk",
+        "assist": null,
+        "assistStatus": "not reported"
       }
     ],
-    "xGAtHalfTime": {
-      "Napoli": 3.1,
-      "Verona": 0.6
-    },
-    "shotsAtHalfTime": {
-      "Napoli": 10,
-      "Verona": 2
-    },
-    "shotsOnTargetAtHalfTime": {
-      "Napoli": 8,
-      "Verona": 1
-    },
-    "opponentGoalkeeper": {
-      "name": "Abramowicz",
-      "firstHalfSaves": 6,
-      "totalSaves": null
-    },
-    "xGFullTime": null,
-    "pioMatch": {
-      "goals": 2,
-      "assists": 0,
-      "fourClubMatchGoals": 10,
-      "clubSeasonGoalsAfter": 22
-    },
-    "warrenMatch": {
-      "goals": 1,
-      "assists": 1
-    },
-    "notes": "No final shots/xG/save totals, final player ratings, match award, substitutions, full XI or cards confirmed. Sarr assist unknown.",
-    "result": "Napoli 3–1 Hellas Verona"
+    "firstLeagueLoss": true,
+    "notes": "Venue not confirmed; score displayed Napoli perspective. HT 0–0 follows first goal at 48. No full XI, substitutions, xG, shots, final ratings, or concession mechanisms established.",
+    "result": "Napoli 1–2 Bergamo"
   },
   "manager_press": {
     "status": "optional",
@@ -299,8 +263,32 @@
     "may_end": true
   },
   "latest_newsroom_package": {
+    "phase": "26–30 November 2031 · Sporting win, first Serie A loss to Bergamo, December calendar",
+    "status": "Authorised source package; compilation and Pages deployment separately verified",
+    "stories": [
+      "bergamo-napoli-first-league-defeat-fruk-nov30-2031",
+      "bellandi-bergamo-first-league-defeat-nov30-2031",
+      "napoli-december-liverpool-juventus-calendar-2031",
+      "sporting-napoli-two-nil-pio-brace-nov26-2031",
+      "pio-november-sixteen-goals-club-country-2031"
+    ],
+    "sources": [
+      "stories-sporting-bergamo-december-2031.js",
+      "site-visible-sporting-bergamo-december-2031.js"
+    ],
+    "counts": {
+      "articles": 5,
+      "paragraphs": 47,
+      "topLevel": 52,
+      "threadedReplies": 13,
+      "totalComments": 65
+    },
+    "standards": "No invented venue, assists, final stats, tactical causes or manager quotes. Bellandi opinion grounded in established criticism and fair to Napoli/Bergamo.",
+    "imagery": "Previously approved archival illustrations"
+  },
+  "previous_newsroom_package": {
     "phase": "22 November 2031 · Napoli 3–1 Hellas Verona · Pio brace, Warren goal and assist, Abramowicz six HT saves",
-    "status": "Authorised source package; compilation and live deployment require separate verification",
+    "status": "Compiled snapshot verified",
     "stories": [
       "napoli-verona-three-one-pio-warren-nov22-2031",
       "zaire-emery-two-minute-response-verona-nov22-2031",
@@ -318,31 +306,8 @@
       "totalComments": 37
     },
     "standards": "HT statistics only; Pio 6 and 22 (Estêvão, Warren); Sarr 59 unknown assist; Warren 61 from Neves. No invented manager quotes or ratings. Italy separate.",
-    "imagery": "Previously approved archival gallery illustrations"
-  },
-  "previous_newsroom_package": {
-    "phase": "18 November 2031 · Italy 2–1 Portugal · Kean two assists, Comuzzo focus",
-    "status": "Compiled snapshot verified",
-    "stories": [
-      "italy-portugal-two-one-pafundi-pio-nov18-2031",
-      "comuzzo-defensive-positioning-portugal-nov18-2031",
-      "kean-two-assists-italy-portugal-nov18-2031"
-    ],
-    "sources": [
-      "stories-italy-portugal-nov18-2031.js",
-      "site-visible-italy-portugal-nov18-2031.js"
-    ],
-    "counts": {
-      "articles": 3,
-      "paragraphs": 26,
-      "topLevel": 27,
-      "threadedReplies": 13,
-      "totalComments": 40
-    },
-    "standards": "HT xG 0.6–0.0 only; Comuzzo 7.4 live not final; Roger assist unknown. No invented manager quotes. Italy statistics separate from club.",
     "imagery": "Previously approved archival gallery illustrations",
-    "qa": "No unperformed checks claimed.",
-    "compiledCommit": "81a56da022b693a1e81d0d954dede999e2b69b29"
+    "compiledCommit": "e8631554ed7776d7eb2b8910a64d629477b99e15"
   },
   "release_history": [
     {
@@ -684,69 +649,62 @@
     "success": true
   },
   "latest_calendar_update": {
-    "period": "November 2031",
-    "status": "Completed Lecce 3–0 league away win; next Italy friendlies then Hellas Verona home 22 Nov",
+    "period": "December 2031",
     "confirmed": [
-      [
-        "2031-11-01",
-        "Napoli",
-        "Monza",
-        "Serie A",
-        "completed 6–0"
-      ],
-      [
-        "2031-11-05",
-        "Napoli",
-        "RB Salzburg",
-        "Champions League",
-        "completed 5–2"
-      ],
-      [
-        "2031-11-09",
-        "Napoli",
-        "Lecce",
-        "Serie A",
-        "completed away 3–0"
-      ],
-      [
-        "2031-11-15",
-        "Italy",
-        "Australia",
-        "Friendly",
-        "scheduled"
-      ],
-      [
-        "2031-11-18",
-        "Italy",
-        "Portugal",
-        "Friendly",
-        "scheduled"
-      ],
-      [
-        "2031-11-22",
-        "Napoli",
-        "Hellas Verona",
-        "Serie A",
-        "scheduled"
-      ],
-      [
-        "2031-11-26",
-        "Napoli",
-        "Sporting CP",
-        "Champions League",
-        "scheduled"
-      ]
-    ],
-    "uncertain": [
       {
-        "date": "2031-11-30",
-        "opponent": "Unconfirmed; earlier fixture screenshot crest unclear"
+        "date": "2031-12-06",
+        "team": "Napoli",
+        "opponent": "Como",
+        "venue": "Home",
+        "competition": "Serie A",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-09",
+        "team": "Napoli",
+        "opponent": "Liverpool",
+        "venue": "Away",
+        "competition": "Champions League",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-13",
+        "team": "Napoli",
+        "opponent": "Parma",
+        "venue": "Away",
+        "competition": "Serie A",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-17",
+        "team": "Napoli",
+        "opponent": "Udinese",
+        "venue": "Home",
+        "competition": "Coppa Italia",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-21",
+        "team": "Napoli",
+        "opponent": "Juventus",
+        "venue": "Home",
+        "competition": "Serie A",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-27",
+        "team": "Napoli",
+        "opponent": "Bologna",
+        "venue": "Away",
+        "competition": "Serie A",
+        "status": "scheduled"
       }
     ],
-    "nextClub": "Hellas Verona home 22 November",
-    "nextSerieA": "Hellas Verona home 22 November",
-    "nextEurope": "Sporting CP away 26 November",
-    "nextInternational": "Australia 15 November"
+    "status": "Six fixtures confirmed from manager calendar screenshot",
+    "nextClub": "Como home 6 December",
+    "nextSerieA": "Como home 6 December",
+    "nextEurope": "Liverpool away 9 December",
+    "nextInternational": null
   },
   "latest_canon_only_checkpoint": {
     "type": "Barcelona UCL R16 comeback now authorised for newsroom",
@@ -2464,22 +2422,22 @@
   },
   "latest_league_2031_32": {
     "season": "2031–32",
-    "played": 12,
+    "played": 13,
     "won": 11,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 34,
-    "goalsAgainst": 8,
-    "goalDifference": 26,
+    "lost": 1,
+    "goalsFor": 35,
+    "goalsAgainst": 10,
+    "goalDifference": 25,
     "points": 34,
     "position": null,
-    "asOf": "2031-11-22",
-    "lastOpponent": "Hellas Verona",
+    "asOf": "2031-11-30",
+    "lastOpponent": "Bergamo",
     "competition": "Serie A",
-    "latestResult": "Napoli 3–1 Hellas Verona",
-    "previousResult": "Lecce 0–3 Napoli",
-    "nextOpponent": null,
-    "nextDate": null
+    "latestResult": "Napoli 1–2 Bergamo",
+    "previousResult": "Napoli 3–1 Hellas Verona",
+    "nextOpponent": "Como",
+    "nextDate": "2031-12-06"
   },
   "latest_calendar_aug_sep_2031": {
     "confirmedFrom": "Two manager-provided August and September 2031 calendar screenshots",
@@ -2603,30 +2561,30 @@
     }
   },
   "latest_europe_2031_32": {
-    "season": "2031–32",
-    "asOf": "2031-11-05",
-    "competition": "Champions League",
     "stage": "League phase",
-    "played": 4,
-    "won": 3,
+    "played": 5,
+    "won": 4,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 10,
+    "goalsFor": 12,
     "goalsAgainst": 3,
-    "goalDifference": 7,
-    "points": 9,
-    "latestResult": "Napoli 5–2 RB Salzburg",
-    "previousResult": "Napoli 2–0 Benfica",
-    "nextOpponent": "Sporting CP",
-    "nextDate": "2031-11-26",
-    "position": null
+    "goalDifference": 9,
+    "points": 12,
+    "position": null,
+    "asOf": "2031-11-26",
+    "lastOpponent": "Sporting CP",
+    "competition": "Champions League",
+    "latestResult": "Sporting CP 0–2 Napoli",
+    "previousResult": "Napoli 5–2 RB Salzburg",
+    "nextOpponent": "Liverpool",
+    "nextDate": "2031-12-09"
   },
   "latest_club_contributions_2031_32": {
-    "asOf": "2031-11-09 · after Lecce 0–3 Napoli",
-    "scope": "Competitive Napoli club season including Supercoppa; no Italy friendlies or shootouts",
+    "asOf": "2031-11-30",
+    "scope": "Competitive Napoli club only, no Italy or shootouts",
     "clubSeason": {
       "Pio Esposito": [
-        20,
+        24,
         3
       ],
       "Sebastiano Esposito": [
@@ -2639,15 +2597,15 @@
       ],
       "Estêvão": [
         3,
-        4
+        5
       ],
       "Warren Zaïre-Emery": [
-        0,
-        4
+        2,
+        5
       ],
       "João Neves": [
         3,
-        3
+        4
       ],
       "Nico Paz": [
         2,
@@ -2655,7 +2613,7 @@
       ],
       "Maximilian Beier": [
         6,
-        4
+        5
       ],
       "Anton Stach": [
         0,
@@ -2663,7 +2621,7 @@
       ],
       "Scott McTominay": [
         0,
-        1
+        2
       ],
       "Alessandro Bastoni": [
         1,
@@ -2685,7 +2643,7 @@
     "totals": [
       [
         "Pio Esposito",
-        20,
+        24,
         3
       ],
       [
@@ -2701,17 +2659,17 @@
       [
         "Estêvão",
         3,
-        4
+        5
       ],
       [
         "Warren Zaïre-Emery",
-        0,
-        4
+        2,
+        5
       ],
       [
         "João Neves",
         3,
-        3
+        4
       ],
       [
         "Nico Paz",
@@ -2721,7 +2679,7 @@
       [
         "Maximilian Beier",
         6,
-        4
+        5
       ],
       [
         "Anton Stach",
@@ -2731,7 +2689,7 @@
       [
         "Scott McTominay",
         0,
-        1
+        2
       ],
       [
         "Alessandro Bastoni",
@@ -2754,35 +2712,9 @@
         1
       ]
     ],
-    "careerUpdates": {
-      "Pio Esposito": [
-        164,
-        77
-      ],
-      "Sebastiano Esposito": [
-        2,
-        3
-      ],
-      "Mikey Moore": [
-        20,
-        34
-      ],
-      "Maximilian Beier": [
-        139,
-        94
-      ],
-      "Anton Stach": [
-        5,
-        10
-      ],
-      "Edoardo Rossetti": [
-        2,
-        4
-      ]
-    },
     "careerConfirmed": {
       "PioEsposito": [
-        164,
+        168,
         77
       ],
       "SebastianoEsposito": [
@@ -2791,7 +2723,7 @@
       ],
       "MaximilianBeier": [
         139,
-        94
+        95
       ],
       "MikeyMoore": [
         20,
@@ -2803,19 +2735,19 @@
       ],
       "JoaoNeves": [
         10,
-        12
+        13
       ],
       "Estevao": [
         6,
-        11
+        12
       ],
       "EdoardoRossetti": [
         2,
         4
       ],
       "WarrenZaireEmery": [
-        6,
-        18
+        8,
+        19
       ],
       "AlphonsoDavies": [
         13,
@@ -2828,9 +2760,13 @@
       "AntonStach": [
         5,
         10
+      ],
+      "ScottMcTominay": [
+        12,
+        28
       ]
     },
-    "notes": "Moore 1A, Stach 1A, Rossetti 1A vs Lecce, Pio no Lecce assist. Two saved Pio penalties from three matches. Italy friendlies separate."
+    "notes": "Sporting 2G Pio, 1A Beier, 1A McTominay. Bergamo 1G Warren unassisted."
   },
   "latest_academy_2031_32": {
     "snapshotPeriod": "September 2031 after Inter match, exact calendar day unknown",
@@ -3593,6 +3529,30 @@
       },
       "standards": "HT statistics only; Pio 6 and 22 (Estêvão, Warren); Sarr 59 unknown assist; Warren 61 from Neves. No invented manager quotes or ratings. Italy separate.",
       "imagery": "Previously approved archival gallery illustrations"
+    },
+    {
+      "phase": "26–30 November 2031 · Sporting win, first Serie A loss to Bergamo, December calendar",
+      "status": "Authorised source package; compilation and Pages deployment separately verified",
+      "stories": [
+        "bergamo-napoli-first-league-defeat-fruk-nov30-2031",
+        "bellandi-bergamo-first-league-defeat-nov30-2031",
+        "napoli-december-liverpool-juventus-calendar-2031",
+        "sporting-napoli-two-nil-pio-brace-nov26-2031",
+        "pio-november-sixteen-goals-club-country-2031"
+      ],
+      "sources": [
+        "stories-sporting-bergamo-december-2031.js",
+        "site-visible-sporting-bergamo-december-2031.js"
+      ],
+      "counts": {
+        "articles": 5,
+        "paragraphs": 47,
+        "topLevel": 52,
+        "threadedReplies": 13,
+        "totalComments": 65
+      },
+      "standards": "No invented venue, assists, final stats, tactical causes or manager quotes. Bellandi opinion grounded in established criticism and fair to Napoli/Bergamo.",
+      "imagery": "Previously approved archival illustrations"
     }
   ],
   "lecce_nov9_2031": {
@@ -4029,5 +3989,120 @@
       "abramowicz-six-first-half-saves-verona-nov22-2031"
     ],
     "managerAuthorized": true
+  },
+  "sporting_nov26_2031": {
+    "date": "2031-11-26",
+    "season": "2031–32",
+    "team": "Napoli",
+    "opponent": "Sporting CP",
+    "venue": "Away",
+    "competition": "Champions League",
+    "stage": "League phase",
+    "status": "completed",
+    "score": "2–0",
+    "resultText": "Sporting CP 0–2 Napoli",
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "halftime": "Sporting CP 0–2 Napoli",
+    "events": [
+      {
+        "minute": "37",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Maximilian Beier",
+        "officialAssist": true,
+        "notes": "Beier through ball"
+      },
+      {
+        "minute": "45+1",
+        "team": "Napoli",
+        "scorer": "Pio Esposito",
+        "assist": "Scott McTominay",
+        "officialAssist": true,
+        "notes": "McTominay cross, Pio header"
+      }
+    ],
+    "pioMatch": {
+      "goals": 2,
+      "assists": 0,
+      "clubSeasonGoalsAfter": 24
+    },
+    "notes": "Full time 2–0 confirmed; no numerical match stats, ratings, substitutes or full XI supplied.",
+    "uclAfter": {
+      "stage": "League phase",
+      "played": 5,
+      "won": 4,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 3,
+      "goalDifference": 9,
+      "points": 12,
+      "position": null,
+      "asOf": "2031-11-26",
+      "lastOpponent": "Sporting CP"
+    },
+    "managerAuthorized": true
+  },
+  "bergamo_nov30_2031": {
+    "date": "2031-11-30",
+    "season": "2031–32",
+    "team": "Napoli",
+    "opponent": "Bergamo",
+    "opponentAlias": "Atalanta",
+    "venue": null,
+    "competition": "Serie A",
+    "status": "completed",
+    "score": "1–2",
+    "resultText": "Napoli 1–2 Bergamo",
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "halftime": "0–0",
+    "events": [
+      {
+        "minute": "48",
+        "team": "Napoli",
+        "scorer": "Warren Zaïre-Emery",
+        "assist": null,
+        "officialAssist": false
+      },
+      {
+        "minute": "62",
+        "team": "Bergamo",
+        "scorer": "Meirelles",
+        "assist": null,
+        "assistStatus": "not reported"
+      },
+      {
+        "minute": "89",
+        "team": "Bergamo",
+        "scorer": "Fruk",
+        "assist": null,
+        "assistStatus": "not reported"
+      }
+    ],
+    "firstLeagueLoss": true,
+    "notes": "Venue not confirmed; score displayed Napoli perspective. HT 0–0 follows first goal at 48. No full XI, substitutions, xG, shots, final ratings, or concession mechanisms established.",
+    "leagueAfter": {
+      "season": "2031–32",
+      "played": 13,
+      "won": 11,
+      "drawn": 1,
+      "lost": 1,
+      "goalsFor": 35,
+      "goalsAgainst": 10,
+      "goalDifference": 25,
+      "points": 34,
+      "position": null,
+      "asOf": "2031-11-30",
+      "lastOpponent": "Bergamo"
+    },
+    "managerAuthorized": true
+  },
+  "bellandi_bergamo_nov2031": {
+    "article": "bellandi-bergamo-first-league-defeat-nov30-2031",
+    "managerPublicQuoteInvented": false,
+    "criticalOpinion": true,
+    "notes": "Prior Salzburg lead concern; acknowledged Lecce/Verona/Sporting responses; critiques lost lead without attributing unconfirmed causes."
   }
 }
