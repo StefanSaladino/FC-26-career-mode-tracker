@@ -1,13 +1,78 @@
 {
-  "revision": "983ba87856c1",
-  "articles": 896,
-  "results": 201,
+  "revision": "8a0121b6bde6",
+  "articles": 901,
+  "results": 203,
   "seasons": 5,
   "statsAudit": {
     "seasonPio": [
-      22,
+      24,
       3
     ],
+    "sportingScore": "Sporting CP 0–2 Napoli",
+    "bergamoScore": "Napoli 1–2 Bergamo",
+    "leaguePointsAfterBergamo": 34,
+    "uclPointsAfterSporting": 12,
+    "decemberFixtures": [
+      {
+        "date": "2031-12-06",
+        "team": "Napoli",
+        "opponent": "Como",
+        "venue": "Home",
+        "competition": "Serie A",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-09",
+        "team": "Napoli",
+        "opponent": "Liverpool",
+        "venue": "Away",
+        "competition": "Champions League",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-13",
+        "team": "Napoli",
+        "opponent": "Parma",
+        "venue": "Away",
+        "competition": "Serie A",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-17",
+        "team": "Napoli",
+        "opponent": "Udinese",
+        "venue": "Home",
+        "competition": "Coppa Italia",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-21",
+        "team": "Napoli",
+        "opponent": "Juventus",
+        "venue": "Home",
+        "competition": "Serie A",
+        "status": "scheduled"
+      },
+      {
+        "date": "2031-12-27",
+        "team": "Napoli",
+        "opponent": "Bologna",
+        "venue": "Away",
+        "competition": "Serie A",
+        "status": "scheduled"
+      }
+    ],
+    "pioNovember": {
+      "scope": "Separate club and international statistics",
+      "clubGoals": 12,
+      "clubAssists": 3,
+      "italyGoals": 4,
+      "italyAssists": 0,
+      "combinedGoals": 16,
+      "consecutiveScoringAppearancesThroughSporting": 7,
+      "bergamoGoals": 0,
+      "bergamoAppearanceUnconfirmed": true
+    },
     "veronaScore": "Napoli 3–1 Hellas Verona",
     "veronaHTXG": {
       "Napoli": 3.1,
@@ -32,7 +97,7 @@
     "keanPortugalAssists": 2,
     "italyFourFriendlyGoals": 12,
     "careerPio": [
-      166,
+      168,
       77
     ],
     "historicalPio": [
@@ -52,9 +117,9 @@
       "goalDifference": 10,
       "points": 20
     },
-    "nextClub": "Sporting CP",
-    "latestEurope": "Napoli 5–2 RB Salzburg",
-    "latestSerieA": "Napoli 3–1 Hellas Verona",
+    "nextClub": "Como",
+    "latestEurope": "Sporting CP 0–2 Napoli",
+    "latestSerieA": "Napoli 1–2 Bergamo",
     "latestInternational": "Italy 2–1 Portugal",
     "italyPioHatTrick": 10,
     "indonesiaHalfTimeXG": {
@@ -124,7 +189,7 @@
     "calafioriSeasonAssist": 1
   },
   "publicationVoice": {
-    "articleCount": 896
+    "articleCount": 901
   },
   "legacyErrors": []
 }
